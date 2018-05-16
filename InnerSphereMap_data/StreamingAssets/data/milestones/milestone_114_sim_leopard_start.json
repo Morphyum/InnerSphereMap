@@ -55,7 +55,7 @@
                 {
                     "typeString" : "System.Int32",
                     "name" : "NextStoryMilestone",
-                    "value" : 120,
+                    "value" : 999,
 					"set" : true,
                     "valueConstant" : ""
                 },
