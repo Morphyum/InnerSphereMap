@@ -1,0 +1,24 @@
+{
+    "Name": "InnerSphereMap",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Map of the Inner Sphere",
+    "Author": "Morphyum",
+    "Website": "https://github.com/Morphyum/InnerSphereMap",
+    "Contact": "",
+	
+	"DLL": "InnerSphereMap.dll",
+	"Manifest": [
+        { "Type": "StarSystemDef", "Path": "Aurigan\\" },
+		{ "Type": "StarSystemDef", "Path": "ComStar\\" },
+		{ "Type": "StarSystemDef", "Path": "Davion\\" },
+		{ "Type": "StarSystemDef", "Path": "Kurita\\" },
+		{ "Type": "StarSystemDef", "Path": "Liao\\" },
+		{ "Type": "StarSystemDef", "Path": "Locals\\" },
+		{ "Type": "StarSystemDef", "Path": "Magistracy\\" },
+		{ "Type": "StarSystemDef", "Path": "Marik\\" },
+		{ "Type": "StarSystemDef", "Path": "Steiner\\" },
+		{ "Type": "StarSystemDef", "Path": "Taurian\\" }
+    ]
+}
