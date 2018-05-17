@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static BattleTech.SimGameSpaceController;
 
 namespace ConsoleApplication1 {
     class Program {
@@ -75,19 +76,18 @@ namespace ConsoleApplication1 {
         public static void newmap() {
             JArray jarray = JArray.Parse(File.ReadAllText(@"C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\mods\OldData\systems.json"));
             foreach (JObject system in jarray) {
-                if (!((string)system["affiliation"]).Equals("Clans") && !((string)system["affiliation"]).Equals("Inhabited system") && 
-                    !((string)system["affiliation"]).Equals("No record") && !((string)system["affiliation"]).Equals("Clan") && 
-                    !((string)system["affiliation"]).Equals("New Delphi Compact") && !((string)system["affiliation"]).Equals("Alexandrian Covenant") && 
-                    !((string)system["affiliation"]).Equals("Society of St.Andreas") && !((string)system["affiliation"]).Equals("Hidden system") && 
-                    !((string)system["affiliation"]).Equals("Society of St. Andreas") && !((string)system["affiliation"]).Equals("Tortuga Dominions") && 
-                    !((string)system["affiliation"]).Equals("Fiefdom of Randis") && !((string)system["name"]).Equals("New St. Andrews") && 
+                if (!((string)system["affiliation"]).Equals("Clans") && !((string)system["affiliation"]).Equals("Inhabited system") &&
+                    !((string)system["affiliation"]).Equals("No record") && !((string)system["affiliation"]).Equals("Clan") &&
+                    !((string)system["affiliation"]).Equals("New Delphi Compact") && !((string)system["affiliation"]).Equals("Alexandrian Covenant") &&
+                    !((string)system["affiliation"]).Equals("Society of St.Andreas") && !((string)system["affiliation"]).Equals("Hidden system") &&
+                    !((string)system["affiliation"]).Equals("Society of St. Andreas") && !((string)system["affiliation"]).Equals("Tortuga Dominions") &&
+                    !((string)system["affiliation"]).Equals("Fiefdom of Randis") && !((string)system["name"]).Equals("New St. Andrews") &&
                     !((string)system["name"]).Equals("Mica I") && !((string)system["name"]).Equals("Mica V") && !((string)system["name"]).Equals("Novo Franklin")
                     && !((string)system["name"]).Equals("New Vandenberg") && !((string)system["name"]).Equals("Mica VII")) {
                     FakeVector3 vector = new FakeVector3();
                     vector.x = (float)system["x"];
                     vector.y = (float)system["y"];
                     vector.z = 0;
-                    DescriptionDef desc = new DescriptionDef(("starsystemdef_" + system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty), (string)system["name"], " ", "", 0, 0, false, "", "", "");
                     Faction faction;
                     string folder = "";
                     switch ((string)system["affiliation"]) {
@@ -132,23 +132,240 @@ namespace ConsoleApplication1 {
                             folder = "Locals";
                             break;
                     }
-                    string beginjson = File.ReadAllText("C:/Users/morph/Desktop/Neuer Ordner (4)/starsystemdef_Terra.json");
+                    string beginjson = File.ReadAllText("C:/Users/morph/Desktop/Neuer Ordner (4)/starsystemdef_Detroit.json");
+                    string name = (string)system["name"];
+
                     StarSystemDef def = new StarSystemDef();
                     def.FromJSON(beginjson);
-
-                    StarSystemDef def2 = new StarSystemDef(desc, vector, def.Tags, false, 7, faction, def.ContractEmployers, def.ContractTargets, def.SystemInfluence, def.TravelRequirements);
+                    TagSet tags = new TagSet();
+                    string details = " ";
+                    
+                    DescriptionDef desc = new DescriptionDef(("starsystemdef_" + system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty), (string)system["name"], details, "", 0, 0, false, "", "", "");
+                    StarSystemDef def2 = new StarSystemDef(desc, vector, def.Tags, false, 7, faction, getAllies(faction), getEnemies(faction), def.SystemInfluence, def.TravelRequirements);
+                    
+                            List<Biome.BIOMESKIN> biomes = new List<Biome.BIOMESKIN>();
+                    biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                            ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
+                            ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });
+                            ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { 7 });
+                            ReflectionHelper.InvokePrivateMethode(def2, "set_ShopMaxSpecials", new object[] { 7 });
+                            ReflectionHelper.InvokePrivateMethode(def2, "set_SupportedBiomes", new object[] { biomes });
+        
                     string json = def2.ToJSON();
                     JObject jsonObject = JObject.Parse(json);
                     JObject descriptionjson = (JObject)jsonObject["Description"];
                     descriptionjson.Add("Id", "starsystemdef_" + ((string)system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty));
                     descriptionjson.Add("Name", (string)system["name"]);
-                    descriptionjson.Add("Details", " ");
+                    descriptionjson.Add("Details", details);
                     // string json = JsonConvert.SerializeObject(def2, new Newtonsoft.Json.Converters.StringEnumConverter());
                     string path = "C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/mods/OldData/" + folder + "/starsystemdef_" + ((string)system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty) + ".json";
+                    (new FileInfo(path)).Directory.Create();
                     File.WriteAllText(path, jsonObject.ToString());
                 }
             }
         }
+
+        public static Faction getfaction(string faction) {
+            switch (faction) {
+                case "AuriganRestoration":
+                    return Faction.AuriganRestoration;
+                case "Betrayers":
+                    return Faction.Betrayers;
+                case "AuriganDirectorate":
+                    return Faction.AuriganDirectorate;
+                case "AuriganMercenaries":
+                    return Faction.AuriganMercenaries;
+                case "AuriganPirates":
+                    return Faction.AuriganPirates;
+                case "ComStar":
+                    return Faction.ComStar;
+                case "Davion":
+                    return Faction.Davion;
+                case "Kurita":
+                    return Faction.Kurita;
+                case "Liao":
+                    return Faction.Liao;
+                case "Locals":
+                    return Faction.Locals;
+                case "MagistracyCentrella":
+                    return Faction.MagistracyCentrella;
+                case "MagistracyOfCanopus":
+                    return Faction.MagistracyOfCanopus;
+                case "MajestyMetals":
+                    return Faction.MajestyMetals;
+                case "Marik":
+                    return Faction.Marik;
+                case "MercenaryReviewBoard":
+                    return Faction.MercenaryReviewBoard;
+                case "Nautilus":
+                    return Faction.Nautilus;
+                case "Steiner":
+                    return Faction.Steiner;
+                case "TaurianConcordat":
+                    return Faction.TaurianConcordat;
+                default:
+                    return Faction.NoFaction;
+            }
+        }
+
+        public static Biome.BIOMESKIN getBiome(string biome) {
+            switch (biome) {
+
+
+                case "highlandsSpring":
+                    return Biome.BIOMESKIN.highlandsSpring;
+                case "highlandsFall":
+                    return Biome.BIOMESKIN.highlandsFall;
+
+                case "lowlandsSpring":
+                    return Biome.BIOMESKIN.lowlandsSpring;
+
+                case "lowlandsFall":
+                    return Biome.BIOMESKIN.lowlandsFall;
+
+                case "desertParched":
+                    return Biome.BIOMESKIN.desertParched;
+
+                case "badlandsParched":
+                    return Biome.BIOMESKIN.badlandsParched;
+
+                case "lowlandsCoastal":
+                    return Biome.BIOMESKIN.lowlandsCoastal;
+
+                case "lunarVacuum":
+                    return Biome.BIOMESKIN.lunarVacuum;
+
+                case "martianVacuum":
+                    return Biome.BIOMESKIN.martianVacuum;
+
+                case "polarFrozen":
+                    return Biome.BIOMESKIN.polarFrozen;
+
+                case "tundraFrozen":
+                    return Biome.BIOMESKIN.tundraFrozen;
+                default:
+                    return Biome.BIOMESKIN.highlandsSpring;
+            }
+        }
+
+        public static StarType getStartype(string type) {
+            switch (type) {
+                case "M":
+                    return StarType.M;
+                case "K":
+                    return StarType.K;
+
+                case "G":
+                    return StarType.G;
+
+                case "F":
+                    return StarType.F;
+
+                case "A":
+                    return StarType.A;
+
+                case "B":
+                    return StarType.B;
+
+                case "O":
+                    return StarType.O;
+                default:
+                    return StarType.M;
+            }
+        }
+
+        public static List<Faction> getAllies(Faction faction) {
+            switch (faction) {
+                case Faction.Betrayers:
+                    return new List<Faction>() { Faction.Betrayers, Faction.Locals };
+                case Faction.AuriganDirectorate:
+                    return new List<Faction>() { Faction.AuriganDirectorate, Faction.TaurianConcordat, Faction.Locals };
+                case Faction.AuriganMercenaries:
+                    return new List<Faction>() { Faction.AuriganMercenaries, Faction.Locals };
+                case Faction.AuriganPirates:
+                    return new List<Faction>() { Faction.AuriganPirates, Faction.Locals };
+                case Faction.AuriganRestoration:
+                    return new List<Faction>() { Faction.AuriganRestoration, Faction.MagistracyOfCanopus, Faction.Locals };
+                case Faction.ComStar:
+                    return new List<Faction>() { Faction.ComStar, Faction.MercenaryReviewBoard, Faction.Locals };
+                case Faction.Davion:
+                    return new List<Faction>() { Faction.Davion, Faction.ComStar, Faction.Locals };
+                case Faction.Kurita:
+                    return new List<Faction>() { Faction.Marik, Faction.Liao, Faction.ComStar, Faction.Locals, Faction.Kurita };
+                case Faction.Liao:
+                    return new List<Faction>() { Faction.Liao, Faction.Kurita, Faction.ComStar, Faction.Locals };
+                case Faction.Locals:
+                    return new List<Faction>() { Faction.Locals };
+                case Faction.MagistracyCentrella:
+                    return new List<Faction>() { Faction.Locals, Faction.AuriganRestoration, Faction.Marik, Faction.ComStar, Faction.MagistracyCentrella };
+                case Faction.MagistracyOfCanopus:
+                    return new List<Faction>() { Faction.Locals, Faction.AuriganRestoration, Faction.Marik, Faction.ComStar, Faction.MagistracyOfCanopus };
+                case Faction.MajestyMetals:
+                    return new List<Faction>() { Faction.Locals, Faction.MajestyMetals };
+                case Faction.Marik:
+                    return new List<Faction>() { Faction.Locals, Faction.Marik, Faction.Kurita, Faction.ComStar, Faction.MagistracyOfCanopus };
+                case Faction.MercenaryReviewBoard:
+                    return new List<Faction>() { Faction.Locals, Faction.ComStar, Faction.MercenaryReviewBoard };
+                case Faction.Nautilus:
+                    return new List<Faction>() { Faction.Locals, Faction.Nautilus, Faction.MercenaryReviewBoard };
+                case Faction.NoFaction:
+                    return new List<Faction>() { Faction.Locals, Faction.NoFaction };
+                case Faction.Steiner:
+                    return new List<Faction>() { Faction.Locals, Faction.Steiner, Faction.ComStar, Faction.Davion };
+                case Faction.TaurianConcordat:
+                    return new List<Faction>() { Faction.Locals, Faction.AuriganDirectorate, Faction.TaurianConcordat, Faction.ComStar, Faction.Marik };
+                default:
+                    return new List<Faction>() { Faction.NoFaction };
+            }
+
+
+        }
+
+        public static List<Faction> getEnemies(Faction faction) {
+            switch (faction) {
+                case Faction.Betrayers:
+                    return new List<Faction>() {  };
+                case Faction.AuriganDirectorate:
+                    return new List<Faction>() { Faction.AuriganPirates, Faction.AuriganRestoration, Faction.MagistracyOfCanopus };
+                case Faction.AuriganMercenaries:
+                    return new List<Faction>() {  Faction.AuriganPirates };
+                case Faction.AuriganPirates:
+                    return new List<Faction>() {  Faction.AuriganMercenaries, Faction.AuriganDirectorate, Faction.TaurianConcordat, Faction.MagistracyOfCanopus, Faction.AuriganRestoration, Faction.NoFaction, Faction.Liao };
+                case Faction.AuriganRestoration:
+                    return new List<Faction>() {  Faction.AuriganPirates, Faction.AuriganDirectorate};
+                case Faction.ComStar:
+                    return new List<Faction>() { Faction.AuriganPirates };
+                case Faction.Davion:
+                    return new List<Faction>() {  Faction.Kurita, Faction.Liao, Faction.AuriganPirates, Faction.Locals, Faction.TaurianConcordat };
+                case Faction.Kurita:
+                    return new List<Faction>() {  Faction.Davion, Faction.Steiner, Faction.AuriganPirates, Faction.Locals, Faction.TaurianConcordat, Faction.MagistracyOfCanopus };
+                case Faction.Liao:
+                    return new List<Faction>() {  Faction.AuriganPirates, Faction.Marik, Faction.Davion, Faction.Steiner, Faction.TaurianConcordat, Faction.Locals,Faction.MagistracyOfCanopus };
+                case Faction.Locals:
+                    return new List<Faction>() {  Faction.AuriganPirates, Faction.Davion,Faction.Kurita,Faction.Liao,Faction.Steiner,Faction.TaurianConcordat,Faction.MagistracyOfCanopus };
+                case Faction.MagistracyCentrella:
+                    return new List<Faction>() {  Faction.AuriganPirates, Faction.AuriganDirectorate, Faction.TaurianConcordat, Faction.Liao};
+                case Faction.MagistracyOfCanopus:
+                    return new List<Faction>() {  Faction.AuriganPirates, Faction.AuriganDirectorate, Faction.TaurianConcordat, Faction.Liao, Faction.Kurita,Faction.Steiner,Faction.Davion };
+                case Faction.MajestyMetals:
+                    return new List<Faction>() {  Faction.AuriganPirates };
+                case Faction.Marik:
+                    return new List<Faction>() { Faction.NoFaction, Faction.Locals, Faction.Liao, Faction.Steiner, Faction.Davion, Faction.AuriganPirates,Faction.TaurianConcordat };
+                case Faction.MercenaryReviewBoard:
+                    return new List<Faction>() { Faction.AuriganPirates };
+                case Faction.Nautilus:
+                    return new List<Faction>() { Faction.AuriganPirates };
+                case Faction.NoFaction:
+                    return new List<Faction>() { Faction.AuriganPirates };
+                case Faction.Steiner:
+                    return new List<Faction>() {  Faction.Locals, Faction.Kurita, Faction.Marik, Faction.Liao, Faction.TaurianConcordat, Faction.AuriganPirates, Faction.Locals, Faction.MagistracyOfCanopus };
+                case Faction.TaurianConcordat:
+                    return new List<Faction>() {  Faction.AuriganPirates, Faction.AuriganRestoration, Faction.MagistracyOfCanopus, Faction.Davion, Faction.Steiner, Faction.AuriganPirates,Faction.Liao };
+                default:
+                    return new List<Faction>() { Faction.NoFaction };
+            }
+        }
+
     }
 }
 

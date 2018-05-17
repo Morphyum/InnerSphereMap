@@ -18,35 +18,37 @@
   "Tags": {
     "items": [
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_pop_small",
+      "planet_climate_terran",
+      "planet_pop_medium",
       "planet_civ_periphery",
-      "planet_progress_3",
+      "planet_progress_1",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
       "planet_industry_mining",
-      "planet_other_blackmarket",
-      "planet_name_addasar",
-      "planet_faction_magistracy"
+      "planet_name_detroit",
+      "planet_faction_independent"
     ],
     "tagSetSourceFile": ""
   },
-  "SupportedBiomes": null,
+  "SupportedBiomes": [
+    "highlandsSpring"
+  ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
   "JumpDistance": 7,
   "Owner": "ComStar",
   "ContractEmployers": [
-    "Liao",
-    "MagistracyOfCanopus"
+    "ComStar",
+    "MercenaryReviewBoard",
+    "Locals"
   ],
   "ContractTargets": [
-    "AuriganPirates",
-    "Liao",
-    "MagistracyOfCanopus"
+    "AuriganPirates"
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 0,
+  "ShopMaxSpecials": 7,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",
@@ -105,14 +107,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": [
-          "map_travel_3"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -124,7 +124,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "M",
+  "StarType": "G",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -1,24 +1,20 @@
 {
-  "ID": "faction_Steiner",
-  "Name": "the Lyran Commonwealth",
-  "ShortName": "Steiner",
-  "Demonym": "Lyran",
-  "Government": "Commonwealth",
+  "ID": "faction_OutworldsAlliance",
+  "Name": "the Outworlds Alliance",
+  "ShortName": "Outworlds",
+  "Demonym": "Outworldian",
+  "Government": "Democracy ",
   "Allies": [
     "ComStar",
-    "Davion"
+    "Davion",
+	"TaurianConcordat",
   ],
   "Enemies": [
     "Kurita",
-    "Marik",
-    "Liao",
-    "TaurianConcordat",
-	"AuriganPirates",
-	"Locals",
-	"MagistracyOfCanopus"
+	"Locals"
   ],
-  "Presence": 1,
-  "Faction": "Steiner",
+  "Presence": 0.25,
+  "Faction": "Outworlds",
   "DefaultCombatLeaderCastDefId": "castDef_SteinerDefault",
   "DefaultRepresentativeCastDefId": "castDef_SteinerRepDefault",
   "HeraldryDefId": "heraldrydef_steiner",
@@ -34,5 +30,5 @@
   "MissionSuccessStatement": "Large coffers pay for larger victories—and you have been instrumental in ensuring that our winning streak is intact. Excellent work, mercenary. House Steiner is pleased.",
   "GoodFaithFailureStatement": "The Lyran Commonwealth didn't get where it is by accepting victory or defeat as inevitable, but by continuing to fight after a loss. I hope you'll do the same, Commander. While you were defeated, you acquitted yourself well.",
   "BadFaithFailureStatement": "House Steiner has no place for cowards or failures, Commander. Ensure your future efforts are more robust, or the Lyran Commonwealth will be no friend to you.",
-  "Description" : "The Lyran Commonwealth is one of the five Successor States of the Star League, located coreward and anti-spinward of Terra. Ruled by House Steiner, the Commonwealth is the wealthiest of the five, with an entrenched and powerful noble class. The focus on pedigree and prestige among the nobility has often resulted in less-than-brilliant officers being elevated to high command, to the detriment of the Commonwealth's military strength. Much of the Commonwealth's success comes from the vast resources located within its borders. The current ruler of the Commonwealth is Archon Katrina Steiner, notable for her peace proposal that, in allying the Commonwealth with the Federated Suns, effectively ended the Third Succession War."
+  "Description" : "The Outworlds Alliance is a major Periphery power located spinward of Terra and the Inner Sphere, bordering both the Draconis Combine and the Federated Suns. This region of space has also been called the Outer Sphere."
 }

@@ -223,7 +223,10 @@
                 "Kurita",
                 "Davion",
                 "Liao",
-                "Marik"
+                "Marik",
+				"AuriganRestoration",
+				"MagistracyOfCanopus",
+				"TaurianConcordat"
 		],
 		"MechMothballTime" : 0,
 		"CompanyEventStartingChance" : -2.5,
