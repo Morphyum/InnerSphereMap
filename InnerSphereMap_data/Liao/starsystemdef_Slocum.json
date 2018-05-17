@@ -40,10 +40,8 @@
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
-    "Kurita",
     "ComStar",
-    "Locals",
-    "AuriganDirectorate"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganMercenaries",

@@ -40,11 +40,8 @@
   "Owner": "MagistracyOfCanopus",
   "ContractEmployers": [
     "Locals",
-    "AuriganRestoration",
-    "Marik",
     "ComStar",
-    "MagistracyOfCanopus",
-    "MajestyMetals"
+    "MagistracyOfCanopus"
   ],
   "ContractTargets": [
     "AuriganDirectorate",

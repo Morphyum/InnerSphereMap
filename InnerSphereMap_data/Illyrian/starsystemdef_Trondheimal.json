@@ -40,9 +40,7 @@
   "Owner": "AuriganMercenaries",
   "ContractEmployers": [
     "AuriganMercenaries",
-    "Locals",
-    "Marik",
-    "MajestyMetals"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganDirectorate",

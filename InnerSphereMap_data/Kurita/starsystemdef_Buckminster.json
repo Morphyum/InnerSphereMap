@@ -39,12 +39,9 @@
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [
-    "Marik",
-    "Liao",
     "ComStar",
     "Locals",
-    "Kurita",
-    "MagistracyCentrella"
+    "Kurita"
   ],
   "ContractTargets": [
     "AuriganDirectorate",

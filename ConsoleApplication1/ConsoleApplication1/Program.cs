@@ -301,43 +301,43 @@ namespace ConsoleApplication1 {
         public static List<Faction> getAllies(Faction faction) {
             switch (faction) {
                 case Faction.Betrayers:
-                    return new List<Faction>() { Faction.Betrayers, Faction.Locals, Faction.Davion, Faction.ComStar };
+                    return new List<Faction>() { Faction.Betrayers, Faction.Locals, Faction.ComStar };
                 case Faction.AuriganDirectorate:
-                    return new List<Faction>() { Faction.AuriganDirectorate, Faction.Marik, Faction.Locals, Faction.Liao, Faction.Nautilus };
+                    return new List<Faction>() { Faction.AuriganDirectorate, Faction.Locals };
                 case Faction.AuriganMercenaries:
-                    return new List<Faction>() { Faction.AuriganMercenaries, Faction.Locals, Faction.Marik, Faction.MajestyMetals };
+                    return new List<Faction>() { Faction.AuriganMercenaries, Faction.Locals };
                 case Faction.AuriganPirates:
-                    return new List<Faction>() { Faction.AuriganPirates, Faction.Locals, Faction.MagistracyCentrella, Faction.Nautilus };
+                    return new List<Faction>() { Faction.AuriganPirates, Faction.Locals };
                 case Faction.AuriganRestoration:
-                    return new List<Faction>() { Faction.AuriganRestoration, Faction.MagistracyOfCanopus, Faction.Locals };
+                    return new List<Faction>() { Faction.AuriganRestoration, Faction.Locals };
                 case Faction.ComStar:
-                    return new List<Faction>() { Faction.ComStar, Faction.MercenaryReviewBoard, Faction.Locals };
+                    return new List<Faction>() { Faction.ComStar, Faction.Locals };
                 case Faction.Davion:
-                    return new List<Faction>() { Faction.Davion, Faction.ComStar, Faction.Locals, Faction.Betrayers };
+                    return new List<Faction>() { Faction.Davion, Faction.ComStar, Faction.Locals };
                 case Faction.Kurita:
-                    return new List<Faction>() { Faction.Marik, Faction.Liao, Faction.ComStar, Faction.Locals, Faction.Kurita, Faction.MagistracyCentrella };
+                    return new List<Faction>() { Faction.ComStar, Faction.Locals, Faction.Kurita };
                 case Faction.Liao:
-                    return new List<Faction>() { Faction.Liao, Faction.Kurita, Faction.ComStar, Faction.Locals, Faction.AuriganDirectorate };
+                    return new List<Faction>() { Faction.Liao, Faction.ComStar, Faction.Locals };
                 case Faction.Locals:
                     return new List<Faction>() { Faction.Locals };
                 case Faction.MagistracyCentrella:
-                    return new List<Faction>() { Faction.Locals, Faction.Steiner, Faction.Kurita, Faction.AuriganPirates };
+                    return new List<Faction>() { Faction.Locals, Faction.MagistracyCentrella };
                 case Faction.MagistracyOfCanopus:
-                    return new List<Faction>() { Faction.Locals, Faction.AuriganRestoration, Faction.Marik, Faction.ComStar, Faction.MagistracyOfCanopus, Faction.MajestyMetals };
+                    return new List<Faction>() { Faction.Locals, Faction.ComStar, Faction.MagistracyOfCanopus };
                 case Faction.MajestyMetals:
-                    return new List<Faction>() { Faction.Locals, Faction.MajestyMetals, Faction.MagistracyOfCanopus, Faction.TaurianConcordat };
+                    return new List<Faction>() { Faction.Locals, Faction.MajestyMetals };
                 case Faction.Marik:
-                    return new List<Faction>() { Faction.Locals, Faction.Marik, Faction.Kurita, Faction.ComStar, Faction.MagistracyOfCanopus, Faction.AuriganDirectorate };
+                    return new List<Faction>() { Faction.Locals, Faction.Marik,Faction.ComStar };
                 case Faction.MercenaryReviewBoard:
                     return new List<Faction>() { Faction.Locals, Faction.ComStar, Faction.MercenaryReviewBoard };
                 case Faction.Nautilus:
-                    return new List<Faction>() { Faction.Locals, Faction.Nautilus, Faction.AuriganPirates, Faction.ComStar, Faction.AuriganDirectorate };
+                    return new List<Faction>() { Faction.Locals, Faction.Nautilus, Faction.ComStar };
                 case Faction.NoFaction:
                     return new List<Faction>() { Faction.Locals, Faction.NoFaction };
                 case Faction.Steiner:
-                    return new List<Faction>() { Faction.Locals, Faction.Steiner, Faction.ComStar, Faction.Davion, Faction.MagistracyCentrella };
+                    return new List<Faction>() { Faction.Locals, Faction.Steiner, Faction.ComStar };
                 case Faction.TaurianConcordat:
-                    return new List<Faction>() { Faction.Locals, Faction.TaurianConcordat, Faction.ComStar, Faction.Marik, Faction.MajestyMetals };
+                    return new List<Faction>() { Faction.Locals, Faction.TaurianConcordat, Faction.ComStar };
                 default:
                     return new List<Faction>() { Faction.NoFaction };
             }

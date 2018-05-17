@@ -40,9 +40,7 @@
   "Owner": "MajestyMetals",
   "ContractEmployers": [
     "Locals",
-    "MajestyMetals",
-    "MagistracyOfCanopus",
-    "TaurianConcordat"
+    "MajestyMetals"
   ],
   "ContractTargets": [
     "AuriganDirectorate",
