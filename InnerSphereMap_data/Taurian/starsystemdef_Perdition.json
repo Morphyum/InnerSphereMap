@@ -40,19 +40,24 @@
   "Owner": "TaurianConcordat",
   "ContractEmployers": [
     "Locals",
-    "AuriganDirectorate",
     "TaurianConcordat",
     "ComStar",
-    "Marik"
+    "Marik",
+    "MajestyMetals"
   ],
   "ContractTargets": [
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyOfCanopus",
+    "Betrayers",
     "Davion",
-    "Steiner",
-    "AuriganPirates",
-    "Liao"
+    "Kurita",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "Nautilus",
+    "Steiner"
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

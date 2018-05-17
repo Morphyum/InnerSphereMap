@@ -24,7 +24,7 @@
       "MaxMapX" : 0,
       "MinMapY" : 0,
       "MaxMapY" : 0,
-      "MaxJumpDistance" : 30,
+      "MaxJumpDistance" : 60,
 	  "StarSystemPrefix" : "starsystemdef_",
 	  "HabitablePlanetTags" : [
 		"planet_climate_arctic",
@@ -226,7 +226,8 @@
                 "Marik",
 				"AuriganRestoration",
 				"MagistracyOfCanopus",
-				"TaurianConcordat"
+				"TaurianConcordat",
+				"Betrayers"
 		],
 		"MechMothballTime" : 0,
 		"CompanyEventStartingChance" : -2.5,

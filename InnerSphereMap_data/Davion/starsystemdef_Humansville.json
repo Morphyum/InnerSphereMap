@@ -41,13 +41,23 @@
   "ContractEmployers": [
     "Davion",
     "ComStar",
-    "Locals"
+    "Locals",
+    "Betrayers"
   ],
   "ContractTargets": [
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "Davion",
     "Kurita",
     "Liao",
-    "AuriganPirates",
-    "Locals",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
+    "Steiner",
     "TaurianConcordat"
   ],
   "ShopRefreshRate": 0,

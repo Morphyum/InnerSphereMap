@@ -43,16 +43,21 @@
     "AuriganRestoration",
     "Marik",
     "ComStar",
-    "MagistracyOfCanopus"
+    "MagistracyOfCanopus",
+    "MajestyMetals"
   ],
   "ContractTargets": [
-    "AuriganPirates",
     "AuriganDirectorate",
-    "TaurianConcordat",
-    "Liao",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "Betrayers",
+    "Davion",
     "Kurita",
+    "Liao",
+    "MagistracyCentrella",
+    "Nautilus",
     "Steiner",
-    "Davion"
+    "TaurianConcordat"
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

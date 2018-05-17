@@ -42,13 +42,22 @@
     "Locals"
   ],
   "ContractTargets": [
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
+    "AuriganRestoration",
+    "Betrayers",
+    "ComStar",
     "Davion",
     "Kurita",
     "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
     "Steiner",
-    "TaurianConcordat",
-    "MagistracyOfCanopus"
+    "TaurianConcordat"
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

@@ -19,6 +19,14 @@
 		{ "Type": "StarSystemDef", "Path": "Magistracy\\" },
 		{ "Type": "StarSystemDef", "Path": "Marik\\" },
 		{ "Type": "StarSystemDef", "Path": "Steiner\\" },
-		{ "Type": "StarSystemDef", "Path": "Taurian\\" }
+		{ "Type": "StarSystemDef", "Path": "Taurian\\" },
+		{ "Type": "StarSystemDef", "Path": "Outworld\\" },
+		{ "Type": "StarSystemDef", "Path": "Hegemony\\" },
+		{ "Type": "StarSystemDef", "Path": "Oberon\\" },
+		{ "Type": "StarSystemDef", "Path": "Lothian\\" },
+		{ "Type": "StarSystemDef", "Path": "Circinus\\" },
+		{ "Type": "StarSystemDef", "Path": "Illyrian\\" },
+		{ "Type": "Sprite", "Path": "StreamingAssets\\emblems\\factions\\" },
+		{ "Type": "Texture2D", "Path": "StreamingAssets\\emblems\\factions\\" }	
     ]
 }
