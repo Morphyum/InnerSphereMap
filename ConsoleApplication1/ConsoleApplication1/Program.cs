@@ -169,6 +169,16 @@ namespace ConsoleApplication1 {
                     
                             List<Biome.BIOMESKIN> biomes = new List<Biome.BIOMESKIN>();
                     biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                    biomes.Add(Biome.BIOMESKIN.highlandsFall);
+                    biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
+                    biomes.Add(Biome.BIOMESKIN.lowlandsFall);
+                    biomes.Add(Biome.BIOMESKIN.desertParched);
+                    biomes.Add(Biome.BIOMESKIN.badlandsParched);
+                    biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                    biomes.Add(Biome.BIOMESKIN.lunarVacuum);
+                    biomes.Add(Biome.BIOMESKIN.martianVacuum);
+                    biomes.Add(Biome.BIOMESKIN.polarFrozen);
+                    biomes.Add(Biome.BIOMESKIN.tundraFrozen);
                             ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
                             ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });
                             ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { 7 });

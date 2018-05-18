@@ -119,76 +119,6 @@ namespace InnerSphereMap {
             if (clearExistingContracts) {
                 contractList.Clear();
             }
-            int globalDifficulty = system.Def.Difficulty + Mathf.FloorToInt(instance.GlobalDifficulty);
-            int minDiff;
-            int maxDiff;
-
-            int contractDifficultyVariance = instance.Constants.Story.ContractDifficultyVariance;
-            minDiff = Mathf.Max(1, globalDifficulty - contractDifficultyVariance);
-            maxDiff = Mathf.Max(1, globalDifficulty + contractDifficultyVariance);
-
-            ContractDifficulty minDiffClamped = (ContractDifficulty)ReflectionHelper.InvokePrivateMethode(instance, "GetDifficultyEnumFromValue", new object[] { minDiff });
-            ContractDifficulty maxDiffClamped = (ContractDifficulty)ReflectionHelper.InvokePrivateMethode(instance, "GetDifficultyEnumFromValue", new object[] { maxDiff });
-            WeightedList<MapAndEncounters> contractMaps = new WeightedList<MapAndEncounters>(WeightedListType.SimpleRandom, null, null, 0);
-            List<ContractType> contractTypes = new List<ContractType>();
-            Dictionary<ContractType, List<ContractOverride>> potentialOverrides = new Dictionary<ContractType, List<ContractOverride>>();
-            ContractType[] singlePlayerTypes = (ContractType[])ReflectionHelper.GetPrivateStaticField(typeof(SimGameState), "singlePlayerTypes");
-            using (MetadataDatabase metadataDatabase = new MetadataDatabase()) {
-                foreach (Contract_MDD contract_MDD in metadataDatabase.GetContractsByDifficultyRangeAndScope((int)minDiffClamped, (int)maxDiffClamped, instance.ContractScope)) {
-                    ContractType contractType = contract_MDD.ContractTypeEntry.ContractType;
-
-                    if (singlePlayerTypes.Contains(contractType)) {
-                        if (!contractTypes.Contains(contractType)) {
-                            contractTypes.Add(contractType);
-                        }
-                        if (!potentialOverrides.ContainsKey(contractType)) {
-                            potentialOverrides.Add(contractType, new List<ContractOverride>());
-                        }
-                        ContractOverride item = instance.DataManager.ContractOverrides.Get(contract_MDD.ContractID);
-                        potentialOverrides[contractType].Add(item);
-                    }
-                }
-                foreach (MapAndEncounters element in metadataDatabase.GetReleasedMapsAndEncountersByContractTypeAndTags(singlePlayerTypes, system.Def.MapRequiredTags, system.Def.MapExcludedTags, system.Def.SupportedBiomes)) {
-                    if (!contractMaps.Contains(element)) {
-                        contractMaps.Add(element, 0);
-                    }
-                }
-            }
-            if (contractMaps.Count == 0) {
-                Debug.LogError(string.Format("No valid map for System {0}", system.Name));
-                if (onContractGenComplete != null) {
-                    onContractGenComplete();
-                }
-                yield break;
-            }
-            if (potentialOverrides.Count == 0) {
-                Debug.LogError(string.Format("No valid contracts queried for difficulties between {0} and {1}, with a SCOPE of {2}", minDiffClamped, maxDiffClamped, instance.ContractScope));
-                if (onContractGenComplete != null) {
-                    onContractGenComplete();
-                }
-                yield break;
-            }
-            contractMaps.Reset(false);
-            WeightedList<Faction> validEmployers = new WeightedList<Faction>(WeightedListType.SimpleRandom, null, null, 0);
-            Dictionary<Faction, WeightedList<Faction>> validTargets = new Dictionary<Faction, WeightedList<Faction>>();
-
-            Dictionary<Faction, FactionDef> factions = (Dictionary<Faction, FactionDef>)ReflectionHelper.GetPrivateField(instance, "factions");
-
-            foreach (Faction faction in system.Def.ContractEmployers) {
-                foreach (Faction faction2 in factions[faction].Enemies) {
-                    if (system.Def.ContractTargets.Contains(faction2)) {
-                        if (!validTargets.ContainsKey(faction)) {
-                            validTargets.Add(faction, new WeightedList<Faction>(WeightedListType.PureRandom, null, null, 0));
-                        }
-                        validTargets[faction].Add(faction2, 0);
-                    }
-                }
-                if (validTargets.ContainsKey(faction)) {
-                    validTargets[faction].Reset(false);
-                    validEmployers.Add(faction, 0);
-                }
-            }
-            validEmployers.Reset(false);
             int maxContracts;
             if (systemOverride != null) {
                 maxContracts = instance.CurSystem.CurMaxBreadcrumbs;
@@ -196,21 +126,99 @@ namespace InnerSphereMap {
             else {
                 maxContracts = Mathf.CeilToInt(system.CurMaxContracts);
             }
-            if (validEmployers.Count <= 0 || validTargets.Count <= 0) {
-                Debug.LogError(string.Format("Cannot find any valid employers or targets for system {0}", system));
-            }
-            if (validTargets.Count == 0 || validEmployers.Count == 0) {
-                SimGameState.logger.LogError(string.Format("There are no valid employers or employers for the system of {0}. Num valid employers: {1}", system.Name, validEmployers.Count));
-                foreach (Faction faction3 in validTargets.Keys) {
-                    SimGameState.logger.LogError(string.Format("--- Targets for {0}: {1}", faction3, validTargets[faction3].Count));
-                }
-                if (onContractGenComplete != null) {
-                    onContractGenComplete();
-                }
-                yield break;
-            }
+
             int debugCount = 0;
             while (contractList.Count < maxContracts && debugCount < 1000) {
+                if (usingBreadcrumbs) {
+                    List<StarSystem> listsys = instance.StarSystems;
+                    listsys.Shuffle<StarSystem>();
+                    system = listsys[0];
+                }
+                int globalDifficulty = system.Def.Difficulty + Mathf.FloorToInt(instance.GlobalDifficulty);
+                int minDiff;
+                int maxDiff;
+
+                int contractDifficultyVariance = instance.Constants.Story.ContractDifficultyVariance;
+                minDiff = Mathf.Max(1, globalDifficulty - contractDifficultyVariance);
+                maxDiff = Mathf.Max(1, globalDifficulty + contractDifficultyVariance);
+
+                ContractDifficulty minDiffClamped = (ContractDifficulty)ReflectionHelper.InvokePrivateMethode(instance, "GetDifficultyEnumFromValue", new object[] { minDiff });
+                ContractDifficulty maxDiffClamped = (ContractDifficulty)ReflectionHelper.InvokePrivateMethode(instance, "GetDifficultyEnumFromValue", new object[] { maxDiff });
+                WeightedList<MapAndEncounters> contractMaps = new WeightedList<MapAndEncounters>(WeightedListType.SimpleRandom, null, null, 0);
+                List<ContractType> contractTypes = new List<ContractType>();
+                Dictionary<ContractType, List<ContractOverride>> potentialOverrides = new Dictionary<ContractType, List<ContractOverride>>();
+                ContractType[] singlePlayerTypes = (ContractType[])ReflectionHelper.GetPrivateStaticField(typeof(SimGameState), "singlePlayerTypes");
+                using (MetadataDatabase metadataDatabase = new MetadataDatabase()) {
+                    foreach (Contract_MDD contract_MDD in metadataDatabase.GetContractsByDifficultyRangeAndScope((int)minDiffClamped, (int)maxDiffClamped, instance.ContractScope)) {
+                        ContractType contractType = contract_MDD.ContractTypeEntry.ContractType;
+
+                        if (singlePlayerTypes.Contains(contractType)) {
+                            if (!contractTypes.Contains(contractType)) {
+                                contractTypes.Add(contractType);
+                            }
+                            if (!potentialOverrides.ContainsKey(contractType)) {
+                                potentialOverrides.Add(contractType, new List<ContractOverride>());
+                            }
+                            ContractOverride item = instance.DataManager.ContractOverrides.Get(contract_MDD.ContractID);
+                            potentialOverrides[contractType].Add(item);
+                        }
+                    }
+                    foreach (MapAndEncounters element in metadataDatabase.GetReleasedMapsAndEncountersByContractTypeAndTags(singlePlayerTypes, system.Def.MapRequiredTags, system.Def.MapExcludedTags, system.Def.SupportedBiomes)) {
+                        if (!contractMaps.Contains(element)) {
+                            contractMaps.Add(element, 0);
+                        }
+                    }
+                }
+                if (contractMaps.Count == 0) {
+                    Debug.LogError(string.Format("No valid map for System {0}", system.Name));
+                    if (onContractGenComplete != null) {
+                        onContractGenComplete();
+                    }
+                    yield break;
+                }
+                if (potentialOverrides.Count == 0) {
+                    Debug.LogError(string.Format("No valid contracts queried for difficulties between {0} and {1}, with a SCOPE of {2}", minDiffClamped, maxDiffClamped, instance.ContractScope));
+                    if (onContractGenComplete != null) {
+                        onContractGenComplete();
+                    }
+                    yield break;
+                }
+                contractMaps.Reset(false);
+                WeightedList<Faction> validEmployers = new WeightedList<Faction>(WeightedListType.SimpleRandom, null, null, 0);
+                Dictionary<Faction, WeightedList<Faction>> validTargets = new Dictionary<Faction, WeightedList<Faction>>();
+
+                Dictionary<Faction, FactionDef> factions = (Dictionary<Faction, FactionDef>)ReflectionHelper.GetPrivateField(instance, "factions");
+
+                foreach (Faction faction in system.Def.ContractEmployers) {
+                    foreach (Faction faction2 in factions[faction].Enemies) {
+                        if (system.Def.ContractTargets.Contains(faction2)) {
+                            if (!validTargets.ContainsKey(faction)) {
+                                validTargets.Add(faction, new WeightedList<Faction>(WeightedListType.PureRandom, null, null, 0));
+                            }
+                            validTargets[faction].Add(faction2, 0);
+                        }
+                    }
+                    if (validTargets.ContainsKey(faction)) {
+                        validTargets[faction].Reset(false);
+                        validEmployers.Add(faction, 0);
+                    }
+                }
+                validEmployers.Reset(false);
+
+                if (validEmployers.Count <= 0 || validTargets.Count <= 0) {
+                    Debug.LogError(string.Format("Cannot find any valid employers or targets for system {0}", system));
+                }
+                if (validTargets.Count == 0 || validEmployers.Count == 0) {
+                    SimGameState.logger.LogError(string.Format("There are no valid employers or employers for the system of {0}. Num valid employers: {1}", system.Name, validEmployers.Count));
+                    foreach (Faction faction3 in validTargets.Keys) {
+                        SimGameState.logger.LogError(string.Format("--- Targets for {0}: {1}", faction3, validTargets[faction3].Count));
+                    }
+                    if (onContractGenComplete != null) {
+                        onContractGenComplete();
+                    }
+                    yield break;
+                }
+                
                 int i = debugCount;
                 debugCount = i + 1;
                 WeightedList<MapAndEncounters> activeMaps = new WeightedList<MapAndEncounters>(WeightedListType.SimpleRandom, contractMaps.ToList(), null, 0);
@@ -378,9 +386,7 @@ namespace InnerSphereMap {
                     int targetDifficulty = next.difficulty;
                     Contract con;
                     if (usingBreadcrumbs) {
-                        List<StarSystem> listsys = instance.StarSystems;
-                        listsys.Shuffle<StarSystem>();
-                        system = listsys[0];
+
                         con = (Contract)ReflectionHelper.InvokePrivateMethode(instance, "CreateTravelContract", new object[] { level.Map.MapName, level.Map.MapPath, encounterGuid, finalContractType, contractOverride3, gameContext, employer3, target3, employer3, false, targetDifficulty });
                     }
                     else {
