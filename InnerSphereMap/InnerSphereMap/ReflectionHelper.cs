@@ -34,5 +34,10 @@ namespace InnerSphereMap {
             FieldInfo field = type.GetField(fieldname, BindingFlags.NonPublic | BindingFlags.Instance);
             return field.GetValue(instance);
         }
+
+        public static object GetPrivateStaticField(Type instance, string fieldname) {
+            FieldInfo field = instance.GetField(fieldname, BindingFlags.NonPublic | BindingFlags.Static);
+            return field.GetValue(instance);
+        }
     }
 }
