@@ -8,6 +8,7 @@ using HBS.Collections;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -21,6 +22,76 @@ namespace InnerSphereMap {
             return false;
         }
     }
+
+    [HarmonyPatch(typeof(StarmapRenderer), "RefreshSystems")]
+     public static class StarmapRenderer_RefreshSystems {
+
+        static bool Prefix(StarmapRenderer __instance) {
+
+            __instance.starmapCamera.gameObject.SetActive(true);
+            Dictionary<GameObject, StarmapSystemRenderer> systemDictionary = (Dictionary<GameObject, StarmapSystemRenderer>)ReflectionHelper.GetPrivateField(__instance, "systemDictionary");
+            foreach (StarmapSystemRenderer starmapSystemRenderer in systemDictionary.Values) {
+                ReflectionHelper.InvokePrivateMethode(__instance, "InitializeSysRenderer", new object[] { starmapSystemRenderer.system, starmapSystemRenderer });
+                if (__instance.starmap.CurSelected != null && __instance.starmap.CurSelected.System.ID == starmapSystemRenderer.system.System.ID) {
+                    starmapSystemRenderer.Selected();
+                }
+                else {
+                    starmapSystemRenderer.Deselected();
+                }
+            }
+            return false;
+        }
+         static void Postfix(StarmapRenderer __instance) {
+             try {
+                Texture2D texture2D2 = new Texture2D(2, 2);
+                byte[] data = File.ReadAllBytes("mods/InnerSphereMap/Logos/davionLogo.png");
+                texture2D2.LoadImage(data);
+                GameObject go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Davion, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/liaoLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Liao, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/magistracyLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MagistracyOfCanopus, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/marikLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Marik, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/restorationLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganRestoration, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/taurianLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.TaurianConcordat, go });
+
+            }
+             catch (Exception e) {
+                 Logger.LogError(e);
+             }
+         }
+     }
+
 
     [HarmonyPatch(typeof(SimGameState), "DoesFactionGainReputation")]
     public static class SimGameState_DoesFactionGainReputation {
