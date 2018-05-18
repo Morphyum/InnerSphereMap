@@ -81,11 +81,6 @@
                     "valueConstant" : null
                 },
                 {
-                    "Type" : "System_ToggleIgnoredContractEmployers",
-                    "value" : true,
-					"additionalValues" : [ "TaurianConcordat", "AuriganDirectorate" ]
-                },
-                {
                     "Type" : "System_SetTargetBreadcrumbSystem",
                     "value" : "starsystemdef_Terra",
                     "valueConstant" : null

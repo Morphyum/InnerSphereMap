@@ -323,10 +323,10 @@
 			28,
 			40
 		],
-		"MaxContractsPerSystem" : 5,
+		"MaxContractsPerSystem" : 1,
 		"ContractRenewalPerWeek" : 0.5,
 		"ContractSuccessReduction" : 1.0,
-		"MaxBreadcrumbsPerSystem" : 5,
+		"MaxBreadcrumbsPerSystem" : 10,
 		"MissionsForFirstBreadcrumb" : 0,
 		"MissionsForAdditionalBreadcrumb" : 0,
 		"StartingTargetSystem" : "Terra",

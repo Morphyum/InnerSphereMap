@@ -9,6 +9,9 @@
     "Contact": "",
 	
 	"DLL": "InnerSphereMap.dll",
+	
+	"DependsOn": [ "RandomTravelContracts"],
+	
 	"Manifest": [
         { "Type": "StarSystemDef", "Path": "Aurigan\\" },
 		{ "Type": "StarSystemDef", "Path": "ComStar\\" },
