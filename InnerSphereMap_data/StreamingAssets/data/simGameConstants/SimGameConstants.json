@@ -323,7 +323,7 @@
 			28,
 			40
 		],
-		"MaxContractsPerSystem" : 10,
+		"MaxContractsPerSystem" : 5,
 		"ContractRenewalPerWeek" : 0.5,
 		"ContractSuccessReduction" : 1.0,
 		"MaxBreadcrumbsPerSystem" : 5,

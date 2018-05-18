@@ -31,7 +31,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "desertParched",
+    "badlandsParched",
+    "lowlandsCoastal",
+    "lunarVacuum",
+    "martianVacuum",
+    "polarFrozen",
+    "tundraFrozen"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
