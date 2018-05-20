@@ -15,6 +15,21 @@ using UnityEngine;
 
 namespace InnerSphereMap {
 
+    [HarmonyPatch(typeof(SGCaptainsQuartersReputationScreen), "RefreshWidgets")]
+    public static class SGCaptainsQuartersReputationScreen_RefreshWidgets {
+
+        static void Prefix(ref SGCaptainsQuartersReputationScreen __instance) {
+            try {
+                SimGameState simState = (SimGameState)ReflectionHelper.GetPrivateField(__instance, "simState");
+                simState.displayedFactions = simState.displayedFactions.OrderByDescending(o => simState.GetRawReputation(o)).ToList();
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+
+            }
+        }
+    }
+
     [HarmonyPatch(typeof(StarmapBorders), "OnWillRenderObject")]
     public static class StarmapBorders_OnWillRenderObject {
 
@@ -24,7 +39,7 @@ namespace InnerSphereMap {
     }
 
     [HarmonyPatch(typeof(StarmapRenderer), "RefreshSystems")]
-     public static class StarmapRenderer_RefreshSystems {
+    public static class StarmapRenderer_RefreshSystems {
 
         static bool Prefix(StarmapRenderer __instance) {
 
@@ -40,9 +55,10 @@ namespace InnerSphereMap {
                 }
             }
             return false;
+
         }
-         static void Postfix(StarmapRenderer __instance) {
-             try {
+        static void Postfix(StarmapRenderer __instance) {
+            try {
                 Texture2D texture2D2 = new Texture2D(2, 2);
                 byte[] data = File.ReadAllBytes("mods/InnerSphereMap/Logos/davionLogo.png");
                 texture2D2.LoadImage(data);
@@ -86,11 +102,11 @@ namespace InnerSphereMap {
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.TaurianConcordat, go });
 
             }
-             catch (Exception e) {
-                 Logger.LogError(e);
-             }
-         }
-     }
+            catch (Exception e) {
+                Logger.LogError(e);
+            }
+        }
+    }
 
 
     [HarmonyPatch(typeof(SimGameState), "DoesFactionGainReputation")]
@@ -98,7 +114,7 @@ namespace InnerSphereMap {
 
         static void Postfix(SimGameState __instance, ref bool __result, Faction fac) {
             try {
-                __result = fac < Faction.Player1sMercUnit && fac != Faction.MercenaryReviewBoard && fac != Faction.NoFaction && fac != Faction.Locals;
+                __result = fac != Faction.MercenaryReviewBoard && fac != Faction.NoFaction && fac != Faction.Locals;
             }
             catch (Exception e) {
                 Logger.LogError(e);
