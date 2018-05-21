@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mitchel",
     "Name": "Mitchel",
-    "Details": "[3060] McCarron's Armored Cavalry accepted full Capellan citizenship in 3060. They finally became regular units in the House Liao military, officially conferring on the Cavalry the status it has technically possessed for the last six decades, but had never formerly claimed. The offer included a noble title for Baxter among the Barduc, the sword nobility, and a landhold of two worlds for the Cavalry. Sang-shao Marcus Baxter became Mandrinn of Menke and Mitchel, the two worlds marked as the unit's landhold."
+    "Details": "[3060] McCarron's Armored Cavalry accepted full Capellan citizenship in 3060. They finally became regular units in the House Liao military, officially conferring on the Cavalry the status it has technically possessed for the last six decades, but had neve"
   },
   "Position": {
     "x": 108.81,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

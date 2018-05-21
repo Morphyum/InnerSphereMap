@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Toland",
     "Name": "Toland",
-    "Details": "[3050] Turkina Keshik's heavy 'Mechs, complemented by the light 'Mechs of the Ninth Talon Cluster, virtually annihilated Colonel Pierce Marinetti's Second Twelfth Star Guard Regiment in March 3050. The Falcon's forced the Star Guards out of the dark hollow of the Cantor Jungle and chased them onto the exposed barrens of the Cantor Climb, where Falcon fighters strafed them and swift Falcon units continued to sap their remaining strength in lightning raids. Less than a company of Star Guards reached the defensive works of the capital, Toland City, and most of these survivors died in the final battle a day later.  "
+    "Details": "[3050] Turkina Keshik's heavy 'Mechs, complemented by the light 'Mechs of the Ninth Talon Cluster, virtually annihilated Colonel Pierce Marinetti's Second Twelfth Star Guard Regiment in March 3050. The Falcon's forced the Star Guards out of the dark hollo"
   },
   "Position": {
     "x": -115.77,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

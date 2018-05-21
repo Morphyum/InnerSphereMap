@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Skat",
     "Name": "Skat",
-    "Details": "In most respects, Skat is an unremarkable world with four large continents covering almost half the planetary surface, three tiny asteroid moons in close orbit, and slightly more ozone in the atmosphere than healthy for breathing without either respirators or specialized anti-oxidant medication. The planet's first settlers actually hailed from two distinct colonial groups - one of Japanese and Korean descent, and the other from a combined German-Austrian venture. The groups staked out two separate continents for settlement, with the Japanese and Koreans claiming the southern landmass of Quayling, and the German-Austrian group claiming Freiheim. The two colonial groups expanded to the other two continents of Uchida and Unzervalt, over the next several decades, when a dispute over fishing territory and an island chain finally erupted into open conflict during the Age of War.The conflict was settled thanks to intervention by the Terran Hegemony, and Skat became part of that alliance until the fall of the Star League. Today, after falling under the dominion of Houses Davion and Kurita in turn during the Succession Wars, Skat's dominantly Germanic and Asian population continues to maintain a dual-cultural world. After rising and falling from prominence as the House Lords changed, the cities of Aneheim, along Freiheim's Kirschner River, and Inyong City, on Quayling's southern coast, once again form the twin capitals of the planet. Skat's largest spaceport, Jinyiang, is located on Uchida, while the city of Londerhalt is arguably the planet's largest industrial center."
+    "Details": "In most respects, Skat is an unremarkable world with four large continents covering almost half the planetary surface, three tiny asteroid moons in close orbit, and slightly more ozone in the atmosphere than healthy for breathing without either respirator"
   },
   "Position": {
     "x": 93.31,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

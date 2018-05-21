@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Timbiqui",
     "Name": "Timbiqui",
-    "Details": "Famous for its beer and ale, the world of Timbiqui has managed to maintain its natural beauty despite suffering frequent raids as a border world.[3052] Half-serious rumors claim that ilKhan Ulric Kerensky wishes to conquer the world for the beer alone.[3057] Re-assigned to the \"important\" station of Timbiqui after the secession of the Lyran Alliance, the Second Crucis Lancers RCT have apparently been forgotten by the LAAF, who give them barely enough supplies to stay operational. In a stroke of genius, General Sung agreed to work with Raasch Brewhaus, brewers of Timbiqui Dark, to produce a continuing series of advertisements hailing the drink as the \"Brew of the ilKhan.\" While not condoned by the LAAF or AFFS, these ads provide the Second enough money to maintain its combat edge."
+    "Details": "Famous for its beer and ale, the world of Timbiqui has managed to maintain its natural beauty despite suffering frequent raids as a border world.[3052] Half-serious rumors claim that ilKhan Ulric Kerensky wishes to conquer the world for the beer alone.[30"
   },
   "Position": {
     "x": -333.73,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

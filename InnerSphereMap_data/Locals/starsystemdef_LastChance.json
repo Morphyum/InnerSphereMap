@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_LastChance",
     "Name": "Last Chance",
-    "Details": "[3049] On Last Chance, the Jade Falcons met the second battalion of Redjack Ryan's regiment in the first week of September 3049. Alpha and Bravo Trinaries of the Third Assault Cluster handily defeated Ryan's forces. When the Periphery unit attempted to retreat off-world, Falcon fighters prevented their escape, and they surrendered. Clan warriors bonded most of those captured, imprisoned some, and executed the rest. "
+    "Details": "[3049] On Last Chance, the Jade Falcons met the second battalion of Redjack Ryan's regiment in the first week of September 3049. Alpha and Bravo Trinaries of the Third Assault Cluster handily defeated Ryan's forces. When the Periphery unit attempted to re"
   },
   "Position": {
     "x": -159.79,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

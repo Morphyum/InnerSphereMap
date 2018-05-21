@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_DevilsRock",
     "Name": "Devil's Rock",
-    "Details": "[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with both the Draconis Combine. Initially this trade was primarily restricted to art and luxury items, such as alcohol, jade, gold and bronze jewellry, and ceremonial weaponry. This traffic has since escalated to include industrial goods and heavy equipment of all kinds, including military harware.Devil's Rock is one of the worlds within Marik space that this trade is centered on. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profitable market (legal or otherwise) for virtually any commodity. [3057] As part of Operation Guerrero, the Third Free Worlds Guards landed on Devil's Rock expecting to encounter minimal resistance from the planetary garrison. This assumption proved to be false; the Third quickly found itself embroiled in bitter street-to-street fighting in the capital of Forest City. In just four hours, the Guards lost two lances of 'Mechs to Federated Commonwealth missiles; total losses amounted to nineteen 'Mechs before the Marik troops finally crushed the resistance."
+    "Details": "[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with both the Draconis Combine. Initially this trade was primarily restricted to art and luxury items, such as alcohol, jade, gold and bronze jewellr"
   },
   "Position": {
     "x": -36.19,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Warren",
     "Name": "Warren",
-    "Details": "[2584] The assassination of General Kincaid in 2583, by a Taurian commando, paralyzed the Star League war effort for the rest of the and well into the next. With the first campaigns of the Reunification War enfolding against the Rim Worlds Republic, control of the various Taurian commands fell to individual corps commanders, none of whom were capable of co-ordinating their efforts. In summer 2584, Star League High Command General Amos Forlough was recalled from his operations against the Outworlds Alliance to restore control. General Forlough was given a veritable carte blanche on men and material to resume offensive operations. Using striker regiments raised and trained by his predecessor, he began a scorched-earth policy. His first target was the world of Warren.Forlough first blockaded the target system and demanded an unconditional surrender of all Taurian forces within 30 days. When the allotted time elapsed, the General's strikers had total freedom, not only to destroy the determined Taurian defenders, but to also render useless any and all sources of economic and military potential. While bands of Star League Marauders and Warhammers ravaged the countryside, destroying crops, food stores, and munitions depots, Forlough's navy warded off repeated attempts by the Taurian fleet to break through the blockade. Warren fell to the Star League in September 2584."
+    "Details": "[2584] The assassination of General Kincaid in 2583, by a Taurian commando, paralyzed the Star League war effort for the rest of the and well into the next. With the first campaigns of the Reunification War enfolding against the Rim Worlds Republic, contr"
   },
   "Position": {
     "x": 298.03,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

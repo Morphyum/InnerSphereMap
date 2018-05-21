@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewDelos",
     "Name": "New Delos",
-    "Details": "New Delos has been the site of several historical developments. For example, it was the homeworld of Sir George Humphreys, the architect of the Free Worlds League itself. In 2531, it was the site of the conference that ended the Second Andurien War. Harlan Allison, the last member of House Allison, was killed there in 2845, and it was on New Delos that the falling-out occurred between Anton Marik and Jamie Wolf that led to Anton's Death at the hands of Wolf's Dragoons. With all these historical sites, however, there is almost no tourism on New Delos.Part of the reason for this is the ravages of war. During the Third Succession War, the people of New Delos have been nearly reduced to subsistence levels. Under the circumstances, it is nearly impossible to build adequate tourist facilities, even if enough people could safely get to New Delos to see the sights.This is regrettable, both because the economy would benefit enormously by the influx of M-bills and because the sweeping panoramas present some of the most breathtaking scenery in the Free Worlds. Certainly there is little value in the land itself, being almost devoid of valuable minerals and unsuited for agriculture. Without tourism, the economy of historic New Delos will remain depressed for years to come.The capital of New Delos is Cienfuegos.[3025] New Delos is also home to HighPoint Traders, a small corporation old enough to have a Star League trading license. HighPoint was teetering on the brink of bankruptcy five years ago when its president, Hugo Schmatz, placed in on the table during a high-stakes game of Four-Card Drax - and lost. Its new president, a scuffling rogue named Corey Chang, has managed (through a combination of hard work and fortuity) to make enough money from it to expand its operations. Much of the corporation's recent success has been the direct result of the Concord of Kapteyn, which has opened up substantial new avenues of trade between the Free Worlds League and the Capellan Confederation.HighPoint possesses two JumpShips and seven DropShips, though most are held together with little more than prayers, bailing wire, and HarStick epoxy. Its reputation for shady dealing has only been enhanced during Chang's tenure. Nonetheless, the firm is viewed to be sufficiently reliable and has been employed by House Marik and House Orloff (as well as the Commonality of Sarna in the Capellan Confederation) to carry passengers and freight on a contract basis.Chang is a clever but greedy man, whose grasping mind is willing to consider almost any profit-making scheme regardless of its immorality. HighPoint has been accused of smuggling, piracy, and operating unsafe vessels, and there is little doubt that these charges are true; though nothing has ever been proven in a court of law."
+    "Details": "New Delos has been the site of several historical developments. For example, it was the homeworld of Sir George Humphreys, the architect of the Free Worlds League itself. In 2531, it was the site of the conference that ended the Second Andurien War. Harla"
   },
   "Position": {
     "x": -38,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

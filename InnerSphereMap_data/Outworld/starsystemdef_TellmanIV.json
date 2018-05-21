@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TellmanIV",
     "Name": "Tellman IV",
-    "Details": "[2583] Embarrassed and irritated that the Outworlders were ruining his reputation, General Forlough started to implement his scorched-earth policy that would later so devastate the Taurian Concordat. One planet after another went up in smoke at the hands of his Regulars, and the scenes enacted on Cerberus were repeated on a dozen Alliance worlds in the spring and summer of 2583. On every occasion, the Alliance army arrived on the scene only after the destruction had been carried out. Forlough never stayed long enough to present an inviting target to his enemies.In the autumn of 2583, the Outworlders staged their showdown with Forlough's Baby Killers. Acting on intelligence provided by a Star League deserter, the Alliance army, backed by Pitcairn's entire legion, slipped ahead of Forlough's advance scouts and deployed in ambush on the arctic mining world of Tellman IV. Waiting until the Second and Third Divisions of Forlough's 5th Corps had disembarked and were constructing permanent quarters, the infantry and 'Mechs of the Outworlds army attacked in full force, with cries of Cerberus Lives on the lips of every warrior.With single-minded fury, the attackers drove in on the 5th Corps headquarters, destroying vital command and communications links in the opening moments of the attack. Though Forlough escaped in the melee, he had lost control of the battle, which turned into a massive free-for-all. Supporting fire from Dropships only added to the confusion, as opportunity fire hit friendly positions as often as not. The battle continued until nightfall, when the Alliance forces took advantage of the opportunity to withdraw. Over two hundred Star League 'Mechs were lost in the single Day of Vengeance, and Alliance losses were about half that number."
+    "Details": "[2583] Embarrassed and irritated that the Outworlders were ruining his reputation, General Forlough started to implement his scorched-earth policy that would later so devastate the Taurian Concordat. One planet after another went up in smoke at the hands "
   },
   "Position": {
     "x": 537.14,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

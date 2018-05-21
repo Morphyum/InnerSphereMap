@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bell",
     "Name": "Bell",
-    "Details": "In July of 2357, Reynard Davion renouced the previous Acala Pact with the Tikonov Union. Demanding the immediate transfer of Chesterton as well as Bell and Highspire from the Sarns, Reynard threatened the use of atomic weapons to enforce his claims.It is uncertain whether Reynard has actual possession of such weapos, and if he did, whether he intended to use them. The threat however, was enough to send shock and fear throughout the various capital worlds in the Capellan zone. While debates raged into the autumn, Reynard Davion occupied Bell in September of 2357, the local Sarna garrison being overwhelmed by sheer force of numbers.When a combined Tikonov-Sarna-Capellan relief force arrived in January the following year, no sign of the Davon forces, the original Sarna garrison, or the civilian population was found. Though a three-month, planet-wide and later system-wide search was instituted, no clue to the whereabouts of the 15,000 inhabitants of Bell were ever uncovered by the Sarna government.In actuality, the population was transported as slave labor to the Davion world of Tentativa. In 2360, a Taurian explorer, Tracy Ashton Pendleton, accidentally discovered the missing Bellites while on a mapping/geology survey in the Tentativa system. Acting on her own initiative, Pendleton organized a revolt of the captive workers, who quickly overpowered the Davion garrison there. They then fled to the safety of the Taurian Concordat."
+    "Details": "In July of 2357, Reynard Davion renouced the previous Acala Pact with the Tikonov Union. Demanding the immediate transfer of Chesterton as well as Bell and Highspire from the Sarns, Reynard threatened the use of atomic weapons to enforce his claims.It is "
   },
   "Position": {
     "x": 104.16,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

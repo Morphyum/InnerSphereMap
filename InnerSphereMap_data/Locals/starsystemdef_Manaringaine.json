@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Manaringaine",
     "Name": "Manaringaine",
-    "Details": "Manaringaine is a temperate planet maintained in its pristine wilderness state by the Inheritor philosophical movement.Clan Ghost Bear captured the world without a fight in 3049, attracted by the references to a Star League depot from within their own records - supposedly the Elysian Fields was the site of a top-secret research facility, working on Project Achilles. Beleived to be situated on Elissa, the Bears did not find the depot. Disgusted at having wasted so much time over a false lead, The Bears promptly evacuated the Elysian Fields, refusing to garrison planets that only served as a source of shame to the Clan. "
+    "Details": "Manaringaine is a temperate planet maintained in its pristine wilderness state by the Inheritor philosophical movement.Clan Ghost Bear captured the world without a fight in 3049, attracted by the references to a Star League depot from within their own rec"
   },
   "Position": {
     "x": -30.43,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

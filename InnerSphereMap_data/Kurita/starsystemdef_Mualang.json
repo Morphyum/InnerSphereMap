@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mualang",
     "Name": "Mualang",
-    "Details": "[3052] When the Nova Cat Lancers issued their batchall to Tai-sa Sheng-jo of the Ninth Dieron Regulars in January 3052, the defending commander greeted the Nova Cats and cheerfully bid them luck as they dropped to the planet's surface. In an ill-planned attempt to beat the Clan forces at their own game, Sheng-jo issued a badly worded challenge to the Clan commander and got exactly what he asked for. The Lancer's battle Trinaries immediately engaged the bulk of the Ninth while the Elementals and Striker Trinary flanked the defenders. Caught in a pincer, the Ninth bolted and the Cats pursued. Hoping to slow the Clan onslaught by forcing them to fight in the streets of the capital, Mualang City, Sheng-jo again proved his imperfect knowledge of the Clan way of thinking by assuming that their philosophy of minimizing collateral damage would prevent them from wreaking havoc in a populated area. The Lancers charged straight through the city in pursuit of the Ninth's assault elements, forcing the Regulars into a full retreat toward their Dropships. Unfortunately for the Ninth, the Clans had already captured their only means of escape off Mualang."
+    "Details": "[3052] When the Nova Cat Lancers issued their batchall to Tai-sa Sheng-jo of the Ninth Dieron Regulars in January 3052, the defending commander greeted the Nova Cats and cheerfully bid them luck as they dropped to the planet's surface. In an ill-planned a"
   },
   "Position": {
     "x": 96.41,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

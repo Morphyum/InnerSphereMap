@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kajikazawa",
     "Name": "Kajikazawa",
-    "Details": "Kajikazawa is a prefecture capital in the Benjamin district.  With the planet Benjamin close by, quite a few of the duties that would normally fall to Kajikazawa go instead to Benjamin.  This has left Kajikazawa less populated and less hectic than usual for a prefecture capital, which suits the population, fine.  Only the presence of the 2nd Benjamin Regulars reminds them that they are, indeed, an important part of the Draconis Combine. The planet's major continent has large areas of mild climate and pleasant landscapes.  The government capitalizes on this with a major tourist industry and by renting out vacation mansions to the harried politicians of nearby Benjamin.  The planet also has several large ukiyos that cater to the upper classes."
+    "Details": "Kajikazawa is a prefecture capital in the Benjamin district.  With the planet Benjamin close by, quite a few of the duties that would normally fall to Kajikazawa go instead to Benjamin.  This has left Kajikazawa less populated and less hectic than usual f"
   },
   "Position": {
     "x": 88.41,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Praxton",
     "Name": "Praxton",
-    "Details": "Praxton is the only industrialized planet in the Outworlds not located near the center of Alliance space. The value of the fusion engines built here and the short transit time from the system's jump points, make Praxton a prime target for Periphery raiders. The standing orders of the units stationed here forbid the troops to go to the aid of nearby worlds under attack. Pirates in the area try to decoy the defenders of the Praxton factories away with diversionary raids on neighboring worlds, but the power plants produced by Praxton Fusion are simply too valuable to endanger.This policy has not endeared the president to the people of the Alliance."
+    "Details": "Praxton is the only industrialized planet in the Outworlds not located near the center of Alliance space. The value of the fusion engines built here and the short transit time from the system's jump points, make Praxton a prime target for Periphery raider"
   },
   "Position": {
     "x": 547.41,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

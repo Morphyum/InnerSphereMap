@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Orbisonia",
     "Name": "Orbisonia",
-    "Details": "[2828] In the fateful month of June, 2828, Chancellor Ilsa Liao decided to lead a strike force of 90 Marauders and 18 Warhammers from the Red Lancers and Prefectorate Guard regiments against Orbisonia, then a major Davion staging area. This opening round of the Second Succession War was nearly disastrous. The previous loses of experienced MechWarriors, at the end of the First Succession War on Chesterton, proved to be the decisive factor.In a three-day engagement the skillful handling of the lighter armed but more maneuvrable Davion 'Mechs, in the hands of the Avalon and Ceti Hussars, crushed the Capellan assault and drove the Capellan Household Guards back towards their drop zones. On the forth day of the assault, Ilsa herself was killed in the final rear-guard action that saved the remnant of the Capellan forces. Hereafter, the Red Lancers bore the dual title of the Red Heart Guard in commemoration of their fallen commander."
+    "Details": "[2828] In the fateful month of June, 2828, Chancellor Ilsa Liao decided to lead a strike force of 90 Marauders and 18 Warhammers from the Red Lancers and Prefectorate Guard regiments against Orbisonia, then a major Davion staging area. This opening round "
   },
   "Position": {
     "x": 150.17,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Caledonia",
     "Name": "Caledonia",
-    "Details": "New Edinburgh is the rather rustic and isolated capital of Caledonia. Small for a planetary capital, New Edinburgh is home to only eighty or ninety thousand inhabitants. The Citadel, an old Star League fortress once housing charged particle weaponry banks of planetary defense batteries looming from the cliff tops of Mount Alba, is now the residence of the planetary governor.Dundee is an agricultural community on the outskirts of New Edinburgh. A rural town nestling along a bay on the Firth of Lorn, it is sheltered from Caledonia's occasional coriolis storms by the grey-brown loom of the rugged Isle of Mull. The hills encircling the city to the north and west remain snow-capped throughout the entire year.Caledonia has two moons, large and silvery Stirling, and small golden Bannochburn."
+    "Details": "New Edinburgh is the rather rustic and isolated capital of Caledonia. Small for a planetary capital, New Edinburgh is home to only eighty or ninety thousand inhabitants. The Citadel, an old Star League fortress once housing charged particle weaponry banks"
   },
   "Position": {
     "x": -121.03,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

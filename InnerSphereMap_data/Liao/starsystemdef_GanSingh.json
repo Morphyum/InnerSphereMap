@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_GanSingh",
     "Name": "Gan Singh",
-    "Details": "The planet's northern and southern seas contain four temperate continents of rolling hills, and two large tropical continents are located near Gan Singh's equator. Farmlands cover nearly 85% of these tropical areas and approximately 45% of the temperate lands. About 80% of the population live in medium-sized cities located in the temperate continents."
+    "Details": "The planet's northern and southern seas contain four temperate continents of rolling hills, and two large tropical continents are located near Gan Singh's equator. Farmlands cover nearly 85% of these tropical areas and approximately 45% of the temperate l"
   },
   "Position": {
     "x": 41.61,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

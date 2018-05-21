@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Derf",
     "Name": "Derf",
-    "Details": "[3025] The city of Hollis is the headquarters of Vickers Mining. The major mining firm in the Trellshire Province, Vickers has operations on more than 40 worlds, moons and asteroids. They specialize in the extraction of rare minerals and have an impeccable safety record. Vickers was counting on the Woman Mole-TS Tunnel Borer to assist its work in airless conditions. Because of the tunnel borer's poor performance, the Vickers operation on the second moon of Apollo is in question. Unless Vickers is willing to do the job in less-than-safe conditions, another firm less concerned with their employee's safety will win the bid.[3050] Disheartened by their recent defeat on Trell 1, the Twelfth Donegal Guards RCT disintegrated soon after the Third Falcon Talon landed in May 3050. The Falcons easily crushed the small groups of Guards that rallied to fight fierce actions, but by the end of the day, the Twelfth RCT no longer existed."
+    "Details": "[3025] The city of Hollis is the headquarters of Vickers Mining. The major mining firm in the Trellshire Province, Vickers has operations on more than 40 worlds, moons and asteroids. They specialize in the extraction of rare minerals and have an impeccabl"
   },
   "Position": {
     "x": -130.84,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

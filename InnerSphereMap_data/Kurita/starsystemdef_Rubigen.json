@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rubigen",
     "Name": "Rubigen",
-    "Details": "Rubigen has a dark, cold atmosphere, with over half its surface covered in ice.  Its two small seas are perpetually filled with icebergs.  Navigating on Rubigen's seas requires great skill and precision, which may explain why 15 percent of the officers in the Draconis Combine Admiralty are from Rubigen.  Furs from this world, particularly that of the Rubigen red wolverine, are highly prized. City Rubigen is the capital of the planet as well as the seat of the prefecture.  It is near the Bassers Glacier, which has been creeping toward the city at the alarming rate of one and one-half meters a year.  It is expected that the glacier will overrun the city's spaceport within the next decade."
+    "Details": "Rubigen has a dark, cold atmosphere, with over half its surface covered in ice.  Its two small seas are perpetually filled with icebergs.  Navigating on Rubigen's seas requires great skill and precision, which may explain why 15 percent of the officers in"
   },
   "Position": {
     "x": 30.49,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

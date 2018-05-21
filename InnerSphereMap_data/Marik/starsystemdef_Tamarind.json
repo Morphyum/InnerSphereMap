@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tamarind",
     "Name": "Tamarind",
-    "Details": "[3025] Otho Kortiuk (Otho the Cold) is single-handedly responsible for reviving the lost art of falconry, which the people of Tamarind bitterly resent. They can forgive the eccentricities of rulership, but not when the Tamarind economy lies in a shambles because of the war. When confronted with this by emissaries from Atreus, Otho replied imperiously that falconry signifies a majesty of spirit and is an excellent way to relax, and that they people of Tamarind would not be going hungry if they paid more attention to their own business and less to his. This attitude has made Otho the most unpopular leader in the Free Worlds. He stands little chance of re-election as Prime Minister and may even provoke armed insurrection before the next election.The average citizen lives by the old Terran adage, When you ain't got nothin', you ain't got nothin' to lose. Until a more effective way to end the unrest on Tamarind is found, Janos Marik will deal with the situation in the same way as his predecessors; by posting three times the usual number of SAFE agents on the planet.Tamarind's artists and craftsmen are legendary. Although conventional industries, such as textiles, machinery manufacture, and food exportation, have been torn apart by the war, talented artists are capable of commanding high prices from the prosperous worlds in the Duchy. This has contributed to an ever-increasing gulf between the haves and have-nots on Tamarind, where many artists stay only for the extra money they can charge by being Tamarind artists. It galls the natives to be unable to afford the beautiful works of their natives artists, especially when the artist is someone from the old neighborhood.The planet Tamarind is a scarred, desolate place that once was beautiful. Too many BattleMech engagements have killed off much of the local fauna, repeated bombings have left trenches where once were fields and farms, and the forests have been burnt down to prevent the enemy from using them for cover."
+    "Details": "[3025] Otho Kortiuk (Otho the Cold) is single-handedly responsible for reviving the lost art of falconry, which the people of Tamarind bitterly resent. They can forgive the eccentricities of rulership, but not when the Tamarind economy lies in a shambles "
   },
   "Position": {
     "x": -268.94,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

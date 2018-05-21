@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Arcturus",
     "Name": "Arcturus",
-    "Details": "Arcturus is a ghost world filled with people.  When it was the capital of the Lyran Commonwealth, its many cities were filled with large, ornate buildings and the streets bustled with noisy crowds.  After the Steiners moved the capital to Tharkad, the cities of Arcturus quickly fell silent as the remaining populace moved to the countryside. Today, Arcturus is an agricultural world barely able to coax enough food from the soil to feed itself.  What few hidden resources the planet has are processed in the one remaining industrial city, Malcheema. Human beings are Arcturus's only real export.  Though the nine Arcturan Guards regiment are composed of men and women from all over the Commonwealth, tradition dictates that over a quarter of each regiment's personnel must be from Arcturus.  Though Arcturans are not particularly warlike, they have a tradition of dedication to the Lyran Commonwealth.  It is a great honor to have a son or daughter in a Guards regiment.  Native Arcturans are also eagerly recruited for armored and infantry regiments stationed throughout the Commonwealth."
+    "Details": "Arcturus is a ghost world filled with people.  When it was the capital of the Lyran Commonwealth, its many cities were filled with large, ornate buildings and the streets bustled with noisy crowds.  After the Steiners moved the capital to Tharkad, the cit"
   },
   "Position": {
     "x": -78.01,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

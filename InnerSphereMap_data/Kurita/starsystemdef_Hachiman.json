@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hachiman",
     "Name": "Hachiman",
-    "Details": "Hachiman is one of the few planets in the Draconis Combine that has both plentiful natural resources and livable planetary conditions. In addition, the planet is the center of the realm's computer and advanced electronics   industry. Hachiman's main continent is dotted with several major industrial parks that manufacture electronic parts.The largest city on the planet, Masamori, is home to Tanadi Computers, one of the largest computer firms in the Draconis Combine. Masamori also has a large and raucous ukiyo, whose weekend festivals often disintegrate into riots. The planetary government puts up with this foolishness because it tends to keep the workers away from more dangerous pursuits.Considering the importance of the planet, it is not surprising the ISF has a large presence on the planet. However, their agents are infiltrating the planetary government and not the industries. There have been many scandals in the government, some of which point to Warlord Samsonov.Coordinator Hugai Kurita himself came up with the idea of creating a school dedicated solely to Battlefield Technology skills. At the Hachiman Technical Institute, students get hands-on training in the repair of BattleMechs, AeroSpace Fighters, DropShips, and conventional machines. In addition, this school has a special class devoted to scrounging parts from a city and using almost any kind of scrap to fix a 'Mech.The headmaster of HTI is retired Chief Master Petty Officer Grant Harper, the scourge of Marfik. During the battle for Marfik, Harper marshaled his Techs into an infantry unit to fight off a light 'Mech scouting lance that surprised an undefended Kurita headquarters unit. Although the mobile headquarters vehicle was destroyed, Harper and his men prevented the Steiner 'Mechs from capturing the regiment's supply of spare parts, supplies, and ammunition.[3025] The second largest corporation on the planet is Hachiman Taro Electronics Ltd, owned by Chandrasekhar Kurita, a distant relative of Theordore Kurita."
+    "Details": "Hachiman is one of the few planets in the Draconis Combine that has both plentiful natural resources and livable planetary conditions. In addition, the planet is the center of the realm's computer and advanced electronics   industry. Hachiman's main conti"
   },
   "Position": {
     "x": 252.79,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

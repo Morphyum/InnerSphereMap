@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Liao",
     "Name": "Liao",
-    "Details": "Belonging to Maximilian Liao's daughter, Candance, the planet Liao is the ancestral home of the Liao family, but in all other respects is a fairly insignificant backwater.  Following several spoiling raids during the Succession Wars, the last three Chancellors have seen fit to maintain a local garrison on the planet.  Today, elements of the Capellan Hussars use Liao for summer training maneuvers.  The Liao family maintains a palatial residence in the northern hemisphere.  Otherwise, the planet remains largely uninteresting militarily or industrially.[3025]Recent reports indicate Maximilian has shifted elements of the Warrior House LuSann regiment to Liao for special maneuvers, though the reason for these maneuvers remains unclear.[3063] One of House Liao newest military academies, the Liao Conservatory of Military Arts was established four years ago. The first class of graduates entered military service in 3062, too much acclaim. Half of them went to the newly formed Heritage Guard regiment of the Capellan Hussars, which may handpick from each graduating class. Another significant portion of that class entered service with the Forth Tau Ceti Regulars, at that unit's request.So far, the Conservatory is living up to its promise to bring out the best in its students. Nicknamed the thinking warrior's academy for its devotion to meditation and its emphasis on individual effort, this facility is more concerned with accentuating personal strengths than with shaping its students to fit a recognized mold. Most courses are self-paced, allowing recruits to speed through subject areas for which they demonstrate particular aptitude. A recruit who passes a test in one area may use the time saved to focus on other subjects or practices, either those he finds difficult or those he enjoys most. Regardless of a student's progress, they are never allowed to forget that they are at the academy because they wish to be there, in service to House Liao."
+    "Details": "Belonging to Maximilian Liao's daughter, Candance, the planet Liao is the ancestral home of the Liao family, but in all other respects is a fairly insignificant backwater.  Following several spoiling raids during the Succession Wars, the last three Chance"
   },
   "Position": {
     "x": 34.29,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

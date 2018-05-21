@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Phecda",
     "Name": "Phecda",
-    "Details": "Phecda is a cold world, swept by terrible windstorms and blizzards. The water resources of this world are vast, and so it is the perfect site for a huge water purifactation plant. Unfortunately, this has made Phecda a tempting target for Marik raiders over the years."
+    "Details": "Phecda is a cold world, swept by terrible windstorms and blizzards. The water resources of this world are vast, and so it is the perfect site for a huge water purifactation plant. Unfortunately, this has made Phecda a tempting target for Marik raiders ove"
   },
   "Position": {
     "x": -74.45,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

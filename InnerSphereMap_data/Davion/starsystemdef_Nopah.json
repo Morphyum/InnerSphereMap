@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nopah",
     "Name": "Nopah",
-    "Details": "Nopah's swollen, dying parent star has been a blessing to its flora, but all of the planet's native animal life has perished due to dramatic changes in Nopah's climate. Settlers from Terra recognized Nopah's agricultural potential but had to introduce their own insects to ensure that their crops were fertilized. After the fall of the First Star League, Nopah joined the Federated Suns. It remained under the flag of the Federated Suns until the Third Succession War, when Warrior House units from the Capellan Confederation managed to capture Nopah in 2905. By a stroke of luck, the Confederation and the Federated Suns signed a temporary armistice ceasing military action along their entire border a few months later. The Confederation held Nopah for 25 years until 2930, when the Federated Suns decided to break the armistice.During the Fourth Succession War, the Federated Suns leaked false reports of unguarded military supply depots and communications facilities on Nopah and several other border worlds. Reeling from House Davion's offensive, the Capellan Confederation focused its few counterattacks on these worlds. But the Capellans found no supplies, only front-line house and mercenary regiments from the Federated Suns. No less than three regiment-sized battles took place on Nopah, involving famous units like McCarron's Armored Cavalry, the Ceti Hussars, the Vegan Rangers, and the Capellan Hussars. To this day, BattleMech and tank wreckage litters hills and fields around the towns of Grinsanders, Stongton's Crossing, and White Hall.Nopah has three major major continents; Nen, Nin, and Non. The planet's capital of Cocula, is situated on Nin."
+    "Details": "Nopah's swollen, dying parent star has been a blessing to its flora, but all of the planet's native animal life has perished due to dramatic changes in Nopah's climate. Settlers from Terra recognized Nopah's agricultural potential but had to introduce the"
   },
   "Position": {
     "x": 57.12,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

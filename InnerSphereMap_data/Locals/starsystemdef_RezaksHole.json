@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_RezaksHole",
     "Name": "Rezak's Hole",
-    "Details": "[3059] Rezak's Hole is rumored to be the main staging point and repair facilty for the pirate group known as the Band of the Damned. This small backwater world can barely support life, and really has nothing going for it aside from stategic proximety to a large stretch of unguarded Combine border. [3063] Clan Snow Raven defeated the Band of the Damned to claim Rezak's Hold for themselves a few weeks after taking Farstar."
+    "Details": "[3059] Rezak's Hole is rumored to be the main staging point and repair facilty for the pirate group known as the Band of the Damned. This small backwater world can barely support life, and really has nothing going for it aside from stategic proximety to a"
   },
   "Position": {
     "x": 418.42,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

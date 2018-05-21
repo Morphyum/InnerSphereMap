@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Utrecht",
     "Name": "Utrecht",
-    "Details": "Utrecht surrendered to the Ghost Bears without a fight in 3052, and Khan Jorrgensson personally signed the treaty of occupation. Among the planet's resources is a large supply of natural alloys that the Clans find particularly useful in the manufacturing ferro-fibrous armor, and so the Bears have set up a large-scale mining operation to extract the ore.Utrecht's rocky surface and dry plateau's make for rugged terrain. The capital city of Naragajan is located on the Labbie Plateau.[3060] Toward the end of 3060, Khan Phelan Kell took his forth Wolf Guards to Utrecht, and challenged the Bears for the contents of one newly arrived Ghost Bear ark ship. The prefab buildings and equipment it contained included resources for building entire factory complexes, which the Wolves (in exile) very much needed. The Ghost Bears accepted the challenge and even allowed the Wolves safcon. Star Colonel Ranna Kerensky led the main drive, while Star Captain Ragnar led a flanking maneuver that met heavy resistance from the elite Trinary command of the third bear Guard. Though the Trial was ultimately successful for the Wolves, Ragnar's Trinary fell after hard fighting, and Ragnar was claimed as bondsman by Ghost Bear Star Colonel Sarah DelVillar. "
+    "Details": "Utrecht surrendered to the Ghost Bears without a fight in 3052, and Khan Jorrgensson personally signed the treaty of occupation. Among the planet's resources is a large supply of natural alloys that the Clans find particularly useful in the manufacturing "
   },
   "Position": {
     "x": 23.51,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Babaeski",
     "Name": "Babaeski",
-    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance in 3064, the Fifth Talon and Gyrfalcon Eyrie Clusters landed on Babaeski in late November. Having retreated from Kooken's Pleasure Pit four months earlier, the Grave Walkers mercenary regiment were on station on Babaeski. Though the unit was well rested following its previous defeat, the Grave Walkers were horribly understrength and folded in just 3 days of fighting. Only One DropShip, carrying twenty MechWarriors and eight 'Mechs, managed to escape the world on 2nd of December."
+    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance in 3064, the Fifth Talon and Gyrfalcon Eyrie Clusters landed on Babaeski in late November. Having retreated from Kooken's Pleasure Pit four months earlier, the Grave Walkers mercenary regiment "
   },
   "Position": {
     "x": -137.59,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

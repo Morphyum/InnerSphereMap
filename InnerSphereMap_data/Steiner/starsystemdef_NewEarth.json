@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewEarth",
     "Name": "New Earth",
-    "Details": "New Earth was an unexpected bonus success for the men and women who made the first interstellar voyage. On December 5, 2108, the TAS Pathfinder, the first Jumpship, voyaged to Tau Ceti. Tau Ceti's forth planet was so much like Terra that it was immediately named New Earth. The glowing reports of the TAS Pathfinder's crew convinced many to colonize the planet. In 2110, New Earth became the site of the first manned scientific outside the Sol system; in 2116 it became the site of the Terran Alliance's first offworld colony.New Earth had more than just pretty landscapes and exotic animals. Deep deposits of metals and rare chemicals soon attracted heavy industry. By the time of the Star League, New Earth was a major industrial center. Several major companies had their headquarters there. Five of them, Bergan Industries, Grumman Industries, Newhart Industries, Nicholas Spacecraft, and Ulston Armor, were major contractors for the Hegemony Armed Forces and the SLDF.New Earth was the scene of some of the bitterest fighting in General Kerensky's campaign to recapture the Hegemony. The forces of Stefan Amaris destroyed whatever they could when it became clear that they could not hold the planet. With its grandeur and economic base destroyed, the planet's civilian population suffered greatly in the aftermath and through the Succession Wars.The Lyran Commonwealth dominates the world today. The centuries and the gradual decline in technology have closed many of the planet's industries, but the New Earth Trading Company owns several functioning Star League-era factories, one of which manufactures extremely valuable Jumpship parts.There has been intense activity on the New Earth continent of Conseco, sparking rumors of a huge cache of Star League artifacts.One of the Golden Ten universities of the Star League, the New Earth university concentrated on the care and running of commercial spaceships. Because of this, the university was divided into two campuses, A large space station served as the university's Jumpship and Dropship training center, and the second campus was an academic center. Neither school survived the forces of the Rim Worlds Republic.New Earth's southern continent was settled by a loose coalition from among eight of the surviving Amerindian tribes of North America. The people's nation established a federation dedicated to preserving and continuing the ways of life of their ancestors.[3025] New Earth is also home to the St. Rethwin's College for Theological Studies, the largest and most prestigious privately funded seminary in the Lyran Commonwealth. For the past 400 years, this seminary has grown to cover instruction in not one, but 20 different Christian and non-Christian traditions."
+    "Details": "New Earth was an unexpected bonus success for the men and women who made the first interstellar voyage. On December 5, 2108, the TAS Pathfinder, the first Jumpship, voyaged to Tau Ceti. Tau Ceti's forth planet was so much like Terra that it was immediatel"
   },
   "Position": {
     "x": -12.41,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

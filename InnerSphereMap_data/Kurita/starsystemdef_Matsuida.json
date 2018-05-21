@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Matsuida",
     "Name": "Matsuida",
-    "Details": "Despite good sun, good position, and good planet size, Matsuida somehow manages to be hideous. Rough terrain broken only by seas of gelatinous peagreen water helped earn this planet its nickname of Nausea.Matsuida is a prefecture capital as well as the headquarters of the 12th Galedon Regulars. Because of many generations of patient, nausea-proof sailors, a thriving fishing industry has developed that literally scoops up chunks of the ocean to get at the Matsuida Carp, considered a delicacy on distant Luthien.[3059] At some point in its past, the Galedon Military academy (GMA) began to concentrate on physical strength and endurance as vital to a warrior's role. As a result, academy life grew progressively more brutal until training procedures had to be modified to prevent unnecessary deaths. Located on the inhospitable world of Matsuida, the GMA offers training in each branch of warfare. A high death rate among aerospace pilot trainees, however, may lead the academy t phase out its aerospace program over the next few years.Only graduates of Galedon primary schools may enter the GMA, and all applicants must be in excellent physical condition. Academy recruiters conduct a battery of tests on several Galedon District worlds for potential candidates.Basic training includes DCMS-required skills, as well as intense physical conditioning. Cadets may not take elective courses at this stage. Even with the modifications made in recent years, GMA basic training remains among the most brutal in the Draconis Combine; for example, instructors have been known to beat a cadet badly to toughen him up. Female cadets generally receive more abuse than their male colleagues do, presumably because they need more hardening. Those cadets who survive basic training may then chose a particular military speciality - though they may also choose to take extra courses in unarmed combat or survival techniques. In spite of the abuse and exhaustion - or perhaps because of it - GMA instructors instil strong loyalty to House Kurita and to the Galedon Military Academy in each cadet. In a blend of GMA training and Luthien court ritual, cadets use the phrase my life for the Dragon to mark time between push-ups or weightlifting. A poor performance reflects on a cadet's loyalty and is punished by the nearest instructor. Legend has it that one GMA graduate who prostrated himself before Takashi Kurita to receive the Order of the Dragon said my life for the Dragon for almost four hours before becoming hoarse.GMA cadets graduate with little fanfare and go straight into the Second Galedon Regulars for two years. Those who prove themselves in combat often come back to the GMA as instructors."
+    "Details": "Despite good sun, good position, and good planet size, Matsuida somehow manages to be hideous. Rough terrain broken only by seas of gelatinous peagreen water helped earn this planet its nickname of Nausea.Matsuida is a prefecture capital as well as the he"
   },
   "Position": {
     "x": 278.4,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

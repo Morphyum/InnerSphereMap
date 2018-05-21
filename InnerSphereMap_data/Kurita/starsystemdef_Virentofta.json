@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Virentofta",
     "Name": "Virentofta",
-    "Details": "[3050] Clan Smoke Jaguars' Trinary Assault and Alpha Elemental Star, 225th Jaguar Battle Cluster, landed on top of the Seventh Hell's Brigade as they attempted to lift offplanet. Forced into a desperately uneven fight, the two 'Mechs companies and infantry battalion of the Brigade fought a raging battle across the open fields surrounding the Port Shianty starport for several hours. Finally, two points of Elementals seized the Brigades Dropships, and most of the unit died in an ill-fated attempt to recapture them.[3059] During Operation Bulldog, the fighting to retake Virentofta was especially fierce. Though greatly outnumbered by the attacking 1st FedSuns Armored Cavalry, ComStar's 31st Division, Stirling's Fusiliers and the Northwind Hussars, the defending Jaguar's forces fought to the last warrior, inflicting significant damage. "
+    "Details": "[3050] Clan Smoke Jaguars' Trinary Assault and Alpha Elemental Star, 225th Jaguar Battle Cluster, landed on top of the Seventh Hell's Brigade as they attempted to lift offplanet. Forced into a desperately uneven fight, the two 'Mechs companies and infantr"
   },
   "Position": {
     "x": 199.04,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

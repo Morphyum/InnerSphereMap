@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Payvand",
     "Name": "Payvand",
-    "Details": "[3059] Stationed on Payvand since 3016, the Stewart Dragoon's Juggernaught Regiment has a fearsome reputation. Formerly adept at assault operations, Juggernaught have shifted their tactics during their long sojourn on the Periphery border. The unit now specializes in shock raids, attacking with company-sized units and using speed and firepower to overwhelm opponents. Against Periphery pirates the tactic has proved devastating; however, save for occasional raids against the magistracy of Canopus, Juggernaught has not faced a regular military unit since being deployed to Payvand."
+    "Details": "[3059] Stationed on Payvand since 3016, the Stewart Dragoon's Juggernaught Regiment has a fearsome reputation. Formerly adept at assault operations, Juggernaught have shifted their tactics during their long sojourn on the Periphery border. The unit now sp"
   },
   "Position": {
     "x": -202.4,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

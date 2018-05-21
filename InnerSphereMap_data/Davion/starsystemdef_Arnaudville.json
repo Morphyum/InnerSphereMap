@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Arnaudville",
     "Name": "Arnaudville",
-    "Details": "[3025] The city of Amsterdam is home to the headquarters of Green Star Emergency, who represent an experiment by the Davion government to privatize certain emergency services in the frontier region of the Outback. Green Star runs and operates several old freighters and DropShips and controls a large stockpile of resources. When Green Star receives word of an emergency, such as a bandit raid or natural disaster, it quickly negotiates a contract with the stricken world, then speedily transports needed supplies and personnel to the disaster area. If this system proves successful, the Davion government will probably set up similar arrangements in other sections of the Outback."
+    "Details": "[3025] The city of Amsterdam is home to the headquarters of Green Star Emergency, who represent an experiment by the Davion government to privatize certain emergency services in the frontier region of the Outback. Green Star runs and operates several old "
   },
   "Position": {
     "x": 583.66,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

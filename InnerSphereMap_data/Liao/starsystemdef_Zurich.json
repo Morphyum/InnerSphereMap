@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zurich",
     "Name": "Zurich",
-    "Details": "Zurich is a pleasant world with a temperate atmosphere. When recent investigations into the jungles of Zurich's southern continent uncovered the remains of a Star League Dropship with three BattleMechs aboard, the planet's leaders immediately cleared the site and built a museum around the artifacts.  This popular new addition to Zurich's other numerous tourist attractions also includes an amusement park and an opera house.The military presence on Zurich is minimal.  Warriors are sometimes spacelifted there for R&R, but the lack of strategic significance and economic resources makes it one of the most benignly neglected of Liao worlds. It is, nevertheless, one of Maximilian Liao's personal favorites, and so unofficially receives tax advantages and favored trade status that has induced an artificial prosperity on the planet.The capital of Zurich is Daosha."
+    "Details": "Zurich is a pleasant world with a temperate atmosphere. When recent investigations into the jungles of Zurich's southern continent uncovered the remains of a Star League Dropship with three BattleMechs aboard, the planet's leaders immediately cleared the "
   },
   "Position": {
     "x": 20.15,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

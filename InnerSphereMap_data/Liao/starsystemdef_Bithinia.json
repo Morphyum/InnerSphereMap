@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bithinia",
     "Name": "Bithinia",
-    "Details": "One of the largest planetary-wide entertainment centers in the Confederation, Bithinia is an exclusive tourist spot catering to the richest families in (and out) of Capellan space.  It also supports itself with extensive iron and steel facilities in its southern hemisphere.  The Matsukai Warrior House regiment guards these facilities and maintains training and repair facilities on the planet. Recent evidence suggests a new underground AeroSpace maintenance facility near the planet's southern pole.Bithinia's massive steel mills made it an obvious choice for a factory during the rebuilding that followed in the wake of the Forth Succession War. Bithinian Ballistics chose to build its autocannon factory alongside a large refinery. While convenient for production, it makes for awkward defence. The refinery complex is extensive and reinforced enough to make an ideal base for any invader wanting to take the nearby ballistics plant."
+    "Details": "One of the largest planetary-wide entertainment centers in the Confederation, Bithinia is an exclusive tourist spot catering to the richest families in (and out) of Capellan space.  It also supports itself with extensive iron and steel facilities in its s"
   },
   "Position": {
     "x": -18.88,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

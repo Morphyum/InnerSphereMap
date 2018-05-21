@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Keid",
     "Name": "Keid",
-    "Details": "One of the first worlds colonized during the interstellar Exodus, Keid remained in the hands of the Terran Alliance until the breakup of the Star League in the late 28th century, when Capellan troops occupied the system without incident. Located here are extensive commercial centers. Keid has greatly benefited from reclaimed Star League technology, and today supports many military installations, extensive training facilities, and scientific research     complexes. Its pleasant climate has also attracted numerous noble families, who have carved out substantial land holdings through the generations. The planet also boasts extensive commercial ore deposits. In later years the planet also became home to several training centers for Maskirovka covert-operations personnel.After the Federated Commonwealth captured the world during the Forth Succession War, Keid - along with the other worlds of the newly named Sarna March - came under the rule of Archon Melissa Steiner-Davion. The Archon's benevolent rule seems to have fostered strong pro-Lyran loyalties among Keid's populace, loyalties that remain evident today.Despite the Population's pre-Lyran sentiments, Keid's inhabitants never developed strong loyalties to the Federated Commonwealth. Following Melissa Steiner-Davion's death, many Keidans became openly critical of Prince Victor Steiner-Davion. These sentiments apparently laid the groundwork for the short-lived anti-Davion rebellion that occurred following the recent Marik-Liao invasion of the Sarna March.The rebel leader - identified as Roland Carpenter - exploited the population's religious fervor and moral outrage as well in his attacks on Duke Joseph Hunsen. Revelations about the duke's relations with a pair of underaged twins with ties to a known agent of the Draconis Combine led to his ultimate fall from power.Within a week, however, Carpenter mysteriously disappeared, and planetary militia leaders installed the late duke's daughter, Duchess Arice Hunsen, in power. The duchess immediately ordered the execution of several rebel leaders, granted amnesty to rebel fighters and pledged her loyalty to Archon Katrina Steiner-Davion's newly proclaimed Lyran Alliance. The Archon responded by sending the Thirteenth Lyran Guards to garrison the planet.Although the planet seems firmly entrenched in the Lyran camp, Keid remains isolated from the Lyran Alliance. Kuritan peacekeepers on Rigel Kentares, ComStar troops on Terra, and the government of the newly formed Sirian Holds have all announced their intentions to prevent any military vessels from passing through their systems. However, this isolation has not yet prevented the government of Keid from espousing a pro-Lyran military and openly persecuting Davion sympathizers.Roughly three quarters of Keid is covered by saltwater oceans. The planet's landmass is comprised of three mountainous, heavily wooded continents."
+    "Details": "One of the first worlds colonized during the interstellar Exodus, Keid remained in the hands of the Terran Alliance until the breakup of the Star League in the late 28th century, when Capellan troops occupied the system without incident. Located here are "
   },
   "Position": {
     "x": 3.09,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

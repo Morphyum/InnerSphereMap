@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Csesztreg",
     "Name": "Csesztreg",
-    "Details": "[3050] Clan Wolf landed on Csesztreg in May 3050. Defending the world were the First and Second Csesztreg Militia Mechanized Infantry Regiments. Trinaries Command and Elemental, of the 352nd Assault Cluster, so devastated the defending forces at the battle of Annick Woods that the planetary government quickly surrendered to avoid further destruction.<p>[3075] Compared to the poor worlds of the Pentagon and the Kerensky Cluster, Csesztreg is an extraordinarily rich world. The abundance of raw material, especially those needed to produce battle armor and Mechs, marked the planet as one of special importance to the Hell’s Horses. Choosing Csesztreg as the site of the Clan’s new capital, Khan James Cobb has drawn up an ambitious program to develop the world into a major industrial hub. Combining the abundant local resources with prefabricated industrial units transported from the Homeworlds, Csesztreg is already producing impressive quantities of components, armor, and munitions for the repair and refitting of the Horses Touman. New battle armor and Mech production lines have been ramping up over the past year and are expected to hit maximum capacity within months.</p><p>Rather than use the overcrowded capital of Budapest, the Hell’s Horses have established their new council chambers in the city of Szrged on the continent of Somogy. The Clan’s primary genetic repository and touman headquarters are under construction nearby.</p>"
+    "Details": "[3050] Clan Wolf landed on Csesztreg in May 3050. Defending the world were the First and Second Csesztreg Militia Mechanized Infantry Regiments. Trinaries Command and Elemental, of the 352nd Assault Cluster, so devastated the defending forces at the battl"
   },
   "Position": {
     "x": -69.28,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

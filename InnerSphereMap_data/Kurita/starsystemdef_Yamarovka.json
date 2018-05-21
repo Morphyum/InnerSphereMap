@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Yamarovka",
     "Name": "Yamarovka",
-    "Details": "[3051] The Sixth Dragoons' OmniMechs of Trinary Striker tore through the defending 'Mechs of the Legion of Yamarovka. Both the Legion's companies were destroyed prior to the Elementals of Binary Elemental arriving on the planet.[3059] During Operation Bulldog, the fighting to retake Yamarovka was especially fierce and costly, for the attacking 1st Davion Guards, 8th Alshain Avengers and the 2nd Kell Hounds. The Jaguar's 11th Garrison Cluster fought to the last warrior in defence of vital facilities."
+    "Details": "[3051] The Sixth Dragoons' OmniMechs of Trinary Striker tore through the defending 'Mechs of the Legion of Yamarovka. Both the Legion's companies were destroyed prior to the Elementals of Binary Elemental arriving on the planet.[3059] During Operation Bul"
   },
   "Position": {
     "x": 111.66,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

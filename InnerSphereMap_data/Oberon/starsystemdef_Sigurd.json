@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sigurd",
     "Name": "Sigurd",
-    "Details": "Sigurd is a bitterly cold ice planet.[3049] Clan Wolf landed on Sigurd in September 3049. The Elementals and 'Mechs of the 37th Striker Cluster made short work of the Sigurd Guards, most of whom surrendered at the first sight of the frightening, strange Clan OmniMechs and Elementals."
+    "Details": "Sigurd is a bitterly cold ice planet.[3049] Clan Wolf landed on Sigurd in September 3049. The Elementals and 'Mechs of the 37th Striker Cluster made short work of the Sigurd Guards, most of whom surrendered at the first sight of the frightening, strange C"
   },
   "Position": {
     "x": -103.89,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

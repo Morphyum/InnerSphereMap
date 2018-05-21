@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Furillo",
     "Name": "Furillo",
-    "Details": "In 2992, Duke Greydon Brewer acquired the aging Tolsand factories on Furillo. Since then he has poured considerable funding into the factories, which began full production in 3023, greatly increasing Defiance Industries profits.The Snohomish Springs arm of Defiance Industries lies in the shadow of the planet's Mont Vert range. Despite Furillo's reversed seasons from a Terran-standard year, the tall mountains remain snow-capped all year long. The the corporation mines and smelts high-grade ferro-composite steel at the plant, for BattleMech and vehicle armor.[3062] The Furillo BPM has a close relationship with the military industries of Furillo. They garrison the factories of Defiance Industries, N&D, and Lockheed / CBM, and have built up strong working relationships with the corporations. The emphasis on defending the industrial sites has, however, proved unpopular with the general populace of Furillo, who accuse the BPM of placing profits before people."
+    "Details": "In 2992, Duke Greydon Brewer acquired the aging Tolsand factories on Furillo. Since then he has poured considerable funding into the factories, which began full production in 3023, greatly increasing Defiance Industries profits.The Snohomish Springs arm o"
   },
   "Position": {
     "x": -137.27,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

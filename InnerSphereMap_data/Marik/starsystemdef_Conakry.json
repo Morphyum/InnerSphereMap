@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Conakry",
     "Name": "Conakry",
-    "Details": "[2963] Thaddeus Marik felt the responsibilities of the Captain-Generalcy very deeply, and his way of coping was to get away to the remote world of Conakry, where miles of virgin beaches offered him solitude. On one such holiday, while swimming, an ocean current swept him away. Although his personal guards heard his cries for help and immediately went to his rescue, Thaddeus drowned. His son, Stephan, who was quickly confirmed as Captain-General, declared a full month of official mourning."
+    "Details": "[2963] Thaddeus Marik felt the responsibilities of the Captain-Generalcy very deeply, and his way of coping was to get away to the remote world of Conakry, where miles of virgin beaches offered him solitude. On one such holiday, while swimming, an ocean c"
   },
   "Position": {
     "x": -316.19,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

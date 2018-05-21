@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kaznejoy",
     "Name": "Kaznejoy",
-    "Details": "Kaznejov is another sun-baked world. Only its modest ore deposits prompted colonization in the early 24th century. Since then, the populace has imported life-forms to make this world more habitable. During Star League days, settlers altered the weather with satellites, mellowing the climate to a peaceful, idyllic hum. These efforts to change the environment succeeded so well that the planetary government attracted many tourists with the slogan The best planet mankind can build.After the fall of the Star League, however, all efforts to maintain the delicate manmade environment of Kaznejov were forgotten in the fighting. Now, two of the three manmade oceans have dried up completely, leaving behind a desert of crystallized salts. Having fallen into disrepair long ago, the weather satellites work only sporadically, sometimes causing great storms that whip the growing deserts with wind and lightning.The iron ore deposits, Kaznejov's only natural resource, were exhausted long ago. As there is nothing else of worth left here, the planet is losing its population. There has been talk of moving the prefecture capital from Gondovia on Kaznejov to Celeste City on nearby Waldheim. As the regimental headquarters of the 17th Galedon Regulars, Kaznejov frequently hosts skirmishes with Kurita units on the large barren deserts outside the military base.To qualify for DEST, an individual must undergo an exhautive series of physical tests, including a two-week survival course under the burning heat of Kaznejoy's deserts and a course of training in pain resistance. Those that survive these assignments, must then complete a series of mental of ideological examinations to determine his or her suitability for DEST."
+    "Details": "Kaznejov is another sun-baked world. Only its modest ore deposits prompted colonization in the early 24th century. Since then, the populace has imported life-forms to make this world more habitable. During Star League days, settlers altered the weather wi"
   },
   "Position": {
     "x": 329.46,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

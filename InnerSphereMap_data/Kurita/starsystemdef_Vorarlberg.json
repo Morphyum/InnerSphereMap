@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Vorarlberg",
     "Name": "Vorarlberg",
-    "Details": "[3051] The government of Vorarlberg sued for peace in November 3051, after the Red Keshik and Eleventh Wolf Guards decimated the defending Vorarlberg Royals battalion of 'Mechs and three regiments of infantry. The Two battles were only notable for the Royals' dogged determination and unflinching stupidity."
+    "Details": "[3051] The government of Vorarlberg sued for peace in November 3051, after the Red Keshik and Eleventh Wolf Guards decimated the defending Vorarlberg Royals battalion of 'Mechs and three regiments of infantry. The Two battles were only notable for the Roy"
   },
   "Position": {
     "x": 24.29,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Radlje",
     "Name": "Radlje",
-    "Details": "[3050] The Twelfth Rasalhagian Dragoons Free Company refused to respond to the Ghost Bears batchall in July 3050, and the insulted Bears hunted them down for three days. Tired of the chase, the Bears showed the planet's defenders little mercy when they finally caught up with them.Alpha Nova Star, of the 115th Striker Cluster, saturated the field with weapons fire and refused all offers of surrender until they had destroyed all four lances of Rasalhagian 'Mechs. Only then did the Bear's accept the surrender of the rest of the Free Company. For this undisciplined action, Star Captain Marielle Hawkins received an official reprimand and served two months on garrison duty getting to know the people she had conquered."
+    "Details": "[3050] The Twelfth Rasalhagian Dragoons Free Company refused to respond to the Ghost Bears batchall in July 3050, and the insulted Bears hunted them down for three days. Tired of the chase, the Bears showed the planet's defenders little mercy when they fi"
   },
   "Position": {
     "x": 57.63,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

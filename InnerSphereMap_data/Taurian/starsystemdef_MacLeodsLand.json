@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_MacLeodsLand",
     "Name": "MacLeod's Land",
-    "Details": "[3025] The Taurian Concordat has retained the highest literacy rate in the Periphery. Indeed, the Taurian educational system has served as a model for other states, including those of the Inner Sphere. Despite losing many educational institutions during the Reunification War, the Taurians have rebuilt their schools to pre-Star League levels, since regaining their independence. They can now boast no fewer than six universities. Located on Taurus, Samantha, Pinard, New Vandenberg, MacLeod's Land, and Euschelus, these universities graduate an average of over forty thousand students annually."
+    "Details": "[3025] The Taurian Concordat has retained the highest literacy rate in the Periphery. Indeed, the Taurian educational system has served as a model for other states, including those of the Inner Sphere. Despite losing many educational institutions during t"
   },
   "Position": {
     "x": 169.47,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

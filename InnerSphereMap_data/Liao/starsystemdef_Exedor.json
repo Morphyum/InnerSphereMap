@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Exedor",
     "Name": "Exedor",
-    "Details": "As Exedor is the home of secret House Liao personal treasures, handpicked detachments of Chesterton Reserves troops guard its underground facilities. Settled in the mid-29th century by refugees from the Third Succession War, the planet now has a tiny population supported entirely by service businesses catering to the Chesterton garrisons.  It is said that a disproportionate number of intelligence agents exist among the civilian population, however, indicated that Exedor may double as a center for analyzing data and planning covert operations.  Rumors of a secret (literally) underground population engaged in the manufacture of nuclear weapons remains unsubstantiated."
+    "Details": "As Exedor is the home of secret House Liao personal treasures, handpicked detachments of Chesterton Reserves troops guard its underground facilities. Settled in the mid-29th century by refugees from the Third Succession War, the planet now has a tiny popu"
   },
   "Position": {
     "x": -13.2,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

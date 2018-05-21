@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bangor",
     "Name": "Bangor",
-    "Details": "[3050] Clan Smoke Jaguar landed on Bangor in September 3050. Trinaries Command, Assault and Second Battle of the Jaguar Grenadiers, attacked the Second Benjamin Regulars from long range, then sent their heavy units crashing through the Regulars' lines. The Benjamin Regulars made a surprisingly orderly retreat but could not survive the Jaguars' unending onslaught. The Regulars finally fell to the Jaguars on Division Shield, a high plateau overlooking the capital city of Reega.[3059] During Operation Bulldog the Second Dieron Regulars, Warrior House Daidachi, and the First Wolf Legion Cluster assaulted Bangor. The Second Jaguar Regulars and 51st Garrison Cluster put up a strong defense, but never stood a chance against the SLDF forces arranged against them."
+    "Details": "[3050] Clan Smoke Jaguar landed on Bangor in September 3050. Trinaries Command, Assault and Second Battle of the Jaguar Grenadiers, attacked the Second Benjamin Regulars from long range, then sent their heavy units crashing through the Regulars' lines. Th"
   },
   "Position": {
     "x": 176.54,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

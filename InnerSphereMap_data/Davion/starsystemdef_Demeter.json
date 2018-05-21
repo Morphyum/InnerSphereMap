@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Demeter",
     "Name": "Demeter",
-    "Details": "Once known for possessing world-class nature reserves, Demeter is now a major staging world for the AFFS. Where naturally occurring crystalline formations - some reportedly over a kilometer in diameter - grew on the continent of Shallahandra, the ground is now covered with ferrocrete and heavy construction. Since the fall of the Star League, Demeter has been used to stage many assaults against the Capellan Confederation. The fruits of that continued aggression proved deadly to Demeter's inhabitants, however, when on a warm spring day in May 2760, a series of atomic blasts destroyed the BattleMech and Aerospace production plants of Lycomb-Davion IntraTech. The blast also decimated nearly a thousand square kilometers of Ulreich, the smallest of Demeter's three continents.For three centuries, it was believed that this area of Ulreich was uninhabitable. A recent inspection of the site revealed that the radiation had dropped to acceptable levels and, backed by the Duke of Demeter, Vicore Industries broke ground on a new industrial complex near the old site. Nine years to the day, the first lines were activated and began producing a series of electronics and mechanical equipment. The planetary capital of New Demeter City, On Demeter's largest continent of Bolan, houses the company's home offices, however.[3062] During a recent training mission in Demeter's Kuriak Mountains, the Fifth Crucis Lancers RCT lost contact with their Second and Third battalions. After three days, General Richardson dispatched a recon force from the 204th Scout. A day later he led four regiments into the mountains, where he found all his missing equipment but the remains of only a few of the 204th's soldiers. DMI investigators later uncovered a mass grave and concluded a Thuggee attack had killed Richardson's troops."
+    "Details": "Once known for possessing world-class nature reserves, Demeter is now a major staging world for the AFFS. Where naturally occurring crystalline formations - some reportedly over a kilometer in diameter - grew on the continent of Shallahandra, the ground i"
   },
   "Position": {
     "x": 91.5,
@@ -71,7 +71,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Devin",
     "Name": "Devin",
-    "Details": "Severe electrical storms and high winds rage across this desert world.[3050] The First and Second Devin Armored Battalions attempted to hold off the First Falcon Striker at the Boneyard, the crash site of an old SLDF Texas class battleship destroyed by Stefan Amaris' navy. The crash produced huge craters and mountains of wreckage, and the planet used the area as a giant salvage yard, eventually accumulating a mass of metal that rivalled Ishiyama Arena on Solaris VII. The piles of metal slowed the fighting and rendered radar and magnetic-anomaly detection devices worthless. 'Mechs and tanks often discoveredeach other at pointblank range. The Jagers managed to wipe out both armored battalions, but at the cost of two Stars of OmniMechs."
+    "Details": "Severe electrical storms and high winds rage across this desert world.[3050] The First and Second Devin Armored Battalions attempted to hold off the First Falcon Striker at the Boneyard, the crash site of an old SLDF Texas class battleship destroyed by St"
   },
   "Position": {
     "x": -110.63,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

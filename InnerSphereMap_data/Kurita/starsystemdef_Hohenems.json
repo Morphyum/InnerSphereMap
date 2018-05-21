@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hohenems",
     "Name": "Hohenems",
-    "Details": "[3050] Clan Wolf landed on Hohenems in August 3050. Supernova Command, Binary Battle, and Fighter Trinary (of the Eleventh Wolf Guards), made quick work of the defending First and Second Hohenems Militia Brigades. The Wolves avoided pitched battles by infiltrating Elementals into the enemy's rear echelons and allowing them to create havoc before the rest of the forces moved in. This strategy would be put to steady and effective use during the last stages of the Clan's invasion of the Inner Sphere."
+    "Details": "[3050] Clan Wolf landed on Hohenems in August 3050. Supernova Command, Binary Battle, and Fighter Trinary (of the Eleventh Wolf Guards), made quick work of the defending First and Second Hohenems Militia Brigades. The Wolves avoided pitched battles by inf"
   },
   "Position": {
     "x": -18.36,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Denbar",
     "Name": "Denbar",
-    "Details": "The planet is the site of a lost Star League expedition dating from the mid-27th century.  Comstar investigations have uncovered the salvageable wreckage of two large DropShips and assorted heavy machinery littered about the northern pole.  The ancient expedition had set out to investigate a mysterious signal originating on Denbar, a world that has never held a permanent settlement.  No traces of transmission equipment were ever found, nor were the remains of DropShip crews ever recovered. House Liao is currently contemplating the creation of a settlement on Denbar, though it would mainly service a military garrison that might be moved here because of the planet's strategic position."
+    "Details": "The planet is the site of a lost Star League expedition dating from the mid-27th century.  Comstar investigations have uncovered the salvageable wreckage of two large DropShips and assorted heavy machinery littered about the northern pole.  The ancient ex"
   },
   "Position": {
     "x": 69.01,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

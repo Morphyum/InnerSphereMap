@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Towne",
     "Name": "Towne",
-    "Details": "Towne is a geologically young planet with large mountains and deep oceans, but also features a diverse ecosphere, the epitome of which is the giant, shaggy, six-legged Eiglotherium. Warmer than Terra, the first colonial settlements were established on the northern Hyborian Continent. Towne was settled in the late 22nd century by an expedition mounted by eccentric trillionaire C. Augustus Pons. One of many eccentricities was his lifelong addiction to archaic fantastic fiction. He was obsessed with the works of the early twentieth century writer Robert Edwin Howard; especially his stories of a barbarian adventurer named Conan. This is why most of the planet's landmasses, continents and towns bear names related to Howard's writings.  Lying at the mouth of a river opening into a bay formed by the crater of an eons-old meteorite strike (whose shape guaranteed it would be named Circle Bay, obsession or no obsession), is the capital of Port Howard.Abundant metallic ore deposits, with copper the largest by far, are found mostly found in the planet's oceans. These deposits have formed the basis of Towne's industry, as well as a host of offshore mining platforms and underwater communities seeking to access these valuable resources. Hardwoods and cattle ranching are Towne's next most major industries, and for that reason much of the planet's imports have been in the form of industrial 'Mechs, particularly mining, construction, and forestry 'Mech designs.As a Combine-Suns border world, Towne has suffered its share of invasions during the Succession Wars, but despite it all, the planet retains much of its natural beauty.Aside from the Hyborian continent, Towne has four other landmasses, with Krom atin the south pole, Fetryl and Gherst in the southern temperate lattitudes, and the island-continent of Howell in the north, several hundred kilometers east of Hyboria. Of these landmasses, all but Krom are sparsely populated. Gherst, in fact, features the planet's second-largest city, a water-port town called Kale Bay, second only to the capital city of Port Howard. Located on the Hyborian continent, Port Howard is also home to the Price John Spaceport, Towne's major link to the galaxy at large."
+    "Details": "Towne is a geologically young planet with large mountains and deep oceans, but also features a diverse ecosphere, the epitome of which is the giant, shaggy, six-legged Eiglotherium. Warmer than Terra, the first colonial settlements were established on the"
   },
   "Position": {
     "x": 69.27,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

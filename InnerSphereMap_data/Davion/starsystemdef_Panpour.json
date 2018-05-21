@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Panpour",
     "Name": "Panpour",
-    "Details": "[3025] with its head office located in the city of Amritsar, Jalastar is one of the Federated Suns's major aerospace manufacturers. Early in the Star League days, the company acquired the rights to manufacture fighters for the Regular Army and so became privy to secret designs. One of these was the Sparrowhawk. When the Star League fell, Jalastar did not hesitate to manufacture the swift yet potent light AeroSpace Fighter for the Federated Suns.Jalastar is currently in a state of confusion. An unknown financial giant (suspected to be Federated Boeing) is attempting to buy up a controlling share of the company. The effort to stave off the takeover has drained money from the company's many research projects at just the moment when a new lighter engine for the Sparrowhawk was near completion."
+    "Details": "[3025] with its head office located in the city of Amritsar, Jalastar is one of the Federated Suns's major aerospace manufacturers. Early in the Star League days, the company acquired the rights to manufacture fighters for the Regular Army and so became p"
   },
   "Position": {
     "x": 342.49,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

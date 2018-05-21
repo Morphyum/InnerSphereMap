@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lothair",
     "Name": "Lothair",
-    "Details": "[3062] Following Archon Katherine's ascent to power on New Avalon, the Eighth Syrtis Fusiliers RCT was on eof the first AFFC units to report any significant problems with the citizenry of their assigned world. As tensions on Lothair increased, the Eighth was given instructions to keep the peace at all costs, something many of the unit's personnel were loath to do. When groups like the Citizens for Davion Purity and Action Democratic began violently clashing, new troops highly trained in anti-riot actions arrived to bolster the police forces, threatening to devolve into civil war. Rather than be forced into action against Lothair's people, the Eighth's Major General Palu removed Lothair's governor and declared martial law. She then used her Fusiliers to disarm every faction not willing to stand down and recognize her power, leading to a number of quite brief encounters with local police and anti-terrorist units. Though this action concluded in July 3062, Lothair remains under martial law until Duke Hasek appoints a new governor."
+    "Details": "[3062] Following Archon Katherine's ascent to power on New Avalon, the Eighth Syrtis Fusiliers RCT was on eof the first AFFC units to report any significant problems with the citizenry of their assigned world. As tensions on Lothair increased, the Eighth "
   },
   "Position": {
     "x": 266.23,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

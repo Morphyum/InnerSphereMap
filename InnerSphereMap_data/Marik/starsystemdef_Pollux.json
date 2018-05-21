@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pollux",
     "Name": "Pollux",
-    "Details": "[3025] Both the Free Worlds League and Lyran Commonwealth government require that all traders entering and leaving their realms submit to a vessel search. Though many agencies of the Marik government (including spaceport civilian security forces, planetary garrison personnel, and Ministry of Inspection tariff inspectors) have the authority to inspect incoming and departing vessels, such inspections are usually carried out rather perfunctorily.Pollux is one the three most popular jump points for traders entering the Commonwealth, which is quickly turning the planet into an economic boom world."
+    "Details": "[3025] Both the Free Worlds League and Lyran Commonwealth government require that all traders entering and leaving their realms submit to a vessel search. Though many agencies of the Marik government (including spaceport civilian security forces, planetar"
   },
   "Position": {
     "x": -31.52,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

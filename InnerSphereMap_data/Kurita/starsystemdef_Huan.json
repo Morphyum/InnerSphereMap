@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Huan",
     "Name": "Huan",
-    "Details": "The city of Kooya is the headquarters to Sparkling Spirits, Incorporated. The firm dates back over 200 years to the lucrative water purifying business. If it had not been for the Tsuki family's influence at Court, this all-important corporation would have been nationalized long ago. There are currently new rumors that the Interior Minister wishes to dissolve Sparkling Spirits, but it may be just another of the periodic efforts at making the Tsuki family grovel even more before the Coordinator.The capital city of Huan is Heavenly Snows."
+    "Details": "The city of Kooya is the headquarters to Sparkling Spirits, Incorporated. The firm dates back over 200 years to the lucrative water purifying business. If it had not been for the Tsuki family's influence at Court, this all-important corporation would have"
   },
   "Position": {
     "x": 304.75,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

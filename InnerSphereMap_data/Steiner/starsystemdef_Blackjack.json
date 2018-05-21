@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Blackjack",
     "Name": "Blackjack",
-    "Details": "[3025] The arid, desert world of Blackjack, is the site of the Lyran Commonwealth's only privately run military academy. The Blackjack School of Conflict was founded to tutor those who had failed the entrance exams at the other academies. If a student can afford to enrol in the Blackjack School, they will get an education similar to that of the other military schools. In addition to those standard courses, Blackjack also offers unofficial courses that deal with the shadier side of military life. It is said the going to the Nagelring will ensure its graduates a glorious warrior's funeral,  but going to Blackjack will ensure graduates a long life and the ill-gotton wealth to enjoy it. Despite this, the Commonwealth has made no move to clean up the school, for the simple reason that its graduates are excellent soldiers.In an attempt to improve corruption wihtin the military, Archon Katrina Steiner has written a new course in Military Ethics, which is now required reading for every cadet in all Commonwealth military academies, except of course for the Blackjack School of Conflict.[3050] Kommandant Dean Bristow's Blackjack training Battalion did not expect their first combat experience to be fighting Clan Jade Falcon. The outgunned and inexperienced battalion impressed the Clan warriors by fighting bravely and honorably. Despite suffering an 80% casualty rate, they mauled the Second Falcon Jaegers, and Cadet Mark Harris defeated a Clan OmniMech in an impromptu Trial of Possession for the cadet's family home. The Jade Falcons allowed the battalion to evacuate the planet, though they took some cadets as bondsmen. Many Jade Falcon warriors considered these cadets the most honorable foes the Clans had met in the Inner Sphere, and one Star Colonel later said that the Inner Sphere cadets had passed their trial of Position. Three months after the battle at Tukayyid, Cadet Mark Harris was positively identified as a Star Commander in Gyrfalcon Galaxy. Clan Steel Viper later occupied the planet in 3054, and their first act was to raze the Blackjack School of Conflict.<p>[3075] In the few years since reclaiming the world, the Falcons have managed to rebuild the Blackjack School of Conflict, renaming it the Jade Falcon School of Confict on Blackjack. While the campus was in the same location, the school has taken on a much more Clan-like appearance. Trueborns are still raised in crèches, while freeborns may try out for the school once they turn thirteen. The Falcons, however, have also added a militia school, a much shorter program for training units to protect less-important worlds that the Clan can’t afford to garrison. Much of this line of study focuses on fighting of raiders as well as search-and-rescue operations. The first class is set to graduate in 3077, but the Jihad may force cadets to be swept into the touman quicker than the trainers would like.</p>"
+    "Details": "[3025] The arid, desert world of Blackjack, is the site of the Lyran Commonwealth's only privately run military academy. The Blackjack School of Conflict was founded to tutor those who had failed the entrance exams at the other academies. If a student can"
   },
   "Position": {
     "x": -156.91,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

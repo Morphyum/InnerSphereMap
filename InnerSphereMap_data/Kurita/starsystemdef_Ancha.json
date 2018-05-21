@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ancha",
     "Name": "Ancha",
-    "Details": "The first colonies established on Ancha failed when an undetected viral taint decimated their numbers and left the survivors frail and sterile. With their transports dismantled for use as colony shelters and equipment, word of their fate went undiscovered until a second wave of colonists found their empty settlements nearly two decades later. Thanks to the records left by the first colonists, the second wave of settlers managed to find a counteragent to the virus in time to spare themselves the same fate. Today, the \"lost\" colonies of the first settlers remain on the large, southern continent of Gastiogne - a reminder of those who came before, and cared for by the descendants of the second wave as historical sites. Visitors to Ancha must receive regular inoculations against the viral taint before and during their stay.Ancha is home to numerous small industries, primarily focused on the automotive and civilian aircraft industries. Its other continent, Normandy, is home to the planetary capital of New Summit, as well as the spaceport city of Armitage."
+    "Details": "The first colonies established on Ancha failed when an undetected viral taint decimated their numbers and left the survivors frail and sterile. With their transports dismantled for use as colony shelters and equipment, word of their fate went undiscovered"
   },
   "Position": {
     "x": 75.47,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

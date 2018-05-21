@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ballynure",
     "Name": "Ballynure",
-    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance, Khan Marthe Pryde initially assigned the entire Lambda Galaxy to Bullynure in May 3064. Assuming her warriors would quickly pacify the world, she hoped to use the world as a jumping-off point for her wave two assault. The Roman's Bar Hounds regiment of the Fighting Urukhai did not allow the Falcons a quick or easy victory, though. Having spent years on the Clan front, they knew they stood no chance of fighting the Falcons on an equal footing. Instead, they waged a hit-and-run campaign against the Lambda Galaxy that last almost four months. The Second Falcon Swoop and Twenty-fourth Provisional Garrison Clusters spent the first four waves on the world, hunting down the mercenaries. But in the final week of August, the mercenaries had lost more than two thirds of their number, and with no reinforcements en route, Colonel Randy Roman pulled what was left of his command off world."
+    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance, Khan Marthe Pryde initially assigned the entire Lambda Galaxy to Bullynure in May 3064. Assuming her warriors would quickly pacify the world, she hoped to use the world as a jumping-off point "
   },
   "Position": {
     "x": -82.2,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Celano",
     "Name": "Celano",
-    "Details": "From what little information is available, Celano appears to be a warm, temperate world settled sometime in the early 3000's. It is rumored that vast stores of Star League technologies, including BattleMechs, have been discovered on the planet, the remains of a lost Star League expedition or military contingent that disappeared sometime during the Reunification War. If even half the rumors are true, the Taurians may have uncovered a source of scientific knowledge and artifacts that could substantially improve their social and military systems."
+    "Details": "From what little information is available, Celano appears to be a warm, temperate world settled sometime in the early 3000's. It is rumored that vast stores of Star League technologies, including BattleMechs, have been discovered on the planet, the remain"
   },
   "Position": {
     "x": 323.46,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

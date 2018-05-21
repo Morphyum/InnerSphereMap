@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_SigmaMare",
     "Name": "Sigma Mare",
-    "Details": "A small, cold, inhospitable world that is nevertheless overpopulated, Sigma Mare is distinguished only for being a center for geophysical/terraforming research, which has come in handing in making the planet itself livable.  For centuries, leaders of House Liao came to Sigma Mare, pronounced its potentialities impressive, and then left without actually doing anything to develop them. In recent years, there has been political intrigues here, but they are apparently local in nature; galactic politics seem to hold little interest for the natives. Horse breeders have established themselves on Sigma Mare, though on a smaller scale than on Turin."
+    "Details": "A small, cold, inhospitable world that is nevertheless overpopulated, Sigma Mare is distinguished only for being a center for geophysical/terraforming research, which has come in handing in making the planet itself livable.  For centuries, leaders of Hous"
   },
   "Position": {
     "x": 6.45,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

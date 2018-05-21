@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Elnath",
     "Name": "Elnath",
-    "Details": "When several worlds of the newly occupied Sarna March threatened to revolt against the AFFS in the early 3030s. Archon Melissa Steiner-Davion ordered Lyran troops in to the region to ease the tensions. The Fifteenth Arcturan, stationed for many years on the Periphery border and accustomed to pirate hunting, was one such unit. The new posting to Elnath was a major challenge, but one the Tigers relished.Exchanging their swift and merciless attacks for street patrols and hearts and minds campaigns, the Fifteenth built strong ties to the local community and were gradually accepted. However, the Marik-Liao invasion of the Sarna March and the secession of the Lyran Alliance ended the relationship when Colonel Wright opted to obey Archon Katherine's come home order."
+    "Details": "When several worlds of the newly occupied Sarna March threatened to revolt against the AFFS in the early 3030s. Archon Melissa Steiner-Davion ordered Lyran troops in to the region to ease the tensions. The Fifteenth Arcturan, stationed for many years on t"
   },
   "Position": {
     "x": 18.6,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

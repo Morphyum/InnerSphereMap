@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Marduk",
     "Name": "Marduk",
-    "Details": "Located on the Davion-Kurita border, Marduk is the home of the Norse Battle Mech Works. It is therefore not surprising that Marduk is the focus of considerable military attention. The planet was originally exploited for its agricultural resources. Its many regions of warm temperatures, rich soil, and gentle climates have produced a vast array of forests and jungles. Many of Marduks plant and animal forms     were valuable for export while most of the numerous colonists worked as farmers and ranchers.Just prior to the creation of the Star League, a deposit of rare metals was discovered in the center of the Tillerbee Jungle. To exploit the discovery, a huge complex of factories was built directly over the metals deposit. After the     ore has been mined it is processed in a smelter system next to the factory. The finished product travels less than a hundred meters before being turned into Griffin and Wolverine chassis. Other nearby factories make almost all the electronic and mechanical components necessary to build the 'Mechs. Only the tracking system must be imported from offworld. This complex of factories was built with such skill that it barely damaged the surrounding jungle Finished 'Mechs were lifted off Marduk from the spaceport built nearby.As the Norse BattleMech Works is one of the few nearly self-reliant 'Mech factories in the Inner Sphere, it was one of the initial targets of the First Succession War. With the factory complex nestled deep in the huge, swampy jungle, it has proved to be a formidable target. Since then, the complex has been attacked at least twelve times. Though it has fallen briefly to the Draconis Combine on two separate occasions, the planet has been providing BattleMechs for the Federated Suns almost without interruption.The capital city of Marduk is New Pontiac, the urban center closest to the Norse BattleMech works."
+    "Details": "Located on the Davion-Kurita border, Marduk is the home of the Norse Battle Mech Works. It is therefore not surprising that Marduk is the focus of considerable military attention. The planet was originally exploited for its agricultural resources. Its man"
   },
   "Position": {
     "x": 208.18,
@@ -71,7 +71,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

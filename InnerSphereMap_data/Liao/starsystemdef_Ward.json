@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ward",
     "Name": "Ward",
-    "Details": "One of the few planets in the Inner Sphere originally settled by Utopians, Ward was established during the Exodus as an experimental community based on principles of harmonic and cooperative activity.  The First Ward Constitution remains one of the most widely studied historical documents of that era.  Although the First Constitution was scrapped in 2644 for one that favored free trade and greater military activity, the principles of the original Utopians have otherwise survived to a surprising degree. A large number of Wardians are employed offworld, however.  Many are skilled construction workers who contract out en masse to build roads on the most difficult terrain of neighboring worlds.  One of the most jealously guarded industrial secrets in the Inner Sphere is the process of producing the material for building these roads.  as the substance is weather-, temperature-, and stess-resistent to a degree far beyond any other known roadbuilding material. A Capellan observation-intelligence post is located on Ward's northern polar cap."
+    "Details": "One of the few planets in the Inner Sphere originally settled by Utopians, Ward was established during the Exodus as an experimental community based on principles of harmonic and cooperative activity.  The First Ward Constitution remains one of the most w"
   },
   "Position": {
     "x": 72.1,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

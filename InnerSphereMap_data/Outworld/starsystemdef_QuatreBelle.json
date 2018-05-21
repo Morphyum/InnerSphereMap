@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_QuatreBelle",
     "Name": "Quatre Belle",
-    "Details": "<p>[3075] Beyond the borders of the Outworlds  Alliance, Quatre Belle is known only as the location of a nearly defunct Star League orbital naval yard. The long-abandoned shipyard had a life of sorts as an orbital waystation and cargo-storage facility. There was sufficient tech and personnel for minor repairs and limitedupgrades, particularly to older vessels, but for the most part theheavy shipbuilding equipment had been scavenged for parts andscrap metal generations ago. It is unclear whether pirates used theshipyards. The sprawling network of orbital dry docks was too extensive for the natives of Quatre Belle to monitor effectively, muchless defend.</p><p>Beyond the resources of the Outworlds Alliance to restore or develop, this yard is what has attracted Clan Snow Raven to Quatre Belle. Two of their Portable Manufacturing sites have taken up position within the complex. No close observation is possible, of course, but from what can be seen at range they are focusing their efforts on the Jumpship cradles. It takes no great leap of the imagination to see that a Clan so reliant on space travel would not only prize the yards highly but would have the technical wherewithal to restore and use them. Indeed, while complete restoration is no doubt years away, the only limiting factor on full production will likely be the number of Snow Raven technicians available—and the Clan’s ability to prevent the occasional act of sabotage, like the one in 3074 that nearly destroyed half of one of the new portable systems.</p>"
+    "Details": "[3075] Beyond the borders of the Outworlds  Alliance, Quatre Belle is known only as the location of a nearly defunct Star League orbital naval yard. The long-abandoned shipyard had a life of sorts as an orbital waystation and cargo-storage facility. There"
   },
   "Position": {
     "x": 481.37,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

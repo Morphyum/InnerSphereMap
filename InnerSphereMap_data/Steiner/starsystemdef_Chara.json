@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chara",
     "Name": "Chara",
-    "Details": "Chara III, a large, moonless planet in Steiner space, has proved to be one of the most contradictory places in the Inner Sphere. On one hand, the fertile soil readily accepted hybrid plants and produced fruit abundantly. The world has enough water to make it as natural paradise and to warrant garrisoning a full battalion outside the major agricultural center of Starpad. Having arrived on a placid day, the first explorer of its surface had been inspired to name the planet Pacifica.Yet anyone who has spent any time here has begun to wonder about the peacefulness implied in the world's name. Being a large body, and lacking a moon, Pacifica rotates every fourteen TST hours. TST, or Terran Synchronized Time, related the time on any world to a traditional, twenty-four hour clock set to the rising and setting of the local sun or suns. The twenty-four hour clock divided the local day into twenty-four equal periods, with 12:00 hours corresponding to local noon. A TST 'hour' was, therefore, variable. Depending on a world's actual rotation, a TST hour might be shorter than a standard, or 'metric' hour. Pacifica's fast spin gives it a thirty-five minute hour as well as an unpredictable weather situation. Sudden, unexpected rain or thunderstorms are common. As many colonists put it, if you don't like the weather here, just wait a minute and It'll change. "
+    "Details": "Chara III, a large, moonless planet in Steiner space, has proved to be one of the most contradictory places in the Inner Sphere. On one hand, the fertile soil readily accepted hybrid plants and produced fruit abundantly. The world has enough water to make"
   },
   "Position": {
     "x": -29.21,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

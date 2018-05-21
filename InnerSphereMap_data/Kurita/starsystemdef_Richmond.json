@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Richmond",
     "Name": "Richmond",
-    "Details": "In 2826, the Minnesota Tribe made one last attack against an inhabited Kurita world, hitting the world of Richmond with a vengeance.Though it was inconceivable that the Tribe could have known about the large prison and slave camps on the planet, their 'Mechs went straight for them. After easily overpowering the guards, they were soon freeing the many thousands of prisoners. Several DropShips then landed in the midst of the prison complexes to load up and transport all the freed prisoners offworld before the Kurita 'Mechs could arrive on the scene. Though no one realized it for quite awhile, the liberation of the prisoners and Unproductives on Richmond was the last time the Minnesota Tribe was seen in the Inner Sphere.[3050] Tai-sa Donald Ashira, commander of the First Alshain Regulars, responded with what the Clans considered honor to Khan Osis's batchall in March 3050. To oppose the Regulars, Khan Osis deployed two Trinaries; Ashira chose the rocky ground of the Crag gorge as the battlefield. The Kurita troops fought hard, but the Smoke Jaguar forces used their superior weapons and 'Mechs to whittle down the Regulars' greater numbers over the course of four days.Knowing they faced desperate odds, the Kurita troops swore an oath not to surrender, then made their last stand in Olderson Pass in the north wall of the gorge. The Smoke Jaguars, using the frontal assault tactics for which they later became infamous, smashed through Richmond's defenders and obliterated the Regulars. Fewer than 5% of the DCMS troops survived to become bondsmen of Clan Smoke Jaguar.[3059] During Operation Bulldog, the entire Smoke Jaguar 47th Garrison Cluster on Richmond abandoned the world, after receiving the recall order on the 13th August 3059. "
+    "Details": "In 2826, the Minnesota Tribe made one last attack against an inhabited Kurita world, hitting the world of Richmond with a vengeance.Though it was inconceivable that the Tribe could have known about the large prison and slave camps on the planet, their 'Me"
   },
   "Position": {
     "x": 130.78,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

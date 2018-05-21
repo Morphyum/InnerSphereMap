@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Leyda",
     "Name": "Leyda",
-    "Details": "The 'Mech repair facilities at Leyda, which served the Star League Regular Army during the Reunification War, still remain amongst the most efficient in the galaxy.  The world is also famous for its blue-black onyx, which is a popular staple in Free Worlds League jewellery."
+    "Details": "The 'Mech repair facilities at Leyda, which served the Star League Regular Army during the Reunification War, still remain amongst the most efficient in the galaxy.  The world is also famous for its blue-black onyx, which is a popular staple in Free World"
   },
   "Position": {
     "x": -71.09,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

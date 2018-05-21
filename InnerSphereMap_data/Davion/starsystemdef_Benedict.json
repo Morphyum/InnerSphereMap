@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Benedict",
     "Name": "Benedict",
-    "Details": "Benedict is a mineral-poor world, whose industry relies heavily on trade with Savonburg and Palmyra.[3001] Nowhere in the Federated Suns is the disparity in technology levels so apparant as on the Outback worlds. The New Avalon Theater Group's first performance of Shakespeare's Hamlet on the Outback world of Benedict came to a screeching halt early in the play when the audience fled the auditorium in terror. As the ghost of Hamlet's father appeared on stage in the first act, many in the audience of mostly poorly educated farmers gasped in astonishment and seemed unsure whether to hide under the seats or to run. They quickly came to a decision when the ghost drifted through a wall and spoke with a voice from the grave. In one huge wave of fear, the audience threw itself toward the exits, leaving behind a stageful of astonished actors. The actors later found out that the audience had never even heard of holographic projections, let alone seen one.[3062] The first sparks of the Civil War started brewing in early 3062, when Archon Katherine Steiner-Davion made the fateful decision to garrison worlds showing loyalty to her brother, with troops fanatically loyal to her. Rather than quell the growing discontent, the Archon's actions served only to fuel the flames. By the end of October 3062, huge public demonstrations against the Archon had taken place on hundreds of worlds in both nations, including Benedict."
+    "Details": "Benedict is a mineral-poor world, whose industry relies heavily on trade with Savonburg and Palmyra.[3001] Nowhere in the Federated Suns is the disparity in technology levels so apparant as on the Outback worlds. The New Avalon Theater Group's first perfo"
   },
   "Position": {
     "x": 473.29,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

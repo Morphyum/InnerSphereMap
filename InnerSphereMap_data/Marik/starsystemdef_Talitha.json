@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Talitha",
     "Name": "Talitha",
-    "Details": "One of the \"Golden Ten\" universities of the Star League, the College of Talitha speciallized in Design studies. Its students learned how to design everything from personal hygiene devices to Jumpships. There were close ties between this college and Hegemony Research and Development Centers. The Amaris forces were quick to search through its records and secret projects. They left little behind. Today the college stands abandoned.[3025] Talitha is governed by a military dictatorship."
+    "Details": "One of the \"Golden Ten\" universities of the Star League, the College of Talitha speciallized in Design studies. Its students learned how to design everything from personal hygiene devices to Jumpships. There were close ties between this college and Hegemo"
   },
   "Position": {
     "x": -34.13,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

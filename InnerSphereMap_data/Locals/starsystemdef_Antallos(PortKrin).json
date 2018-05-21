@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Antallos(PortKrin)",
     "Name": "Antallos (Port Krin)",
-    "Details": "A hot, dry world slightly smaller than Terra, Antallos consists mostly of rough terrain and hard baked deserts. A small patch of jungle runs along the equatorial belt, and the world has two small polar caps. Antallos' surface is a single land mass with no oceans. Several seas dot the surface, only one of which contains any sizable islands. In the late twenty-seventh century a conglomeration of trading companies from the Federated Suns, Draconis Combine, Outworlds Alliance and Terran Hegemony settled the Hegemony's outpost world of Antallos. Though nominally governed by the Hegemony, Antallos functioned as neutral ground and so quickly became a prosperous independent center of interstellar trade in the region. Acknowledging Antallos's growing importance, the Star League government established several bases on the planet to safeguard it against pirate raids - and also to keep an eye on the often troublesome governments of the Combine and Outworlds Alliance.Antallos became a treasure trove of high technology, and this treasure proved its undoing after the Star League's collapse. Repeated raids by the Draconis Combine forces during the First Succession War shattered the planetary government, and Antallos devolved into a collection of squabbling city-states vying for dominance as the Succession Wars raged around them.More than 30 city-states dot Antallos' surface and contain almost all of its population. To remain outside a city is to invite certain death from either the elements or marauders. In the lawless areas between the cities, known as Free Zones, gangs and nomad tribes roam in search of hapless travellers from which to steal the necessities of life. Many areas within the Free Zones are also contaminated with chemicals and other biohazards from the chemical and biological weapons used in the city-states' wars.Over centuries of war and technological backsliding, Antallos has become a hiding place for fugitives and wandering pirate bands. Along with the criminals came occasional traders, adventurers and lostech prospectors in search of whatever Star League technology might have escaped destruction. By the beginning of the thirty-first century, Antallos possessed a reputation for being a place where anything and anyone could be brought for the right price. The world reclaimed its past prominence as neutral ground for trading, but this time geared toward the underworld and criminal elements. The major center of criminal activity is Port Krin, the largest city-state of the planet."
+    "Details": "A hot, dry world slightly smaller than Terra, Antallos consists mostly of rough terrain and hard baked deserts. A small patch of jungle runs along the equatorial belt, and the world has two small polar caps. Antallos' surface is a single land mass with no"
   },
   "Position": {
     "x": 463.23,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

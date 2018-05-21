@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Baxley",
     "Name": "Baxley",
-    "Details": "Baxley has long been a Skid Row world, whose modest agriculture is barely able to feed its population. It has little mineral or metal resources, and sits on the far end of the Point Barrow-Dothan Desert, a vast volume of space without a single Human colony. These factors contribute to Baxley being one of the poorest and most ignorant of worlds in the Federated Suns. Because of the poverty and lack of educational resources on Baxley, the inhabitants treat ComStar representatives like demi-gods. Their reverence is so great that the weekly observances and classes at our station enjoy a better turnout than does the local New Avalon Catholic Church. It is not surprising then that this impoverished world provides more aspirants to our Sacred Order than any other in Davion space."
+    "Details": "Baxley has long been a Skid Row world, whose modest agriculture is barely able to feed its population. It has little mineral or metal resources, and sits on the far end of the Point Barrow-Dothan Desert, a vast volume of space without a single Human colon"
   },
   "Position": {
     "x": 432.2,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Courchevel",
     "Name": "Courchevel",
-    "Details": "[3050] Clan Smoke Jaguar landed on Courchevel in September 3050. The swift 'Mechs of the First and Second Assault supernovas, of the Jaguars 362nd Assault Cluster, overran the Tenth Alshain Regulars' hardened positions a full hour before the Regulars expected them to arrive. The Jaguars caught the Tenth in the open, and the battle quickly turned into a bloodbath. In a series of hard-fought battles, the Tenth retreated from the exposed Harcourt Plains into the rocky cover of the Dragon's Rift.Unfortunately for the Tenth, Star Colonel Emilie Wimmer had anticipated this move and sent her Command Trinary into the Rift to await the Regulars. Shortly after dawn on the second day of fighting, the battered Tenth surrendered."
+    "Details": "[3050] Clan Smoke Jaguar landed on Courchevel in September 3050. The swift 'Mechs of the First and Second Assault supernovas, of the Jaguars 362nd Assault Cluster, overran the Tenth Alshain Regulars' hardened positions a full hour before the Regulars expe"
   },
   "Position": {
     "x": 95.11,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

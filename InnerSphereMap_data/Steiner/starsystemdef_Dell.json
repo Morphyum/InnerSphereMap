@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dell",
     "Name": "Dell",
-    "Details": "[3050] Clan Wolf landed on Dell in September 3050. Defending the world were the 24th Arcturan Guards RCT. Marshal Grace Shremp, commander of the Arcturan Guards, prepared for the defense of Dell by assuming that Clan forces would attempt to slice through the heart of the planet's megaplex of Cosmopolis. Khan Ulric Kerensky did not intend to strike at the megaplex. Instead his forces hung back just outside of the Guards' defensive positions, skirmishing with the defenders.Though this did not seriously weaken the defenders' equipment of supplies, the psychological pressure proved overwhelming. Marshal Shremp finally abandoned her fortifications in an attempt to destroy the Golden Keshik and the Forth Wolf Guards. The majority of the proud Arcturan Guards met their fate in Mercer Valley, which the Wolves had mined with vibrabombs. This action marked one of the few instances in which Clan forces used such weapons. The mines, combined with interlocking kill zones, produced a carnage from which few of the Lyrans escaped."
+    "Details": "[3050] Clan Wolf landed on Dell in September 3050. Defending the world were the 24th Arcturan Guards RCT. Marshal Grace Shremp, commander of the Arcturan Guards, prepared for the defense of Dell by assuming that Clan forces would attempt to slice through "
   },
   "Position": {
     "x": -61.28,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

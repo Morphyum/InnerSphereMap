@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Claybrooke",
     "Name": "Claybrooke",
-    "Details": "Claybrooke lies on the edge of the Periphery between the Magistracy of Canopus and the Duchy of Andurien. Dame Catherine Humphreys is known to covert Claybrooke for its ranch and dairy products, as well as its natural gas and fossil fuel. She appears to be using the proximity of the Magistracy to put pressure on the leaders of Claybrooke to join the Duchy, offering favorable tariffs and other economic incentives.The military dictator of Claybrooke, Lientenant Colonel Carla Chestine, is having none of it, however. She has political problems of her own, including arguments over mineral development of Claybrooke's two moons that have begun to resemble the arguments between the Liberals and Expansionists of old Terra. In fact, Chestine is using the threat of an Andurien takeover to hold her dictatorship together, as it is the one issue on which everyone on Claybroke agrees."
+    "Details": "Claybrooke lies on the edge of the Periphery between the Magistracy of Canopus and the Duchy of Andurien. Dame Catherine Humphreys is known to covert Claybrooke for its ranch and dairy products, as well as its natural gas and fossil fuel. She appears to b"
   },
   "Position": {
     "x": -51.97,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

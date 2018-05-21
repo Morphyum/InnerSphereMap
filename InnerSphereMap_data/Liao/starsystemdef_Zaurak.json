@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zaurak",
     "Name": "Zaurak",
-    "Details": "Zaurak is a small world, with only one major city and a few minor settlements. The weather patterns on Zaurak are extremely variable. Temperatures can drop 50 degrees within an hour, creating sub-Arctic conditions. Sudden heat waves then melt the snow, leaving vast fields of mud in their wake.The capital of Zaurak is Zaurak."
+    "Details": "Zaurak is a small world, with only one major city and a few minor settlements. The weather patterns on Zaurak are extremely variable. Temperatures can drop 50 degrees within an hour, creating sub-Arctic conditions. Sudden heat waves then melt the snow, le"
   },
   "Position": {
     "x": 72.71,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

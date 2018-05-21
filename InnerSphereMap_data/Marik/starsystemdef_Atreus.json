@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Atreus",
     "Name": "Atreus",
-    "Details": "<p>[3075] The idyllic image of Atreus City was irrevocably shattered when pro-Blakist forces carried out a devastating biochemical attack on the capital in 3068. The picturesque city on the island continent of Ionia was relatively unaffected, but the chemical attacks had a horrendous effect on the populace of the city. The chromium and marble façade of the government sector became synonymous with the attack and the death of the vaunted Knights of the Inner Sphere, as well as the decimation of the Parliament. As a result, the vast majority of the Atrean public has shunned the area, preferring to remain in the commercial sectors set in the myriad of hills on which the city is built.</p><p>When Paul Marik launched his coup and installed his daughter Corinne as Captain-General in 3069, the planet saw an infux of Word of Blake members and troops, with the Word’s Fifteenth Division eventually taking up residence on the mountainous continent of Paltos, though not without several infuential  Atreans complaining loudly to the Captain-General about the imposition on their secluded retreats. The Fifteenth regularly hosts various Marik Commonwealth forces in training exercises, and even the reticent Second Free Worlds Legionnaires have made mention of the training area the Blakists have built in the rugged area.</p><p>With the onset of the Jihad, the tourist stream that so many Atreans relied on for their livelihoods has all but dried up. While the government has attempted to provide relief for those citizens affected, the real outcome is spike in unemployment. This disaffected portion of the populace has proven a fertile ground for anti-Parliament feelings, and agents from Regulus through to Alys Rousset-Marik’s resistance have been found fomenting discontent in the outer suburbs of the so-called “City of Dreams.”</p><p>Whilst not on Atreus proper, SAFE’s facility on Wendigo, Atreus’ moon, is rumored to have been compromised. Although ostensibly a secret, the  Eagle Corps “Eyrie” facility has been seen by many of the Free Worlds public as the LCCCs last line of defense. Whether that is a result of LCCC instruction or symbolic of a deeper rift remains unknown. What is known is that a Blakist Shadow Division carried out a series of maneuvers on the moon in early 3075, at the time thought to be in conjunction with the forces of the Eyrie.</p>   "
+    "Details": "[3075] The idyllic image of Atreus City was irrevocably shattered when pro-Blakist forces carried out a devastating biochemical attack on the capital in 3068. The picturesque city on the island continent of Ionia was relatively unaffected, but the chemica"
   },
   "Position": {
     "x": -191.07,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

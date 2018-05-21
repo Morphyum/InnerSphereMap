@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Larsha",
     "Name": "Larsha",
-    "Details": "Larsha is a hot, wet planet. It's capital is Kalimantan.[3033] In 3032, Chancellor Romano Liao ascended to the Celestial Throne. Opposition to her reign existed, though not for long. In 3033, the self-appointed Supreme Commander Piet Fontona was killed by a laser shot in the back shortly after he proclaimed Larsha's independence."
+    "Details": "Larsha is a hot, wet planet. It's capital is Kalimantan.[3033] In 3032, Chancellor Romano Liao ascended to the Celestial Throne. Opposition to her reign existed, though not for long. In 3033, the self-appointed Supreme Commander Piet Fontona was killed by"
   },
   "Position": {
     "x": 118.37,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

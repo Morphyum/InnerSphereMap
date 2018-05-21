@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewWestin",
     "Name": "New Westin",
-    "Details": "Situated on the northeastern landmass of New Westin, Taedang City is built almost exclusively out of the reddish variform granite which is common to the surrounding highlands.  [3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with the Capellan Confederation. Although Capellan-manufactured equipment is often considered inferior to other House products, laser pistols from New Westin have proved to be an exception to this rule. "
+    "Details": "Situated on the northeastern landmass of New Westin, Taedang City is built almost exclusively out of the reddish variform granite which is common to the surrounding highlands.  [3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has"
   },
   "Position": {
     "x": 38.25,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

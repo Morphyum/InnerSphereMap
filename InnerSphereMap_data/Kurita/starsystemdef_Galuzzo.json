@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Galuzzo",
     "Name": "Galuzzo",
-    "Details": "[3052] Clan Wolf landed on Galuzzo in February 3052. Defending the world were the First and Third Galuzzo Mechanized Brigades, comprised of one armored and two mechanized infantry regiments each. Delta Galaxy's Forth Striker Cluster experienced little trouble in defeating the militia until the defending forces launched what were essentially suicide attacks against the Clan Warriors, as they neared the planet's capital of Quiroga. A swift strike into the capital halted these destructive attacks."
+    "Details": "[3052] Clan Wolf landed on Galuzzo in February 3052. Defending the world were the First and Third Galuzzo Mechanized Brigades, comprised of one armored and two mechanized infantry regiments each. Delta Galaxy's Forth Striker Cluster experienced little tro"
   },
   "Position": {
     "x": -15.53,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

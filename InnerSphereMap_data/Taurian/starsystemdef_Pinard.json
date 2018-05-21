@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pinard",
     "Name": "Pinard",
-    "Details": "Pinard is a mineral rich world, and is also famed for its excellent regional wines, the best of which is the rare Pinard Pinot.[3025] Specializing in electronics for both commercial and military applications, Pinard-Dicolais Electronics is the largest privately owned and operated industry in the Concordat. Founded in the early 2500's by Fiona Pinard, the company saw most of its holdings seized by the Star League during the Reunification War. Nevertheless, it is presently the oldest and most viable of all Concordat corporate concerns.The Taurian Concordat has retained the highest literacy rate in the Periphery. Indeed, the Taurian educational system has served as a model for other states, including those of the Inner Sphere. Despite losing many educational institutions during the Reunification War, the Taurians have rebuilt their schools to pre-Star League levels, since regaining their independence. They can now boast no fewer than six universities. Located on Taurus, Samantha, Pinard, New Vandenberg, MacLeod's Land, and Euschelus, these universities graduate an average of over forty thousand students annually."
+    "Details": "Pinard is a mineral rich world, and is also famed for its excellent regional wines, the best of which is the rare Pinard Pinot.[3025] Specializing in electronics for both commercial and military applications, Pinard-Dicolais Electronics is the largest pri"
   },
   "Position": {
     "x": 173.96,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_PortMoseby",
     "Name": "Port Moseby",
-    "Details": "Port Moseby has become a rich business center of sprawling cities, major spaceports, and a steady traffic of JumpShips in and out of the system.  The reason for the planet's good fortune is that it is almost completely surrounded by the Draconis Combine.  Of course, this advantage could easily become the planet's downfall if House Kurita should so decide, but for now, Lyran traders ply their trade with eager customers from the Combine in Port Moseby.  It would be easier to say what is not traded on Port Moseby than what is.  The needs and wants of the Draconis Combine are legion, and the Commonwealth merchants are more than willing to fill the demand, with the usual overcharge, of course. The planet itself is rather plain.  Nondecript terrain, common weather, and the average number of hidden natural resources all tend to focus life back into the cities, where the Lyran merchants have their colorful bazaars."
+    "Details": "Port Moseby has become a rich business center of sprawling cities, major spaceports, and a steady traffic of JumpShips in and out of the system.  The reason for the planet's good fortune is that it is almost completely surrounded by the Draconis Combine. "
   },
   "Position": {
     "x": 3.35,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

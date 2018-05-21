@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Stapelfeld",
     "Name": "Stapelfeld",
-    "Details": "[3050] The thinly populated world of Stapelfeld had no defenders, and so the local government surrendered to Galaxy Commander Frederick Wimmer as soon as the Clan force landed in April 3050. Much to their chagrin, the Jaguars quickly discovered that Stapelfeld had little of value to offer them.[3059] During the forth and final wave of Operation Bulldog, the Smoke Jaguar defenders on Stapelfeld only fought long enough to satisfy their honor. With no hope of escape, the garrison Cluster commander finally negotiated Trials of Possession with their SLDF counterparts. The bidding was similar to the Nova Cat pre-emptive batchalls fought earlier in the invasion; the Jaguars knew they would lose and so planned to save face before succumbing. The First Amphigean Light Assault Group officially captured the 27th Garrison Cluster. "
+    "Details": "[3050] The thinly populated world of Stapelfeld had no defenders, and so the local government surrendered to Galaxy Commander Frederick Wimmer as soon as the Clan force landed in April 3050. Much to their chagrin, the Jaguars quickly discovered that Stape"
   },
   "Position": {
     "x": 218.16,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

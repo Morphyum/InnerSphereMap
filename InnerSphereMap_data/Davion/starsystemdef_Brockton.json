@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brockton",
     "Name": "Brockton",
-    "Details": "[3062] Drawing its recruits from the Broken Wheel and Anjin Muerto Combat Regions, the Brockton Training Battalion contains a diverse mix of cultures and personalities. Some, like the anarchists of Cogdell, do not fit in well with the military lifestyle and are expelled within the first few days. Others, like the aqua-farmers of Lackland, are keen to learn, knowing the skills they gains can be applies to the subaquatic agromechs on their homeworld. Weeding out the wasters from the potential gems is a difficult process, carried out by the unit's sergeant-instructors during the initial weeklong evaluation period. Of those who graduate to the battalion proper - roughly half of those who attend the evaluation - the pass rate is 65%, the highest in the regional cadres."
+    "Details": "[3062] Drawing its recruits from the Broken Wheel and Anjin Muerto Combat Regions, the Brockton Training Battalion contains a diverse mix of cultures and personalities. Some, like the anarchists of Cogdell, do not fit in well with the military lifestyle a"
   },
   "Position": {
     "x": 531.98,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

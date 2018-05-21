@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_SmallWorld",
     "Name": "Small World",
-    "Details": "Nearly 80% of Small World's landmass is covered by frozen tundra. The planet has a medium sized population, and almost all of these inhabitants live in five large cities located on the world's two small equatorial continents. Small World's economy is almost totally dependant on its exports of radioactive elements and minerals mined from under its frozen exterior."
+    "Details": "Nearly 80% of Small World's landmass is covered by frozen tundra. The planet has a medium sized population, and almost all of these inhabitants live in five large cities located on the world's two small equatorial continents. Small World's economy is almo"
   },
   "Position": {
     "x": 51.69,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

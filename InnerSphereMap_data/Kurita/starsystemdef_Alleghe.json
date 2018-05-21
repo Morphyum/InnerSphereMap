@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alleghe",
     "Name": "Alleghe",
-    "Details": "[3050] Clan Wolf landed on Alleghe in March 3050. Facing them were Skinner's Scimitars, a mercenary 'Mech battalion, the Second and Fifth Alleghe Tank Regiments, and the First Alleghe Infantry Regiment. The majority of the defending forces were destroyed by Supernova Assault, 37th Striker Cluster, except for one company of the Scimitars who managed to escape offworld to Rodigo. "
+    "Details": "[3050] Clan Wolf landed on Alleghe in March 3050. Facing them were Skinner's Scimitars, a mercenary 'Mech battalion, the Second and Fifth Alleghe Tank Regiments, and the First Alleghe Infantry Regiment. The majority of the defending forces were destroyed "
   },
   "Position": {
     "x": -9.83,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

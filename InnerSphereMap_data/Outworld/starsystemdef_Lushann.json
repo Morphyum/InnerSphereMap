@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lushann",
     "Name": "Lushann",
-    "Details": "A semi-arctic world, Lushann is the main source of petrochemical production and refinement in the Alliance. Because of the planet's lengthy orbit and the weakness of its parent sun, much of Lushann's northern hemisphere is covered in permafrost. Lushann is nevertheless home to over 6000 technicians and scientists as well as being the garrison world of the First Air Wing of the Forth Alliance Air Regiment. The majority of Lushann's inhabitants work for Lushann Industries, a diversified conglomerate with marginal ties to the Federated Suns. They are usually employed in underground work centers or in one of dozens of domed city enclosures that dot the planet's surface. As a diversion from the normal bleakness of life on Lushann, annual MechWarrior games are held each summer in the northern capital of Grimandi. This activity is a rare exception to the general Alliance rule of strictly limiting non-Alliance military and paramilitary experts in Outworlds space."
+    "Details": "A semi-arctic world, Lushann is the main source of petrochemical production and refinement in the Alliance. Because of the planet's lengthy orbit and the weakness of its parent sun, much of Lushann's northern hemisphere is covered in permafrost. Lushann i"
   },
   "Position": {
     "x": 449.62,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Coventry",
     "Name": "Coventry",
-    "Details": "Coventry is a pleasant, heavily industrialized world of large seas and mild seasons. Because of the favorable climate, the earlier settlers had soon turned Coventry into a major agricultural center for the Lyran worlds near the Periphery. Though it is an agricultural center to this day, the eventual discovery of major deposits of rare metals has also made the planet an industrial center.Coventry Metal Works, the second-largest BattleMech company in the Commonwealth, is located here. The discovery of another major deposit of rare metals a decade ago set off a new surge of growth in Coventry's economy. The number of native corporations in and around the cities on the planet's four continents has tripled in the last ten years. At the moment, these firms have not branched out into the larger Commonwealth market, but some like McKenzy Molecular Smelters and Greenbil Aerospace, seem on the verge of doing so.Coventry's continents are named Veracruz, Dunnigan and Chakulas. Coventry Metal Works and Port St. William, Coventy's largest city, are situated on the largest continent of Veracruz.[3025] The largest computer company in the Commonwealth, Nashan Computers makes computers that rival in complexity the best ComStar craftsmen can make. How they manage to build computers of Star League capability when other Commonwealth manufacturers can barely turn out computers of late 25th century technology is a mystery. The five Nashan Computers factories are located on Coventry.[3062] Originally known simply as the Coventry Academy, the Coventry Military Academy has never been a large school. The damage sustained in Clan Jade Falcon's 3058 attack might have been far more injurious, except for the actions of cadets and instructors alike. When the academy was attacked, they fought a bitter engagement against the invaders in the grounds of the academy itself. The defenders deliberately destroyed several buildings to prevent the structures from falling into Clan hands before they themselves were taken as bondsmen, only to be released when the Falcons withdrew.To reward the heroism of the cadets and instructors, Archon Katherine ordered that no expense be spared in rebuilding the academy. The rebuilding commenced almost immediately, but still took almost two years to be completed. During that time, surviving cadets were transferred to the Nagelring or to active service. The classes currently being educated at the academy are taught about the exploits of their predecessors and make use of new, state0of-the-art training equipment. The first class of the reformed Coventry Academy is scheduled to graduate in the summer of 3063.Leutnant-General Billie Piper, formerly an instructor at the Nagelring, commands the CMA."
+    "Details": "Coventry is a pleasant, heavily industrialized world of large seas and mild seasons. Because of the favorable climate, the earlier settlers had soon turned Coventry into a major agricultural center for the Lyran worlds near the Periphery. Though it is an "
   },
   "Position": {
     "x": -257.86,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Savinsville",
     "Name": "Savinsville",
-    "Details": "[3050] Clan Smoke Jaguar landed on Hanover in July 3050. SaKhan Sarah Weaver won the right to take Savinsville with the Shroud Keshik, but was disappointed to find her troops facing a two-bit mercenary unit - Rolling Thunder - using the same name as the more famous mercenary company of whom Wolf's Dragoons' reports had spoken. The SaKhan and the shroud Keshik made short work of the mercenaries, who broke and ran within minutes of the Clan landing.[3059] During the Forth and final wave of Operation Bulldog, the Smoke Jaguar defenders on Savinsville only fought long enough to satisfy their honor. With no hope of escape, the garrison Cluster commander finally negotiated Trials of Possession with their SLDF counterparts. The bidding was similar to the Nova Cat pre-emptive batchalls fought earlier in the invasion; the Jaguars knew they would lose and so planned to save face before succumbing. The Forth Wolf Guards Assault Cluster officially captured the Third Garrison Cluster."
+    "Details": "[3050] Clan Smoke Jaguar landed on Hanover in July 3050. SaKhan Sarah Weaver won the right to take Savinsville with the Shroud Keshik, but was disappointed to find her troops facing a two-bit mercenary unit - Rolling Thunder - using the same name as the m"
   },
   "Position": {
     "x": 141.89,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

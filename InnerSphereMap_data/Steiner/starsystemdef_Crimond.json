@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Crimond",
     "Name": "Crimond",
-    "Details": "Crimond was discovered by accident when the JumpShip Gak's Revenge misjumped into the system centuries ago. Immediately dispatching a DropShip, the captain ordered the system explored. The expedition found the planet to be rich with precious metals, stones, rare metals and vast petroleum deposits. The soil, on the other hand, was nitrogen poor, laced with minerals that would support few crops. The ship's owner Johansson Solberg, submitted a claim for the planet, with colonization on Crimond beginning shortly thereafter.Crimond has three continents, of which two have been settled and their resources exploited. On Metallerz, the largest continent, all the metal ore mines and petroleum fields are operational, including the goldmines at Vertorrous. Chromatisch is the home of one of the largest diamond mines in the Alliance. The planet's capital, Sol City, was founded on the southern coast.The standard of living on Crimond rivals some of the province capitals, including Tharkad, although its population is highly dependent on imports for food. The island continent of Condor is home to the former Star League base Fort Beaufort, which is still used today. Fort Beaufort was home to the SLDF's Fifty-Forth Mechanized Infantry Division, a unit that disappeared after the Amaris War. Condor is a mountainous desert island that has never been settled by civilians. The LAAF has classified the island off-limits.[3053] Believed destroyed or captured by Clan Wolf on Domain and Rastaban, the Federated Commonwealth was surprised when a small contingent of The Knights of St. Cameron arrived at Crimond in March 3053. Led by Colonel Mortimer Dewey, the son of former commander Felix Dewey, the survivors sent out a call for new recruits. Despite the unit's dire situation, the Colonel insisted on the continuation of the Knight's original policy of only recruiting troops whose families had served with the original SLDF."
+    "Details": "Crimond was discovered by accident when the JumpShip Gak's Revenge misjumped into the system centuries ago. Immediately dispatching a DropShip, the captain ordered the system explored. The expedition found the planet to be rich with precious metals, stone"
   },
   "Position": {
     "x": -68.52,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

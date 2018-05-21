@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Norfolk",
     "Name": "Norfolk",
-    "Details": "[3025] In the tradition of a trading nation, an eye for beauty and a sense of value go hand in hand. The arts flourish in the Free Worlds League as a by-product of the focus on trade. Created objects (plas-sculptures and abstract myomer art) and created movement (null-G dance, plays and improvisational drama) are appreciated beyond their utility, as is natural beauty. They fact that that they can be hawked or shown for gain is merely a profitable side-benefit.Some art forms rise above the profit motive, however. The Park of 'Mechs on Norfolk has drawn visitors from all over the Inner Sphere with its recreations of famous battles.[3055] For many years the League experienced a chronic shortage of PPCs and substituted large lasers for the more effective particle weapons. This shortage continued until the Thyne weapons plant opened on Norfolk."
+    "Details": "[3025] In the tradition of a trading nation, an eye for beauty and a sense of value go hand in hand. The arts flourish in the Free Worlds League as a by-product of the focus on trade. Created objects (plas-sculptures and abstract myomer art) and created m"
   },
   "Position": {
     "x": -221.66,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

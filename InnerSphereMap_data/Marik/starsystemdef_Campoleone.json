@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Campoleone",
     "Name": "Campoleone",
-    "Details": "[3025] The sparsely developed, sleepy world of Campoleone is one of the main trade routes from Marik space into the Periphery. It has an unusually large population of ex-spacers who are willing to share their knowledge of the mysterious beyond. It has become a tradition that traders who return successfully to this port, give a cut to anyone whose advise directly contributed to their success. This practise has surely increased the group's willingness to talk to outsiders.The beautiful black ginja wood is one of Campoleone's few exports.The capital of Campoleone is Ausapolis.Campoleone is governed by a feudal autocracy."
+    "Details": "[3025] The sparsely developed, sleepy world of Campoleone is one of the main trade routes from Marik space into the Periphery. It has an unusually large population of ex-spacers who are willing to share their knowledge of the mysterious beyond. It has bec"
   },
   "Position": {
     "x": -299.83,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

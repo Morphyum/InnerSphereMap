@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_St.Robert",
     "Name": "St. Robert",
-    "Details": "Between 3034 to 3037, a bloody conflict raged on St.Robert, after religious extremists staged a coup. The Tsamma CMM were called in to restore the duke to power, and fought on until the Barnet Accords brought peace to the world, though the a full regiment of the militia remained until 3042."
+    "Details": "Between 3034 to 3037, a bloody conflict raged on St.Robert, after religious extremists staged a coup. The Tsamma CMM were called in to restore the duke to power, and fought on until the Barnet Accords brought peace to the world, though the a full regiment"
   },
   "Position": {
     "x": 433.49,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tantara",
     "Name": "Tantara",
-    "Details": "[2990] It is strongly suspected that a large number of intact GOL-1H Goliaths, first introduced by Brigadier during the Star League era, were recovered from a subterranean Star League repair depot on Tantara's arctic shelf. Certainly, there is no other way to explain the fact of the 'Mech unit known as Cochraine's Goliaths containing so many of the previously non-existent assault BattleMech."
+    "Details": "[2990] It is strongly suspected that a large number of intact GOL-1H Goliaths, first introduced by Brigadier during the Star League era, were recovered from a subterranean Star League repair depot on Tantara's arctic shelf. Certainly, there is no other wa"
   },
   "Position": {
     "x": 101.31,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

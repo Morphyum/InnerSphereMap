@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Almach",
     "Name": "Almach",
-    "Details": "A major site of ocean-based sea-farming technologies now all but lost to both the Capellans and the Federated Suns, Almach once single-handedly supplied the entire food demands of the other planets of Chesterton province. There are three continents on Almach, one of which contains the largest desert in this sector of space; otherwise, the land area of Almach is lush and contains extensive government-maintained national parks and wildlife preserve areas. Almach is unusual in its ethnic makeup, being the only planet in the Inner Sphere settled almost entirely by Argentineans."
+    "Details": "A major site of ocean-based sea-farming technologies now all but lost to both the Capellans and the Federated Suns, Almach once single-handedly supplied the entire food demands of the other planets of Chesterton province. There are three continents on Alm"
   },
   "Position": {
     "x": 100.8,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

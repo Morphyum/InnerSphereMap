@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Satalice",
     "Name": "Satalice",
-    "Details": "[3051] Clan Wolf nearly captured the Gorton, Kingsley, and Thorpe plant when it was located on New Olso. The Free Rasalhague Republic managed to relocate it just in time to Satalice, a world of vast volcanic plains and harsh weather changes. The Republic was preparing to relocate the factory a second time when Satalice was overrun. The chances of such a large-scale operation succeeding a second time were slim in any case. Clan Wolf was now bypassing planets in order to strike at choice targets such as Satalice more quickly, and the people of the Republic had lost much of their fighting spirit by this time. The fact that the elite Wolf Spiders and Forth Guards Cluster were chosen to take the planet shows that the ilKhan was determined to capture this factory intact.Clan Wolf forces landed on Satalice in November 3051. Defending the world were the fanatical Third Drakøns, and the First and second Satalice Armored Divisions. The commanders of the Forth Wolf Guards and Wolf Spiders dispensed with traditional bidding in favor of wagers based on which unit would bring back the most trophies from a battle. These were defined as the unit insignia ripped off the body of an enemy 'Mech. During the first few skirmishes Överste Adrian MacGalliard, commander of the Drakøns, deduced that the two Clusters were not co-operating and shaped his strategy accordingly. He used his 'Mechs as bait to lure Clan warriors into ambushes. This strategy did not work for long because the ambushes had no effect against aerospace fighters.The action on the Blue Lava Fields, north of Hamntrakt, was of great importance, though it was not immediately obvious. The Wolf Spiders chased a Drakøn company into the huge lava and geyser fields in the arctic region of the planet. There, Star commander Phelan Wolf defeated the Drakøn company commander in one-on-one combat. The name of the defeated Drakøn was Ragner Magnusson, son of Elected Prince Haakon Magnusson. The news of the Prince's capture sent the rest of the Drakøns into retreat offworld to Skandia."
+    "Details": "[3051] Clan Wolf nearly captured the Gorton, Kingsley, and Thorpe plant when it was located on New Olso. The Free Rasalhague Republic managed to relocate it just in time to Satalice, a world of vast volcanic plains and harsh weather changes. The Republic "
   },
   "Position": {
     "x": 5.94,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

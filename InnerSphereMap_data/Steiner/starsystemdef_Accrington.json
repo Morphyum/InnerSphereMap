@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Accrington",
     "Name": "Accrington",
-    "Details": "    Founded in 3035, the Accrington FTM is one of the oldest regional militias in the Lyran Alliance, originally intended to bolster defenses against the Draconis combine. The unit faced its first test in late 3036 when, a month after spearheading the liberation of Aubison, the fifth Amphigean LAG raided Accrington. Though they outnumbered the raiders, the heavy Steiner 'Mechs faired badly against the light 'Mechs of the LAG. They were outmaneuvered and humiliated by the experienced Combine warriors, though neither force sustained any major losses. The humiliating defeat did not play well in Skye, earning scorn for the concept of regional militias.   "
+    "Details": "    Founded in 3035, the Accrington FTM is one of the oldest regional militias in the Lyran Alliance, originally intended to bolster defenses against the Draconis combine. The unit faced its first test in late 3036 when, a month after spearheading the lib"
   },
   "Position": {
     "x": -10.09,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

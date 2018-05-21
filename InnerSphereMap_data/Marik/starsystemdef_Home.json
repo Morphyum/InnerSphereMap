@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Home",
     "Name": "Home",
-    "Details": "The majority of fringe Christian groups did not fare well during humanity's transformation from a planetary to an interstellar society. Other groups, like the Amish peoples of Terran Pennsylvania who settled on Home, have taken well to mankind's widened horizens.[3025] Located on Home, Kira Place is the self-proclaimed last bastion of free thinkers in the Free Worlds League. This amazingly eclectic school is the product of a cooperative that sprang up around a vacation retreat on this beautiful, lush world.Thornton Hyadil and Muhren Dahl, professors of philosophy and economics at the Olafvik's Maarakiva University, often vacationed on Home, building castles in the air and demolishing present-day economic and philosophical practice. Others on recreational leave shared their enthusiasm for Home, and they made a pact to return there at regular intervals and practise cloud-building. The group grew to several dozen persons, who attracted small following of their own. The meetings grew more regulated, and eventually the group hung out its shingle, choosing the unorthodox name of Kira Place.It is a point of pride that Kira Place is still relatively unstructured, encouraging the loose, informal discussions that its founders so enjoyed. Hyadil still maintains that Kira place is the only place in the Free Worlds where one will hear original thought untainted by official regulation and timetables."
+    "Details": "The majority of fringe Christian groups did not fare well during humanity's transformation from a planetary to an interstellar society. Other groups, like the Amish peoples of Terran Pennsylvania who settled on Home, have taken well to mankind's widened h"
   },
   "Position": {
     "x": -278.61,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

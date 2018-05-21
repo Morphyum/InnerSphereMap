@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jesup",
     "Name": "Jesup",
-    "Details": "Jesup is a small, dry world at the outer end of the Crucis March. Despite its location at the center of a large, planetiess void, it once had a thriving tin and silver industry, which made it profitable for the Black Ball Trading Company to make the difficult journey there. in 3011, a huge vein of silver was discovered on one of Jesup's nearest neighbors, the planet Perdido. The size of the new strike and the comparative ease of traveling to the planet caused the mining industry of Jesup to collapse. Acting purely from business  considerations, the Black Ball Trading Company cut its losses and stopped service to Jesup. Mining was the planet's only industry and the freighters of the Black Ball Line were its only source of food. Thousands died on Jesup before anyone noticed.The Jesup Incident, as it came to be known, sparked a storm of protest. Most of the public's wrath was aimed at the Black Ball Trading Company for pulling out of Jesup despite being the planet's lifeline. Prince Ian Davion issued the Jesup Trade Regulations in 3013, severely re-stricting all trade and freighter services from making major changes in their routes. After the Black Ball Trading Company was forced into bankruptcy, it was bought out by White Swan Trans-Stellar, Inc. Its current operating name is Jesup Traders. Prince Ian's Trade Regulations sparked a wave of tough anti-business legislation that has carried on into Hanse Davion's reign."
+    "Details": "Jesup is a small, dry world at the outer end of the Crucis March. Despite its location at the center of a large, planetiess void, it once had a thriving tin and silver industry, which made it profitable for the Black Ball Trading Company to make the diffi"
   },
   "Position": {
     "x": 500.43,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

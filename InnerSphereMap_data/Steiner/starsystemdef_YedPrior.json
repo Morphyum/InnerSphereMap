@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_YedPrior",
     "Name": "Yed Prior",
-    "Details": "[3025] Yed Prior is a world in the throes of rebellion. As part of a program to attract more business to the planet, Duke Keskula wishes to construct a major spaceport on land owned by and considered sacred to a Shinto monastery. For several years, the Duke has made numerous offers of money, other land holdings, political favors, and anything else he could think of. The shintoists have turned a deaf ear, but the Duke is equally stubborn in refusing to look for an alternate construction site.Walther Jensen, President of the Yed Prior government, has stepped in on the side of the Shinto priests and their large forest of Yed conifers. This so enraged the Duke that he ordered elements of the planetary garrison to seize the disputed land by force. President Jensen retaliated by having the police force of the nearby city of Kezma enter the forest and dig in. The commander of the planetary garrison, Leutnant-Colonel Greston Patterson, wisely decided that the Duke's orders were an illegal use of Commonwealth weaponry. He countermanded the marching orders and confined the garrison to its bases.At the time of this writing, the private forces of Duke Keskula have surrounded the forest and its defenders in an attempt to starve them out. Riots in support of the forest defenders have broken out in many cities. An envoy from the Steiner government has arrived to attempt mediation. Curiously, a major portion of the planetary garrison has just gone on maneuvers quite near the Duke's palace, possibly to intimidate him.One of the widely known arts colleges throughout the Commonwealth, is the Mitchellson University of Arts and Crafts on Yed Prior."
+    "Details": "[3025] Yed Prior is a world in the throes of rebellion. As part of a program to attract more business to the planet, Duke Keskula wishes to construct a major spaceport on land owned by and considered sacred to a Shinto monastery. For several years, the Du"
   },
   "Position": {
     "x": -62.04,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

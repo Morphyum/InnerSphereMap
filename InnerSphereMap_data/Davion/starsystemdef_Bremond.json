@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bremond",
     "Name": "Bremond",
-    "Details": "[3062] Once regarded as a problem unit, the Bremond DMM rose to prominence under the command of Mary Tallman (now the Marshall commanding the Bremond PDFZ). Tallman rooted out corruption and lawlessness in the unit and instilled a level of professionalism and competence that would do justice to an elite line unit, let alone a March Militia. The militia's abilities stood it in good stead when it was deployed to Galtor in 3025, taking part in the last great battle of the Third Succession War.Leftenant General Syraman Simpreeni was hand-picked by Tallman to succeed her as head of the DMM when Tallman finally accepted a promotion in 3042. Sympreeni shares many of her characteristics - charisma, drive and intelligence - and has worked hard to maintain the unit's high standards. Unlike many senior officers in the Draconis March, the general is not consumed by hatred of the Draconis Combine, though he doesn't believe the peace with the Kurita family can continue indefinitely."
+    "Details": "[3062] Once regarded as a problem unit, the Bremond DMM rose to prominence under the command of Mary Tallman (now the Marshall commanding the Bremond PDFZ). Tallman rooted out corruption and lawlessness in the unit and instilled a level of professionalism"
   },
   "Position": {
     "x": 388.24,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

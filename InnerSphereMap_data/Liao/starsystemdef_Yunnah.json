@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Yunnah",
     "Name": "Yunnah",
-    "Details": "A largely uninhabited world, Yunnah recently became a large medical/repair/recovery world for persons and machines seriously injured in combat. Agricultural development is minimal, nor are there any plans to develop the mineral loads in the vast mountain tracts that cover most of Yunnah's land area.  Some seafaring activity exists on Yunnah, but it appears to be part of a quasi-religious movement based as much on the spiritual harmony with the elements as in extracting a living from the sea."
+    "Details": "A largely uninhabited world, Yunnah recently became a large medical/repair/recovery world for persons and machines seriously injured in combat. Agricultural development is minimal, nor are there any plans to develop the mineral loads in the vast mountain "
   },
   "Position": {
     "x": 27.14,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

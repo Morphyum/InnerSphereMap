@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Northwind",
     "Name": "Northwind",
-    "Details": "Northwind was founded in the early years of space exploration by Scots, Irish, and Welsh colonists, who found the temperate, foggy world very much like their homelands on Terra. Clan Stuart, one of the more prominent groups among these colonists, also brought with them a small parade company that descended from the military forces of ancient Scotland. Over time, this company ultimately grew into the famed Northwind Highlanders mercenary regiment, after the Elders of Northwind elected to form a standing defense force, starting with the Kearny Highlanders (named after Kearny, a northern mining settlement).After the collapse of the Star League, Northwind was fought over mostly by the forces of Houses Davion and Liao, both of whom used the world as a bargaining chip in securing the employment of the Highlanders. In 3057, after the breakup of the Federated Commonwealth, Northwind - and its famed Highlanders - finally won its independence from both realms. Today, the people of Northwind still cling to their Scottish, Irish, and Welsh roots, and their world is home to the Northwind Military Academy, on the continent of New Lanark, along with the planetary capital city of Tara.The largest of Northwind's continents, New Lanark is also home to \"The Castle,\" an old Star League-era fortification on the Tilman River. The industrial mining city of Kearny is located on Northwind's second-largest landmass, of the same name, while a third continent, Halidon, surrounded by the Falkirk Sea and the Argyle Islands, is home to a secondary spaceport and an annex of the Northwind Military Academy focused on aerospace combat.With its triangular green bottle and black and gold label, Cromaty Black is reknown throuhout the Inner Sphere as perhaps the finest whiskey produced outside of the Highlands of Scotland."
+    "Details": "Northwind was founded in the early years of space exploration by Scots, Irish, and Welsh colonists, who found the temperate, foggy world very much like their homelands on Terra. Clan Stuart, one of the more prominent groups among these colonists, also bro"
   },
   "Position": {
     "x": 34.11,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

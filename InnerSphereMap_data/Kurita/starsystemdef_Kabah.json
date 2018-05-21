@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kabah",
     "Name": "Kabah",
-    "Details": "[3050] Clan Smoke Jaguar landed on Kabah in June 3050. Defending the world were the two 'Mech companies of the Kabah Guards. The OmniMechs of Alpha and Bravo Stars of the Second Assault Trinary, 214th Jaguar Dragoons, defeated the Kabah Guards in a single hour-long battle on the jousting fields of Kabah Palace. Only three of the Guards survived to become bondsmen.[3059] During the Forth and final wave of Operation Bulldog, the Smoke Jaguar defenders on most of their remaining OZ worlds only fought long enough to satisfy their honor. The Seventh Garrison Cluster left behind to defend Kabah held out much longer before agreeing to Trails of Possession. Staging several delaying actions, the garrison troops hoped to hold out until ships from Matamoras to pull them off-world. Only when the Twenty-Second Dieron Regulars finally convinced the Cluster commander that no escape was forthcoming did the Cluster initiate Trials of Possession. These challenges were split evenly between the Regulars and the supporting Nova Cat Lancers."
+    "Details": "[3050] Clan Smoke Jaguar landed on Kabah in June 3050. Defending the world were the two 'Mech companies of the Kabah Guards. The OmniMechs of Alpha and Bravo Stars of the Second Assault Trinary, 214th Jaguar Dragoons, defeated the Kabah Guards in a single"
   },
   "Position": {
     "x": 207.05,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

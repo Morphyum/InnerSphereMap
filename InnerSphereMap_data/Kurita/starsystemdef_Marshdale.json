@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Marshdale",
     "Name": "Marshdale",
-    "Details": "The eighth of ten planets, Marshdale's orbit never took it close enough to either of the binary system's stars to warm up. However, the gravitational forces working on the planet squashed and stretched it regularly. This created enough friction between tectonic plates to warm the world's oceans sufficiently to sustain life, as well as creating the ground hugging clouds of fog that shroud the planet's six continents. The earthquakes produced as a by-product of this gravitational torture require that all buildings are massive constructions, but with tremors so common all long-time residents ignore all but the truly violent ones.[3051] Clan Smoke Jaguar landed on Marshdale in November 3051. Reassigned to Marshdale in the year-long lull in the Clan invasion, the Sixth Ghost Regiment had set up a complicated series of defenses across Marshdale's smallest continent. The Sixth Ghost led the Third Cavaliers on a wild chase up and down the continent, snaring more than a few of the Clan 'Mechs in the more ingenious defenses and traps.Tiring of the game, the Third's commander sent his heavy elements into the city of Drenden and ordered them to tear it up as a means of drawing the Sixth Ghost Regiment into open battle. The Sixth complied, meeting the Jaguars in Asquare Field where the troops had sown bombs and traps. Remembering their earlier experience, the Jaguars prudently sent members of the technician caste ahead of the Clan 'Mechs to trip the bombs in advance. The Cavaliers then cut a swath through to the Sixth Ghost. The Sixth made an orderly retreat to the city of Thoughnet, where the Cavaliers overtook and defeated them.[3059] During Operation Bulldog, the Ryuken-Ni, the Com Guard's Ninth Division, and the First Fusiliers of Oriente assaulted Marshdale. The Alpha Galaxy Command Trinary and Ninth Jaguar Cavaliers fought with determination and refused to abandon the world. The Galaxy Command Trinary, operating as an elite tactical strike force, severely damaged the Fusiliers, and managed to decimate a full company of the Ryuken. But the Ninth Cavaliers could not stand up to the main force of the assault, and on August 12 the Clan unit began to collapse under the relentless pressure of the Ryuken-Ni and Ninth Com Guard Division."
+    "Details": "The eighth of ten planets, Marshdale's orbit never took it close enough to either of the binary system's stars to warm up. However, the gravitational forces working on the planet squashed and stretched it regularly. This created enough friction between te"
   },
   "Position": {
     "x": 163.63,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

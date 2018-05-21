@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tsinghai",
     "Name": "Tsinghai",
-    "Details": "A modest world with a temperate climate, New Sarna, as it was called then, was originally a provincial capital under the old Sarna Supremacy.  Following the creating of the Capellan Confederation, Tsinghai became a mining world, later growing into a regional exporter of uranium and other fissionable materials.  During the Succession Wars, Tsinghai slowly became the center of a planetwide industrial complex as more and more of Sarna's commercial activities were transferred there for protection. Tsinghai has withstood numerous attacks by both Marik forces and bandits, but these have decimated the planet's once-thriving population.  Tsinghai is known today primarily for its excellent wines.  Though fallen from industrial importance, it continues to occupy a strategic location.  A regiment of Sian reserve troops is garrisoned on the planet to discourage further raiding by Marik forces.The capital city of Tsinghai is Jingdao, however the ancient and holy city of Tienshiang, within the Kwaidong mountains, is home to the leader of the Buddhist majority on Tsinghai."
+    "Details": "A modest world with a temperate climate, New Sarna, as it was called then, was originally a provincial capital under the old Sarna Supremacy.  Following the creating of the Capellan Confederation, Tsinghai became a mining world, later growing into a regio"
   },
   "Position": {
     "x": -2.85,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

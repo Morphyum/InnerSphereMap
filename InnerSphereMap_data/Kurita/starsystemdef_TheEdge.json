@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TheEdge",
     "Name": "The Edge",
-    "Details": "Bono is the capital and industrial center of The Edge.[3050] Clan Wolf landed on The Edge in March 3050. Facing them were the Outlaws, a mercenary 'Mech battalion, and the First Mechanized Brigade. The Battle of Torneträsk proved that is virtual suicide to face the Clans in set piece battles. Only two companies of Outlaws were able to escape from Supernovas Command and Second, and Alpha and Bravo Fighter Stars of the 16th Battle Cluster. "
+    "Details": "Bono is the capital and industrial center of The Edge.[3050] Clan Wolf landed on The Edge in March 3050. Facing them were the Outlaws, a mercenary 'Mech battalion, and the First Mechanized Brigade. The Battle of Torneträsk proved that is virtual suicide t"
   },
   "Position": {
     "x": -33.61,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Farstar",
     "Name": "Farstar",
-    "Details": "Farstar is rumored to serve as a base for Federated Commonwealth intelligence operations. Taken under FC control not long after the Forth Succession War, the planet lies behind a dense asteroid field two jumps away from Draconis Combine space.[3063] Clan Snow Raven claimed the resources and personnel stationed on Farstar in a Trial of Possession against the natives of the Draconis Combine and Federated Suns that lasted almost an entire six minutes."
+    "Details": "Farstar is rumored to serve as a base for Federated Commonwealth intelligence operations. Taken under FC control not long after the Forth Succession War, the planet lies behind a dense asteroid field two jumps away from Draconis Combine space.[3063] Clan "
   },
   "Position": {
     "x": 412.98,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

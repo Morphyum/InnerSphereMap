@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Byesville",
     "Name": "Byesville",
-    "Details": "[3050] Clan Smoke Jaguar landed on Byesville in September 3050. Defending the world was the Byesville Militia, consisting of an armor battalion and two battalions of infantry. In a single night, the forces of Binary Elemental (Sixth Jaguar Dragoons) found and took control of the militia's headquarters. The next morning, the militia surrendered.[3059] Byesville was attacked during the second wave of Operation Bulldog by the Eighth Sword of Light, supported by the Fifth Sun Zhang Cadre, Sixth Lyran Guards, and the First MAC. The Seventeenth Jaguar Regulars met the SLDF forces in token engagements, then retreated offworld."
+    "Details": "[3050] Clan Smoke Jaguar landed on Byesville in September 3050. Defending the world was the Byesville Militia, consisting of an armor battalion and two battalions of infantry. In a single night, the forces of Binary Elemental (Sixth Jaguar Dragoons) found"
   },
   "Position": {
     "x": 132.6,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

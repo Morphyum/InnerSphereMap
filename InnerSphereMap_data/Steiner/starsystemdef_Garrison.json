@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Garrison",
     "Name": "Garrison",
-    "Details": "In 2972, the death of Garrison's Duke, coupled with a plague of grain-rot, threw the planet into a disastrous circle of economic ruin and political ineptitude. Archon Alessandro Steiner imposed a temporary government headed by a Governor who rebuilt the economy. By the end of the decade, the eldest son of the former Duke was able to take back the reins."
+    "Details": "In 2972, the death of Garrison's Duke, coupled with a plague of grain-rot, threw the planet into a disastrous circle of economic ruin and political ineptitude. Archon Alessandro Steiner imposed a temporary government headed by a Governor who rebuilt the e"
   },
   "Position": {
     "x": -103.18,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dehgolan",
     "Name": "Dehgolan",
-    "Details": "Dehgolan - Canaris III - is that rarity among planetary subtypes, a true jungle planet. It's surface area is evenly divided between low-lying landmasses and shallow, stagnant seas. It has no axial tilt to produce seasonal variation and it possesses a dense, fetid atmosphere, which evenly distributes the heat it receives from Canaris. Under these conditions, most of Dehgolan's land area, excepting the desert uplands and open plains at the poles, is covered in dense, impenetrable jungle.Dehgolan's cities, clustered along the shores of several of the world's seas, rely heavily on fishing and water-born transport. The interior is a place where few people care to visit. There are countless tales of life forms - large, vicious, and very, very hungry - which inhabit the deep jungle.People have investigated the interior, however, and those who have returned have done so using BattleMechs. Dehgolan is a prime example of lengths to which natural selection can go to produce life forms efficient at survival. Whatever the truth behind the tales of truly enormous jungle creatures, much of the planet's native life is vicious with a bloodthirsty single-mindedness difficult for offworlder humans to understand. BattleMechs, at least, give humans an even chance when they venture into Dehgolan's interior."
+    "Details": "Dehgolan - Canaris III - is that rarity among planetary subtypes, a true jungle planet. It's surface area is evenly divided between low-lying landmasses and shallow, stagnant seas. It has no axial tilt to produce seasonal variation and it possesses a dens"
   },
   "Position": {
     "x": 5.43,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

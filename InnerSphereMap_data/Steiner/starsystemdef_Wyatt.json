@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wyatt",
     "Name": "Wyatt",
-    "Details": "Wyatt is a planet of deserts and bizarre rock formations.[2991] Much to the chargrin of Lyran forces, a Marik Liberation Unit dropped onto the Steiner world of Wyatt, infiltrated the Bowie Industries plant, and successfully stole four of the newest Chippewa fighters from there production silos."
+    "Details": "Wyatt is a planet of deserts and bizarre rock formations.[2991] Much to the chargrin of Lyran forces, a Marik Liberation Unit dropped onto the Steiner world of Wyatt, infiltrated the Bowie Industries plant, and successfully stole four of the newest Chippe"
   },
   "Position": {
     "x": -67.26,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

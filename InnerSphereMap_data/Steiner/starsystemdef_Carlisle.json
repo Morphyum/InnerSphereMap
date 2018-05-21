@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Carlisle",
     "Name": "Carlisle",
-    "Details": "The Carlisle APM draws most of its personnel from worlds in the rimward sector of Alarion Province. These are principally agricultural worlds that have been rarely troubled by war and accordingly have a low supply priority and little advanced technology. Indeed, the only conflict the militia has faced since its founding was the brief trade dispute in 3046, between cartels on the world of Lancaster. This threatened to escalate out of hand when each side hired mercenaries, so the APM was deployed as a neutral party. Initially, their purpose was to monitor the situation, but when both sides refused to heed the Lyran calls for mediation, monitoring became enforcement and the APM intervened in the conflict. They separated the disputants and met any mercenary infractions with force."
+    "Details": "The Carlisle APM draws most of its personnel from worlds in the rimward sector of Alarion Province. These are principally agricultural worlds that have been rarely troubled by war and accordingly have a low supply priority and little advanced technology. "
   },
   "Position": {
     "x": -304.98,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

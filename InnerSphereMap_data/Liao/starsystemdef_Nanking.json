@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nanking",
     "Name": "Nanking",
-    "Details": "One of the first trade centers developed during the Exodus, Nanking was incorporated into the Tikonov Union during the late 23rd century.  Today, Nanking serves as a large regional naval base and supports the Warrior House Daidachi regiment.  In addition, it is a commercial rival of Styk.  Local deposits of platinum and copper attract considerable interstellar trade and exchange.  Some 17 percent of all commerce received by the entire Capellan Confederation annually flows through Nanking.From 2901 through 2910, elements of an elite strike force (code named Red Rover) containing units of the Defenders of Andurien and the Orloff Grenadiers, conducted a series of deep penetration raids against key Liao supply depots at Aldebarran, Shensi and Nanking. The raid culminated in the daring capture of a fully laded iceship, the Silver Frost, as it prepared to depart the Buenos Aires system. With the Silver Frost in tow, the Red Rovers launched a multi-pronged assault on the then Liao desert world of Zion, routing the defending garrison from its fortifications in the Gapston mountain range.[3025] A subsidiary of Earthwerks Ltd., specializing in light and medium BattleMechs, Kallon Industries is identified with its most famous design, the Rifleman, used widely throughout the Inner Sphere. Kallon Industries plants on Asuncion and Bernado now produce BattleMechs for their current captors, House Marik. This has significantly scaled down Capellan BattleMech production capability. In recent years, Kallon has expanded into the manufacture of small arms and laser weapons systems. Though financially stable, Kallon Industries is unlikely ever to be a serious competitor of Earthwerks or comparable 'Mech producers outside the Capellan systems.Named for the importance of its 'Mech industries, the capital of Nanking is Kallontown.Nanking is also the site of one of the 16 Philotechnique Institutes. These serve the Capellan state as special post-secondary institutions. Established originally in the mid-28th century as technical and scientific training centers, the institutes today also emphasize philosophical (political) training. Admission to a Philotechnique Institute is by special recommendation of a planetary director only, and all expenses are paid by the state. Often enough, students in these institutions have previously served with distinction as members of the Ranks of the Dedicated. Graduates who are not technically oriented are placed in positions of administrative responsibility, or are recruited into the ranks of the Maskirovka."
+    "Details": "One of the first trade centers developed during the Exodus, Nanking was incorporated into the Tikonov Union during the late 23rd century.  Today, Nanking serves as a large regional naval base and supports the Warrior House Daidachi regiment.  In addition,"
   },
   "Position": {
     "x": 22.74,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 8,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

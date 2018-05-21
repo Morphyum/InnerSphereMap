@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ramora",
     "Name": "Ramora",
-    "Details": "Situated several light years beyond the junction of Davion and Kurita space, the warm, semi-tropical world of Ramora is the center of the largest weapons-producing facility in Outworlds space outside the capital. Ramora also hosts one of the newest joint Draconian-Outworlds aerospace fighter production centers, which is located along the equatorial rim of the planet and operates through one of United Outworlds Corporation's major arms production factories. The joint center is capable of producing an estimated 100 Lightning aerospace fighters annually, as well as the engineering of spare parts and machinery vital to any long-term Alliance defense plan. Ramora is also noteworthy from a cultural standpoint, for it is the nexus of the Taoist religion in Alliance space. Given its military and cultural importance, as well as its relative proximity to potential enemy attacks from over the border, Ramora maintains a permanent garrison of a battalion of Alliance Borderers. At present an estimated 13000 technicians and specialists work on this key world."
+    "Details": "Situated several light years beyond the junction of Davion and Kurita space, the warm, semi-tropical world of Ramora is the center of the largest weapons-producing facility in Outworlds space outside the capital. Ramora also hosts one of the newest joint "
   },
   "Position": {
     "x": 491.3,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

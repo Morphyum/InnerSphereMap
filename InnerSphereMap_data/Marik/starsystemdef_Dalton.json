@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dalton",
     "Name": "Dalton",
-    "Details": "In 2310, the first probe of Dalton found plentiful water, arable land, breathable air, edible lifeforms, and even mammalian lifeforms. It also found a far greater degree of seismic activity than any other planet ever settled. With so many other promising worlds available for colonization, no settlement was established on Dalton. By 2521, when another probe was made, the seismic activity had mysteriously ceased, and so settlers began emigrating there. In the five centuries that humans have lived on Dalton, there has not been a single earthquake.As Dalton is governed by a representative commonality, there has been little political upheaval. Part of the reason for this is that the leaders are careful to reward good work in every field. With no one embittered by the greater success than others, there is little basis for discomfort. Unfortunately, this system has produced almost no native art of literature, as such work cannot be fairly evaluated at the time it is produced. Creative artists tend to emigrate the first chance they get.There has been a remarkable paucity of celebrities from Dalton, at least among those who choose to remain there. The most famous individual to have come from there was Hilda Laber, Janos Marik's first wife."
+    "Details": "In 2310, the first probe of Dalton found plentiful water, arable land, breathable air, edible lifeforms, and even mammalian lifeforms. It also found a far greater degree of seismic activity than any other planet ever settled. With so many other promising "
   },
   "Position": {
     "x": -115.77,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

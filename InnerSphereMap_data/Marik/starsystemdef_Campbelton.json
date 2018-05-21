@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Campbelton",
     "Name": "Campbelton",
-    "Details": "[3054] The FWL is currently experiencing an extreme shortage of PPC's, leading to great resentment at having to export 90 percent of the Fusigon Longtooth PPC's made on Campbelton to the Federated Commonwealth. Especially galling is that many of these cannon are known to be used on the Marik-designed Griffins, captured by the Commonwealth at Oliver. Fusigon's workers are outspoken about their feelings on the matter, staging riots, attempting to deceive Commonwealth officials about production levels, sabotaging components, and striking. Thomas Marik has so far ignored these incidents. "
+    "Details": "[3054] The FWL is currently experiencing an extreme shortage of PPC's, leading to great resentment at having to export 90 percent of the Fusigon Longtooth PPC's made on Campbelton to the Federated Commonwealth. Especially galling is that many of these can"
   },
   "Position": {
     "x": -168.44,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

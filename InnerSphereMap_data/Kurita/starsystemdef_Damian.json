@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Damian",
     "Name": "Damian",
-    "Details": "[3050] Clan Ghost Bear landed on Damian in March 3050, and had high hopes of finishing off the defenders in short order, but after six days of fruitless searching they decided that the Black Omen mercenary company must have left before the Bears arrived. The Ghost Bears left a small garrison on the planet, and then moved on. Two months later, the Black Omens came out of hiding and overran the garrison forcing the Bears to retake the planet during the second wave of the invasion. The Black Omen's treachery, as the Ghost Bears see it, accounts for much of that Clan's well-known hatred of mercenaries."
+    "Details": "[3050] Clan Ghost Bear landed on Damian in March 3050, and had high hopes of finishing off the defenders in short order, but after six days of fruitless searching they decided that the Black Omen mercenary company must have left before the Bears arrived. "
   },
   "Position": {
     "x": 72.89,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

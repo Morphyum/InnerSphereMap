@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pleione",
     "Name": "Pleione",
-    "Details": "Pleione is an inhospitable place. Deserts cover 95% of the planet's landmass, and the terrain is nearly featureless save for large rock formations that dot the land. Several of these formations were turned into military bases during the Star League era. The most notable of these is a huge formation called Thunder Rock. Capellan defenders used this base during the invasion of Pleione in the Forth Succession War."
+    "Details": "Pleione is an inhospitable place. Deserts cover 95% of the planet's landmass, and the terrain is nearly featureless save for large rock formations that dot the land. Several of these formations were turned into military bases during the Star League era. T"
   },
   "Position": {
     "x": 51.43,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

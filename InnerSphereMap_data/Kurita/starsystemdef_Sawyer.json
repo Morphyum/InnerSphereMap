@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sawyer",
     "Name": "Sawyer",
-    "Details": "[3050] Clan Smoke Jaguar landed on Sawyer in May 3050. Defending the world was the Dark Horns mercenary company. The Dark Horns made their stand in Posit Woods, to the east of the capital city. The Elementals of the Alpha Nova Battle Star, 225th Jaguar Battle Cluster, spent the first day on Sawyer hunting down the dug-in mercenaries. The Elementals met the Dark Horns early on the second day and flushed them straight into the arms of the Supernova's waiting OmniMechs.[3059] During Operation Bulldog, the Nova Cat forces on Sawyer surrendered to the SLDF after a challenge involving the arcade game Slayer! (official reports state this as an aerospace simulator duel)."
+    "Details": "[3050] Clan Smoke Jaguar landed on Sawyer in May 3050. Defending the world was the Dark Horns mercenary company. The Dark Horns made their stand in Posit Woods, to the east of the capital city. The Elementals of the Alpha Nova Battle Star, 225th Jaguar Ba"
   },
   "Position": {
     "x": 250.47,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

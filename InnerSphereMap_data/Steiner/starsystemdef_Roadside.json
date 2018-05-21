@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Roadside",
     "Name": "Roadside",
-    "Details": "Colonized in the late 24th century, Roadside was selected to supply the needs of a growing population in the Lyran Commonwealth, because of its abundant fertile soil. Before the planet could be fully made home, however, the colonists had to overcome a microbe infestation in the water supply. Unbeknownst to the first colonists, the waters were infested with micro-organisms that gave colonists a variety of short-term intestinal problems, dubbed \"Roadkill.\" Once a person was over the sickness, however, he or she would never come down with it again. Microbiologists discovered that these microbes actually become part of the digestive system, helping the body become accustomed to some of the planet's indigenous plants and mammals. With more study, these same scientists were able to discover that the microbes had some beneficial effects on certain cancers of the stomach and digestive tract.Roadside has only one large continent, named Columbine. Two thirds of Columbine has been turned into agricultural centers and ranches. Claremont, the planetary capital, is located centrally in the continent. The remaining third was designated as a health retreat and game preserve.[3050] Aware that it could not win if it fought the Jade Falcons in a pitched battle, the Roadside Militia took to the hills when the Clan forces landed on-planet in June 3050. Splitting up into lance- and platoon-sized units, the militia set traps and ambushes and sprung them on individual Stars. Several Stars of the First Falcon Velites fell victim to these traps, but the surviving Falcons hunted down and killed every militia member in revenge for these dishonorable tactics. The Roadside Militia's sacrifice tied the First Velites down on the planet for almost two weeks.[3064] During the Jade Falcon Incursion, General Archer Christifori, leading his own Avenger's and the Fifteenth Arcturan Guards, hit roadside on the 3rd of October 3064. A single trinary of the Jade Falcon Solahma Cluster held this world and was summarily destroyed when, while they were defending the Tyler Munitions Factory, General Christifori ordered his 'Mechs to fire on the facility. The resulting explosion killed every Clan MechWarrior and created a shockwave that was registered over most of the world. The General waited until the first battalion of the Blue Star Irregulars' 1894th Striker arrived on-world before moving on."
+    "Details": "Colonized in the late 24th century, Roadside was selected to supply the needs of a growing population in the Lyran Commonwealth, because of its abundant fertile soil. Before the planet could be fully made home, however, the colonists had to overcome a mic"
   },
   "Position": {
     "x": -185.05,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

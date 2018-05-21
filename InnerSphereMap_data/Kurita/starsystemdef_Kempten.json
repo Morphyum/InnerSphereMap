@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kempten",
     "Name": "Kempten",
-    "Details": "[3051] Clan Ghost Bear landed on Kempten in December 3051. The Border Legion, a collection of aging warriors in ancient 'Mechs and armored vehicles, face the Clan invasion with the bleak knowledge that the Rasalhagian government could spare no troops to aid them. The warriors of the 712th Assault Trinary, Twelfth Bear Chevaliers, having heard of the Smoke Jaguars' defeat on Wolcott, were apprehensive when the Legion engaged them in batchall, but nonetheless agreed to a stand-up fight in Precious Plight, an amusement park. The Bears landed in the middle of a disorienting carnival of light and sound. Legionnaires had hung mirrors at all angles to confuse the Clan 'Mechs' scanners, and the 712th initially had difficulty spotting the enemy forces. Firing from cover, the Legion's Devastator battalion inflicted considerable damage on the stunned Bears in its opening volley. Recovering quickly, the 712th fanned out and destroyed the Legion's less-mobile tanks, then pursued the remainder of the Legion to Sacrifice Mound and destroyed them."
+    "Details": "[3051] Clan Ghost Bear landed on Kempten in December 3051. The Border Legion, a collection of aging warriors in ancient 'Mechs and armored vehicles, face the Clan invasion with the bleak knowledge that the Rasalhagian government could spare no troops to a"
   },
   "Position": {
     "x": 45.22,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

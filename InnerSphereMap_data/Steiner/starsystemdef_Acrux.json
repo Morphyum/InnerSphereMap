@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Acrux",
     "Name": "Acrux",
-    "Details": "[3025] Acrux is highly suited to agriculture. The weather is temperate and pleasant enough to allow an almost year-long growing season. The city of Illampu is home to the headquarters of Acrux Agricultural Industries. After its president absconded with most of the company's cash and assets in 3019, Acrux Agricultural underwent a major reorganization. Under new president Carma Rosado, the future of the firm seems good. It has already posted impressive first-year earnings and has made many contacts and prospective clients, both in the Commonwealth and the Free Worlds League.[3056] Acrux has recently come under attack from a terrorist organization calling itself the Farmers Liberation Resistance Movement (FLRM). The FLRM claims that Acrux is destroying their livelihood by crowding or taking over their land. The FLRM has torched many of Acrux's fields on Valloire, creating a massive loss of profit for the agricultural giant."
+    "Details": "[3025] Acrux is highly suited to agriculture. The weather is temperate and pleasant enough to allow an almost year-long growing season. The city of Illampu is home to the headquarters of Acrux Agricultural Industries. After its president absconded with mo"
   },
   "Position": {
     "x": -352.03,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

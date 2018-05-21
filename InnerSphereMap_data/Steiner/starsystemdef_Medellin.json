@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Medellin",
     "Name": "Medellin",
-    "Details": "[3064] The Chahar MTM had retreated to Medallin after being driven off Zhongshan in min-November. Arriving just days later on the 22nd at a pirate point, the MTM almost immediately faced off against the Falcons again. As part of a Falcon move to secure the worlds surrounding Melissia, the First Falcon Striker and Eighth Talon Clusters landed Medallin on the 23rd November 3064.Having been badly mauled by various Falcon units throughout the Incursion, the militia lost cohesion a day into the battle, giving the Falcons the chance to pick of scattered companies and battalions at leisure. Colonel Mason was able to get a handle on her militia two days later, organizing them enough to pull off a fighting retreat. The unit left the system on the 27th November, heading for the relative safety of the Lyran Alliance's interior.In the tenth and final wave of the counterattack, the Fifteenth Lyran Regulars followed their quick victory on Adelaide with an assault on Medallin, where the Pryde Eyrie Cluster had been stationed. Landing on the 5th of June 3065, the Regulars made short work of the Falcons, with the assistance of two armored regiments that General Steiner had managed to put together. Colonel Orsini declared victory on the 17th June, having driven the surviving four binaries of the Eyrie Cluster off world."
+    "Details": "[3064] The Chahar MTM had retreated to Medallin after being driven off Zhongshan in min-November. Arriving just days later on the 22nd at a pirate point, the MTM almost immediately faced off against the Falcons again. As part of a Falcon move to secure th"
   },
   "Position": {
     "x": -240.96,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

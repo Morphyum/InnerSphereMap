@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Colia",
     "Name": "Colia",
-    "Details": "[2872] One of the opening gambits of the Third Succession War, the Davion offensive against the Draconis Combine - Operation Pendragon - seemed to run into problems from the start. The Fourth Avalon Hussars were in deep trouble on Colia. Cut off from the rest of its force, the unit became isolated on a small continent where the Kuritans had concentrated many of their forces. Unable to hold a position long enough for evacuation, the 'Mech regiment had been on the run for three weeks, with two Kurita 'Mech regiments now closing in.Trapped finally in a dead-end valley, the commander of the Hussars realized that he and his men were probably facing their last battle. They were surrounded by mountains, and they could see the dust of 'Mechs approaching through the only pass. The one odd thing was the absence of Kurita fighters making their lives hell from the air. Yet the fight never came, and the approaching columns of smoke seemed to vanish in thin air. As the Hussars cautiously moved forward, they saw half a regiment of Kurita 'Mechs standing idle while Techs worked frantically in the innards of the metal beasts.Not ones to pass up an opportunity, the Hussars attacked immediately, leaving the Kuritans stunned and with their numbers decimated. When the Hussars interrogated some of the survivors about what had stopped their advance, they heard a true military horror story.Apparently, a snafu in procurement had resulted in the unit receiving radiation shielding intended for tanks rather than 'Mechs. The Techs had no choice but to try to adapt the shielding for the unit's machines. The shielding proved not only inappropriate, but was of such a poor grade that it disintegrated after rough usage had compromised the 'Mechs' cooling systems, forcing them to completely shut down. A similar mix-up had also kept the Kurita air support from doing its job. The Davion officers did not know what to make of this account, for the Kuritans had often turned the provision of supplies into a veritable military art."
+    "Details": "[2872] One of the opening gambits of the Third Succession War, the Davion offensive against the Draconis Combine - Operation Pendragon - seemed to run into problems from the start. The Fourth Avalon Hussars were in deep trouble on Colia. Cut off from the "
   },
   "Position": {
     "x": 357.49,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

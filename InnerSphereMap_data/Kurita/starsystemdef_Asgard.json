@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Asgard",
     "Name": "Asgard",
-    "Details": "In forming the Alliance of Galedon, the shrewd politician Shiro Kurita played various worlds fears off against each other, promising to aid one world against their neighbors, and then offer the same to these same neighbors. Eventually these political dealings came to light and within a few months, each major planetary lord had learned of the means Kurita had used to win their pledges.To some, this was an outrage. Others simply continued to honor and accept the Alliance of Galedon as an official ruling body and ally. Resistance to Kurita's authority was greatest on the worlds of Benjamin, and Asgard. The local leaders of these worlds were indignant and felt that they had been both manipulated and betrayed. Instead of taking out their aggressions on their neighbors, as had been the custom, they became hostile toward Shiro Kurita, sending numerous communiqués expressing their resentment in explicit detail.Later that month, the fleet and army of the Alliance of Galedon invaded Benjamin, and Asgard. Though neither of the planets mustered a substantial army, the citizens of each were devoted to their freedom and refused to submit peaceably. Casualties were enormous on both sides, as the defenders adopted old Terran guerrilla tactics, and the attackers used every known contemporary weapon except CBR (chemical, biological, and radioactive) warheads. In the end, Benjamin fell in October, and Asgard in August of 2312.[3052] As soon as Clan Smoke Jaguar units landed on Asgard in February 3052, the defending Third Benjamin Regulars began a round-the-clock artillery bombardment. To escape the Third's guns, the Jaguars Nineteenth Striker Cluster pushed forward in a night march and arrived at Vernon, the largest city on Asgard's southern continent, a whole day before the Regulars expected them. In a fierce battle, the Third unleashed its heavy and assault 'Mechs to tie up the attackers while the rest of it forces retreated to a secondary line near the Odin's Retreat mountains. The veteran unit dug-in and held the line for almost a month in the face of a non-stop Jaguar assault. Eventually, the assault elements of the Forth Jaguar Dragoons broke through the Third's defenses and rolled up defending unit's western flank. The Third pulled back across the Ragnorak Plains, fighting a running battle all the way to their Dropships. A little more than a battalion escaped Asgard intact.[3059] During Operation Bulldog the forces of the SLDF, including the remnants of the Regulars, assaulted Asgard. Ironically, the Forth Jaguar Hussars also took cover within the Odin's Retreat mountains, though unlike the Regulars seven years earlier, they did not survive to escape off-world."
+    "Details": "In forming the Alliance of Galedon, the shrewd politician Shiro Kurita played various worlds fears off against each other, promising to aid one world against their neighbors, and then offer the same to these same neighbors. Eventually these political deal"
   },
   "Position": {
     "x": 126.65,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

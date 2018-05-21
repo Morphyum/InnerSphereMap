@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TanhLinh",
     "Name": "Tanh Linh",
-    "Details": "[3052] When the DCMS placed the Second An Ting Legion on Tanh Linh with the 42nd Dieron Regulars - directly in the path of the oncoming Smoke Jaguar advance - both regiments prepared for heavy fighting. However, the Truce of Tukayyid forestalled the Jaguar attack, and the Combine troops assumed the Clans would rest and regroup from their losses. Thus, the Third Jaguar Cavaliers' strike against Tanh Linh only two weeks after Tukayyid came as a nasty shock.The Second An Ting Legion played a game of feint-and-strike against the Third Cavaliers, relying on its proficient night-fighting tactics to carry the bulk of the resistance. The Clan forces repeatedly tried to bring their full weight to bear against the DCMS units, but it took the better part of a week before the Smoke Jaguars caught the 42nd Dieron against a mountain range. The Clan attackers shattered two battalions before the Second An Ting could come to their rescue. Striking from the rear, the Second hammered the Smoke Jaguars against the same mountain range and the anvil created by the remnants of the Regulars. Though taking heavy losses themselves, the Legion members crippled the Cavaliers and knocked acting commander Star Captain Oleg Nevversan out of the fight. The Second An Ting managed to force the Third Jaguar Cavaliers from the field and the planet, though victory was bittersweet: the 42nd Dieron Regulars had ceased to exist as a unit."
+    "Details": "[3052] When the DCMS placed the Second An Ting Legion on Tanh Linh with the 42nd Dieron Regulars - directly in the path of the oncoming Smoke Jaguar advance - both regiments prepared for heavy fighting. However, the Truce of Tukayyid forestalled the Jagua"
   },
   "Position": {
     "x": 90.21,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

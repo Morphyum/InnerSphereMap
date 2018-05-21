@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zosma",
     "Name": "Zosma",
-    "Details": "[3025] Zosma, along with many other worlds situated along the Marik / Steiner border, has suffered much during the Succession Wars. As such Zosma simply cannot grow enough food to support itself. One of the planet's primary imports is farm machinery.Zosma's surface is covered with thick forests and with expanses of massive, irregularly shaped rock formations.Zosma is governed by a military dictatorship."
+    "Details": "[3025] Zosma, along with many other worlds situated along the Marik / Steiner border, has suffered much during the Succession Wars. As such Zosma simply cannot grow enough food to support itself. One of the planet's primary imports is farm machinery.Zosma"
   },
   "Position": {
     "x": -50.16,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

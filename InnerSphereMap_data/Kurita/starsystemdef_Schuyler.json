@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Schuyler",
     "Name": "Schuyler",
-    "Details": "Schuyler is primarily an agricultural world, though does possess some heavier industries. [3050] Clan Smoke Jaguar landed on Schuyler in June 3050. Defending the world were the survivors of the Third Alshain Regulars from Garstedt. The Jaguars intended to finish the Third, but the resupplied Regulars proved harder to defeat than the Jaguars expected. In a series of staged battles that lasted almost a week, the Third moved from spot to spot on the planet, forcing the Jaguars to expend energy and ammunition following and attacking hem.The Regulars managed to inflict so much damage on the Seventh Dragoons' Assault Trinary that Star Colonel Nevversan broke his bid and called in an extra Trinary. Before the reinforcements caught up with the Third, the Regulars had lifted offworld, once again disappearing beyond the reach of the Jaguars.The Smoke Jaguars enjoy using the Sai fighter, produced by Wakazashi Enterprises, but not because the design is particularly well-liked by the Clans. In fact they consider it an inferior craft. But using the Kuritans' own fighter against them is high comedy to the Jaguars.Most likely, the Galileo lines that produce the Monarch and the Behemoth are being reworked. The Clans favor the use of the Achilles, however, and production of that dropship will probably be accelerated.[3059] During Operation Bulldog the First Genyosha, Davion Heavy Guards RCT, First St.Ives Lancers, Forth Wolf Guard Assault Cluster, Tenth Lyran Guards, and the Com Guards 91st Division assaulted Schuyler. The Nu Galaxy Command Trinary, and the Forth and Twelfth Jaguar Regulars put up a strong defense, but the Jaguars could not stand against such a concentration of force. For three days the SLDF advanced steadily, herding the Clanners ahead of them.One Cluster broke at Olasin Fjord under pressure from the St. Ives Lancers, Wolf Guard and Com Guards. The second Cluster gained the Mitsuhama Ridge and looked determined to hold it. With the First Genyosha and Davion Heavy Guards flanking the Clan force, Precentor Martial Victor Steiner-Davion led his Tenth Lyran Guards against the Cluster. It was not until after the battle they realized they had fought an Omega Star of the Forth Jaguar Regulars, sacrificed so that the bulk of the Clan forces could escape. Having been handed several humiliating defeats, the Jaguars were fleeing the Inner Sphere en masse."
+    "Details": "Schuyler is primarily an agricultural world, though does possess some heavier industries. [3050] Clan Smoke Jaguar landed on Schuyler in June 3050. Defending the world were the survivors of the Third Alshain Regulars from Garstedt. The Jaguars intended to"
   },
   "Position": {
     "x": 122.26,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

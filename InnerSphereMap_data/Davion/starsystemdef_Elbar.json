@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Elbar",
     "Name": "Elbar",
-    "Details": "[2403] In 2403, Lord Brian Cameron went to Elbar, a world that the Hegemony had recently acquired through a joint-ownership arrangement with the Federated Suns. The planet was once an arid and inhospitable wasteland that the Federated Suns could do little to transform. When the Hegemony provided assistance in the form of a water purification plant the Elbarians were able to build a small city surrounded by farms and ranches. Lord Brian had spent some of the best years of his life on a relative's farm on Elbar, and during his visit, he rekindled fond memories by touring the new farms and ranches.During his visit to one small ranch, he was severely gored by an enraged bull. One of the Director-General's guards shot the bull, but it was too late. Though obviously in pain, Lord Brian called the ranch owner over to him. When Lord Brian asked if the bull has been important, the rancher admitted that it was his only bull and that his fortunes depended on the animal. Lord Brian told his staff to pay the rancher for the bull - when asked why, the Director said that an animal cannot be blamed for its nature, nor should a rancher be punished for a bull with a remarkable aim. He wanted to be both himself and the bull to be remembered. Brain Cameron, fifth Director-General of the Terran Hegemony, died before he could be moved to a place of care.The ranch owner took Lord Brian's remark to heart. He had the bull's head mounted and the horns, still smeared with the blood of Lord Brian, coated with plastic resin. By way of apology, he sent the mounted head to the Camerons on Terra. The family accepted the gesture and had the bull's head placed high on a wall in the main ballroom of Cameron Castle, just outside Glasgow, Scotland."
+    "Details": "[2403] In 2403, Lord Brian Cameron went to Elbar, a world that the Hegemony had recently acquired through a joint-ownership arrangement with the Federated Suns. The planet was once an arid and inhospitable wasteland that the Federated Suns could do little"
   },
   "Position": {
     "x": 126.65,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

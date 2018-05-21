@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_SimpsonDesert",
     "Name": "Simpson Desert",
-    "Details": "There are two popular explanations of how the pleasant, temperate planet of Simpson Desert got its name, neither of which is correct. The planet was first explored by Professor Waldo Wadenius Simpson, a distinguished botanist, whose Dropship landed in a desert area. The story goes that Professor Simpson mistakenly thought it was a desert world, thus the name.It is also said that Professor Simpson, upon arriving on the planet and finding how fertile it was, decided to use the old Iceland / Greenland switch, giving the productive world an unattractive name to ward off raiders. This reflects as badly on Professor Simpson's honesty as the other story reflects on his intelligence.The truth of the matter is that the name resulted from a typo. In the desert, Simpson discovered a new spice, Simpson's Delight (Waldonia Simpsonis), which is now in demand throughout the Inner Sphere. Justly famous as a flavoring agent, the bittersweet leaves of this plant were first used in a delicacy called Simpson Dessert, from which the planet got its name. Somehow, during the registration process with the bureaucracy of the Terran Hegemony, one 's' was dropped from the name, and Simpson Dessert became Simpson Desert."
+    "Details": "There are two popular explanations of how the pleasant, temperate planet of Simpson Desert got its name, neither of which is correct. The planet was first explored by Professor Waldo Wadenius Simpson, a distinguished botanist, whose Dropship landed in a d"
   },
   "Position": {
     "x": -271.59,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

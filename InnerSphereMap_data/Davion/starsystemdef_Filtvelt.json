@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Filtvelt",
     "Name": "Filtvelt",
-    "Details": "[3062] As many Filtvet Military Academy cadets like to say, their Academy is located just this side of nowhere, a phrase that aptly describes the Academy's position along the Federated Suns' spinward reaches. Like the Kilbourne Academy, the Filtvet Military Academy is devoted to educating both military cadets and civilian students from the region.The Academy does not boast any high-tech simulators or multiple copies of the Helm Star League memory core. Its staff includes no Nobel Laureates or Safka Fellows. Its only mission is to train the extraordinarily undereducated population of the Federated Suns' peripheral worlds. Because of this, a degree from Filtvet is often considered second-rate by those who attend more prestigious institutes; to most of its graduates, however, it is a ticket to a new and better life.The atmosphere within the Academy is one of ravenous competition. Many civilians and would-be cadets see the Academy as their only hope of escaping their otherwise dead-end lives and will do anything to gain admittance to the school. Many students cannot handle its academic demands and are forced to drop out, perpetuating the Academy's high turnover rate. Those cadets that do excel academically are often given the opportunity to transfer to a different academy that will continue to challenge and motivate them.Graduation from Filtvet most commonly leads to a position within the Crucis March Militia, though the regiments of the Federated Commonwealth Corps have been known to snatch some of the Academy's outstanding graduates.Major General Cluey Monserrat serves as the Academy's commandant."
+    "Details": "[3062] As many Filtvet Military Academy cadets like to say, their Academy is located just this side of nowhere, a phrase that aptly describes the Academy's position along the Federated Suns' spinward reaches. Like the Kilbourne Academy, the Filtvet Milita"
   },
   "Position": {
     "x": 506.64,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

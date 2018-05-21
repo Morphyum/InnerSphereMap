@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewAbilene",
     "Name": "New Abilene",
-    "Details": "New Abilene is a rough-and-ready border world that has been given over entirely to food production, primarily the raising of cattle and sheep. Since its settlement in 2581, the Canopians have fought with the Taurian Concordat several times over control of the planet. New Abilene is divided into a number of large baronies, millions of hectares of pasture land owned by wealthy landlords.Frequent quarrels over water rights and grazing areas have led to the introduction of \"Range Riders,\" MechWarriors in the service of a local landowner. In turn, this has led to gradually escalating range wars between bands of soldiers seeking to protect the interests of their employers. Under Magestrix Kyalla Centrella, a number of MechWarriors have been sent to New Abilene as frontier marshals, to keep the peace and re-establish law and order."
+    "Details": "New Abilene is a rough-and-ready border world that has been given over entirely to food production, primarily the raising of cattle and sheep. Since its settlement in 2581, the Canopians have fought with the Taurian Concordat several times over control of"
   },
   "Position": {
     "x": -71.64,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

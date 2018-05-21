@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_PointBarrow",
     "Name": "Point Barrow",
-    "Details": "[3025] The Point Barrow Military Academy is currently under investigation for supposed anti-Davion activities. Several anti-government bombings in the nearby capital city have been traced back to some cadets in the academy. ComStar finds the whole matter quite puzzling and it is still under investigation by ROM agents.The academy is otherwise nondescript. It cannot teach fighter pilots, but is known for the quality of its Techs and Engineers. Command of the academy is currently shared by Colonel Calvin Froshith and Major Claudia Saunders of Military Intelligence."
+    "Details": "[3025] The Point Barrow Military Academy is currently under investigation for supposed anti-Davion activities. Several anti-government bombings in the nearby capital city have been traced back to some cadets in the academy. ComStar finds the whole matter "
   },
   "Position": {
     "x": 362.92,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

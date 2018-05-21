@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bharat",
     "Name": "Bharat",
-    "Details": "Bharat is a planet-wide nature and hunting preserve for noble and commoner alike.  The variety of terrain offers highly distinctive native lifeforms; large lizard-like animals similar to the Terran Komodo dragon are abundant in the desert areas, while the forests teem with opossum-like creatures who are so agile either on the ground or in trees that only the most excellent marksman can bring one down.  Along the seacoast, there are fat but graceful land/sea mammals that seem to disappear without a trace at the first scent of humans.  In addition, there is a small mushroom-like plant that can uproot itself to move to more fertile ground or to avoid danger.  All of these lifeforms are adept at avoiding traps, and all of them are delicious."
+    "Details": "Bharat is a planet-wide nature and hunting preserve for noble and commoner alike.  The variety of terrain offers highly distinctive native lifeforms; large lizard-like animals similar to the Terran Komodo dragon are abundant in the desert areas, while the"
   },
   "Position": {
     "x": 58.93,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

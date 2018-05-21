@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Megrez",
     "Name": "Megrez",
-    "Details": "[3058] Prior to the arrival of the Sixth Marik Militia on Megrez in 3058, the primary duty of the 19th Megrez Home Guard, a light infantry regiment, was providing security for the annual beer festival and concert held near Megrez's capital city of Ammanford."
+    "Details": "[3058] Prior to the arrival of the Sixth Marik Militia on Megrez in 3058, the primary duty of the 19th Megrez Home Guard, a light infantry regiment, was providing security for the annual beer festival and concert held near Megrez's capital city of Ammanfo"
   },
   "Position": {
     "x": -211.22,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

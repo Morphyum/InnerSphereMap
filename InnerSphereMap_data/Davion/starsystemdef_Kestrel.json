@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kestrel",
     "Name": "Kestrel",
-    "Details": "Kestrel is a small agricultural world.[3062] The units assigned to the Kestrel Combat Region were called into action a number of times throughout the Succession Wars, as the Combine pushed deep into the Suns, virtually placing the unit on the front lines. Though the Kestrel CMM has not been called into active service in more than a century, the unit retains many of the trophies of war it took throughout the years, including one fully functional Star League-era Thug once piloted by Coordinator Jinjiro Kurita and the battle standard for the First Sword of Light, taken in the unsuccessful battle for Robinson in 2854.Leftenant General Vivian Petty is a career officer whose career stalled when she took command of the Kestrel Militia. Long past recriminations and resentment, Petty is now content with her position. Since her headquarters was a virtual museum of the AFFS history when she took charge of the unit, she has turned it into just that, earning a doctoral degree in history and sociology and eventually becoming the Crucis March's official historian."
+    "Details": "Kestrel is a small agricultural world.[3062] The units assigned to the Kestrel Combat Region were called into action a number of times throughout the Succession Wars, as the Combine pushed deep into the Suns, virtually placing the unit on the front lines."
   },
   "Position": {
     "x": 268.31,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

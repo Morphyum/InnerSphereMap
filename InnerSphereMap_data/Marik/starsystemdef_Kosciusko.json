@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kosciusko",
     "Name": "Kosciusko",
-    "Details": "[3025] Generations of fighting have ravaged the four-world province of Tamarind, destroying its industries and impoverishing its people. During the last dozen years, the province has enjoyed something of a renaissance, due to the discovery of radioactives on the outer worlds of the Kosciusko system."
+    "Details": "[3025] Generations of fighting have ravaged the four-world province of Tamarind, destroying its industries and impoverishing its people. During the last dozen years, the province has enjoyed something of a renaissance, due to the discovery of radioactives"
   },
   "Position": {
     "x": -302.71,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

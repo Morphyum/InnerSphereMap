@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mirach",
     "Name": "Mirach",
-    "Details": "Mirach's sky is dominated by its huge, swollen, dying red sun. The geological record on Mirach shows that it was long a frozen, uninhabitable planet, until its parent star entered the current phase of its life cycle. As a result, the thick glaciers that once covered Mirach's ores and minerals have melted, and no erosion or life-forms have had a chance to cover its riches with soil. Mirach's readily accessible riches granted it considerable power in its early history. Mirach's government laid claim to nearby planets like Mira, Mesartim, and Almach. However, Mirach's wealth attracted more-powerful states, including the Federated Suns, the Tikonov Union, and the Marlette Association, which fought several battles over the planet, dashing Mirach's hopes of empire. After the Tikonov Union joined the Capellan Confederation, the Terran Hegemony and House Liao jointly administered Mirach, with the world falling wholly into House Liao's hands at the end of the First Star League. Mirach remained under House Liao until the Third Succession War, when House Davion conquered the world.Mirach's capital of Cingulum lies on the continent of Musasalah. Mirach's other major landmass is Ventrale."
+    "Details": "Mirach's sky is dominated by its huge, swollen, dying red sun. The geological record on Mirach shows that it was long a frozen, uninhabitable planet, until its parent star entered the current phase of its life cycle. As a result, the thick glaciers that o"
   },
   "Position": {
     "x": 108.82,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

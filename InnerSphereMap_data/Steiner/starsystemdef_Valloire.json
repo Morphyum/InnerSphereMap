@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Valloire",
     "Name": "Valloire",
-    "Details": "Valloire is well suited to agriculture. The weather is temperate and pleasant enough to allow an almost year-long growing season. Acrux Agricultural Industries maintains a large presence on Valloire.[3056] Acrux Agricultural has recently come under attack from a terrorist organization calling itself the Farmers Liberation Resistance Movement (FLRM). The FLRM claims that Acrux is destroying their livelihood by crowding or taking over their land. The FLRM has torched many of Acrux's fields on Valloire, creating a massive loss of profit for the agricultural giant."
+    "Details": "Valloire is well suited to agriculture. The weather is temperate and pleasant enough to allow an almost year-long growing season. Acrux Agricultural Industries maintains a large presence on Valloire.[3056] Acrux Agricultural has recently come under attack"
   },
   "Position": {
     "x": -384.09,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

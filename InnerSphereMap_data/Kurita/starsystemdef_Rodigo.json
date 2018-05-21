@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rodigo",
     "Name": "Rodigo",
-    "Details": "Alexis is the capital of Rodigo.[3050] Clan Wolf landed on Rodigo in May 3050. Defending the world were the remnants of The Outlaws and Skinner's Scimitar (a total of two reinforced mercenary 'Mech lances), and the First New Starburg Mechanized Cavalry Regiment. The OmniMechs of Trinary Command, Eleventh Battle Cluster, were almost immediately pinned inside New Starburg by the swift vehicles of the Cavalry Regiment combined with the mercenaries 'Mechs.Reluctantly, and with great embarrassment, Star Colonel Abioseh Winson broke his bid and requested assistance from Star Colonel Dwilt Radick of the 16th Battle Cluster."
+    "Details": "Alexis is the capital of Rodigo.[3050] Clan Wolf landed on Rodigo in May 3050. Defending the world were the remnants of The Outlaws and Skinner's Scimitar (a total of two reinforced mercenary 'Mech lances), and the First New Starburg Mechanized Cavalry Re"
   },
   "Position": {
     "x": -17.32,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

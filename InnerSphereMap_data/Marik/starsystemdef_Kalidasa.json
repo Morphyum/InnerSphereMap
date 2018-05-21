@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kalidasa",
     "Name": "Kalidasa",
-    "Details": "The wealthy world of Kalidasa, an independent duchy a single jump away from the Marik/Steiner border, still possesses some functioning 'Mech production facilities. The planet's climate is hot, with a thin atmosphere, high winds, and searing sandstorms that make it quite inhospitable (and historically difficult to seize). [3025] Kalidasa is one of the major ports of entry for traders entering League space along the Lyran border. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profitable market (legal or otherwise) for virtually any commodity.Both the Free Worlds League and Lyran Commonwealth government require that all traders entering and leaving their realms submit to a vessel search. Though many agencies of the Marik government (including spaceport civilian security forces, planetary garrison personnel, and Ministry of Inspection tariff inspectors) have the authority to inspect incoming and departing vessels, such inspections are usually carried out rather perfunctorily.[3054] The FWL's lack of armor production facilities has led them to welcome with open arms even the dubious manufacturing process of the Quikscell Company."
+    "Details": "The wealthy world of Kalidasa, an independent duchy a single jump away from the Marik/Steiner border, still possesses some functioning 'Mech production facilities. The planet's climate is hot, with a thin atmosphere, high winds, and searing sandstorms tha"
   },
   "Position": {
     "x": -105.76,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

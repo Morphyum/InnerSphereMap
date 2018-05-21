@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thannhausen",
     "Name": "Thannhausen",
-    "Details": "[3051] The First and Second Thannhausen Brigades managed to erect an effective defense that kept the Mixed Service Trinaries, of the Wolves Forth Striker Cluster, away from the industrial complexes of Finton and Greech when they landed onworld in November 3051. A series of heavy thunderstorms, however, provided the Clan warriors with convenient cover that allowed them to infiltrate several Elemental and OmniMechs Stars to hit the Thannhausen communication and command centers. The commander of the militia, a grizzled retiree from the old Lyran military, surrendered."
+    "Details": "[3051] The First and Second Thannhausen Brigades managed to erect an effective defense that kept the Mixed Service Trinaries, of the Wolves Forth Striker Cluster, away from the industrial complexes of Finton and Greech when they landed onworld in November"
   },
   "Position": {
     "x": -8.54,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

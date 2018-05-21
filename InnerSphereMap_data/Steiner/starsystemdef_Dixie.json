@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dixie",
     "Name": "Dixie",
-    "Details": "[3062] A major center for the Replacement Depot Corps and staging post for attacks against the Free Worlds League, the people of Dixie have a long tradition of martial excellence and resilience, making the planet an ideal location for a regional militia and HQ. Though no longer associated with a regional command center, the militia continues to play a major role in guarding the planet's supply depots. However, the Free Worlds Guard's strike against Dixie in 3050 on the eve of the Clan invasion created doubts about the Dixie CTM's abilities. The unit has rebuilt and operational procedures tightened, but the High Command has ordered the Dixie caches to be fortified against the eventuality of renewed war against the FWL."
+    "Details": "[3062] A major center for the Replacement Depot Corps and staging post for attacks against the Free Worlds League, the people of Dixie have a long tradition of martial excellence and resilience, making the planet an ideal location for a regional militia a"
   },
   "Position": {
     "x": -253.84,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

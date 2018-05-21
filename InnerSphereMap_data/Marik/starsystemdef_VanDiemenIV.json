@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_VanDiemenIV",
     "Name": "Van Diemen IV",
-    "Details": "The one wise and constructive act of Prince Joseph Davion's entire reign was the Armistice of Van Diemen IV. In 2903, a particularly wasteful aerospace battle for the Liao mining colony of Van Diemen IV left the Capellans anxious for a temporary cease-fire with the Federated Suns. After communicating their desire to negotiate, they waited.High government officials tried to locate Prince Joseph, who was leading an assault on the Draconis front, far from New Avalon. When they finally were able to pass on the message from the Capellans, Joseph replied that he scorned any talk of peace that did not come from the end of his gun. No matter what the government officials said about the advantages of a cease-fire, Joseph would not budge. When he would no longer listen to their arguments, several officials sought help from the Marshals of the High Command, who also agreed to talk to Prince Joseph. It was they who finally managed to persuade the Prince that a cease-fire on the Capellan front would allow him to conserve supplies for the wars against the Draconis Combine as well as giving him the image of a peacemaker in his people's eyes.The Armistice was signed in 2905. The cease fire would remain in effect along the Capellan front for an amazing 25 years, and it laid out some rules of war that other Inner Sphere armies also unofficially adopted as time went by. The Armistice specifically forbade actions against an enemy's JumpShips, which were now a nearly irreplaceable commodity. When the Liao-Davion cease-fire finally collapsed, the unofficial ban against attacking JumpShips remained in effect throughout the Inner Sphere."
+    "Details": "The one wise and constructive act of Prince Joseph Davion's entire reign was the Armistice of Van Diemen IV. In 2903, a particularly wasteful aerospace battle for the Liao mining colony of Van Diemen IV left the Capellans anxious for a temporary cease-fir"
   },
   "Position": {
     "x": -32.83,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

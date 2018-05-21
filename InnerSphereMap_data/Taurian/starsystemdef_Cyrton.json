@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cyrton",
     "Name": "Cyrton",
-    "Details": "Cylene II's eccentric orbit is largely attributed to the imbalance caused by the shattering of its large moon into three smaller satellites roughly 80 thousand years ago, likely by a large rogue asteroid or comet. As a result, the planet is currently entering into what many believe to be the beginnings of an ice age, with temperatures near freezing even at the equator during the winter months. This, as much as the damage done during the first two Succession Wars (particularly between the Draconis Combine and the Federated Suns), has resulted in the gradual but steady emigration of the population to other, more hospitable and safe worlds nearby. Ruins of cities destroyed or abandoned in the early wars still dot the landscape of the northern continent.Only the large deposits of industrial-grade metal ore, discovered close to the planet surface and churned up by the planet's occasionally overactive geology, has kept people around and employed. The planet's main continents are the largely unpopulated Graus in the north, Clytemnestra in the south, and Absalom, a large landmass that practically rings the entire equatorial region and is home to the planetary capital of Halcyon. "
+    "Details": "Cylene II's eccentric orbit is largely attributed to the imbalance caused by the shattering of its large moon into three smaller satellites roughly 80 thousand years ago, likely by a large rogue asteroid or comet. As a result, the planet is currently ente"
   },
   "Position": {
     "x": 364.13,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

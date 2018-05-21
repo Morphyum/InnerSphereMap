@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ingersoll",
     "Name": "Ingersoll",
-    "Details": "Ingersoll has the largest economic base in the Capellan Commonality, based on silver and gold deposits of exceptional size.  It is also noted for its rare concentration of Capellan artistic talent and its many fine arts schools and museums.  Without doubt the most beautiful of all Capellan worlds, Ingersoll boasts hundreds of coves and sandy beaches, and its thousands of island chains make it a veritable paradise planet.  Not surprisingly, many Capellan nobles reside year-round on Ingersoll, leaving the mundane administration of their holdings in the hands of less-fortunate stewards.  To guard this luxurious world, Ingersoll has a reserve regiment and a large AeroSpace training center near the equator.[2415] The massive loss of civilian life in the Tintavel system in 2412 prompted Cahncellor Aleisha Liao to convene a conference of delegates from the major ruling houses, including the new Terran Hegemony. Situated on the Capellan world of Ares, the conference was to discuss ways of limiting the destructiveness of modern warfare in general and the loss of civilian life in particular. The unexpected result of the extraordinary summit meeting, brought about and later held together by the tireless efforts of Aleisha Liao, was the drafting of the Ares Conventions.Aleisha Liao died of natural causes on December 20, 2415. Her state funeral on Ingersoll attracted over three million visitors (more than the native population at that time).[3025] Ingersoll is the site of one of the 16 Philotechnique Institutes. These serve the Capellan state as special post-secondary institutions. Established originally in the mid-28th century as technical and scientific training centers, the institutes today also emphasize \"philosophical\" (political) training. Admission to a Philotechnique Institute is by special recommendation of a planetary director only, and all expenses are paid by the state. Often enough, students in these institutions have previously served with distinction as members of the Ranks of the Dedicated. Graduates who are not technically oriented are placed in positions of administrative responsibility, or are recruited into the ranks of the Maskirovka."
+    "Details": "Ingersoll has the largest economic base in the Capellan Commonality, based on silver and gold deposits of exceptional size.  It is also noted for its rare concentration of Capellan artistic talent and its many fine arts schools and museums.  Without doubt"
   },
   "Position": {
     "x": -5.17,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Goshen",
     "Name": "Goshen",
-    "Details": "[3062] While not one of the AFFC's most notable academies, the War College of Goshen has been quieting graduating skilled and talented soldiers for well over a century. Originally founded by a pair of retired AFFS generals who were tired of seeing of the quality of the soldiers on the Capellan Front plummet, the school began life as the Goshen BattleMech Academy. As more and more students were attracted to the school, the founders added staff and courses. With a decade,  the newly renamed War College of Goshen was teaching almost every combat speciality to students from across the realm.Generals Alexander and Truscott set out to build an academy that taught cadets how to be not only great soldiers but also great thinkers. The College's curriculum includes a heavy course load of military history and classic and contemporary military strategy. Students spend far more time dissecting the methodologies of great military leaders than they do on their speciality studies. By the time cadets participate in their first live-fire exercises, they exhibit an almost zen-like connection with their 'Mech or vehicle and a prescience for the battlefield.The War College is often called the AFFC's best-kept secret because it does not publicly recruit potential candidates as do the AFFC's other academies. Instead, the College's halls are kept full by word of mouth. Much like the Sakhara Academy, attendance at the War College is often is a \"family affair,\" with generation after generation of soldiers sending their progeny there to receive what they consider the best education in the Inner Sphere.Alumni scattered throughout the AFFC's bureaucracy ensure that the War College receives all the support it needs. Surprisingly, its commandant and staff require very little to keep the College operating. All of its primary training is accomplished using actual 'Mechs, vehicles and weapons on live-fire ranges.The War College is led by retired Marshal Lawrence Marlowe."
+    "Details": "[3062] While not one of the AFFC's most notable academies, the War College of Goshen has been quieting graduating skilled and talented soldiers for well over a century. Originally founded by a pair of retired AFFS generals who were tired of seeing of the "
   },
   "Position": {
     "x": 134.67,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

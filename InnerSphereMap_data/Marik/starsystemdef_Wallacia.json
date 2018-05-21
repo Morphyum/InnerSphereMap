@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wallacia",
     "Name": "Wallacia",
-    "Details": "[3033] The end of the Forth Succession War left Wallacia and Kujari located between the militaristic and newly independent Duchy of Andurien and the Capellan confederation. When the Internal Emergency Act of 3030 stripped away league member worlds of their sovereignty, Wallacia and Kujari formed a mutual defense pact and declared their independence from the Free Worlds League in 3032. On Wallacia, the declaration was an empty one. The Second Oriente Hussars garrisoned the world and moved quickly to seize the capital of Saranak, shutting down the parliament and trying to arrest as many members as possible. The rebellious leaders set up a government in-exile on Kujari, under Acting Prime Minister Shandra Tate. As internal conflicts prevented the League from pressing the attack against Kujari, Tate entered in negotiations to hire the recently formed Black Widows Battalion to restore sovereignty on Wallacia and to protect them from the Confederation.A brilliant hit-and-run campaign by the Widows slowly whittled down the Hussars, and with the League absorbed in internal conflicts, no reinforcements were forthcoming. The Widows then united into a single force and, along with Wallacian irregulars and a scattering of armored vehicles, moved against the capital to retake the parliament. The Hussars, spread thinly across the continent, had only left a company to hold the city, and were soon overwhelmed.Prime Minister Tate succeeded in making a broadcast to the people, declaring Wallacia liberated, and calling upon the demoralized Hussars to surrender. The offer to the Hussars included immediate parole, and the promise not to confiscate their 'Mechs if their surrendered. Faced with a military disaster and a suddenly hostile populace, the Hussars had little choice. A cease-fire was established within hours, and after several days of negotiations, Hussar commander Colonel Arthur Rivernider agreed to Tate's conditions. By New Year's Day, 3033, Wallacia was once more independent.As Tate and Kerensky had anticipated, Wallacia rejoined the Free Worlds after the rebellious Anduriens were brought to heel and the Hussars returned. But the superior military position obtained by the Black Widows enabled Shandra Tate to wring considerable concessions from the League negotiators."
+    "Details": "[3033] The end of the Forth Succession War left Wallacia and Kujari located between the militaristic and newly independent Duchy of Andurien and the Capellan confederation. When the Internal Emergency Act of 3030 stripped away league member worlds of thei"
   },
   "Position": {
     "x": -38.27,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

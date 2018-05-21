@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kilbourne",
     "Name": "Kilbourne",
-    "Details": "[3062] Located in the Draconis March along the Federated Suns' border with the Outworlds Alliance, the Kilbourne Academy has never been considered one of the AFFC's premier military academies. On the other hand, it is one of the few institutes of higher learning in that region of space. Because of that, the Academy hosts a civilian university at its site, giving the inhabitants of the region the chance for an education and with it a better life. It may not be as flashy as the NAIS or have the long-held traditions of Sakhara, but the Kilbourne Academy provides a well-rounded education to all its students.The Academy recently become the target of a DMI investigation in late 3059, apparently after several graduates serving within the Draconis March were indicted on charges of sedition and conspiracy. The investigation expanded when several more graduates, both military and civilian, were found to be key members of anti-Davion rebel cells scattered throughout the Federated Suns Outback. Though a handful of academy personnel were later indicted on unrelated charges, the investigation into the academy continues today, which has caused enrolment, especially in the civilian disciplines, to plummet.As this is one of the few educational institutes in the region, competition for admission is usually stiff. Because of the DMI's investigation, the Academy's atmosphere is tense, with many students fearing they will be the victim of an unfounded accusation or take the fall for whatever crime is being investigated.The government of the Federated Suns provides scholarships for many of the civilians who attend the Kilbourne Academy; following their graduation, they are obliged to serve their nation for at least six years, as are its military cadets. Many Academy graduates find positions within the Draconis March bureaucracy or its Militia.The Kilbourne Academy, though it trains MechWarriors and AeroSpace Pilots, actually specializes in training Techs and Engineers. The Academy's commandant is Leftenant General Kara Rostov."
+    "Details": "[3062] Located in the Draconis March along the Federated Suns' border with the Outworlds Alliance, the Kilbourne Academy has never been considered one of the AFFC's premier military academies. On the other hand, it is one of the few institutes of higher l"
   },
   "Position": {
     "x": 571.78,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

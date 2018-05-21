@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_XantheIII",
     "Name": "Xanthe III",
-    "Details": "Xanthe III has several times been colonized as a mining world. The first attempt, by Atlan Ltd in 2752, mined for ice to sell to water poor worlds. The discovery of the naturally occurring 'blue ice' (water with cobalt or cupric salts in suspended solution) which comprises close to one third of the planets surface ruined the water miners. Blue ice is poisonous. The second company, Freez Inc, intentionally mined blue ice for the ice vests than preceded coolant vests. Blue ice takes two to four times as long to freeze as pure water, but it takes correspondingly long to thaw. Hence one pack can be used longer. Cost of transport caused Freez Inc to fail. Magna Metals and its successor companies have had the longest tenure on Xanthe III. A small but viable manufacturing colony has succeeded there, basing its economy on the manufacture of semiconductors for various purposes.Some concern has been expressed by environmentalists as to the unstable maintenance of oxygen in the planetary atmosphere when few offworld plants have been successfully introduced in any but a hydroponic setting. The colony is self-sustaining by means of hydroponics and protein vats.The small northern archipelago contains the least stable terrain in the sea of ice that is the planet. Terrain within 5km of the ice-rock is the ice-rock interface is the most dangerous in the planet. Normal ice and blue ice are subject to the tidal pull of the planets three moons. In a slow-motion version of oceanic waves, the substances turn and recirculate. Resulting dangers are frequent ice quakes, and a changing treacherous terrain. Maps of a month before, far less a season before are useless. Crevasses, sinkholes, and caverns form and change. Under a coating of ice may lie needle sharp ice spines or inter-linking crevasses a hundred kilometers in length. Fierce winds erode them, only to have ice quakes thrust up and break apart into new dangers.An interesting feature of the buildings is their lustrous sapphire hues. The usual method of construction is to erect a temporary inflated structure, emplace water and power conduits along it, and then spray with liquefied blue ice. Once this has hardened on both sides of the structure, an extremely dense and durable structure is created, with a higher tensile strength than steel.[3037] During the Andurien War, the assault on Xanthe III was led personally by Captain-General Duncan Marik. The initial landings went well, but the Captain-General underestimated the enemy's strength in his rush to secure a victory. Consequently, the assault soon bogged sown and Duncan found himself on the defensive. In a final bid to break the Third Defenders of Andurien, he led his ill-prepared troops in a desperate assault against the Andurien positions and died at the head of his troops on 4 February 3037."
+    "Details": "Xanthe III has several times been colonized as a mining world. The first attempt, by Atlan Ltd in 2752, mined for ice to sell to water poor worlds. The discovery of the naturally occurring 'blue ice' (water with cobalt or cupric salts in suspended solutio"
   },
   "Position": {
     "x": -67.22,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

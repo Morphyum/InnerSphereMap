@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Fomalhaut",
     "Name": "Fomalhaut",
-    "Details": "[3025] Drearson City is home to the headquarters of O'Keefre Importers-Exporters. This massive import-export firm was once one of the Star League's largest firms, almost single-handedly controlling the flow of public goods in and out of the League. The company's many freighters were a common sight in all parts of the Inner Sphere and Periphery. When the League collapsed, most of the firm's JumpShips and transports were seized by whatever member-state they happened to be travelling through. This left O'Keefre stripped of its ability to make money. The wars, especially the many battles for Fomalhaut, destroyed most of the company's remaining assets, but O'Keetre survived and now has reason to be optimistic. The recent alliance between the Federated Suns and the Lyran Commonwealth puts O'Keefre in an advantageous position to play a key role in the coming wave of trade between the two realms."
+    "Details": "[3025] Drearson City is home to the headquarters of O'Keefre Importers-Exporters. This massive import-export firm was once one of the Star League's largest firms, almost single-handedly controlling the flow of public goods in and out of the League. The co"
   },
   "Position": {
     "x": 20.93,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

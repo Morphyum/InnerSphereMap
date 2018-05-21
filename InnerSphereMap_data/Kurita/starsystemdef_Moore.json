@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Moore",
     "Name": "Moore",
-    "Details": "In 2830, with the onset of the Second Succession War, the Draconis Combine launched a major offensive against the Lyran Commonwealth. Included in this initial wave of attacks was the border world of Moore. With its methane swamps and fanatical militia forces, Moore proved to be too much for the Combine invaders. after seven months of frustration amid the mud and the blood, the Kuritan attackers gave up and were driven offworld. Moore eventually fell to Kuritan forces in the mid 2890's."
+    "Details": "In 2830, with the onset of the Second Succession War, the Draconis Combine launched a major offensive against the Lyran Commonwealth. Included in this initial wave of attacks was the border world of Moore. With its methane swamps and fanatical militia for"
   },
   "Position": {
     "x": 5.68,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

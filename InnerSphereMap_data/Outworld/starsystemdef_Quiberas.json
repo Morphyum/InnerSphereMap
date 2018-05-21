@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Quiberas",
     "Name": "Quiberas",
-    "Details": "Quiberas was a core world within the Outworlds Alliance when Operation UNION HOLD began in 2581. With the intention of forcibly incorporating the Outworlds Alliance into the Star League following the mass rejection of the Pollux Proclamation in 2575 by the major Periphery states, the invasion of the Outworlds Alliance saw two corps of Star League Defense Force troops and a mixed brigade of DCMS forces begin systematically occupying Alliance worlds. Quiberas escaped the attentions of the Outworlds Alliance Task Force until mid-2583.When the 41st Brigade and 42nd Brigade of the 14th Division, V Corps arrived on Quiberas, it wasn't to occupy the world; instead, the SLDF forces had targetted the world as part of a seek-and-destroy campaign to weaken the Outworlds Alliance by destroying the industry and population centres of worlds not yet targetted for annexation. Destroying any militia forces encountered was a secondary objective, compared to that of setting the torch to cities and factories. Quiberas was the second target for the two brigades, who had already struck at Dindatari; by the end of 2853, hundreds of cities and towns across the Outworlds Alliance would have been destroyed, and such was the level of destruction caused and the number of civilian casualties inflicted that by June 2853 both the commander of the Star League task force, General Amos Forlough, and his troops were being called \"The Baby Killers\" by the press in both the Outworlds Alliance and the Federated Suns. "
+    "Details": "Quiberas was a core world within the Outworlds Alliance when Operation UNION HOLD began in 2581. With the intention of forcibly incorporating the Outworlds Alliance into the Star League following the mass rejection of the Pollux Proclamation in 2575 by th"
   },
   "Position": {
     "x": 467.77,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

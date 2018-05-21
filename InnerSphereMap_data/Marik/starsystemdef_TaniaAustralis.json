@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TaniaAustralis",
     "Name": "Tania Australis",
-    "Details": "One of the major exports of Tania Australis are furs from the wild expanses of the planet.[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with the Capellan Confederation. Capellan wanted items include gemstones from Tania Austalis. "
+    "Details": "One of the major exports of Tania Australis are furs from the wild expanses of the planet.[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with the Capellan Confederation. Capellan wanted items incl"
   },
   "Position": {
     "x": -140.65,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Barcelona",
     "Name": "Barcelona",
-    "Details": "[3050] The elite Seventeenth Skye RCT, nicknamed the Boys of Summer, defended Barcelona and its vital industrial complexes. The Jade Falcon invasion in March 3050, took them by surprise, but the Seventeenth Skye recovered quickly, counterattacking with such ferocity that they halted the Falcon advance.Star Colonel Devon Hazen, commanding the Ninth Talon Cluster, was forced to swallow his pride and call in the Third Talon Cluster of the Falcon Guards, who dislodged the Boys of Summer from their defensive positions around the capital, Mariah's Pinnacle.The Skye commander, Leftenant Mitchell Simons, then requested JumpShips from Area Commander Hauptmann General Frances Bissel to evacuate his forces. Bissel denied Simon's request, but an insubordinate JumpShip commander flouted Bissel's order and evacuated a handful of the RCT to Somerset. Federation of Skye separatists later claimed that Bissel had deliberately denied the Skye Rangers transportation because of the Rangers' loyalty to the Skye people. "
+    "Details": "[3050] The elite Seventeenth Skye RCT, nicknamed the Boys of Summer, defended Barcelona and its vital industrial complexes. The Jade Falcon invasion in March 3050, took them by surprise, but the Seventeenth Skye recovered quickly, counterattacking with su"
   },
   "Position": {
     "x": -204.78,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

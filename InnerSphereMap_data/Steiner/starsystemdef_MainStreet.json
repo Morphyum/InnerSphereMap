@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_MainStreet",
     "Name": "Main Street",
-    "Details": "During the early years of the Star League, the economy of the Lyran Commonwealth entered an unparalleled period of growth. While good for propaganda, prosperity had not been spread around equally among Lyran worlds, which brought to a head a problem that had been festering for many years.The Federation of Skye and the Tamar Pact, the industrial giants of the Star League, were making huge sums of money per world, while the Protectorate of Donegal had actually experienced a drop in profits per planet. Yet, according to the tax system, each province was expected to pay a third of the taxes needed to finance the commonwealth government. This left the Protectorate poorer, whilst the other two barely missed their shares.This imbalance eventually led to a growing movement among poorer worlds of the Periphery provinces for substantial tax reform. This movement became known as the Main Street Rebellion, named for the Periphery world where the issue first arose in 2574. The Rebellion soon had hundreds of thousands of supporters, and clashes with their opponents were often violent.This placed Archon Viola Steiner-Dinesen in a delicate position. As ruler of the Commonwealth, she was duty-bound to suppress any danger to the realm, yet as leader of the Protectorate of Donegal, she also had to agree with much of what The Main Street Rebellion had to say.After a bit of political wrangling, the Archon persuaded the Duke of Skye, the leader of the rich-worlds coalition, to agree to publicly debate the issue before the Estates General. After the debate the Representatives would vote on whether to change the tax system, and the Archon and Duke of Skye would honor the decision. After five hours of debating in the stuffy throne room where the Representatives had gathered to listen, the vote was cast almost unanimously in favor of the Archon's desire to change the tax system."
+    "Details": "During the early years of the Star League, the economy of the Lyran Commonwealth entered an unparalleled period of growth. While good for propaganda, prosperity had not been spread around equally among Lyran worlds, which brought to a head a problem that "
   },
   "Position": {
     "x": -377.93,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

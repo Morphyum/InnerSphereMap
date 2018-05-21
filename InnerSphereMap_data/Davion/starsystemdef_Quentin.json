@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Quentin",
     "Name": "Quentin",
-    "Details": "A world of abundant raw materials, from basic industrial metals to rarer radioactive elements and even naturally-formed crystalline minerals useful in various optical products, the first settlers to Quentin were actually employees of Terran corporations hoping to exploit such valuable resources for their ambitious ventures. During the Age of War, many of these industries turned to military applications, and the planet's economy truly thrived, but with such prosperity came the desire by various neighboring governments to secure Quentin and its industries for themselves. Only the rise of the Star League saved Quentin from the worst ravages of war. The League's dominion, which included Quentin, brought even more wealth to the world when they established a major BattleMech manufacturing plant in the densely industrialized Steel Valley region. This factory ultimately became the centerpiece for Independence Weaponry in the centuries after the League's collapse, and, in its heyday, produced scores of heavy and assault BattleMech designs - including the JagerMech, Victor, and Atlas. Immediately after the collapse of the League, however, forces from the Draconis Combine, Capellan Confederation, and the Federated Suns fought bitterly for control of this important world.The planet still retains the scars of that fighting in the form of its caustic atmosphere - the result of a massive biological-weapon attack, launched against the world by retreating would-be conquerors in the First Succession War. The majority of the planet's population today resides in and around Steel Valley, on the equatorial continent of Morandi, which is also home to the planetary capital of Prosperity Point. The other planetary continents, El Largo in the northern hemisphere, Gladius in the south, and El Minoro in the southern polar region, are far less populous, due to the extreme cold temperatures in those regions, and the gradual decline of these outlying areas during the last few centuries of war."
+    "Details": "A world of abundant raw materials, from basic industrial metals to rarer radioactive elements and even naturally-formed crystalline minerals useful in various optical products, the first settlers to Quentin were actually employees of Terran corporations h"
   },
   "Position": {
     "x": 46,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

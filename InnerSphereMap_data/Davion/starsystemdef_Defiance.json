@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Defiance",
     "Name": "Defiance",
-    "Details": "Defiance is a backwater world. It has large military support facilities, as it has been used by the FedCom for wargames from time to time. While its atmosphere is not hostile, neither is it pleasant. Few reptilian and avian lifeforms can tolerate the moderate concentrations of sulphur and sulphur dioxides in the atmosphere. Personnel require the use of respirators and filter masks, and all housing on the planet possesses airlocks to allow entry without fouling the interior atmosphere.Jerseyville is the capital of Defiance, and also its only spaceport. Situated on the site of the original settlers' first landing, Jerseyville was named after its founder, Malcom Jersey. The city itself is little more than a large cluster of small houses, shops and office buildings huddled in the foothills of the Devil's Backbone mountain range. The settlers, most of them prospectors, had come to Defiance during the early days of the Star League, attracted by the planet's vast mineral wealth. The almost constant eruptions that marked its early life brought up many rare earth elements out of the young planet's core. Transuranic elements are especially common in the now mostly extinct volcanoes of the Backbone mountains. Over the years, the hundreds of small, independent mines were acquired by large corporations, until eventually the greatest portion of the planet was owned outright by Solar Metals Limited, who sold it to the Davion family in 2748. The flatlands wedged in between the Pearse Sea to the east and the Devil's Backbone Mountains on the west would be some of the richest farming lands in the Inner Sphere, if not for the taint in the atmosphere. Though the sulphur content is not high enough to prevent plant life from growing, even flourishing, in the black, volcanic soil, it is sufficient to be absorbed into the crops, giving any foodstuffs grown there an unpleasant, bitter taste."
+    "Details": "Defiance is a backwater world. It has large military support facilities, as it has been used by the FedCom for wargames from time to time. While its atmosphere is not hostile, neither is it pleasant. Few reptilian and avian lifeforms can tolerate the mode"
   },
   "Position": {
     "x": 424.95,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

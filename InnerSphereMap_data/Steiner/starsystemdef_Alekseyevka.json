@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alekseyevka",
     "Name": "Alekseyevka",
-    "Details": "[3062] The Alekseyevka militia draws its troops from the coreward worlds of the Timbuktu Theater. Like other units in the area, they are principally concerned with the Rim Collection and pirate groups like Morrison's Extractors. The militia works closely with the Eleventh Arcturan Guard based on Timbuktu, especially since the Arcturan unit took a more proactive role in patrolling the Periphery after the arrival of the Clans. This was also aided by the other front-line unit in the area, the Sixth Crucis Lancers, becoming obsessed with hunting down terrorists. By agreement with the Arcturans and Theater Commander Mils Steiner-Davis, militia contingents escort many of the traders heading to Calderium and Slewis in the Rim Collection, the two worlds at greatest risk from pirate attack."
+    "Details": "[3062] The Alekseyevka militia draws its troops from the coreward worlds of the Timbuktu Theater. Like other units in the area, they are principally concerned with the Rim Collection and pirate groups like Morrison's Extractors. The militia works closely "
   },
   "Position": {
     "x": -403.5,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

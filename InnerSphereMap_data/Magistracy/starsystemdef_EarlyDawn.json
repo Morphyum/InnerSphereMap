@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_EarlyDawn",
     "Name": "Early Dawn",
-    "Details": "[3025] The Largest producers of wines and brandies in the Periphery, Magliss Spirits has a virtual monopoly on the distribution of wines and spirits in the Magistracy. Known in particular for its vintage 3020 Chablis and Chianti, Magliss has recently begun wholesale exports of their more expensive wares to the Free Worlds League and the Taurian Concordat."
+    "Details": "[3025] The Largest producers of wines and brandies in the Periphery, Magliss Spirits has a virtual monopoly on the distribution of wines and spirits in the Magistracy. Known in particular for its vintage 3020 Chablis and Chianti, Magliss has recently begu"
   },
   "Position": {
     "x": -92.97,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

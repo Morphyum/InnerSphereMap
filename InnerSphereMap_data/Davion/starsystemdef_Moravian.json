@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Moravian",
     "Name": "Moravian",
-    "Details": "One of the strangest mutinies in history occurred in 2970, when mercenaries from Beaufort's Cossacks went on a shooting spree in a suburb of New Defiance City on the planet Moravian. A clause in the unit's contract specified that twice a week the government would pay for a free meal for all members of the unit at a local Triple-F restaurant, the most popular chain in the Federated Suns. The fact that Capellan naval forces blockaded Moravian shortly after the unit's arrival should not have made any difference, as Moravian produced its own wheat, beef, corn, sugar, milk,and potatoes. The only offworld elements of Triple-F cuisine were pickles, sesame seeds, and whalemeat. Nevertheless, when the troops could not get exactly what they ordered, Colonel Regnus accused Triple-F of defaulting on the unit's food supply contract.The manager of the outlet, afraid of losing the most lucrative contract he had ever had, was quick to point out that the blockade had prevented supplies from arriving. He went on to say that he had in good faithful filled the contract as best he could, and that even if he could have anticipated the blockade, he did not have facilities to refrigerate a whale. Upon hearing this, the Cossacks, against orders from Colonel Regnus, went on a rampage, commandeering civilian motor vehicles, screaming out the windows at the natives, and discharging their weapons. They stormed the Triple-F franchise, chanting Where's the pickle? Where's the lettuce? Their chant made no sense, as Triple-F had never used lettuce in any of its products. (Perhaps the troops were confusing the eatery with a similar, competing chain.) The manager and staff, frightened by the outburst, fled the restaurant. After a few minutes more of chanting, the troops began to feel foolish and left. Colonel Regnus took no disciplinary action. He remarked to one of his aides, We've got to get these soldiers into a real fight. When they start letting off steam like this, the cutting edge is definitely off the rose.Despite all the commotion and the shooting, not a single civilian was hurt during the soldier's outburst.[3056] Moravian is also home to a little-known inter-realm trading company, Alaski Goods. Business has not been good for Alaski in recent years, with trade runs into the Capellan Confederation and Free Worlds League becoming increasingly more difficult. Bandit forces have also made attempts to capture Alaski ships, though have so far not succeeded."
+    "Details": "One of the strangest mutinies in history occurred in 2970, when mercenaries from Beaufort's Cossacks went on a shooting spree in a suburb of New Defiance City on the planet Moravian. A clause in the unit's contract specified that twice a week the governme"
   },
   "Position": {
     "x": 109.08,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

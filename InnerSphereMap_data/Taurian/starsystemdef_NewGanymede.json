@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewGanymede",
     "Name": "New Ganymede",
-    "Details": "A barren desert world, New Ganymede lies in the interior of the Taurian Concordat near the edge of the Hyades Cluster. Swept by high winds and frequent dust storms, this bleak and unattractive world is valuable for its enormous deposits of radioactive ores. Supporting one of the Concordat's largest mining operations, New Ganymede is home to over 40000 miners and scientists, many of whom are directly involved in the collection and processing of these ores via massive surface ore extractors. The importance that the Taurians give to this planet is indicated by the presence of the First Battalion of the Pleides Hussars as a semi-permanent garrison on New Ganymede. The First Battalion is usually garrisoned near the planet's few sources of fresh water in the southern latitudes. New Ganymede also hosts an extensive desert warfare training facility, which is located near the northern polar regions where the planet's frequent storms are less severe."
+    "Details": "A barren desert world, New Ganymede lies in the interior of the Taurian Concordat near the edge of the Hyades Cluster. Swept by high winds and frequent dust storms, this bleak and unattractive world is valuable for its enormous deposits of radioactive ore"
   },
   "Position": {
     "x": 197.42,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

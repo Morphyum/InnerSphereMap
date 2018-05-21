@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sterope",
     "Name": "Sterope",
-    "Details": "Often referred to as New Taurus, Sterope is one of the largest centers of weapons production found outside the Hyades Cluster. With a native population of more than 75 million, Sterope is homeworld to Sterope Defense Industries as well as numerous firms managed by Taurus Territorial Industries. Weapons manufacture on Sterope runs the gamut from Dropships and Aerospace fighters, to tanks, armoured fighting vehicles and small arms.Considering how important Sterope is to the Taurian war effort, the planet is not assigned an ongoing garrison of 'Mech forces. However, Sterope's planetary landscape is dotted with numerous redoubts and heavily fortified strong-points able to withstand even the heaviest concentrated attacks. Backing up these huge emplacements are several Noble's Regiments, locally raised and equipped battalions of paramilitary forces under the direction of regional aristocrats. These local troops can be called up at a moments notice to aid in the defense of the planet's vital factory complexes. These units have always held off attackers long enough for reinforcements to arrive, and so Protector Calderon sees no reason to station 'Mech and armor units on the planet. Many in the Taurian Defense Force feel it is only a matter of time before the Noble Family regiments run out of luck."
+    "Details": "Often referred to as New Taurus, Sterope is one of the largest centers of weapons production found outside the Hyades Cluster. With a native population of more than 75 million, Sterope is homeworld to Sterope Defense Industries as well as numerous firms m"
   },
   "Position": {
     "x": 266.76,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

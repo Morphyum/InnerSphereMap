@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Caldrea",
     "Name": "Caldrea",
-    "Details": "In 2467, Lyran Commonwealth forces attacked Caldrea, a key world in the Orestes star cluster. When the Lyran commanders learned that the planet's northern continent was a virtual maze of mountain ranges honeycombed with defensive positions and traps, the weary general reverted to the barbaric use of nuclear weapons to clear the mountains. In nine months, the planet was the property of the Lyran Commonwealth, though no one knew what use they would be able to make of the half-devastated planet. [3025] During the ensueing Succession Wars, Caldrea once more became a possession of the Draconis Combine, and today is the site of an important industrial facility and a major Kuritan naval base. The capital city of Caldrea is Narve."
+    "Details": "In 2467, Lyran Commonwealth forces attacked Caldrea, a key world in the Orestes star cluster. When the Lyran commanders learned that the planet's northern continent was a virtual maze of mountain ranges honeycombed with defensive positions and traps, the "
   },
   "Position": {
     "x": 33.85,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sax",
     "Name": "Sax",
-    "Details": "The start of the Third Succession War, in 2866, brought final changes in the Capellan armed forces. As the availability of trained manpower continued to diminish with each successive campaign, all the major Houses were forced to look to other sources for expert warriors. Mercenaries were the logical answer. Thus, more and more such units were incorporated within the regular framework of existing house armies. Eventually, these mercenary units equalled and in some cases exceeded the number of regular line regiments available.Chancellor Otto Liao increased the use of mercenaries alongside regular Capellan units, and formalized the arrangements through charters, which specified rigid contractual conditions. Otto's initial efforts at chartering mercenaries away from other prospective employers were not always successful. In 2876, the 14th Aerospace regiment was hastily redeployed on Sax to destroy elements of Brighton's Rangers, after the Rangers broke the conditions of their original charter with the Capellan government.This incident served as a powerful demonstration of Chancellor Otto's determination to enforce the terms of his contracts, in effect using mercenaries on his terms, not theirs."
+    "Details": "The start of the Third Succession War, in 2866, brought final changes in the Capellan armed forces. As the availability of trained manpower continued to diminish with each successive campaign, all the major Houses were forced to look to other sources for "
   },
   "Position": {
     "x": -1.56,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

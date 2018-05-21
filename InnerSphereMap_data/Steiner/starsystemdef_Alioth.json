@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alioth",
     "Name": "Alioth",
-    "Details": "Galaina is the ninth planet of the Alioth system, and the pleasure planet of the universe. Though Galaina is part of the Lyran commonwealth, Galaina is no slave to narrow prejudices, and freely welcomes the rich and pleasure seeking of every state, house and kingdom. Here they gather to revel in luxury and indulge in sensuality, to feast in restaurants, gamble fortunes in casinos, dance for hours on starlit terraces and then retire to cool, scented rooms to taste the delights of beautiful, skilled, and compliant men and women.One of the first planets settled in the Exodus period, Galaina remained a backwater for centuries. Largely devoid of mineral resources, it held no interest for the mining corporations. The trade routes ran nearby, but Galaina was not even a minor port or storage depot. and although its soil is rich enough for the needs of the settlers, the mountainous terrain made large-scale agriculture exploitation unprofitable. In fact, Galaina's chief appeal during the early years was precisely that it was not a major center. When the traders and empire-builders had finished their work and looked around for rest and relaxation, they slowly realized that poor, uninteresting Alioth IX was blessed with perhaps the most benign climate in the known universe.Galaina learned to care for the traveller, to offer rest, relaxation, diversion and amusement. The banks and financial institutions that financed the exploration of space found it convenient to set up regional offices on the planet. Galaina grew rich on the twin service industries of banking and tourism. The banks financed the expansion of the hotels, resorts, casinos and other ventures, and the tourists these attracted brought wealth to the banks. The capital of Galaina Ventura is visible proof of the planets success and wealth. Galania has two moons, Hans and Fritz. The moons are named for two characters in an ancient Galainan legend, a pair of mythic warriors who, having offended their Duke, were condemned to hang in the skies for eternity.Galaina is also home to the Stellar Singer, a beverage unique to the planet. The key ingredient is Sideria orange (not a true orange but a sweet, citrusy fruit) which only grows on Galaina. Attempts have been made to ship it, but the fruit does not travel well. Another ingredient is Zocco, a local root-based alcohol product which is very neat, very dry and extremely potent. Individual recipes vary, though one variety is as follows:Crush a catabala leaf in the bottom of a chilled glass. Then fill with crushed ice. Take 2 ounces of Zocco, the juice from one Sideria orange, a dash of triple sec. Combine. Pour over the crushed ice. Handle with care."
+    "Details": "Galaina is the ninth planet of the Alioth system, and the pleasure planet of the universe. Though Galaina is part of the Lyran commonwealth, Galaina is no slave to narrow prejudices, and freely welcomes the rich and pleasure seeking of every state, house "
   },
   "Position": {
     "x": -58.94,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

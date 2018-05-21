@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chapineria",
     "Name": "Chapineria",
-    "Details": "Scarred with deep craters formed by long-ago meteor impacts, Chapineria orbits a weak sun at incredible speed. Most of Chapineria's cities are built in these craters, which provide a natural shield against the cold storms that blow across the planet's surface."
+    "Details": "Scarred with deep craters formed by long-ago meteor impacts, Chapineria orbits a weak sun at incredible speed. Most of Chapineria's cities are built in these craters, which provide a natural shield against the cold storms that blow across the planet's sur"
   },
   "Position": {
     "x": 292.08,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

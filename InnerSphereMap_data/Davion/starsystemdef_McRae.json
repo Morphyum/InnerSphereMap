@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_McRae",
     "Name": "McRae",
-    "Details": "[3025] With its head office located in the city of New Dallas, McRae Quik Construct, with its location near the Periphery, is ideally situated to meet the enormous demand for housing from worlds teeming with new frontiersman. Created just a year after Hanse Davion's famous Bold New Frontier speech, the company's line of lightweight yet durable prefabricated housing has been extremely popular. The company is planning to follow up their success by expanding into the city planning and heavy construction fields. That way, when their many temporary buildings begin to wear out, McRae Quik Construct will be there, ready to build more permanent structures.Rumors abound that Mcrae have always indulged in less than ethical business practises, though nothing has ever been proved."
+    "Details": "[3025] With its head office located in the city of New Dallas, McRae Quik Construct, with its location near the Periphery, is ideally situated to meet the enormous demand for housing from worlds teeming with new frontiersman. Created just a year after Han"
   },
   "Position": {
     "x": 553.18,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_St.Loris",
     "Name": "St. Loris",
-    "Details": "St.Loris is an important world, growing wheat on its two continents. The island continent of Pardray runs parallel to the main continent of Layting for several hundred kilometers.In 3010, the 2nd St.Ives Lancers were called upon to defend st.Loris against a Davion raid. Anticipating only one enemy regiment, the Lancers were surprised to encounter two Davion regiments from the Ceti Hussars. Leaving the 2nd battalion of Panthers in a holding action against one regiment, the rest of the regiment concentrated with a vengeance on the second. Eventually driven off the planet, the Lancers nevertheless destroyed two companies of Hussar 'Mechs to avenge the unit's destruction of much of the planet's vital wheat crop. "
+    "Details": "St.Loris is an important world, growing wheat on its two continents. The island continent of Pardray runs parallel to the main continent of Layting for several hundred kilometers.In 3010, the 2nd St.Ives Lancers were called upon to defend st.Loris against"
   },
   "Position": {
     "x": 89.95,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Barras",
     "Name": "Barras",
-    "Details": "Barras' DropPort welcomes visitors from throughout the Inner Sphere. The city surrounding the DropPort is a squalid sprawl infested with danger. Arid deserts cover the remainder of the planet.Barras, a former Free Worlds League planet, was successfully occupied by the Confederation in 2521. In accordance with the Buenos Aires Convention of 2858, it became a neutral world to be used as a free port of call by both Houses Liao and Marik.  As such, it is a major exception to otherwise stringent trade restrictions levied by House Liao against the Free Worlds League in the early 29th century.  Despite this, Sian Commonality reserve regiment and an AeroSpace reserve contingent are permanently stationed on Barras to enforce Capellan claims to ownership. Barras contains one of the highest concentrations of Maskirovka covert intelligence operatives of any world along the Capellan-Marik border.  An equal number of Marik secret service operatives, as well as other intelligence representatives from the Inner Sphere, can be found on Barras at any given time.  The planet is a logical jumping off point for clandestine operations of all kinds on all sides."
+    "Details": "Barras' DropPort welcomes visitors from throughout the Inner Sphere. The city surrounding the DropPort is a squalid sprawl infested with danger. Arid deserts cover the remainder of the planet.Barras, a former Free Worlds League planet, was successfully oc"
   },
   "Position": {
     "x": 20.92,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

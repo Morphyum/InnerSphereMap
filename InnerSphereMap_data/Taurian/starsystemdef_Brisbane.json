@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brisbane",
     "Name": "Brisbane",
-    "Details": "A plush water world situated along the less-than-clearly-defined border between the Taurian Concordat and the Magistracy of Canopus, Brisbane has been the scene of numerous clashes between Taurian, Magistracy, and Independent forces in the last generation. Prized for its abundance of fresh- water sea life as much as for its surviving water purification plants dotting the southern hemisphere, Brisbane is a gigantic reservoir of marine foodstuffs and desalinized water stores. With over 80% of the planets land mass in the form of small island chains, the Taurian Concordat has had to resort to unorthodox expedients to defend the planet. For this reason, Brisbane has the only Taurian sea-going contingent in the Concordat as well as a contingent of traditional 'Mech and infantry forces in support of the planet's main starport in the northern archipelago. Brisbane is also the home planet to the Second Battalion of the Taurian Red Chasseurs, who maintain a constant garrison on the planet.Brisbane is also home of the so called Brisbane Virus - this incurable, degenerative nerve disease slowly robs its victims of their physical strength and coordination. Most victims are confined to a wheelchair after two years."
+    "Details": "A plush water world situated along the less-than-clearly-defined border between the Taurian Concordat and the Magistracy of Canopus, Brisbane has been the scene of numerous clashes between Taurian, Magistracy, and Independent forces in the last generation"
   },
   "Position": {
     "x": 154.95,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

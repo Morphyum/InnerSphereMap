@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Almunge",
     "Name": "Almunge",
-    "Details": "[3050] Clan Smoke Jaguar landed on Almunge in April 3050. The Almunge Cadet Infantry Battalion chose to defend their homeworld against the Alpha Battle Star of the First Jaguar Guards (Trinary Battle), in the gently rolling Sculyan Hills. Though hopelessly outmatched, the cadet battalion fought hard for every inch of ground, taking heavy casualties. Grudgingly impressed with the cadets courage in facing so formidable an opponent without flinching, Star Captain Chrisholm accepted the survivors' surrender and made them bondsmen. "
+    "Details": "[3050] Clan Smoke Jaguar landed on Almunge in April 3050. The Almunge Cadet Infantry Battalion chose to defend their homeworld against the Alpha Battle Star of the First Jaguar Guards (Trinary Battle), in the gently rolling Sculyan Hills. Though hopelessl"
   },
   "Position": {
     "x": 163.62,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

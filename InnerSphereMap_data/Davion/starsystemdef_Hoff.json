@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hoff",
     "Name": "Hoff",
-    "Details": "Hoff was originally settled for its agricultural possibilities. Its wide plains crisscrossed with small rivers and brooks offer excellent crop and grazing lands. Hoff's other modest resources of metals and coal deposits took a back seat to development of its potential as a farming world. Early in 3019, a team from the NAIS came to Hoff to reopen the long abandoned Friden Aerospace Park on the planet's northern continent. The small spaceport had been cleaned up and turned into a test facility where NAIS scientists, including members of the famed Team Banzai, could field test new military technology. This made Hoff a prime target that the Draconis Combine did not delay in attacking. In 3022, the famous Wolf's Dragoons, then mercenaries in the Draconis Combine, attacked Hoff, where the equally famous Eridani Light Horse was on defense. Though the black 'Mechs of the Dragoons managed to seize the research facility, they were not quick enough to capture any of the scientists or the research projects they were testing. Since then, the Federated Suns have reinforced Hoff, making it unlikely that the Kuritans will attempt another attack. Reports from our ComStar Precentorstate that Davion has reopened the Friden Aerospace Park and that Team Banzai has recently completed tests on a variant of the Hatchetman BattleMech."
+    "Details": "Hoff was originally settled for its agricultural possibilities. Its wide plains crisscrossed with small rivers and brooks offer excellent crop and grazing lands. Hoff's other modest resources of metals and coal deposits took a back seat to development of "
   },
   "Position": {
     "x": 264.17,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

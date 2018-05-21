@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Teniente",
     "Name": "Teniente",
-    "Details": "[3052] The attacking Nova Cats were pleasantly surprised when Teniente's defenders responded correctly to their batchall and declared their intention of fighting according to Clan tradition. The Third and Eleventh Pesht Regulars awaited them on the Brodice Plain, a large, flat grassy stretch of land offering precious few places to conceal traps. The 449th and 489th Assault Clusters engaged their targets immediately on landing and quickly proved that the Pesht Regulars had sacrificed all advantages of their previous combat experience by trying to match the Clan fighting style. The Nova Cats were systematically wiping out the Third and eleventh 'Mech by 'Mech until Hohiro Kurita, heir to the Combine throne, assumed command of the combined regiments.Hohiro ordered the Regulars to break away from the battle, and he co-ordinated a guerrilla campaign instead, eventually sending the remaining troops to ground. The Nova Cats' enemy vanished before their eyes, and they suddenly found themselves bogged down in an apparently fruitless effort to find the Kuritans. The Third and Eleventh helped organize a resistance movement on Teniente and then supported its efforts for several long months. At the request of Hohiro's sister Omi, the Revenants, a Federated Commonwealth unit commanded by Prince Victor Steiner-Davion, eventually executed a daring raid against the Nova-cat controlled planet and spirited Hohiro Kurita and what remained of the Third and Eleventh off Teniente."
+    "Details": "[3052] The attacking Nova Cats were pleasantly surprised when Teniente's defenders responded correctly to their batchall and declared their intention of fighting according to Clan tradition. The Third and Eleventh Pesht Regulars awaited them on the Brodic"
   },
   "Position": {
     "x": 185.1,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

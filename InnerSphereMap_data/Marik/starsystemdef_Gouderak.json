@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gouderak",
     "Name": "Gouderak",
-    "Details": "[2577] In preparation for the Magistracy of Canopus campaign of the Reunification War, the Star League assembled its 7th Corps, consisting of 30-odd regiments backed by twelve regiments of Marik regulars. Overall command of the operation fell to Captain-General Marion Marik. In June 2577, the Marik dispersed the Canopian naval elements around Gouderak and secured the planet."
+    "Details": "[2577] In preparation for the Magistracy of Canopus campaign of the Reunification War, the Star League assembled its 7th Corps, consisting of 30-odd regiments backed by twelve regiments of Marik regulars. Overall command of the operation fell to Captain-G"
   },
   "Position": {
     "x": -116.87,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Algot",
     "Name": "Algot",
-    "Details": "Algot was one of the first worlds settled by early Tikonov explorers.  For a time, it was a major industrial center, second only to Tikonov itself.  Specializing in computer and electronic-related sciences.  Algot was one of the most populous worlds of the region at the beginning of the 29th century.  Both population and technologies have declined markedly since. This is partially due to a mysterious plague that hit in 2822, and disappeared just as mysteriously the following year.  The main factor in the decline of population was the heavy emigration and the lack of immigration after Algot gained its reputation for being bad for one's health.  For the past two centuries, however, the health of the general population has been exceptionally good.  Native Algotians do not let on that they have the third-longest life expectancy in Davion space because they fear that new waves of immigration would spoil the quality of rivers, mountain ranges, and resorts that make the planet one of the Inner Sphere's more pleasant homeworlds or places to visit."
+    "Details": "Algot was one of the first worlds settled by early Tikonov explorers.  For a time, it was a major industrial center, second only to Tikonov itself.  Specializing in computer and electronic-related sciences.  Algot was one of the most populous worlds of th"
   },
   "Position": {
     "x": 85.82,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

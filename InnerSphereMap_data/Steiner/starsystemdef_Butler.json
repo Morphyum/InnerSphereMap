@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Butler",
     "Name": "Butler",
-    "Details": "[3050] Leftenant General Davis Winfield knew that the incoming Falcon DropShips carried enough of the Forth Velites to outnumber his forces. Showing exceptional courage, which impressed the Jade Falcons, General Winfield countered the Falcon batchall by challenging star colonel Evak Mattlov of the Forth Velites to personal combat. Winfield had the upper hand until a lucky laser hit destroyed his Atlas' gyro. General Winfield's enraged troops attacked the Velites' positions, and Winfield, knocked unconscious when his 'Mech fell, could not order his troops to cease-fire. The Falcon Velites obliterated Winfield's Regiment. When General Winfield awoke in a Jade Falcon hospital unit, he was saluted for his honor, and made bondsman to Clan Jade Falcon.[3064] During the Jade Falcon Incursion, General Christifori entered the Butler system on the 17th of October 3064. Initially his ships came upon an Aegis class cruiser, the Black Talon. Fortunately for Christifori, the ship was undergoing repairs within an orbital dry-dock facility, and was disabled and captured with relative ease. On Butler itself, they faced just two trinaries of the Ninth Falcon Talon Cluster, plus a host of technical crews who did their best to swarm the general's 'Mechs and vehicles. Far outnumbering the defenders, Christifori's troops quickly pacified the world.The world remained in Lyran hands until the final phase of the Incursion, after the Blair Atholl agreement had been reached. When elements of Clan Diamond Shark had taken Twycross away from the LAAF garrison there, Khan Pryde authorized Galaxy Commander Rard Hoyt to retake Butler, and ensure the integrity of the Falcon's Occupation Zone. Galaxy Commander Hoyt selected five trinaries to retake the world from mostly conventional forces left behind to defend Butler, reinforced by two Blue Star Irregular companies. The Falcon trinaries landed on the 18th of June, and by the 25th had retaken the world."
+    "Details": "[3050] Leftenant General Davis Winfield knew that the incoming Falcon DropShips carried enough of the Forth Velites to outnumber his forces. Showing exceptional courage, which impressed the Jade Falcons, General Winfield countered the Falcon batchall by c"
   },
   "Position": {
     "x": -126.18,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sadalbari",
     "Name": "Sadalbari",
-    "Details": "The first settlers to come to the mostly tropical world of Sadalbari hailed from the African and Middle Eastern regions of Terra. At the time, rainforests covered most of the world's landmasses in the middle latitudes - a paradise, compared to the rocky deserts and desolate grasslands these early colonists once called home. Hoping to establish a peaceful agrarian lifestyle, most of the first settlements revolved around farming and cattle ranching - a processes made difficult when it soon became clear that most Terrestrial food crops simply wouldn't grow in the Sadalbarian soil.Native crops eventually came to the fore, becoming a significant export item, and one of the planet's few contributions to the rest of populated space, until MediTech Industries, a pharmaceutical corporation in the Star League era, discovered that much of the world's rich jungles also offered great medicinal potential. Under a grant from the Star League, MediTech set up an elaborate research and development facility on the fringe of the massive Waltabu Valley jungle. This facility was abandoned after the fall of the League, but eventually reclaimed after the First Succession War, by a local medical research company called Sadalbari Solutions. Today, Sadalbari Solutions operates a strong, interplanetary corporation that develops and sells everything from specialized dietary supplements to anti-cancer treatments. The company uses the former MediTech R&D facility as its corporate headquarters, based on the large, northern continent of Aberlani. Sadalbari's chief port city of Delhirahn is located on the nearby island-continent of New Kenya. The planetary capital, Ramolia, is situated ion the Green Valley region on the planet's large, southern polar continent of Beth'lamel."
+    "Details": "The first settlers to come to the mostly tropical world of Sadalbari hailed from the African and Middle Eastern regions of Terra. At the time, rainforests covered most of the world's landmasses in the middle latitudes - a paradise, compared to the rocky d"
   },
   "Position": {
     "x": 137.76,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Benfled",
     "Name": "Benfled",
-    "Details": "The battle for Benfled is probably one of the oddest recorded battles of the Clan invasion. The engagement began on the 21st November 3051, when Steel Viper's 400th Assault Cluster set foot on the planet. The Narhal Raiders squared off against the invaders but were swiftly outgunned and outmaneuvered. After losing more than two-thirds of their troops in four hours of battle, the Raiders abandoned Benfled. Seeing no apparent opposition, the Vipers declared that the world was now in their hands.At that point, the Vipers received a broadcast from a headstrong young man named Rene Duchesne, a cadet officer in the Benfled Tenth Cadet Cadre. Duchesne informed the Vipers that the planet was not yet theirs and that the Cadet Corps wished tto bid in Clan fashion for the battle. Seeing no reason to refuse, Viper commanders agreed to the bidding. The two parties bargained for hours, until both sides had reduced their committed forces to a single unarmed and unarmored warrior. Then Duchesne brought forth his defending force - cadet Tony Bernson. Bernson was six feet, eight inches tall and almost 250 pounds of solid muscle. The cadet's size failed to daunt the Viper warrior, Star Commander Janine. The two combatants squared off and fought a quick, brutal battle that earned a mention in the Steel Viper Rememberance. Despite the cadet's respectable showing, Star Commander Janine emerged victorious and the Viper force took both Bernson and Duchesne as bondsmen."
+    "Details": "The battle for Benfled is probably one of the oddest recorded battles of the Clan invasion. The engagement began on the 21st November 3051, when Steel Viper's 400th Assault Cluster set foot on the planet. The Narhal Raiders squared off against the invader"
   },
   "Position": {
     "x": -72.91,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

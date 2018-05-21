@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Schedar",
     "Name": "Schedar",
-    "Details": "Schedar is a cool, desert world. Although the chemical constituents of its atmosphere are suitable to humans, a fine mineral dust that scars human lungs permeates the lower atmosphere and forces Schedar's population to use filtering masks and equipment. Many small, salty lakes pockmark the surface, and Schedar's native reptilian life-forms migrate between these lakes as the seasons change. During the First Star League, the Federated Suns invited the Terran Hegemony to jointly administer Schedar, partly to ward off attacks from the Draconis Combine and partly to encourage Hegemony investment in this backwater world. Taking advantage of the planet's low-wage workforce and the naturally occuring semiconductor minerals littered across Schedar's surface, a rich Hegemony family established Rander Communications Equipment, Inc. near the capital of Jacksonville. The Rander family also convinced the Hegemony to undertake some mild terraforming efforts on Schedar to rid the planet of its deadly mineral dust.Although the fall of the First Star League brought an end to terraforming on Schedar, Rander Communication Equipment went on to faithfully serve the Federated Suns for the duration of the Succession Wars by producing various military electronics, including communications, tracking and targeting, and countermeasure systems. Although Rander had a subsidiary on the surface of Schedar that produced civilian electronics, its military electronics were produced in an underground factory."
+    "Details": "Schedar is a cool, desert world. Although the chemical constituents of its atmosphere are suitable to humans, a fine mineral dust that scars human lungs permeates the lower atmosphere and forces Schedar's population to use filtering masks and equipment. M"
   },
   "Position": {
     "x": 117.86,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

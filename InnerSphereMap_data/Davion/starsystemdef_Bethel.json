@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bethel",
     "Name": "Bethel",
-    "Details": "During the Forth Succession War, a hidden NAIS outpost on Bethel was the site of an elaborate trap to fool Maximillian Liao, Chancellor of the Capellan Confederation. The raid on the facility, led by Davion-agent Justin Xiang-Allard, netted the Confederation the flawed triple-strength myomer technology.  Unknown to Capellan scientists, the super-myomer would spontaneously combust in the presence of a catalyst agent."
+    "Details": "During the Forth Succession War, a hidden NAIS outpost on Bethel was the site of an elaborate trap to fool Maximillian Liao, Chancellor of the Capellan Confederation. The raid on the facility, led by Davion-agent Justin Xiang-Allard, netted the Confederat"
   },
   "Position": {
     "x": 140.62,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

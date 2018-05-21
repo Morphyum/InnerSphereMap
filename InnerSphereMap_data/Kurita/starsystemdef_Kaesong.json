@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kaesong",
     "Name": "Kaesong",
-    "Details": "[3051] Clan Ghost Bear landed on Kaesong in December 3051. Jumpship trouble had stranded the Blue Lightning mercenary company on Kaesong just before the Ghost Bears' invasion of the planet. When the Bears arrived in-system, the Kaesong government pleaded with the mercenaries to defend their planet, but the mercenaries' agreement did more harm than good. Knowing that his troops would face dezgra mercenaries, Star Colonel Dane Jorgensson skipped the bidding process and simply sent in the elite Trinary Command, 14th Battle Cluster, to deal with the Lightning. Outgunned and outnumbered, the mercenaries retreated into the streets of Vedsan City, where the Ghost Bears rooted them out and destroyed them."
+    "Details": "[3051] Clan Ghost Bear landed on Kaesong in December 3051. Jumpship trouble had stranded the Blue Lightning mercenary company on Kaesong just before the Ghost Bears' invasion of the planet. When the Bears arrived in-system, the Kaesong government pleaded "
   },
   "Position": {
     "x": 59.69,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

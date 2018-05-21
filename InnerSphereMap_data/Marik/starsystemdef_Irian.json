@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Irian",
     "Name": "Irian",
-    "Details": "Located just coreward of the Marik Commonwealth, Irian is best known for its vast BattleMech manufacturing centers. This heavily garrisoned world has been invaded only once, by the Lyran Commonwealth in 2842, and the factories were left undamaged in the subsequent fighting.A survey taken in 3025 indicates that, of all the worlds in the Free Worlds League, the people of Irian spend more time per capita watching videos than any other. The reason for this is unknown; neither the quality of the technology or the variety of programming is any better here than elsewhere in the League. Perhaps it has something to do with Irian's seasonal changes, which make people sluggish in the summer and restless in the winter, or perhaps there is something narcotic in the environment.The Irian landscape offers little of interest to either tourists or developers. Inedible grass covers most of the hilly or mountainous land, and the flatlands consist mostly of deserts with few minerals of any value. The oceans and rivers yield little in the way of seafood. Despite the fact that the people of Irian have to import most of their food (or perhaps because of it), Irian cuisine is notoriously bland.The Irian 'Mech factory is situated in the base of Soapstone Mountain, a location similar to the much larger Hesperus II facilities in the Federated Commonwealth. This attempt at fortification has not prevented its near destruction in the past, most recently at the hands of Anton Marik's rebels in 3014."
+    "Details": "Located just coreward of the Marik Commonwealth, Irian is best known for its vast BattleMech manufacturing centers. This heavily garrisoned world has been invaded only once, by the Lyran Commonwealth in 2842, and the factories were left undamaged in the s"
   },
   "Position": {
     "x": -46.5,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

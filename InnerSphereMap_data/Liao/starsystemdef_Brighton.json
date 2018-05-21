@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brighton",
     "Name": "Brighton",
-    "Details": "During a three-week battle that decided the fate of the St. Ives Commonality during the Third Succession War in 2998, local Brighton militia managed to withstand a siege by superior Davion Forces until relieved by several Warrior House regiments.  The battle caused considerable privation to the civilian inhabitants.Brighton is the site of the Capellan Commonwealth's only officially acknowledged political prison complex.  Most of Brighton's workers are miners in the many copper and silver mines that dot the planet.  Those not employed routinely serve in one of several militia companies that maintain training facilities for off-world as well as native troops.[3060] During the St. Ives conflict, Angel's Regiment (then called Cristobel's Regiment), of McCarron's Armored Cavalry, came in behind the Star League peace-keepers and wrested control of Brighton from the Compact. The loss of this important world, of prevalently rough and mountainous terrain, and which also hosted sizable supply stores as well as one of the Compact's larger training centers, was a critical blow to the St. Ives front."
+    "Details": "During a three-week battle that decided the fate of the St. Ives Commonality during the Third Succession War in 2998, local Brighton militia managed to withstand a siege by superior Davion Forces until relieved by several Warrior House regiments.  The bat"
   },
   "Position": {
     "x": 79.09,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nestor",
     "Name": "Nestor",
-    "Details": "During the Star League-era, Nestor was home to many famous wineries.[3014] House Steiner's 4th Donegal Guards raided Nestor in 3014. Though they failed to capture the Selathon industrial complex, they blooded the Orloff Grenadiers and forced Captain-General Janos Marik to divert forces to the Lyran border, thereby extending the civil war against his brother, Anton."
+    "Details": "During the Star League-era, Nestor was home to many famous wineries.[3014] House Steiner's 4th Donegal Guards raided Nestor in 3014. Though they failed to capture the Selathon industrial complex, they blooded the Orloff Grenadiers and forced Captain-Gener"
   },
   "Position": {
     "x": -170.58,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

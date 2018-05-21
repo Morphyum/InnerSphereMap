@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Proserpina",
     "Name": "Proserpina",
-    "Details": "Proserpina is a death trap of enormous proportions.  Seven times the planet has been the object of ferocious contests between the Draconis Combine and the Federated Suns.  After each battle, the planet and its people have suffered grievously. Of Proserpina's five continents, two are complete wastelands.  The northern Amerigo continent is unapproachable except in an environmental suit because of the many long-lasting contact poisons in the soil and water. During the last battle between Davion and Kurita, the Combine forces wrested the planet away from the Federated Suns by releasing huge plumes of nerve gas that killed approximately 60 percent of the planet's civilian and military populations.  Needless to say, the Kurita troops had little problem taking Proserpina after that. Despite all this, Proserpina now has a large population and a variety of minor industries.  Because the planetary capital of Conqueror's Pride is also a prefecture capital, it supports many bureaucrats.  Proserpina is also the homeworld of the 9th Benjamin Regulars, under the command of Denice Eastmoreland.Proserpina also possess its own militay acadamy. The University of Proserpina teaches combat skills to aspiring infantrymen, MechWarriors, AeroSpace Pilots, and artillery personnel. Many students specializing in conventional arms attend this university.Native to Proserpina, Blood Limpets are blood-sucking quasi-reptiles with hard green shells and weighing about a kilogram. When they sense body heat, these creatures rise above the muck of their swamp and run with amazing speed on their six legs toward the prey. Needless to say, they gave the early colonists on Proserpina endless nightmares."
+    "Details": "Proserpina is a death trap of enormous proportions.  Seven times the planet has been the object of ferocious contests between the Draconis Combine and the Federated Suns.  After each battle, the planet and its people have suffered grievously. Of Proserpin"
   },
   "Position": {
     "x": 158.21,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

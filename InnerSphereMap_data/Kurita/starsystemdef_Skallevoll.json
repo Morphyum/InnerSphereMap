@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Skallevoll",
     "Name": "Skallevoll",
-    "Details": "[3050] Clan Wolf landed on Skallevoll in March 3050. Facing them were the Glory Warriors, a mercenary 'Mech battalion, the First Skallevoll People's Armored Regiment, and the First and Third Skallevoll People's Mechanized Regiments. Most of the defending forces were destroyed by Trinary Battle, and the Alpha and Charlie Elemental Stars of the Wolves Seventh Battle Cluster. The Skallevoll government sued for peace soon thereafter."
+    "Details": "[3050] Clan Wolf landed on Skallevoll in March 3050. Facing them were the Glory Warriors, a mercenary 'Mech battalion, the First Skallevoll People's Armored Regiment, and the First and Third Skallevoll People's Mechanized Regiments. Most of the defending "
   },
   "Position": {
     "x": 37.29,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

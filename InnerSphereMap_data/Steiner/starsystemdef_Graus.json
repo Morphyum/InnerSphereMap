@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Graus",
     "Name": "Graus",
-    "Details": "[3050] The Lyran Commonwealth planet of Graus, home to a pacifist movement for several decades, offered the Forth Falcon Velites no resistance when they arrived to take the planet. When the planetary council responded to the Falcon batchall by stating that no forces defended the world, the Jade Falcons assumed they were attempting to deceive the Clan. They discovered that they council had spoken the truth upon landing. Graus assimilated into Falcon society almost effortlessly, though it is unlikely that the planet will ever produce any members of the warrior caste. The capital of Graus is New Paris. Graus is also rumored to be the location of a Star League memory cache. [3053] Clan Steel Viper landed on Graus in September 3053, in an attempt to wrest in away from the Jade Falcon's. The subsequent battle lasted for three days and nights, with the fighting especially fierce around New Paris and the Garros Spaceport. By the time the Falcons decided to abandon the world, both sides had taken heavy losses. It is unknown whether the rumored memory cache, the apparent motivation for the assault on Graus, was recovered by either the Falcons or Vipers during their occupations of the world.[3061] After their abortive attack into the Jade Falcon Occupation Zone in mid-3061, Clan Steel Viper was forced to flee from their own OZ, ceding Graus back into Falcon hands.[3064] During the Jade Falcon Incursion, the Third Lyran Guards dropped two combat commands onto Graus on the 8th on November 3064. Defended by only two trinaries and a binary of the Tenth Provisional Garrison Cluster, the garrison unit was overwhelmed by the heavy 'Mech and armor force, and folded in just two days."
+    "Details": "[3050] The Lyran Commonwealth planet of Graus, home to a pacifist movement for several decades, offered the Forth Falcon Velites no resistance when they arrived to take the planet. When the planetary council responded to the Falcon batchall by stating tha"
   },
   "Position": {
     "x": -100.61,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

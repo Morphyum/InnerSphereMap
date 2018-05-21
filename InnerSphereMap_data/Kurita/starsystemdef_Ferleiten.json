@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ferleiten",
     "Name": "Ferleiten",
-    "Details": "[3050] At the first appearance of Clan Wolf forces on Ferleiten in August 3050, the planetary government, composed mostly of devoutly religious pacifists, ordered the militia to surrender their weapons. The planet was won by the Wolves without a shot being fired."
+    "Details": "[3050] At the first appearance of Clan Wolf forces on Ferleiten in August 3050, the planetary government, composed mostly of devoutly religious pacifists, ordered the militia to surrender their weapons. The planet was won by the Wolves without a shot bein"
   },
   "Position": {
     "x": 25.32,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

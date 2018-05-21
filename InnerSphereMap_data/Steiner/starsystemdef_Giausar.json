@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Giausar",
     "Name": "Giausar",
-    "Details": "This world is one of the few that supports dinosaur life similar to that of Terra's distant past. These rare creatures live mostly in harmony with the human population, aside from the occasional frightening encounter and even rare deaths.[3025] Both the Commonwealth government and the Free Worlds League require that all traders entering and leaving their realms sumbit to a vessel search. The LCAF usually carries out searches for House Steiner, a routine duty usually assigned to common soldiers who are not too diligent in their efforts. Giausar is one the three most popular jump points for traders entering the Free Worlds League, which is quickly turning the planet into an economic boom world."
+    "Details": "This world is one of the few that supports dinosaur life similar to that of Terra's distant past. These rare creatures live mostly in harmony with the human population, aside from the occasional frightening encounter and even rare deaths.[3025] Both the C"
   },
   "Position": {
     "x": -207.85,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

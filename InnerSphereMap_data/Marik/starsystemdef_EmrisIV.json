@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_EmrisIV",
     "Name": "Emris IV",
-    "Details": "[3014] During the Anton Marik civil war of 3014, Wolf's Dragoons assaulted Emris IV. Defending the world were the Sixth and Ninth Marik Militia's. Knowing they were outnumbered, they lured the Dragoon's into the industrial complexes of the cities of Ivanograd and Urseinova, where the Dragoon's size and tactics would have little benefit. After three weeks of bitter street-to-street fighting, the Militia's finally conceded the world to the Dragoon's, though they managed to escape relatively intact."
+    "Details": "[3014] During the Anton Marik civil war of 3014, Wolf's Dragoons assaulted Emris IV. Defending the world were the Sixth and Ninth Marik Militia's. Knowing they were outnumbered, they lured the Dragoon's into the industrial complexes of the cities of Ivano"
   },
   "Position": {
     "x": -88.93,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

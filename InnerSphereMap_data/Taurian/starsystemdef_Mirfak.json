@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mirfak",
     "Name": "Mirfak",
-    "Details": "From all accounts, Mirfak appears to be a hot, dry world rich in germanium and radioactives. Although the accuracy of such rumors has not been established, the government has approached several small mining concerns to assemble exploitation teams for duty on this newly discovered world. The degree of security surrounding this matter suggests a substantial find somewhere in the Mirfak system."
+    "Details": "From all accounts, Mirfak appears to be a hot, dry world rich in germanium and radioactives. Although the accuracy of such rumors has not been established, the government has approached several small mining concerns to assemble exploitation teams for duty"
   },
   "Position": {
     "x": 386.12,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

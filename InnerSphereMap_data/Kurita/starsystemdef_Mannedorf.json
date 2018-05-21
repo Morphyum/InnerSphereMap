@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mannedorf",
     "Name": "Mannedorf",
-    "Details": "[3052] Clan Ghost Bear landed on Mannedorf in March 3052. Facing them were The GoldMiners, a mercenary 'Mech company. The Bears bid fiercely for the right to destroy the mercenaries, who made their stand in the Silvermain Mines. The Miners packed explosives into every nook and cranny they could find, intending to bury the OmniMechs of the 72nd Assault Trinary under a ton of rubble. When the Bears entered the mine, the mercenaries triggered the explosives, and rejoiced in apparent victory - prematurely. Unknown to The GoldMiners, a Star League base had been built beneath and behind the mine shafts, the 72nd, overhearing the mercenaries pan via an intercepted transmission, had sent the First Elementals Support Binary ahead of the 'Mechs to open the doors to the base's tunnel network. Just before the explosives went off, the 72nd slipped through the hidden entrances to the Star League base. The GoldMiners emerged from the rear exit of the mine to find the 72nd waiting for them."
+    "Details": "[3052] Clan Ghost Bear landed on Mannedorf in March 3052. Facing them were The GoldMiners, a mercenary 'Mech company. The Bears bid fiercely for the right to destroy the mercenaries, who made their stand in the Silvermain Mines. The Miners packed explosiv"
   },
   "Position": {
     "x": 49.09,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

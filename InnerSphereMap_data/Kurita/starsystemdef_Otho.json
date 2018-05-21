@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Otho",
     "Name": "Otho",
-    "Details": "In 2818 the newly formed 54th Lyran Guard were sent on its first, and only mission. Trained under Colonel Hempsted, the commanding officer of the legendary Stealths, the 54th were sent unassisted to capture the Draconis Combine world of Otho. Colonel Hempsted and his aides vigorously objected to this shocking bit of news, stating that there was no way to predict how a regiment of even the best trained combat-virgins, would perform in actual battle conditions. The Lyran high command did comprise slightly, by allowing several members of the Stealths to accompany the 54th as aides. They would not allow Colonel Hempsted to go, though he demanded the right.The young MechWarriors soon cracked beneath the pressure put on them by a veteran Kurita 'Mech unit, and the entire 54th were destroyed. Hearing of the disaster, Archon Richard Steiner reshuffled the high command, and court-martialled those directly responsible for sending the 54th to Otho. A very melancholy Colonel Hempsted was then promoted to Hauptman-General, with dual command of the Kurita front and over the training of all recruits and cadets."
+    "Details": "In 2818 the newly formed 54th Lyran Guard were sent on its first, and only mission. Trained under Colonel Hempsted, the commanding officer of the legendary Stealths, the 54th were sent unassisted to capture the Draconis Combine world of Otho. Colonel Hemp"
   },
   "Position": {
     "x": 78.42,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

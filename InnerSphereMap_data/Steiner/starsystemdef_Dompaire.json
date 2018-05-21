@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dompaire",
     "Name": "Dompaire",
-    "Details": "[3050] The 305th Assault Cluster made a bold landing almost on top of Dompaire Central, the planetary capital, in August 3050. Unprepared for the Jade Falcon Assault, the planetary defense rallied for a brief counterattack, but the force's old tanks and 'Mechs malfunctioned and broke down under battle stress. The 305th secured the world by the end of the second day, though terrorist bombings and guerrilla attacks still occur.During the Falcon attack, Baron von Dompaire and his only son and heir were killed defending their estate. Consequently, von Dompaire's multi-million C-Bill estate passed to a distant relative of the baron - Brent Matis, a MechWarrior in the Eighth Lyran Regulars. Instead of retiring to a life of luxury, Matis used the windfall to create his own mercenary command: the Crimson Crusaders.Recruiting from the ranks of the Dispossessed by offering new 'Mechs and vehicles, he was able to attract many veterans to his combined-arms battalion in a relatively short time. Major Brent Matis looks forward to the day when he can liberate Dompaire, and has promised his troops landholds on the planet if they remain with him."
+    "Details": "[3050] The 305th Assault Cluster made a bold landing almost on top of Dompaire Central, the planetary capital, in August 3050. Unprepared for the Jade Falcon Assault, the planetary defense rallied for a brief counterattack, but the force's old tanks and '"
   },
   "Position": {
     "x": -74.72,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

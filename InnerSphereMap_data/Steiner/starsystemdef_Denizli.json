@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Denizli",
     "Name": "Denizli",
-    "Details": "[3050] Following a short battle at the spaceport, the Demon Company abandoned their defensive positions and withdrew to the planet's wilderness. Jade Falcon fighters promptly bombed the mercenary company's main supply depot, preventing the Demons from waging an effective guerrilla campaign. When he realized there was no more point in continuing to fight, the Demon's commander tried to bribe his way into Clan Jade Falcon and was shot to death by an Elemental for his efforts. The Falcons turned the soldiers of the Demon Company over to the local authorities for justice."
+    "Details": "[3050] Following a short battle at the spaceport, the Demon Company abandoned their defensive positions and withdrew to the planet's wilderness. Jade Falcon fighters promptly bombed the mercenary company's main supply depot, preventing the Demons from wag"
   },
   "Position": {
     "x": -113.01,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

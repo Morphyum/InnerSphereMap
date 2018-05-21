@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Aea",
     "Name": "Aea",
-    "Details": "Aea occupied a position in the Periphery close to the Star League era colonies of Girondas and Qalzi and the more modern colony of Regis Roost.The Aea system was either settled around the time of the Fourth Succession War or became significant enough for Inner Sphere nations to note it on maps. Aea had been incorporated into the Taurian Concordat by the end of the War of 3039. "
+    "Details": "Aea occupied a position in the Periphery close to the Star League era colonies of Girondas and Qalzi and the more modern colony of Regis Roost.The Aea system was either settled around the time of the Fourth Succession War or became significant enough for "
   },
   "Position": {
     "x": 156.05,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

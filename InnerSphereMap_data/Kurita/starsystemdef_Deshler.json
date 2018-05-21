@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Deshler",
     "Name": "Deshler",
-    "Details": "Deshler is a water world, with seas covering 80% of its surface. The seas are so laded with reddish algae that they sometimes resemble bloodied waters. The rugged continents are places of rocky hills, thick lowland jungles, and windswept crags.It contains two 'Mech factories: the damaged Aghama 'Mechworks facility in the Aghama valley, a second planet at Valerian Bay."
+    "Details": "Deshler is a water world, with seas covering 80% of its surface. The seas are so laded with reddish algae that they sometimes resemble bloodied waters. The rugged continents are places of rocky hills, thick lowland jungles, and windswept crags.It contains"
   },
   "Position": {
     "x": 215.07,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

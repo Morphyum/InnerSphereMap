@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Engadine",
     "Name": "Engadine",
-    "Details": "The wintry world of Engadine is located more than 500 light years from Terra. A quiet world that supports little industry, the world once belonged to the long-dead Rim Worlds Republic. Engadine is heavily forested, with craggy mountains and rivers that flow briskly under sheets of ice. The weather always remains a few degrees above freezing. Despite this, Engadine has become a favorite vacation spot for many of the wealthy in the Federated Commonwealth, who come every year to participate in The Rooting.Every winter, the ruler of Engadine, Lord President Alistar Daniel, hosts an event known as The Rooting, the only effective method of controlling the population of a local predator known as nolans. These humanoid creatures are particularly nasty beasts, almost 3 meters tall, heavy and fierce. Covered with a thick hide, the nolan uses its two sets of arms to attack. It's three-fingered hands end in razor-sharp claws that easily cut through most material. The nolan's bite is also poisonous, and will kill its victim within a few minutes if not treated. Adding to its natural defenses, the nolan's chameleon-like abilities allow it to blend almost completely into its surrounds. To make matters worse, the nolans also possess enough intelligence to set ambushes and traps for unwary travellers. [3056] Most able citizens on Engadine participate in The Rooting, as do many nobles from other worlds who consider this vital exercise excellent blood sport. The clan invasion called many able-bodied men and women from Egadine, leaving fewer people to carry out The Rooting. By 3056, the nolan population had reached dangerous levels. Packs of the creatures fearlessly attack small villages, killing at random and then escaping. The population increase is also damaging the Engadine Ecosystem, forcing the lord president to hire troops to help him and his staff in The Rooting."
+    "Details": "The wintry world of Engadine is located more than 500 light years from Terra. A quiet world that supports little industry, the world once belonged to the long-dead Rim Worlds Republic. Engadine is heavily forested, with craggy mountains and rivers that fl"
   },
   "Position": {
     "x": -351.28,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jeronimo",
     "Name": "Jeronimo",
-    "Details": "The northern continent of Jeronimo is blanketed by a forest of huge trees. This made such a powerful impression on the men and women who colonized this world that many chose to relinquish the comforts of civilization in order to live among the branches of these giants.When the Draconis Combine claimed the planet in 2320, the people of Jeronimo accepted their new rulers without comment. The industrial cities of the southern continent welcomed membership of a larger, more powerful nation, and abundant fossil fuels made plundering the northern forest uneconomical. (Or perhaps even the soldiers of the Draconis Combine were impressed by the ancient forest).The foliage is too dense for aircraft to penetrate, but jump-capable 'Mechs with hand actuators can travel the lower and mid-level branches with a fair degree of success, and the forest is said to be a LAM's paradise.[3050] Clan Smoke Jaguar landed on Jeronimo in September 3050. After several hours of fighting against the Fifth Galedon Regulars, Star Colonel Paul Moon was forced to break his bid and call down the Second Battle Trinary, Third Jaguar Cavaliers. With the addition of these forces to Trinary Assault and Binary Elemental, the Jaguars triumphed over the Fifth. Only a battalion and a half escaped the planet.[3059] During the Forth and final wave of Operation Bulldog, the Smoke Jaguar defenders on most of their remaining OZ worlds only fought long enough to satisfy their honor. On Jeronimo, the Tenth Jaguar Regulars fought to the death against the combined might of the Eleventh Alshain Regulars, Davion Assault Guards RCT, First Wolf Legion Cluster and the First Kell Hounds. The SLDF forces claimed some salvage and a few prisoners, but little else."
+    "Details": "The northern continent of Jeronimo is blanketed by a forest of huge trees. This made such a powerful impression on the men and women who colonized this world that many chose to relinquish the comforts of civilization in order to live among the branches of"
   },
   "Position": {
     "x": 183.01,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sheliak",
     "Name": "Sheliak",
-    "Details": "Hearing of Clan Ghost Bear's imminent arrival over Sheliak in December 3051, the planetary government panicked. As a minor planet with few resources and little strategic value to the Draconis Combine, they had no military to defend them. In an all-night session with the terrified governors, football commissioner Jimmy Straight Jim Lorne proposed a bold plan. Confident that the Clans knew nothing of the game of football, he suggested that the Sheliak Professional Football League challenge the invaders to a game. If the Clans won, they could claim the planet; if they lost, Sheliak would remain free of Clan occupation. Because it was the only chance they had, the governors agreed to Straight Jim's plan. To their surprise, the Clans agreed to play. Straight Jim, however, had not counted on facing a team of eight-foot-tall Elementals, nor had he expected the Clans to know the rules of the game (few citizens of the Inner Sphere even suspected that the Clans would continue to play the sports common to 20th century Terra.) The dismayed leaders and people of Sheliak could only watch as the Ghost Bear team devastated the Sheliak All-Star team, 84 to 3. The planetary government handed Sheliak over to the Ghost Bears during the postgame show."
+    "Details": "Hearing of Clan Ghost Bear's imminent arrival over Sheliak in December 3051, the planetary government panicked. As a minor planet with few resources and little strategic value to the Draconis Combine, they had no military to defend them. In an all-night s"
   },
   "Position": {
     "x": 64.36,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

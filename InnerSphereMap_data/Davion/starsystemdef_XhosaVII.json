@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_XhosaVII",
     "Name": "Xhosa VII",
-    "Details": "Xhosa VII is a world of barren plains, interrupted by mountain chains and thick forests. It is rich in deposits of metals and chemical energy resources. The planet's population has tended to cluster about the five main spaceports, leaving the rest of the planet only sparsely inhabited by loggers, hunters, and farmers. The capital city is named New Xhosa."
+    "Details": "Xhosa VII is a world of barren plains, interrupted by mountain chains and thick forests. It is rich in deposits of metals and chemical energy resources. The planet's population has tended to cluster about the five main spaceports, leaving the rest of the "
   },
   "Position": {
     "x": 173.96,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alkes",
     "Name": "Alkes",
-    "Details": "[3025] Alkes, along with many other worlds situated along the Marik / Steiner border, has suffered much during the Succession Wars. The planet's surface is scarred and battered, and as such Alkes simply cannot grow enough food to support itself. One of the planet's primary imports is farm machinery."
+    "Details": "[3025] Alkes, along with many other worlds situated along the Marik / Steiner border, has suffered much during the Succession Wars. The planet's surface is scarred and battered, and as such Alkes simply cannot grow enough food to support itself. One of th"
   },
   "Position": {
     "x": -114.78,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

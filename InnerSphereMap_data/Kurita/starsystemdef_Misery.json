@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Misery",
     "Name": "Misery",
-    "Details": "Misery is a bleak world locked in an ice age. Cold and unforgiving over most of it's continents, the southern city of Laerdal is located near the magma mines. The air here has an unpleasant sulpherous tang, but at least it is warm. The northern continent is called Borealis."
+    "Details": "Misery is a bleak world locked in an ice age. Cold and unforgiving over most of it's continents, the southern city of Laerdal is located near the magma mines. The air here has an unpleasant sulpherous tang, but at least it is warm. The northern continent "
   },
   "Position": {
     "x": 274.25,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

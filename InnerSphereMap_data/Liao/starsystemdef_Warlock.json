@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Warlock",
     "Name": "Warlock",
-    "Details": "Warlock is an arctic planet hosting numerous noble resorts, including the Liao family's winter retreat.  It is a major naval base for the St. Ives Commonality, and the southern continent supports a weapon testing facility and specialized arctic training centers.  Security-sensitive military research and development centers are located along the planet's equator.  Lying near the border of the Federated Suns, Warlock is often used as a staging point for raids and other covert military or Maskirovka action into Davion space.  Its proximity to Davion troop centers has made it a logical target for the occasional probe by elements of Michael Hasek-Davion's command.  One St. Ives reserve regiment is located on Warlock as a permanent garrison, though units are rotated on an annual basis."
+    "Details": "Warlock is an arctic planet hosting numerous noble resorts, including the Liao family's winter retreat.  It is a major naval base for the St. Ives Commonality, and the southern continent supports a weapon testing facility and specialized arctic training c"
   },
   "Position": {
     "x": 120.19,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mackenzie",
     "Name": "Mackenzie",
-    "Details": "The Brigadier Corporation is one of the three Inner sphere factories still able to construct the gargantuan Behemoth class Dropship. Though incapable of atmospheric flight, the Behemoth is still a useful military tool because it can carry huge amounts of supplies from a jump point to a close planetary orbit."
+    "Details": "The Brigadier Corporation is one of the three Inner sphere factories still able to construct the gargantuan Behemoth class Dropship. Though incapable of atmospheric flight, the Behemoth is still a useful military tool because it can carry huge amounts of "
   },
   "Position": {
     "x": -275.54,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Skokie",
     "Name": "Skokie",
-    "Details": "[3050] Clan Wolf landed on Skokie in October 3050. Defending the world were the First and Second Skokie Militia Tank Regiments. An agricultural center, Skokie was expected to be an easy conquest. The Skokie tank regiments lived down to this expectation by fleeing rather than fighting. Both regiments were easily subdued, with few losses on either side. A local variant of meningitis, named the Skokie Shivers for the shaking its victims suffer, accomplished what the tanks failed to attempt. The virus struck down two-thirds of Trinaries Second and Third Mixed Services (of Delta Galaxy's Forth Striker Cluster), forcing their quarantine until they recovered and effectively removing them from the front-lines of the invasion."
+    "Details": "[3050] Clan Wolf landed on Skokie in October 3050. Defending the world were the First and Second Skokie Militia Tank Regiments. An agricultural center, Skokie was expected to be an easy conquest. The Skokie tank regiments lived down to this expectation by"
   },
   "Position": {
     "x": -41.63,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

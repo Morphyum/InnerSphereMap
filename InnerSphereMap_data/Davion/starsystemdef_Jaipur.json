@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jaipur",
     "Name": "Jaipur",
-    "Details": "Jaipur is a small planet with modest resources and a reasonably pleasant atmosphere, located in the Capellan March. The original settlers of Jaipur were from Terran India and from the planet Mars. They settled down to begin farming the dry, but workable land. When the planet became the site of a major battle during the Civil War era of the Federated Suns, the farmers waited quietly until the killing stopped and they could return to their land once more. For several hundred years, the predominantly agricultural population was contented enough. They did fairly well during the Star League Era, but only barely survived the First and Second Succession Wars. Now that the progress of the Third War has pushed the Capellan border far from Jaipur, the planetary population looks forward to years of peace. Things began to change recently when the Feruc family decided to become one of the industrial powers of the Federated Suns. They have begun to mine the planet's meager resources and to build huge factories far beyond the capacity of the planet or its people. This has led to growing resentment among the common folk and some of Jaipur's lesser nobles. The capital of Jaipur is New Amritsar."
+    "Details": "Jaipur is a small planet with modest resources and a reasonably pleasant atmosphere, located in the Capellan March. The original settlers of Jaipur were from Terran India and from the planet Mars. They settled down to begin farming the dry, but workable l"
   },
   "Position": {
     "x": 175.51,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

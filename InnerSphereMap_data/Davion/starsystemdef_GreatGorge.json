@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_GreatGorge",
     "Name": "Great Gorge",
-    "Details": "The initial survey of the young world of Great Gorge reported little of interest except for the dimensions of the huge canyon that dominates one of the regions. Most assumed that this planet of marginal atmosphere, little water, and few lifeforms would become a charted but forgotten world. A religious group from Terra chose Great Gorge as the site of their future Eden. Settling on the planet just before the creation of the Star League, they set about to completely transform the world. Some of their activities, such as scattering desert grass seeds from airplanes and casting ironfish eggs into the sea, began to have surprising, even miraculous, effects. The oxygen content of the atmosphere increased because of the plants the colonists cultivated, and fish actually hatched and thrived on the native algae. By the end of the Star League era, Great Gorge was a comfortable place with plenty of air and plenty of food, thanks entirely to the work of the planet's original colonists. In the meantime, several mining companies had discovered that the walls of the Great Gorge exposed many easily mined metals and chemical compounds. The planet soon became as profitable as it was habitable. Unfortunately for Great Gorge, its location on the Crucis March border with the Periphery and its abundant resources have made it a prime target of bandit raids. Just recently, the last descendant of the planet's religious colonists died. Without their efforts to keep the planet livable, it is possible that conditions on Green Gorge, particularly its atmosphere, might decline to their previous state. The present Marquess definitely has his work cut out for him. The capital of Great Gorge is New Stockdon, a city in the Wide Floor section of the Great Gorge."
+    "Details": "The initial survey of the young world of Great Gorge reported little of interest except for the dimensions of the huge canyon that dominates one of the regions. Most assumed that this planet of marginal atmosphere, little water, and few lifeforms would be"
   },
   "Position": {
     "x": 492.68,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

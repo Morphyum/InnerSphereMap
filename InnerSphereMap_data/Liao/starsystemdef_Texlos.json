@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Texlos",
     "Name": "Texlos",
-    "Details": "The cool, temperate world of Texlos serves as a large manpower pool for the St. Ives Armored Cavalry and St. Ives reserve units.  A small industrial base, largely rebuilt after the Second Succession War, Texlos supports several Aerospace firms.  It has a St. Ives Reserve garrison on station at all times, augmenting local militia forces.  The moderate climate and pleasant atmosphere of this garden spot contribute to one of the highest population growth rates in the region, though its location near Davion space discourages immigration."
+    "Details": "The cool, temperate world of Texlos serves as a large manpower pool for the St. Ives Armored Cavalry and St. Ives reserve units.  A small industrial base, largely rebuilt after the Second Succession War, Texlos supports several Aerospace firms.  It has a "
   },
   "Position": {
     "x": 110.62,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

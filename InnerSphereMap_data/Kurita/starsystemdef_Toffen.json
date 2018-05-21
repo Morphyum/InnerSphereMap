@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Toffen",
     "Name": "Toffen",
-    "Details": "Toffen is a mostly self-sufficient agricultural world. It has three continents, one of which is a small, barren wasteland covered with rocks and sand. The second-largest continent, Jacobitz, is the center of industrial activity, most of which is civilian in nature. Almost all the large cities are there, as well as extensive mining operations. Jacobitz is mountainous and has a rough weather pattern, no matter what the time of year. Graham is the largest of the three continents. The southern expanses are on the equator and are hot jungles and deserts. To the north, they give way to vast, rolling plains from the center of the continent to the western shores. The plains flood in the spring and are burned off by the locals during the summer. The eastern side of Graham is heavily forested. It is mountainous, with four major ranges and countless others. The largest city on Graham is Pied, which is only 30,000 strong. The rest of the population is spread throughout numerous farming communities.[3052] Clan Ghost Bear landed on Toffen in March 3052. Defending the world were the Third and Eighth Toffen Guards, comprised of 2 'Mech companies and regiment of infantry. The major metropolitan centers of Toffen lay beneath Dell Reservoir. Gambling that the Ghost Bears would not use their aerospace strength in order to avoid damaging the cities they had come to conquer, the Third and Eighth made their initial stand at Dell. Facing the 469th Assault Trinary, the defenders moved forward, confident of victory against a mere fifteen 'Mechs. The Bears, however, had others ideas. They easily routed the green defenders and followed the retreating units to the abandoned Longueil power plant, three kilometers away. There, the Guards' infantry elements used the abundant large metal cylinders as excellent cover while they sowed the plant with explosives. While the frustrated Ghost Bears opened every old generator and looked inside for the enemy, the troopers of the Third and Eighth slipped a few at a time out of the building. Scenting an Inner Sphere trap, Star Captain Pinter Hall led the 469th out of the plant just before it detonated. The angry Ghost Bears hunted down the remainder of the defenders, but many of the Guards escaped and went to ground. The planetary garrison is still dealing with occasional flare-ups of violence from the surviving Toffen Guards.An old SLDF base is also situated on Graham. By 3062, this had been reactivated by Clan Ghost Bear."
+    "Details": "Toffen is a mostly self-sufficient agricultural world. It has three continents, one of which is a small, barren wasteland covered with rocks and sand. The second-largest continent, Jacobitz, is the center of industrial activity, most of which is civilian "
   },
   "Position": {
     "x": 41.61,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

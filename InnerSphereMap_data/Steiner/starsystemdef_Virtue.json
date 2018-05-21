@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Virtue",
     "Name": "Virtue",
-    "Details": "[2945] Though not a tyrant, Duke Clarion of Virtue was a hedonist of the first order, as were many of his supports. While experimenting with recreational drugs, they overdosed to the point of psychosis. In their drugged state, they carried out several hellish offences against the citizenry. On hearing of these offences, Archon Marco Steiner sent in troops to arrest the Duke, and to protect the citizens. [3025] Virtue is the site of the Lyran Commonwealths regional Military Intelligence Center that monitors the Periphery.The city of Red Light on Virtue is the headquarters of Virtue Cartographers Unlimited. The premier mapmaker in the Commonwealth, Virtue's expertise rivals that of even ComStar's cartographers. Specializing in starmaps, they have close links with various planetary trading campanies and often accompany them on their more distant journeys.Louis Comrada is the fifth descendant of the founder of the company, Roy Comrada, a famed trader. His aim is to begin purchasing starships so that his cartographers can explore and map regions even beyond the Commonwealth border. To that end, he has entered into negotiations with House Steiner to buy used military freighters. When the Archon recently learned of Louis Camrada's plans, she made it known that he should get the vessels he wanted."
+    "Details": "[2945] Though not a tyrant, Duke Clarion of Virtue was a hedonist of the first order, as were many of his supports. While experimenting with recreational drugs, they overdosed to the point of psychosis. In their drugged state, they carried out several hel"
   },
   "Position": {
     "x": -368.92,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

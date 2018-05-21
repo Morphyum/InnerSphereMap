@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lipton",
     "Name": "Lipton",
-    "Details": "[2236] As the Outer Reaches Rebellion escalated, word arrived on Terra that several colonial governors and administrators were refusing the Alliance call for men and ships to support the war effort. On Lipton, Alliance militia battalions refused to board their transports, later fleeing to the hinterland before they could be arrested."
+    "Details": "[2236] As the Outer Reaches Rebellion escalated, word arrived on Terra that several colonial governors and administrators were refusing the Alliance call for men and ships to support the war effort. On Lipton, Alliance militia battalions refused to board "
   },
   "Position": {
     "x": -33.86,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

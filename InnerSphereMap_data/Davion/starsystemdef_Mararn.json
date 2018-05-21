@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mararn",
     "Name": "Mararn",
-    "Details": "Malarn is a hot, dry world dominated by deserts. The world must import most of its water from the nearby planet of Gillingham. Malarn's sparse population huddles in small communities struggling to survive. [3056] The central government is relatively weak; it is rumored that the Citizens for Davion Purity organization has its headquarters here, and maintains nearly total control of the planet. "
+    "Details": "Malarn is a hot, dry world dominated by deserts. The world must import most of its water from the nearby planet of Gillingham. Malarn's sparse population huddles in small communities struggling to survive. [3056] The central government is relatively weak;"
   },
   "Position": {
     "x": 526.53,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

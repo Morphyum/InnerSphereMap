@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tarnby",
     "Name": "Tarnby",
-    "Details": "New Lorton, the capital city of Tarnby, butts up against the Blacklick River, which runs east and west. The river bank is, in essence, a massive cliff rising twenty meters up from the wide, fast-moving river. To the north of the city, past the river, is a massive swamp. A methane processing facility once stood here, providing power for half the planet during the Star League era, but it is now nothing but ruins and swamp.The city itself is divided into sections. The newer sections of the city extend south of the river, in the wide green and open flatlands running down and away from the cliffs. The old sections of the city, Deep Ellum, climbs all the way up to the cliff overlooking the river. The buildings on the cliff are old, dating back to the time when Tarnby was the furthest extent of the old Star League.The planet's HPG station is located literally on the edge of the cliff. Like many older ComStar stations, it boasts a vast park that extends into the city proper.[3050] Clan Smoke Jaguar landed on Tarnby in March 3050. Defending the world were the Forth Pesht Regulars. Trinary Assault's heavy and assault OmniMechs launched a furious predawn raid against the inexperienced Fourth Regulars, whose attempts to match the Clan 'Mechs firepower in one-on-one combat failed miserably. The Elementals of Trinary Battle caused some Pesht Regulars to panic - they had never seen Elemental battlearmor before, and the seemingly unkillable enemy prompted more than a few terrified Kurita soldiers to break and run. The defenders eastern flank swiftly collapsed, and Star Captain Bowen of Trinary Battle exploited this weakness to the utmost in the Jaguars' stunning victory. "
+    "Details": "New Lorton, the capital city of Tarnby, butts up against the Blacklick River, which runs east and west. The river bank is, in essence, a massive cliff rising twenty meters up from the wide, fast-moving river. To the north of the city, past the river, is a"
   },
   "Position": {
     "x": 266.76,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

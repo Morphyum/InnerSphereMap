@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Soverzene",
     "Name": "Soverzene",
-    "Details": "[3050] The world of Soverzene demonstrated to Clan Ghost Bear what Inner Sphere forces could do when truly motivated. The Second Alshain Regulars, the planet's usual defending force, had received reinforcement from the Twenty-seventh Dieron Regulars. The commanders of both units were determined to make the Clans pay dearly for this world, which supplied many of the district's raw materials. Tai-sa Jasick Yoshiro and Tai-sa Ano Tars planned a mobile defense in order to take advantage of the supplies they had stashed in various caches on the world's main continent. When the Bears arrived insystem in October 3050, Khan Jorgensson skipped the bidding process and committed the whole of Beta Galaxy to take the world.The Dieron Regulars were assigned to protect the city of Averti and so moved to head off the Twelfth Bear Chevaliers and Fourteenth Battle Cluster, as the Clan forces lunged toward their objectives. Using air strikes, the Twenty-seventh herded the two Clusters toward the Killimangero fjords near Averti. Aware they were being manipulated, the Bears approached cautiously. The Twenty-seventh sprung their ambush at the edge of the narrow waterways. Using jump-capable 'Mechs to bait the trap, the detonated explosives sending most a Trinaries worth of 'Mechs tumbling down into the fjord.Unfortunately for the Twenty-seventh, few Omnis were actually destroyed. To make matters worse, the Fourteenth Battle Cluster had flanked them to the east. Escaping through rough-hewn tunnels, the Twenty-seventh emerged on the far side of the fjord and detonated explosives in the tunnels, atop the pursuing Bears. They returned to Averti believing themselves victorious, only to lose the city to the Bears later that night in a nearly bloodless surprise attack. The Ghost Bear commanders had sent Elementals into the tunnels during the fighting in the fjord, and those troopers had disarmed the majority of the Combine's planted explosives.The Second Alshain Regulars fared even worse against the 304th and 332nd Assault Clusters. The Bears hounded the mobile Second and forced them to retreat to their ammunition supply base, by doing so allowing the Bears to get a fix on the base's location and destroy it with aerospace assets. Now running out of ammo, the Second retreated north with the 304th in hot pursuit. Clan aerospace elements forced the Second into a forest where the 332nd awaited their opponents' arrival. Trapped between two full-strength Assault Clusters, the Second Alshain Regulars took heavy losses.Those soldiers who managed to escape destruction staged a rescue mission at Averti, freeing the Combine's captured soldiers and equipment from the Twenty-seventh. The Bears spent nearly two weeks hunting down the renegades, but gave up the search when their Bloodnamed warriors were recalled to Strana Mechty to elect a new ilKhan. Elements of the Twenty-seventh and Second managed to escape the planet, but both suffered devastating losses."
+    "Details": "[3050] The world of Soverzene demonstrated to Clan Ghost Bear what Inner Sphere forces could do when truly motivated. The Second Alshain Regulars, the planet's usual defending force, had received reinforcement from the Twenty-seventh Dieron Regulars. The "
   },
   "Position": {
     "x": 87.09,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

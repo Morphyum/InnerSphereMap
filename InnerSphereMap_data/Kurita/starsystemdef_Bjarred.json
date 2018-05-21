@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bjarred",
     "Name": "Bjarred",
-    "Details": "[3052]Bjarred is a rather small world beneath a large hot sun.  Though it has little open water on its surface, huge underground rivers run through catacombs below the surface.  Lush grasses, bushes, and trees cluster above these subterranean waterways.  As a result, vast lines of vegetation crisscross the planet.  Bjarred's barren mountains are rich in minerals and metals, which attracted the first colonists, an Ozawa scout group, in the early 23rd century.Today, the Deep Ores Company is the sole industry on the planet.  In contract with the Metals of the Earth, the Deep Ores Company has kept other companies away by frequently paying bribes to the planet's Chairman.  Because the Chairman has recently been demanding higher bribes, the CEO of Deep Ores, Melissa Ozawa (a distant relation of the famous Ozawas) has decided to stop paying.  She believes that her company is now strong enough to stand competition from any rival that appears on Bjarred.Mountain bandits often raid Deep Ores' mines and camps.  Defending the planet and the mining concern is a battalion of the 4th Pesht Regulars commanded by Colonel Brethby Stiverson. Their headquarters are in the capital of Bjarred, Oasis V.[3050] During the fighting with Clan Smoke Jaguar in March 3050, the defendeing First and Second Bjarred Armoured Regiments took refuge in the Bird's Roost, a crumbling Castle Brian. The Jaguar's hunted their prey through the castle's maze of tunnels, and Trinary Striker suffered severe casualties when part of the castle wall collapsed on top of it. The surviviors of Trinary Striker, along with First Trinary Battle and Binary Elemental, of the Jaguar Grenadiers, eventually flushed out the defenders and destroyed them.[3059] During Operation Bulldog, the possession of Bjarred was decided by the toss of a coin toss. In bidding to take the world single handedly, Tai-Sa Kathertine Oltion of the Sixth Ghost Regiment, in the service of the SLDF, stated in combat there are only two elements: skill and chance.Her opponent, Star Colonel Olivia Drummond of the Nova Cat 189th Striker Cluster, impressed with the Tai-Sa's bid, agreed that the part of skill had been cancelled out between them, leaving only chance. Tai-Sa Oltion then flipped a coin, leaving chance to decide the fate of the world. Star Colonel Drummond chose edge, and lost, granting the Bjarred to the SLDF. The Nova Cat forces were taken as bondsmen, and then freed to defend the world in the name of the SLDF. "
+    "Details": "[3052]Bjarred is a rather small world beneath a large hot sun.  Though it has little open water on its surface, huge underground rivers run through catacombs below the surface.  Lush grasses, bushes, and trees cluster above these subterranean waterways.  "
   },
   "Position": {
     "x": 243.39,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

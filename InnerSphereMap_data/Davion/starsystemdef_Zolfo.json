@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zolfo",
     "Name": "Zolfo",
-    "Details": "Zolfo is one of the success stories of Hanse Davion's recent push for increased economic activity in Outback areas of the Federated Suns. Before the present decade, Zolfo had been primarily an agricultural world unable to live up to its potential because it lacked skilled workers.That changed in 3022 when a survey team from BP-Interstellar, a petroleum and steel firm, arrived on world. In the course of their survey, the team discovered major oil and coal deposits in the planets various mountain ranges. Since then, more than 30 corporations have bought land for new industries on Zolfo. The Duchess of Zolfo has already begun to use some of the profits from the land sales to build the planet's first schools and collages. Zolfo is no longer one of the Skid Row worlds, and promises to vindicate Prince Davion's economic development policies by becoming the core of a whole new sphere of economic growth.  "
+    "Details": "Zolfo is one of the success stories of Hanse Davion's recent push for increased economic activity in Outback areas of the Federated Suns. Before the present decade, Zolfo had been primarily an agricultural world unable to live up to its potential because "
   },
   "Position": {
     "x": 527.31,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

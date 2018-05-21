@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TheRock",
     "Name": "The Rock",
-    "Details": "The Rock system is composed almost entirely of asteroids. The largest asteroid, known as the The Rock, has given it's name to the whole system. It has an atmosphere that makes it habitable, though water has to be harvested from other icy rocks floating within the asteroid belt.  One of the other large asteroids in the system, Sisyphus's Lament, was the site of the Inner Sphere's first contact with the Clans in August 3049. "
+    "Details": "The Rock system is composed almost entirely of asteroids. The largest asteroid, known as the The Rock, has given it's name to the whole system. It has an atmosphere that makes it habitable, though water has to be harvested from other icy rocks floating wi"
   },
   "Position": {
     "x": -82.2,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alrescha",
     "Name": "Alrescha",
-    "Details": "Colonists settled Alrescha in the early days of the Tikonov Union, when Tikonov's growing population forced the Union to establish a secondary source of food and textiles. Despite trace atmospheric chemicals in Alrescha's young atmosphere that require filtering masks, the planet's warm, wet climate, fertile soil, and proximity to Tikonov met the Union's needs. In 2366, the newly formed Capellan Confederation absorbed Alrescha and the rest of the Tikonov Union. Alrescha served House Liao as a minor agricultural planet during the First Star League and most of the Succession Wars. Although Alrescha lay near the Confederation's Davion border, House Liao assigned second-line BattleMech units to garrison the unimportant world. During the Fourth Succession War, House Davion's elite New Ivaarsen Chasseurs caught these units flat-footed. House Liao sent a Death Commando squad to assassinate the Davion commander, but Alrescha still fell to the Federated Suns onslaught.The continents of Alrescha are Kaltain, Okda, and Risku; the capital of Cord is located on Riksu."
+    "Details": "Colonists settled Alrescha in the early days of the Tikonov Union, when Tikonov's growing population forced the Union to establish a secondary source of food and textiles. Despite trace atmospheric chemicals in Alrescha's young atmosphere that require fil"
   },
   "Position": {
     "x": 84.52,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Suzano",
     "Name": "Suzano",
-    "Details": "[2941] Captain-General Samuel Marik was not above using subtle (some would say treacherous means) to win his battles for him. On the Liao front, the Marik scored a clever diplomatic coup when his agents convinced Vincente Sian-Marik, a distant cousin of the Marik line and Administrator of five world in the Sarna Commonality (Ohrensen, Ventabren, Suzano, Zion, Kyrkbacken) to sign a treaty transferring his allegiance to the Free Worlds. Marik forces occupied these world in 2941, but not before the departing Liao garrisons made the Free Worlds League pay dearly for its cleverness. The Capellans conducted a brutal \"scorched earth\" operation that caused widespread destruction and saddled the Free Worlds economy with a major - and costly rebuilding effort.[3042] Barely six months after its creation, the 1st Free Worlds Legionnaires were called upon to defend Suzano from a sizable Federated Commonwealth raiding force made up of the Fifth Syrtis Fusiliers. The two combined-arms units faced off outside the city of Mikko. Even though the enemy troops handily outnumbered the Legionnaires, the Free Worlds troops went on the attack, seizing the initiative from the lumbering FedCom unit. Using a series of maneuvers and taking minimal casualties, they soon persuaded the Fifth Syrtis Fusiliers to abandon its goal."
+    "Details": "[2941] Captain-General Samuel Marik was not above using subtle (some would say treacherous means) to win his battles for him. On the Liao front, the Marik scored a clever diplomatic coup when his agents convinced Vincente Sian-Marik, a distant cousin of t"
   },
   "Position": {
     "x": 15.76,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

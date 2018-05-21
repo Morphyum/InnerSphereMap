@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Harmony",
     "Name": "Harmony",
-    "Details": "[3025] The mercantile Rodriguez family holds valuable mining concessions on Trablek, The northern continent of Harmony. Unfortunately, these concessions were won at the cost of the powerful Cherenkov family, who hold similar mining rights in the area. The legal wrangling over rival claims escalated to full-scale warfare over two hundred years ago. Though overt violence is no longer condoned between the two families, the legacy of bitterness continues to this day.The Order of the Saber if the highest decoration awarded in the FWLM. The medal is awarded by the Captain-General for \"heroism in pursuit of the cause of the Free Worlds League\" and confers membership in the Order of the Saber. The order maintains chapter houses on many major worlds in the League, where members may receive free meals and lodging. The first Chapter Houses - on Atreus, Harmony, New Olympia, and Orloff City on Vanra - were built just after the Civil War in 2737. Members fervently guard these Houses, which reputedly contain technologies from before the Succession Wars. The truth of these stories has never been confirmed or denied, as the Chapter Houses remain inaccessible to non-members."
+    "Details": "[3025] The mercantile Rodriguez family holds valuable mining concessions on Trablek, The northern continent of Harmony. Unfortunately, these concessions were won at the cost of the powerful Cherenkov family, who hold similar mining rights in the area. The"
   },
   "Position": {
     "x": -141.63,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

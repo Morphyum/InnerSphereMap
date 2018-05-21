@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wolcott",
     "Name": "Wolcott",
-    "Details": "An unpleasant planet, the swamps of Wolcott were the site of the Clans' second defeat, and the planet has been sworn inviolate by the Clans - making it the perfect base from which to raid without fear of reprisal.Wolcott's few dry areas are filled with the planet's cities and populace. As might be expected, they struggle with a serious insect problem, mainly a particularly large form of mosquito."
+    "Details": "An unpleasant planet, the swamps of Wolcott were the site of the Clans' second defeat, and the planet has been sworn inviolate by the Clans - making it the perfect base from which to raid without fear of reprisal.Wolcott's few dry areas are filled with th"
   },
   "Position": {
     "x": 147.08,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

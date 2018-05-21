@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_OldKentucky",
     "Name": "Old Kentucky",
-    "Details": "A wilderness resort world for Capellan nobility, and later nobles from the Federated Commonwealth, Old Kentucky once housed a secret Maskirovka training center for guerrilla fighters, which was shut down at the end of the Forth Succession War, after the Federated Commonwealth captured the planet.The terrain of the southern continent, where the base was housed, was ideal for jungle warfare training because of topographical eccentricities unknown in most such landscapes: declivities miles deep, venomous and carnivorous indigenous plantlife, sudden landslides, and large, gorilla-like native lifeform intelligent enough to lay primitive mantraps for the trainees. All in all, maneuvers here can be as deadly as real jungle warfare, and so the troops that survived here were probably as well qualified to survive similar situations as anyone in the galaxy.[3056] Elements of the notorious Rostov Tong have begun a fierce guerrilla war on the planet, severely damaging several of Old Kentucky's cities and generally making life an exercise in anxiety for the average citizen.The name Old Kentucky, is of course, the name of an ancient Terran political district. Why that name was chosen for this world is unknown. The capital city of Old Kentucky is Lexington."
+    "Details": "A wilderness resort world for Capellan nobility, and later nobles from the Federated Commonwealth, Old Kentucky once housed a secret Maskirovka training center for guerrilla fighters, which was shut down at the end of the Forth Succession War, after the F"
   },
   "Position": {
     "x": 2.06,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

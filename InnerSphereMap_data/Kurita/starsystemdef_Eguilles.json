@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Eguilles",
     "Name": "Eguilles",
-    "Details": "[3052] Clan Ghost Bear landed on Eguilles in March 3052. Facing them was the Forth Arkab Legion. The Bears 155th Striker Cluster landed just north of the Forth Arkab's main encampment and immediately launched a series of stinging raids. Using the flexibility of the OmniMech to its fullest potential, they thwarted all enemy attempts to determine the number and composition of the Clan forces. Because the Forth had not responded to the batchall, its warriors could only assume that they were vastly outnumbered. Tai-sa Sajulam Kosiridam and his officers opted for a suicide charge into the center of the enemy lines; much to their surprise, the 155th broke and retreated under the weight of the assault.The Ghost Bears turned and made for the Carstairs Plains, where Star Colonel Romano Tseng engaged in one-on-one combat against two members of the Forth while her cluster kept the rest of the defending unit busy. In the second one-on-one battle, the Forth's commander destroyed Tseng's 'Mech. The death of their Star Colonel demoralized the embattled 115th Strikers; leaderless and perilously low on ammunition, they ran before the Forth's furious assault all the way back to their Dropships at Rockclift.There, they reconfigured their 'Mechs for laser weapons and awaited their pursuers. The Forth caught up with the 155th and surrounded them, expecting victory, but the Legion's second battalion collapsed under a heavy Bear counterattack. Choosing to live to fight another day, the Forth ran for their Dropships and lifted off, their retreat largely unchallenged by the exhausted Ghost Bear force."
+    "Details": "[3052] Clan Ghost Bear landed on Eguilles in March 3052. Facing them was the Forth Arkab Legion. The Bears 155th Striker Cluster landed just north of the Forth Arkab's main encampment and immediately launched a series of stinging raids. Using the flexibil"
   },
   "Position": {
     "x": 37.21,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

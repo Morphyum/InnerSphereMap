@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Trellisane",
     "Name": "Trellisane",
-    "Details": "The people of Trellisane have devised a unique political structure. Settled early in the Exodus by disaffected political expatriates seeking a new democracy, Trellisane had a fiercely public-spirited populace for two generations. The descendants of the original settlers, however, soon became as complacent about their democratic rights and privileges as their Terran ancestors had long before. Particularly galling to the leaders was the fact that both voters and voter registration had steadily declined over the years, as more people figured that their vote would make little difference. When voting dropped below 50% of those eligible, the leaders declared a crisis and introduced a surprising solution.Because the numbers of voters had become so unwieldy but because voting was the cornerstone of participatory democracy, the leaders declared that everyone eligible to vote would be required to do so by law, but that each adult would be eligible to vote only once in every three elections. Thus, the electorate would be smaller, and everyone would have their chance at voicing their opinion at how the government should be run. Knowing that the next election in which they could vote would be six years away, rather than two, a far higher percentage of people actively campaigned and debated issues. The next plebiscite had the highest voter turnout ever in the history of Trellisane.Gutierrez is the only small aerospace firm in the FWL, because government sponsorship of Imstar AeroSpace and Andurien AeroTech has driven out the rest of the competition. The company is owned and operated by Daniel Gutierrez, son of the famous aerospace pilot Colonel Maria Gutierrez."
+    "Details": "The people of Trellisane have devised a unique political structure. Settled early in the Exodus by disaffected political expatriates seeking a new democracy, Trellisane had a fiercely public-spirited populace for two generations. The descendants of the or"
   },
   "Position": {
     "x": -251.26,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

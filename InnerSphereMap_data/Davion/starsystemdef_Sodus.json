@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sodus",
     "Name": "Sodus",
-    "Details": "[2975] Captain Wesley Yoshido was a lance commander in the 16th Avalon Hussars and a former member of the Davion Special Forces. Though still very young, his military career had already been noteworthy. It was rumored around the regiment that he would soon be promoted into the regimental commander's staff, which was a popular decision because Yoshido was so well-liked.In late 2795, the Hussars were posted to Sodus to defend that industrialized world against the possibility of a Kurita attack. Sodus was Captain Yoshido's homeworld, and he was overjoyed at the news. A few days before the Hussars arrived, however, a crowd of hooligans bent on ridding the planet of Asian scum brutally murdered Captain Yoshido's parents, owners of a small electronic firm. The rest of the Yoshido family was in the base hospital, some of them barely clinging to life. Witnesses later described Captain Yoshido's expression as contorted with hatred and anger after he visited them in the hospital.By a cruel coincidence, another anti-Asian riot occurred that day in the city's main square. The usual band of ruffians had seized ten Oriental-looking men and women and were about to lynch them on a crudely constructed gallows. As the thugs were ready to hang their first victim, a bolt from a laser pistol caught one of them full in the face. Confused, the mob looked about but could see nothing. Suddenly, a figure dressed in a Special Forces uniform rushed the gallows from among some nearby trees. With a laser pistol in one hand and a cutlass in the other, the figure shot and slashed its way up to the gallows, leaving behind him a wake of dead and wounded. The man cut down the noose and freed the hostages before the mob could react.As he was about to have his revenge upon the leader of the anti-Asian gang, however, the rescuer was stabbed from behind. At that moment, three Davion 'Mechs lumbered into the city square.The mob was about to kill the wounded Captain Yoshido and recapture the freed hostages, when the three 'Mechs, all from Yoshido's lance, moved forward and swatted them away from the dying commander. One gently picked up Captain Yoshido in his 'Mech's hand and hurried to the hospital, while the other two MechWarriors stood over the hostages until help arrived.Captain Yoshido died of his wounds. The story of his plight was picked up by the major Davion news services and broadcast realm-wide. Even Prince Davion was moved by the courage of Captain Yoshido. Yoshido was posthumously awarded the Medal Excalibur, the award given only to citizens who have sacrificed their lives in the name of freedom."
+    "Details": "[2975] Captain Wesley Yoshido was a lance commander in the 16th Avalon Hussars and a former member of the Davion Special Forces. Though still very young, his military career had already been noteworthy. It was rumored around the regiment that he would soo"
   },
   "Position": {
     "x": 287.18,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

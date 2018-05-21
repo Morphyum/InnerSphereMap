@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Minakuchi",
     "Name": "Minakuchi",
-    "Details": "[3025] The city of Cho is home to Spreading The Glories Incorporated, an arts and entertainment production and distribution firm. It mostly churns out war movies and morally instructive romances for consumption by the masses. Taking its cue from holos and films imported from other States, Spreading The Glories has lately begun producing horror films and musicals. Its greatest hit this year is The Attack of the Polymer-Coated Man, a horror holo. The musicals combine pageants and sentimental paeans to loyalty, honor, family love, and collectivism. Spreading The Glories has exported some works, leading to the Marik joke that you can't tell the firm's musicals from their horror films."
+    "Details": "[3025] The city of Cho is home to Spreading The Glories Incorporated, an arts and entertainment production and distribution firm. It mostly churns out war movies and morally instructive romances for consumption by the masses. Taking its cue from holos and"
   },
   "Position": {
     "x": 63.84,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

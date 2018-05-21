@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tiber",
     "Name": "Tiber",
-    "Details": "Tiber is one of the most heavily-industrialized planets in the Principality of Regulus. With its large worker population, Tiber has seen its fair share of political upheaval and minor revolts. One such rebellion erupted in early January 3025. Several labor unions demanded higher wages and other concessions from local industries, but management refused and labor violence escalated. Several dissident political groups took advantage of this discontent to organize a series of demonstrations against the planetary government. Police forces responded with tactics that only made the situation worse. Soon, several regions of the planet were ungovernable and a full-scale revolt was brewing.As local troops were unable or unwilling to restore order, the planetary governor called for help from provincial forces. The Regulan High Command responded by sending in four infantry regiments, three armored regiments, and the first and Fifth Regulan Hussars. The rebellion soon began to dissolve under the pressure of these reinforcements.Unfortunately, the rebels showed initial success against the newly arrived provincial forces. Though this did not affect the final outcome, it did cause several units to question the wisdom of their leaders. Some units actually defected to the enemy, helping to prolong the struggle by three weeks, prior to being destroyed.The capital city of Tiber is Verona.One of Tiber's continents is site of the tiny Duchy of New Assam, consisting of  a population of a mere 4 million people. The Duchy is governed by an oligarchy."
+    "Details": "Tiber is one of the most heavily-industrialized planets in the Principality of Regulus. With its large worker population, Tiber has seen its fair share of political upheaval and minor revolts. One such rebellion erupted in early January 3025. Several labo"
   },
   "Position": {
     "x": -123.8,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

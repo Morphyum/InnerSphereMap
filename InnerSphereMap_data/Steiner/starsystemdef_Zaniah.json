@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zaniah",
     "Name": "Zaniah",
-    "Details": "Zaniah III is home to St. Marinus House, a monastic retreat for MechWarriors who have renounced the violence of their past. It is separated from the rest of the world by kilometers of desert, trackless canyons and long dead lava flows. The capital of Zaniah is Starboro."
+    "Details": "Zaniah III is home to St. Marinus House, a monastic retreat for MechWarriors who have renounced the violence of their past. It is separated from the rest of the world by kilometers of desert, trackless canyons and long dead lava flows. The capital of Zani"
   },
   "Position": {
     "x": -102.59,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

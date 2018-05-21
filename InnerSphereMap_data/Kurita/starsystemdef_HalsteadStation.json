@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_HalsteadStation",
     "Name": "Halstead Station",
-    "Details": "In late 3012, Prince Ian Davion received word that the Kuritans were building huge storage depots on the Planet of Halstead Station. If complete, the storage center would vastly speed up re-supply for the DCMS. Prince Ian had decided to keep that storage center from being built, and had immediately begun to make plans for a strike at that world. When Prince Ian died, it fell to Prince Hanse to continue the plans for a strike against that world. In the same period, MIIO was reporting that Combine construction crews had stumbled across the ruins of a Star League-era university housing a huge, unopened vault. Realizing how important the contents of that vault might be, Hanse rushed ahead with the raid plans and decided to personally lead the attack.What the Prince thought would be an in-and-out raid turned into a month long battle. Luck was with the young Prince, however. He and his troops managed to not only destroy the Kurita supply center, but to seize the Halstead Collection, perhaps the most important Star League treasure yet discovered.When Prince Davion's 'Mechs broke into the vault, he and his men found rows upon rows of books and computer memory cubes. Hanse and his troops carried off as many of the books as time would permit, burning what they could not carry. Unofficial sources say that over three thousand books and other materials were taken away from the vault, most of them on highly technical subjects.The books have proved so significant that the public hailed Prince Hanse as the Victor of Halstead Station. Capitalizing on this public admiration, he unveiled his plans for the  creation of the New Avalon Institute of Science. Today, the Halstead Collection is housed in the NAIS in an environmentally controlled library."
+    "Details": "In late 3012, Prince Ian Davion received word that the Kuritans were building huge storage depots on the Planet of Halstead Station. If complete, the storage center would vastly speed up re-supply for the DCMS. Prince Ian had decided to keep that storage "
   },
   "Position": {
     "x": 78.05,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

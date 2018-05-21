@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lyons",
     "Name": "Lyons",
-    "Details": "[3062] Though only a regional militia, the Lyons FTM shot to fame when Peter Steiner-Davion, younger sibling of Archon Katherine and Prince Victor, chose to serve with them rather than a front-line regiment. However, the young duke's presence also brought unwanted attention to the unit in the form of the Free Skye Militia, the militant arm of the Free Skye movement. This attention culminated in the Bellerive incident, which claimed the lives of almost six hundred Free Skye sympathizers. Though the LIC believed the incident was staged by Free Skye to provoke outrage against the Archon-Prince, the absence of hard evidence wither way prompted Victor to seal all records of the incident and reassign Peter and his lance. Though this action slowed the spread of rebellion in Skye, it did not halt it, with accusations of a cover-up rife. Furthermore, with the heavy LIC presence associated with Peter removed and among widespread rumors of the Bellerive incident, the militia, once free of Skye influence, has drifted into Robert Kelswa-Steiner's camp."
+    "Details": "[3062] Though only a regional militia, the Lyons FTM shot to fame when Peter Steiner-Davion, younger sibling of Archon Katherine and Prince Victor, chose to serve with them rather than a front-line regiment. However, the young duke's presence also brought"
   },
   "Position": {
     "x": -23.01,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

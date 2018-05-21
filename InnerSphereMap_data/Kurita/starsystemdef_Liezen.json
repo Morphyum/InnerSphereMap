@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Liezen",
     "Name": "Liezen",
-    "Details": "Liezen is a planet of lush forests. It has only three major cities of which Salzmin is the capital.[3050] Clan Wolf faced strong resistance from the well-equipped and highly motivated Liezen Militia when it landed on the world in June 3050. Trinaries Assault, Battle, Striker and Fighter (of the Eleventh Battle Cluster), made effective use of flanking attacks and pinning frontal attacks against the defenders, and carried the day."
+    "Details": "Liezen is a planet of lush forests. It has only three major cities of which Salzmin is the capital.[3050] Clan Wolf faced strong resistance from the well-equipped and highly motivated Liezen Militia when it landed on the world in June 3050. Trinaries Assa"
   },
   "Position": {
     "x": -20.95,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

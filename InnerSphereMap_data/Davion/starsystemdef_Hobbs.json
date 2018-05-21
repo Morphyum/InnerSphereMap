@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hobbs",
     "Name": "Hobbs",
-    "Details": "Hobbs is a relatively dry world whose native flora and fauna are confined to an extensive system of underground caverns that honeycomb the world. The caverns are host to an amazing ecosystem of animals, some of whose behavior borders on intelligence. The most advanced of the native lifeforms are the Takooma, vaguely apelike mammals with keen infrared vision and sense of smell. They travel in extended family groups and seem to have a rudimentary language, though scientists from the NAIS and other universities have yet to penetrate its secret. The Federated Suns military uses the countless interconnected underground caverns of Hobbs as a kind of enormous warehouse, which has put the AFFS in direct conflict with the Takooma. The creatures have waged something akin to a guerrilla war against the alien Humans, ambushing anyone caught alone and stoning them to death. Soldiers who try to hunt down the Takooma often become lost in the maze of tunnels and end up becoming the hunted instead. The capital city of Hobbs is Luray Caverns, one of many cavern-based cities on the planet."
+    "Details": "Hobbs is a relatively dry world whose native flora and fauna are confined to an extensive system of underground caverns that honeycomb the world. The caverns are host to an amazing ecosystem of animals, some of whose behavior borders on intelligence. The "
   },
   "Position": {
     "x": 255.39,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

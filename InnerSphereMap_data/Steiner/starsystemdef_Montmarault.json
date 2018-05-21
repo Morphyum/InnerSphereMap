@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Montmarault",
     "Name": "Montmarault",
-    "Details": "[3051] Though they fought well, Clan Jade Falcon's 305th Assault Cluster lost the right to conquer Montmarault, in November 3051, to Clan Steel Viper's Viper Guards. Most Falcon warriors blame this defeat on the fact that the Viper Guards were fresh, while the 305th fought in some of the invasion's fiercest battles."
+    "Details": "[3051] Though they fought well, Clan Jade Falcon's 305th Assault Cluster lost the right to conquer Montmarault, in November 3051, to Clan Steel Viper's Viper Guards. Most Falcon warriors blame this defeat on the fact that the Viper Guards were fresh, whil"
   },
   "Position": {
     "x": -59.19,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

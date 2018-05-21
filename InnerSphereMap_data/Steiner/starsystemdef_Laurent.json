@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Laurent",
     "Name": "Laurent",
-    "Details": "[3051] Clan Wolf landed on Laurent in November 3051. Defending the world was the Laurent TMM, comprising of one regiment of medium 'Mechs and three regiments of mechanized infantry. The warriors of the Green Keshik, and Nega and Dorbeng Garrison Clusters (of Epsilon Galaxy), gave an impressive performance on Laurent by easily disposing of the planet's defenders."
+    "Details": "[3051] Clan Wolf landed on Laurent in November 3051. Defending the world was the Laurent TMM, comprising of one regiment of medium 'Mechs and three regiments of mechanized infantry. The warriors of the Green Keshik, and Nega and Dorbeng Garrison Clusters "
   },
   "Position": {
     "x": -44.21,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

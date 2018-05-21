@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TallTrees",
     "Name": "Tall Trees",
-    "Details": "Tall Trees is an aptly named forest world. It is a sparsely inhabited, temperate planet with five continents. Lacking enough of an axial tilt to create seasonal variations, most of Tall Trees' land area is covered by deep woods which stretch from sea to sea and nearly from pole to pole. The heavily forested, mountainous terrain of the world has discouraged development, and the planet's population rely primarily on mining, subsistence farming, livestock herding and hunting to provide the necessities of life. Most of the planet's population live in isolated communities. The two major cities of Fa Shura and Helena are located on the continent of Burgundy.Possessing a surface gravity of only .78 G, Tall Trees is notable for the unusual native trees known as Xenosequoias. Some specimens of these forest giants have been measured to over a kilometer in height, with diameters of over 60 meters. The high-level forest canopy in areas populated by Xenosequoias blocks out most of the sunlight before it reaches the ground, and surface vegetation is sparse or non-existent. Most other forest areas on Tall Trees pass enough sunlight for a rich diversity of surface vegetation to flourish.A secret capellan genetic research installation that is believed responsible for the sudden plague that wiped out the entire island of New Tierra del Fuego II in 2966.  Though only a small percentage of the people here are old enough to remember the plague days, it still galls the natives that Tall Trees is the only planet ever to have reached one billion population only to fall below that number again.Despite the fact that 60 years have passed since the New Tierra del Fuego II accident, Capellan troops stationed as guards at the research facility sill receive three times the pay as for normal hazardous duty/combat. The research installation is also believed to be the source of the miraculous food development projects that prevented the famines that had been demographically projected in the late 30th century.[3029] Tall Trees fell to the Federated Suns in the Forth Succession War. Spurred by rumors of the research facility, Tall Trees was perhaps House Davions's most important objective world of the 4th wave. As the first Davion forces were crossing the narrow Straits of New Tierra del Fuego, they saw a series of explosions within the island's forest. The leader of the Davion forces, Major Richards, and his infantry battalion proceeded to the island. They came upon the smoking rubble of the research facilty, and the bodies of three members of the Death Commandoes. The first deaths among Major Richard's battalion came within hours of the explsoions. Soldiers reported feeling nauseous, then fell into comas. Death usually followed the first syptoms within ten minutes. In a hour, most of the battalion was dead."
+    "Details": "Tall Trees is an aptly named forest world. It is a sparsely inhabited, temperate planet with five continents. Lacking enough of an axial tilt to create seasonal variations, most of Tall Trees' land area is covered by deep woods which stretch from sea to s"
   },
   "Position": {
     "x": 0.77,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

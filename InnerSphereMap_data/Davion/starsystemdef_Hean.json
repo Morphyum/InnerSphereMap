@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hean",
     "Name": "Hean",
-    "Details": "Hean native ecology contains unusual flora and fauna. Most of Hean's animals use poison to hunt or defend themselves, and most of Hoan's plants are poisonous if ingested. After scientists discovered that many of these plants and animals also contain useful medicinal compounds, pharmaceutical companies in the Federated Suns invested in Hean during the First Star League, building numerous medical facilities on the planet. Although the Capellan Confederation and the Draconis Combine mounted numerous raids against Hean throughout the Succession Wars, all sides recognized the value and neutrality of Hean's medical facilities and never fired directly on them. The Federated Suns often used this to its advantage, occasionally capturing or eliminating whole battalions of Capellan or Draconis BattleMechs as they maneuvered cautiously around these medical facilities. There are a total of six continents on Hean. Chau, Hanoi, and Luan are all in the northern hemisphere, while Nghiem and Truyen fall in the southern hemisphere. The smallest continent, Taigoan, sits across the equator but, because of its temperate climate, is home to the capital city of Cadaceus."
+    "Details": "Hean native ecology contains unusual flora and fauna. Most of Hean's animals use poison to hunt or defend themselves, and most of Hoan's plants are poisonous if ingested. After scientists discovered that many of these plants and animals also contain usefu"
   },
   "Position": {
     "x": 74.69,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

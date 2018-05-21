@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Olafsvik",
     "Name": "Olafsvik",
-    "Details": "[3025] The Maarakiva University on Olafsvik prepares its students for the life of a spacebourne trader, offering more than 300 disciplines to sharpen and master the intricacies of the plain horse trading and dickering.Olafsvik is governed by a feudal autocracy."
+    "Details": "[3025] The Maarakiva University on Olafsvik prepares its students for the life of a spacebourne trader, offering more than 300 disciplines to sharpen and master the intricacies of the plain horse trading and dickering.Olafsvik is governed by a feudal auto"
   },
   "Position": {
     "x": -176.41,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

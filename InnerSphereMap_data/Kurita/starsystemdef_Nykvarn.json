@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nykvarn",
     "Name": "Nykvarn",
-    "Details": "[3050] Clan Smoke Jaguar landed on Nykvarn in May 3050. Facing them was the Nykvarn Armored Battalion. The defenders fought a mobile campaign, using their fast hovercraft to outdistance the slower-moving Jaguar assault 'Mechs. Despite a few initial victories, the world's defenders swiftly fell to Star Captain Castris and the troops of Supernova Assault, Nineteenth Striker Cluster. All but a few members of the Nykvarn Armored Battalion survived the fighting.The planet's capital city is also called Nykvarn.[3059] During Operation Bulldog, the 6th An Ting Legion, Ryuken-Go and the Capellan Red Lancers assaulted Nykvarn. The Jaguar's 124th Garrison Cluster stood little chance against these overwhelming odds, and was completely destroyed."
+    "Details": "[3050] Clan Smoke Jaguar landed on Nykvarn in May 3050. Facing them was the Nykvarn Armored Battalion. The defenders fought a mobile campaign, using their fast hovercraft to outdistance the slower-moving Jaguar assault 'Mechs. Despite a few initial victor"
   },
   "Position": {
     "x": 123.29,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

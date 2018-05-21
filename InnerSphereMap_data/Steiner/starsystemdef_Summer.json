@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Summer",
     "Name": "Summer",
-    "Details": "Once the home of a major Star League storehouse and an important staging world for Steiner offensives, this inhospitable desert planet is ruled by Duke Aldo Lestrade. Summer is the political center of its province. The separatist movement promoting the independence of the Federation of Skye from the rest of the Commonwealth congregates around Duke Lestrade's palace looming above Curitiba, Summer's largest city.A darker twin of Skye, Summer's weak sun changes hills that would be considered beautiful and stirring on Skye to dark and ominous shapes covered with the purple scrub-grass native to the planet. Dark hills loom over valleys steeped in shadows. In the summer months, the wind is often tainted with the peculiar odors of ist native blooming plants.The major industries on Summer are refineries for the planet's large deposits of oil and radioactives as well as factories manufacturing components for JumpShips."
+    "Details": "Once the home of a major Star League storehouse and an important staging world for Steiner offensives, this inhospitable desert planet is ruled by Duke Aldo Lestrade. Summer is the political center of its province. The separatist movement promoting the in"
   },
   "Position": {
     "x": -44.46,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

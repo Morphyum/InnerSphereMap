@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Electra",
     "Name": "Electra",
-    "Details": "[2580] During the Reunification War, Taurian defenders on the industrial world of Electra used makeshift barricades to trap BattleMechs. Although ultimately victorious, dozens of the Star League's 4th Corps BattleMechs were destroyed or captured in bitter contests."
+    "Details": "[2580] During the Reunification War, Taurian defenders on the industrial world of Electra used makeshift barricades to trap BattleMechs. Although ultimately victorious, dozens of the Star League's 4th Corps BattleMechs were destroyed or captured in bitter"
   },
   "Position": {
     "x": 215.32,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

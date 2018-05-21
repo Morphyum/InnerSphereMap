@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kittery",
     "Name": "Kittery",
-    "Details": "The planet Kittery was part of the Capellan Confederation until the Federated Suns seized this small agricultural world in an offensive begun in 3005. Since then, the planet and its people have been a thorn in their side. Kittery's native carnivores are particularly violent and cunning hunters, which makes travel in the planets numerous jungle regions extremely dangerous. The planet's population. of mostly Asian ancestry, has been less than cooperative with their new rulers, despite the many freedoms they enjoy as a world within the Federated Suns. In the 20 years since the Davion occupation, Kittery has spawned a particularly vicious guerilla organization known as the Kittery Tong. While the Military Governor would prefer to spend her time preparing against possible attack by the Capellans, she must occupy most of her day worrying over reports of the latest Tong attacks or of jungle predators lately feasting on her troops. The only positive note in the strained relations between the occupation forces and the planet's population is that the Federated Suns has allowed many Buddhist temples to open in the cities of Kittery. An increasing number of people curious and eager to rediscover the religion of their ancestors have been attending the temple services. The capital of Kittery is CanFu City."
+    "Details": "The planet Kittery was part of the Capellan Confederation until the Federated Suns seized this small agricultural world in an offensive begun in 3005. Since then, the planet and its people have been a thorn in their side. Kittery's native carnivores are p"
   },
   "Position": {
     "x": 82.18,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

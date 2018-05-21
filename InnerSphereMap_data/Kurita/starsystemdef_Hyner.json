@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hyner",
     "Name": "Hyner",
-    "Details": "[3051] Khan Hoyt personally commanded the First Striker Cluster invading Hyner in November 3051. Dropping from heavy cloud cover, the Jaguar forces immediately engaged the Second Arkab Legion. The planet's defenders, fighting in Star League-era BattleMechs whose presence startled the Clans, gave the Jaguar forces a tough fight.As the Clans slogged through Trent's Glen, the Legionnaires whittled them down using hit-and-run tactics. As the Clans cleared the glen, they turned and attacked the Second en masse. The Legion lines held initially, the buckled under the unrelenting fury of the Clan assault. More than half of the Legionnaires fled into the wooded glen in which they had recently fought, giving their Clan pursuers the slip and ultimately escaping the planet under the cover of darkness.Warrington is the capital of Hyner, and served as the planetary command post for the Smoke Jaguar's during their occupation.During the Star League era, the city of Quantico had been a thriving metropolis, and the second largest city on Hyner. A methane processing facility at a nearby swamp, provided a third of Hyner's entire power needs. Both the city and power plant were destroyed during the First Succession War, victims of a Lyran Commonwealth attack. The SLDF also maintained various facilities on Hyner prior to the fall of the Star League.[3059] Like many other first-wave engagements during Operation Bulldog, the battle for Hyner was distinctly one-sided. The Second Sword of Light faced off against the Third Jaguar Cavaliers, with the First Regulan Hussars and the ninth Com Guard Division as support. As it turned out, the Second Sword did not need any help to completely crush the Jaguars."
+    "Details": "[3051] Khan Hoyt personally commanded the First Striker Cluster invading Hyner in November 3051. Dropping from heavy cloud cover, the Jaguar forces immediately engaged the Second Arkab Legion. The planet's defenders, fighting in Star League-era BattleMech"
   },
   "Position": {
     "x": 204.2,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

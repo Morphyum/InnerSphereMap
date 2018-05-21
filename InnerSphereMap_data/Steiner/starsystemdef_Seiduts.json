@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Seiduts",
     "Name": "Seiduts",
-    "Details": "[3050] Seiduts' terrain was unsuited to the guerrilla tactics its militia tried to use against the Second Falcon Jaegers in May 3050. The Falcon's orbital recon located every militia unit within three days, and the ground forces moved in and eliminated them."
+    "Details": "[3050] Seiduts' terrain was unsuited to the guerrilla tactics its militia tried to use against the Second Falcon Jaegers in May 3050. The Falcon's orbital recon located every militia unit within three days, and the ground forces moved in and eliminated th"
   },
   "Position": {
     "x": -81.94,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

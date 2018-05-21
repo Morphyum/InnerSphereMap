@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sevon",
     "Name": "Sevon",
-    "Details": "A temperate and largely unsettled world, Sevon was a principle target during the Reunification War, when most of its agrarian population was killed outright. Presently, some one and a quarter million inhabitants occupy the planet, most gathered along the planet's equatorial zone. The planet's southern continent boasts House Avellar's private estate of several hundred square kilometers. Generally, Sevonities are hard-working but suspicious of any offworlder, whether he is a citizen of the Alliance or not. The principle city of Sevon is Shandahar, located on an island chain near the planet's equator.[3025] Alliance Industries Diversified is the sole industrial survivor of the Reunification War. Originally founded as a mining concern, AID expanded into new market areas in the late 2600's. Renegade and pirate legions have destroyed many of AID's factory and production centers since the start of the Succession Wars. Despite many government subsidies, the company continues to operate with meager profit margins. Indeed, in the last decade, AID has been in the red six years out of ten.The Avellar government is currently considering whether to permit ComStar to help AID in rebuilding the staggering firm. Though the proposal has met with opposition in many circles, the prospect of widespread unemployment if AID should close its doors for good may leave the Alliance government no alternative."
+    "Details": "A temperate and largely unsettled world, Sevon was a principle target during the Reunification War, when most of its agrarian population was killed outright. Presently, some one and a quarter million inhabitants occupy the planet, most gathered along the "
   },
   "Position": {
     "x": 465.54,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

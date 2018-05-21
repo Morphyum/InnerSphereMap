@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Remagen",
     "Name": "Remagen",
-    "Details": "[3062] Once known as the Remagen Combat Region, the Nunivak CR was renamed as part of the internal reorganization that followed the creation of the Federated Commonwealth. However, the region's Militia retained its old name, fighting off several attempts to rename it during the 3040's. The most recent, in 3045, almost resulted in a mutiny and persuaded the AFFC to leave the unit alone."
+    "Details": "[3062] Once known as the Remagen Combat Region, the Nunivak CR was renamed as part of the internal reorganization that followed the creation of the Federated Commonwealth. However, the region's Militia retained its old name, fighting off several attempts "
   },
   "Position": {
     "x": 275.8,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

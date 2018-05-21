@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Manteno",
     "Name": "Manteno",
-    "Details": "The planet Manteno is currently experiencing a sudden and continuing outburst of geologic activity. It began about eight years ago with several major earthquakes, and has continued with a series of volcanic eruptions and earthquakes that left nearly everyone on the planet severely shaken. Since the beginning of this period of planetary upheaval. over 20 percent of the population has left Manteno and about 10 percent of the businesses have relocated. Manteno was not always shaking or threatening to explode. At one time, geologists of the Terran Alliance considered it to be both a stable world and one rich in large and accessible deposits of metals and chemical compounds. The planet was colonized and immediately became an important part of the Federated Suns economy. Manteno's first major setback in the First Succession War came when the Draconis Combine attacked, destroying most of the planet's industries. Manteno was just regaining its industrial might at the time that the current phase of convulsions began. Those who remained on the planet, whether by choice or because they lacked the money to leave, pray that the planetary eruptions are temporary and that one day the ground will stop threatening to buck like a wild animal."
+    "Details": "The planet Manteno is currently experiencing a sudden and continuing outburst of geologic activity. It began about eight years ago with several major earthquakes, and has continued with a series of volcanic eruptions and earthquakes that left nearly every"
   },
   "Position": {
     "x": 189.22,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

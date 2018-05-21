@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tinaca",
     "Name": "Tinaca",
-    "Details": "[3052] Clan Ghost Bear landed on Tinaca in January 3052. Facing them was the First Sun Zhang Academy Cadre. Knowing that the warriors of Bravo Supernova, 115th Striker Cluster, faced mere cadets, Star Captain Edore DelVillar ordered them to capture as many opponents alive as possible and make them bondsmen. The cadets, however, disregarded their own orders to surrender and threw themselves at the Bear 'Mechs as soon as the Clan force landed, engaging in death-from-above attacks and other desperate tactics in an all-out assault. The Bear warriors had no choice but to respond in kind, quickly turning the battle into a bloodbath. Star Captain DelVillar ordered her Elementals to enter the fray and pry the cadets from their 'Mech cockpits, and ordered her MechWarriors to aim at the legs of the enemy 'Mechs. Using these tactics, Bravo Supernova captured almost a full battalion of cadets."
+    "Details": "[3052] Clan Ghost Bear landed on Tinaca in January 3052. Facing them was the First Sun Zhang Academy Cadre. Knowing that the warriors of Bravo Supernova, 115th Striker Cluster, faced mere cadets, Star Captain Edore DelVillar ordered them to capture as man"
   },
   "Position": {
     "x": 70.57,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

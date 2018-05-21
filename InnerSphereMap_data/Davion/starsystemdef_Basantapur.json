@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Basantapur",
     "Name": "Basantapur",
-    "Details": "[3025] The city of Jupaipur is home to the head offices of Basantapur Fine Metals, who specialize in the production of rare alloys and have several large foundries on Basantapur and As Samik. This makes the company extremely important to the Federated Suns' military, as its metals are needed for the internal framework of 'Mechs. Though the company has not been much damaged by the wars, its chronic bad management prevents the firm from living up to its full potential. On several occasions, the Davion government has contemplated taking control of the company, but possible political repercussions in the area have stopped them."
+    "Details": "[3025] The city of Jupaipur is home to the head offices of Basantapur Fine Metals, who specialize in the production of rare alloys and have several large foundries on Basantapur and As Samik. This makes the company extremely important to the Federated Sun"
   },
   "Position": {
     "x": 364.47,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

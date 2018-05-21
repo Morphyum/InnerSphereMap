@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Apolakkia",
     "Name": "Apolakkia",
-    "Details": "[3050] The Apolakkia Militia engaged Peregrine Galaxy as it advanced on the planetary capital, in July 3050, prepared to disappear into the forests as soon as defeat became imminent. Few survivors escaped the devastated militia to wage guerrilla actions from the forests, and Peregrine Galaxy secured the world for the PGCs within twenty-four hours."
+    "Details": "[3050] The Apolakkia Militia engaged Peregrine Galaxy as it advanced on the planetary capital, in July 3050, prepared to disappear into the forests as soon as defeat became imminent. Few survivors escaped the devastated militia to wage guerrilla actions f"
   },
   "Position": {
     "x": -116.38,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

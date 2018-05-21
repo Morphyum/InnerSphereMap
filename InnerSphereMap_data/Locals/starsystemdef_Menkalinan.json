@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Menkalinan",
     "Name": "Menkalinan",
-    "Details": "[3025] Menkalinan is claimed by both the Capellan Confederation and the Free Worlds League. Because the planet has few marketable resources, except for wood products from the world's many forests, both sides are content to split the world, with the Confederation controlling three of the planet's five continents.The capital of Menkalinan is Carasasha."
+    "Details": "[3025] Menkalinan is claimed by both the Capellan Confederation and the Free Worlds League. Because the planet has few marketable resources, except for wood products from the world's many forests, both sides are content to split the world, with the Confed"
   },
   "Position": {
     "x": 0,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

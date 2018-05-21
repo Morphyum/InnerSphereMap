@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Slewis",
     "Name": "Slewis",
-    "Details": "By choice of its people, Thorpe is a low-tech community. Once there had been mines and high-tech processing plants. Factories turned the ore into metals, and then pressed and shaped the metals into components to be shipped off world. When the ore petered out, the factories and the combines that owned them went too. Those left behind in Thorpe had to rebuild their way off life, changing to become an agri-based community, much like the rest of the communities on Slewis.Native to Slewis, the ulteth resemble Terran deer in appearance, only they are much larger and possess a predatory meat-eater's diet instead of a herbivore's. Standing two meters tall at the shoulder, with a short wiry hide, ulteth will chase down lone humans out in the wild, then strip the flesh from their bones and eat it."
+    "Details": "By choice of its people, Thorpe is a low-tech community. Once there had been mines and high-tech processing plants. Factories turned the ore into metals, and then pressed and shaped the metals into components to be shipped off world. When the ore petered "
   },
   "Position": {
     "x": -475.36,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

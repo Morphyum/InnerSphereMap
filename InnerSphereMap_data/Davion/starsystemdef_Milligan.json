@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Milligan",
     "Name": "Milligan",
-    "Details": "[3062] Leftenant General Juan Nishioka ensured the Milligan DMM was well-trained, building a formidable reputation in spite of the unit's green status. However, Nishioka was also a staunch supporter of Prince Victor, and following the ascension of Katherine Steiner-Davion, forces loyal to the Archon engineered his removal by promoting him to deputy PDZ commander. He was replaced by a political appointee, Jill Farlon, whose lackluster command abilities have set the DMM on a downward spiral.Leftenant General Jill Farlon is the daughter of the Duke of Jesup. Her promotion to head the DMM is one of many changes in the AFFC instigated by the Archon-Princess to weaken her brother and strengthen her own position. Though charismatic, Farlon has little command experience and has made a series of poor decisions that have wasted the few resources assigned to the unit. The shortage of parts and ammunition seriously hampers the RCT's performance, and it is estimated that only 40% of the unit would be able to mobilize should a crisis strike the region."
+    "Details": "[3062] Leftenant General Juan Nishioka ensured the Milligan DMM was well-trained, building a formidable reputation in spite of the unit's green status. However, Nishioka was also a staunch supporter of Prince Victor, and following the ascension of Katheri"
   },
   "Position": {
     "x": 475.09,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

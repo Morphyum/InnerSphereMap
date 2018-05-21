@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Elissa",
     "Name": "Elissa",
-    "Details": "Elissa is a temperate world settled by a pacifistic sect known as the Inheritors. They live as simple farmers, scattered in little villages across the planet. Rumor has it there is a Star League depot located on the world, though nothing has ever been found. Clan Ghost Bear captured the world without a fight in 3049, attracted by the references to the depot from within their own records - supposedly the Elysian Fields was the site of a top-secret research facility, working on Project Achilles. The Silver Kodiaks spent nearly a week searching the planet and finally discovered an extensive series of tunnels that extended deep inside a mountain range. An expedition sent to investigate the tunnel and caverns ultimately uncovered nothing but a series of abandoned mines. The Bears promptly evacuated the Elysian Fields, refusing to garrison a planet that only served as a source of shame to the Clan. After Tukayyid, Galaxy Commander Conal Ward of Clan Wolf won Elissa in a Trial of Possession."
+    "Details": "Elissa is a temperate world settled by a pacifistic sect known as the Inheritors. They live as simple farmers, scattered in little villages across the planet. Rumor has it there is a Star League depot located on the world, though nothing has ever been fou"
   },
   "Position": {
     "x": -39.05,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Leoben",
     "Name": "Leoben",
-    "Details": "[3050] Clan Wolf landed on Leoben in May 3050. Defending the world were the First, Eighth, Eleventh and 14th Leoben Provisional Militia Regiments. The militia, many of them veterans of the Ronin Wars, used guerrilla tactics to take advantage of the planet's extensive network of rivers to harass the Clan warriors. Trinaries First Striker, Second Striker, and Fighter (of the 352nd Assault Cluster) had no concept of this type of warfare, and so were unable to anticipate the militia's actions. Though the world has officially surrendered, guerrilla activity still occurs sporadically."
+    "Details": "[3050] Clan Wolf landed on Leoben in May 3050. Defending the world were the First, Eighth, Eleventh and 14th Leoben Provisional Militia Regiments. The militia, many of them veterans of the Ronin Wars, used guerrilla tactics to take advantage of the planet"
   },
   "Position": {
     "x": 41.35,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

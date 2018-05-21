@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alyina",
     "Name": "Alyina",
-    "Details": "[3052] Once a world of verdant jungle, Alyina's landscape now lies pitted and scarred from combat with the Clans. Native to the swamps of Alyina the 'brutto vapore,' or ugly vapor, is a major hazard to the unwary. These clouds of insects hit their victims with a nacrotic sting, then implant their eggs. The victims generally remain unconcious for the two days it takes for the hatching, then the pupae leave for the swamp to continue their breeding cycle. Needless to say, the survival rate for hosts is not very high, although rumor tells of a Jade Falcon elemental surviving the hatching."
+    "Details": "[3052] Once a world of verdant jungle, Alyina's landscape now lies pitted and scarred from combat with the Clans. Native to the swamps of Alyina the 'brutto vapore,' or ugly vapor, is a major hazard to the unwary. These clouds of insects hit their victims"
   },
   "Position": {
     "x": -134.91,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

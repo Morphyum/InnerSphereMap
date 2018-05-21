@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jonathan",
     "Name": "Jonathan",
-    "Details": "Jonathan is a dry world, with many mountain ranges. The capital city is Dust Hill.[2357] During the Tikonov Union's campaign to capture Jonathan from the Sarna Supremacy, General Teng learned that a number of locals had murdered several Union scouts prior to the assault, and was determined to have his pound of flesh.General Teng was a combination traditionalist and eccentric. In this age of modern, mechanized warfare, he made it a point of commanding whenever possible from horseback. On this occasion, Teng ordered the guards to round up the populace, about 3000 of them, and march them out of the city. Once they were surrounded, he ordered his troops to open fire, directing their fire indiscriminately into the huddled masses of unarmed human beings.As children died beside their parents and entire families alongside their neighbors, Teng swore the firing should not stop until the blood reached his horse's knees. As providence would have it, moments later Teng's horse stumbled and fell, his knees touching the ground. This fall was not so surprising considering Teng weighed over 300 pounds. The superstitious troopers took it for an omen that enough was enough, and the firing died away as Teng was helped to the rear area.Following Jonathon's recapture, the survivors of the massacre, with the dry humor typical of so many Sarns, erected a statue in honor of Teng's horse."
+    "Details": "Jonathan is a dry world, with many mountain ranges. The capital city is Dust Hill.[2357] During the Tikonov Union's campaign to capture Jonathan from the Sarna Supremacy, General Teng learned that a number of locals had murdered several Union scouts prior"
   },
   "Position": {
     "x": 100.54,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

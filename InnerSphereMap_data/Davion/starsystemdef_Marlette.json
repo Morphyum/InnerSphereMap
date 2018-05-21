@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Marlette",
     "Name": "Marlette",
-    "Details": "[3062] Although the threat to the Archernar Combat Region has declined since the Forth Succession War shattered the Capellan Confederation's Tikonov Commonality, the Marlette CMM remains a potent force. The Militia undertakes frequent exercises, both internally and against other units. The CMM frequently spar against the Goshen War College Training Battalion, providing the enemy force for the cadets' graduation exercise. However, with tensions in the region increasing, thanks to Capellan agitators and the widening political rift in the AFFC, the Marlette CMM has declined to participate in this year's exercise and is instead preparing for war."
+    "Details": "[3062] Although the threat to the Archernar Combat Region has declined since the Forth Succession War shattered the Capellan Confederation's Tikonov Commonality, the Marlette CMM remains a potent force. The Militia undertakes frequent exercises, both inte"
   },
   "Position": {
     "x": 154.58,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

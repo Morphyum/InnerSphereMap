@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wallis",
     "Name": "Wallis",
-    "Details": "[3027] When the First Regulan Hussars were re-posted back to the Principality of Regulus for garrison duty in 3026, the famed rolling Thunder company was assigned to counterinsurgency duty on Wallis. Rumors of an impending revolution proved accurate when the local military staged a coup d'etat two weeks after the arrival of Rolling Thunder. The company barely escaped ambush by the military forces, and for the next three months dodged enemy patrols and aerospace fighters. When help finally arrived in late March 3027, the unit was able to put down the revolt with its usual ferocity."
+    "Details": "[3027] When the First Regulan Hussars were re-posted back to the Principality of Regulus for garrison duty in 3026, the famed rolling Thunder company was assigned to counterinsurgency duty on Wallis. Rumors of an impending revolution proved accurate when "
   },
   "Position": {
     "x": -198.83,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

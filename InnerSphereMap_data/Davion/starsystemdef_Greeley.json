@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Greeley",
     "Name": "Greeley",
-    "Details": "A good part of the planet Greeley is frozen arctic tundra. Its small sun and the exaggerated tilt of the planet's axis produce strong arctic blizzards that actually push their way into the planet's tropical regions to blanket most of the world in snow. Underneath the snow and soil are a few modest deposits of metals and little else. Recent activity on the planet suggests that Greeley has suddenly become important to the Federated Suns. It appears that they are constructing a military base for BattleMechs, tanks, and infantry units. This new Fort Greeley is apparently going to play a role in the training of Davion troops. It is also known that several scientists from the NAIS are at Fort Greeley. Which may indicate that the fort will serve as an arctic test center for NAIS-designed devices. This planet definitely bears watching."
+    "Details": "A good part of the planet Greeley is frozen arctic tundra. Its small sun and the exaggerated tilt of the planet's axis produce strong arctic blizzards that actually push their way into the planet's tropical regions to blanket most of the world in snow. Un"
   },
   "Position": {
     "x": 449.25,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Izar",
     "Name": "Izar",
-    "Details": "[2236] As the Outer Reaches Rebellion escalated, Terran Alliance occupation troops landed on Izar in 2236. After an unopposed landing, the Terran troops found the capital deserted. Despite this unchallenged occupation, Terran squads sent to scout the thickly forested hills around the city invariably failed to return. Though the Izarians were armed only primitively, they had expert knowledge of the local terrain. The Terrans, unable to move their cumbersome high-tech weapons through the woods, remained at a serious disadvantage throughout the conflict.As much as the rebels in the hills, the women of Izar did their part as well. Posing as pretty, dumb locals, they often showed themselves more than willing to entertain a homesick soldier on a cold night. Such men frequently ended up with a knife in the belly, or scratches from sharp fingernails tinged with an alkolyde nail polish that brought agonizing death within minutes. Despite a few women being shot when they could be proved guilty - and even when not - this didn't change anything. The Terrans kept losing troops to the nightstalkers as the nights on Izar were cold. "
+    "Details": "[2236] As the Outer Reaches Rebellion escalated, Terran Alliance occupation troops landed on Izar in 2236. After an unopposed landing, the Terran troops found the capital deserted. Despite this unchallenged occupation, Terran squads sent to scout the thic"
   },
   "Position": {
     "x": -59.98,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

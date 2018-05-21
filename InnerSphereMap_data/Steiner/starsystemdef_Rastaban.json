@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rastaban",
     "Name": "Rastaban",
-    "Details": "[3025] The city of Uralsk is the site of the headquarters of Rastaban Agricultural Products, one of the Lyran Commonwealth's major exporters. The company owns some five trillion acres spread over five worlds, and these produce high-yield, quick-growing grains, most of which are harvested and shipped to various offworld customers. The largest customer for Rastaban's grains is the Draconis Combine. Because House Kurita often fails to produce enough food for its many worlds due to inept management and harsh labor policies, its agents but huge amounts of Commonwealth grain through third parties. The Commonwealth government supports this business effort, and actively encourages Rastaban to seek even more business across the border.[3052] The MechWarriors of the Second Regiment of the Knight of St. Cameron found themselves torn between loyalties by the arrival of the Clans, just as did their sister regiment. Unfortunately, the whereabouts of each warrior in the Second Regiment can be accounted for. The Knights of St. Cameron showed great spirit, if not skill, in their attempts to blunt the advance of Clan Wolf's Third Battle Cluster toward the capital of Rastaban, Castle City, in January 3052. At Hill 3032, a battalion of the Knights held the crest of a ridge for just an instant too long and where surrounded. They refused to surrender and died fighting to the last MechWarrior. Most of the remaining Knights died at Sanguine Valley during a particularly brutal push by the OmniMechs and Elementals of the Third Battle Cluster."
+    "Details": "[3025] The city of Uralsk is the site of the headquarters of Rastaban Agricultural Products, one of the Lyran Commonwealth's major exporters. The company owns some five trillion acres spread over five worlds, and these produce high-yield, quick-growing gr"
   },
   "Position": {
     "x": -33.62,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kiamba",
     "Name": "Kiamba",
-    "Details": "Kiamba is covered by huge shallow seas and extensive swamplands. Insects thrive, attaining unusual and horrifying size.[3052] Knowing that the Third Proserpina Hussars were combat veterans, Khan Hoyt personally led the assault against them in March 3052 with his own Galaxy Command Trinary. Immediately on landing, the Jaguars found themselves battling armor elements attached to the Third. As the OmniMechs fought of the attackers, the Third's aerospace fighters launched a strafing attack on the Jaguar Dropships and severely damaged one of them before the Jaguar fighters forced the from the sky. The Jaguars then pursued the retreating armored battalion into Hecate's Swamp, where the Third sprung its deathtrap. The armored battalion's personnel mixed kerosene with the murky swamp water and set it alight, engulfing two Clan Stars in flames.Infuriated by this underhand tactic, Khan Hoyt unleashed a Headhunter Star to decapitate the Third. Tai-sa Weston, commanding officer of the Third Hussars, died in the attack along with most of the command company. The Jaguars then forced the demoralized Third back to Collins Ridge, where the embattled Hussars made a brave but futile last stand.[3059] Like many other first-wave engagements during Operation Bulldog, the battle for Kiamba was distinctly one-sided, particularly as the Smoke Jaguar commander deployed his aerospace fighters too late. Faced with overwhelming odds, the front-line 362nd Assault Cluster was crushed by the combined might of the First Genyosha, First Kestrel Grenadiers, Third Drakøns, and the Com Guards Eleventh Division. The SLDF forces only suffered minimal damage."
+    "Details": "Kiamba is covered by huge shallow seas and extensive swamplands. Insects thrive, attaining unusual and horrifying size.[3052] Knowing that the Third Proserpina Hussars were combat veterans, Khan Hoyt personally led the assault against them in March 3052 w"
   },
   "Position": {
     "x": 71.07,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

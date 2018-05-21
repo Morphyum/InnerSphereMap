@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Basiliano",
     "Name": "Basiliano",
-    "Details": "Basiliano is a small, water-poor backwater world, orbiting a tiny star.[3050] Clan Wolf landed on Basiliano in August 3050. Defending the world were the remnants of the Third Kavelleri, and the First Basiliano Mechanized Brigade. Överste Barrie Fraga, commander of the remaining battalion of the Third Kavelleri, was confident that her troops were wiser for already having faced a Wolf attack. She hoped to avenge herself on the enemy with the support of the Basiliano Brigade.Unfortunately, she faced Galaxy Commander Mikel Furey, on of Clan Wolf's best tacticians. The Wolf commander masterfully kept the defenders off guard with small, probing attacks that made it impossible for Överste Fraga to keep track of all the units of Trinaries Command, Elemental, and fighter (of the Seventh Battle Cluster). Galaxy Commander Furey personally led the Bronze Keshik through rugged terrain on the Kavelleri's flank to fall on the enemy's rear. During the fight at Padua, Galaxy Commander Furey faced off against Fraga, and the two fought toe-to-toe for almost ten minutes before Fraga's 'Mechs exploded."
+    "Details": "Basiliano is a small, water-poor backwater world, orbiting a tiny star.[3050] Clan Wolf landed on Basiliano in August 3050. Defending the world were the remnants of the Third Kavelleri, and the First Basiliano Mechanized Brigade. Överste Barrie Fraga, com"
   },
   "Position": {
     "x": -36.96,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

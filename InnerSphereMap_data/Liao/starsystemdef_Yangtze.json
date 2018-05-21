@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Yangtze",
     "Name": "Yangtze",
-    "Details": "Settlers from the ancient Terran state of China named the planet Yangtze after the Yangtze River of their homeland. Like the Yangtze floodplain on Terra, Yangtze's landmasses are flat and covered in a thick layer of fertile soil fed by seasonal flooding from the planet's many slow-moving rivers. Fearful of the destruction wrought by these inland floods, Yangtze's initial settlers huddled in small fishing villages and towns on the rocky coasts of the planet's two small continents, Han and Sung. Realizing that the planet's agricultural wealth could be unlocked if its massive floods were controlled, the Capellan Confederation invited the Terran Hegemony to jointly administer Yangtze during the First Star League. Hegemony engineers erected thousands of miles of dams and dikes, turning Yangtze's two muddy continents into prime cropland and raising Yangtze's population tenfold. With the fall of the First Star League, Yangtze reverted to Capellan control.During the Second Succession War, rogue mercenaries destroyed the flood controls on the continent of Sung, resulting in massive destruction and loss of life. Although Yangtze's agricultural output was halved, the continent of Han continued to be productive, and Yangtze remained one of the Capellan Confederation's primary agricultural exporters. The Federated Suns took Yangtze in a relatively bloodless action during the Fourth Succession War."
+    "Details": "Settlers from the ancient Terran state of China named the planet Yangtze after the Yangtze River of their homeland. Like the Yangtze floodplain on Terra, Yangtze's landmasses are flat and covered in a thick layer of fertile soil fed by seasonal flooding f"
   },
   "Position": {
     "x": 75.47,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pherkad",
     "Name": "Pherkad",
-    "Details": "[3025] The city of Holuf is home to the headquarters of Longanecker PlastiSteel. Formed in 2899, when Longanecker Plastics and Simpson's Synthetics merged, Longaneckers line of synthetic materials that are both strong and lightweight has become increasingly successful."
+    "Details": "[3025] The city of Holuf is home to the headquarters of Longanecker PlastiSteel. Formed in 2899, when Longanecker Plastics and Simpson's Synthetics merged, Longaneckers line of synthetic materials that are both strong and lightweight has become increasing"
   },
   "Position": {
     "x": -142.13,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

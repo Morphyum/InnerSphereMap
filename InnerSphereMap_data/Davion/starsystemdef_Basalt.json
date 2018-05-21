@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Basalt",
     "Name": "Basalt",
-    "Details": "Basalt is a large world with an oppressively thick atmosphere, wild lightning storms, and a high gravity field. Despite these drawbacks, Basalt is rich in rare minerals and was one of the first planets settled by Terran mining companies. At the end of the First Star League, the Federated Suns laid claim to Basalt and held on to the world despite repeated Capellan raids through the early Succession Wars. During the Forth Succession War, as part of the Capellan Confederation's Operation Riposte, Liao sent a strike force to Basalt, to destroy warehouses storing vital supplies for the Davion offensive. In fact, the whole planet was an elaborate trap; Davion agents had leaked false intelligence to the Capellan Maskivorka. The warehouses weere empty, and the elite 4th Davion Guards RCT was waiting to ambush the Capellan units. Today, the mountains around Lake Zander and the Contrassa spaceport, both on Basalt's southern continent of Garnet, are littered with the remains of Liao BattleMechs.The five continents of Amethyst, Garnet, Opal, Topaz, and Quartz, are almost all situated along the equatorial region of Basalt. The capital, Manville, is located on Garnet."
+    "Details": "Basalt is a large world with an oppressively thick atmosphere, wild lightning storms, and a high gravity field. Despite these drawbacks, Basalt is rich in rare minerals and was one of the first planets settled by Terran mining companies. At the end of the"
   },
   "Position": {
     "x": 66.16,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

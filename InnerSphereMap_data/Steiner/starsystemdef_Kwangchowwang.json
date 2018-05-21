@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kwangchowwang",
     "Name": "Kwangchowwang",
-    "Details": "The second center of Buddhism in the Lyran Commonwealth is Kwangchowwang, whose population is primarily of Chinese ancestry. In the planets rough mountains, there are about a hundred monasteries and retreats open to both believers and non-believers seeking respite from their harried lives."
+    "Details": "The second center of Buddhism in the Lyran Commonwealth is Kwangchowwang, whose population is primarily of Chinese ancestry. In the planets rough mountains, there are about a hundred monasteries and retreats open to both believers and non-believers seekin"
   },
   "Position": {
     "x": -253.35,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

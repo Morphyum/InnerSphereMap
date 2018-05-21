@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sarna",
     "Name": "Sarna",
-    "Details": "Regional capital of the Sarna Commonality and once the capital of the mighty Sarna Supremacy, Sarna has suffered tremendously from the devastations of the Succession Wars.  With most of its industry relocated or destroyed during the last two centuries and its cities almost bombed out of existence, Sarna today is a mere shell of its former self.  What little industrial capacity remains is in the form of copper and iron ore deposits, which are still being worked.  Nevertheless, Sarna's historical and political importance is enough to warrant the presence of a reserve regiment as a permanent garrison, though such assignments are considered light duty. "
+    "Details": "Regional capital of the Sarna Commonality and once the capital of the mighty Sarna Supremacy, Sarna has suffered tremendously from the devastations of the Succession Wars.  With most of its industry relocated or destroyed during the last two centuries and"
   },
   "Position": {
     "x": 55.02,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

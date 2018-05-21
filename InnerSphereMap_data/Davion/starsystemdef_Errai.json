@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Errai",
     "Name": "Errai",
-    "Details": "Established early on as a major industrial planet, Errai is a world of dense forests and high, craggy mountains. Errai's population swelled in the days of the Star League with electronics, fusion reactors, and heavy industrial equipment all being manufactured by local companies.[3025] Rumor has it that the infamous Casimir family, a large organized crime syndicate based in the Lyran Commonwealth, has attempted to worm their way into the staff of the Golden Star Casino on Errai."
+    "Details": "Established early on as a major industrial planet, Errai is a world of dense forests and high, craggy mountains. Errai's population swelled in the days of the Star League with electronics, fusion reactors, and heavy industrial equipment all being manufact"
   },
   "Position": {
     "x": 52.51,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

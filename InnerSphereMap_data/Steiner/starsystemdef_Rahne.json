@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rahne",
     "Name": "Rahne",
-    "Details": "Rahne is a small world lacking adequate water and growing seasons.  Because the planet's surface is wracked by major dust storms, the need to protect exposed machinery has greatly hampered aboveground exploitation of Rahne's gems and radioactive deposits.  Geologists report that Rahne originated from a planet twice its size that collided with a huge asteroid.  As a result of the collision, the original planet split into Rahne and its moon, Caliban.The gravitational effect of massive Caliban upon the planet's atmosphere and its one sea give Rahne its severe weather conditions.  The planet has four seasons: Storm, Calm, Cold, Melting.  Of the four, Melting is the most dangerous, as temperatures rise above 100 degrees C.  Fortunately, each season lasts only 21 days.How native life evolved on such a world is a mystery.  The Rahne Toad-Fox, a squat beast with red fur and an evil disposition, is an example of what it takes to survive on this planet.  During the Storm and Calm seasons, the Toad-Fox is a nocturnal hunter.  Using its foot-long ears and ten-inch claws that drip with poison, it seeks out and kills prey, usually Slimy Rock-Huggers.  During the Cold, the Toad-Fox looks for a mate by drumming out an invitation upon its chest.  Once mated, the Toad-Foxes bury themselves by literally ripping through a mountainside, where they give birth and live during the Melting.For humans, only the Calm and Cold seasons are hospitable enough to allow anyone to venture outside the subterranean cities.[3025] Zettle Metals Incorporated, who specialize in the purification of rare metals, especially those used to construct BattleMech chassis, have two foundries on Rahne."
+    "Details": "Rahne is a small world lacking adequate water and growing seasons.  Because the planet's surface is wracked by major dust storms, the need to protect exposed machinery has greatly hampered aboveground exploitation of Rahne's gems and radioactive deposits."
   },
   "Position": {
     "x": -141.92,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

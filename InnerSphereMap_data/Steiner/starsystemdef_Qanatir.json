@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Qanatir",
     "Name": "Qanatir",
-    "Details": "[3062] Until the Clan invasion, the Qanatir MTM was a backwater assignment, occasionally facing pirates but otherwise seeing little action. Since 3050, however, pirate activity in the region has increased markedly, reflecting both the weakening of Periphery defenses following the Clan invasion and a similar shift in pirate bands away from the invasion corridor. The greatest problem for the militia is the band known as Morrison's Extractors, who operate from a pair of worlds about 30 light-years outside of the Alliance. The near-destruction of the Neerabup Militia in the Jade Falcon invasion forced the Qanatir militia to extend its operational area, and elements of the militia are scattered on a swath of worlds between Main Street and Krung Theo. These subunits work closely with Com Guard troops assigned in the region, principally from the Engadine-based 214th Division."
+    "Details": "[3062] Until the Clan invasion, the Qanatir MTM was a backwater assignment, occasionally facing pirates but otherwise seeing little action. Since 3050, however, pirate activity in the region has increased markedly, reflecting both the weakening of Periphe"
   },
   "Position": {
     "x": -377.13,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

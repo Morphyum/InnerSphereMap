@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Planting",
     "Name": "Planting",
-    "Details": "[3050] Clan Wolf landed on Planting in July 3050. Defending the world were the 41st Avalon Hussars RCT. The Hussars laid in wait for their attackers around the agra-industrial complexes of the Dantron-Sontor-Belax TriCities, where most of Planting's wealth and population is located. The Hussars avoided static, traditional defense in favor of careful planned ambushes whittling down the forces of Supernova Command and Trinary Battle, of the 341st Assault Cluster, and Khan Garth Radick's Silver Keshik.  The Hussars thorough planning surprised and infuriated Khan Radick, who was forced to break his bid and call down the Third Battle Cluster to destroy the Hussars."
+    "Details": "[3050] Clan Wolf landed on Planting in July 3050. Defending the world were the 41st Avalon Hussars RCT. The Hussars laid in wait for their attackers around the agra-industrial complexes of the Dantron-Sontor-Belax TriCities, where most of Planting's wealt"
   },
   "Position": {
     "x": -53.78,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

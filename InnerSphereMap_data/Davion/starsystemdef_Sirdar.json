@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sirdar",
     "Name": "Sirdar",
-    "Details": "[3062] With their area of responsibility including the largest salient into Capellan territory, the Sirdar CMM has not lacked for combat. Over the past century, the militia has fought CCAF forces on sixty-two occasions, ranging from small lance-on-lance engagements to pitched battles. The unit believes prevention is better than a cure and has taken part in numerous tactical assaults against Liao positions. The unit has been rebuilt five times but always gets up for more, earning them a formidable reputation in the PDZ."
+    "Details": "[3062] With their area of responsibility including the largest salient into Capellan territory, the Sirdar CMM has not lacked for combat. Over the past century, the militia has fought CCAF forces on sixty-two occasions, ranging from small lance-on-lance e"
   },
   "Position": {
     "x": 127.16,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

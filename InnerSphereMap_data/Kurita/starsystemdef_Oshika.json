@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Oshika",
     "Name": "Oshika",
-    "Details": "Because Oshikais the capital of a prefecture, it has many cities devoted to the politics of running the prefecture.  The captial of the planet, Takadanobaba, is situated in the world's only major mountain range, the Tribly Range.  The planet is also the regimental headquarters to the 16th Galedon Regulars, which means that General Francisco Bevier is the real source of political power on the planet. Poor in resources, Oshika can grow enough crops to sustain its population only with the aid of imported chemical fertilizers.   The indegenous Oshika Ox, which looks like a cross between an elephant and a cow, is becoming a profitable food item for the planet, and many farms are converting to ranches to raise the animals.  It is uncertain, however, whether the profits brought in by the animals will offset the cost of importing food."
+    "Details": "Because Oshikais the capital of a prefecture, it has many cities devoted to the politics of running the prefecture.  The captial of the planet, Takadanobaba, is situated in the world's only major mountain range, the Tribly Range.  The planet is also the r"
   },
   "Position": {
     "x": 239.15,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

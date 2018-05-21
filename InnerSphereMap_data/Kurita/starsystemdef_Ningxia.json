@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ningxia",
     "Name": "Ningxia",
-    "Details": "A small agricultural planet, Ningxia has only one large city--New Zephyus, the rocky, forest-covered island in the planets only ocean, New Zephyus is well-known throughout the Combine for the beauty of its ukiyo.  The saying is that on Nigxia, one can satisfy ones hunger, and in New Zephyus, one can satisfy all ones aesthetic and sensual desires. The Planet has benefited from this reputation.  Even though Ningxia has large diamond deposits worth millions, many highly placed politicians, including the present Coordinator, want the planet to retain its pristine, pastoral beauty.  Many rich politicians and business leaders have houses along the shore of the ocean. Ningxia supports a large spaceport on an island near New Zephyus.  because this ancient facilitys machinery chronically breaks down, there have been several major disasters in recent years.  The machinery needed to repair the facility is better to needy worlds.  Ningxia Foods, a major food-producing company on the planet, has resorted to having its freighters land directly on its farms to load up cargo.  This has angered many people, who worry that other companies will copy the practice, eventually marring the world with scorched earth, noxious fumes, and toxic wastes."
+    "Details": "A small agricultural planet, Ningxia has only one large city--New Zephyus, the rocky, forest-covered island in the planets only ocean, New Zephyus is well-known throughout the Combine for the beauty of its ukiyo.  The saying is that on Nigxia, one can sat"
   },
   "Position": {
     "x": 314.65,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

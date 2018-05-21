@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Harvest",
     "Name": "Harvest",
-    "Details": "[3025] Auric II, commonly known as Harvest, is a major supplier of foodstuffs to the Rasalhague district. Most of the planet's major cities and industries are located on the continent of Ohio.[3050] Clan Wolf landed on Harvest in July 3050. Defending the world were the First and Second Royal Harvest Divisions. Överste Kinson, a veteran of the famed Tyr Regiment of the Forth Succession War, ordered his troops, including a regiment's worth of ancient 'Mechs, into the Skonnsen mountain range, where they successfully harassed the Wolf forces until betrayed from within.When Clan Wolf finally fell on the defenders, Överste Kinson challenged Star Captain Cary Vickers to a duel to decide the fate of their forces. Though Kinson lost, he displayed such skill and honor in combat the star Captain Vickers asked Kinson to head Harvest's occupation government."
+    "Details": "[3025] Auric II, commonly known as Harvest, is a major supplier of foodstuffs to the Rasalhague district. Most of the planet's major cities and industries are located on the continent of Ohio.[3050] Clan Wolf landed on Harvest in July 3050. Defending the "
   },
   "Position": {
     "x": -62.05,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

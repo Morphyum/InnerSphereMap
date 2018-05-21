@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_ShiroIII",
     "Name": "Shiro III",
-    "Details": "Shiro III and has large water-resources. The worlds capital is Shimgata.[3025] Shiro III is one of the major ports of entry for traders entering League space along the Capellan border. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profitable market (legal or otherwise) for virtually any commodity. "
+    "Details": "Shiro III and has large water-resources. The worlds capital is Shimgata.[3025] Shiro III is one of the major ports of entry for traders entering League space along the Capellan border. The starport cities on this world contain magnificent bazaars, teeming"
   },
   "Position": {
     "x": -28.17,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

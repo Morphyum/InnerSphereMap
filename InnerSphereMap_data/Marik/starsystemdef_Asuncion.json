@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Asuncion",
     "Name": "Asuncion",
-    "Details": "[2477] Founded on the planet Asuncion, a colony world of the Sian Supremacy, Asuncion Industries was originally a large manufacturing concern supplying basic materials and systems used in the construction of interstellar craft. It has suffered greatly as a result of the Succession Wars. Following the loss of its homeworld to House Marik, the firm's center of operations moved to Wei in the Sarna Commonality."
+    "Details": "[2477] Founded on the planet Asuncion, a colony world of the Sian Supremacy, Asuncion Industries was originally a large manufacturing concern supplying basic materials and systems used in the construction of interstellar craft. It has suffered greatly as "
   },
   "Position": {
     "x": 5.17,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

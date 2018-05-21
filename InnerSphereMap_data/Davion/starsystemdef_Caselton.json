@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Caselton",
     "Name": "Caselton",
-    "Details": "Caselton is a highly habitable planet that closely resembles Terra in several key respects. However, Caselton's climate is slightly too cold and dry to support widespread agriculture, and its geology contains limited deposits of useful metals and minerals. Although self-sufficient, Caselton's economy has never supported significant exports and thus never attracted a large population. Except for a brief period of Capellan occupation at the height of the First Succession War, Caselton has been a member world of the Federated Suns. Although not an economically productive world, Caselton's strategic position near Tikonov led the Federated Suns military to invest heavily in Caselton's defenses, including several underground and underwater military bases. Caselton's small asteroid ring also provides the planet with a measure of natural aerospace defense.Caselton's two continents are Embrasure and Merlon; the capital of Battlement is located on Embrasure."
+    "Details": "Caselton is a highly habitable planet that closely resembles Terra in several key respects. However, Caselton's climate is slightly too cold and dry to support widespread agriculture, and its geology contains limited deposits of useful metals and minerals"
   },
   "Position": {
     "x": 115.46,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

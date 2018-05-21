@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hermagor",
     "Name": "Hermagor",
-    "Details": "[3050] Clan Wolf landed on Hermagor in June 3050. The Hermagor People's Militia put up a token resistance when Trinaries Sixteenth, Seventeenth and Eighteenth (of Epsilon Galaxy's Dorbeng Cluster), initially landed. As the Wolf forces advanced on the world's largest city, Hermagor City, the militia unconditionally surrendered to the Wolf Commander."
+    "Details": "[3050] Clan Wolf landed on Hermagor in June 3050. The Hermagor People's Militia put up a token resistance when Trinaries Sixteenth, Seventeenth and Eighteenth (of Epsilon Galaxy's Dorbeng Cluster), initially landed. As the Wolf forces advanced on the worl"
   },
   "Position": {
     "x": 23.76,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

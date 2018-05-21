@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gallery",
     "Name": "Gallery",
-    "Details": "Gallery has long been known as one of the darkest and moodiest worlds in the Commonwealth.  The stormy climate, born from three seas and a large moon, cloaks the surface of the planet in an almost perpetually violent night seldom penetrated by light from a small sun.  Why the Steiner family chose to hold onto such a dismal world when they once had control over many more pleasant planets no one knows. Because the planet had no native lifeforms, the colonists had to import species adaptable to the dark conditions.  Gallery supports a fairly large mining industry that searches beneath the surface for pockets of diamonds and metals.  Considering the dark and gloomy atmosphere above ground, it is not surprising that Gallery natives make excellent miners: the atmosphere in a mineshaft is not much different from the conditions on their homeworld. Nondi Steiner, sister to the current Archon and Duchess of Gallery, has her mansion just outside the capital city of new Stockholm.  When she is away with her regiment, her mother, Lisa Steiner takes her place as ruler of Gallery."
+    "Details": "Gallery has long been known as one of the darkest and moodiest worlds in the Commonwealth.  The stormy climate, born from three seas and a large moon, cloaks the surface of the planet in an almost perpetually violent night seldom penetrated by light from "
   },
   "Position": {
     "x": -198.23,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

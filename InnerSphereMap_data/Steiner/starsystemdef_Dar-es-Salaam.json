@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dar-es-Salaam",
     "Name": "Dar-es-Salaam",
-    "Details": "Ironically, given the number of battles fought on the world, Dar-Es-Salaam means Haven of Peace in Arabic, and is the center of Islam in the Lyran Alliance. This desert world is well suited to its Islamic people's tastes. Though the group has not made great efforts to attract converts, the relatively simple set of beliefs outlined in the Koran seems to appeal to many people who have grown weary of the maze-like speculations of other religions. It's strict morality places great emphasis on the family, which is a great comfort during the uncertain times of the Succession Wars."
+    "Details": "Ironically, given the number of battles fought on the world, Dar-Es-Salaam means Haven of Peace in Arabic, and is the center of Islam in the Lyran Alliance. This desert world is well suited to its Islamic people's tastes. Though the group has not made gre"
   },
   "Position": {
     "x": -194.87,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

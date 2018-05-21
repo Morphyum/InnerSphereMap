@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Maule",
     "Name": "Maule",
-    "Details": "Maule is a hard world, yielding many gemstones but little plant life. The deserts of this planet are growing steadily, as the biting winds slowly grind all exposed rock into gritty sand.[3052] Though the Ghost Bears easily wiped out the planet's defenders outside the town of Billowing Leaf in February 3052, the people of Maule initially made life miserable for the occupying Clan forces. As soon as the 433rd Supernova Trinary departed, leaving behind a Provisional Garrison Cluster, local people began staging round-the-clock protests at the Clan administrator's headquarters. Realizing that they could not imprison everyone on Maule for treasonous activities, the Ghost Bear authorities heeded the people's grievances and agreed to give the citizens a limited degree of freedom, even allowing them to travel under Clan supervision.</@>Because Maule is currently one of the few planets in Clan-held space that regularly trades with the Inner Sphere, the 304th Assault Cluster defends the world from the possibility of attack by Inner Sphere forces."
+    "Details": "Maule is a hard world, yielding many gemstones but little plant life. The deserts of this planet are growing steadily, as the biting winds slowly grind all exposed rock into gritty sand.[3052] Though the Ghost Bears easily wiped out the planet's defenders"
   },
   "Position": {
     "x": 31.79,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_David",
     "Name": "David",
-    "Details": "David's water table, not its atmosphere, is actually the health hazard posed to humans visiting this otherwise beautiful - if somewhat arid - planet. The problem has been traced to microbes that form the basis of David's entire food chain, which causes severe and sometimes fatal allergic reactions in humans, but does absolutely no harm to the planet's native wildlife. The local population has long since grown immune to the effects of this taint, but visitors to David who plan to do anything that involves eating, drinking, or even swimming in any of the planet's few freshwater lakes must take a series of inoculations in advance, or risk the consequences. Over sixty percent of David's surface is claimed by two enormous landmasses known as Andropo and Geronomis, and a host of large islands that ring them. Andropo, with its more fertile soils and lodes of precious metals, is home to most of David's limited farming, which is sufficient enough to support most of the planet's population, as well as some light industry. Geronomis, more equatorial and barren in its central regions, supports a slightly heavier industry and is also home to Polis, David's capital city and major spaceport.[3056] The Draconis Combine launched a diversionary raid on David in the 3049. During the raid the ruler of David, Duke Benjamin Absola, lost his mountain retreat because of a Kuritan recon company. Enraged by his loss, the Duke has sworn vengeance. Though the Clan invasion has slowed down his plans momentarily, the duke still seeks revenge against the Kuritans, and rumor has it he is attempting to raise a force to enact his revenge."
+    "Details": "David's water table, not its atmosphere, is actually the health hazard posed to humans visiting this otherwise beautiful - if somewhat arid - planet. The problem has been traced to microbes that form the basis of David's entire food chain, which causes se"
   },
   "Position": {
     "x": 140.08,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

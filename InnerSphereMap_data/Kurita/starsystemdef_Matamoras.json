@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Matamoras",
     "Name": "Matamoras",
-    "Details": "Matamoras is one of the windiest worlds in the Inner Sphere. The power of the constant, fierce wind is demonstrated by rock formations that imitate, in a even more dramatic way, those found in the desert areas of Terra. The inhabitants of this dry world, with little arable land and frequent dust storms, scour the planet's caves in search of the large veins of gold that lie beneath the surface.[3059] During Operation Bulldog, Clan Smoke Jaguar attempted a counter-attack to relieve the pressure on their OZ from SLDF forces. On Matamoras, civilians valiantly helped the 1st Free Worlds Guards and 2nd Night Stalkers thwart the Nineteenth Striker Cluster's offensive. Frustrated t every turn by civilian countermeasures, the nineteenth was forced to group its units together for protection. Later, the Ryuken-Yon regiment staged a night-time combat drop into the Jaguar-controlled area and managed to break the Jaguars' back in a coordinated offensive movement with the two defending regiments."
+    "Details": "Matamoras is one of the windiest worlds in the Inner Sphere. The power of the constant, fierce wind is demonstrated by rock formations that imitate, in a even more dramatic way, those found in the desert areas of Terra. The inhabitants of this dry world, "
   },
   "Position": {
     "x": 252.53,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

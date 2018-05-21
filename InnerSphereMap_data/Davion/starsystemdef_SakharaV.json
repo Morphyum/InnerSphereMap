@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_SakharaV",
     "Name": "Sakhara V",
-    "Details": "[3025] The Sakhara Academy is one of the few private military academies in the Federated Suns. Created by a group of retired Star League officers in 2613, the Academy has willingly accepted anyone who can afford the tuition. During the First Succession War, the Sakhara Academy distinguished itself when its staff and students, about six regiments of mixed weapons, withstood and even repulsed three separate attacks by the vaunted 3rd Sword of Light 'Mech regiment and three other veteran Kurita regiments. This action, known in the academy as the Days of Jousting at Dragons, made the academy's reputation.Today, though Sakhara can only turn out 20 MechWarriors and an equal numbers of pilots, armor, and infantry officers every year, the traditions and history of the school still carry much respect among the AFFS. Because the school is so small and so tradition-bound, graduates grow to love it and consider the four years there as the best years of their lives. Yet, the training is extremely tough, both mentally and physically.The current commander of the Sakhara Academy is Commandant Lindsey Trevellis, a retired AFFS Colonel."
+    "Details": "[3025] The Sakhara Academy is one of the few private military academies in the Federated Suns. Created by a group of retired Star League officers in 2613, the Academy has willingly accepted anyone who can afford the tuition. During the First Succession Wa"
   },
   "Position": {
     "x": 276.59,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

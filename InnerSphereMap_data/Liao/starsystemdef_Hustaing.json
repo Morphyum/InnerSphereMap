@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hustaing",
     "Name": "Hustaing",
-    "Details": "Qingliu is the capital of Hustaing.[3060] In September of 3060, the St. Ives Compact's Blackwind Lancers staged an abortive raid against Hustaing. In response, acting as First Lord of the Star League, Capellan Chancellor Sun-Tzu Liao ordered SLDF units to occupy several Compact worlds, ostensibly as peacekeepers.In January of 3061, the so-called peace-keeping mission turned into a war of aggression when St. Ives units and the SLDF clashed over First Lord Liao's orders to place Compact worlds under martial law. Spurred on by the fervor of the Xin-Sheng movement, Liao forces marched inexorably against the St. Ives Compact worlds, eventually forcing the rogue commonality back into the Confederation fold by June of 3063."
+    "Details": "Qingliu is the capital of Hustaing.[3060] In September of 3060, the St. Ives Compact's Blackwind Lancers staged an abortive raid against Hustaing. In response, acting as First Lord of the Star League, Capellan Chancellor Sun-Tzu Liao ordered SLDF units to"
   },
   "Position": {
     "x": 55.05,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

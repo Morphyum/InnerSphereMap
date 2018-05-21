@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Capella",
     "Name": "Capella",
-    "Details": "The second most politically important world within the Confederation, Capella is the home of the original Capellan Hegemony and was the birthplace of the Capellan Confederation after the Aris crisis.  Permanent garrisons of two reserve regiments with AeroSpace support are supplemented by well-fortified ground installations, managed by highly motivated militia forces.  Capella is corporate headquarters for the powerful Ceres Metals and Capellan Commonality Bank. The capital city of Capella is Capella Prime.[3025] Capella is the site of one of the 16 Philotechnique Institutes. These serve the Capellan state as special post-secondary institutions. Established originally in the mid-28th century as technical and scientific training centers, the institutes today also emphasize \"philosophical\" (political) training. Admission to a Philotechnique Institute is by special recommendation of a planetary director only, and all expenses are paid by the state. Often enough, students in these institutions have previously served with distinction as members of the Ranks of the Dedicated. Graduates who are not technically oriented are placed in positions of administrative responsibility, or are recruited into the ranks of the Maskirovka.<p>[3075] Capella has been spared most of the ravages of the Jihad whereSian has suffered most. There was a short time when ChancellorLiao considered shifting his government to Capella for security, butthat plan was quickly abandoned as the people of Sian rallied tohis defense. The Capella Commonality Bank has become even moreintegral as it attempts to hold the struggling Capellan economyafloat. The central bank of the Confederation—despite the name, itcontrols assets across the realm—has been struggling greatly withbad loans and rampant inflation along the Confederaton’s bordersas Blakist attacks disrupt trade and commerce.</p><p>The nobles of the House of Scions on Capella have been quietlyamassing more and more power and influence as the Jihad claimsthe lion’s share of Chancellor Liao’s attention and funds. The breakdownof the HPG did the nobles a great service, allowing them toconsolidate power within their own warrens and duchies withoutthe direct oversight of Sian. While none of them are known to betreasonous, several years of nearly uninterrupted autonomy hasgiven them the impetus and the wherewithal to begin to act moreindependently. How the Chancellor and the rest of the Directoratewill respond once the current crisis passes cannot be guessed, butpast practices have proven Sun-Tzu Liao to be anything but generousto those who threaten his rule.</p>"
+    "Details": "The second most politically important world within the Confederation, Capella is the home of the original Capellan Hegemony and was the birthplace of the Capellan Confederation after the Aris crisis.  Permanent garrisons of two reserve regiments with Aero"
   },
   "Position": {
     "x": 38.13,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 8,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

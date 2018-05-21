@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sirius",
     "Name": "Sirius",
-    "Details": "Sirius V is empty of life, save for what men had imported here early in the history of human expansion in the stars. At a distance of 8.7 light years from Terra, Sirius is one of old Earth's closest interstellar neighbors. The first manned outpost on this frigid, barren world was established not long after FTL transport became available in the 22nd century.The planet's atmosphere is a chill mix of hydrogen and nitrogen, the water is liquid ammonia. With a surface temperature rarely above -40 Celsius. Open flame cannot exist in this environment, though when heated the sub-zero chemical soup precipitates oily, red-brown clouds of sulphur and nitrogen compounds. Interference from Sirius's hot, young A1 star periodically raises havoc with communications.The first Sirian colony was et up to research the improbabilities of the Sirius system, which according to the astrophysical understanding of the time, was too young to even have planets. It was over a century later that Sirius V's considerable resources of heavy metals and transuranic minerals were discovered.The industrial and city complex known as the Heavenly Palace (Tiatan) was constructed by the Star League in the 26th Century to exploit the planet's resources. The largest of the five cavernous ferrocrete and steel domes contains the city proper, whilst the others contain hydroponics farms other support facilities.The Heavenly Palace was destroyed by rogue ComStar Precentor Rachan in 3027, in a plot to implicate the Gray Death Legion. Almost all the 12 million inhabitants perished."
+    "Details": "Sirius V is empty of life, save for what men had imported here early in the history of human expansion in the stars. At a distance of 8.7 light years from Terra, Sirius is one of old Earth's closest interstellar neighbors. The first manned outpost on this"
   },
   "Position": {
     "x": -2.56,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

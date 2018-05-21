@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bromhead",
     "Name": "Bromhead",
-    "Details": "A nondescript world with very little to offer except a strategic position, Bromhead was captured early in the Succession Wars. Its strategic value and importance was never lost on the AFFS High Command - because of its position along the Capellan border they have kept the world garrisoned with a significant offensive and defensive force.This arid world has two continents, one located in the northern and one in the southern hemisphere, covering more than half the planet. Zanzabar, the northernmost continent, has the more temperate of climates and is home to the majority of the world's population. Brom's Home, located on Zanzabar, is the capital of the planet, serving as the center for all commerce on the planet.The southern Salazaar is a vast wasteland of desert divided by a large mountain range. The Salaam-Zurkan range is so high that few have ever attempted to climb it, with many peaks higher than the famed Mt. Everest on Terra. Salazaar has become a major desert and mountain environmental combat training ground for the AFFS."
+    "Details": "A nondescript world with very little to offer except a strategic position, Bromhead was captured early in the Succession Wars. Its strategic value and importance was never lost on the AFFS High Command - because of its position along the Capellan border t"
   },
   "Position": {
     "x": 159.74,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

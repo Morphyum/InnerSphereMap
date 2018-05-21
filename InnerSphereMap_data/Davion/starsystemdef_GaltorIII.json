@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_GaltorIII",
     "Name": "Galtor III",
-    "Details": "Predominantly an agricultural world, Galtor has three main continents. Eire, the largest continent, has a spine of vast mountains and a broad fertile plain cut by numerous rivers. The Wagnall Plain, as it is known, is an immensely large area, well-watered and eminently suitable for cultivation. The other two continents consist mostly of desert or mountains, except for coastal flood plains and tropical jungles along the equator. Galtor's capital of New Derry is situated on Eire. The planet's major industries are textiles, food processing, fertilizers, and genetic crop research. Galtor has two moons small moons named Temos and Froma, after two founding fathers of the colony.The Age of War had little effect on the Galtorians, who traded their agriculture with anyone who paid in hard currency. The Star League era brought further prosperity, with the military becoming the largest customer for Galtor's harvest. By 2725, Galtor's produced fed a billion soldiers on a thousand worlds.The fall of the Star League hit Galtor hard. Trade dried up, refugees flooded the planet, and in 2784, League troops abandoned Galtor to join Kerensky's exodus. Galtor itself was spared the horrors of war for another 16 years, until the forces of the Draconis Combine landed to claim the planet in the name of House Kurita. Life under the Dragon was grim and sullen, with the free enterprise system replaced with a crushing quota system.In 2905, the Federated Suns bombed the Kuritan base on Galtor. Although the Davion forces did not invade, their attack sparked the fires of resistance within Galtor's population. Eventually Galtor was freed from the grip of the Dragon in 3022. The toll of Liberation was terrible - cities razed, forests burned, and whole communities wiped away. Over 35% of the population died, and a quarter of the survivors left homeless.However, the horror and terror did not end for Galtor III. In 3025, Hanse Davion started the opening gambit of Operation Muffet - a trap to destroy Kurita's best regiments. The bait was to be a fake Star League depot, constructed by Davion's engineers, and designed to be a deadly trap. Then the survey team on Galtor III found a real, untouched Star League depot about three thousand kilometers from the false site. Despite numerous ups and downs throughout the campaign, the forces of the Federated Suns were eventually victorious."
+    "Details": "Predominantly an agricultural world, Galtor has three main continents. Eire, the largest continent, has a spine of vast mountains and a broad fertile plain cut by numerous rivers. The Wagnall Plain, as it is known, is an immensely large area, well-watered"
   },
   "Position": {
     "x": 194.12,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

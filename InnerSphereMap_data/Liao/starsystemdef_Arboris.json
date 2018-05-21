@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Arboris",
     "Name": "Arboris",
-    "Details": "The people of Arboris have a history of fierce independence. Before their actions in the conflict of 3057, they proved their mettle in 2308 by seceding from the Capellan Hegemony to protest the rapacious taxes and debilitating draft imposed by that government to support an unjustifiable war. Though Arboris again stepped under the Capellan umbrella soon after the end of the Capellan-Supremacy war, neither House Liao nor, years later, House Davion succeeded in fully assimilating the populace.During the formation of the so called 'Chaos March', elements of Ishara's Grenadiers landed on Arboris to retake the planet for the Capellan Confederation. They faced and defeated the under strength Arboris SMM, forcing them to retreat into the Hardina Mountains. Satisfied they now controlled the planet, the Grenadiers began to harass the civilian population, hoping to turn up Davion loyalists and use them as examples of the futility of rebelling against House Liao.Arboris's citizens refused to accept this treatment. Led by the commanders of the Farmers Freedom Army, a hastily assembled unit comprised of the members of the local agricultural association, a make shift army seized the militia's hidden weapons caches and launched their own attacks against the Grenadiers. Hundreds died in the initial assaults until Arboris's farmers learned that stealthy attacks against individual 'mechs accomplished their ends equally as well.Unaware that the populace was successfully defending itself from the Capellan threat, the militia spent two weeks in the mountains repairing its equipment and reorganizing its ranks at feverish pace. A forced march brought the militia to the town of Bantor just in time to see the FFA engage the first battalion of the Grenadiers. The militia quickly joined the fray and helped turn the tide of the battle against the Grenadiers, who fled back to the Arboris capital of Kansas Plain. The FFA then stunned the militia by turning their attacks against them. Understandably reluctant to return fire against civilians they were sworn to protect, the militia withdrew from the field. Subsequent communications with leaders of the FFA informed the militia that they intended to defend the planet from all outside forces, including the militia.The situation between the forces remains at a stalemate. Ishara's Grenadiers continue to destroy random targets in an attempt to cow the population, but receive only sporadic support from the Confederation. The Arboris SMM continues harassing the Grenadiers and makes regular attempts to negotiate with the FFA, but receives meagre support from the federated Commonwealth. Both units concentrate most of their efforts on blocking any shipments moving onto or of Arboris, confiscating and material sent to their enemy and effectively blockading the FFA. This tactic has had little effect so far, as the Arboris's population traditionally has been nearly self-sufficient."
+    "Details": "The people of Arboris have a history of fierce independence. Before their actions in the conflict of 3057, they proved their mettle in 2308 by seceding from the Capellan Hegemony to protest the rapacious taxes and debilitating draft imposed by that govern"
   },
   "Position": {
     "x": 43.16,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

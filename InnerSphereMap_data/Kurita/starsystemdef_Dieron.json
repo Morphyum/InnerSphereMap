@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dieron",
     "Name": "Dieron",
-    "Details": "Settled during the original Exodus of the 22nd century, Dieron was one of the most highly developed worlds, both culturally and industrially, during the Star League. It was an administrative center for the BSLA and capital of the Draconis Combine Military Region. In this function, it was also the headquarters for the Fourteenth Army and a major electronics center for the Regular Army. Though the planet survived the coup by Stefan Amaris intact, it was severely damaged by General Kerensky's campaign to liberate the Hegemony. The Regular Army stripped away the few remaining buildings before leaving the Inner Sphere.Since the collapse of the Star League, Dieron has been the capital of the Dieron Military District in the Draconis Combine. Legend has it that Minoru Kurita chose Dieron to be a provincial capital out of arrogance; he liked the idea of boasting of having one of the crowing glories of the Star League so prominent a part of his own realm.Dieron is a cramped world because of its many large mountain ranges. What space is available exists in countless small valleys, and earthquakes are a frequent problem. With so little to recommend the planet, it is amazing that over five billion people live here.The standard of living on Dieron is surprisingly low for a major industrial world, because Takashi Kurita's policy of restricting travel within the Combine prevents the Dieronese from seeing how much of their productivity is taken from them and how little is imported in return. The cramped cities stuck between towering mountains make the planet a hotbed of resistance to Kurita rule, perhaps, the most discontented Kurita world outside the Rasalhague Military District.To squash budding rebellions, the ISF plays on the Dieron people's obsession with the Star League. An ISF agent will spread rumors of a Star League cache, causing thousands to flood into the mountains prospecting for artifacts, thus defusing any tensions that had existed before. "
+    "Details": "Settled during the original Exodus of the 22nd century, Dieron was one of the most highly developed worlds, both culturally and industrially, during the Star League. It was an administrative center for the BSLA and capital of the Draconis Combine Military"
   },
   "Position": {
     "x": 12.2,
@@ -69,7 +69,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

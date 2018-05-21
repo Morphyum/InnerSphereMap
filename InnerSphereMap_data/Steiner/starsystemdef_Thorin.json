@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thorin",
     "Name": "Thorin",
-    "Details": "Thorin and the many other planets in close proximity to Terra, were the first planets colonized during latter part of the 23rd century, known as the Exodus period. Even horror stories, like that of bull-sized predators who devoured the entire colony on Thorin, did not dampen the widespread desire to flee the politics and pollution of Terra.The Hegemony library on Thorin was the largest library ever built. Just outside Ecol City, it was constantly expanded until it filled more than 100 buildings clustered around the huge domed Central Library. The proud people of Thorin boasted that it contained a copy of every published book. Though that claim may not be true, the library was a mind-boggling warehouse of information. During the coup, the Second Amaris Dragoons set it on fire. That single act of wanton violence, consuming every building of the Hegemony Library, set mankind back hundreds of years.The University of Thorin, one of the Golden Ten universities of the Star League, was nestled in the dark forests of Thorin's northern continent. The focus was on economics. The university was severely damaged during the Amaris coup and was later abandoned. The forest has since taken over the deserted campus.Ecol City is the capital of Thorin, and is situated on the southern most of the two continents.The Dublin Swamps, which run south and west of Ecol City, are notorious for their difficulty of navigation and as the breeding ground of insects of phenomenal size. The equatorial swamps are nearly two hundred kilometers in diameter, with island-like hills that rise from the shadowy mire.[3062] Founded in 2832, the Flight Academy of Thorin gained a reputation for producing excellent aerospace pilots and DropShip crews. However, the academy sustained heavy damage during the Succession Wars, limiting its enrolment. The resulting repairs were deemed prohibitively expensive, and so the school limped on without them. As a result, even when the demand for naval crews increased in the '40s and '50s, there was never any likelihood of upgrading the Thorin facility. Instead, the LAAF chose to build a new facility at Alarion and slowly downgrade Thorin. The last class entered the academy in summer 3060 and will graduate in June 3063. At that point, the remaining equipment will relocate to Alarion, as will most of the instructors. Those choosing to retire from the LAAF have been offered employment with Christofiori Express, a Thorin-based shipping company."
+    "Details": "Thorin and the many other planets in close proximity to Terra, were the first planets colonized during latter part of the 23rd century, known as the Exodus period. Even horror stories, like that of bull-sized predators who devoured the entire colony on Th"
   },
   "Position": {
     "x": -23.52,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Domain",
     "Name": "Domain",
-    "Details": "[3052] The appearance of the Clans in the Inner Sphere caused many different reactions, but few were more unusual than that of the Knights of St. Cameron. This mercenary unit, whose members claim undying devotion to the high moral standards espoused by the Cameron family of the Star League, could not decide whether they should fight the Clans or honor these descendants of the Star League's Regular Army. For General Felix Dewey, the answer was clear. The Knights' honourable contract with the Federated Commonwealth had to be fulfilled. Thus it was that the First Knights of St. Cameron met and fought valiantly against Clan Wolf's 352nd Assault Cluster on the Cesswarn Plain, in January 3052. Outmaneuvered and outclassed, the Knights retreated across the rolling hills and wide plains that make up the majority of Domain's terrain, toward the Kusson Mountains, only to be outflanked at the Zazz River. The Knights suffered a final defeat at the capital city of Kusson, then mysteriously disappeared. The survivors did not retreat offworld, though they had plenty of opportunity to do so, yet no trace of them was ever found.FedCom sources at the time believed they may have joined the Clans, though were somewhat surprised when a small contingent of The Knights arrived at Crimond in March 3053, Led by Colonel Mortimer Dewey, the son of former commander Felix Dewey."
+    "Details": "[3052] The appearance of the Clans in the Inner Sphere caused many different reactions, but few were more unusual than that of the Knights of St. Cameron. This mercenary unit, whose members claim undying devotion to the high moral standards espoused by th"
   },
   "Position": {
     "x": -32.83,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

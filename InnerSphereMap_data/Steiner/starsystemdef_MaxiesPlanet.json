@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_MaxiesPlanet",
     "Name": "Maxie's Planet",
-    "Details": "[3050] Retired Major Hans Remke of the LCAF led the resistance on Maxie's Planet, in May 3050. Remke used a lance of medium 'Mechs to harass the 305th Assault Cluster with hit-and-run raids. The 305th took the planet despite the major's efforts, and Remke was presumed killed when his Phoenix Hawk was destroyed. Four months after the conquest, a small group of 'Mechs began raiding the PGC garrisoning Maxie's Planet, which suggests that Major Remke may still be alive."
+    "Details": "[3050] Retired Major Hans Remke of the LCAF led the resistance on Maxie's Planet, in May 3050. Remke used a lance of medium 'Mechs to harass the 305th Assault Cluster with hit-and-run raids. The 305th took the planet despite the major's efforts, and Remke"
   },
   "Position": {
     "x": -96.43,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

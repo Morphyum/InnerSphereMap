@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lambrecht",
     "Name": "Lambrecht",
-    "Details": "One of the Golden Ten universities of the Star League, the university of Lambrecht focused on the hard sciences, such as physics and astronomy. It was destroyed during the fight to liberate the planet from the Republicans. Intelligence agents have recently turned up information that the school's faculty may have hidden their notes and computer memory on secret projects."
+    "Details": "One of the Golden Ten universities of the Star League, the university of Lambrecht focused on the hard sciences, such as physics and astronomy. It was destroyed during the fight to liberate the planet from the Republicans. Intelligence agents have recentl"
   },
   "Position": {
     "x": 13.43,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

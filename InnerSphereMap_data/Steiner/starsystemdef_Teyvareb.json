@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Teyvareb",
     "Name": "Teyvareb",
-    "Details": "[3062] The Teyvareb TMM has spent most of its short life fending off raids from the Circinus Federation, or else staging punitive raids against the Periphery kingdom. In the eleven-year period between the militia's formation and the Clan invasion, the TMM attacked the Federation seven times, principally targeting Circinus itself but also raiding as far as Zorn's Keep to demonstrate that none of the Black Warriors were out of reach of the Lyran military.During the early 3050s the relationship between Circinus and the FedCom appeared to warm, but raids against Son Hoa and Khon Kaen in 3058 prompted Archon Katherine to order punitive strikes into the Federation. As chance would have it, the Free Worlds League decided on a similar course of action, and the combination of the Teyvareb militia's raids and those by the Sixth Orloff Grenadiers left the Black Warriors and the Federation in chaos."
+    "Details": "[3062] The Teyvareb TMM has spent most of its short life fending off raids from the Circinus Federation, or else staging punitive raids against the Periphery kingdom. In the eleven-year period between the militia's formation and the Clan invasion, the TMM"
   },
   "Position": {
     "x": -413.62,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

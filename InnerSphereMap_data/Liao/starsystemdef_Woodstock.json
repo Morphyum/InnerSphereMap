@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Woodstock",
     "Name": "Woodstock",
-    "Details": "Equal parts landmass and oceans, Woodstock is a bountiful agricultural world of rich and varied fertility. It's fecundity has lead to surplus trade balance that has raised the per capita income higher than most worlds of the Federated Commonwealth, and considerably better than almost any other worlds in the Sarna March.The capital of Woodstock is Recital City."
+    "Details": "Equal parts landmass and oceans, Woodstock is a bountiful agricultural world of rich and varied fertility. It's fecundity has lead to surplus trade balance that has raised the per capita income higher than most worlds of the Federated Commonwealth, and co"
   },
   "Position": {
     "x": 44.19,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

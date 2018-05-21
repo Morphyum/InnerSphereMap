@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Loric",
     "Name": "Loric",
-    "Details": "Loric has a temperate atmosphere, and medium sized cities (250,000 or more citizens). Even though various raids and invasion attempts throughout the Succession Wars have ruined some of the planet's beauty, its remaining gentle shorelines, rugged mountains, and deep, dark forests continue to make this world a favorite played of the rich in times of peace or near-calm."
+    "Details": "Loric has a temperate atmosphere, and medium sized cities (250,000 or more citizens). Even though various raids and invasion attempts throughout the Succession Wars have ruined some of the planet's beauty, its remaining gentle shorelines, rugged mountains"
   },
   "Position": {
     "x": -230.35,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

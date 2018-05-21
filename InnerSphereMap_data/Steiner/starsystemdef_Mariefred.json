@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mariefred",
     "Name": "Mariefred",
-    "Details": "The Third Succession War began in 2866, bringing more devastation to the already ruined Inner Sphere. For the next three years Marik forces conducted numerous raids and invasions against the Lyran Commonwealth. The industrialized Federation of Skye received special attention. In a year-long blitzkrieg, five regiments of the Regulan Hussars pounded various worlds, including Mariefred."
+    "Details": "The Third Succession War began in 2866, bringing more devastation to the already ruined Inner Sphere. For the next three years Marik forces conducted numerous raids and invasions against the Lyran Commonwealth. The industrialized Federation of Skye receiv"
   },
   "Position": {
     "x": -180.19,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

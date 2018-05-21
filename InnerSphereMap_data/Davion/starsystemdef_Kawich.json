@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kawich",
     "Name": "Kawich",
-    "Details": "Ten small continents (Adaven, Armagosa, Darrough, Hannapah, Ione, Nyala, Ophir, Pactolus, Tolicha, and Wahmonie) dot Kawich's large but shallow seas. Kawich's soil is generally poor, but its rocks are rich in metal ores, minerals, and petroleum. Although mining and refining industries boomed on Kawich under the Terran Hegemony, Kawich's population has always retained a frontier attitude given the hardscrabble land they must work. After the fall of the First Star League, the Federated Suns laid claim to Kawich. Kawich remained under the banner of House Davion, except for a brief period during the Third Succession War when the Capellan Confederation held the planet. During the Fourth Succession War, House Davion lured House Liao into an ill-fated counterattack on Kawich involving famous units like the Eridani Light Horse and the Davion Guards. Today, locals still refer to the BattleMech carcasses on the hills and groves around the towns of Samanan, Jamou, and the capital of Dotara as Liao's metal tombstones. "
+    "Details": "Ten small continents (Adaven, Armagosa, Darrough, Hannapah, Ione, Nyala, Ophir, Pactolus, Tolicha, and Wahmonie) dot Kawich's large but shallow seas. Kawich's soil is generally poor, but its rocks are rich in metal ores, minerals, and petroleum. Although "
   },
   "Position": {
     "x": 53.76,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Volders",
     "Name": "Volders",
-    "Details": "[3051] Clan Wolf knew that Volders was some type of religious retreat and that its government had consciously avoided creating a militia. Khan Natasha Kerensky dispatched Star Commodore Nihsen and several JumpShips loaded with empty DropShips to the system in November 3051. As the Dropships maneuvered towards the planet, Star Commodore Nihsen opened negotiations with the planetary government, recommending they surrender and avoid the coming battle. The looming threat represented by the approaching Dropships quickly broke the government's already shaky resolve. The Clan Dropships were met on Volders by government representatives ready to finalize the terms of the planet's surrender."
+    "Details": "[3051] Clan Wolf knew that Volders was some type of religious retreat and that its government had consciously avoided creating a militia. Khan Natasha Kerensky dispatched Star Commodore Nihsen and several JumpShips loaded with empty DropShips to the syste"
   },
   "Position": {
     "x": -24.04,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

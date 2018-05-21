@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_AnTing",
     "Name": "An Ting",
-    "Details": "The planet has two major continents, both of which have small temperate zones near the poles. The northern continent of An Ting is named Hotei. Most of this young planet is tectonically active. The northern hemisphere has a chain of volcanic islands. The southern continent features geysers and hot springs of all descriptions.The capital city of An Ting is Li Po. "
+    "Details": "The planet has two major continents, both of which have small temperate zones near the poles. The northern continent of An Ting is named Hotei. Most of this young planet is tectonically active. The northern hemisphere has a chain of volcanic islands. The "
   },
   "Position": {
     "x": 301.65,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

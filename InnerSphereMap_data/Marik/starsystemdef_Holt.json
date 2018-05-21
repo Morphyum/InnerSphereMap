@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Holt",
     "Name": "Holt",
-    "Details": "[3025] Holt is governed by an oligarchy.[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with the Capellan Confederation. Capellan wanted items include speciality chemicals from the refineries on Holt. "
+    "Details": "[3025] Holt is governed by an oligarchy.[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with the Capellan Confederation. Capellan wanted items include speciality chemicals from the refineries on Ho"
   },
   "Position": {
     "x": -49.37,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

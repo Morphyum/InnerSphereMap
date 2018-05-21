@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_LandsEnd",
     "Name": "Land's End",
-    "Details": "[3058] The Seventh Pesht Regulars has spent almost forty years garrisoning Land's End, an unremarkable world on the edge of the Inner Sphere, and the regiment is unlikely to see major action any time soon. Much too far from the Smoke Jaguar invasion corridor to assist in the war against the Clans, the Seventh is one of many regiments forced to play the waiting game while the rest of the Inner Sphere meets its biggest challenge in decades. Land's End rarely even suffers bandit raids, the only other source of real combat."
+    "Details": "[3058] The Seventh Pesht Regulars has spent almost forty years garrisoning Land's End, an unremarkable world on the edge of the Inner Sphere, and the regiment is unlikely to see major action any time soon. Much too far from the Smoke Jaguar invasion corri"
   },
   "Position": {
     "x": 407.88,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

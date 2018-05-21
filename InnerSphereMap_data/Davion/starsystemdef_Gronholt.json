@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gronholt",
     "Name": "Gronholt",
-    "Details": "Gronholt is such a poor world that many traders claim to not even know it's location.[3056] Baroness Tsanma has recently gone to war with Hoonaar, over the resources located by a joint exploration team. Forces from Gronholt have seized Hoonaar's southern continent, the location of the disputed resouces, and are laying siege to the rest of Hoonaar."
+    "Details": "Gronholt is such a poor world that many traders claim to not even know it's location.[3056] Baroness Tsanma has recently gone to war with Hoonaar, over the resources located by a joint exploration team. Forces from Gronholt have seized Hoonaar's southern "
   },
   "Position": {
     "x": 466.05,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

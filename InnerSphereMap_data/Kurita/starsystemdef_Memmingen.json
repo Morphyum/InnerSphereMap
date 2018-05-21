@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Memmingen",
     "Name": "Memmingen",
-    "Details": "[3051] Clan Wolf landed on Memmingen in November 3051. Star Colonel Marcos Radick won the bid for the world from Khan Natasha Kerensky, but his winning bid had a high cost. It was so small that it ruled out a slugging match with the fanatical Third Drakøns, the remnants of the Black Omen and Outlaw mercenary units, and the First Memmingen Armored Division. He dropped far from the Drakøns and adopted a highly mobile strategy that worked well but made Star Colonel Radick very impatient.His patience ended abruptly when the Drakøns slipped from his grasp during the battle of Danton. In a rage, he ordered the village of Danton and its neighbor, Greenvale, razed as an example to the rest of the planet's rebellious population. Hundreds of civilians died. The Drakøns, fearing more civilian casualties, retreated offworld to Satalice, but not before broadcasting a final message to Star Colonel Radick. Their message was a vow to remember what happened at Danton and Greenvale forever, and to make Marcos Radick pay."
+    "Details": "[3051] Clan Wolf landed on Memmingen in November 3051. Star Colonel Marcos Radick won the bid for the world from Khan Natasha Kerensky, but his winning bid had a high cost. It was so small that it ruled out a slugging match with the fanatical Third Drakøn"
   },
   "Position": {
     "x": 6.45,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

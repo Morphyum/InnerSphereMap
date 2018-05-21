@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_DrasksDen",
     "Name": "Drask's Den",
-    "Details": "[3049] Clan Wolf landed on Drask's Den in August 3049. The aerospace fighters of the Red Keshik destroyed many of the Drask Guards' 'Mechs and armored units before they could fire a shot. The rest were destroyed by the OmniMechs and Elementals of the Keshik."
+    "Details": "[3049] Clan Wolf landed on Drask's Den in August 3049. The aerospace fighters of the Red Keshik destroyed many of the Drask Guards' 'Mechs and armored units before they could fire a shot. The rest were destroyed by the OmniMechs and Elementals of the Kesh"
   },
   "Position": {
     "x": -86.54,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

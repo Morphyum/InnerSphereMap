@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_XiengKhouang",
     "Name": "Xieng Khouang",
-    "Details": "[2970] Dwindling resources and inexperienced personnel continued to cause defeats for the Capellan Confederation. On Xieng Khouang, the entire Home Guard Militia was massacred. The identity of the attackers was never determined, but Chancellor Ingrid Liao believed the Federated Suns to be responsible."
+    "Details": "[2970] Dwindling resources and inexperienced personnel continued to cause defeats for the Capellan Confederation. On Xieng Khouang, the entire Home Guard Militia was massacred. The identity of the attackers was never determined, but Chancellor Ingrid Liao"
   },
   "Position": {
     "x": 85.29,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nusakan",
     "Name": "Nusakan",
-    "Details": "Nusakan is a dim little world. Its one valuable resource is its abundance of high-grade silicon. Nusakan became a center of computer technology during the Star League era. Jobs City, the capital of Nusakan, was the headquarters of Interstellar Business Computers and Pottor Light Computers. The Terran Hegemony heavily defended the planet with the SDS system, three Castles Brian, and twice the normal number of military bases and spaceports.During the Amaris coup, Nusakan was the scene of heavy fighting. Republican troops ambushed SLDF units stationed there inside two of the Castles Brian. Present-day legends say that the fighting deep within the two forts continued for weeks, causing the land of nearby towns to shake with the underground explosions. The third base, Fort Romas, held out for a year before its was eliminated with a nuclear bomb.When General Kerensky's forces came to liberate the planet from the republican forces, the SDS destroyed many Star League warships. Two of them, the cruiser SLS Havana and the destroyer SLS Dularam, spent their final moments plummeting through Nusakan's atmosphere. The wreckage of the two ships can still be seen.The Castles Brian and the wrecks of their warships have yielded many useful artifacts. Unfortunately, the computer industry, which had been so large and vital, was razed by Amaris forces. Nothing has been found in the ashes of the factories."
+    "Details": "Nusakan is a dim little world. Its one valuable resource is its abundance of high-grade silicon. Nusakan became a center of computer technology during the Star League era. Jobs City, the capital of Nusakan, was the headquarters of Interstellar Business Co"
   },
   "Position": {
     "x": -34.77,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

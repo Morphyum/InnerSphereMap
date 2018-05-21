@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BarlowsFolly",
     "Name": "Barlow's Folly",
-    "Details": "[3025] Perched on the Davion-Kurita border, the planet Cussar has seen more than its fair share of raids by military forces sporting the Dragon symbol. During the First Succession War, one battalion of the 38th Avalon Hussars was stationed on the planet, under the command of Colonel Michael Barlow. A native of the planet, he knew its mountainous terrain well. When the Kurita offensive began, Cussar was one of its first targets. Fight as they might, the defenders slowly lost control of the planet while the Draconis forces destroyed every building, shot every farm animal, burned all the crops.After receiving news that the Commander of the Combat Region has been killed on Clovis, Colonel Barlow's superior gave the ROW (Retreat Off-World) order. Colonel Barlow refused to abandon his homeworld. His commanding officer said this would be folly, and so all the AFFS Dropships left Cussar. Nearly all of Barlow's battalion remained behind. Barlow led his battalion into the mountains circling the planet's three major cities. For the next three years, his 'Mechs attacked and harassed the Kurita forces, and Barlow's forces managed to scavenge enough parts and supplies to keep their machines up and attacking. When their 'Mechs could no longer stand, Barlow and his men took up rifles and fought on for another ten years.After almost 14 years of struggle in which Barlow's men had killed countless Kurita soldiers and destroyed tons of enemy equipment and supplies, the Kurita garrison on Cussar finally killed the last of the guerrilla forces. To their dismay, however, the Kuritans found that the bravery of Barlow's battalion had renewed the spirit of rebellion among the citizens of Cussar. Numerous new guerrilla actions were conducted in the name of Colonel Barlow. It had been difficult enough to battle a clever enemy hidden within the mountains, now the Kuritans faced enemies hidden within every civilian crowd.To this day, Colonel Barlow is remembered on Cussar. As the civilian population is still rebellious, three times the normal number of Draconis troops are stationed there to prevent all-out revolt. Soldiers dread being assigned to this planet because of the constant terrorism being aimed at them.Even the planet's name has changed. As the tales of Colonel Barlow's bravery spread throughout the Inner Sphere, people began to call Cussar Barlow's Folly. The Draconis Combine itself has bowed to convention and now identifies Cussar by its new name."
+    "Details": "[3025] Perched on the Davion-Kurita border, the planet Cussar has seen more than its fair share of raids by military forces sporting the Dragon symbol. During the First Succession War, one battalion of the 38th Avalon Hussars was stationed on the planet, "
   },
   "Position": {
     "x": 173.18,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

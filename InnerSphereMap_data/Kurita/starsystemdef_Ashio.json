@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ashio",
     "Name": "Ashio",
-    "Details": "Ashio is an unremarkable planet with only one major distinction--it has the largest volcano in the Inner Sphere.  Mount Vesuvius Major is over ten kilometers tall.  Though the mountain has long been dormant, scientists estimate that if Vesuvius Major erupts, it could block all sunlight from the planet, sending it into an ice age. Currently, Ashio is the headquarters of the 27th Dieron Regulars."
+    "Details": "Ashio is an unremarkable planet with only one major distinction--it has the largest volcano in the Inner Sphere.  Mount Vesuvius Major is over ten kilometers tall.  Though the mountain has long been dormant, scientists estimate that if Vesuvius Major erup"
   },
   "Position": {
     "x": 73.56,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

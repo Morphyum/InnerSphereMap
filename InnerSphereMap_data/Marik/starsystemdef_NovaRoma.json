@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NovaRoma",
     "Name": "Nova Roma",
-    "Details": "Often it is Fate, not tactics or strategy that determines the site of great battles. From Waterloo and Gettysberg to New Vandenburg and Kentares, the critical military moment all too frequently comes at a time and place that few expect...and leaves behind a dreadful legacy. These words, penned by a House Davion historian in 2798 about the Kentares Massacre, also apply to Nova Roma. Settled during the good years of the Star League by the Indrus Corporation, the planet remained a modestly successful, rather sleepy agrarian world for four centuries. Because of its utter lack of strategic importance, it even escaped attack from enemy forces during the Succession Wars. In 3014, however, Nova Roma's luck finally ran out.In September of that year, elements of Wolf's Dragoons landed on Nova Roma and easily subdued the garrison of Free Worlds Guards stationed there. Later that autumn, Duke Anton delivered an incendiary address from Nova Roma, surrounded by the smiling faces of the planet's Executive Council (who had been rounded up by bayonet for the occasion). The vidtape of this event was broadcast to Loyalist Marik forces, raising their ire. Thus, when Anton's forces regrouped on Nova Roma for their final stand, Janos's advancing armies laid waste to many farms and mines during the pursuit of the enemy.This damage decimated Nova Roma's economy, which may not recover without outside help. However, the crisis does not concern the planet's governor, Stanton de Beer, who spends most of his time assiduously checking out every rumor of rebellion. In the meantime, the planet's Executive Council is powerless to do anything but smile at the new faces holding the same bayonets."
+    "Details": "Often it is Fate, not tactics or strategy that determines the site of great battles. From Waterloo and Gettysberg to New Vandenburg and Kentares, the critical military moment all too frequently comes at a time and place that few expect...and leaves behind"
   },
   "Position": {
     "x": -83.25,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

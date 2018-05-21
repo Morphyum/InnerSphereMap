@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thraxa",
     "Name": "Thraxa",
-    "Details": "A border world lying near the edge of the Marian Hegemony, Thraxa is atypical of most Magistracy worlds in being nearly self-sufficient. For over two generations, this semi-arctic world has developed a variety of local commercial concerns, including a lucrative fur trade, forestry, coal mining, and a modest textile and wool industry to provide necessities for its own population as well as for export offworld. The inhabitants of this maverick world are among the more individual-minded and stubborn of all the Magistracy's peoples. It is not surprising that Thraxa is garrisoned by Clayborne's Commandos, one of the premier combat units of Cassandra's Volunteers, a unit that has seen more than their share of successful clashes with the upstart Marians and occasionally mercenary intruders."
+    "Details": "A border world lying near the edge of the Marian Hegemony, Thraxa is atypical of most Magistracy worlds in being nearly self-sufficient. For over two generations, this semi-arctic world has developed a variety of local commercial concerns, including a luc"
   },
   "Position": {
     "x": -322.08,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

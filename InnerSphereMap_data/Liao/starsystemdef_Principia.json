@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Principia",
     "Name": "Principia",
-    "Details": "Principia is the seat of the Capellan judicial system, transplanted from Sian after the last Succession War due to numerous raids on that planet.  Principia houses special judicial branches that adjudicate contractual dealings with mercenary units in Capellan service.  The warm, temperate climate draws numerous noble families each year, many of which have holdings on Principia as \"homes-away-from-home.\"  At least one reserve unit and/or mercenary regiment is stationed on Principia at all times."
+    "Details": "Principia is the seat of the Capellan judicial system, transplanted from Sian after the last Succession War due to numerous raids on that planet.  Principia houses special judicial branches that adjudicate contractual dealings with mercenary units in Cape"
   },
   "Position": {
     "x": 0.02,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

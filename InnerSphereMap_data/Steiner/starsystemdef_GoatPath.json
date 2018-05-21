@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_GoatPath",
     "Name": "Goat Path",
-    "Details": "Goat Path's terrain is comprised of abrupt peaks and chasms, making conventional vehicles almost useless.[3050] Clan Jade Falcon chose Goat Path as one of its targets because the planetary administrators allegedly maintained connections to an organised crime family named Malthus. The Bloodnamed of Malthus announced their intention to burn Goat Path to ash if they found any relationship between the Clan Bloodname Malthus and the criminal organization. Fortunately for the people of Goat Path, the Clan's information was incorrect, and the Jade Falcons changed their mission from destruction to conquest. The First Falcon Striker landed on the planet and easily took the spaceport and capital city. The planet surrendered soon afterward."
+    "Details": "Goat Path's terrain is comprised of abrupt peaks and chasms, making conventional vehicles almost useless.[3050] Clan Jade Falcon chose Goat Path as one of its targets because the planetary administrators allegedly maintained connections to an organised cr"
   },
   "Position": {
     "x": -154.33,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

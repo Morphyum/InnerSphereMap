@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Haynesville",
     "Name": "Haynesville",
-    "Details": "[2582] With the moment of the Reunification War against the Outworlds Alliance beginning to slow, the conduct of its troops began to worsen, with Kuritan warriors taking out their frustrations on the local populations. Matters were not helped by the brutal military governor General Forlough. By winter 2581, the ranks of the Alliance militia had swollen to thousands of individuals who wanted nothing more than to pay back the invaders in their kind.The first to feel the effects of this new patriotic zeal were the troopers of the 37th Brigade of the 5th Corps, who landed on Haynesville in February 2582. After securing the planets water purification plant, the 37th was suddenly surrounded by hordes of militiamen under the command of Captain Joshua March. A senior officer in Pitcairn's Legion, March had spent the winter months training his charges in anti-'Mech warfare. With mortars and missile launchers, March's group managed to prevent the 37th from expanding its foothold on the planet.In March 2582, the arrival of the Pitcairn Legion on Haynesville sealed the fate of the 37th. March pressed his advantage by launching a series of attacks to simulate a larger force than he actually had. Though a gamble, His bluff worked. With Brigade losses approaching 25% by the end of the month, with available stores running low, and with no chance of acquiring food from the locals, Brigade Commander Thomas Sexton was convinced that he faced overwhelming odds. Under a flag of truce, he began negotiations with March's representatives. Forty-eight hours later, a scant two days before a relief force headed by Forlough himself arrived on the scene, Sexton capitulated to his Haynesville opponents.Quickly loading up all the captured 'Mechs and munitions that he could, March departed Haynesville three hours ahead of the arrival of Forlough's advance scouts, leaving Sexton and the now-unarmed 37th to their fate. (Forlough later tried and executed Sexton for his cowardice under fire.) News of Sexton's surrender sent ripples throughout the Periphery. For the first time, a collection of farmers and merchants had overcome Star League troops."
+    "Details": "[2582] With the moment of the Reunification War against the Outworlds Alliance beginning to slow, the conduct of its troops began to worsen, with Kuritan warriors taking out their frustrations on the local populations. Matters were not helped by the bruta"
   },
   "Position": {
     "x": 455.2,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

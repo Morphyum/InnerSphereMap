@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Waldorff",
     "Name": "Waldorff",
-    "Details": "[3050] The Waldorff City Police constituted the only armed force on the planet, when the Second Falcon Jaegers landed in June 3050. One company of infantry, two armored cars, and an UrbanMech put up a spirited but futile fight against the clans' superior invading force. Using their intimate knowledge of the city, the police led the second Jaegers into ambushes, then disengaged from battle and escaped through the city's storm-drain and sewer systems. The Jaegers destroyed the central precinct house and captured or killed most of the police force. To their credit, the police crippled an OmniMech and killed four Elementals before the fighting ended.[3051] With the resumed Clan invasion in 3051, ilKhan Ulric Kerensky ordered Clan Jade Falcon to relinquish this world to Clan Steel Viper for that Clan to use as a base of operations. The Triasch Keshik formally accepted the planet from the occupying Jade Falcon force. In addition to being the Vipers' first possession in the Inner Sphere, the world of Waldorff is the site of a major logistics depot and a massive munitions plant that supplies the Viper Touman. Knowing how much the Jade Falcons covet the plant, the Viper Khans have made sure that Waldorff is well protected, assigning the Tenth Fang to guard the factories and warehouse complexes. In order to familiarize themselves with fighting in urban environments, a practise alien to most Clan warriors, Cluster warriors have staged several battles in the abandoned coastal city of Daemon."
+    "Details": "[3050] The Waldorff City Police constituted the only armed force on the planet, when the Second Falcon Jaegers landed in June 3050. One company of infantry, two armored cars, and an UrbanMech put up a spirited but futile fight against the clans' superior "
   },
   "Position": {
     "x": -131.82,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

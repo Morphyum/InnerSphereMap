@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chilung",
     "Name": "Chilung",
-    "Details": "[3025] Buddhism has never been a strong organized force in the Free Worlds League, though there are more than 20 Buddhist monasteries scattered throughout the League, including the the tiny, 30-person Blue Door House in the wild mountains of Chilung.Chilung is governed by a feudal autocracy."
+    "Details": "[3025] Buddhism has never been a strong organized force in the Free Worlds League, though there are more than 20 Buddhist monasteries scattered throughout the League, including the the tiny, 30-person Blue Door House in the wild mountains of Chilung.Chilu"
   },
   "Position": {
     "x": -123.6,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

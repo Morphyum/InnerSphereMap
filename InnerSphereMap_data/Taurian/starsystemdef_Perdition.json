@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Perdition",
     "Name": "Perdition",
-    "Details": "The Pinard Protectorate facilities on this water-world consist of four separate factories on miniature islands. The defenders here must use large, vulnerable air and sea transports to move reinforcements between factories, because travelling along the sea bottom by 'Mech is too slow to be of practical use for the distances involved."
+    "Details": "The Pinard Protectorate facilities on this water-world consist of four separate factories on miniature islands. The defenders here must use large, vulnerable air and sea transports to move reinforcements between factories, because travelling along the sea"
   },
   "Position": {
     "x": 306.96,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

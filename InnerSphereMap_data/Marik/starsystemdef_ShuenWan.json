@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_ShuenWan",
     "Name": "Shuen Wan",
-    "Details": "Shuen Wan is the only place in the Inner Sphere where Kincha fruit grows. This plum sized fruit, with a golden-brown skin, and blue-green flesh is considered a delicacy within the Capellan Confederation. Since Shuen Wan was lost to House Marik in the Third succession War, eating the fruit was declared tantamount to treason by Maximilian Liao."
+    "Details": "Shuen Wan is the only place in the Inner Sphere where Kincha fruit grows. This plum sized fruit, with a golden-brown skin, and blue-green flesh is considered a delicacy within the Capellan Confederation. Since Shuen Wan was lost to House Marik in the Thir"
   },
   "Position": {
     "x": -37.23,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

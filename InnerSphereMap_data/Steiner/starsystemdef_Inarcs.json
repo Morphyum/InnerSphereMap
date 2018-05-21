@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Inarcs",
     "Name": "Inarcs",
-    "Details": "[3059] The Blackstone Highlanders mercenary unit was originally created more than 75 years ago to defend the Blackstone family's industrial holdings on Inarcs. The command's main financial support still comes from Blackstone Industries, and the unit often serves as the company's garrison force on Inarcs, which is effectively their homeworld. Additionally, the Highlanders act as field testers for the 'Mechs manufactured at Blackstone BattleMechs, which opened in 3053. The Highlanders work for outside clients as well. The unit has a long-standing contract for pirate hunting in the Coventry Province, and recently the Highlanders completed at two-year contract with ComStar's Explorer Corps, helping to map the anti-spinward deep Periphery."
+    "Details": "[3059] The Blackstone Highlanders mercenary unit was originally created more than 75 years ago to defend the Blackstone family's industrial holdings on Inarcs. The command's main financial support still comes from Blackstone Industries, and the unit often"
   },
   "Position": {
     "x": -295.18,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ramsau",
     "Name": "Ramsau",
-    "Details": "Ramsau III is a planet of large cold deserts. Ice covers over 50% of the planets surface, and its days are over 40 hours long. With these conditions, very little grows on the planet, and all foodstuffs have to shipped in or grown in huge, underground hydroponics facilities with artificial lighting. The hydroponics farms are clustered round Ramsau's lone population center of Sauton.Ramsau has a single, large moon close to the planet. Gordo is an airless, cratered ball of rock and ice. Due to its very close proximity to Ramsau, only 14000km, Gordo's tidal drag has been acting like a brake on Ramsau's daily rotation for the past few billion years. This has caused Gordo to be locked in a geostational orbit above Ramsau. Sauton is located close to the planet's equator, and from there Gordo is always suspended in the sky directly overhead, never setting.[3052] The First Ramsau Irregulars consisted of little more than a regiment of citizens and a few aged veterans. They fought the Clan warriors of the Green Keshik and Dorbeng Garrison Cluster to the best of their abilities, in April 3052. None of the Wolves had the heart to do anything more than defend themselves. Negotiations with the planetary government eventually ended with a peaceful surrender, and the Wolves could spare the Irregulars' lives with no loss of honor on either side."
+    "Details": "Ramsau III is a planet of large cold deserts. Ice covers over 50% of the planets surface, and its days are over 40 hours long. With these conditions, very little grows on the planet, and all foodstuffs have to shipped in or grown in huge, underground hydr"
   },
   "Position": {
     "x": -0.27,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

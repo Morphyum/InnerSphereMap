@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Machida",
     "Name": "Machida",
-    "Details": "[3064] Khan Pryde led her Turkina Keshik and three other clusters to Machida following the death of General Sharon Bryan and General Adam Steiner's retreat from Melissia. With equal odds of Steiner pulling back to Machida or Chapultepec, Khan Pryde chose Machida, arriving in late August 3064. As soon as Khan Pryde leant that General Steiner had pulled back to Chapultepec, she returned to Melissia with the First Falcon Swoop Cluster, leaving two others behind on Machida.While the Fifteenth Lyran Regulars were assaulting Adelaide and Medallin, General Adam Steiner himself led his Fourteenth Donegal Guards into an assault on Machida, landing on the 30th May 3065. The Seventh Provisional Garrison Cluster put up as best a defense as they could, but against the fury of a rested Fourteenth Donegal, they stood no chance. Only two bare trinaries escaped the world on the 11th of June."
+    "Details": "[3064] Khan Pryde led her Turkina Keshik and three other clusters to Machida following the death of General Sharon Bryan and General Adam Steiner's retreat from Melissia. With equal odds of Steiner pulling back to Machida or Chapultepec, Khan Pryde chose "
   },
   "Position": {
     "x": -218.16,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Irurzun",
     "Name": "Irurzun",
-    "Details": "Irurzun is an important world for the Draconis Combine.  Recent discoveries of radioactive elements, gemstones, and metal ores have increased the necessity of keeping the Federated Suns away from the planet.  To this end, two complete 'Mech regiments, the 3rd and 6th Benjamin Regulars, plus three infantry regiments, are headquartered on the planet. Though many of the units are spread out to worlds closer to the border, the number of soldiers on Irurzun makes it a crowded world for its size.  Most of the activity centers are in New Gotham City on the continent of South Umbrian, as this is the capital of the planet and of the prefecture. Away from the cities, Irurzun shows a more pastoral side.  There are many small famres raising marshy plant crops in the hot and humid atmosphere.  With the discovery of so many hidden resources in recent years, it is unlikely that Irurzun's picturesque areas will remain intact much longer.  Already a crew from New Samarkand Metals has arrived to begin a huge strip mining operation. Agents of the ISF have also been interested in Irurzun in recent months.  Rumor has it that operatives from the Federated Suns may also be present on the planet.  If this is true, the metsukes must hunt them down.  The DCMS High Command suspects that if Davion agents are on the planet, it may mean that Irurzun will be the focus of some military effort in the near future."
+    "Details": "Irurzun is an important world for the Draconis Combine.  Recent discoveries of radioactive elements, gemstones, and metal ores have increased the necessity of keeping the Federated Suns away from the planet.  To this end, two complete 'Mech regiments, the"
   },
   "Position": {
     "x": 187.05,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

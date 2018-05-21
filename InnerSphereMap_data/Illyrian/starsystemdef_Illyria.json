@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Illyria",
     "Name": "Illyria",
-    "Details": "The center of the Illyrian Palatinate, Illyria supports a small shipbuilding center on its southern continent. Colonized by enterprising businessmen in the Twenty-Forth century, the population of mainly Scandinavian ancestry prospered through modest trade with the Free Worlds League. Since the beginning of the Succession Wars, the Palatinate has sponsored annual MechWarrior games, in which the combatants duel to the death for salvage and spare parts, as a secondary source of revenue.There is evidence that Illyria may once have hosted a Star League 'Mech repair facility. To date, some modest amounts of equipment have been recovered, though reports of stashes of serviceable BattleMechs along the northern territories remain unsupported, however.Ruled by an Oligarchy of rich trading families, Palatinate citizens lived a relatively tranquil existence until the 3030's, when leaders of the nearby Circiunius federation began to make belligerent noises about conquering the small realm. The Circinians attempted to annex the Palatinate in 3034, but ran into unexpected military opposition and were quickly routed from the realm.Trouble from an unexpected source occured midway through the thirty-first century - a vast influx of refugee's fleeing from the Clan invasion. Between 3049 to 3052, the Palatinate became the favored destination of thousands of Rasalhagian refugees. Drawn to the Palatinate as much by its predominately Scandinavian culture as it prosperity, the refugees arrived in droves. This sudden population increase nearly overwhelmed the tiny Palatinate; housing and food shortages became commonplace even among Illyrian natives. Only by increasing its trade  shipments to the FWL and with refugee aid grants from the Federated Commonwealth and Draconis Combine, have the Palatinate's economic and social problems begun to be solved.  "
+    "Details": "The center of the Illyrian Palatinate, Illyria supports a small shipbuilding center on its southern continent. Colonized by enterprising businessmen in the Twenty-Forth century, the population of mainly Scandinavian ancestry prospered through modest trade"
   },
   "Position": {
     "x": -439.23,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

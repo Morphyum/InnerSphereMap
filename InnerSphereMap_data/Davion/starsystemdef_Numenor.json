@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Numenor",
     "Name": "Numenor",
-    "Details": "[3025] Based in Jade Sea City, Kimball's Aquaculture is a recent success story. Ivan Kimball, a professor of Ichthyology, left his post at Numenor University ten years ago and retired to his home in the Jade Islands. With the aid of generous investors, he collected a skilled staff and began to cultivate high-paying food fish, as well as other aquatic foodstuffs. His phenomenal success at raising supposedly delicate fish like the famed Mara Trout or the Capellan Nihal Whale-Sardine is responsible for the company's sudden success. Kimball is currently negotiating a trade agreement with the Lyran Free Traders Association, which should give Kimball's Aquaculture a new and avid market to supply."
+    "Details": "[3025] Based in Jade Sea City, Kimball's Aquaculture is a recent success story. Ivan Kimball, a professor of Ichthyology, left his post at Numenor University ten years ago and retired to his home in the Jade Islands. With the aid of generous investors, he"
   },
   "Position": {
     "x": 283.82,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

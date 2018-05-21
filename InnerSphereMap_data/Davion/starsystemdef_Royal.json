@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Royal",
     "Name": "Royal",
-    "Details": "Royal II, generally known and catalogued simply as \"Royal\", is an Terran-like world with a moderate climate and abundant natural resources. Royal has extensive agricultural regions, and a modestly growing electronics and tech-support industry.The capital is Port Royal."
+    "Details": "Royal II, generally known and catalogued simply as \"Royal\", is an Terran-like world with a moderate climate and abundant natural resources. Royal has extensive agricultural regions, and a modestly growing electronics and tech-support industry.The capital "
   },
   "Position": {
     "x": 222.56,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

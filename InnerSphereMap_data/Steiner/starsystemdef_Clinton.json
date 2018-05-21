@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Clinton",
     "Name": "Clinton",
-    "Details": "Clinton is the homeworld of Snord's Irregulars, one of the Lyran Commonwealth's most flamboyant mercenary groups. Clinton's capital of Jeffda, houses the Snord Antiquities Museum. Founded and maintained by the mercenary's in 3006, the museum is not so well known to ordinary citizens outside Clinton, but is famous among warriors throughout the Inner Sphere. The Irregulars, an elite mercenary unit for many years, also have an infatuation with Star League-era artifacts, especially those of military interest, and have been collecting them for many years.Amongst the collections many highlights is one of Jerome Blake's declarations sent to the leaders of the Great Houses in 2788, informing them that Blake had seized Terra, which he intended to hold under his neutral protection for the legacy of mankind. The current prize of the collection is the gopherwood of Stefan Amaris. Made several centuries ago, the throne's bottom edge emerges from a tangle of root-work, and looks more grown than constructed. Considered high art in the old Rim Worlds Republic, both the base and top look worm-eaten and half-rotten. "
+    "Details": "Clinton is the homeworld of Snord's Irregulars, one of the Lyran Commonwealth's most flamboyant mercenary groups. Clinton's capital of Jeffda, houses the Snord Antiquities Museum. Founded and maintained by the mercenary's in 3006, the museum is not so wel"
   },
   "Position": {
     "x": -165.92,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

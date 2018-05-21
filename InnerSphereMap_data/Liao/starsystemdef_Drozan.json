@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Drozan",
     "Name": "Drozan",
-    "Details": "Drozan is a warm, temperate world ideally suited to an almost limitless variety of agricultural production.  Large automated cultivation and processing plants run continuously, providing five percent of the Confederation's annual food requirements.  A well developed sea-based farming industry complements land-based technology.  Drozan also serves as a troop base for a variety of motorized and jump-trained militia, with mechanized equipment reserves in place at all times.  Research facilities in the planet's northern hemisphere support a growing food synthesis industry.  Given its importance to the Confederation, at least one battalion of Warrior House troops is stationed on the planet at all times, rotated on a monthly basis to give covert intelligence operatives the impression of larger troop strength.[3032] In early 3032, the ever rebellious Duchy of Andurien, and it's new allies the Magistracy of Canopus, attacked the Capellan Confederation. Still weak from the battering it received during the Forth Succession War, many Capellan worlds including Drozan, were lost for little of no cost to the attacking forces.The Confederation itself managed to mount a major counter-offensive in March 3032. Aided by the feared McCarron's Armored Cavalry, the Liao forces inflicted a major defeats on the Anduriens on two worlds, whilst Warrior House Daidachi and Kincade's Rangers meted out the same to the Canopians on Drozan. The Ferocity of the Daidachi was so effective against the Canopians that troops began to flee the battlefield at the first sign of the warriors. The Anduriens were not so easily bullied, but with their allies in rout, they could not withstand the pressure from the seasoned Armored Calvary. By 3035, the Capellans had won back all their worlds."
+    "Details": "Drozan is a warm, temperate world ideally suited to an almost limitless variety of agricultural production.  Large automated cultivation and processing plants run continuously, providing five percent of the Confederation's annual food requirements.  A wel"
   },
   "Position": {
     "x": 31.27,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

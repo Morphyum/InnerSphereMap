@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ishtar",
     "Name": "Ishtar",
-    "Details": "Originally settled in the early days of the Concordat, the agricultural world of Ishtar has since become the major exporter of foodstuffs and related commodities. With a population of close to 90000, this warm temperate world has become a key producer of native minerals and wines as well. Because the Taurians recognize the significance of this world's natural beauty, they have taken the unprecedented step of demilitarizing Ishtar in the hopes of reducing the likelihood of enemy attack. In addition to being the principal Taurian agricultural world, it is also distinguished as the only undefended planet in the Concordat sphere of influence. The Taurians are so determined to preserve the neutrality of this idyllic world that they have also barred ComStar representatives admittance to the planet for fear that the presence of ComStar technology will invite unwarranted aggression by deep-space raiders."
+    "Details": "Originally settled in the early days of the Concordat, the agricultural world of Ishtar has since become the major exporter of foodstuffs and related commodities. With a population of close to 90000, this warm temperate world has become a key producer of "
   },
   "Position": {
     "x": 187.99,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

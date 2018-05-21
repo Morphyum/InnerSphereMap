@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Malagrotta",
     "Name": "Malagrotta",
-    "Details": "Site of the battle that triggered the Reunification War, between the Star League and Periphery states, Malagrotta has long been a source of conflict between the Federated Commonwealth and the Taurian Concordat. Despite the distance involved, Taurian raiders have targeted the world more often than any other border world, with the valuable titanium mines of Grex-Dex on the moon of Fontana the principal target."
+    "Details": "Site of the battle that triggered the Reunification War, between the Star League and Periphery states, Malagrotta has long been a source of conflict between the Federated Commonwealth and the Taurian Concordat. Despite the distance involved, Taurian raide"
   },
   "Position": {
     "x": 428.05,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Krenice",
     "Name": "Krenice",
-    "Details": "[3052] Clan Ghost Bear landed on Krenice in March 3052. Defending the world was the Fifth Amphigean Light Assault Group. The Fifth Amphigean attacked the Ghost Bear forces from concealed positions amid the natural crags of Bellow Canyon, unleashing a devastating rain of fire as the Bears touched down. They then scattered throughout the rock formations and raided the Clans's supply lines, disrupted communications, and even launched an occasional assault. The Twelfth Bear Chevaliers heavy 'Mechs spent most of their time chasing the lighter, swifter machines of the Fifth, and eventually flushed them from hiding using their air assets. The Bear 'Mechs herded the fifth toward the city of Hasnorvan, in the opposite direction from the Fifth's Dropships. Making the best of a bad situation, Tai-sa Helen Cassidy ordered small number of troops to detach from the Fifth's main body and engage in hit-and-run assaults against the pursuing Bears. In one evening raid a company of the Fifth led the Twelfth on a merry chase through LightDraught Woods for two hours, until the Bear warriors got lost and called on aerospace observers to guide them out of the trackless forest.Just outside of Hasnorvan, the Twelfth took the Fifth by surprise. Star Colonel Douglas Silva had ordered the 63rd Assault Trinary to march toward the city ahead of the Bears' main body and dig in, and so the 63rd was waiting as the Fifth approached the city's outskirts. As soon as the Fifth came within firing range of the dug-in Clan 'Mechs, all the Clan forces opened up on the defenders. The web of interlocking fire decimated the Fifth within hours.Prior to their destruction, the Fifth were able to carry out the Combine's newly instituted scorched earth policy. So thorough were the Fifth, it is hard to believe this ruined planet was once the site of much of House Kurita's industry.  The Ghost Bears were glad to gain Krenice, nonetheless, because it makes an excellent base from which to raid into a densely populated portion of Combine space."
+    "Details": "[3052] Clan Ghost Bear landed on Krenice in March 3052. Defending the world was the Fifth Amphigean Light Assault Group. The Fifth Amphigean attacked the Ghost Bear forces from concealed positions amid the natural crags of Bellow Canyon, unleashing a deva"
   },
   "Position": {
     "x": 56.86,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

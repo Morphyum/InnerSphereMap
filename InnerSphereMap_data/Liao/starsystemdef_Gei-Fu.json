@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gei-Fu",
     "Name": "Gei-Fu",
-    "Details": "The capital of Gei-Fu is Yushai. The Nunya River flows through the city, following a ferrocrete bed that has been engineered into the city's design to help accommodate the heavy annual rainfall for which the world is infamous.[3051] During the Year of Peace, the planetary governor of Gei-Fu attempted to engineer a quick and complete secession from the Capellan Confederation to the St. Ives Compact. His timing was poor however, with the leadership of the Inner Sphere meeting with Wolf's Dragoons to discuss the Clan invasion. With no help forthcoming from the Compact, Warrior House Hiritsu was sent to pacify the planet, which it accomplished in short order."
+    "Details": "The capital of Gei-Fu is Yushai. The Nunya River flows through the city, following a ferrocrete bed that has been engineered into the city's design to help accommodate the heavy annual rainfall for which the world is infamous.[3051] During the Year of Pea"
   },
   "Position": {
     "x": 57.63,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Steelton",
     "Name": "Steelton",
-    "Details": "<p>[3050] Clan codex records identified Colonel Francis \"Crab\" Carranza, commander of the First Regiment of the Twelfth Star Guards and Steelton's defenses, as a relative of an honored warrior who had joined the Exodus and died in combat defending the Kerensky's. The Falcons honored Colonel Carranza by challenging him according to the rules of the batchall, in March 3050. Carranza falsely claimed that he commanded a brigade of crack 'Mech troops. In response, Galaxy commander Angeline Mattlov reluctantly added the Twelfth Falcon Regulars to her own Eighth Falcon Regulars to invade Steelton.</p>The Falcon invasion targeted Cregan's Bluff, the capital of this cold, icy world, and the Lear Mountain mine works to the south of the city. Anticipating an attack from Colonel Carranza's non-existent 'Mech brigade, the Falcon's advanced slowly. The two Clusters did not co-operate, and seemed as interested in hindering each other's progress as in attacking the enemy. \"Crab\" Carranza's deception finally failed when the Twelfth Falcon Regular's heavy 'Mechs overran his second battalion at the town of Chosin. The Twelfth Star Guards managed to hold a perimeter around Red Stain Rock long enough for nearly a battalion of their unit and a regiment of the local militia to evacuate to the planet Wotan, but the Twelfth could not prevent their gallant Colonel's death.[3064] During the Falcon Incursion, Khan Vladimir Ward's Wolves attempted to make inroads into the Falcon's Occupation Zone. The Wolves 13th Battle Cluster hit Steelton during December 3064, and practically destroyed the two defending trinaries of the 1st Falcon Jaegers, whilst suffering moderate casualties themselves.<p>[3085] During the Jihad, Clan Hell's Horses launched an invasion of the Clan Wolf holdings in the Inner Sphere, acquiring them for their own relocation. Steelton was hit in the opening wave of attacks that fell between the 21st and 28th of February 3071. The acquisition of Steelton by the Horses wasn't unopposed; between the 7th and 14th of April 3071, Clan Jade Falcon launched an attack of their own against the Horse forces on-planet. Despite the efforts of the Falcons, the Horses managed to recapture Steelton by the end of June.</p> "
+    "Details": "[3050] Clan codex records identified Colonel Francis \"Crab\" Carranza, commander of the First Regiment of the Twelfth Star Guards and Steelton's defenses, as a relative of an honored warrior who had joined the Exodus and died in combat defending the Kerens"
   },
   "Position": {
     "x": -105.76,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

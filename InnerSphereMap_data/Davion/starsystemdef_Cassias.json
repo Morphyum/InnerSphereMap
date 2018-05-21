@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cassias",
     "Name": "Cassias",
-    "Details": "A world named after a flower found in Southeast Asia on Terra, this tropical world was a flower in the black sea of space. Originally colonized by an Islamic Sect from the former Terran nation of Indonesia, Cassias was a near-perfect substitute for terra to the weary colonist. Overcoming the nitrogen rich atmosphere was a major challenge, but the world's first colonists built domed cities and atmosphere processors to accommodate this taint.Cassias' three large continents, Java, Kalimantan and Borneo, are only partially developed due to the terrain. The jungles are thick and each continent has large mountain ranges that make it difficult to expand. It is these jungle-covered mountains that have become the planet's source of income. Java produces rubber and precious gemstones while Kalimantan and Borneo produce metal ores, including vanadium, petroleum and natural gas products. These products are sent to refineries outside the capital of Cassias, New Jakarta City for shipment through Jakarta Starport.The people of Cassias are proud and honorable, yet they are as fierce in combat as they are in their business dealings. The Draconis March has always considered Cassias a tinderbox - a bit of knowledge gained through experience - and has treated its people accordingly."
+    "Details": "A world named after a flower found in Southeast Asia on Terra, this tropical world was a flower in the black sea of space. Originally colonized by an Islamic Sect from the former Terran nation of Indonesia, Cassias was a near-perfect substitute for terra "
   },
   "Position": {
     "x": 317.67,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

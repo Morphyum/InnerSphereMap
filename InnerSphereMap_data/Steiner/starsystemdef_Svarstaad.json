@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Svarstaad",
     "Name": "Svarstaad",
-    "Details": "[3050] Clan Wolf landed on Svarstaad in September 3050. Defending the world were the Svarstaad Planetary Militia, comprised of one 'Mech and five infantry regiments. The militia was good, but found itself hamstrung by the planetary government's demand that they defend the capital of Harstad from behind fixed lines. The militia's commanding officer argued the advantages of fighting the Clan in the surrounding hills and forests. The two sides reached a compromise, but their final plan benefited the Wolves Command Nova and Supernova Battle (of the 328th Assault Cluster), more than their own forces."
+    "Details": "[3050] Clan Wolf landed on Svarstaad in September 3050. Defending the world were the Svarstaad Planetary Militia, comprised of one 'Mech and five infantry regiments. The militia was good, but found itself hamstrung by the planetary government's demand tha"
   },
   "Position": {
     "x": -62.05,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BlackEarth",
     "Name": "Black Earth",
-    "Details": "[3050] Following their disastrous defeats on Barcelona and Bone Norman, the remnants of the Seventeenth Skye RCT and the First Grave Walkers regrouped on Black Earth. The Falcons hit Black Earth like a hurricane in May 3050, decimating the already battered defending forces. The Jade Falcon aerospace commander surprised the Seventeenth Skye RCT aerospace fighters on the ground, but allowed the pilots to scramble and mount a defense. The Seventeenth's fighters fought bravely, but the Falcons overpowered them. The 'Mechs and tanks of the Seventeenth held off Gyrfalcon Galaxy for an hour at the spaceport before collapsing. The Grave Walkers attempted to use flaming oil from a New Houston refinery as a defensive barrier, but they learned, as the Fourteenth Legion of Vega learned battling clan Smoke Jaguar, that this tactic was useless against the Clans' superior technology. Within thirty hours of the initial assault, Clan Jade Falcon controlled Black Earth.[3064] General Steiner began his assault on the Jade Falcon OZ with an attack upon Black Earth, jumping into the system using a pirate point on the 3rd October 3064. Leading a combined force consisting of elements of his own Fourteenth Donegal Guards, Colonel Blucher's Fifteenth Arcturan Guards (including elements of the Neerabup MTM and Gacrux FTM), and the Ninth Lyran Regulars, general Steiner dropped onto the world expecting a quick operation. Instead, the battle quickly became bogged down and turned into a three-week fight that saw the Third Talon Cluster make extensive use of heavy aerospace fighters against his units.When General Steiner hadn't pacified the world by the 10th October, Khan Kell dispatched his First Wolf Strike Grenadiers to assist, arriving on the 17th. A week later General Steiner's force had taken the work and the second battalion of the Blue Star Irregulars' 1894th Striker arrived to help garrison the world while Steiner moved on."
+    "Details": "[3050] Following their disastrous defeats on Barcelona and Bone Norman, the remnants of the Seventeenth Skye RCT and the First Grave Walkers regrouped on Black Earth. The Falcons hit Black Earth like a hurricane in May 3050, decimating the already battere"
   },
   "Position": {
     "x": -180.4,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

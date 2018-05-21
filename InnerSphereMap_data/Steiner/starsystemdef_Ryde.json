@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ryde",
     "Name": "Ryde",
-    "Details": "Ryde was discovered a few years after the Exodus from Terra had begun. The planet whose continents still creaked, groaned, and erupted with earthquakes and volcanoes.  Ryde also had three seas, but the steaming hot water tainted yellow with sulfur and heavy metals made them unusable.Despite the planet's hellish appearance, colonists chose to live on Ryde, creating the city of Heaven's Gate on one of the more peaceful continents.  Seven hundred years later, Ryde is still violent with quakes and volcanoes.  Thanks to the persistence of those early settlers, it is also capable of sustaining a large population with food grown in the rich volcanic soil.  The world's volatile condition does benefit the population by giving them easy access to geothermal heating during Ryde's harsh winters.  The planet's geology has also resulted in the relatively easy and profitable growth of a chemicals industry.[3025] Water Pure Industries, the largest of the five Commonwealth companies currently manufacturing water purification systems, has a small plant on Ryde."
+    "Details": "Ryde was discovered a few years after the Exodus from Terra had begun. The planet whose continents still creaked, groaned, and erupted with earthquakes and volcanoes.  Ryde also had three seas, but the steaming hot water tainted yellow with sulfur and hea"
   },
   "Position": {
     "x": -45.36,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

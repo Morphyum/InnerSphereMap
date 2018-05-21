@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nathan",
     "Name": "Nathan",
-    "Details": "Nathan is a rural world, used by some regular Marik units for R&R. Reasonably far from any hostile borders, the world is also a stop off for free traders, and the city of Fullson's open-air markets are quite famous. [3025] Nathan is governed by a feudal autocracy."
+    "Details": "Nathan is a rural world, used by some regular Marik units for R&R. Reasonably far from any hostile borders, the world is also a stop off for free traders, and the city of Fullson's open-air markets are quite famous. [3025] Nathan is governed by a feudal a"
   },
   "Position": {
     "x": -67.16,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

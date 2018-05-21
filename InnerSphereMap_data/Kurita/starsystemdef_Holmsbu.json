@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Holmsbu",
     "Name": "Holmsbu",
-    "Details": "[3050] Clan Ghost Bear landed on Holmsbu in March 3050. Defending the world were the Seventh and Eighth Corrugated Lancers  - 2 armored regiments supported by infantry. The Lancers were ill-prepared for a fight with battle-armored Elementals and fell quickly to the Clan troops' superior weapons and training. The Ghost Bears readily accepted the Lancers' surrender."
+    "Details": "[3050] Clan Ghost Bear landed on Holmsbu in March 3050. Defending the world were the Seventh and Eighth Corrugated Lancers  - 2 armored regiments supported by infantry. The Lancers were ill-prepared for a fight with battle-armored Elementals and fell quic"
   },
   "Position": {
     "x": 57.67,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

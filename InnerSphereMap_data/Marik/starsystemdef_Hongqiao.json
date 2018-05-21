@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hongqiao",
     "Name": "Hongqiao",
-    "Details": "[3023] Political discontent, simmering for the past 20 years on Hongqiao, broke into outright guerrilla war when new tax assignments arrived from Regulus. When the local garrison found it impossible to keep order, the garrison commander called for assistance. Having failed to study the situation carefully, the Regulan High Command reacted in the usual manner by sending in conventional reinforcements that included 'Mechs.These new troops learned the lessons of guerrilla warfare in the steamy jungles of Hongqiao. Conventional patrols never found the enemy, while terror tactics only hardened the populace toward their rulers. Two years passed before the generals admitted their failure, and many people died before the lesson was learned. Eventually, the Regulan authority was forced to rescind its new taxes, and pull its provincial forces offworld."
+    "Details": "[3023] Political discontent, simmering for the past 20 years on Hongqiao, broke into outright guerrilla war when new tax assignments arrived from Regulus. When the local garrison found it impossible to keep order, the garrison commander called for assista"
   },
   "Position": {
     "x": -227.17,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

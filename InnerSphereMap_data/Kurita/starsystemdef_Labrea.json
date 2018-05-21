@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Labrea",
     "Name": "Labrea",
-    "Details": "[3051] Clan Smoke Jaguar landed on the arctic world of Labrea in November 3051. Defending the world was he Third Royal Labrean Defense Regiment, consisting of 2 armored battalions with aerospace support. The Labrean defenders' aerospace fighters initially pinned down the Jaguars, who had not expected to face air elements because the Third Royal's commander had failed to mention the aerospace wing in his answer to the batchall.The Jaguars retaliated for what they considered the Labreans' falsehood by destroying the grounded air units during a nighttime raid, and then hunted down the armored battalions within a week.[3059] During Operation Bulldog, the fighting for Labrea involved only six warriors. Khan Phelan Kell's Wolves in Exile used traditional Clan combat tactics, and succeeded in taking the world and capturing the entire 6th Jaguar Dragoon's Cluster."
+    "Details": "[3051] Clan Smoke Jaguar landed on the arctic world of Labrea in November 3051. Defending the world was he Third Royal Labrean Defense Regiment, consisting of 2 armored battalions with aerospace support. The Labrean defenders' aerospace fighters initially"
   },
   "Position": {
     "x": 138.79,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

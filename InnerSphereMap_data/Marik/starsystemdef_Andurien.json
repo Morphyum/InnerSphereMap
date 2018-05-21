@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Andurien",
     "Name": "Andurien",
-    "Details": "Though much-contested, Andurien has the distinction of having never been heavily damaged by an invading force. Its defenders have traditionally been more willing to offer their services to attackers rather than to let them devastate the planet. The planet still has the appearance of a wealthy, populous world, though MechWarriors (and their war machines) are not an uncommon sight. Andurien is most famous for its extensive Botanical Gardens, which boast samples of rare plants and trees from across the Inner Sphere. It was built by the hypochondriac Duke Allard of Andurien in the late twenty-fifth century.[3050] Though there have been no major uprisings since Andurien's unsuccessful bid for independence in 3030, a certain amount of civil unrest is constant in the duchy. Enemies of the Free Worlds League will find vital military intelligence readily available here, along with other types of assistance. As a result, the regular units stationed here maintain a higher alert status."
+    "Details": "Though much-contested, Andurien has the distinction of having never been heavily damaged by an invading force. Its defenders have traditionally been more willing to offer their services to attackers rather than to let them devastate the planet. The planet"
   },
   "Position": {
     "x": -41.34,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

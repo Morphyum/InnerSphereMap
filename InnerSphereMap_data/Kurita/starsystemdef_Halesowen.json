@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Halesowen",
     "Name": "Halesowen",
-    "Details": "[3052] Clan Ghost Bear landed on Halesowen in January 3052. Facing them were the Halesowen Protectors, consisting of 1 'Mech company and a regiment of infantry. Striking at high noon, the Bears swept over the entrenched infantry and headed straight for the 'Mechs. The retreating Protectors turned the tables briefly by luring both Alpha and Tango Star, 104th Striker Cluster Trinary Command, into a well set-up ambush. The defenders' infantry regiment attacked from both dies of the Clan force, downing seven OmniMechs before the Bears extricated themselves from the trap.At their commanders' order, the rest of Trinary Command dropped onto the planet and encircled the ambush site. The Protectors, trapped in turn, called in an artillery strike which distracted the Bears long enough for the 'Mechs and infantry to slip past the Clan blockade. Determined not to lose, Star Colonel Jorgensson broke his bid and called down his own air units. The Bear fighters strafed the Protectors and forced them to retreat into the wide-open Corlene Steppes, where the Bear 'Mechs easily defeated them."
+    "Details": "[3052] Clan Ghost Bear landed on Halesowen in January 3052. Facing them were the Halesowen Protectors, consisting of 1 'Mech company and a regiment of infantry. Striking at high noon, the Bears swept over the entrenched infantry and headed straight for th"
   },
   "Position": {
     "x": 36.43,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

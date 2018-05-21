@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nekkar",
     "Name": "Nekkar",
-    "Details": "[3062] When originally organized in 3043, the elements of the former Nekkar Skye March Militia were drawn throughout the Lyran, and even Federated Suns, State Commands in an effort to place a loyal unit in the heart of the traditionally secessionist Skye Federation. Unfortunately, Archon Melissa Steiner-Davion and her husband sorely misjudged the extent of the influence of Duke Ryan Steiner and Free Skye held within the Lyran military machine. By the end of the decade, Skye loyalists held most of the command positions within the unit, with Skye Federation natives rapidly filling up the lower ranks as well.Today, the LAAF is keeping a close eye on the unit and especially its officers. Though it was not implicated in the most recent rebellion attempt, the entire Militia RCT did enter a state of high alert as the first stage of the rebellion began, declaring martial law in the few regions where protests against secession would likely occur. Likewise, LIC investigations indicate that several of the unit's senior officers are loyal to Duke Kelswa-Steiner."
+    "Details": "[3062] When originally organized in 3043, the elements of the former Nekkar Skye March Militia were drawn throughout the Lyran, and even Federated Suns, State Commands in an effort to place a loyal unit in the heart of the traditionally secessionist Skye "
   },
   "Position": {
     "x": -93.51,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

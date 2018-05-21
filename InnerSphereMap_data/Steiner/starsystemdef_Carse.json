@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Carse",
     "Name": "Carse",
-    "Details": "Located on the border with the Draconis Combine, the planet Carse is another veteran of many battles and raids.  This world has binary suns.  Because of the unusually elliptical orbit and its relation to the two stars, there are four different season cycles.  Currently the planet is in a Cold Cycle, where the smaller Class M sun, called Companion, occludes the larger sun and blocks much of its heat.  As a result, the world is blanketed with snow, and the smallest ocean, Minor Mare, is frozen over.  Ships are useless during the Cold Cycle, and so industries use powered sledges to carry cargo across Minor Mare.  Only DropShips and the largest Air Freighters can cope with the planet's constant winter winds.  Carse is a center of plastic and plastisteel manufacturing, which draw on the large deposits of oil and unusual chemicals in the planet's geology. Carse has been fortunate in avoiding war damage.  Though many a 'Mech has lumbered across the planet's large expanses of empty land and many forests have also suffered from the onslaught, the cities have come through in fairly good condition.  At the moment, the capital city of New Bonholm is the headquarters of the 23rd Arcturan Guards.[3052] The Wolves of Delta Galaxy made a rare mistake by landing on the planet's southern continent. The northern continent held both the capital city, and the majority of the planet's resources and industry. The poor choice of LZ allowed the command staff of the Second Freemen to scout the composition of the enemy and recognize that they were once again hopelessly outgunned. The constant frigid storms that whip Carse grounded all aerospace fighters, however, providing the Freemen with cover when they met the Red Keshik, Eleventh Wolf Guards, and the 37th Striker Cluster at the battles of Molde and Trosa. The Freemen earned the Wolves' respect before being forced offworld to Udea."
+    "Details": "Located on the border with the Draconis Combine, the planet Carse is another veteran of many battles and raids.  This world has binary suns.  Because of the unusually elliptical orbit and its relation to the two stars, there are four different season cycl"
   },
   "Position": {
     "x": -15.78,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

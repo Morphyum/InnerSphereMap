@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Keuterville",
     "Name": "Keuterville",
-    "Details": "[2578] During the opening assaults of the Reunification War, the wide, open grasslands of the agricultural world of Keuterville provided the first opportunity for the BattleMechs of the Star League's 3rd Corps to meet Taurian armored forces. Here, the Taurian guerrilla tactics gained them their first victory."
+    "Details": "[2578] During the opening assaults of the Reunification War, the wide, open grasslands of the agricultural world of Keuterville provided the first opportunity for the BattleMechs of the Star League's 3rd Corps to meet Taurian armored forces. Here, the Tau"
   },
   "Position": {
     "x": 275.78,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

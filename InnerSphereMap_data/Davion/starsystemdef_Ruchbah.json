@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ruchbah",
     "Name": "Ruchbah",
-    "Details": "Ruchbah's surface is dominated by a single landmass and dotted with inland seas. Most of this landmass consists of rolling grasslands, hills, and tundra, ideal for grazing animals. Lit by a small subdwarf star, Ruchbah is a relatively cool world and its higher latitudes suffer bitterly cold winters, forcing both domesticated and wild herds to migrate annually. Because so much of its population follows the animal herds, the population of Ruchbah's capital, Rook, and other towns varies widely depending on the season. When first settled, Ruchbah's native military consisted of little more than horse-mounted cavalry, which allowed the neighboring Tikonov Union to take control of Ruchbah in 2228. When the Tikonov Union joined the Capellan Confederation 150 years later, Ruchbah was one of several worlds that requested the protection of, and was eventually integrated into, the Terran Hegemony. After the fall of the First Star League, the Federated Suns claimed Ruchbah. Although the Capellan Confederation briefly held Ruchbah during the Third Succession War, Ruchbah remained a backwater world supplying animal products to the rest of the Federated Suns for most of the Succession Wars. During and after the Clan invasion, investment in military production by the Great Houses reached a high not seen since the First Star League. "
+    "Details": "Ruchbah's surface is dominated by a single landmass and dotted with inland seas. Most of this landmass consists of rolling grasslands, hills, and tundra, ideal for grazing animals. Lit by a small subdwarf star, Ruchbah is a relatively cool world and its h"
   },
   "Position": {
     "x": 57.38,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

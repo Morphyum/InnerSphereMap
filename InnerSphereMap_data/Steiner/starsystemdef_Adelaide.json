@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Adelaide",
     "Name": "Adelaide",
-    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance in 3064, the First Falcon Swoop Cluster landed on Adelaide on the 23rd of November, to almost no opposition. With only planetary militia and a few scattered volunteers on-world, the Freebirth Falcon warriors took the world in just a few days.Following the Blair Atholl Agreement, Khan Pryde kept the first Swoop as the world's garrison. General Adam Steiner dispatched the fifteenth Lyran Regulars from their base on Hood IV in March 3065 to retake the world. Landing on the 30th of March, Colonel Lisa Orsini rolled over the Freebirth Cluster with her regiment of heavy and assault BattleMechs, pushing them off world on the 29th of May."
+    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance in 3064, the First Falcon Swoop Cluster landed on Adelaide on the 23rd of November, to almost no opposition. With only planetary militia and a few scattered volunteers on-world, the Freebirth F"
   },
   "Position": {
     "x": -250.47,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

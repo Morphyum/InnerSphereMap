@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Orkney",
     "Name": "Orkney",
-    "Details": "[3051] Over the course of two days in November 3051, Clan Jade Falcon's First Falcon Jaegers and Clan Steel Viper's 104th Assault Cluster pounded each other into the ground. The trial ended in a draw, and the two Clans shared the conquest and administration of Orkney. Both the Falcon Jaegers and the 104th regained full strength barely in time for Tukayyid. After Tukayyid, however, The Falcons abandoned the planet and the Vipers became its sole occupiers."
+    "Details": "[3051] Over the course of two days in November 3051, Clan Jade Falcon's First Falcon Jaegers and Clan Steel Viper's 104th Assault Cluster pounded each other into the ground. The trial ended in a draw, and the two Clans shared the conquest and administrati"
   },
   "Position": {
     "x": -48.6,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

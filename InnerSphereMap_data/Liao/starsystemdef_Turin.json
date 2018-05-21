@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Turin",
     "Name": "Turin",
-    "Details": "One of the most serendipitous events of space colonization occurred with the discovery that Terran cows could be bred with a similar animal native to Turin to create a breed that was both fleshier and tastier than either.  With Turin's seemingly endless plains of indigenous grasses, the planet could provide excellent pasturage for cattle.  Oddly enough, the milk of these hybrids is indigestible by humans, and so the few dairies on Turin specialize entirely in cow's and goat's milk and cheese. Drawing on some of the few Liao stallions remaining after the Succession Wars, this world has also become famous for horse breeding, rivaling the Eridani blood lines of a century ago. A mountain range fronting on one of the planet's oceans provides home and cover for the 212th Flying Furies jump infantry regiment."
+    "Details": "One of the most serendipitous events of space colonization occurred with the discovery that Terran cows could be bred with a similar animal native to Turin to create a breed that was both fleshier and tastier than either.  With Turin's seemingly endless p"
   },
   "Position": {
     "x": 21.18,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

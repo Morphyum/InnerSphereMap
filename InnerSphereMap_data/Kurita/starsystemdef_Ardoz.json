@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ardoz",
     "Name": "Ardoz",
-    "Details": "[3052] No information concerning events on Ardoz has been available since the Ghost Bears captured the world in February 3052. Rumors abound that the Bears discovered a Star League base on the planet, but these rumors cannot be confirmed. The destruction of Ardoz's HPG facility in the initial attack has resulted in a total information blackout from the planet; the Ghost Bears are refusing to let any ComStar representatives rebuild, and they have said nothing about the situation on the world."
+    "Details": "[3052] No information concerning events on Ardoz has been available since the Ghost Bears captured the world in February 3052. Rumors abound that the Bears discovered a Star League base on the planet, but these rumors cannot be confirmed. The destruction "
   },
   "Position": {
     "x": 46.26,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Summit",
     "Name": "Summit",
-    "Details": "[2237] As the Outer Reaches Rebellion escalated into full war, more than 50 worlds were engaged in active defiance of the Terran Alliance military machine. Faced with unorthodox rebel tactics, commerce raiders cutting supply lines, and a lack of trained officers to lead troops, the Alliance military began to suspect that they would never be able to win this war. In some cases they resorted to desperate means to attempt to quell the rebellion. On Summit the Twenty-Third Alliance Striker regiment massacred over 10,000 civilians on Summit in a four month long holocaust.[2977] During a lull in the Third Succession War, the planet Summit rebelled once more over its lack of food and the high taxes. Calling itself the 'Proud Sovereign World of Summit', its people demanded independent status. The rebels killed their Duke, a loyal Archon's man, while the majority of the populace rioted against government installations. Instead of helping to quell the riots, the planetary garrison, with its lance of light 'Mechs, joined the fight, and even led the attacks against government offices and military bases. Archon Giovani Steiner had to send in the entire 26th Lyran Guard regiment onto the world to wipe out the rebellious military forces and put the revolt down."
+    "Details": "[2237] As the Outer Reaches Rebellion escalated into full war, more than 50 worlds were engaged in active defiance of the Terran Alliance military machine. Faced with unorthodox rebel tactics, commerce raiders cutting supply lines, and a lack of trained o"
   },
   "Position": {
     "x": -116.86,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

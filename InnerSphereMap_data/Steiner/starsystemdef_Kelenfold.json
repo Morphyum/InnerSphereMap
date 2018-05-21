@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kelenfold",
     "Name": "Kelenfold",
-    "Details": "[3062] The Kelenfold PTM occupies an important position in the defense of the Alliance, placed directly in the path of any advance toward Terra by the Jade Falcons. Located below the Tukayyid Treaty Line, Kelenfold is safe from Clan attack and has been spared the ravages of more coreward worlds like Koniz and Morges. Consequently, it also lacks the seasoning and experience of units assigned to those more active worlds.Thanks in part to their location, but also to Colonel Douglass' connections in the Royal Court, the Kelenfold PT is easily the best-equipped of the regional militias. Though lacking cutting-edge designs like the Hauptmann or Demolisher II, almost two-thirds of the units 'Mechs and vehicles use advanced technology.<p>[3075] Kelenfold was initially colonized principally by Hungarian settlers (Kelenföld is a neighborhood in Budapest on the Danube that takes its name from a Ninth Century Hungarian chieftain). Hungarian culture is still dominant on Kelenfold, though, like most Inner Sphere worlds, there is a high degree of ethnic diversity in the population. Kelenfold is noted for its excellent goulash.</p><p>In short, the planet has very little to commend it to an invader, save for one thing: location. The world is well situated to serve as a jumping-off point for a Clan Wolf thrust aimed directly at the heart of the Inner Sphere. or, to be more specific, at Terra.</p><p>On 20 January 3070, Alpha Galaxy’s First Wolf Assault Cluster landed on Kelenfold. They faced only militia forces, and by 28 January they had captured the world. The operation was a feather in then-Star Colonel Ivan Kerensky’s cap. After the First Wolf Assault Cluster was rotated back to Tamar, Beta’s Silver Keshik was brought in to hold Kelenfold. After Marialle Radick’s death, Ivan Kerensky found himself back on this little world as Beta’s new commander, facing the Lyrans across the border and putting together contingency plans that would allow his new galaxy to drive rimward should Khan Ward ever issue the order.</p>"
+    "Details": "[3062] The Kelenfold PTM occupies an important position in the defense of the Alliance, placed directly in the path of any advance toward Terra by the Jade Falcons. Located below the Tukayyid Treaty Line, Kelenfold is safe from Clan attack and has been sp"
   },
   "Position": {
     "x": -57.39,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

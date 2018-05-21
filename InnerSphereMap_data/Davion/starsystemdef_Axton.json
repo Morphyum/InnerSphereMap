@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Axton",
     "Name": "Axton",
-    "Details": "Most of Axton is a polar wasteland, though many people praise the skiing to be found there. Volcanic activity warms the oceans, making the coastal areas habitable. The oceans are deep blue and the beaches are blacker than night on a moonless world.Barros is the capital of Axton.[3025] At one time, Wangker Aerospace had five separate factory complexes on five worlds, producing many kinds of AeroSpace Fighters. The pride of Wangker was the Corsair, a design they had created. The First Succession War, with its widespread destruction, demolished all five factory complexes. During the Second War, Wangker had salvaged enough from its earlier plants to construct a fighter manufacturing center on the planet Axton. Since then, the factory has been producing fighters for the AFFS, including the company's famed Corsair. The firm has been doing so well that they are thinking of expanding, either into the manufacture of another fighter design or combat vehicles.[3028] During the Forth Succession War documents captured from a secret NAIS research facility on Axton led the Capellan Confederation to believing in the existence of recent advances in myomer technology at a hidden NAIS outpost on the world of Bethel. In reality, the documents were part of an elaborate plan to let the Confederation gain access to the flawed triple-strength myomer technology."
+    "Details": "Most of Axton is a polar wasteland, though many people praise the skiing to be found there. Volcanic activity warms the oceans, making the coastal areas habitable. The oceans are deep blue and the beaches are blacker than night on a moonless world.Barros "
   },
   "Position": {
     "x": 127.17,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

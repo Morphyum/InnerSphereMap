@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brundage",
     "Name": "Brundage",
-    "Details": "Brundage is a water poor world with a sparse population. It was originally settled by colonists hoping that the planet's many mountain ranges would yield discoveries of metals or jewels. When it did not, most left the planet. Those that stayed behind began to farm the planet's few waterfed valleys. A recent spate of rumors tells that a huge cache of Star League supplies and equipment lies hidden somewhere in the mountains. There are even unconfirmed reports that government officials have uncovered maps detailing the location of this treasure trove. These rumors have been enough to attract thousands of treasure hunters from other worlds. It has also brought many difficulties. There was barely enough food grown locally to feed the planet's inhabitants before the influx. Now, with the population nearly doubled, it is impossible to grow enough food for all. There have been appeals to the Ministry of Emergency Services, but even the fastest relief shipment will take several months to arrive."
+    "Details": "Brundage is a water poor world with a sparse population. It was originally settled by colonists hoping that the planet's many mountain ranges would yield discoveries of metals or jewels. When it did not, most left the planet. Those that stayed behind bega"
   },
   "Position": {
     "x": 403.5,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

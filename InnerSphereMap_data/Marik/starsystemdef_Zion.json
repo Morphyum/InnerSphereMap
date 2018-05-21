@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zion",
     "Name": "Zion",
-    "Details": "[3056] Political unrest in the Zion Province prompted by the impending alliance between Houses Marik and Liao through marriage has reached boiling point in the last three years. The worlds of the Zion Province long ago defected to the Free Worlds League from the Capellan Confederation to escape the cruelty and capriciousness of the Capellan government. When it left, the province swore never to be associated with the Confederation again.Because of its wealth, Zion Province proved a popular target during the Succession Wars. Every planet took a severe beating, and only recently has the province begun to recover.The Marriage of Sun-Tzu Liao to Isis Marik puts the Zion Province in a no-win situation. If they meekly accept the alliance, they place themselves back under the thumb of the Capellan Confederation. If they accept the alliance or, as rumored, secede to the Federated Commonwealth, then the province becomes a plum ripe for picking from either side of the fence."
+    "Details": "[3056] Political unrest in the Zion Province prompted by the impending alliance between Houses Marik and Liao through marriage has reached boiling point in the last three years. The worlds of the Zion Province long ago defected to the Free Worlds League f"
   },
   "Position": {
     "x": 15.24,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

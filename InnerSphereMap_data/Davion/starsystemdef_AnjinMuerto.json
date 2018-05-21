@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_AnjinMuerto",
     "Name": "Anjin Muerto",
-    "Details": "[3062] Perhaps the biggest challenge faced by the Anjin Muerto Militia is the major influx of colonists to the world of Okefenokee, following the discovery of major petrochemical deposits there in the early 3020's. The natives of the world do not look kindly on the interlopers and have been waging a guerrilla war against the newcomers and co-operative concerns for almost forty years. Two full regiments of the militia's infantry are based on the world as peacekeepers, but they have been caught between the two factions. On top of this, the planet's newfound wealth has made it an inviting target for pirates operating from the Periphery."
+    "Details": "[3062] Perhaps the biggest challenge faced by the Anjin Muerto Militia is the major influx of colonists to the world of Okefenokee, following the discovery of major petrochemical deposits there in the early 3020's. The natives of the world do not look kin"
   },
   "Position": {
     "x": 586.51,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

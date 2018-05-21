@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Balsta",
     "Name": "Balsta",
-    "Details": "[3050] Clan Wolf landed on Balsta in April 3050. The First and Second Mechanized Militia Divisions put up stiff resistance against Trinary Elementals and Bravo Striker Star, until Star Captain Mario Sradac discovered and took advantage of an opening in their defense to spilt their forces. "
+    "Details": "[3050] Clan Wolf landed on Balsta in April 3050. The First and Second Mechanized Militia Divisions put up stiff resistance against Trinary Elementals and Bravo Striker Star, until Star Captain Mario Sradac discovered and took advantage of an opening in th"
   },
   "Position": {
     "x": 28.93,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Vega",
     "Name": "Vega",
-    "Details": "Another hot and dry world, Vega has many bombed-out factories on its rocky surface.  Few firms remain operational.  One company, the Cosby Myomer Research Firm, manufactures myomer cable bundles for 'Mechs and lacks good business morals.  It is rumored that the CEO of the company is wanted in the Commonwealth for the murder of a Lyran trader.  ISF agents working in the company turn a blind eye to much of the skullduggery because most of it is aimed at Commonwealth traders who trade in the system.Vega has three major continents; the largest is the southern continet of South Nantuo which contains the capital of Neucason on its eastern side. The other two continents are North Nantuo and Forsiar. All the life-forms on Vega have been imported.Neucason has many government buildings as befits a prefecture capital.  A monorail connects the city with Nasew, a large city on the planet's only ocean.  The people travel in electric cars or ride horses. One of the oddities of Vega are the Pyramids of New Egypt.  Built during the Star League era, the five pyramids were the whim of an eccentric megabillionaire, Akem Sanders, who believed in the pantheistic religions of the ancient Egyptians.  He had the pyramids built as a sign of his devotion.  Since then, there have been many attempts to burrow into or under the pyramids in search of treasure, but nothing has ever been found."
+    "Details": "Another hot and dry world, Vega has many bombed-out factories on its rocky surface.  Few firms remain operational.  One company, the Cosby Myomer Research Firm, manufactures myomer cable bundles for 'Mechs and lacks good business morals.  It is rumored th"
   },
   "Position": {
     "x": -3.62,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 6,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

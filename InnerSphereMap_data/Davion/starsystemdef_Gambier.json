@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gambier",
     "Name": "Gambier",
-    "Details": "Gambier is home to Protonaria, which are multicelled creatures that ingest and co-opt genetic material from their meals. In this way, when food is scarce, they eat plants and develop chloroplasts so they can produce their own food. When Gambier's orbit places a dust cloud between it and the sun, the Protonaria live off scavenger bacteria that live off the dying plants. Protonaria were in great demand in the 3010's as a novelty item. People would raise them in an aquarium and feed them virus-laden solutions. The different viruses would contain different genes for coloration, including lucifrace, so a tank of Protonaria would be a multi-colored, swirling mass that could even glow in the dark.The planet's rich Ace High Continent, is governed by the Duke of Parma, who is also a Count on Gambier."
+    "Details": "Gambier is home to Protonaria, which are multicelled creatures that ingest and co-opt genetic material from their meals. In this way, when food is scarce, they eat plants and develop chloroplasts so they can produce their own food. When Gambier's orbit pl"
   },
   "Position": {
     "x": 381.78,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

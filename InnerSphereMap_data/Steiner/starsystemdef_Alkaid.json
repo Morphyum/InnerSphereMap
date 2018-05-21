@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alkaid",
     "Name": "Alkaid",
-    "Details": "[3025] Moravska Ostrava is the site of the headquarters of Toloy Chemicals, a key industrial in the Lyran Commonwealth as so many other industries depend on its various products. Toloys consist of 20 factories scattered across the dry world of Alkaid. When Duke Charles Toloy was killed in a recent accident, it triggered a major power struggle within the company. Janine Toloy has assumed control of her father's company for the moment, but her cousin Dilbert has instituted a legal challenge to her right of inheritance. Lyran business leaders throughout the realm are watching closely, for a split of Toloy Chemicals would no doubt seriously weaken its ability to function."
+    "Details": "[3025] Moravska Ostrava is the site of the headquarters of Toloy Chemicals, a key industrial in the Lyran Commonwealth as so many other industries depend on its various products. Toloys consist of 20 factories scattered across the dry world of Alkaid. Whe"
   },
   "Position": {
     "x": -94.1,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

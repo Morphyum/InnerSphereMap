@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Goito",
     "Name": "Goito",
-    "Details": "[3050] Clan Ghost Bear landed on Goito in October 3050. Facing them were the 2 armor battalions of the Hunting Revelers. The relentless advance of the OmniMechs of the Supernova Command, First Bear Guards Guards, broke the morale of the green Revelers, whose clumsy retreat into Apache Canyon sealed their fate."
+    "Details": "[3050] Clan Ghost Bear landed on Goito in October 3050. Facing them were the 2 armor battalions of the Hunting Revelers. The relentless advance of the OmniMechs of the Supernova Command, First Bear Guards Guards, broke the morale of the green Revelers, wh"
   },
   "Position": {
     "x": 44.71,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Melcher",
     "Name": "Melcher",
-    "Details": "[3025] Thousand Oaks Ranch is home to the headquarters of Mecher Meat Animals, the largest supplier of meat in the Federated Suns. Cattle, pigs, horses, Galax beefalos, Brockway goats, and many other animals are raised on the company's 110 ranches scattered over the planet Melcher and surrounding worlds. The company is currently in a state of flux because of its recent take-over by Baroness Earwig. The take-over was so hostile that the former owners turned their corporate headquarters into a stronghold and refused to leave. A company of troopers and a 'Mech from the planet's militia were forced to storm the building. The losses on both sides were heavy, and the current atmosphere in Melcher Meat Animals is quite tense."
+    "Details": "[3025] Thousand Oaks Ranch is home to the headquarters of Mecher Meat Animals, the largest supplier of meat in the Federated Suns. Cattle, pigs, horses, Galax beefalos, Brockway goats, and many other animals are raised on the company's 110 ranches scatter"
   },
   "Position": {
     "x": 367.31,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

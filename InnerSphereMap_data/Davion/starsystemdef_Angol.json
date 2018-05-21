@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Angol",
     "Name": "Angol",
-    "Details": "Angol is a frozen planet circling a small, dying red star. Angol's fossil record shows that it was a habitable planet before its parent star shrank, and the world's oceans and atmosphere froze into planet-wide glaciers. Angol would not have been settled had the Carinus family, founders and rulers of the neighboring world of Tikonov, not needed secure access to rare metals used in their Earthwerks, Ltd. factories. The Carinus family based their government on Soviet-era Russia and used Angol like the Siberian gulags on Terra, condemning criminals and debtors to decades of drilling the planet's glaciers and working its foundries. When the Tikonov Union joined the Capellan Confederation, Angol's natives requested and received protection from the Terran Hegemony. By the time of the First Star League, the population's standard of living had improved considerably under Hegemony rule. When the First Star League fell, the Federated Suns laid claim to Angol.The Angol has no continents per se, but the capital of Carius's Cache is situated near the planet's south pole."
+    "Details": "Angol is a frozen planet circling a small, dying red star. Angol's fossil record shows that it was a habitable planet before its parent star shrank, and the world's oceans and atmosphere froze into planet-wide glaciers. Angol would not have been settled h"
   },
   "Position": {
     "x": 87.88,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Glenmora",
     "Name": "Glenmora",
-    "Details": "Glenmora is a particularly violent world of volcanoes and typhoons.Hades is the center of volcanic activity on Glenmora, and is dominated by five active volcanoes, each with a maze of lava flows. The continent has most of Glenmora's small chemical industry, with three major factories and attendant cities on the north and south coasts. The major city on Hades is Tronka, which lies at the mouth of the only river on the continent, the river Lethe."
+    "Details": "Glenmora is a particularly violent world of volcanoes and typhoons.Hades is the center of volcanic activity on Glenmora, and is dominated by five active volcanoes, each with a maze of lava flows. The continent has most of Glenmora's small chemical industr"
   },
   "Position": {
     "x": 285.37,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

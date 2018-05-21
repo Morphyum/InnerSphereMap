@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Raballa",
     "Name": "Raballa",
-    "Details": "Raballa houses a major underground AeroSpace support installation.  If this facility is as new as Our Blessed Order suspects, it should prove a major shot in the arm for what has long been a badly faltering planetary economy.  As changing weather conditions have caused Raballa's farm production to decline drastically, this former food-exporting world must now import most of its food, ruining its balance of trade. The reason that the Liao military has established the support installation on Raballa is that the natives are fiercely loyal to the Capellan government."
+    "Details": "Raballa houses a major underground AeroSpace support installation.  If this facility is as new as Our Blessed Order suspects, it should prove a major shot in the arm for what has long been a badly faltering planetary economy.  As changing weather conditio"
   },
   "Position": {
     "x": 21.7,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Antares",
     "Name": "Antares",
-    "Details": "[3050] Of minor strategic importance to the Federated Commonwealth, the world of Antares was only lightly defended by a militia battalion and a series of fortifications constructed by the locals. Clan Jade Falcon's Star League records named Antares as the site of an SLDF replenishment and resupply base, and so the Falcon Khans ordered the base taken at all costs. Gyrfalcon Galaxy landed on Antares, in July 3050, with heavy aerospace support and destroyed the planetary militia's fighters on the ground. The capital, Antares City, fell quickly, despite the militia's valiant effort. The town of Alba proved harder to take. Unknown to its inhabitants, Alba was situated almost on top of the old Star League base. Because Alba contained the planet's largest water purification plant, the battle there was among the bloodiest of the forth wave. The Falcons, initially reluctant to risk damaging the water purifier by using massed airstrikes, suffered severe casualties, especially the Second Falcon Jaegers. When Khan Crichell's logistics officers informed him that Jumpships could deliver a water purifier from Clan space in two and a half months, Crichell ordered the fighters to bomb the town flat. The stunned survivors watched as the Jade Falcon engineers unearthed the huge Star League base beneath their town.The Star League-era supplies and the base facility made Anatares a valuable prize. When ilKhan Ulric Kerensky forced Clan Jade Falcon to share control of Antares with Clan Steel Viper, he precipitated a brutal series of Trials of Possession for the base which increased the Falcons' hatred for their fellow Clan."
+    "Details": "[3050] Of minor strategic importance to the Federated Commonwealth, the world of Antares was only lightly defended by a militia battalion and a series of fortifications constructed by the locals. Clan Jade Falcon's Star League records named Antares as the"
   },
   "Position": {
     "x": -124.89,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

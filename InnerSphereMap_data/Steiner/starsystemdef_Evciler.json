@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Evciler",
     "Name": "Evciler",
-    "Details": "[3050] The Evciler Militia, mostly green recruits and personnel near retirement, decided not to resist the First Falcon Strikers, hoping to save their planet from the ravages of war. The Jade Falcons, enraged at what looked to them like the militia's cowardice, swiftly brought the planet under their control in May 3050. The sole resister, a young 'Mech cadet piloting a Locust, attacked and nearly destroyed a Falcon Fire Moth before his 'Mech blew apart. The cadet survived the explosion and became a bondsman."
+    "Details": "[3050] The Evciler Militia, mostly green recruits and personnel near retirement, decided not to resist the First Falcon Strikers, hoping to save their planet from the ravages of war. The Jade Falcons, enraged at what looked to them like the militia's cowa"
   },
   "Position": {
     "x": -95.14,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

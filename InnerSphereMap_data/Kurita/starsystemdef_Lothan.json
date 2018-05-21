@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lothan",
     "Name": "Lothan",
-    "Details": "[3052] The heavy OmniMechs of the 328th Assault Cluster outclassed the light 'Mechs of the Second Kavelleri with firepower and mobility. At Saldhana, the Kavelleri position was compromised when an assault OmniMech Star pushed through the First Lothan Brigades infantry on the right flank. At Tronsk, the Kavelleri were undone by a headhunter Star that found and destroyed the regimental HQ. The Kavelleri's final mistake was to turn and fight in a valley at Kandalaksha that offered little cover. The surviving members of the Kavelleri, only five companies strong, retreated offworld to Udea."
+    "Details": "[3052] The heavy OmniMechs of the 328th Assault Cluster outclassed the light 'Mechs of the Second Kavelleri with firepower and mobility. At Saldhana, the Kavelleri position was compromised when an assault OmniMech Star pushed through the First Lothan Brig"
   },
   "Position": {
     "x": -9.84,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

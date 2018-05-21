@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chertan",
     "Name": "Chertan",
-    "Details": "[3025] Chertan, along with many other worlds situated along the Marik / Steiner border, has suffered much during the Succession Wars. The planet's surface is scarred and battered, and as such Chertan simply cannot grow enough food to support itself. One of the planet's primary imports is farm machinery."
+    "Details": "[3025] Chertan, along with many other worlds situated along the Marik / Steiner border, has suffered much during the Succession Wars. The planet's surface is scarred and battered, and as such Chertan simply cannot grow enough food to support itself. One o"
   },
   "Position": {
     "x": -74.71,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

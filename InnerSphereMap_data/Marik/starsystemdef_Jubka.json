@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jubka",
     "Name": "Jubka",
-    "Details": "[3025] In the Free Worlds League, Islam has few adherents, although there are no prohibitions or restrictions on its practise. The most prominent Moslem communities are on the world of Jubka, home to the Tower of Allah Mosque. Despite the relatively small size of the Islamic population of the Free Worlds, the millennia-old conflict between the Shi'ites and the Sunnis, the two primary Moslem sects, has been carried out as acrimoniously as on Terra, to the further detriment of Islam."
+    "Details": "[3025] In the Free Worlds League, Islam has few adherents, although there are no prohibitions or restrictions on its practise. The most prominent Moslem communities are on the world of Jubka, home to the Tower of Allah Mosque. Despite the relatively small"
   },
   "Position": {
     "x": -338.69,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

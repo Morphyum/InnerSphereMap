@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Corella",
     "Name": "Corella",
-    "Details": "Corella II is primarily an agricultural world. It shows the usual mix of terrain features common to terrestrial plants throughout the Inner Sphere, with somewhat smaller oceans and markedly larger deserts than are known to Terra. The steppes of Corella's vast, southern continent are, for all intents and purposes, a single vast prairie of mutated wheat of Terran Stock, imported during the early Exodus Period of stellar exploration and colonization some seven hundred years ago.The capital of Corella II is Port Corella."
+    "Details": "Corella II is primarily an agricultural world. It shows the usual mix of terrain features common to terrestrial plants throughout the Inner Sphere, with somewhat smaller oceans and markedly larger deserts than are known to Terra. The steppes of Corella's "
   },
   "Position": {
     "x": 142.17,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

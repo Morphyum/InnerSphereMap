@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wildwood",
     "Name": "Wildwood",
-    "Details": "The major agricultural and wine-producing planet of the Magistracy, the planet Wildwood is maintained in its natural wilderness state. Though no ground troops are present, it is protected by numerous rings of armed and armored orbital satellites that make any unauthorized approach to the planet a dangerous proposition at best. A warm, temperate world with a standing population of some 5000 inhabitants, Wildwood's abundance of native avian lifeforms is an added tourist attraction that constitutes significantly to Canopian revenues. Because Wildwood is a basically non-military planet, it is one of the few Magistracy worlds that has avoided the general destructiveness of the Succession Wars and the Periphery conflicts of the last century. "
+    "Details": "The major agricultural and wine-producing planet of the Magistracy, the planet Wildwood is maintained in its natural wilderness state. Though no ground troops are present, it is protected by numerous rings of armed and armored orbital satellites that make"
   },
   "Position": {
     "x": -217.63,
@@ -64,7 +64,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewtownSquare",
     "Name": "Newtown Square",
-    "Details": "The Plains of Culd extend over some two-thirds of Newtown Square's primary continent. Actually a savannah, with pale sword grass and good soil, it is surprising that no agri-concerns have moved in to take advantage of the planet's long growing season.The capital of Newtown Square is Market.[3064] Leutnant-General Adam Steiner and his Fourteenth Donegal Guards were garrisoning Newton square when the Falcon Incursion kicked off. The Falcon's knew that Steiner's Fourteenth Guards has already suffered some losses, and so just assigned three clusters to the world; the newly-formed Pryde Eyrie, the Omega Solahma and the Seventh Provisional garrison Clusters. Surprisingly, the battle for the world lasted an entire week.Having landed on the 16th of May 3064, the Falcon warriors very neatly engaged battalion after battalion of Steiner's Guards, alternating binaries and trinaries to keep the offensive fresh and continuously rolling. After four days, Steiner had lost a quarter of his equipment, while the Falcons showed no signs of letting up. Moreover, he had received word that the Falcons had hit the Alliance with multiple galaxies and were driving straight at Melissia. Once he realized that, he gave up the strategically unimportant world of Newtown Square, pulling out on the 23rd May, and heading directly for Melissia."
+    "Details": "The Plains of Culd extend over some two-thirds of Newtown Square's primary continent. Actually a savannah, with pale sword grass and good soil, it is surprising that no agri-concerns have moved in to take advantage of the planet's long growing season.The "
   },
   "Position": {
     "x": -228.27,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sarmaxa",
     "Name": "Sarmaxa",
-    "Details": "Saramaxa is a temperate world whose surface is covered with several easily navigated mountain ranges. The capital city of Sarmaxa is Bellings.[3056] Sarmaxa has been the target of several recent Capellan raids, though so far the raiders have struck randomly in hilly or mountainous regions, avoiding populated or industrial centers. Local rumor suggests that the raids are merely diversions for some other purpose, though no-one knows what."
+    "Details": "Saramaxa is a temperate world whose surface is covered with several easily navigated mountain ranges. The capital city of Sarmaxa is Bellings.[3056] Sarmaxa has been the target of several recent Capellan raids, though so far the raiders have struck random"
   },
   "Position": {
     "x": 53.2,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

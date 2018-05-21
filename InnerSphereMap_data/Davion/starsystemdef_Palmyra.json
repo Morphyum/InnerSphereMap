@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Palmyra",
     "Name": "Palmyra",
-    "Details": "[3025] Based in the city of Hilder's Hell, Palmyra Petrochemicals has played a vital part in the recent push to explore and exploit the Outback worlds. Their many survey crews have been working with Federated Planetary Surveyors to find or rediscover Outback world deposits of petro-chemicals. This is important because colonies generally depend on chemical sources of energy for decades before they ever see a fusion reactor. Palmyra is especially adept at finding and exploiting oil deposits, thanks to its ageing, but still functional, Star League-era survey satellites and equipment. Once a deposit is found, Palymyra is one of the few petrochemical companies in the Inner Sphere that can provide orbiting fuel refineries to its clients."
+    "Details": "[3025] Based in the city of Hilder's Hell, Palmyra Petrochemicals has played a vital part in the recent push to explore and exploit the Outback worlds. Their many survey crews have been working with Federated Planetary Surveyors to find or rediscover Outb"
   },
   "Position": {
     "x": 450.8,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

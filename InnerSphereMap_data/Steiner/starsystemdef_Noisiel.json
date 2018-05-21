@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Noisiel",
     "Name": "Noisiel",
-    "Details": "[3056] Duke Michael Alextep is one of the most eccentric nobles in the entire Inner Sphere and also one of the richest. Every summer, Duke Michael holds The Games on his home planet of Noisiel. This yearly competition has only two contestants: Duke Michael and his best friend and business competitor, his son Heinrich. Every year the duke and his sun hire a number of MechWarrior's, many from Solaris, to compete in different BattleMech sports, including baseball, football, soccer, and the Duke's personal favorite, chess.In the duke's version of chess, a specific type of BattleMech takes the place of each chess piece. The game follows the standard chess rules, except that a piece that would normally be taken may fight t stay on the board. Four Wasps and Stingers serve as pawns. Griffins become the rooks, and Warhammers the knights. Shadow Hawks or Phoenix Hawks serve as bishops. The queen is either a modified Banshee or Zeus, and the duke and his son pilot the kings, which are Atlases.The Games allow the citizens of Noisiel to take a national holiday, and visitors from nearby worlds also join the festivities. All proceeds from the event support local charities."
+    "Details": "[3056] Duke Michael Alextep is one of the most eccentric nobles in the entire Inner Sphere and also one of the richest. Every summer, Duke Michael holds The Games on his home planet of Noisiel. This yearly competition has only two contestants: Duke Michae"
   },
   "Position": {
     "x": -308.36,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

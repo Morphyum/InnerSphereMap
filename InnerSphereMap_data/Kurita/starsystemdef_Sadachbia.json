@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sadachbia",
     "Name": "Sadachbia",
-    "Details": "A quiet, but hot, agricultural world with only the most modest of industrial capacity, most of Sadachbia's inland areas are little more than sun-drenched desert plains. The early colonists mostly settled on the many islands and shores of the northern hemisphere, where the land is most arable and the growing season abnormally long, due to the planet's axial tilt and wind/ocean currents. Ocean-going vessels keep the lines of trade and communication open between the scattered settlements, with the core of planetary commercial and industrial energies, the spaceport city of Kamalabad, forming the hub of all traffic. Kamalabad is located on the northwestern peninsula of Grangi, Sadachbia's largest northern continent. The planetary capital of Jalna'ir is located on the nearby island-continent of Banade. The planet also has one medium-sized equatorial continent, called Lossa, and two southern continents known as Dharma and Shoquelle. These continents support far fewer settlements than Grangi and Banade, largely due to the fact that they are either too warm during the summer months or because their terrain is too treacherous."
+    "Details": "A quiet, but hot, agricultural world with only the most modest of industrial capacity, most of Sadachbia's inland areas are little more than sun-drenched desert plains. The early colonists mostly settled on the many islands and shores of the northern hemi"
   },
   "Position": {
     "x": 80.59,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

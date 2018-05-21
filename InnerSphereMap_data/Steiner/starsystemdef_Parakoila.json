@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Parakoila",
     "Name": "Parakoila",
-    "Details": "[3050] Parakoila, a primary source of gold and heavy metals for the Commonwealth, hosted one of the longest battles of the forth wave of the invasion. The defending militia 'Mech battalion converted several of the mines intodefensive installations backed by miles of tunnels, rivaling the fortified structure of a Castle Brian. The Jade Falcon Khans wanted the mines intact. Because Gyrfalcon Galaxy could not use planetary bombardment, it was forced to root out the Inner Sphere 'Mechs tunnel by tunnel. They accomplished this task in just over six weeks, they longest time required to conquer any Inner Sphere world. Even after Tukayyid, the Clan Steel Viper garrison on Parakoila occasionally reports 'Mechs emerging from the miles of tunnels to raid viper supply depots and patrols.[3052] Parakoila also supports a single, small manufacturing facility outfitted to produce outdated 'Mech body components, but otherwise is of little strategic value for either Clan Jade Falcon of Clan Steel Viper. The Vipers 57th Striker Cluster launched an assault on the world in July 3052. Apparently unwilling to expend troops to defend the world, the commander of the Falcon's Fifth Provisional Garrison Cluster began withdrawing his 'Mechs to their DropShips almost as sonn as the battle began. As a result, the 57th Strikers captured Parakoila with minimal casualties."
+    "Details": "[3050] Parakoila, a primary source of gold and heavy metals for the Commonwealth, hosted one of the longest battles of the forth wave of the invasion. The defending militia 'Mech battalion converted several of the mines intodefensive installations backed "
   },
   "Position": {
     "x": -132.33,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

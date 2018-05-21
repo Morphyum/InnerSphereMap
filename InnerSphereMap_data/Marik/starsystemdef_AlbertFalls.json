@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_AlbertFalls",
     "Name": "Albert Falls",
-    "Details": "[3025] Selah Bey, heir apparent to the Countess of Albert Falls, was adopted by Count and Countess Van Vaal after radiation exposure in a defective BattleMech rendered the Countess unable to bear children. In order to assure a smooth transition of power when the Van Vaal line comes to an end, Lady Bey was chosen to begin a new dynasty based on her personal abilities and her family's traditional connections to the outgoing regime. Lady Bey has pledged to continue the Van Vaals' progressive policies along with unflagging loyalty to the government of Janos Marik.This is believed to be the first time in Free Worlds history that one dynasty, knowing it was about to end, has selected the new ruling family to follow them."
+    "Details": "[3025] Selah Bey, heir apparent to the Countess of Albert Falls, was adopted by Count and Countess Van Vaal after radiation exposure in a defective BattleMech rendered the Countess unable to bear children. In order to assure a smooth transition of power w"
   },
   "Position": {
     "x": -259.83,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Woodbine",
     "Name": "Woodbine",
-    "Details": "The world of Woodbine has reversed seasons and almost perpetually overcast skies. Woodbine's capital and political seat is Gastogne, though Rhinehold is the planet's largest industrial center. At the heart of Rhinehold is a kilometer-wide industrial park, dividing the city into two sections connected by thin commercial centers around the outside. A large, lightly wooded park with a manmade lake set among grassy banks, puts much-needed space between the heavy industrial sections and the administrative and residential areas of the city."
+    "Details": "The world of Woodbine has reversed seasons and almost perpetually overcast skies. Woodbine's capital and political seat is Gastogne, though Rhinehold is the planet's largest industrial center. At the heart of Rhinehold is a kilometer-wide industrial park,"
   },
   "Position": {
     "x": 503.68,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

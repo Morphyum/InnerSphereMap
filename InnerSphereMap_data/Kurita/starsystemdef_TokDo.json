@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TokDo",
     "Name": "Tok Do",
-    "Details": "[3054] Alshain Weapons has had a difficult time of it lately. First, they destroyed their factories on Jarett before the Clans occupied, to keep them from falling into enemy hands. Then, Alshain was forced to disassemble the Panther plant on Krenice and relocate it two jumps away at Tok Do. The firm may not survive many more major setbacks."
+    "Details": "[3054] Alshain Weapons has had a difficult time of it lately. First, they destroyed their factories on Jarett before the Clans occupied, to keep them from falling into enemy hands. Then, Alshain was forced to disassemble the Panther plant on Krenice and r"
   },
   "Position": {
     "x": 94.82,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

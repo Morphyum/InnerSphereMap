@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sternwerde",
     "Name": "Sternwerde",
-    "Details": "[3052] Clan Ghost Bear landed on Sternwerde January 3052. Defending the world were the Seventh Alshain Regulars. The First Bear Guards dropped from heavy cloud cover and engaged the Seventh in a running fight, surging along the Seventh's first line of defense. Upon reaching the center of the line, the Bears punched through it and spread out to take down as many opponents from behind as they could. Tai-sa Gerber Shazil, however, foiled this tactic by swiftly ordering his troops to turn and charge through the Bear lines. The Regulars smashed. Through the Bears and marched into the waters of Dearborne Lake. The First Bear Guards followed and chased the Regulars out of the water, but briefly lost the fleeing unit in a blinding rainstorm. In the final showdown near the Regulars' Dropships at dawn the next day, elements of the Seventh sacrificed themselves to ensure the escaped of the bulk of the unit. "
+    "Details": "[3052] Clan Ghost Bear landed on Sternwerde January 3052. Defending the world were the Seventh Alshain Regulars. The First Bear Guards dropped from heavy cloud cover and engaged the Seventh in a running fight, surging along the Seventh's first line of def"
   },
   "Position": {
     "x": 63.83,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

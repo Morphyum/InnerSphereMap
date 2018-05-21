@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Spittal",
     "Name": "Spittal",
-    "Details": "[3050] Clan Ghost Bear landed on Spittal in September 3050. Defending the world were the 3rd and 4th Spittal Knights, consisting of 2 'Mech companies and 1 battalion of infantry. The Bear forces chased the Knights' 'Mechs into Rutger's Pass, where the Rasalhagians had set up a vibrabomb field. When the vibrabombs failed to explode, the Knights were forced to retreat to their fallback position in Swerve Pass.The Bears Alpha Striker Star, 141st Striker Trinary, followed them straight into the firing line of the Knights' infantry battalion. The Bears used their jump jets for the first time, rising out of the pass onto the ledges from which the infantry troops were firing at them. With the infantry's defeat, the remaining 'Mech forces fell quickly.The Ghost Bears were not impressed with the prize they won on Spittal. The vehicles produced at the Benson and Bjorn plant are crude by Clan standards, even discounting the fact that the vehicles still use internal combustion engines.The Bears are continuing production here, but they have no plans to upgrade the plant, considering it not worth the effort. Most of the vehicles produced here are used in 'Mech training runs as high-tech targets."
+    "Details": "[3050] Clan Ghost Bear landed on Spittal in September 3050. Defending the world were the 3rd and 4th Spittal Knights, consisting of 2 'Mech companies and 1 battalion of infantry. The Bear forces chased the Knights' 'Mechs into Rutger's Pass, where the Ras"
   },
   "Position": {
     "x": 59.18,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

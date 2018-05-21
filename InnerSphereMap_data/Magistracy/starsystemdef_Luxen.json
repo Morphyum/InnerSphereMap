@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Luxen",
     "Name": "Luxen",
-    "Details": "Luxen is one of the few worlds in the Magistracy to have escaped the ravages of the Succession Wars. Originally a provincial capital, the planet has abundant precious metals and rare gemstones in its southern continental shelf. In the post-Star League era, its importance has grown as a producer of an even scarcer resource - trained medical technicians and physicians. Housing the Canopian Medical Sciences Research and Training Complex, the University of Luxen assumes an importance beyond that of many industrial worlds found in the Inner Sphere. Because of its importance, permanent military garrisons of both regular and militia troops guard Luxen, and the Canopian Navy regularly holds training exercises in this region of space."
+    "Details": "Luxen is one of the few worlds in the Magistracy to have escaped the ravages of the Succession Wars. Originally a provincial capital, the planet has abundant precious metals and rare gemstones in its southern continental shelf. In the post-Star League era"
   },
   "Position": {
     "x": -102.54,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

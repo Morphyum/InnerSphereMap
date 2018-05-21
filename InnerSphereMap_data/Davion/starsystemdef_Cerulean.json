@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cerulean",
     "Name": "Cerulean",
-    "Details": "[3025] Thousand Springs City is home to Cerulean Waters, a firm specializing in water purification systems. It had its origins as a bottled mineral water company that look advantage of the planet's many mineral springs. With the rise of Star League technology, the Trethel family used their riches to open five water purification factories, four of which were destroyed by House Kurita's special forces units at the start of the First Succession War. The remaining factory in Thousand Springs is on the verge of complete collapse because it lacks parts and because of centuries' worth of jury-rigged repairs. Just recently, the NAIS has expressed interest in funding the plant's reconstruction. It is assumed that Countess Trethel will jump at the chance. Whether the NAIS's sudden interest in Cerulean means that they have rediscovered something about water purification systems is unclear and bears close watching."
+    "Details": "[3025] Thousand Springs City is home to Cerulean Waters, a firm specializing in water purification systems. It had its origins as a bottled mineral water company that look advantage of the planet's many mineral springs. With the rise of Star League techno"
   },
   "Position": {
     "x": 412.81,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

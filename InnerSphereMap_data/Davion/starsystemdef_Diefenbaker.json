@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Diefenbaker",
     "Name": "Diefenbaker",
-    "Details": "[2581] When the Star League resumed the Taurian campaign of the Reunification War, in late 2581, the target was the world of Deifenbaker. Anti-partisan units dropped behind Taurian lines began to engage rival bands of commandos for possession of key communications centers and transportation nexus points. When the final assault began in December, the local Concordat commander, General Illicia Braxton, consolidated her forces in the forbidding Corigan hills overlooking the Deifenbaker capital. The battle of Corigan was one of the few infantry-vs-infantry campaigns of the war, for the rough terrain precluded 'Mech operations. After suffering more than 5,000 casualties, the elite 88th Light Horse reached the summit of the Taurian defensive position, only to find that the remaining 400 Taurians had committed suicide.[2585] Responding to the new Terran scorched-earth policy, Mitchell Calderon designed a bold plan to relieve pressure on his remaining garrisons scattered beyond the Hyades Cluster. Calling upon his three Household BattleMech regiments, the Taurian Guard, The Concordat Velites, and the Calderon Red Hand, he launched an attack against the Terran Third Corps on Deifenbaker. The result was the largest 'Mech-vs-'Mech engagement of the entire war. More and more troops from outlying regions were funnelled into the fight, which raged between February and June.In the end, all but 50 of the Concordat BattleMechs were eliminated at a cost of over three hundred of the Star League's 'Mechs. The second battle for Deifenbaker was a pyrrhic victory for the Star League. Though the League could boast of having broken the back of the Concordat armed forces, it has paid dearly with the blood of its most experienced MechWarriors. "
+    "Details": "[2581] When the Star League resumed the Taurian campaign of the Reunification War, in late 2581, the target was the world of Deifenbaker. Anti-partisan units dropped behind Taurian lines began to engage rival bands of commandos for possession of key commu"
   },
   "Position": {
     "x": 198.26,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hammer",
     "Name": "Hammer",
-    "Details": "[3025] Along with the other worlds of the Abbey District, most of Hammer's industrial strength was smashed during the first two Succession Wars. Since then, the Districts worlds have remained poor. Only recently has the discovery of germanium and other rare earth metals attracted trade with the Free Worlds' trading cartels.[3056] Hammer is home to Correlated Traders, one of the most enterprising trading cartels in the Free Worlds League. The company has generated high profits through dealings with the Periphery region bordering the League and is one of the few Marik companies that deals extensively with the many Periphery realms beyond the Free Worlds borders."
+    "Details": "[3025] Along with the other worlds of the Abbey District, most of Hammer's industrial strength was smashed during the first two Succession Wars. Since then, the Districts worlds have remained poor. Only recently has the discovery of germanium and other ra"
   },
   "Position": {
     "x": -369.91,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

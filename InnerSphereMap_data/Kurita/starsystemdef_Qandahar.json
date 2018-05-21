@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Qandahar",
     "Name": "Qandahar",
-    "Details": "Quandahar is a dark world with almost perpetual cloud cover.  A backwater world itself, Qandahar is a gateway to the major shipping routes leading to the Combine's interior.  Though the planet has large bodies of water, the industries of the planet's early colonizers dumped toxic waste into every water source.  Now, the planet's sizeable population must import its fresh water.  Industry still flourishes on this planet, selling and manufacturing sub-assemblies for small fusion power plants used to power cities. Qandahar's sizeable Arab population has a history of rebellion against the rule of the Planetary Chairman.  Currently, the dissident underground, calling itself the Holy Struggle, is attempting to shut down the Dow-Nexus Turbine Factory because it has consistently disregarded workers' safety.  Although the ISF has several agents in the Holy Struggle, Subhash Indrahar is hesitant to break up the group because he is not overly fond of Dow-Nexus.Outside the planetary capital, Fair Weather, and the other domed cities, the planet's ecosystem is on its last legs.  Over 50 percent of the indigenous life forms have become extinct.  Only the Toxic Life Forms (TLF), created on Terra during the 22nd century to digest toxic wastes, are thriving.[3054] The Dow-Nexus company is in trouble. When the Clans moved into Kuritan space, they captured factories accounting for 70 percent of DN's market. Manufacturers of conventional vehicles have expressed an interest in DN's product line, but generally are unwilling to pay the higher fusion engine prices, which seem excessive compared to the prices of I.C.E.s they currently use."
+    "Details": "Quandahar is a dark world with almost perpetual cloud cover.  A backwater world itself, Qandahar is a gateway to the major shipping routes leading to the Combine's interior.  Though the planet has large bodies of water, the industries of the planet's earl"
   },
   "Position": {
     "x": 317.74,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

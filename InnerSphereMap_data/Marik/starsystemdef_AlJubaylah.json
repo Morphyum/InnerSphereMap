@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_AlJubaylah",
     "Name": "Al Jubaylah",
-    "Details": "[3025] Al Jubaylah is governed by a theocracy.[3043] After the assassination of a leading mullah in 3043, the newly formed 2nd Free Worlds Legionnaire were called in to regain control. This first campaign was not a true test of the Legionnaires abilities, as they faced only a company of mercenary BattleMechs and two regiments of infantry under the command of rebel General Acha. However, the Legionnaires' lack of serious casualties despite storming two fortified enclaves testified to the new unit's skill and professionalism."
+    "Details": "[3025] Al Jubaylah is governed by a theocracy.[3043] After the assassination of a leading mullah in 3043, the newly formed 2nd Free Worlds Legionnaire were called in to regain control. This first campaign was not a true test of the Legionnaires abilities,"
   },
   "Position": {
     "x": -183.76,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

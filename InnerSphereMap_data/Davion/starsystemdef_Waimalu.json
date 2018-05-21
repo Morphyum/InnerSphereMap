@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Waimalu",
     "Name": "Waimalu",
-    "Details": "[3025] Recent rumors from New Avalon tell that Archernar BattleMechs might open a small factory on Waimalu. In the past decade, deposits of rare metals have been discovered on this poor world, and so it would benefit the planet should Archernar open a factory there. The two obstacles that might prevent it are the lack of sufficient water and Waimalu Fever, an unconquered virus that kills one out of every two visitors to the planet."
+    "Details": "[3025] Recent rumors from New Avalon tell that Archernar BattleMechs might open a small factory on Waimalu. In the past decade, deposits of rare metals have been discovered on this poor world, and so it would benefit the planet should Archernar open a fac"
   },
   "Position": {
     "x": 408.14,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

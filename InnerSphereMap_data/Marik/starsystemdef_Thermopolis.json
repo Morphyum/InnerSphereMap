@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thermopolis",
     "Name": "Thermopolis",
-    "Details": "[3025] Thermopolis is one of the major ports of entry for traders entering League space along the Lyran border. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profitable market (legal or otherwise) for virtually any commodity. Both the Free Worlds League and Lyran Commonwealth government require that all traders entering and leaving their realms submit to a vessel search. Though many agencies of the Marik government (including spaceport civilian security forces, planetary garrison personnel, and Ministry of Inspection tariff inspectors) have the authority to inspect incoming and departing vessels, such inspections are usually carried out rather perfunctorily."
+    "Details": "[3025] Thermopolis is one of the major ports of entry for traders entering League space along the Lyran border. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profit"
   },
   "Position": {
     "x": -215.38,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

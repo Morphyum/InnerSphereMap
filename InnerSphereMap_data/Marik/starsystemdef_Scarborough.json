@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Scarborough",
     "Name": "Scarborough",
-    "Details": "[3029] During the Forth Succession War, Captain-General Janos Marik was more than willing to sit back and let the other Houses destroy one-another. However, neither of the Captain-General's Concord of Kapteyn allies cared much for this attitude. Strongly worded communiqués from Chancellor Liao and Coordinator Kurita convinced Janos Marik that he had no choice but to help both states. With great reluctance, the Captain-General set in motion what became Operation Dagger, aim at pulling House Steiner units off the Draconis front.Hugely successful, this operation netted Marik five Lyran worlds for very little cost. Things started going wrong when a clash occurred on Scarborough, between Marik forces and Capellan units taking refuge on the world. The Duchy of Andurien, always a volatile and rebellious member of the League, immediately declared war on the Capellan Confederation. In less than a day, the Captain-General went from successful conquest of several hard-won worlds, to fighting a desperate two-front war.Ultimately, this clash cost the Free Worlds League fourteen worlds that might have been saved, as well as seriously damaging the Concord of Kapteyn partnership."
+    "Details": "[3029] During the Forth Succession War, Captain-General Janos Marik was more than willing to sit back and let the other Houses destroy one-another. However, neither of the Captain-General's Concord of Kapteyn allies cared much for this attitude. Strongly "
   },
   "Position": {
     "x": -15.51,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BellaI",
     "Name": "Bella I",
-    "Details": "All across the Inner Sphere, the loss of lives and industries during the First Succession War was beginning to exhaust every one of the Successor States. It was becoming near impossible to mount effective offensives. Early in 2820, discreet peace initiatives began between the Lyran Commonwealth and Free Worlds League. Later that year, high officials from both sides met amid the ruins of Bella I and began peace talks in earnest.On May 16th, 2821, after seven months of wary discussion and negotiation, the two sides had come up with a treaty acceptable to both. In a ceremony unusual for its lack of pomp and speeches, representatives from Houses Steiner and Marik signed the Peace Accord of Bella I, officially declaring an end to hostilities between them. By the end of 2821, peace had spread to all five of the weary Successor States. Though it was never made completely official, as treaties were never signed between some states, the First Succession War was over."
+    "Details": "All across the Inner Sphere, the loss of lives and industries during the First Succession War was beginning to exhaust every one of the Successor States. It was becoming near impossible to mount effective offensives. Early in 2820, discreet peace initiati"
   },
   "Position": {
     "x": -259.29,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

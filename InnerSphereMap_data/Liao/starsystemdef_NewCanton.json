@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewCanton",
     "Name": "New Canton",
-    "Details": "New Canton is a temperate planet with a diverse economy of light and medium industry, several commercial spaceports, fishing, and a thriving agricultural industry. Approximately 80% of New Canton's population live in large and medium sized cities that are evenly distributed on the planet's two continents. A large island chain, consisting of more than 900 islands spans the two-thousand kilometer distance between the two continents. The terrain and size of the islands vary from flat stretches of fifty kilometers to rocky uprisings that cover half of a square kilometer. Saltwater oceans cover the other 85% of New Canton's surface."
+    "Details": "New Canton is a temperate planet with a diverse economy of light and medium industry, several commercial spaceports, fishing, and a thriving agricultural industry. Approximately 80% of New Canton's population live in large and medium sized cities that are"
   },
   "Position": {
     "x": 8.26,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

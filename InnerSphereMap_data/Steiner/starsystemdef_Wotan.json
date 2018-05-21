@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wotan",
     "Name": "Wotan",
-    "Details": "[3025] The city of Olso is the headquarters of Wotan Mining systems, who manufacture tunnelling and excavation machinery. Much of what they make has built-in discernment programs and is therefore capable of unsupervised operations. The recent failure of the Wotan Mole-TS, has set the company back a few million credits. The capital of Wotan is Borealtown.[3050] Jade Falcon forces landed on Wotan in June 3050. The remnants of the First and Second Regiments of the Twelfth Star Guards spilt up and hit the Clan forces in a series of lightning raids, successfully co-ordinating their efforts until a Jade Falcon airstrike killed Colonel Franklin Pierce Marinetti in his 'Mech. Gyrfalcon Galaxy handily defeated the scattered Guards. The Wotan TMM fought so poorly that Khan Crichell later referred to the battle against them as an execution."
+    "Details": "[3025] The city of Olso is the headquarters of Wotan Mining systems, who manufacture tunnelling and excavation machinery. Much of what they make has built-in discernment programs and is therefore capable of unsupervised operations. The recent failure of t"
   },
   "Position": {
     "x": -142.14,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

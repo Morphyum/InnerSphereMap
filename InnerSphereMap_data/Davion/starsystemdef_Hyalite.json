@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hyalite",
     "Name": "Hyalite",
-    "Details": "Hyalite sits on the border between the Capellan March and the great unknown of the Periphery. It is an average sized world orbiting a large sun and has adequate water supplies. What drew the first colonists were Hyalite's many gemstone deposits as well as the unusual chemical compounds to be found there. The gemstone deposits have played out, which has eliminated most of the fortune hunters among the colonists. The chemical industries are still busy, however. Most of the planet's income is based on the many chemicals exported to other less endowed worlds. Industries that work with metals and pharmaceutical companies are the two industries most dependent on Hyalite's chemicals."
+    "Details": "Hyalite sits on the border between the Capellan March and the great unknown of the Periphery. It is an average sized world orbiting a large sun and has adequate water supplies. What drew the first colonists were Hyalite's many gemstone deposits as well as"
   },
   "Position": {
     "x": 268.82,
@@ -70,7 +70,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

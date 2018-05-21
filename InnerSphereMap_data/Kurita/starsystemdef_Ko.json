@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ko",
     "Name": "Ko",
-    "Details": "[3025] The city of Surinami on Ko, is the headquarters of Surinami Processing. Producing processed foods ranging from freeze-compressed Survival Rations to the Tinned Splendors specially gourmet line,  The bulk of Surinami's business is the Home Helper line of canned and boxed food, especially prepared to feed a lot of people from the small cooking space of an average Kurita home. Interestingly, the Stomach's Joy product is not rationed on most planets. Its recipe is a closely guarded secret, but those who survive the wretched taste and texture report that eating a lot of Stomach's Joy does, indeed, produce a feeling of well-being, an almost floating sensation.Surinami's Happy Life Meals division provides food for institutions. Corporate cafeterias, schools, hospitals, and Feeding Stations are among its customers, with the quality of the food provided declining respectively.[3062] In mid-July 3062, elements of the Fifteenth Dieron Regulars raided into Skye, prompting outrage. Without consulting his superiors, Colonel Pitcher ordered his 1st Skye Jaegers to stage reprisals, targeting the Dieron Regular's home base on Ko. He was surprised to find the DCMS unit already back in its cantonment, but pressed the attack anyway, inflicting grievous damage before withdrawing. Unfortunately it was this raid - together with allegations of other Lyran action against Combine peacekeepers - which led to Theodore Kurita formally annexing the Lyons Thumb for the Draconis Combine.Though privately acknowledging Colonel Pitcher's involvement, the LAAF has dismissed Kuritan claims, including a DCMS denial that the Fifteenth attacked Skye. The LAAF claim the Kuritan Coordinator and First Lord fabricated the evidence to further his own position, but leaked documents revealed the Jaeger's involvement and undermined the Alliance's position. The exact details of what happened in the Lyons Thumb remain shrouded in mystery."
+    "Details": "[3025] The city of Surinami on Ko, is the headquarters of Surinami Processing. Producing processed foods ranging from freeze-compressed Survival Rations to the Tinned Splendors specially gourmet line,  The bulk of Surinami's business is the Home Helper li"
   },
   "Position": {
     "x": -18.11,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

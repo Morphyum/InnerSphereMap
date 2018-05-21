@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Truth",
     "Name": "Truth",
-    "Details": "Truth is an agricultural planet largely remembered as the site of a horrible massacre of religious dissidents on March 25, 3013. The unknown raiders attacked the Pan-Humanists sect, whose philosophy advocated a pan-human unity extending to all believers in all Successor States, without provocation with the loss of over 50,000 men, women, and children. A subsequent commission held to investigate the carnage was unable to find any clear evidence pointing to the identity of the attackers. Some rumors suggest a rogue mercenary band was responsible. Other more sinister rumors suggest a company of hand-picked MechWarriors, under the personal command of Colonel Pavel Ridzik, was called in to exterminate the colony under orders from Chancellor Maximillian Liao. Whatever the case, those few inhabitants who were able to escape have tried unsuccessfully to restore their colony to its former glory."
+    "Details": "Truth is an agricultural planet largely remembered as the site of a horrible massacre of religious dissidents on March 25, 3013. The unknown raiders attacked the Pan-Humanists sect, whose philosophy advocated a pan-human unity extending to all believers i"
   },
   "Position": {
     "x": 78.31,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

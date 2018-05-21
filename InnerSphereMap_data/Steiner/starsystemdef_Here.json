@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Here",
     "Name": "Here",
-    "Details": "[3050] The elite Turkina Keshik and the Third Falcon Talon Cluster used their greater battle experience to offset the defending Eighth Arcturan Guards RCT's numerical advantage. Fighting street to street through the deserted Cameron City, the Falcons rolled back all of the defenders' attempts to slow them. The Eighth Arcturans collapsed twenty hours into the campaign when the Falcons pierced the hastily erected defenses around the capital city of Struggle and killed Hauptmann General Frederic Anderson. The survivors of the RCT retreated to the planet Somerset, while the remnants of the planetary militia fled into the planet's catacombs to organize armed guerrilla resistance."
+    "Details": "[3050] The elite Turkina Keshik and the Third Falcon Talon Cluster used their greater battle experience to offset the defending Eighth Arcturan Guards RCT's numerical advantage. Fighting street to street through the deserted Cameron City, the Falcons roll"
   },
   "Position": {
     "x": -150.17,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

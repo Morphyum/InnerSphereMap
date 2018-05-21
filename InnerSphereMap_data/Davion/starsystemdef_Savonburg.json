@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Savonburg",
     "Name": "Savonburg",
-    "Details": "[3025] The Colleges of Savonburg are among the few fully staffed institutes of higher learning in any area of Davion space bordering the Periphery. The ten separate colleges are scattered throughout Savonburg's one habitable continent and offer a wide range of specialties. The College of Medicine at New Cristos is especially important, for most of its graduates go on to serve in the military or in outworld hospitals.In a recent effort to upgrade the colleges, some funding became available to build a large science facility at Carlsruth, the planet's largest city. The project fell through, however, for lack of skilled construction workers to handle the special needs of the facility's twelve-kilometer subatomic acceleration ring. This proved disastrous for Dean Tilth Refol, who lost his post as planetary Minister of Education when his inability to raise the additional support turned the project into a fiasco."
+    "Details": "[3025] The Colleges of Savonburg are among the few fully staffed institutes of higher learning in any area of Davion space bordering the Periphery. The ten separate colleges are scattered throughout Savonburg's one habitable continent and offer a wide ran"
   },
   "Position": {
     "x": 498.1,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

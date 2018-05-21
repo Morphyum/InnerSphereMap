@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Midway",
     "Name": "Midway",
-    "Details": "[3059] The water-rich world of Midway, with its extensive orbital shipyards, is the home to the Aerospace and Interstellar Institute (AII) which trains its students to serve in aerospace units, DropShips and JumpShips. Recently, the DCMS helped AII create a WarShip training program, which has begun to turn out trainee WarShip crews. The slow turnover in DropShip and JumpShip crews over the past several decades has created little demand for DropShip and JumpShip training: as a result, most AII cadets receive aerospace fighter training. As the DCMS begins to deploy its WarShip fleet, however, more and more cadets have been selected for WarShip training.Though AII obtains most of its enrolees from proctor recommendations, the academy also accepts independent petitions for admittance. All prospective enrolees must pass a battery of aptitude tests. The popular rumor that a sixteen-year-old girl from Benjamin gained entrance solely on the dubious achievement of scoring more than one million points on Slayer!, the Combine's most popular arcade aerospace simulator, has never been proved.Depending on the course curriculum, AII training programs can last anywhere from six months to two years. AII graduates approximately one hundred fighter pilots a year, but only a handful of DropShip and JumpShip pilots. The academy's WarShip facilities are currently turning out more trained personnel than there are ships to accommodate them, though the DCMS anticipates an increasing need for WarShip crews as WarShip deployment hits high gear. A certain number of AII pilots go on to universities for training as line officers, who command vessels larger than a fighter.AII maintains two regiments of aerospace fighters and a few DropShips on Midway for training purposes."
+    "Details": "[3059] The water-rich world of Midway, with its extensive orbital shipyards, is the home to the Aerospace and Interstellar Institute (AII) which trains its students to serve in aerospace units, DropShips and JumpShips. Recently, the DCMS helped AII create"
   },
   "Position": {
     "x": 247.63,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Geifer",
     "Name": "Geifer",
-    "Details": "Geifer holds the remains of the once gigantic library of the Capellan Republic.  Devastated by (allegedly inadvertent) bombings during both the Second and Third Succession Wars, the library nevertheless still contains well-nigh Alexandrian collections in several fields, particularly physical sciences and languages. It was this latter fact that promoted the establishment of the Capellan Institute of Linguistics on Geifer in 2978.  In addition to the Institute's purely scholarly work, which has been hailed throughout the Inner Sphere, the political applications of its studies have proven invaluable.  Not only are Capellan diplomats well trained in the art of understanding the thought processes of other cultures, as reflected by their native languages, but the Capellan secret service easily translated several Kurita dispatches because they were in Japanese rather than in code."
+    "Details": "Geifer holds the remains of the once gigantic library of the Capellan Republic.  Devastated by (allegedly inadvertent) bombings during both the Second and Third Succession Wars, the library nevertheless still contains well-nigh Alexandrian collections in "
   },
   "Position": {
     "x": 37.53,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 3,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

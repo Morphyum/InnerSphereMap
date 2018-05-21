@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ruschegg",
     "Name": "Ruschegg",
-    "Details": "Ruschegg's terrain consists of low rolling hills leading to a rocky desert. [3056] Ruled by Baron Archibald Keeling, Ruschegg has recently come under attack by Periphery bandits. So far the raids have failed to create much damage, but the Baron is determined to protect his citizens."
+    "Details": "Ruschegg's terrain consists of low rolling hills leading to a rocky desert. [3056] Ruled by Baron Archibald Keeling, Ruschegg has recently come under attack by Periphery bandits. So far the raids have failed to create much damage, but the Baron is determi"
   },
   "Position": {
     "x": -175.24,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

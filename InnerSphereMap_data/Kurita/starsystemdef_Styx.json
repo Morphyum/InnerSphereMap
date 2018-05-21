@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Styx",
     "Name": "Styx",
-    "Details": "On January 4th, 2791, Archon Jennifer Steiner was killed while leading the Royal Guards in an attack against a fortified position protecting the chemical factories of New Eslow on Styx. Rushing the doors of the stronghold, she either did not notice or did not pay any attention to the numerous boxes and crates - all clearly identified as containing explosives - attached to the stronghold doors. when she tried to rip open the door, the charges exploded. The blast completely disintegrated the upper body of her 'Mech, leaving only the legs. the fact that the explosion also destroyed the stronghold was little consolation to the Steiner troops.[3025] The city of Memphis is head office of the Styx Mining corporation. Existing these days to serve as a foil for the powerful Metals of the Earth Company, whenever Metals of the Earth has drawn an unseemly number of government contracts, a few go to Styx. The firm also picks up the slack when Metals of the Earth is so overextended that it has no additional equipment available. Needless to say, there is a heavy air of fatalism in the Styx boardrooms, and the company is not known for innovation, except in paper Jumpship design."
+    "Details": "On January 4th, 2791, Archon Jennifer Steiner was killed while leading the Royal Guards in an attack against a fortified position protecting the chemical factories of New Eslow on Styx. Rushing the doors of the stronghold, she either did not notice or did"
   },
   "Position": {
     "x": 25.84,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

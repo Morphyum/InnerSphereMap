@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_AlNair",
     "Name": "Al Na'ir",
-    "Details": "The inhospitable planets in the Al Na'ir system would have been ignored if the asteroids had not been rich in rare metals.  Since Star League days, many space-mining companies have populated the asteroids. A small BattleMech factory was built in one of the asteroids, taking advantage of the zero gravity.  After the large portions of 'Mechs are constructed there, they are sent to the planet Al Na'ir to be assembled and tested.  The BattleMech facility was a joint venture by Luthien Armor Works and Alshain Weapons.  Damaged in 3010, the plant is only recently back in production. Al Na'ir itself is barren and has thin atmosphere.  Currently, two BattleMech regiments are on the planet, the 8th and 15th Dieron Regulars, both excellent fighters in Zero-G atmosphere."
+    "Details": "The inhospitable planets in the Al Na'ir system would have been ignored if the asteroids had not been rich in rare metals.  Since Star League days, many space-mining companies have populated the asteroids. A small BattleMech factory was built in one of th"
   },
   "Position": {
     "x": 60.09,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 5,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

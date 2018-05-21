@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alkalurops",
     "Name": "Alkalurops",
-    "Details": "[3050] Clan Jade Falcon landed on Alkalurops in March 3050. Defending the world were the Alkalurops Militia and the Bouncer Regiment; a mercenary combined forces regiment. With a fast and furious assault the Third Falcon Talon Cluster,  comanded by Star Colonel Arien Hazen, succeeded in seizing Benden City and Dravinna Vale, the capital and economic centers of the planet. Many of the defending forces, though, including a large contingent from the Bouncer Regiment, were never captured. Just days after the planet's surrender, these forces formed an organized and effective resistance, attacking the invaders near the ore-processing factories of Dravinna Vale, using the valley's perpetual fog to cover their activities."
+    "Details": "[3050] Clan Jade Falcon landed on Alkalurops in March 3050. Defending the world were the Alkalurops Militia and the Bouncer Regiment; a mercenary combined forces regiment. With a fast and furious assault the Third Falcon Talon Cluster,  comanded by Star C"
   },
   "Position": {
     "x": -35.94,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

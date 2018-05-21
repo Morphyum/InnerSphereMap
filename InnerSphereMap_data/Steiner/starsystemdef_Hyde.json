@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hyde",
     "Name": "Hyde",
-    "Details": "Hyde is a small, almost entirely water covered world. It is lightly forested, and has thousands of small freshwater lakes. It is the site of a huge water purifactation plant, which has made the world a tempting target for Marik raiders over the years. [3025] The city of Califar on Hyde is the headquarters of Zettle Metals Incorporated. Dating from the pre-Alliance era, Zettle is perhaps the oldest firm in the Commonwealth. Though the firm has much suffered during the Succession Wars, it has managed to survive. The company specializes in the purification of rare metals, especially those used to construct BattleMech chassis. Zettle has three major foundries on Hyde and two more on Rahne."
+    "Details": "Hyde is a small, almost entirely water covered world. It is lightly forested, and has thousands of small freshwater lakes. It is the site of a huge water purifactation plant, which has made the world a tempting target for Marik raiders over the years. [30"
   },
   "Position": {
     "x": -162.35,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

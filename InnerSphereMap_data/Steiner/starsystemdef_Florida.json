@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Florida",
     "Name": "Florida",
-    "Details": "[3062] Principally a defensive unit, the steady recovery of technology over the last few decades has seen the Florida TTM assigned a succession of unusual tasks. Several companies were detached to work with planetary survey teams operating in the Periphery coreward of the Circinius Federation, providing security against pirates and native lifeforms. A number of teams were also assigned to aid scientific studies in the Enders Cluster, a tightly packed group of stars between Aberystwyth and Viborg.Though officially at full strength, much of the equipment used by the militia is dilapidated. With parts in short supply, generally only a third of the unit's vehicles and 'Mechs are operational at any given moment. The unit's backwater posting, away from any significant enemy and off the principal trade routes, means this situation is unlikely to change in the foreseeable future."
+    "Details": "[3062] Principally a defensive unit, the steady recovery of technology over the last few decades has seen the Florida TTM assigned a succession of unusual tasks. Several companies were detached to work with planetary survey teams operating in the Peripher"
   },
   "Position": {
     "x": -426.81,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ideyld",
     "Name": "Ideyld",
-    "Details": "[3025] In the Free Worlds League, Islam has few adherents, although there are no prohibitions or restrictions on its practise. One of the most prominent Moslem communities is on the world of Ideyld, home to the Golden Dome Mosque. Despite the relatively small size of the Islamic population of the Free Worlds, the millennia-old conflict between the Shi'ites and the Sunnis, the two primary Moslem sects, has been carried out as acrimoniously as on Terra, to the further detriment of Islam."
+    "Details": "[3025] In the Free Worlds League, Islam has few adherents, although there are no prohibitions or restrictions on its practise. One of the most prominent Moslem communities is on the world of Ideyld, home to the Golden Dome Mosque. Despite the relatively s"
   },
   "Position": {
     "x": -201.4,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

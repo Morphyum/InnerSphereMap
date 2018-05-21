@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lonaconing",
     "Name": "Lonaconing",
-    "Details": "[3059] During Operation Bulldog, Clan Smoke Jaguar attempted a counter-attack to relieve the pressure on their OZ from SLDF forces. On Lonaconing the SLDF got lucky. With no reinforcements readily available Precentor Martial Victor Steiner-Davion expected the 15th Lyran Guards RCT and 4th Arkab Legion to take heavy losses. However, the commander of the Jaguar's 217th Garrison Cluster opted to use feints and diversionary maneuvers rather than a direct assault against the planet's defenders. This tactical miscalculation enabled Lonaconing's SLDF garrison troops to severely damage several Jaguar targets while avoiding large-scale engagements with the enemy. When the recall order was issued to all Jaguar troops on the 13th August, almost 99% of the 217th were able to evacuate Lonaconing."
+    "Details": "[3059] During Operation Bulldog, Clan Smoke Jaguar attempted a counter-attack to relieve the pressure on their OZ from SLDF forces. On Lonaconing the SLDF got lucky. With no reinforcements readily available Precentor Martial Victor Steiner-Davion expected"
   },
   "Position": {
     "x": 257.97,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Feltre",
     "Name": "Feltre",
-    "Details": "[3050] Clan Wolf landed on Feltre in July 3050. The Plum Wall, a branch of the Todai yakuza, managed to frustrate each Wolf attempt to strike the killing blow by supplying and often rescuing the defending Feltre Freeman Division. It was not until Clan Wolf began occupying major cities and towns with their second-line garrison units that they finally gained control of the planet."
+    "Details": "[3050] Clan Wolf landed on Feltre in July 3050. The Plum Wall, a branch of the Todai yakuza, managed to frustrate each Wolf attempt to strike the killing blow by supplying and often rescuing the defending Feltre Freeman Division. It was not until Clan Wol"
   },
   "Position": {
     "x": -20.17,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

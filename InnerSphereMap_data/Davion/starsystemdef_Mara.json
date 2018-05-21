@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mara",
     "Name": "Mara",
-    "Details": "The terrestrial planet of Mara was settled in the early age of colonial expansion, after it was recognized for the pleasant agricultural world it could be. Though industrial metals may be found in small veins - particularly among the remote Northern Isles and on the small south-polar continent of Naramo - the fertile, wooded lands and freshwater lakes on Appilagio, the planet's large main continent, are the source of almost all the planet's industry. Much of the logging industry, one of Mara's chief exports, is focused around the Great Rim - site of a long-ago asteroid impact on Mara's primary continent of Appilagio. The majority of Mara's settlements are concentrated inland of the Great Rim area, near these logging operations, in a temperate region of plains and large lakes that in many ways resembles the climate of Terra's European-Mediterranean region.The planetary capital city of Terrace is located on the northern Broomstick Plains, roughly 40 kilometers inland of the Great Rim, near the smaller coastal city of Mountlake, which is itself home to Hara-Maku Enterprises, owners of Mara's largest commercial fishing fleet. Hara-Maku's operations focus mainly on harvesting the famed fresh-water Mara Trout. These delicate fish are dificult to breed elsewhere within the Inner Sphere, though are found in abundance in many of Appilagio's inland seas, lakes, and rivers. Their harvesting accounts for most of the planet's secondary food-export industry. The spaceport city of Lockholme, located in the southern peninsula of Appilagio, is also home to the Mara Development Corporation, a construction equipment company that specializes in the manufacture of many industrial 'Mech designs."
+    "Details": "The terrestrial planet of Mara was settled in the early age of colonial expansion, after it was recognized for the pleasant agricultural world it could be. Though industrial metals may be found in small veins - particularly among the remote Northern Isles"
   },
   "Position": {
     "x": 121.74,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

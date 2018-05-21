@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Borghese",
     "Name": "Borghese",
-    "Details": "Saltwater oceans cover more than 80% of Borghese. The world has one major continent, slightly smaller than Australia on Terra. With so little land available, the planet's original settlers had looked to the sea to provide them with sustenance, but were eventually driven away by sudden electrical storms and crashing waves. Because of this, Borghese's population levelled off at the current level of only 10 million.Borghese's inhabitants are mainly involved in the world's only industry, mermaid fishing. Though not actually mermaids, the name given by the early settler's has stuck and become official. Because of the storms, the fishing industry is limited to the waters nearest the land. Considered a delicacy on many worlds, any fisherman who can survive ten or more years can retire quite well off.Borghese's only major city is Houston. Located on the southern coast, this sprawling metro area is home to more than 60% of the planet's population. The remaining cities are mostly small towns or, more often, simply collections of families who happened to build near one another.The land is able to support several hybrid Terran crops, mostly strains of beans, corn, and wheat, allowing limited livestock production. With its rich soil and limited population, Borghese is completely self-sufficient, an achievement than many planets within the Inner Sphere cannot match."
+    "Details": "Saltwater oceans cover more than 80% of Borghese. The world has one major continent, slightly smaller than Australia on Terra. With so little land available, the planet's original settlers had looked to the sea to provide them with sustenance, but were ev"
   },
   "Position": {
     "x": -79.28,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

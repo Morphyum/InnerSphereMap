@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Horsham",
     "Name": "Horsham",
-    "Details": "[2582] At the conclusion of the Diefenbaker campaign, General Wexworth was replaced by his long-time rival, General Amalthia Kincaid. General Kinciad's first target of the Reunification War, was the Horsham system, the site of the last major Taurian naval production center outside of the Hyades Cluster.Forgoing the use of heavy BattleMech contingents to blast her way through, Kincaid collected her five newly formed striker regiments and dropped them by night near the Taurian defense installations. In the heat of the planet's summer, the strikers proved their worth, capturing not only a score of Taurian industry complexes intact, but also the first live Taurian prisoners for interrogation."
+    "Details": "[2582] At the conclusion of the Diefenbaker campaign, General Wexworth was replaced by his long-time rival, General Amalthia Kincaid. General Kinciad's first target of the Reunification War, was the Horsham system, the site of the last major Taurian naval"
   },
   "Position": {
     "x": 155.35,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

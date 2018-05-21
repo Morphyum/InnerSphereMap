@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Syrma",
     "Name": "Syrma",
-    "Details": "The site of the so-called Syrma Ambush of 2338, this battle proved to be a turning point for the then newly formed Terran Hegemony. Admiral James McKenna's son, Konrad, led Hegemony Armed Forces troops into the mined jump points of the system. The heavy losses from this incident coupled with the increasing strength of the Hegemony's opponents, prompted McKenna to change tactics from force to diplomacy during the last year of his life. With Konrad disgraced, It also led to the foundation of the Cameron dynasty, and the creation of the Star League."
+    "Details": "The site of the so-called Syrma Ambush of 2338, this battle proved to be a turning point for the then newly formed Terran Hegemony. Admiral James McKenna's son, Konrad, led Hegemony Armed Forces troops into the mined jump points of the system. The heavy l"
   },
   "Position": {
     "x": -57.92,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

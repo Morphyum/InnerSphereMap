@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bucklands",
     "Name": "Bucklands",
-    "Details": "[3058] The Clan Jade Falcon drive on Coventry targeted a number of intermediary worlds, including Bucklands. Though the Lyran defenders stood little chance against the technologically superior Falcons, they forced the attackers into fierce, bloody battles for each world. Most defenders fought in outdated 'Mechs. Some, like the Bucklands Militia (which was little more than a social club for retired veterans), had no 'Mechs at all and cobbled together a fighting force by fitting heavy machine guns and sheets of armor plate to AgroMechs. These jury-rigged 'Mechs did little to slow the Falcons, and the militia sustained horrendous casualties."
+    "Details": "[3058] The Clan Jade Falcon drive on Coventry targeted a number of intermediary worlds, including Bucklands. Though the Lyran defenders stood little chance against the technologically superior Falcons, they forced the attackers into fierce, bloody battles"
   },
   "Position": {
     "x": -326.2,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

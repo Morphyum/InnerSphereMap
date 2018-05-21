@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Korramabad",
     "Name": "Korramabad",
-    "Details": "Covered by open plains and sandy deserts, Korramabad punishes its inhabitants with a hot atmosphere that only the hardiest can tolerate. The inhabited area lies on the southern continent, which is slightly cooler because of a ring of high, rocky mountains threaded by narrow passes and deep gorges. Korramabad is one of the Inner Sphere's leading suppliers of industrial diamonds.[3056] Korramabad is currently in the midst of a revolution launched by Sir Timothy Bentlen in an attempt to unseat the ruling Duke Taikara Imushiu. Duke Imushiu, a die-hard supporter of the late Coordinator Takashi Kurita and the old Kurita ways of combat, has ruled over the citizens of Korramabad cruely since coming to power. Bentlen supports Coordinator Theodore Kurita and his reforms and intends to make these changes felt on his home planet.  "
+    "Details": "Covered by open plains and sandy deserts, Korramabad punishes its inhabitants with a hot atmosphere that only the hardiest can tolerate. The inhabited area lies on the southern continent, which is slightly cooler because of a ring of high, rocky mountains"
   },
   "Position": {
     "x": 372.73,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

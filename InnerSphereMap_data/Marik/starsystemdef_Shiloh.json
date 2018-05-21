@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Shiloh",
     "Name": "Shiloh",
-    "Details": "Shiloh is the home of the famous Exituri, the religious ascetics who left Terra early in the Exodus to pursue their severe but secret doctrines. The Exituri leadership disdains political involvement, but because the priesthood must make political decisions, religious leaders have had to take positions on interstellar matters about which they have little interest.Shiloh has been conquered twice: once by the Lyran Commonwealth in 2838, and once by the Free Worlds League, who took it back in 2910. The devastation on this world convinced the Blessed Leader to join the Silver Hawks, a mutual defense pact with several of Shiloh's neighbors, in 2966.A bitter foe of the Marik, the current Blessed Leader of the Exituri blames the Houses of the Inner Sphere not only for the suffering of her people during the Succession Wars, but for all the tragedies of the human race.Although the surface of Shiloh is arid, requiring the Exituri to import most of their water, this is not the main reason why crops are difficult to grow. The fierce winds increase the difficulty of farming enormously, as does the Exituri's disdain for technological laborsaving devices. Their farmers live by the horse and plow, and they are proud to say that the chores they assign their children will either toughen them up or kill them. Most of the Exituri's food is imported, though there are few other offworld items that they require. They export traditional crafts, such as decorative woodcarving and silk-screening, which they themselves regard as foolish vanities, but for which they do not mind charging top dollar."
+    "Details": "Shiloh is the home of the famous Exituri, the religious ascetics who left Terra early in the Exodus to pursue their severe but secret doctrines. The Exituri leadership disdains political involvement, but because the priesthood must make political decision"
   },
   "Position": {
     "x": -88.14,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

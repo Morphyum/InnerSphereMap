@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jezersko",
     "Name": "Jezersko",
-    "Details": "[3050] Clan Ghost Bear landed on Jezersko in September 3050. Facing them was the First and Second Jezersko Brigade, consisting of 2 armor regiments. The Bears 310th Assault Trinary stormed the Jezersko Brigades as soon as they spotted the defenders' tanks. Using their weight to their advantage, the Bears picked their opponents apart. The Brigades attempted to outmaneuver the Bears, but the Clan forces moved too swiftly for them. The Brigades scrambled to the Pleasure Grotto, where they had set up remote-firing weapons and vibrabombs. The pursuing Bears easily side-stepped most of these, but found it more difficult than they expected to rout the defenders. They finally resorted to aerial bombardment, forcing both defending units into the open where the Ghost Bear 'Mechs dispatched them."
+    "Details": "[3050] Clan Ghost Bear landed on Jezersko in September 3050. Facing them was the First and Second Jezersko Brigade, consisting of 2 armor regiments. The Bears 310th Assault Trinary stormed the Jezersko Brigades as soon as they spotted the defenders' tanks"
   },
   "Position": {
     "x": 88.13,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

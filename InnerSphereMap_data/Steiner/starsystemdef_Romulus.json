@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Romulus",
     "Name": "Romulus",
-    "Details": "Romulus is an agricultural planet.[3050] Because its lacked aerospace support, the Romulus Militia chose to make its stand in the planetary capital. The militia's super-heavy tanks and heavy 'Mech company fought fiercely, but took heavy casualties before losing to the First Falcon Striker's superior force. Ninety percent of the militia died fighting, and Romulus City was reduced to rubble."
+    "Details": "Romulus is an agricultural planet.[3050] Because its lacked aerospace support, the Romulus Militia chose to make its stand in the planetary capital. The militia's super-heavy tanks and heavy 'Mech company fought fiercely, but took heavy casualties before "
   },
   "Position": {
     "x": -89.7,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

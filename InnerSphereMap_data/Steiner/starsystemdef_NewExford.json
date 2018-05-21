@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewExford",
     "Name": "New Exford",
-    "Details": "The headquarters of Nashan Foods are located on New Exford. This division of Nashan Diversified owns huge tracts of land on New Exford, Bountiful Harvest, Graceland, Summit and Hamilton. One of the few interplanetary food companies, Nashan Foods is fast becoming the sole provider of food to many of the heavily industrialized worlds of the Tamar Pact. The company even has contracts with a number of worlds on the other side of the Draconis border. Nashan Foods specializes in grains, fruits, and other assorted products. Its growing meat division exports cattle, pigs, gnu-oxen, and bison products from ranches on New Exford and Hamilton. About 75% of Nashan Food's business is in basic foods, with the remainder in gourmet items. These items are usually shipped to places like Donegal and Tharkad where wealthy palettes are rediscovering delicases like Exford Truffles, Meat Lettuces of Harvest, Binsby Berries, and Buleen Anchovies.   New Exford is also home to the Voyager Christian Church.The capital of New Exford is Woodborough."
+    "Details": "The headquarters of Nashan Foods are located on New Exford. This division of Nashan Diversified owns huge tracts of land on New Exford, Bountiful Harvest, Graceland, Summit and Hamilton. One of the few interplanetary food companies, Nashan Foods is fast b"
   },
   "Position": {
     "x": -137.28,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

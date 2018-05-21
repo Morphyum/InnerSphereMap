@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kawabe",
     "Name": "Kawabe",
-    "Details": "Kawabe, like many other worlds of the Draconis Combine, is not rich in natural resources. Most of the people are poor, and the economy is dominated by a handful of big, military-run combines.The capital of Kawabe is Itamiyama.[3026] The Kurita backed government of Kawabe, long unpopular with its citizens, was overthrown in September 3026. The Combine launched immediate punitive strikes against the rebels, with both the Fifth Sword of Light and Wolf's Dragoons assigned to flush resistors out of cities and other defensive positions. Against these odds the rebellion was soon crushed."
+    "Details": "Kawabe, like many other worlds of the Draconis Combine, is not rich in natural resources. Most of the people are poor, and the economy is dominated by a handful of big, military-run combines.The capital of Kawabe is Itamiyama.[3026] The Kurita backed gove"
   },
   "Position": {
     "x": 240.64,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Shionoha",
     "Name": "Shionoha",
-    "Details": "Shionaha is a forbidding world of rugged mountains, broken plateuas, and continent sized glaciers. The few small, lock-locked seas are as salty, ice-cold, and grey as the sky. The world owes its name to the Terran Japanese colonists who founded the first settlement at Kaigun close to the vast Shionohara. This large salt-plain marks the dry, mineral-encrusted basin of a long vanished ocean. Despite the planet's name, its predominant terrain is mountainous.Shionoha's capital is Kaigun, which houses the world's principal starport and 'Mech repair facilities.Though they have not been stationed on the world for years, the 2nd Dieron Regulars still maintains strong ties to Shionoha. Originally raised from the planet's population, the 2nd Dieron built its own MechWarrior academy, the Dieron district Gymnasium, in the city of Shiona. A small facility, it turns out fifteen to twenty highly trained MechWarriors every year, most of whom end up in Dieron District Regular Forces. The school emphasizes combat training and prides itself on bringing out a warrior's personal drive to excel. A side effect of this approach is an almost complete disregard for its students' political and philosophical learnings. To combat the possibility of potential subversives entering the DCMS, the ISF posts at least one agent at the Gymnasium at all times."
+    "Details": "Shionaha is a forbidding world of rugged mountains, broken plateuas, and continent sized glaciers. The few small, lock-locked seas are as salty, ice-cold, and grey as the sky. The world owes its name to the Terran Japanese colonists who founded the first "
   },
   "Position": {
     "x": -5.7,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

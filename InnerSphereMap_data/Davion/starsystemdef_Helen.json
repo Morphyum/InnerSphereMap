@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Helen",
     "Name": "Helen",
-    "Details": "A lush tropical world settled by predominantly Greek colonists, Helen's great claim to fame has been its remarkably beautiful and extremely diverse undersea wildlife. Though land covers just over half the planet surface, broken into eleven large island-continents and numerous smaller islands, Helen's oceans are surprisingly deep, giving rise to a wide variety of sea life, including the Great Helenic Whale. This non-mammalian shark-like predator can grow to approximately four times the size of Terra's Great White, and dominates the waters of Helen's southern hemisphere. In the days of the Star League, a sophisticated, floating marine life research platform dubbed Aquanis once studied the rich undersea wildlife of this world, but was sunk during the invasions brought on after the fall of the Star League. Rediscovered almost three kilometers below the surface of the North Helenic Ocean, off the coast of the Persephonie continent, this \"sunken city\" has become one of Helen's major tourist attractions. The planetary capital of Konstance is located on Joppa, the largest of Helen's continents, along with the bulk of the planet's lumber industries, the spaceport city of Corinth, and the military capital of Montague."
+    "Details": "A lush tropical world settled by predominantly Greek colonists, Helen's great claim to fame has been its remarkably beautiful and extremely diverse undersea wildlife. Though land covers just over half the planet surface, broken into eleven large island-co"
   },
   "Position": {
     "x": 57.45,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

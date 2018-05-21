@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Polcenigo",
     "Name": "Polcenigo",
-    "Details": "[3050] On Polcenigo, the victorious 304th Assault Cluster (the Howling Bears) actually freed the population from the grip of a tyrannical government. The ComStar briefing on the planet's defenses also mentioned, almost as an after thought, that the planet's governor had long been engaged in the illegal spice trade and had avoided the watchful eye of the ISF only by ruthlessly controlling every aspect of its citizens' lives.The Howling Bears received no response to their batchall in July 3050, and landed on the planet smack in the middle of a popular uprising. The government's battalion of new 'Mechs and a full regiment of augmented infantry found themselves under attack from two sides: the locals gained enough courage from the appearance of the Ghost Bears to launch guerrilla actions against their government's troops and supply caches, and the Ghost Bears quickly sized up the situation and concentrated their assault directly on the battalion. The defending troops retreated to a specially dug network of tunnels that extended into the mountains, and though the grateful populace made valiant efforts to aid the 304th in rooting them out, the Clan failed to account for nearly 30% of the renegade troops. The citizens gladly accepted the Clan way and the Ghost Bears' administration, and the Bears in turn protected their new caste members by posting a substantial garrison of front-line troops to Polcenigo."
+    "Details": "[3050] On Polcenigo, the victorious 304th Assault Cluster (the Howling Bears) actually freed the population from the grip of a tyrannical government. The ComStar briefing on the planet's defenses also mentioned, almost as an after thought, that the planet"
   },
   "Position": {
     "x": 109.07,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

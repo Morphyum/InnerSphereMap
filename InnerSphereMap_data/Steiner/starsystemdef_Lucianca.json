@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lucianca",
     "Name": "Lucianca",
-    "Details": "[2244] At the height of the Outer Reaches Rebellion, Lucianca was a major staging area for Terran Alliance raids against neighboring systems and had harbored close to three full divisions of Terran regulars. With the collapse of the Terran war effort, a small reserve contingent, the 151st Altairian Fusiliers replaced the regulars, who rotated home. In 2244, the Fusiliers were still on Lucianca when Hector Worthington Rowe and his band began looking to settle a score. Rowe was a veteran of the Outer Reaches Rebellion on Alexandria. Like so many veterans of past wars, Rowe could not adjust to the broken remnants of his post-war existence, his experiences having completely changed the former student's perspective on life. Rowe and many of his embittered fellow Alexandrains were searching for a way to pay back the Alliance for the destruction visited on their homeland. In 2239, Rowe formed a quasi-political club to instil Alexandrians with a rabid patriotism and a profound hatred of the Alliance. It was not long before this club became a paramilitary force seeking to strike at the Great Alliance Devil.After learning of the presence of the nearby Fusiliers on Lucianca, Rowe recruited a band of Alexandrains, the Theban Legion, to cleanse the Outer Reaches of the last vestiges of Alliance barbarism. On July 7, 2244, Rowe and his 500 followers commandeered several Jumpships, forcing the captains to chart a course for Lucianca.Disguised as a long-awaited relief convoy, Rowe's freebooters slipped past the Fusilier defenses, taking the troops completely by surprise. After personally executing the garrison commander and his executive officer, Rowe set up kangaroo courts, which condemned the surviving soldiers to death by slow torture for their actions as war criminals. Over half the garrisons soldiers were brutally murdered before one of the Jumpship captains managed to jump out of the system.Realizing that he and his followers would now be hunted down mercilessly, Rowe decided against returning to Alexandria. After giving the remaining merchantmen the option of making their fortunes beyond the stars or dying with the remainder of the Lucianca garrison, Rowe stripped the garrison of its weapons and stores and jumped into the unknown. First, however, he watched the last of the Fusiliers burn at the stake. Eventually passing through the Dark Nebula, Rowe discovered a small G5 star with a single habitable world orbiting it. He named the new world Apollo, and officially proclaimed the Rim Worlds Republic on September 8,2250."
+    "Details": "[2244] At the height of the Outer Reaches Rebellion, Lucianca was a major staging area for Terran Alliance raids against neighboring systems and had harbored close to three full divisions of Terran regulars. With the collapse of the Terran war effort, a s"
   },
   "Position": {
     "x": -96.94,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Willunga",
     "Name": "Willunga",
-    "Details": "[3058] The Clan Jade Falcon drive on Coventry targeted a number of intermediary worlds, including Willunga. Though they knew their defense would be hopeless in the face of the overwhelming Clan force, the Wilunga militia valiantly engaged the invaders, sustaining horrendous casualties."
+    "Details": "[3058] The Clan Jade Falcon drive on Coventry targeted a number of intermediary worlds, including Willunga. Though they knew their defense would be hopeless in the face of the overwhelming Clan force, the Wilunga militia valiantly engaged the invaders, su"
   },
   "Position": {
     "x": -333.73,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tabayama",
     "Name": "Tabayama",
-    "Details": "Tabayama is the capital of Galedon's Periphery prefecture.  The government employs most of the planet's population to run the prefecture bureaucracy, but a sizable number hunt in the planet's many forests for whitetail deer, the menace of Tabayama. Imported several hundred years ago by a wealthy industrialist, who loved the seemingly harmless creatures, the deer were soon breeding far too fast for him to control.  Through the decades, countless efforts to control the deer have failed.  Currently, the planet employs over two million hunters to shoot the deer, and this number is barely enough to keep the animals from overrunning the planet's croplands.  However, Tabayama has a successful industry that exports venison to other worlds. The planet's hunters have banded together to form The Hunters' International in an effort to win higher wages.  Recent ISF reports indicate that they have no antigovernment learning, however."
+    "Details": "Tabayama is the capital of Galedon's Periphery prefecture.  The government employs most of the planet's population to run the prefecture bureaucracy, but a sizable number hunt in the planet's many forests for whitetail deer, the menace of Tabayama. Import"
   },
   "Position": {
     "x": 407.56,
@@ -67,7 +67,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

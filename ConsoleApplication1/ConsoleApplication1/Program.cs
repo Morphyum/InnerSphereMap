@@ -93,28 +93,34 @@ namespace ConsoleApplication1 {
                     Faction faction;
                     string folder = "";
                     TagSet tags = new TagSet();
+                    int maxspecials = 0;
                     switch ((string)system["affiliation"]) {
                         case "Lyran Commonwealth":
+                            maxspecials++;
                             faction = Faction.Steiner;
                             folder = "Steiner";
                             tags.Add("planet_civ_innersphere");
                             break;
                         case "Free Worlds League":
+                            maxspecials++;
                             faction = Faction.Marik;
                             folder = "Marik";
                             tags.Add("planet_civ_innersphere");
                             break;
                         case "Draconis Combine":
+                            maxspecials++;
                             faction = Faction.Kurita;
                             folder = "Kurita";
                             tags.Add("planet_civ_innersphere");
                             break;
                         case "Federated Suns":
+                            maxspecials++;
                             faction = Faction.Davion;
                             folder = "Davion";
                             tags.Add("planet_civ_innersphere");
                             break;
                         case "Capellan Confederation":
+                            maxspecials++;
                             faction = Faction.Liao;
                             folder = "Liao";
                             tags.Add("planet_civ_innersphere");
@@ -125,6 +131,7 @@ namespace ConsoleApplication1 {
                             tags.Add("planet_civ_periphery");
                             break;
                         case "ComStar":
+                            maxspecials++;
                             faction = Faction.ComStar;
                             folder = "ComStar";
                             tags.Add("planet_civ_innersphere");
@@ -152,6 +159,7 @@ namespace ConsoleApplication1 {
                         case "Oberon Confederation":
                             faction = Faction.MagistracyCentrella;
                             folder = "Oberon";
+                            maxspecials++;
                             tags.Add("planet_civ_periphery");
                             tags.Add("planet_other_pirate");
                             tags.Add("planet_other_blackmarket");
@@ -164,6 +172,7 @@ namespace ConsoleApplication1 {
                         case "Circinus Federation":
                             faction = Faction.Nautilus;
                             folder = "Circinus";
+                            maxspecials++;
                             tags.Add("planet_civ_periphery");
                             tags.Add("planet_other_pirate");
                             tags.Add("planet_other_blackmarket");
@@ -191,11 +200,15 @@ namespace ConsoleApplication1 {
                     foreach (JObject newdataObject in newdataArray) {
                         if (system["name"].Equals(newdataObject["Planet_Name"])) {
                             if (!string.IsNullOrEmpty((string)newdataObject["Description"])) {
-                                details = ((string)newdataObject["Description"]).Replace("\t", "").Replace("\\","").Replace("</P>", "").Replace("<P>", "").Replace("\r", "").Replace("\n", "").Replace("</p>", "").Replace("<p>", "");
+                                details = ((string)newdataObject["Description"]).Replace("\t", "").Replace("\\", "").Replace("</P>", "").Replace("<P>", "").Replace("\r", "").Replace("\n", "").Replace("</p>", "").Replace("<p>", "");
+                                if (details.Length > 255) {
+                                    details = details.Substring(0, 255);
+                                }
                             }
                             if ((int)newdataObject["Industry"] != 0) {
                                 tags.Add("planet_industry_mining");
                                 if ((int)newdataObject["Industry"] >= 100000000) {
+                                    maxspecials++;
                                     tags.Add("planet_industry_rich");
                                 }
                                 else {
@@ -210,19 +223,25 @@ namespace ConsoleApplication1 {
                             if (!string.IsNullOrEmpty((string)newdataObject["comstar_facility"]) && !((string)newdataObject["comstar_facility"]).Equals("None")) {
                                 tags.Add("planet_industry_research");
                                 tags.Add("planet_other_comstar");
+                                maxspecials++;
                             }
                             if ((int)newdataObject["Capital_Planet"] == 1) {
                                 tags.Add("planet_other_capital");
+                                maxspecials++;
 
                             }
                             if ((long)newdataObject["population"] > 1000000000) {
                                 tags.Add("planet_pop_large");
+                                maxspecials++;
+                                maxspecials++;
                                 if ((long)newdataObject["population"] > 5000000000) {
                                     tags.Add("planet_other_megacity");
+                                    maxspecials++;
                                 }
                             }
                             else if ((int)newdataObject["population"] > 100000000) {
                                 tags.Add("planet_pop_medium");
+                                maxspecials++;
 
                             }
                             else if ((int)newdataObject["population"] > 1000000) {
@@ -238,6 +257,8 @@ namespace ConsoleApplication1 {
                             }
                             if ((int)newdataObject["Factory"] == 123) {
                                 tags.Add("planet_industry_manufacturing");
+                                maxspecials++;
+                                maxspecials++;
                             }
                             break;
                         }
@@ -273,7 +294,7 @@ namespace ConsoleApplication1 {
                     ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { 7 });
-                    ReflectionHelper.InvokePrivateMethode(def2, "set_ShopMaxSpecials", new object[] { 7 });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_ShopMaxSpecials", new object[] { maxspecials });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_SupportedBiomes", new object[] { biomes });
 
                     foreach (JObject newdataObject in newdataArray) {

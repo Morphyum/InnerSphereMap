@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Altenmarkt",
     "Name": "Altenmarkt",
-    "Details": "An ice age is currently unfolding on Altenmarkt. Massive glaciers make land movement treacherous, but 'Mechs do not have much of a problem with overheating.The small continent of Frosha is the site of Altenmarkt's industrial and political centers.[3052] The Wolf Spiders made quick work of the First Altenmarkt Brigade at Kokstad, in February 3052. They had a more difficult time defeating the First Altenmarkt 'Mech Regiment, who used the superior knowledge of the planet to their advantage for several days. The resistance fell apart when their commander was killed at Mydenberg."
+    "Details": "An ice age is currently unfolding on Altenmarkt. Massive glaciers make land movement treacherous, but 'Mechs do not have much of a problem with overheating.The small continent of Frosha is the site of Altenmarkt's industrial and political centers.[3052] T"
   },
   "Position": {
     "x": 13.69,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

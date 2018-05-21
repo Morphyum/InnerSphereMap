@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Blantleff",
     "Name": "Blantleff",
-    "Details": "[3004] Even the tiny Lothian League has used Inner Sphere tactics against the much larger Circinius Federation. Both alliances claimed the colony world of Blantleff (which the Lothians had christened with the equally strange name of Dersidatz) because each side wanted to breed a large native animal for meat. In the eleven years from 2992 to 3003, small settlements of Circinians and Lothians tended their herds and lived in peaceful coexistence. The prevailing attitude was the old Periphery philosophy that, Out here, there's room enough for everybody.This would soon change, however, for some Circinian bureaucrat who had never been to Blantleff decided one day that the planet must be either Circinian or Lothian, but that it ought to be the former. There is some evidence that the Lothian settlers were unaware of the Circinian settlers' existence prior to the conflict, as there were only a few hundred of each, living hundreds of kilometers apart.The only university-educated member of the Lothian colony, a man named Blatz, had read of the evasion tactics employed by the residents of Kentares IV to escape Jinjiro Kurita's massacre. The objective for the Lothians, as for the Kentarans, was not only to survive the search-and-destroy missions. They must also stay in touch with offworld communication centers so that the homeworld would know what was happening to them. They did so by re-tracking, that is, by following the troops that were hunting them down and keeping just out of sight behind them.The Lothians on Dersidatz were nomads who new when to expect a Dropship to bring them supplies and to take their livestock offworld, and so would send out a signal beam at the appropriate time. After the first raid by Circinian troops, the survivors sent out a distress call and shut off all power to their broadcasting equipment until the next Dropship was due. In the meantime, they moved constantly in the same direction that the Circinian attackers had taken after destroying their base, and thereby managed to move always in the wake of the people searching for them. When the Lothian ship arrived with help, the settler's distress signal led it to the Circinians' rear, which they had not bothered to secure. After the Lothian forces won a decisive victory there, the Circinians, who were busy with difficulties elsewhere, did not attempt to re-colonize."
+    "Details": "[3004] Even the tiny Lothian League has used Inner Sphere tactics against the much larger Circinius Federation. Both alliances claimed the colony world of Blantleff (which the Lothians had christened with the equally strange name of Dersidatz) because eac"
   },
   "Position": {
     "x": -467.61,
@@ -66,7 +66,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

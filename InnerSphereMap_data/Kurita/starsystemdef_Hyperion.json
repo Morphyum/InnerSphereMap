@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hyperion",
     "Name": "Hyperion",
-    "Details": "[3051] Star Colonel Erik Kerensky entered into negotiations with the government of Hyperion immediately upon entering the system in December 3051, in the hopes of winning their surrender. It is a credit to the young officer's skills of persuasion and diplomacy that when his unit landed on the planet a few days later, he was greeted by the government of the planet and the assembled First, Second and Forth Hyperion Brigades, ready to turn over their weapons.The capital of Hyperion is Ahsiz."
+    "Details": "[3051] Star Colonel Erik Kerensky entered into negotiations with the government of Hyperion immediately upon entering the system in December 3051, in the hopes of winning their surrender. It is a credit to the young officer's skills of persuasion and dipl"
   },
   "Position": {
     "x": -19.4,
@@ -65,7 +65,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

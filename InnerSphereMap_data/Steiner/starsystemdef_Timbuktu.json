@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Timbuktu",
     "Name": "Timbuktu",
-    "Details": "Timbuktu is one of the most distant planets from Tharkad.  It takes approximately four weeks to reach this world orbiting its weak red sun.  As a result, the Timbuktu population has a self-sufficient pioneer air about them.  The planet has few industries and barely produces enough food to feed itself.  Major deposits of rare minerals do exist, but are confined to the hellish Hades continent, a place whose constant volcanic activity makes mining extremely dangerous.  The planet has been attacked many times over its history, which is why the 11th Arcturan Guards are posted here. Two years ago, a neo-smallpox virus swept over the Timbuktu, killing many and weakening the rest.  Aid from the government arrived and checked the epidemic, but not before it had affected over 50 percent of the population.  As a result, the entire planet is recuperating, which does not allow for much else to be accomplished.  The Guards were affected as well.  Many of its personnel have since transferred out and new soldiers have come in to keep the regiment up to strength.[3036] Timbuktu has recently found favor as the launching point for trade runs in the region. As the world has become more popular with traders, it has also become a frequent target of pirate raids.[3046] With the discovery of germanium on the Hades continent, vital to constructing Jumpship drive cores, Timbuktu has become an even more important world."
+    "Details": "Timbuktu is one of the most distant planets from Tharkad.  It takes approximately four weeks to reach this world orbiting its weak red sun.  As a result, the Timbuktu population has a self-sufficient pioneer air about them.  The planet has few industries "
   },
   "Position": {
     "x": -446.64,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 2,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

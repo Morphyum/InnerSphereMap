@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewHessen",
     "Name": "New Hessen",
-    "Details": "Founded by Albrecht von Hesse, a successful arms and munitions merchant, the planet New Hessen began as a private commercial holding and was converted into a planet-wide battlezone-for-rent-or-lease by the Hesse family. This novel concept provided neighboring governments a suitable stage for military contests across New Hessen's vast plains and mountains, without the risk of spoiling their own lands. The enormous profits gleaned from these enterprises allowed the von Hesse family to establish the largest military-industrial complex in the Tikonov Union. Despite several occupations during the Succession Wars, New Hessen remains today a main recruiting and training center for the Capellan military, providing the Tikonov Commonality with most of its local reserves and replacements.The capital of New Hessen is Buchvaal.[3025] To attract foreign cash as well as to test new battle techniques, Chancellor Maximilian Liao personally sponsors quarterly 'Mechs games on New Hessen, similar to those on Solaris. Attracting thousands of spectators both from within and without the confederation, these games serve as a welcome relief to the mundane routine for many Capellans endure during most of the year. They also offer ready-made shopping-centers for the recruitment o new MechWarriors for Capellan mercenary units. At such times, it is customary for Capellan military units to compete for team prizes and individual awards, and the games also serve as unit evaluations."
+    "Details": "Founded by Albrecht von Hesse, a successful arms and munitions merchant, the planet New Hessen began as a private commercial holding and was converted into a planet-wide battlezone-for-rent-or-lease by the Hesse family. This novel concept provided neighbo"
   },
   "Position": {
     "x": 84.01,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 4,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",

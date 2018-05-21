@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_VonStrangsWorld",
     "Name": "Von Strang's World",
-    "Details": "A temperate world lying along the edge of the defunct Rim Worlds Republic, Von Strang's World is home to descendants of Stefan Amaris' supporters. The present population consists of literate artisans and feudal laborers devoted to the construction and maintenance of hundreds of fortifications surrounding Amaris City, the planet's capital and only major city. What once may have been a necessary defense measure has developed into an archaic social imperative to justify the continued subordination of the majority to the wishes of the Von Strang family. At present, the planet is believed to hold over 18000 inhabitants. Outside contact is discouraged, and few who visit Von Strang's World have returned. Those who have report the planet is poor in natural resources and its populace poor in individual freedoms.[3049] The Von Strang name is infamous to the Clans, and indeed, any student of the Amaris Coup. The tall, gaunt, and thoroughly evil Colonel Gunthar Von Strang (reviled as Vampire Von Strang), commanded the despised Eighteenth Amaris Chasseurs, known as the Death's Head Regiment. Von Strang and his sadistic soldiers were guilty of countless crimes during the occupation of Terra, earning them a bitter, violent end at the hands of Kerensky's liberating troops.When the Clans discovered a world apparently named after Vampire Von Strang, every Khan wanted revenge on the Vampire's descendants. Clan Jade Falcon won the bidding, with Khan Elias Critchell leading the Turkina Keshik on the assault personally. The fighting was a bitter affair, with the Jade Falcon's outnumbered by the determined and reasonably skilled Von Strang Guards. Superior Clan technology and training won the day, with Khan Critchell personally defeating Baron Von Strang. The Keshik quickly crushed the remaining pockets of resistance, giving their enemy no quarter. Khan Critchell officially renamed Amaris City as Unity City in honor of the former capital of the Star League. As an added reminder of who was in charge, the Khan ordered the body of Baron Stepan Von Strang hoisted up the flagpole to dangle, just below the banners of the Star League and of Clan Jade Falcon, until it putrefied and fell to the ground. Legend says that the body fell on the day ComStar won Tukayyid, and that as it fell, people heard Stepan Von Strang's howling laughter in the wind.<p>[3085] During the Jihad, Clan Ice Hellion launched a military campaign to capture Clan Jade Falcon's OZ. Beginning September of 3071, elements of the Ice Hellion's Beta Galaxy swiftly took Von Strang's World from its Jade Falcon defenders. However by November elements of Clan Hell's Horses Iota & Theta Galaxies overpowered the small Ice Hellion garrison and took control of the infamous planet.</p>"
+    "Details": "A temperate world lying along the edge of the defunct Rim Worlds Republic, Von Strang's World is home to descendants of Stefan Amaris' supporters. The present population consists of literate artisans and feudal laborers devoted to the construction and mai"
   },
   "Position": {
     "x": -160.07,
@@ -68,7 +68,7 @@
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 7,
+  "ShopMaxSpecials": 0,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",
