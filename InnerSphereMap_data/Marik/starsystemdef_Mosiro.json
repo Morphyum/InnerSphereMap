@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mosiro",
     "Name": "Mosiro",
-    "Details": " "
+    "Details": "Mosiro lies at the center of the Mosiro Archipelago, which also includes El Giza and Hudeiba. Primarily Arabic and Islamic in origin, the people of Mosiro tend to oppose the Marik and his cosmopolitanism in Parliament. Although the planetary government officially holds the same tolerance for religious dissent and social diversity as the rest of the Free Worlds, there are some local variances. For example, all citizens and visitors are expected to respond to the Muezzin's call to prayer. Although this is not required by law, any non-Moslems are required to apply to a government bureaucracy to be excused from the daily prayers. Moslems are given preference in employment, and 'infidels' are far less frequently promoted in their jobs.   Mosiro is not a parochial place, however. Its leadership takes pride in hearkening back to the days of the European Dark Ages of old Terra, when Moslem civilization was at its peak. Moslem architecture rises majestically from the plains of Mosiro, and the people take pride in their accomplishments in poetry, the arts, and science. Mosiro's second city, Al-Hassam, houses the most astrophysical laboratories outside Terra itself, and the capital, Al-Ilb, boasts a cultural complex that includes government archives, library, art and natural history museums, public park, hanging gardens and waterfalls, and the largest mosque in the Free Worlds, all of which combines to rival the Alhambra of old Spain on Terra.In this enlightened cultural environment, the only major theological conflict in recent decades came in the 2990's, when a group attempted to resurrect a Terran religion called Rastafarianism on Mosiro. The Rastsfarians' belief in a millennial, apocalyptic destruction of 'Babylon' (everything outside themselves), and their smoking of marijuana as a sacrament caused them to be persecuted wholesale. Since the coming of the new millennium, they have largely disappeared, having apparently gone underground until the next millennium."
   },
   "Position": {
     "x": -65.14,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

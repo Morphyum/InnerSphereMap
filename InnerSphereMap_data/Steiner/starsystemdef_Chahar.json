@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chahar",
     "Name": "Chahar",
-    "Details": " "
+    "Details": "Chahar, when first discovered in 24th century, was a lifeless world, despite the planet's large ocean and agreeable climate.  When the initial survey discovered major deposits of chemicals and metals, colonization of this barren world became more viable.  By the beginning of the next century, there existed a significant population, most of whom were employed by Trans-India Mining Industries.Chahar's inability to feed itself placed a major burden on neighboring planets until the Steiner government financed a major effort to introduce plant and animal life to the planet.  The project was a complete success, with an amazing percentage of introduced species thriving in their new environment.Today, Chahar can feed its own population and even exports some grain to other worlds. The planet has a vigorous economy that is actively courting major Commonwealth industries to open factories here. Its industries won a major economic battle with the neighboring world of Blue Hole, when Trellshire Heavy Industries built a weapons plant near Chahar's capital city, Benares.Chahar has one of the largest Hindu populations of any Lyran world, and a whole city has been set aside for the sole purpose of worship.[3025] The city of New Mannos on Chahar is the headquarters to Dobless Information Services. Having started business with information stored in a single Star League library computer system, Dobless has become the de facto storehouse of information for the Commonwealth. With centers on more than 150 worlds, each of its computers stores information comparable to over 100 billion books.The vaults deep below the main offices on Chahar are rumored to contain information storage devices that pre-date man's ability to travel in space. The rumor is that Dobless library computer contains all known information in the universe, if one knows how to access it. The company is on good terms with House Steiner, and there are rumors that CEO Jim Tobiasson will be titled at the next session of the Royal Court.  [3064] The Chahar MTM attempted to hold out for as long as possible when the Falcons attacked in early December, 3064, but against five Clusters, including Khan Marthe's own Turkina Keshik, they stood no chance. The four surviving combat commands retreated to Zhongshan sixteen days after the Falcons landed."
   },
   "Position": {
     "x": -198.53,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",

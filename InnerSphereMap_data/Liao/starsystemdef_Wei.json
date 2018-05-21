@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wei",
     "Name": "Wei",
-    "Details": " "
+    "Details": "Wei is a major source of important ores and minerals including iron, gold, copper and titanium. The capital of Wei is Vandannis City, located on the planet's southern continent.[3025] Recent intelligence pinpoints Wei as the site of a one-time Star League repository for nerve gas agents, but the exact location of the complex has not yet been determined.  Though the Capellan government does not acknowledge the repository's existence, Liao military intelligence regards the site as a potential military advantage because the threat that they might unleash the antique nerve gas against an enemy could be as effective as if they actually did so.  Capellan agents have, therefore, spread rumors about the repository despite the government's official disclaimers.[3029] When the armies of the Federated Suns invaded Wei during the Forth Succession War, the Capellan forces used the nerve gas against the Davion forces. Several hundred Davion troops succumbed to the poison, though luckily for the Davion forces it was was discovered to be UrbStyc-C, a poison designed for easy cleanup."
   },
   "Position": {
     "x": 63.84,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Susquehanna",
     "Name": "Susquehanna",
-    "Details": " "
+    "Details": "[3025] The temperate world of Susquehanna has become one of the centers of the old Scandinavian culture, as Rasalhague and Radstadt are both too overrun with Kurita operatives. Two years ago, Kurita troops broke up a Leif Erikson Day celebration sponsored by the Sons of Knute and the Chrysanthemum Cross-Cultural Appreciation Society on Susquehanna. This action fanned the flames of discontent, but no coherent response has surfaced.Prefect Cory Andrews was not notified in advance of the raid, nor did he receive official notice from Luthien afterward. Andrews is justifiably nervous, and has made few public appearances or statements since.[3050] When the Ghost Bear's 96th Battle Trinary landed in May 3050 at the location agreed to in the batchall, they discovered tat the Regal Death mercenary company had failed to show. Remembering the vanished Black Omen mercenaries on Damien, the 96th went hunting but expected to find no opposition. Bravo Star walked straight into an ambush in the Vernaw Woods, where the mercs had retreated to prepared positions upon detecting the Bears' arrival in-system. Pit traps and minefields destroyed three of Bravo's OmniMechs; concentrated weapons fire took down a forth and seriously damaged the fifth. Fortunately for the lone Ghost Bear survivor, the other two stars of the 96th arrived in time  to make short work of the mercenaries.The Bears fought with such ferocity that no Regal Death soldiers survived the assault. After this engagement, many Ghost Bear commanders declared all mercenary units dezgra, unworthy of honorable treatment and fit only for immediate destruction. Upon encountering mercenaries after the battle for Susquehanna, Ghost Bear leaders rarely bothered issuing a batchall and almost never claimed bondsmen from mercenary ranks."
   },
   "Position": {
     "x": 52.19,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Misery",
     "Name": "Misery",
-    "Details": " "
+    "Details": "Misery is a bleak world locked in an ice age. Cold and unforgiving over most of it's continents, the southern city of Laerdal is located near the magma mines. The air here has an unpleasant sulpherous tang, but at least it is warm. The northern continent is called Borealis."
   },
   "Position": {
     "x": 274.25,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Yunnah",
     "Name": "Yunnah",
-    "Details": " "
+    "Details": "A largely uninhabited world, Yunnah recently became a large medical/repair/recovery world for persons and machines seriously injured in combat. Agricultural development is minimal, nor are there any plans to develop the mineral loads in the vast mountain tracts that cover most of Yunnah's land area.  Some seafaring activity exists on Yunnah, but it appears to be part of a quasi-religious movement based as much on the spiritual harmony with the elements as in extracting a living from the sea."
   },
   "Position": {
     "x": 27.14,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

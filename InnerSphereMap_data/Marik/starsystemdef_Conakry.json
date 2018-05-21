@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Conakry",
     "Name": "Conakry",
-    "Details": " "
+    "Details": "[2963] Thaddeus Marik felt the responsibilities of the Captain-Generalcy very deeply, and his way of coping was to get away to the remote world of Conakry, where miles of virgin beaches offered him solitude. On one such holiday, while swimming, an ocean current swept him away. Although his personal guards heard his cries for help and immediately went to his rescue, Thaddeus drowned. His son, Stephan, who was quickly confirmed as Captain-General, declared a full month of official mourning."
   },
   "Position": {
     "x": -316.19,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

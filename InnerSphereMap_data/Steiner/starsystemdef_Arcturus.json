@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Arcturus",
     "Name": "Arcturus",
-    "Details": " "
+    "Details": "Arcturus is a ghost world filled with people.  When it was the capital of the Lyran Commonwealth, its many cities were filled with large, ornate buildings and the streets bustled with noisy crowds.  After the Steiners moved the capital to Tharkad, the cities of Arcturus quickly fell silent as the remaining populace moved to the countryside. Today, Arcturus is an agricultural world barely able to coax enough food from the soil to feed itself.  What few hidden resources the planet has are processed in the one remaining industrial city, Malcheema. Human beings are Arcturus's only real export.  Though the nine Arcturan Guards regiment are composed of men and women from all over the Commonwealth, tradition dictates that over a quarter of each regiment's personnel must be from Arcturus.  Though Arcturans are not particularly warlike, they have a tradition of dedication to the Lyran Commonwealth.  It is a great honor to have a son or daughter in a Guards regiment.  Native Arcturans are also eagerly recruited for armored and infantry regiments stationed throughout the Commonwealth."
   },
   "Position": {
     "x": -78.01,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

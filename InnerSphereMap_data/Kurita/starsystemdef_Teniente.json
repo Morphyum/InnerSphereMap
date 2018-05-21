@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Teniente",
     "Name": "Teniente",
-    "Details": " "
+    "Details": "[3052] The attacking Nova Cats were pleasantly surprised when Teniente's defenders responded correctly to their batchall and declared their intention of fighting according to Clan tradition. The Third and Eleventh Pesht Regulars awaited them on the Brodice Plain, a large, flat grassy stretch of land offering precious few places to conceal traps. The 449th and 489th Assault Clusters engaged their targets immediately on landing and quickly proved that the Pesht Regulars had sacrificed all advantages of their previous combat experience by trying to match the Clan fighting style. The Nova Cats were systematically wiping out the Third and eleventh 'Mech by 'Mech until Hohiro Kurita, heir to the Combine throne, assumed command of the combined regiments.Hohiro ordered the Regulars to break away from the battle, and he co-ordinated a guerrilla campaign instead, eventually sending the remaining troops to ground. The Nova Cats' enemy vanished before their eyes, and they suddenly found themselves bogged down in an apparently fruitless effort to find the Kuritans. The Third and Eleventh helped organize a resistance movement on Teniente and then supported its efforts for several long months. At the request of Hohiro's sister Omi, the Revenants, a Federated Commonwealth unit commanded by Prince Victor Steiner-Davion, eventually executed a daring raid against the Nova-cat controlled planet and spirited Hohiro Kurita and what remained of the Third and Eleventh off Teniente."
   },
   "Position": {
     "x": 185.1,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 17,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

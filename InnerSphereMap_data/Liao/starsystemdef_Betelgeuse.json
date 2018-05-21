@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Betelgeuse",
     "Name": "Betelgeuse",
-    "Details": " "
+    "Details": "One of the most fought-over worlds on Capella's rimward flank, Betelgeuse has long been coveted by House Marik. The planet is important as a major manpower source and a BattleMech production center, with over 20 commercial factory complexes in the northern hemisphere producing over 30 percent of all Capellan consumer and luxury goods. Betelgeuse also has large mineral resources.As it is such an important Capellan world, Betelgeuse is home to the regiment of Warrior House Kamata, crack troops fanatically devoted to the cause of House Liao and more than willing to defend their sacred soil to the last trooper.[3025] A relatively small but diversified company, Firmir Commercial began as a manufacturer of science and medical orientated laser systems in 2340. With the formation of the confederation and the gradual changes in social conditions, Firmir Commercial expanded its interests to include laser audio and visual entertainment systems, providing leisure goods at remarkably low cost to individual consumers.Increasingly, with the onset of the Succession Wars and the decline in average income and living standards, Firmir's ability to make inexpensive entertainment equipment has guaranteed its place in the hearts of consumers. Today, Firmir's tri-dimentional projection systems are considered prestigious luxury items throughout the Inner Sphere. Firmir is one of the few corporations to engage in direct trade with other Successor States without the high export duties levied on other firms dealing in non-Capellan markets."
   },
   "Position": {
     "x": 5.67,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

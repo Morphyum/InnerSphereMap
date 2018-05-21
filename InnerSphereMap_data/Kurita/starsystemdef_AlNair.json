@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_AlNair",
     "Name": "Al Na'ir",
-    "Details": " "
+    "Details": "The inhospitable planets in the Al Na'ir system would have been ignored if the asteroids had not been rich in rare metals.  Since Star League days, many space-mining companies have populated the asteroids. A small BattleMech factory was built in one of the asteroids, taking advantage of the zero gravity.  After the large portions of 'Mechs are constructed there, they are sent to the planet Al Na'ir to be assembled and tested.  The BattleMech facility was a joint venture by Luthien Armor Works and Alshain Weapons.  Damaged in 3010, the plant is only recently back in production. Al Na'ir itself is barren and has thin atmosphere.  Currently, two BattleMech regiments are on the planet, the 8th and 15th Dieron Regulars, both excellent fighters in Zero-G atmosphere."
   },
   "Position": {
     "x": 60.09,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +45,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 21,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nyserta",
     "Name": "Nyserta",
-    "Details": " "
+    "Details": "Clan Ghost Bear captured the world without a fight in 3049, attracted by the references to a Star League depot from within their own records - supposedly the Elysian Fields was the site of a top-secret research facility, working on Project Achilles. Beleived to be situated on Elissa, the Bears did not find the depot. Disgusted at having wasted so much time over a false lead, The Bears promptly evacuated the Elysian Fields, refusing to garrison planets that only served as a source of shame to the Clan. "
   },
   "Position": {
     "x": -17.78,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 24,
   "Owner": "Locals",
   "ContractEmployers": [
     "Locals"
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

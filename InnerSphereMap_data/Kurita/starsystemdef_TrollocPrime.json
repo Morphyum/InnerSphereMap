@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TrollocPrime",
     "Name": "Trolloc Prime",
-    "Details": " "
+    "Details": "Each successor State has its own share of tales of lost or buried treasure from the Star League era. One of the most popular legends in the Lyran Commonwealth concerns the 25th Heavy Assault Regiment. Stationed on Trolloc Prime, then the limit of the Tamar Pact, the unit was the first casualty of the First Succession War. Commanded by Colonel Jerico Marsden, one of the last descendants of Alistar Marsden, the regiment disobeyed an order to retreat and instead made a stand on the high promontory overlooking the capital city. In ferocious battles that lasted five days and nights, the 25th were wiped out, but not before slowing the advance of Lord Kurita's forces long enough to ensure the orderly withdrawal of Commonwealth forces.      Since then, many a Commonwealth soldier claims to have encountered the spector of one of the 25th's MechWarriors just before embarking on a mission against the Draconis Combine. These ghosts usually appear with their 'Mechs, and their thumbs-up gestures are an omen of good luck. Not one unit has failed a mission after seeing the ghosts of the 25th Heavy Assault Regiment."
   },
   "Position": {
     "x": 33.59,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

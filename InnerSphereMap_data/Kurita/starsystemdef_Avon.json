@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Avon",
     "Name": "Avon",
-    "Details": " "
+    "Details": "[3051] Clan Nova Cat landed on Avon in December 3051. The Second Amphigean Light Assault Group had been split into task forces to deal with the Clan invaders, but they Second knew they had only a slim chance of surviving against the 274th Battle and 449th Assault Clusters. The Nova Cats' initial assault immediately routed the Second from its positions. The Clans heavy elements pursued the defending forces while the light elements outflanked them.After hard fighting, the Second broke through a weak spot in the Nova Cat lines and headed east toward a supply cache, but arrived to find Clan Elementals guarding the much-needed material. The Cats again forced the Second to move east, which allowed the defending troops to rejoin the rest of their regiment. The battle lasted less than a day because the Cat forces never allowed the Second a chance to dig-in. The Second made its final stand at Fresno, where the massed firepower of the Nova Cats decimated the Second's meager remaining troops.[3059] Though limited in scale, the formal contest against the Nova Cats on Avon was one of the most violent engagements between the DCMS and Nova Cat forces. Avon was a front-line world, and Nova Cat honor demanded a true battle, no matter how heavily the Cats stacked the deck against themselves.The Nova Cat leadership on Avon decided to fight the battle as a series of Clan-Style Trials of Position, with Kurita forces acting as the Challenge Group for each. Because Star Colonels and Star Captains would be doing the fighting, the Clan would have to defeat all Kurita challengers to retain autonomy. If defeated, the Nova Cat forces would be absorbed into the Draconis Combine and re-deployed as SLDF units. When the Kuritan High Command then offered to pit regular warriors against the Nova Cat elite, the Clan officers intentionally bid themselves down to lesser 'Mechs or 'Mechs with a slight design flaw that the Kurita forces could exploit.In the ensuing Trials, the Nova Cats crippled three of more SLDF 'Mechs in each Trial, and were hard pressed to find a way to lose the battle. In the first Trial, the First Nova Cat Guards crippled five SLDF machines, and only managed to lose the engagement because Star Colonel Kalvin Rosse turned on his partner and crippled her 'Mech before being brought down by the remaining Forth Pesht Warrior. The rules of the melee allow such actions, giving the Star Colonel four kills in keeping with his rank. Following the battle of Avon, the Nova Cat Clusters became the SLDF Nova Cats and assisted in a major battle against Clan Smoke Jaguar in the invasion's second wave."
   },
   "Position": {
     "x": 150.08,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

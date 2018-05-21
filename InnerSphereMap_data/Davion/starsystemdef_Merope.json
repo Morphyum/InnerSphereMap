@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Merope",
     "Name": "Merope",
-    "Details": " "
+    "Details": "[2580] During the Reunification War, after months of a fairly cautious campaign, General Wexworth advanced into the Pleiades Cluster with the Star League's 4th Corps under his personal command. As expected, the Taurian defense was fierce, and the two sides fought a three-day naval duel that destroyed 13 Taurian and 15 League ships.Having disposed of the Taurian navy guarding the Pleiades, albeit at heavy cost, the 4th Corps began simultaneous landings against the industrial worlds of the cluster during May 2580. In every case, including that of Merope, the scenario was the same. After an uncontested landing, the troops would barely have time to form up before wave after wave of Concordat Regulars, seeming to have come from nowhere, began to assault the League BattleMechs with any means at their disposal.When Merope was finally pacified in September 2580, the 4th Corps effective strength had been reduced by 40%."
   },
   "Position": {
     "x": 213.25,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

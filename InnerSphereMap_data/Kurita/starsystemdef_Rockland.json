@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rockland",
     "Name": "Rockland",
-    "Details": " "
+    "Details": "[3050] The mechanized infantry regiment of the Rockland People's Army made a valiant stand against the Smoke Jaguars in March 3050, determined to die on the patch of land that served as their memorial to freedom, Liberty Park. The Jaguar OmniMechs of Delta Galaxy Trinary Command, Alpha and Bravo Stars, destroyed the poorly equipped infantry within minutes of landing.[3059] Rockland was attacked during the third wave of Operation Bulldog by the Eleventh and Sixteenth Legions of Vega, Com Guards 91st Division, Stirling's Fusiliers and the Northwind Hussars. The Jaguars Tenth Garrison Cluster offered only token resistance to the invading SLDF forces, and then abandoned the world. "
   },
   "Position": {
     "x": 149.92,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

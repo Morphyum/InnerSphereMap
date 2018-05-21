@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_York",
     "Name": "York",
-    "Details": " "
+    "Details": "[2305] York was settled by Scots-Irish refugees from the Stewart Confederacy in 2305, only to find their homes threatened by the Protectorate of Donegal in 2346. Given a choice between joining the Protectorate willingly or being forced to do so, the new generation of embittered ex-Confederates chose instead to up-ship and take off for parts unknown. [3025] York is the largest centre of Judaism in the Lyran Commonwealth. The average community is about 50% Jewish, the rest being of mixed religions."
   },
   "Position": {
     "x": -279.41,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

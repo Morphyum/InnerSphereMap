@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zhongshan",
     "Name": "Zhongshan",
-    "Details": " "
+    "Details": "[3064] The Chahar MTM had retreated to Zhongshan after five clusters of Falcon troops drove them from their homeworld in wave 3 of the Falcon Incursion. The MTM faced the Falcons once more in wave seven, again squaring off with Khan Marthe Pryde's Turkina Keshik and the First Falcon Swoop Clusters. Colonel Alicia Mason did not relish another fight, but nevertheless put up a defense against the Falcons' assault when they landed on the 26th October 3064. As with the original engagement of Chahar, Khan Pryde's warriors quickly proved their superiority over the Lyran troops, though the MTM survived through almost three weeks of hit-and-run engagements before Colonel Mason called it quits. The MTM withdrew on the 18th of November to Medallin, a move that would prove deadly for them."
   },
   "Position": {
     "x": -206.56,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

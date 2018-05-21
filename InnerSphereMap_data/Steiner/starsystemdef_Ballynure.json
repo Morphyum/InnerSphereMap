@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ballynure",
     "Name": "Ballynure",
-    "Details": " "
+    "Details": "[3064] During the Jade Falcon incursion of the Lyran Alliance, Khan Marthe Pryde initially assigned the entire Lambda Galaxy to Bullynure in May 3064. Assuming her warriors would quickly pacify the world, she hoped to use the world as a jumping-off point for her wave two assault. The Roman's Bar Hounds regiment of the Fighting Urukhai did not allow the Falcons a quick or easy victory, though. Having spent years on the Clan front, they knew they stood no chance of fighting the Falcons on an equal footing. Instead, they waged a hit-and-run campaign against the Lambda Galaxy that last almost four months. The Second Falcon Swoop and Twenty-fourth Provisional Garrison Clusters spent the first four waves on the world, hunting down the mercenaries. But in the final week of August, the mercenaries had lost more than two thirds of their number, and with no reinforcements en route, Colonel Randy Roman pulled what was left of his command off world."
   },
   "Position": {
     "x": -82.2,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

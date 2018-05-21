@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewAragon",
     "Name": "New Aragon",
-    "Details": " "
+    "Details": "New Aragon was colonized as part of a land scam during the twenty-third century. The planet was cast as a world with \"fertile ground and abundant water\" to lure buyers, when in fact most of New Aragon's two continents of Glastonbury and Dreymon were predominately swamps. To make matters worse, the land was infested with insect-like creatures carrying more diseases than could be counted.In spite of this, the colonists drained the swamplands, leaving what proved to be dynamically fertile land that was able to sustain a large farming population. Additionally, the native amphibian life became a delicacy that was soon exported as gourmet items. In addition, New Aragon became a leading center for medical research. The capital of Argos, located on the continent of Glastonbury, is home to the New Aragon Institue of Epidermiology - a leading Inner Sphere medical research facility.Of course, New Aragon has also seen its share of military action. When Davion forces, lead by Marshal Peter Davion captured New Aragon in 2930, the people rebelled against their new masters. It was not until 3013, with Hanse Davion as Military Governor, that the AFFS restored order; Prince Hanse earned his nickname \"The Fox\" whilst on New Aragon. The world's people have been staunch supporters of House Davion ever since."
   },
   "Position": {
     "x": 69.53,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

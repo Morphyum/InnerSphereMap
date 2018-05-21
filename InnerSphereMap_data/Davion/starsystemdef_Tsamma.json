@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tsamma",
     "Name": "Tsamma",
-    "Details": " "
+    "Details": "[3025] Besides being a skilled unit, the Tsamma Lancers are one of the few RCTs in the AFFS to adopt uniforms and vehicle decorations that go specifically counter to the wishes of the High Command. In accordance with a Tsamma native festival sanctioned by the New Avalon Catholic Church, soldiers adorn their bodies an vehicles with flowers to show their love of peace. What was a yearly festival celebrated by the members of the Tsamma Lancers eventually became permanent.Now Tsamma troopers are never without such flowers, whether stuck behind one ear, pinned on a jacket, or tied to their rifle. The vehicles are similarly decorated, and when real flowers are impractical, the soldiers have taken to painting bright flowers on the sides of their vehicles. The AFFS has been increasingly irritated by the sight of Atlas 'Mechs thundering across the battlefield with yellow daisies on their foreheads."
   },
   "Position": {
     "x": 447.96,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Porthos",
     "Name": "Porthos",
-    "Details": " "
+    "Details": "[3049] After serving with distinction in the War of 3039, Uchi Tikimodo retired to Porthos, where he lived peacefully until the Clans came in September 3049. Porthos had no defenses, and Clan Ghost Bear expected no resistance. Much to their surprise, they were met upon landing by Tikimodo in his Archer. He offered the Bears the chance to fight for possession of the world and the Bears immediately excepted the challenge.Star Captain Ian DelVillar won the right to the DCMS MechWarrior, squaring off his Blackhawk against the Archer. The fight was a mismatch, but Tikimodo's tenacity in the face of impossible odds so impressed Star Captain DelVillar that he agreed to employ Tikimodo as a liaison between the planetary government and Porthos's new Clan rulers."
   },
   "Position": {
     "x": 90.21,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

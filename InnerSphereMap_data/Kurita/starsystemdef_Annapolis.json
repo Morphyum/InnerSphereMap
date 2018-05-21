@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Annapolis",
     "Name": "Annapolis",
-    "Details": " "
+    "Details": "[2812] It was never clear to anyone, why General Aleksandr Kerensky took the astronomical course he did. After leaving New Earth for the Dieron system, it was assumed he was on his way to confer with the Kurita authorities. After he left Dieron without stopping planetside, everyone assumed that speculation about conferences with Minoru Kurita must be correct, as the General's next stop was Styx. This speculation ended when he jumped from Styx to Deneb Algedi, rather than Telos, the usual course towards Luthien. After that, observers lost track of the Kerensky as the Exodus fleet headed through Kuritan space, prior to arriving at New Samarkand. Though it was never understood why he gathered his troops on New Samarkand (rather than Terra, where the final battle was fought), Kerensky's final action became legend - the jump from New Samarkand into the Periphery.There is an odd sidelight to the whole Exodus though. In the backwaters of Annapolis, there is a Dropship cult, one of those religions set up by primitive tribes that worship some advanced technological development from a more sophisticated culture. Anthropologists have found the tenets of this religion follow the usual course (the miraculous visitors from the sky, their magical powers, the promise, either explicit or inferred, to return), but the anthropologists discovered something else as well.More than eight hundred kilometers from the nearest permanent structure, the natives of the Annapolis tribe have constructed a six-meter high statue of Kerensky. It is a perfect likeness carved in solid granite, a type of stone that does not appear in nature on Annapolis."
   },
   "Position": {
     "x": 164.65,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

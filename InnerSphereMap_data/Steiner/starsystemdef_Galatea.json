@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Galatea",
     "Name": "Galatea",
-    "Details": " "
+    "Details": "Until the 3030's the principal hiring hall for mercenary troops within the Inner Sphere was the so-called Mercenary's Star of Galatea. When Wolf's Dragoons took over the planet of Outreach in 3030, the governments of the Inner Sphere shifted their mercenary recruiting efforts to that world. This caused Galatea's economy to nearly collapse. The mercenary trade had been the basis of its economy, but the only units who came there now were those too inferior to compete on Outreach, or those who would not or could not go through legal channels to be hired. Where Galatea had once been the Mercenary's Star, it is now a virtual den of desperate men and women who don't care whether or not they live within the law.Unlike Outreach, those who come here recruiting do not want their presence advertised. Most of their contracts were for jobs well beyond the law of any Inner Sphere government, so as piracy, assassination, subversion or kidnapping. Galatea also runs a series of 'Mech games, from which many of the recruiters pick and chose their warriors. Unlike the duels of Solaris VII, these battles are down and dirty, and usually to the death.Galaport is the capital of Galatea, as well as being home to its major starport.[3057] Since the formation of the Chaos March and the increased difficulty in travelling to Outreach, Galatea has seen a renaissance in legitimate mercenary dealings, a process encouraged by the LAAF and supported by Mercenary Liaison Corps operations to police the deals.[3062] In early 3062, the Mercenary Review and Bonding Commission recognized Galatea's position by establishing a satellite office on the world to help maintain standards.<p>[3075] When Outreach and the Wolf’s Dragoon’s MRBC became the center of the mercenary universe, Galatea was left to suffer an economic implosion and collapse into near-obscurity. Well-known and successful outfits went to Outreach, while Galatea became a second-line hiring site, a planet for units not desperate enough to try their luck in the Periphery, but not good enough for Outreach. (The irony is that this Outreach elitism would backfire in 3067 when downtrodden mercenary units revolted against the Dragoons.)</p><p>All that changed again with the Jihad. With Outreach becoming the first target for the nuclear arsenal of the Word of Blake, the Wolf’s Dragoons crippled and the decision of the AMC to relocate their hiring business to Galatea, the Galatea’s fortunes turned for the better. Even though the first years of the Jihad were rough for the mercenary business due to the Word of Blake’s widespread use of mercenaries in actions that could only be called war crimes, extraordinary efforts by units like the Battle Corps Legion, the Langford Wraiths, and the Chaos Rrregulars gradually re-established the reputation of mercenaries. Sheer pragmatism had its role, too, as the sheer quantity of the destroyed House units forced the houses to hire mercenaries once again.</p><p>Just as its fortunes were reviving, the Word of Blake dealt Galatea a solid blow. In 3072, the Word of Blake raided Galatea disguised as Northwind Highlanders. The Blakists managed to get past system defenses.  Azazel’s Watchers, one of the infamous Shadow  Divisions, supported by Word mercenaries and WoB Protectorate Militia, conquered the world in a surprise attack. Within a matter of weeks the planetary capital, Galatean City, was under Blakist control and many of the members of the MRBC were arrested. For the last three years, Galatea has beena hotbed of resistance to the Word of Blake. Mercenaries have gone underground and formed effective resistance groups. But whatever has been thrown at them, the occupying Eleventh Word of Blake Division has held.</p>"
   },
   "Position": {
     "x": -53.77,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 12,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

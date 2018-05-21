@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Saiph",
     "Name": "Saiph",
-    "Details": " "
+    "Details": "Saiph is a sparsely inhabited, temperate planet. Heavily forested mountain ranges cover 90% of Saiph's landmass and produce numerous freshwater lakes and rivers. The heavily forested, mountainous terrain of the world has discouraged development, and the planet's population rely primarily on mining, subsistence farming, livestock herding and hunting to provide the necessities of life. Two small cities and a few small communities are scattered among the mountain ranges, along with the planet's two small spaceports."
   },
   "Position": {
     "x": 4.64,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

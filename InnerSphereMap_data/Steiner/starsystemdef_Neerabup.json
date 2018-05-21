@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Neerabup",
     "Name": "Neerabup",
-    "Details": " "
+    "Details": "[3062] The Clan Jade Falcon drive on Coventry targeted a number of intermediary worlds, including Neerabup. Though they knew their defense would be hopeless in the face of the overwhelming Clan force, the Neerabup militia valiantly engaged the invaders, sustaining horrendous casualties. The courage of the militia impressed the Jade Falcons, and the survivors were taken as bondsmen with a view to inducting them into the Falcon Touman.However, the Falcon's hegira from Coventry prompted them to release all bondsmen taken in the campaign, including the Neerabup survivors. Surprisingly, a few militia warriors chose to remain with the Falcons. In the four years since the assault, the militia has managed to rebuild, but progress has been slow.Colonel Mary Polk took command of the reformed militia in 3059, charged with overseeing its reconstruction. She has struggled to overcome the us and them mentality that separates those survivors of the original militia who were captured by the Falcons and the new recruits assigned to the unit. Fortunately, the standard rotation of troops through the militia has worked in her favor.Colonel Abigail Coombes, the commander of the Neerabup MTM Infantry Brigade, is the highest ranked survivor of the Falcon assault on Neerabup, having served as a Kommandant in the Ninth Howick MR. Captured by a Headhunter Star, Coombes was badly injured and spent most of her time as a bondsman in the infirmary. As such, she lacks many of the psychological scars common to released bondsmen, though she shares their hatred of the Clans."
   },
   "Position": {
     "x": -339.19,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

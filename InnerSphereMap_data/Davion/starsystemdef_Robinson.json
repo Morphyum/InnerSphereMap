@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Robinson",
     "Name": "Robinson",
-    "Details": " "
+    "Details": "Robinson is a large, temperate world. The planet's fertile black soil attracted colonists early in the Exodus, but it did not take long before they realized that Robinson's real treasures were its hidden deposits of oil, precious metals, and rare minerals.As a result, the farmers, who had already claimed a majority of the available lands, came into conflict with foreign companies eager to get at the hidden wealth. The crisis collapsed the planetary government, and brought David Sandoval, distinguished commander of the planetary militia, to prominence. After assuming the title Lord Protector and taking control of the remnants of government, Sandoval then seized the assets and properties of the foreign companies. He justified this with the claim that their negative influence had affected the quality of life on Robinson, and it was his duty to defend his world against them.Lord Protector Sandoval then worked out a radical land reform bill that would gradually free more land for government exploitation every time land was bought or sold. The government eventually made a fortune mining the lands acquired through these transactions. The land-reform bill also made the Sandovals rich because they owned the only oil and mineral drilling company legally authorized to dig for resources on government land.More conservative policies eventually balanced the situation toward property owners again, but the Sandoval family had, meanwhile, become the planet's noble rulers. Robinson, because of its political and economic importance, soon became the focus of considerable traffic. When the Federated Suns was split among the Five Princes, Robinson became the capital of the Terran March. The Sandovals' power continued through the chaos of the Five Princes Era. They even survived the Civil Wars with their titles intact, despite the fact that the Sandovals had been staunch Rostov supporters. As a result of the reorganization of the Federated Suns after the Civil War, Robinson became the capital of a greatly enlarged Draconis March.Robinson has since lost a substantial portion of its surface to mining operations, which has limited its ability to export raw materials and grow its own foods. In exchange, Robinson quickly became a major industrial center. During the good years of the Star League, Robinson was a major source of finished metal products used in the construction of JumpShips and DropShips. It also had many smaller industries producing consumer items such as personal vehicles and appliances.With the collapse of the Star League, Robinson fell before the invading Draconis Combine forces as they penetrated deep into the Federated Suns. The Kurita forces destroyed most of the planet's heavy industries in an effort to break the population's will to resist. Though many died of starvation or became military casualties, the people of Robinson mounted countless attacks against the Kurita occupiers. Robinson was eventually liberated, but not before 70 percent of the planet's industrial capacity had been destroyed. Only recently has the damage of the first war been repaired enough to bring the planet's industrial might near to its earlier levels.Robinson is also the center of Judaism in the Federated Suns. The famed Yeshiva of New Tel Aviv has continued its centuries-long study of the Talmud. Study at the Yeshiva is funded in large part by the nobility of Robinson and by the donations of the realm's many believers.The Battle Academy has just recently come back from years of disuse and war damage. At the start of the First Succession War, the Battle Academy had just graduated its first class of officers. When the Draconis Combine took Robinson, the conquering soldiers gave special attention to the Battle Academy. In a series of actions intended to demoralize the people of Robinson, the Occupation Administrators of the Draconis Combine forced the few cadets who had not perished in the invasion to tear down the buildings of the Battle Academy with their bare hands. That it was impossible did not matter to the Kuritans.It has taken these many years for the Battle Academy to be fully rebuilt and restated. In 3020, with the Robinson economy entering a prosperous period, the Sandoval family, Dukes of the planet and nominal controllers of the entire Draconis March, decided to reconstruct the school. They spared no effort to make it equal to anything at Albion or the College of Military Sciences on New Avalon.The Battle Academy is currently commanded by Colonel David Sandoval. "
   },
   "Position": {
     "x": 232.72,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_capital",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +45,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Davion",
   "ContractEmployers": [

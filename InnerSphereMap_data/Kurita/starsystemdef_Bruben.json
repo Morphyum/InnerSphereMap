@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bruben",
     "Name": "Bruben",
-    "Details": " "
+    "Details": "[3050] The attack on Bruben in June 3050, marked the first appearance of Epsilon Galaxy on the front lines of Clan Wolf's offensive. This was a significant event, as it indicated Clan Wolf's trust in its ageing and freebirth warriors and further demonstrated Clan Wolf's resolve to outperform the other Clans', no matter what it took.The First Bruben Dragoons, and First and Third Bruben Civil Militia fought valiantly for their world, but were no match for Trinaries Nineteenth and Twentieth, of Epsilon's Dorbeng Cluster."
   },
   "Position": {
     "x": -5.7,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

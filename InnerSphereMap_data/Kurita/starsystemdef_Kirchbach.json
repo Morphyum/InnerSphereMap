@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kirchbach",
     "Name": "Kirchbach",
-    "Details": " "
+    "Details": "[3028] During the Forth Succession War, Kirchbach was one of the targets of the second wave. A Prefecture capital, and thus an important military target, the battle that unfolded on the plains near the capital of Östersund held much greater meaning for the local population. When the Lyran forces landed on Kirchbach, they unveiled a completely unknown regiment. The Tyr Regiment was made up of assault 'Mechs, painted dark blue and bearing the emblem of the Tyr underground movement; a gold viking helm set above a silver star representing the Rasalhague Principality. To both the locals and Combine defenders, the appearance of this regiment seemed almost miraculous. Their arrival and subsequent victory over the defending Seventeenth Rasalhague Regulars galvanized the Rasalhague loyalists into beginning riots and worker strikes across the entire planet. This, combined with planned sabotage by the Tyr underground, paralyzed the planet's economy, transportation and administration systems and made the Combine defenders feel as if they were fighting on enemy soil. The two-pronged approach to conquering the planet succeeded better than either the Tyrs or the Lyrans had hoped.[3050] Clan Wolf landed on Kirchbach in June 3050. Defending the world were the Third Kavelleri, and the First Kirchbach Armored Regiment. The Wolf warriors used the local media to their advantage as the advanced towards the Kavelleri. The inexperienced defenders were so terrified by the Wolf propaganda that when the two sides finally faced each other at the snow-covered Thorson's Hollow, the Kavelleri panicked and fled. Överste Barrie Fraga managed to escape offworld with a battalion of her 'Mechs.[3054] As part of their plan to build a 'Mech plant on Kirchbach, Swedenborg Heavy Industries first constructed a ballistic weaponry facility, which was to provide components for the Free Republic's other factories while the rest of the complex was built. The Wolf Clan's invasion put a stop to production. ComStar believes that Clan Wolf may be trading components to the Ghost Bears from the Kirchbach and Rasalhague factories for the armored vehicle plant on Spittal held by Clan Ghost Bear. In exchange, the Wolves receive electronics from Trondheim for use in the 'Mechs they produce on Satalice."
   },
   "Position": {
     "x": -39.05,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

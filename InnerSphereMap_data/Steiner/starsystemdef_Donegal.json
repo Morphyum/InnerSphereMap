@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Donegal",
     "Name": "Donegal",
-    "Details": " "
+    "Details": "The planet Donegal was Seth Marsden's destination after he resigned from Ian McQuiston's trading company. Having seen early reports of the world's abundant resources and strategic location, he knew that Donegal would one day become an important and profitable world. By taking ownership of it, Mardsen ensured the success of his own trading company and spurred the eventual creation of the entire Protectorate of Donegal.The planet is a mostly temperate world filled with unusual vegetation and wildlife, some of which are exported to other worlds for their food value. Beneath the surface of Donegal are rich deposits of industrial diamonds, rare earths, and metals, which are heavily exploited.Donegal is known as the 'Trader's World', and has spawned dozens of importing and exporting companies. Media City, Wellington, Sidley, Palar, and Novorossisk are the main trading centers, spread out over three continents. Donegal also has two working space settlements in orbit around lagrange points. They are a shabby pair, however, nicknamed 'the Tin Cans' and tending to attract traders of a seedier sort.The fact that Donegal hosts the most active Commonwealth Stock Exchange is a sign of its political and economic importance. Donegal is also the home of the Supreme Court of the Commonwealth.Donegal is also the one of the main centres of Judaism in the Commonwealth. The Ohav Shalom is a huge, ornate synagogue and teaching campus, situated against the sun-baked mountains of the planet's northern continent.The University of Washington on Donegal is House Steiner's computer research center. Heavily funded by Nashan Computers, this university nestles amid the Queen Anne Hills of the Seattle continent and is equipped with probably the best computer science facility in the entire Inner Sphere. Though tuition fees are high, enough scholarships and government grants are awarded to ensure that every class is filled.Another famous institution located on Donegal, is the Chewska School of Literature, one of the Commonwealths most prestigious arts colleges.Located in Media City, the Donegal Broadcasting Company is the Commonwealth's major news and information outlet. The most viable division of the DBC is the Commonwealth Press, whose reports and cameramen are assigned to most of the major Steiner worlds, where they supply highly opinionated stories  for dissemination by holo, newsprint, radio, and video mass media. The DBC's nightly program, The Evening News, is the most widely watched news program in the realm. The anchor of the show, Kari Andersen, is arguably the most recognizable personality in the Commonwealth. both his critics and fans would probably agree that Andersen could make people believe Lord Kurita is a true humanitarian, and that JumpShips are powered by little hamsters running in exercise wheels."
   },
   "Position": {
     "x": -182.41,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

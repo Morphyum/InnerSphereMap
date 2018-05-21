@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bithinia",
     "Name": "Bithinia",
-    "Details": " "
+    "Details": "One of the largest planetary-wide entertainment centers in the Confederation, Bithinia is an exclusive tourist spot catering to the richest families in (and out) of Capellan space.  It also supports itself with extensive iron and steel facilities in its southern hemisphere.  The Matsukai Warrior House regiment guards these facilities and maintains training and repair facilities on the planet. Recent evidence suggests a new underground AeroSpace maintenance facility near the planet's southern pole.Bithinia's massive steel mills made it an obvious choice for a factory during the rebuilding that followed in the wake of the Forth Succession War. Bithinian Ballistics chose to build its autocannon factory alongside a large refinery. While convenient for production, it makes for awkward defence. The refinery complex is extensive and reinforced enough to make an ideal base for any invader wanting to take the nearby ballistics plant."
   },
   "Position": {
     "x": -18.88,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

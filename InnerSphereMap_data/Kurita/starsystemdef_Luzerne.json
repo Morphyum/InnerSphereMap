@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Luzerne",
     "Name": "Luzerne",
-    "Details": " "
+    "Details": "[3050] Clan Smoke Jaguar landed on Luzerne in August 3050. Defending the world were the survivors of the Ninth Alshain Regulars from Jarett. Badly pounded by the Ghost Bears, the Ninth had learned Clan tactics the hard way. Both Jaguar Trinaries walked into a well-orchestrated crossfire in Topeka Bay. Unfortunately for the Ninth, the Clan forces managed to force their way out of the firing zone and circle behind the Ninth. The Regulars fled north, taking heavy casualties. When they arrived at Lawrence Pass, the route through the last mountain range that separated them from Luzerne's capital city and spaceport, the Smoke Jaguars fired down on the Ninth from the walls of the pass and virtually destroyed the unit.[3055] On July 7 3055, the DCMS and Explorer Corps staged a daring raid against the Smoke Jaguar command post on Luzerne. The outcome of this raid added considerably to the Inner Sphere's knowledge of Clan equipment, particularly of their naval vessels.[3059] Though the world of Luzerne boosted few resources and virtually no military industry, the world became the site of one of the stiffest challenges the SLDF faced during the entirety of Operation Bulldog. A disastrous approach resulted in a WarShip battle, and only half of the assault force made it to the planet's surface. Expecting to meet the 4th Provisional Garrison Cluster, the SLDF force found itself facing the newly formed front-line Sixth Striker Cluster as well. The Jaguars scattered the SLDF units across the face of the planet, and within hours it seemed that Luzerne would become the final graveyard for the Third Davion Guards RCT and ComStar's 208th Division. One of three SLDF bastions during the five-week battle for Luzerne, the town of Thün became a focus for many SLDF forces on the planet. Survivors of both the Davion Guards and Com Guard Division formed an ad-hoc combined-arms force approximately two battalions strong. Perhaps the strongest ally of the SLDF unit was the nature of the Jaguar foe it faced. As a front-line unit, the Sixth Striker. Assumed command, but they were both new to the world and incomplete as a unit. While not much of an obstacle to the hunter-killer missions staged against the stragglers, these handicaps proved a major hindrance when planning assaults on the SLDF strongholds.The battle for Thün was bloody for both sides, with neither force holding a decisive advantage. A handful of Clan 'Mechs broke through the perimeter, causing considerable damage to the heart of the town, but that damage was minor compared to the outskirts, where the battle raged for hours. In the end, the Jaguars withdrew and the two sides settled into a siege pattern, broken by occasional raids. It took the arrival of the Ryuken-Roku on the 1st August to break the cycle and tilt the advantage decisively in favor of the SLDF."
   },
   "Position": {
     "x": 124.32,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

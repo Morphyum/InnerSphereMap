@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dustball",
     "Name": "Dustball",
-    "Details": " "
+    "Details": "Dustball: where the elite meet, greet, and satisfy their most wicked desires.  Though not very subtle, Dustball's slogan is certainly not false.  It is exactly as its advertisements promise, and then some.A small planet, Dustball bakes under its huge and hot sun. The early colonists put up with the brutal heat and lack of water because surveys indicated the presence of rich deposits of gemstones in the ground.  When the reports proved false, most of the miners packed up and left.The Malthus family did not.  Moderately rich, intelligent, and not above criminal activity, its members decided to build a complex of exotic casinos, nightclubs, and hotels near the main spaceport.  When the idea proved successful, the Malthus family expanded their facilities to service more and more tourists who came to sample Dustball's pleasures.  Currently, there are five domed cities on the planet, each with its own theme of pleasures.  Much of the money earned here is only semi-legal.  The Malthus family does not worry about that because they are blackmailing so many of the government officials, military officers, and other public figures who once foolishly satisfied their most wicked desires on Dustball.[3025] The city of New Monaco is home to the headquarters of Malthus Gambling Unlimited, the legal front for the largest organized crime family in the Lyran Commonwealth. Using the firm as a means to gain entry onto planets, the Malthus family, then starts the gradual build-up of various criminal schemes, all aimed at gaining money and power. This infestation was especially effective on three planets around the family's homeworld of Dustball. The Lyran government threw the company's stock off the Exchange in 3021 when it was finally able to prove that Malthus had not paid taxes to the Commonwealth for 20 years. Steiner agents of the Organized Crime Unit have been unable to infiltrate the family business structure, which is an airtight organization.[3054] Due to the Clan War, the once infamous night clubs of Dustball are a thing of the past. When the Clans occupied a world only a jump away, civilian patronage of the Dustball resorts dwindled away to nothing. Recognizing her chance to damage the criminal Malthus family by closing down their businesses here, Archon Melissa Steiner-Davion decreed that no armed-services personnel were allowed to spend their leave on Dustball. Because Kooken's Pleasure Pit is so near, the troops of the Commonwealth are not to upset by this rule. Now the huge, empty casinos host only 'Mech battles."
   },
   "Position": {
     "x": -104.48,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 21,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

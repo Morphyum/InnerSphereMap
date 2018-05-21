@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tigress",
     "Name": "Tigress",
-    "Details": " "
+    "Details": "[3025] Tigress, or Laurel's World as it is also known, is a private fiefdom that Tormax Liao granted in perpetuity to the family of Erika Laurel, one of the Confederation's best military leaders of the Third Succession War. It is now the ancestral home of Mandrissa Judith Laurel and homeworld to the all-female mercenary regiment known as Laurel's Legion. Laurel's World is highly industrialized for its small size, and its inhabitants enjoy the highest per capita income and the highest standard of living of any of the Confederation's citizenry. Laurel's World recently became home base for the Warrior House Hiritsu regiment.The capital of Four Cities, a heavily industrialized city at the equator, supplies most of the planet's power from 20 fusion reactors."
   },
   "Position": {
     "x": 74.69,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

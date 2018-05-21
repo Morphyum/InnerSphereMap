@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewCapetown",
     "Name": "New Capetown",
-    "Details": " "
+    "Details": "[3025] New Capetown is home to the sect of New Calvinism. The inhabitants of this world trace their ancestry to white South Afrikaaners, the instigators of one of the most repressive regimes of the 20th century. The New Capetowners have retained much of their ancestors' bigotry, making the place distasteful to the vast majority of Commonwealth citizens. A number of churches have sponsored a movement to have New Capetown declared a tyranny, which would require that the Steiner government step in and remove the repressive regime.The Royal New Capetown Military Academy has caused the Commonwealth government much trouble recently. Due to the planets racism problem, House Steiner has had to route potential officers of non-white races to academies on other worlds. this is both expensive and inefficient, with the government having to transport young cadets round the Commonwealth while classrooms in the Royal Academy go half-filled and sometimes empty. Worse, the hate-philosophy works its evil on the impressionable young white cadets that remain, and so the system is perpetuated.In response, Archon Katrina Steiner has appointed two new commanders for the academy. One is Leutnant-General Nils Steiner-Davis. The other, Leutnant-General Cythia Franks, is an imposing black woman descended from the famous Black Pearl. While this move has alienated the academy from the rest of the planet, it has put a lid on the hate-philosophy among the students. Recent terrorist attacks aimed at the commanders and the school have increased the tension on the planet dramatically.[3062] Katrina Steiner's efforts with the academy led to a wide-spread reform movement, which in turn led to a brief civil war in the mid 3030's that toppled the extremist government. Pockets of racism still exist on New Capetown, but today cadets of all creeds and colors are accepted at the Royal New Capetown Military Academy, which has become a shining example of reform in the Lyran State."
   },
   "Position": {
     "x": -252.05,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

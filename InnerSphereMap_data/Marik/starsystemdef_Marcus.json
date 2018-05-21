@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Marcus",
     "Name": "Marcus",
-    "Details": " "
+    "Details": "Marcus's terrain is comprised of low, rolling hills.[3057] Together with the Fifth Marik Militia and the Twelfth Atrean Dragoons, the Seventh Free Worlds Legionnaires attacked the Federated Commonwealth world of Marcus in September 3057, as part of Operation Guerrero. The conflict proved to be a baptism of fire for the Seventh Legionnaires, nicknamed The Steadfast, who were the least experienced element in the League forces.Their opponents were the Twelfth FedCom RCT, also green troops. After six days of fighting, Hauptmann General Carl Bert-Gregg of the Twelfth realized his situation was untenable, but the sheer numbers of League troops made it impossible for him to withdraw. In desperation, he sent his single 'Mech regiment on a near-suicidal charge, hoping to disrupt the League offensive long enough to allow his auxiliary armor and infantry to retreat and evacuate important members of the planetary government.The Seventh Legionnaire bore the brunt of the charge, later known as the Battle of Cabot's Stand. Despite serious losses, they held long enough for the Atrean Dragoons and the Marik Militia to circle behind the enemy 'Mechs and cut off any hope of retreat. With the rest of the unit evacuated and their mission complete, the 'Mech regiment of the Twelfth RCT surrendered. Almost a third of the Legionnaires were dead or badly injured, with most of the casualties taken in the bitter fighting of the last day. Among the losses was the unit's commander, General James Cabot, but the Legionnaires lived up to the heritage of their name and stood their ground."
   },
   "Position": {
     "x": -58.94,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

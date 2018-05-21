@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brusett",
     "Name": "Brusett",
-    "Details": " "
+    "Details": "[2581] In July 2581, During the Reunification War, the Star League's 4th Corps advanced on Brusett. Though the 16th and 19th Tamara Regulars were expecting a costly encounter on the plains of Abraham, they found the area empty as they reached the cities of Malachi and Remington. The Taurians had seemingly abandoned the cities, presumably to hide in the hills. Within a week after their unopposed occupation of the cities, over three-quarters of the invasion force died from massive doses of a slow-acting poison that had been introduced into the supplies. In all, over six thousand League troopers died before medical personnel developed an antidote to the poison."
   },
   "Position": {
     "x": 245.56,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cusset",
     "Name": "Cusset",
-    "Details": " "
+    "Details": "The city of Xano, on Cusset, is the headquarters of Interstellar Harvesters. Though it began as an agricultural equipment company, Interstellar Harvesters now also produces heavy equipment for other industries such as mining, metalworking, and construction.Over-diversification and some mismanagement ran the company into financial trouble in recent years, but a bloodless coup in the executive offices eliminated much of the problem. Anyone calling and asking for Yosi Hikosura, the former company president, is told to try the Naga Monastery, to which Hikosura abruptly retreated.[3051] The freebirth warriors of the Choyer and Gurbeng Garrison Clusters had little difficulty defeating the militia of Cusset, when they landed on the world in November 3051. The warriors did, however, face the Cusset Crud, a virulent virus that even the Clans superb medical skills could not fully control.[3065] During the Falcon Incursion, Khan Vladimir Ward's Wolves attempted to make inroads into the Falcon's Occupation Zone. Unlike the Coventry Campaign of seven years previously, Khan Marthe Pryde was ready for a Wolf attack into her OZ and had troops in reserve, which she then sent to counterattack the Wolves in their own territory.The 124th Striker Cluster landed on Cusset during June 3065, forcing the 20th Wolf Regulars to withdraw, whilst suffering serious damage to themselves."
   },
   "Position": {
     "x": -49.38,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

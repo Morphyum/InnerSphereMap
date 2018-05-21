@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Umka",
     "Name": "Umka",
-    "Details": " "
+    "Details": "[2577] The Star League's second target of the Reunification War against the Magistracy of Canopus, was the provincial trading center of Umka, whose numerous small island chains required a series of search-and-destroy missions that lasted from August to the end of October.[3025] The Kerr-McGinnis armor works developed a bad reputation almost from its founding during the Age of War six hundred years ago. The reactor shielding it produces is rumored to fail under stress in field conditions, but this allegation has never been conclusively proven.The number of failures has prompted the Ministry of Energy to investigate possible improprieties in the production practices of the Kerr-McGinniss plant. This has partially satisfied the company's small but vocal opposition whose rallying cry A thousand years of bad press can't all be wrong! may bear more than a germ of truth. "
   },
   "Position": {
     "x": -129.75,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",

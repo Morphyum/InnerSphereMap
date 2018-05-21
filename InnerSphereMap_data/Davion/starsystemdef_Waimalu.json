@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Waimalu",
     "Name": "Waimalu",
-    "Details": " "
+    "Details": "[3025] Recent rumors from New Avalon tell that Archernar BattleMechs might open a small factory on Waimalu. In the past decade, deposits of rare metals have been discovered on this poor world, and so it would benefit the planet should Archernar open a factory there. The two obstacles that might prevent it are the lack of sufficient water and Waimalu Fever, an unconquered virus that kills one out of every two visitors to the planet."
   },
   "Position": {
     "x": 408.14,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

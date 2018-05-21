@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sadachbia",
     "Name": "Sadachbia",
-    "Details": " "
+    "Details": "A quiet, but hot, agricultural world with only the most modest of industrial capacity, most of Sadachbia's inland areas are little more than sun-drenched desert plains. The early colonists mostly settled on the many islands and shores of the northern hemisphere, where the land is most arable and the growing season abnormally long, due to the planet's axial tilt and wind/ocean currents. Ocean-going vessels keep the lines of trade and communication open between the scattered settlements, with the core of planetary commercial and industrial energies, the spaceport city of Kamalabad, forming the hub of all traffic. Kamalabad is located on the northwestern peninsula of Grangi, Sadachbia's largest northern continent. The planetary capital of Jalna'ir is located on the nearby island-continent of Banade. The planet also has one medium-sized equatorial continent, called Lossa, and two southern continents known as Dharma and Shoquelle. These continents support far fewer settlements than Grangi and Banade, largely due to the fact that they are either too warm during the summer months or because their terrain is too treacherous."
   },
   "Position": {
     "x": 80.59,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

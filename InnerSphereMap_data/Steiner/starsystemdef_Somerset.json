@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Somerset",
     "Name": "Somerset",
-    "Details": " "
+    "Details": "[2386] After being forced from their colony on Loxley in 2378 by the Lyran Commonwealth, Less than 1,500 Confederates - 10% of the original population - managed to survive the carnage, escaping in a lone Jumpship. No longer nursing any hopes of peaceful coexistence in the Inner Sphere, the Confederates headed into the Periphery.In March 2386, with half their number dead from sickness and starvation, the Confederates arrived at a small K5 star system near the edge of the dark nebula. Naming the orange-red star's single world Somerset, the Confederate's dared anyone ever to try to push them off their world again.For the best part of the next 400 years it appeared that the Confederates had succeeded in breaking the curse over them. Apart from a few run-ins with the Rim Worlds Republic government, the Confederates lived as they chose. All this came to an end in 2767 when General Kerensky launched his assault against the Republic during the Amaris crisis. Once again the Confederates were forced to flee, once more heading off into the unknown of the Periphery in a further attempt to rebuild their lives.[3025] Today the world is home to the Military Academy of Somerset, a small university devoted to training only MechWarriors and AeroSpace pilots."
   },
   "Position": {
     "x": -159.48,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

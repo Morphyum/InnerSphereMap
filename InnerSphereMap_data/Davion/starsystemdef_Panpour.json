@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Panpour",
     "Name": "Panpour",
-    "Details": " "
+    "Details": "[3025] with its head office located in the city of Amritsar, Jalastar is one of the Federated Suns's major aerospace manufacturers. Early in the Star League days, the company acquired the rights to manufacture fighters for the Regular Army and so became privy to secret designs. One of these was the Sparrowhawk. When the Star League fell, Jalastar did not hesitate to manufacture the swift yet potent light AeroSpace Fighter for the Federated Suns.Jalastar is currently in a state of confusion. An unknown financial giant (suspected to be Federated Boeing) is attempting to buy up a controlling share of the company. The effort to stave off the takeover has drained money from the company's many research projects at just the moment when a new lighter engine for the Sparrowhawk was near completion."
   },
   "Position": {
     "x": 342.49,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +145,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

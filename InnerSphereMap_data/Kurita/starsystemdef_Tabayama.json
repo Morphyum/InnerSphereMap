@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tabayama",
     "Name": "Tabayama",
-    "Details": " "
+    "Details": "Tabayama is the capital of Galedon's Periphery prefecture.  The government employs most of the planet's population to run the prefecture bureaucracy, but a sizable number hunt in the planet's many forests for whitetail deer, the menace of Tabayama. Imported several hundred years ago by a wealthy industrialist, who loved the seemingly harmless creatures, the deer were soon breeding far too fast for him to control.  Through the decades, countless efforts to control the deer have failed.  Currently, the planet employs over two million hunters to shoot the deer, and this number is barely enough to keep the animals from overrunning the planet's croplands.  However, Tabayama has a successful industry that exports venison to other worlds. The planet's hunters have banded together to form The Hunters' International in an effort to win higher wages.  Recent ISF reports indicate that they have no antigovernment learning, however."
   },
   "Position": {
     "x": 407.56,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

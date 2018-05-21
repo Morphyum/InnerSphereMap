@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewOslo",
     "Name": "New Oslo",
-    "Details": " "
+    "Details": "[3025] The city of Camden is home to the head office of Galileo Instruments. Beginning as a manufacturer of control equipment for spacecraft, Galileo diversified into sophisticated electronic systems for a variety of applications. Former CEO Phillip Diashai had a minor failing-out with the military procurement board about the time the government was splitting into military and civilian divisions. Diashai chose to give up the guidance systems section of the firm in order to remain civilian. The company has overcome the financial setback of losing 60 percent of its line, and now excels at producing electronic equipment and an innovative line of agricultural electronics, most notably the Automatic Self-Harvesting Hydroponics Farm.[3050] New Oslo was a key world for the Wolves because it was the site of the only functioning BattleMech factory in the FRR. A lack of frontline troops for the assault forced Khan Ulric Kerensky to take a great risk and deploy members of the Veteran Guards as the invasion force for this target in July 3050.The Wolf forces of the Green Keshik, Trinaries Seventeenth, Eighteenth, Nineteenth, and Twentieth (of Epsilon Galaxy's Dorbeng Cluster) fought pitched battles at Lillehammer and at Ringsaker Valley, just kilometers away from the prized 'Mech Factory. The First New Olso Armored Division and the GKT Volunteer Regiment (Archer and Panther 'Mechs from the GKT factory piloted by retirees and veterans), fought well against the Wolves, but the Veteran Guards did not disappoint their Khan. The defenders did buy enough time for the majority of the factory to be dismantled and relocated prior to its capture."
   },
   "Position": {
     "x": 15.24,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

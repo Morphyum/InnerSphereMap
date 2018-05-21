@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Praxton",
     "Name": "Praxton",
-    "Details": " "
+    "Details": "Praxton is the only industrialized planet in the Outworlds not located near the center of Alliance space. The value of the fusion engines built here and the short transit time from the system's jump points, make Praxton a prime target for Periphery raiders. The standing orders of the units stationed here forbid the troops to go to the aid of nearby worlds under attack. Pirates in the area try to decoy the defenders of the Praxton factories away with diversionary raids on neighboring worlds, but the power plants produced by Praxton Fusion are simply too valuable to endanger.This policy has not endeared the president to the people of the Alliance."
   },
   "Position": {
     "x": 547.41,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Betrayers",
   "ContractEmployers": [
     "Betrayers",
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

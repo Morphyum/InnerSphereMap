@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kagoshima",
     "Name": "Kagoshima",
-    "Details": " "
+    "Details": "The capital city of Kagoshima is Kuroda.[3059] Located on Kagoshima, the Wisdom of the Dragon (WD) is one of the few finishing universities in the Draconis Combine. Cadets who have already completed two to four years of training in a military academy may attend the university to hone their skills in strategy and command. Like the Sun Zhang MechWarrior Academy, the WD turns out warriors who are considered the elite of the DCMS.Though the Wisdom of the Dragon university is officially open to all Combine citizens who meet its physical and mental entry requirements, only officer candidates attend this university, and most of these are fresh from another academy, are have already spent several years in the ranks of the DCMS. In addition, an applicant must have the highest marks from his or her academy class or be sponsored by a DCMS field officer of Tai-sa rank or higher.WD specializes in teaching leadership, tactics and strategy. Beyond those subjects, cadets are encouraged to choose elective training in a variety of skills that support their chosen speciality. WD devotes most of its resources to MechWarriors, but in recent years has expanded its courses for cavalry and infantry fields, as well as the newly developed battlesuit field.The atmosphere at Wisdom of the Dragon has an intensity unmatched in other Combine academies and universities, including Sun Zhang. No matter what the field, a cadet's course of study pushes the cadet to the limits of his or her physical and mental endurance. In addition, cadets must cope with the intense social pressure to follow the ancient traditions on which the Draconis Combine was founded. The university's rigorous adherence to the precepts of bushido exceeds that of any other university, and instructors stress loyalty to House Kurita above all. Theodore Kurita's reforms have met fierce resistance from the university's instructors, who routinely penalize students for using tactics they consider improper. But despite the die-hards, university policy is slowly changing to conform with the Coordinator's wishes.The graduation ceremony is a grand affair, and takes place in the Coordinator's presence; The Coordinator himself awards each graduate the coveted katana and wakizashi. Graduates are expected to serve the DCMS with honor and bravery and follow the tenets of bushido at all times."
   },
   "Position": {
     "x": 201.11,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

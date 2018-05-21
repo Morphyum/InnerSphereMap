@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewHome",
     "Name": "New Home",
-    "Details": " "
+    "Details": "New Home has been fertile ground for violent Zhanzheng du guang activity since the end of the Forth Succession War, making duty on the planet a hazardous proposition. The Thirtieth Lyran Guards, stationed on New Home when the Liaoist guerrilla cells launched open revolution, found themselves barely able to hold the government together in the face of almost daily bombings and killing of civilians. Frequent attacks on the unit's personnel and dependants further demoralized the Guards' commanders, Marshal Vincent Tanner and Leftenant General Herbert Kingsley. Marshal Tanner declared martial law and suspended the ineffectual planetary government, but he was assassinated by the Zhanzheng du guang mere days after his declaration. Less than 24 hours later, word reached New Home that Katrina Steiner-Davion had proclaimed herself Archon of the independent, neutral Lyran Alliance and that all Lyran troops were invited to return home. Acting commandeer Lt. General Kingsley eagerly accepted the invitation, only too happy to bid New Home goodbye.Most of the unit however, preferred to remain on New Home. Many of the newer recruits were natives of that planet, and the brutalities of the Zhanzheng du guang had only made them more determined to free New Home forever form the threat of Capellan domination. Led by Lt. General Delores Whitman, Kingsley's second in command, the Thirtieth Lyran Guards mutinied en route to the Lyran Alliance. Whitman and the rest of the unit returned home, only to find that the Liaoist revolutionaries had taken control in their absence. Reinforced by BattleMechs and state-of-the-art weapons from the Free Worlds League, the newly Christened New Home Regulars presented the Thirtieth Lyrans with formidable opposition.Currently, an uneasy stalemate prevails between the New Hope Regulars and the Lyran troops. The Thirtieth captured the cities of Finder and Mann in its initial assault and still holds them as far as anyone knows, but Liaoist resistance is a constant threat to their control. Both sides in this conflict have received aid from their patron states, but neither force has yet gained the advantage. The Thirtieth has hired mercenary infantry units to beef up its strength and to act as riot control were necessary. Rumor has it that the Thirtieth intends to claim New Home as its own, independent of the Lyran Alliance and the Federated Commonwealth; if this is true, financial and military aid from both of these realms may dry up. Pirate raids against the troubled worlds present another problem, and pirate bands based on the nearby world of Byrant are particularly troublesome, stealing large amounts of supplies and equipment from both major combatants."
   },
   "Position": {
     "x": 7.22,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

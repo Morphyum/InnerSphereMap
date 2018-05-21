@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ozawa",
     "Name": "Ozawa",
-    "Details": " "
+    "Details": "One of the worlds most damaged in the Succession Wars, Ozawa is a mere shell of the world that once stood proud of its history, culture, industry, and science. Everything that had been desirable about living on Ozawa made it a target for nuclear weapons from both the Draconis Combine and the Capellan Confederation.It was settled in the first wave from Terra, mostly by Japanese colonists. Though they had some trouble adjusting to the planet's extreme weather and extraordinary tides, they discovered important mineral deposits that made it worth their while to battle the harsh conditions. The planet soon became the center for technology relating not only to terraforming, but also protecting the planet's natural beauty. The colonists, who by this time had become numerous, were careful to preserve the clean environment.The world became an industrial, scientific, and economic gem. First came the electronics industry. This technology base drew other companies' attention. The giant Ulsop robotics conglomerate located an experimental facility on Ozawa. It was there that the scientists did much of the research and development that led to the Space Defense Systems. Ozawa also was the headquarters for Diplan 'Mechyards, a major producer of BattleMechs.After the industry and science came the financial institutions. The Star League built the city of Prosperity, a financial hub that featured a regional stock exchange and the mint for the currency used in the Federated Suns.The fall of the Star League ended Ozawa's Golden Age. Because of its importance, this world was seized by the Federated Suns but was attacked repeatedly during the First Succession War by Houses Kurita and Liao. These were compounded by a wave of antiAsian paranoia that spread through Ozawa's non-Japanese population. Violence now characterized a place whose name had become synonymous with a reverence for life. The end came when the Kuritans did not hesitate to make extensive use of nuclear devices during a major push to capture the planet. The city of Prosperity was obliterated. Now the landscape of Ozawa is like that of a tortured, twisted corpse.What few inhabitants remain stay well clear of the Hot Zones, where radiation levels are still lethal. Of Ozawa's five major landmasses, Sendai, Niigata, Todoga, Muroran, and Kushiro, only Todoga and Kushiro support major population and industrial centers. Kushiro is home to the planetary capital of Sapporo, located in the area known as Lake Washington, and Todoga is home to Wunderland Industries, producer of electronics and communications systems for civilian and military aerospace craft.Despite the devastation, Ozawa is important today. Though its beauty is gone and its reduced population now lives in domed cities, the planet is the capital of its administrative area in the Federated Suns bureaucracy. It is also the headquarters of the Intelligence-Gathering Services division of the Ministry of Intelligence, Investigations, and Operations."
   },
   "Position": {
     "x": 84.77,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +145,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

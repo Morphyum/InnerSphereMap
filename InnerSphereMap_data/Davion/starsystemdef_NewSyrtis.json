@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewSyrtis",
     "Name": "New Syrtis",
-    "Details": " "
+    "Details": "New Syrtis is a large world in the grip of an ice age. Huge sheets of ice have covered most of the planet, leaving only a narrow band of temperate and tropical weather around the equator. New Syrtis was first discovered during the era of the Terran Alliance, but was not colonized until the late 2260s. Those that did finally settle here were hoping to get rich by discovering deposits of precious metals and minerals said to be hidden beneath all the ice and snow. The gamble paid off when the first settlers found large deposits of metals scattered all over the planet.New Syrtis became a boom world overnight. Thousands made their way here in hopes of striking it rich. After months of solitary struggle, the miners would trudge their way from the ice and snow with tons of ore and the urge to raise a little hell. Cities like Pink Passion, Lady's Favor, and Hangover Hell began to sprout in the temperate zone. They had only one function-to strip the miners of their wealth in the quickest possible fashion. The deposits of easily mined metals soon played out and the boom was over. Well-organized mining corporations then moved in to mine the deeper deposits, which spelled the end of the independent miner and the raucous sin-cities.It was at about this time that New Syrtis was entitled to the Hasek family. Always an intelligent, though not particularly scrupulous, family, the Haseks slowly won a stranglehold over the planet's resources. They were able to rein the avarice of the metal companies, who would have stripped away huge chunks of the surface - nearly destroying the planet's fragile ecosystem - in their search for profits. Whether the Haseks did this out of concern for their world or the desire to own all of its wealth is not certain. What is certain is that their policies have resulted in rationing of the vast metal and mineral wealth of the planet over the centuries, with New Syrtis as important to the Federated Suns today as it was in an earlier era.Because of its importance, New Syrtis is the frequent target ot attacks by the nearby Capellan Confederation. When under attack, the planet has as its fearsome ally the almost constant blizzards and bone-freezing cold spells. It has been estimated that one out of every five invading Capellan 'Mechs and tanks is lost because it runs afoul of the weather.The defensive advantage of the arctic climate is one of the reasons why the Hasek family decided to build their capital city, Saso, on the northern continent instead of the more temperate equator region. The city is in some ways reminiscent of Avalon City, with the Hasek palace set upon a small complex of hills overlooking the city and with the University of Saso nearby. The current Duke of New Syrtis, Michael Hasek-Davion, would like to see Saso University out distance the New Avalon Institute of Science. Near the university and hidden underground beneath the perpetual snow is the Regional Military Headquarters, where Duke Michael coordinates the military activity of the entire Capellan March.Situated at Lagrange Point 4, the New Syrtis Shipyards, formerly the main repair work site for JumpShips and DropShips, have been sealed off since June 3022. Moreover, all inquiries about what is happening there are strongly discouraged. Three armed DropShips and a number of AeroSpace Fighters are on constant patrol to see that no unauthorized person approaches the shipyards. There is also a constant flow of coded communications between the shipyards and the New Avalon Institute of Science. Even the wildest speculation as to what is going on at the New Syrtis Shipyards may turn out to be plausible.<p>[3075] Due to its position as a military and political capital, as well as its extensive military industry, the Capellan Confederation has targeted the world scores of times throughout the Succession Wars. In the past, strong military defense and the world’s extreme weather conditions have quite literally stopped every one of these attacks cold. Learning from their past failures, the Capellan Armed Forces reversed this trend with their September 3068 invasion, coming prepared to fight in the frigid conditions of New Syrtis’ northern hemisphere. The area was already under-defended, thanks to George Hasek’s overwhelming offense doctrine in Operation Sovereign Justice, and even hurriedly rushed-in reinforcements were insufficient to ensure a victory over the Capellan forces. The resulting six-month battle devastated the capital city of Saso, including the near-total destruction of the Tiskilwa University complex. Concerted defense by the Fourth Donegal Guard and Johnston Industries’ own corporate defense force prevented more than superficial damage tothe Johnston production facilities. After a protracted battle, the Capellan invaders finally retreated when Sun-Tzu shifted his focus to the Word of Blake. New Syrtis had survived another invasion and come through remarkably intact. The cost had been great, with the New Syrtis March Militia and Vanguard Legion ceasing to exist as viable combat forces. Nearly one hundred thousand civilians also died in the attack, primarily from exposure after their homes were destroyed during the fighting.</p> "
   },
   "Position": {
     "x": 231.06,
@@ -17,16 +17,17 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_capital",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +46,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +148,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

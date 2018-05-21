@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Koniz",
     "Name": "Koniz",
-    "Details": " "
+    "Details": "[3037] First unveiled in 3030, the Com Guard's primary mission was to protect a world's HPG transmitter, though Primus Waterly assured the Inner sphere leaders that these forces would be as inoffensive and helpful as possible to the surrounding populations. Stories of their good deeds quickly began to flood the popular media. One such deed occurred on Koniz in 3037, after a series of volcanic eruptions threatened to destroy the world's largest city. ComStar 'Mechs and troops guarding the nearby HPG facility began to construct walls, ditches and waterjet positions that eventually forced the lava rivers away from the city.[3060] Situated along the Lyran Alliance's border with the Jade Falcon Occupation Zone and a mere two jumps from the Falcon Headquarters on Sudeten, Koniz is a natural hotspot for military activity. In the past ten years the world has been subject to dozens of Clan raids and has served as a staging area for at least eight different retaliatory strikes. According, its defenders have fortified the world heavily.Unfortunately, since Grand Duke Kell's creation of the ARDC, the LAAF has left the defense of the world solely in the hands of the Koniz PTM. Though operating some of the oldest equipment in the Lyran inventory and provided with barely enough supplies to remain operational in a peacetime environment, the Militia has nevertheless thrived in the face of repeated Falcon attacks. However, the lack of support from the LAAF, combined with a particularly close working relationship with Khan Phelan Kell's Alpha Galaxy has pushed the unit firmly into Prince Victor's camp.The militia maintains literally thousands of fortifications and emplacements all over Koniz. That, in addition to the unit's intimate knowledge of the world's geography, insures that any attacker will pay dearly for every inch of the world they win."
   },
   "Position": {
     "x": -92.54,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

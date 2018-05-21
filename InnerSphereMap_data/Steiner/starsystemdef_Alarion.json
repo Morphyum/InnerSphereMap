@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alarion",
     "Name": "Alarion",
-    "Details": " "
+    "Details": "Alarion was settled some 30 years after the formation of the Lyran Commonwealth. What attracted the first settlers to the world was the seemingly limitless native planet and aquatic life ideally suited to cultivation and exploration. Conditions were so favorable that the original settlers did not even bother to bring along extra food supplies; they thought that the native wildlife would feed them. Unfortunately, what the settlers did bring were diseases that decimated many of the native lifeforms before cures and treatments could be found. Then, like a counterattack, a disease native to the planet attacked the settlers who had become weak from malnutrition. When the crisis finally ended, most of the native lifeforms were extinct and over half the settlers were dead. This disaster led the Commonwealth government to issue strict quarantine and settlement procedures that are still in effect. Today, Alarion is a center of heavy industry. It also possesses the only orbiting shipyards in the Commonwealth, the Port Sydney Naval Shipyards, which are capable of refitting and repairing JumpShips. As most of the world's natural resources are being exploited, there are very few unsettled areas among its two continents and many islands. The capital city is Craiova.Many legends have grown up around General Kerensky and the exodus of the Regular Army. One such myth concerns Jessica LeQue, wife of one of Kerensky's aides. Beautiful, lithe, and golden-haired, she was a native of the Alarion. Born to a noble family, Jessica had been raised to love her native planet deeply. Later, she felt the same deep connection to the handsome Major Winsome, aide to General Kerensky.When the exodus orders came, Jessica was torn between love for her land and love for her husband. It was not until an hour before the last transport was about to leave Alarion for the rendezvous at New Samarkand, that she finally made her decision. Jessica Winsome arrived perhaps a moment too late at the spaceport, for just then, the last transport arched into the night sky, leaving her behind. From there, the distraught woman wandered into the nearby forest, where several weeks later she was found dead.On Alarion, there is a native tree that is tall, slim, and crowned with golden leaves. At night, the fronds of the tree reach up and unfurl to collect the silvery moonlight. Ever since Jessica Winsome's death, these have been known as Jessica Trees, the reaching of their golden fronds like Jessica's hopeless gesture as the night sky took away her husband forever. "
   },
   "Position": {
     "x": -319.71,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

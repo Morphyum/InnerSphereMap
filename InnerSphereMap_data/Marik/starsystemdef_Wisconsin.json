@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wisconsin",
     "Name": "Wisconsin",
-    "Details": " "
+    "Details": "For more than two hundred years the Twenty-Third Marik Militia was locked in a feud with the Third Republican (formerly Justine's Grenadiers), a unit of the Capellan Reserves. The enmity between the two units stems from the battle of Wisconsin in 2838, when the Capellan troops decimated the Eight Marik Militia through treachery. Taking advantage of the League's dispute with ComStar (later called the ComStar War) and the ensuing communications interdict, the Capellan Confederation launched a series of attacks into the League's interior. The Eighth militia met the Grenadiers in battle near the planetary capital of Madison but were betrayed by traitors within the unit. When Liao saboteurs poisoned the regiment's water supply, the Eighth offered little resistance. Less than a quarter of the soldiers survived the torture and atrocities that followed. Absorbed into the Twenty-Third Militia upon their return home, the survivors of the Eighth soon convinced their new colleagues that revenge should be the unit's primary goal.Ever since the Wisconsin tragedy, the Twenty-Third Militia has taken every opportunity to slight the Grenadiers, transferring its enmity to the Third Republican when it absorbed the Grenadiers upon the units, and the Tikonov Free Republic's, creation in 3029. When a League task force destroyed the Third Republican, now a FedCom unit, during Operation Guerrero's liberation of Van Diemen in 3057, the Twenty-Third felt mixed emotions. Though pleased that their long-hated enemy had been destroyed, many of them also felt they had lost their purpose with the end of the long dispute."
   },
   "Position": {
     "x": -158.69,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +41,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Marik",
   "ContractEmployers": [
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

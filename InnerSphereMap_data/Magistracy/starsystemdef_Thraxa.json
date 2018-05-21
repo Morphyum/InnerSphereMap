@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thraxa",
     "Name": "Thraxa",
-    "Details": " "
+    "Details": "A border world lying near the edge of the Marian Hegemony, Thraxa is atypical of most Magistracy worlds in being nearly self-sufficient. For over two generations, this semi-arctic world has developed a variety of local commercial concerns, including a lucrative fur trade, forestry, coal mining, and a modest textile and wool industry to provide necessities for its own population as well as for export offworld. The inhabitants of this maverick world are among the more individual-minded and stubborn of all the Magistracy's peoples. It is not surprising that Thraxa is garrisoned by Clayborne's Commandos, one of the premier combat units of Cassandra's Volunteers, a unit that has seen more than their share of successful clashes with the upstart Marians and occasionally mercenary intruders."
   },
   "Position": {
     "x": -322.08,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "MagistracyOfCanopus",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

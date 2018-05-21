@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_McAlister",
     "Name": "McAlister",
-    "Details": " "
+    "Details": "[3059] During Operation Bulldog, Clan Smoke Jaguar attempted a counter-attack to relieve the pressure on their OZ from SLDF forces. On McAllister, the Second Jaguar Regulars managed to destroy or damage several SLDF supply bases. In fact, the Jaguar garrison Cluster caused so much damage in so short a time that Precentor Martial Victor Steiner-Davion reminded the SLDF forces not to become complacent, no matter how well the invasion was going. Eventually, however, the Jaguar troops succumbed to the overwhelming presence of the 14th Alshain Avengers, 22nd Dieron Regulars, 1st Ghost and Davion Assault guards RCT."
   },
   "Position": {
     "x": 226.6,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

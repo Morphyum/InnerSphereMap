@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Larsha",
     "Name": "Larsha",
-    "Details": " "
+    "Details": "Larsha is a hot, wet planet. It's capital is Kalimantan.[3033] In 3032, Chancellor Romano Liao ascended to the Celestial Throne. Opposition to her reign existed, though not for long. In 3033, the self-appointed Supreme Commander Piet Fontona was killed by a laser shot in the back shortly after he proclaimed Larsha's independence."
   },
   "Position": {
     "x": 118.37,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

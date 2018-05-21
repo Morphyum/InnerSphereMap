@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewSamarkand",
     "Name": "New Samarkand",
-    "Details": " "
+    "Details": "Settled in the early days of the Exodus, New Samarkand was once the administrative and mercantile capital of the Draconis Combine. However, when Sanethia moved the capital to Luthien, the planet decayed. Now, havens of pirates and thieves inhabit its crumbling mansions and cities. In spite of this (or because of it), New Samarkand is the home of the Internal Security Force and its Internal Security College. Curricula include such relevant classes as Phys Ed 204 (Using Martial Arts to Inspire Terror, Death, and Loyalty) and Psych 103 (An Introduction to Brainwashing, Interrogation, and Paranoia). The list of students is classified, as knowing the identity of future agents is a crime against the state.The Internal Security College is isolated and well-protected. Surrounding the grounds are 60 kilometers of diacetylsilicate, a sand that eats away metal, rubber, and flesh. Any aircraft within 200 kilometers is shot down without warning. The ISC works hard to ensure that they have no visitors or deserters.A few manufacturing concerns still operate on New Samarkand, including New Samarkand Metals and IndoTronics Incorporated. These concerns operate in enclosed fortifications, where their employees also live. Armed guards patrol the borders to ensure that no undesirables attempt to invade the area for supplies.The city of Garden, on New Samarkand, is headquarters to New Samarkand Metals. If it's metal, its Samarkand is the motto of this fast-growing concern. When planetary losses and transportation difficulties threatened the supply of ores for steel-making, Samarkand moved ahead with research on alternate metals. Though their Tempered Samarkite alloy is a little more difficult to work with than steel, it has proven to be equally strong. The actual formula for Samarkite is guarded as closely as the Coordinator.New Samarkand is perhaps best known as home to the Sun Zhang Mechwarrior Academy. The abandoned cities provide an excellent training ground for Mechwarrior and Aerospace Fighter Pilots to practice the intricacies of city fighting.Tamarlane melon from New Samarkand is considered a delicacy in the Draconis Combine.<p>[3075] When Luthien was under siege and off the HPG grid, the Gunji-no-Kanrei's decision to relocate the capital functions to New Samarkland came as a rude shock to the ruling body. The system was ill prepared for the massive influx of refugees and other emergency functionaries; much of the damaged and decayed ruins underwent a systemic revitalization in order to provide even rudimentary services. The government bureaucracy continues to limp along on the limited resources the planet provides, with many departments competing amongst themselves for resources such as power and communications. The underworld crime syndicates have blossomed out of control; the ISF has been unable to maintain their grip on them, and with the recent purges from the Misogi War, it looks to be possibly decades before the ISF can regain the upper hand.</p>"
   },
   "Position": {
     "x": 359.45,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +46,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 12,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

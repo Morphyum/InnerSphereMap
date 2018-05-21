@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Crellacor",
     "Name": "Crellacor",
-    "Details": " "
+    "Details": "[3049] Clan Wolf landed on Crellacor in September 3049. The BattleMechs of the Seventh Battle Cluster, though outmassed by the assault 'Mechs of the Third Oberon Guards, defeated them two toe-to-toe slugging matches."
   },
   "Position": {
     "x": -82.87,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -50,7 +49,8 @@
   "Owner": "MagistracyCentrella",
   "ContractEmployers": [
     "Locals",
-    "MagistracyCentrella"
+    "MagistracyCentrella",
+    "AuriganPirates"
   ],
   "ContractTargets": [
     "AuriganDirectorate",
@@ -144,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

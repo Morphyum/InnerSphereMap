@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BetaVII",
     "Name": "Beta VII",
-    "Details": " "
+    "Details": "[3050] The Jade Falcon's 124th Striker Cluster conquered Beta VII easily, in June 3050. They faced an unprepared planetary militia consisting of light Locust and Valkyrie 'Mechs, one company of tanks, and a single infantry battalion. The 124th commander single-handedly wiped out the 'Mech lance, commenting later than he found it less of a challenge than his first Trial of Position. The tank company fought hardest, destroying three OmniMechs before the Falcons crushed the resistance. The battle-armored Elementals caused the infantry to break ranks and run. Some infantrymen turned guerrilla, but most faded back into the anonymity of civilian life.[3064] During the Jade Falcon Incursion, General Anne Sung's Second Crucis Lancers set off on their own in wave 6, hitting the world of Beta VII on the 2nd of October 3064. Garrisoned by the Jade Solahma Cluster, the world fell in just a few days of fighting. General Sung moved on from there, leaving behind a mixed combat command to garrison the world. The Second Crucis managed to maintain control of Beta VII until April 3065, when they were forced offworld by the 9th Falcon Talon Cluster."
   },
   "Position": {
     "x": -154.82,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

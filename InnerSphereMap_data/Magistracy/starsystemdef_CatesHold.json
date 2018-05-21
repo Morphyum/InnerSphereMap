@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_CatesHold",
     "Name": "Cate's Hold",
-    "Details": " "
+    "Details": "A border world lying near the Taurian Concordat, Cate's Hold has evolved in two directions over the years. Originally founded as a major gambling and entertainment world along the lines of the planet Canopus, it became, by default, a major supply and repair facility for the Magistracy navy during the Reunification War. This lasted until the end of the war, when the planet was overrun by Kerensky's forces. For a time, the Free Worlds League claimed Cate's Hold, but the population managed to rebel and win their freedom at the start of the Second Succession War. In the last century, the discovery of large deposits of radioactives in the planet's southern hemisphere, coupled with the recent discovery of caches of Star League equipment, have done much to make this a strategically important Periphery world. As a result, the Magistracy and the Taurians have clashed numerous times over the control of Cate's Hold in the last 50 years, which has strained relations between the two governments. Despite numerous attempts by the Taurians to wrest control of the planet from the Canopians, determined resistance combined with superior local technology has so far allowed the Canopians to keep a firm hold on this border world. At present, the population of Cate's Hold is approximately 20000, many of whom continue to serve in local militia and home-defense companies each year under the direction of Canopian military advisors."
   },
   "Position": {
     "x": -69.56,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +41,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 3,
   "Owner": "MagistracyOfCanopus",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Genoa",
     "Name": "Genoa",
-    "Details": " "
+    "Details": "When a passing meteor forced the planet Genoa into a brief journey outside its orbit millennia ago, the world's lush plant life and plentiful animal life lost their fragile hold and died off, leaving only the dry, rocky, marginally habitable place that the smallest population of any system in a 60-light-year radius of Terra now calls home. The planet's attraction now lies in its rich deposits of raw materials - always in demand by industry - and high-grade gemstones. When the world's harsh surface drove settlers to make their home underground, the population discovered huge underground lakes teeming with many unique aquatic species. The current citizens carefully nurture and harvest certain fish and export them as delicacies and as exotic pets.Genoa was historically defended by only a skeleton force consisting mostly of militia troops and a few tanks. When the Liaoist rebels received the command to retake the world for the Capellan Confederation, they felt confident that they could easily crush the government's few defenders. An informer in the rebels' ranks, however, prepared the militia for the attacks, giving the defenders a few early victories. Fierce counterattacks by killing the Genoan president and soundly defeated by the Davion militia, but their efforts ultimately failed to secure the planet for Chancellor Liao.As soon as the news of the president's death hit the streets, the heads of several small and large corporations operating on Genoa began jockeying to gain sufficient power and influence to become the next president of the planet. Political manuevering quickly degenerated into physical conflict as companies made alliances of convenience to achieve their goals and betrayed those alliances just as quickly for new opportunities. These conflicts have escalated to the point where wealthy companies face, promising payment in precious gemstones. The bitterest fighting is for control of the largest share of the economy is the one most likely to successfully declare himself president and hold that position.The infighting between businessmen has taken a heavy toll on local and interstellar trade. Pirate bands that are taking advantage of the confusion in the Chaos March to plague the local planets also put a crimp on successful, uninterrupted trade. Because little exists on the surface of Genoa to discourage them from doing so, several pirate bands now make their home in that planet's relative safety."
   },
   "Position": {
     "x": 39.02,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 1,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

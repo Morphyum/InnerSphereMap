@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kujari",
     "Name": "Kujari",
-    "Details": " "
+    "Details": "[3033] The end of the Forth Succession War left Wallacia and Kujari located between the militaristic and newly independent Duchy of Andurien and the Capellan confederation. When the Internal Emergency Act of 3030 stripped away league member worlds of their sovereignty, Wallacia and Kujari formed a mutual defense pact and declared their independence from the Free Worlds League in 3032. On Wallacia, the Second Oriente Hussars, who garrisoned the world, quickly moved to seize the capital. As internal conflicts prevented the League from pressing the attack against Kujari, Wallacia/Kujari negotiators hired the Black Widows Battalion to restore sovereignty on Wallacia and to protect them from the Confederation.The ruckus on Wallacia signalled to Chancellor Romano Liao, that the region was indeed vulnerable. Kujari, was not only a tempting target for invasion, but also served as a temporary base for the hated Black Widows. Reluctant to endanger her valuable regular units, Romano decided to send four widely-divergent battalion-sized mercenary units for the assault - Steele's Eagles, a veteran unit fresh from Periphery service; McCrimmon's Light Cavalry, badly mauled during the Forth Succession War; Rivaldi's Hussars, a green and so-far untested unit; and St.Cyr's Armored grenadiers, another inexperienced unit. These units were grouped uneasily under the command of Colonel Donovan Steele, leader of the Eagles.During the initial landing on Kujari in 3033, Steele attempted a Dragoon-style deception, with two of his battalions coming in with maximum sound and fury. He hoped to draw the Widows into battle, then smash them with the remaining two battalions hidden in a polar orbit. Unfortunately for Steele, Natasha Kerensky recognized the plan for what it was, and the Widows' aerospace forces soon forced the remaining DropShip to land. Steele's forces then attempted to fight their way through to each other. After a brutal 45 minute engagement, the Widows were forced to withdraw, presenting them now with a numerically superior, and almost unassailable enemy.Outnumbered almost two-to-one, Natasha Kerensky decided to use a bit of deception of her own. That night, Dragoon DropShips descended, scattering chaff and ECM pods, to confuse enemy detection. The Widows aerospace elements kept the enemy air units at bay while, apparently, the Black Widows boarded their DropShips and left the world. To his credit, Colonel Steele was not convinced that Kerensky had truly left. Remaining on alert in his HQ, a fortified agricultural station, Steele sent out patrols to search for evidense of Dragoon deception. For almost three weeks the patrols continued.Finally, the patrols slackened, and after a further week, the surviving Widows came out of hiding and assaulted Steele's HQ, determined to decapitate the invasion force with a single blow. As fires and explosions lit up the compound, Steele called out a challenge to Natasha Kerensky herself. Impressed by Steele's bravery and skill, she accepted, and the two moved into thunderous close combat. In the end Kerensky's battle-worn Warhammer, one arm hanging useless, stood above Steel's vanquished Marauder.Guessing that Steele possessed a mercenary's hard-nosed common-sense, Kerensky called on him to surrender and order his battalion to follow suit. After a moment, he complied. Unwilling to face Romano's wrath, Steele's Eagles accompanied the Widows back to F-C space, where they quickly established a successful reputation, occasionally going so far as to subcontract with their former foes, Wolf's Dragoons.As the governement's of Wallacia and Kujari had anticipated, both planet's rejoined the Free Worlds after the rebellious Anduriens were brought to heel. But the superior military position obtained by the Black Widows, enabled both governments to wring considerable concessions from the League negotiators."
   },
   "Position": {
     "x": -25.83,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_DenebKaitos",
     "Name": "Deneb Kaitos",
-    "Details": " "
+    "Details": "An unremarkable, small world blanketed by grasslands and tundra, Deneb Kaitos was originally settled by the Terran Hegemony. The world is most famous as being the home of the renowned Deneb Light Cavalry. At the height of the Star League, the Regular Army boasted a group of 'Mech regiments whose ability to respond quickly any-where they were needed was legendary. These quick-response troops were officially known as the Rapid Deployment Mixed Arm Forces, or RDMAF. The general public, however, knew these elite troops - because of several highly romanticized holoplays - as the Deneb Light Cavalry, after the headquarters of the RDMAF on Deneb Kaitos and the pony on their banners.When the Star League collapsed, only one RDMAF unit refused General Kerensky's orders and stayed on Deneb Kaitos. The Fourth Deneb Light Cavalry was commanded by General Eveline McDennis, who firmly believed it would be an act of cowardice to abandon the Inner Sphere. Her original intention was to remain on Deneb Kaitos to protect that world somehow from the warfare that was sure to come. As trade to the world collapsed and the population began to starve, General McDennis was forced to consider offers of employment from all five Successor Lords.After hearing them out, McDennis replied that she and her men would work for whichever House could guarantee that the people of Deneb Kaitos would have food until they could grow enough on their own. It was a condition that only the Federated Suns would accept. As the desperately needed shipments of food and agricultural equipment made their way to Deneb Kaitos, the Fourth Deneb Light Cavalry packed up and prepared to become part of the AFFS.Deneb Kaitos has remained under House Davion's banner except for a brief period of Capellan occupation during the Third Succession War. Although the makeup of the Deneb Light Cavalry eventually reflected that of all Federated Suns worlds, men and women who grew up in Deneb Kaitos's rugged sheepherding lifestyle continued to be the Cavalry's most ardent and effective MechWarriors. The continent of Baten is home to the capital of Cetus and is located in the northern hemisphere; the continents of Menkar and Mira straddle the equator.Deneb Light Cavalry Regimental Combat Teams are organized slightly different than other RCTs in the Federated Suns. Around the one 'Mech regiment, which usually has light to medium 'Mechs, there are two hovercraft regiments and two jump infantry regiments. Also, there are three times the normal number of AeroSpace Fighters present, plus enough DropShips and JumpShips to transport them.The Deneb Light Cavalry has always preferred to use a light tan paint scheme to show their pride in their Regular Army roots, even when other units would adopt camouflage paint schemes. The Deneb Light Cavalry insignia is a rectangle of black surrounding the bust of a white horse upon a square of gold. The unit number is written in roman numerals within the golden square. Most of the units are named after swift predators."
   },
   "Position": {
     "x": 64.62,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

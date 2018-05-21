@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Meinacos",
     "Name": "Meinacos",
-    "Details": " "
+    "Details": "[3059] During Operation Bulldog, Clan Smoke Jaguar attempted a counter-attack to relieve the pressure on their OZ from SLDF forces. On Meinacos, the Jaguar's 267th Battle Cluster struck with enormous force, but the Eighth Dieron Regulars, St. Ives Cheveau Legers, and the First Canopian Cuirassiers engaged the Jaguar's in a deadly dance as both sides fought for dominance. The Eleventh Alshain Avengers, on their way to the planet Marshdale, were diverted to Meinacos to bolster the world's defenders. The Seventh Pesht Regulars were also called in from Unity, but arrived too late to affect the final outcome.As the Eighth Dieron spearheaded a drive against the Jaguar unit's flank, the officer core of the Eleventh Alshain engaged and lured away two Stars of the Battle Cluster. The Canopian Cuirassiers managed to cut off a Clan retreat, then readied themselves to saturate the area with artillery. When the Eleventh Alshain failed to retreat as planned, the Cuirassiers sent a 'Mech company forward, supported by artillery, to aid the Avengers.The Eleventh acquitted themselves with honor, their ferocity and tenacity shining testaments to the Dragon's will in action. All eight Alshain warriors died in the battle, but managed to destroy a full Star of Clan OmniMechs first.The First Canopian Cuirassiers, despite their lack of technological upgrades, fought with nearly equal skill. They moved forward in full strength, engaging the Jaguars three-on-one when possible. The long-range hitting power of the Clan 'Mechs hurt them at first, but as soon as they closed sufficiently they switched to six-on-one odds and quickly brought down several Jaguar 'Mechs. The Cuirassiers' artillery accounted for one of the Clan Masakaris, hitting it dead-on.With two fresh battalions of the Cuirassiers threatening the Clan flank and heavy pressure from the forefront of the battle, Star Colonel Diane Perez pulled her forces back to a mountainous area to regroup. At about the same time, the recall order for all Jaguar forces sounded, and the 267th retreated to their DropShips and left Meinacos without another major engagement."
   },
   "Position": {
     "x": 201.09,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

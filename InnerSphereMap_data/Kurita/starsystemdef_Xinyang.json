@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Xinyang",
     "Name": "Xinyang",
-    "Details": " "
+    "Details": "Xinyang survived 650 years of Inner Sphere warfare untouched, only to be battered and marred by heavy assaults during the final days of the Clan invasion.   Xinyang is a large world with plenty of water but few natural resources.  As a result, it is little more than a place for the bureaucracy to work and the site of a major rest and recuperation base for the Arm of the Dragon. The regiment stationed on the planet is the 15th Benjamin Regulars, but the planet often plays host to battalions from other units as they rotate off the front lines for rest and resupply. A whole slew of industries have sprung up around the comings and goings of the soldiers.  Xinyang has a large supply depot and one of the largest and best equipped military hospitals in the Draconis Combine.  It also has a major ISF facility, which debriefs any soldier coming off the front lines, in search of new information about the enemy.  It goes without saying that the ukiyos in Xinyang are large and well staffed with men and women of pleasure for the soldier's enjoyment. As the planet cannot support the food needs of its large population, the spaceports are busy with incoming shipments of food from surrounding worlds."
   },
   "Position": {
     "x": 113.21,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

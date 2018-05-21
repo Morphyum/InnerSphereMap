@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Quantraine",
     "Name": "Quantraine",
-    "Details": " "
+    "Details": "First settled in the early days of the Third Succession War, the original mining colony of Quantraine was wiped out in a deep-space raid by ex-Kurita mercenaries in 3014. Settled again in 3016 by religious fundamentalists, the planet has since become the cultural home of the Islamic religion in Alliance Space. Supporting itself through the successful mining and exportation of rare and precious gemstones, the second Quantraine colony has managed not only to survive its initial years of hardship but to prosper. It would most certainly have become a major cultural center except for the outbreak of a rare contagious blood disease accidentally brought in by offworld traders. The plague carried off more than 60% of the population in 3020. The few who have remained have since banned all contact with non-Alliance commerce while inaugurating an Alliance-wide appeal to all Islamic peoples to come to the aid of their brethren. In the last five years, the population of Quantraine has recovered marginally, growing from a bare 400 survivors to over 4500. The current inhabitants remain among the most xenophobic of any of the Alliance's many diverse peoples."
   },
   "Position": {
     "x": 455.62,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Betrayers",
   "ContractEmployers": [
     "Betrayers",

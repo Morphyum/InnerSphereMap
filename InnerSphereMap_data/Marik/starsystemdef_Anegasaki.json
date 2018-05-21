@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Anegasaki",
     "Name": "Anegasaki",
-    "Details": " "
+    "Details": "[2793] During the First Succession War, Marik forces concentrated their efforts against the Capellan border. For 4 years, it seemed like Captain-General Kenyon Marik would indeed force the Confederation to its knees. Then, in 2783, the Marik's momentum ground to a halt when Laio's 21st Centuri Lancers attacked Anegasaki. The use of the newly developed Capellan grasshopper 'Mechs, allowed the Lancers to completely destroy the light 'mechs of the 4th Marik Militia. Suddenly realizing that the Capellans could still mount effective attacks of their own, the Marik scrambled to hold the line that he had spent years attaining."
   },
   "Position": {
     "x": -49.38,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

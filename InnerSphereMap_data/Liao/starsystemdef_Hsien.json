@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hsien",
     "Name": "Hsien",
-    "Details": " "
+    "Details": "When Hanse Davion struck at the Capellan Confederation in 3028 using the combined might and wealth of the newly announced Federated Commonwealth and began the conflict known as the Forth Succession War, the planet Hsien, along with several other worlds, was temporarily cut off from its parent realm, the Capellan Confederation. When Pavel Ridzik, a top commander in the military of the Confederation, turned traitor to his nation and convinced those separate worlds to join him in forming the Tikonov Free Republic, Davion spared the fledgling nation his bloody conflict. Shortly after the end of the Forth Succession War, Tikonov voted to join its fortunes to the might of the FedCom. Hsien remained peaceful after the war and eventually gained a limited propensity as House Steiner encouraged its lumber and canning industries. The Marik-Liao invasion abruptly ended the planet's slow economic growth.The only unit stationed on Hsien at the onset of the invasion was the Second F-C RCT, a unit considered fanatically loyal to House Davion. Though determined to hold the world against the Liao assault, the Second RCT quickly fell to the First and Second regiments of McCarron's Armored Cavalry. Marshal Irene Thome led the Second in a retreat offworld to Elgin, where she hoped to refit and resupply and return to Hsien. Unfortunately for the Second, the Free Worlds League mercenary unit Swann's Cavaliers, sent to aid the Capellan rebellion on Elgin, destroyed all of the Second but the command lance.As soon as the units of McCarron's Armored Cavalry established the rule of Capellan governor Robert Thomay, they moved on to a new assignment. Their departure gave Baron Luis Montong V, the scion of the only family on Hsien of noble rank, the courage to reject Hsien's upstart government and declare his continuing loyalty to the Federated Commonwealth.When Governor Thomay travelled to the island continent of Chone to meet with Baron Montong and enlist that powerful man's support for the new government, the baron treated the governor with great respect. He pledged to the governor the loyalty of his people and his personal cooperation, thereby guaranteeing Hsien's complete subjugation to House Liao. When the Capellan turned to leave, the baron drew his laser pistol and shot Governor Thomay in the back, then ordered his troops to throw the governor's entourage in prison. Baron Montong then proclaimed that, regardless of the decision the rest of the planet chose to make, his holdings still belonged to the Federated Commonwealth and that his loyalty remained with the Archon Prince.The remaining populace of Hsien quickly severed all connection to Montong and most fully supported the new Capellan governor elected a short time later, though only one month after Baron Montong's declaration the province of Dendeez seceded from the Capellan government. All three realms continue to exist, though they plague each other with daily skirmishes. The time and energy the respective governments devote to devising outrageous and complex trade compacts have slowed the exchange of goods to a trickle, but the situation is not yet critical. Though Baron Montong sends repeated pleas to Archon-Prince Steiner-Davion for assistance in his efforts to smash the two rival realms, Prince Victor has not answered those requests. The balance of power on Hsien seems likely to remain stable for the foreseeable future."
   },
   "Position": {
     "x": 5.68,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

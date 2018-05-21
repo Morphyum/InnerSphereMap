@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Redfield",
     "Name": "Redfield",
-    "Details": " "
+    "Details": "Among the most crucial variables that a strategist must consider when planning to invade a hostile planet is how long it will take DropShips and fighters to reach the target world. The longer it takes, the longer the planetary defenders have to prepare their own reception for the approaching enemy. An ideal world for attack is one whose sun is so small that invading forces could conceivably reach the planet before the planet's defenders realize the enemy had arrived in the system. Redfield is such a planet. Its small sun makes it possible for DropShips and fighters to make the trip at maximum velocity in a matter of hours. Its terrain, with so many open areas, is also prime for invasion. This explains why Redfield has been the site of so many Capellan invasions, even though star systems like Shoreham or Royalston are closer to them. The suns in those systems are much larger than Redfield's, making their planets far easier to defend. All the emphasis placed on Redfield's strategic importance is unfortunate because the planet itself has several unique features that the Federated Suns could put to good use if it were not so busy trying to defend it. There are, for example, several large, fertile plains that could easily produce extensive food crops. There are also several indigenous life forms that might be important food items for export to other worlds with dim suns. All that means little to the many thousand soldiers on the planet. The Federated Suns is far too concerned with defending Redfield to allow the planet's population to do more than try to grow enough food to keep themselves alive."
   },
   "Position": {
     "x": 139.99,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

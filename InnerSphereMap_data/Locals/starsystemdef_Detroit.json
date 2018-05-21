@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Detroit",
     "Name": "Detroit",
-    "Details": " "
+    "Details": "<p>[3075] Survey scans determined that Detroit had some sizable ore veins deep under its surface, but the dearth of any terrestrial life made the effort to settle it too great for the modest rewards.  A handful of families fleeing the United Hindu Collective arrived at Detroit in 2488.  Setting up a small agricultural community, they spent the next century living with mainly pre-industrial technology as they seeded the surface of the planet with modest plant life. This in turn attracted companies willing to delve deep underground to get at the minerals. While hardly a windfall, the output of Detroit grew enough that the Taurian Concordat and Magistracy fought over it in the early 29th century.</p><p>Detroit’s two major continents, simply named North and South, are separated by the Pontiac Sea. Sheltered by the continents, the sea is calmer than the rest of the oceans on Detroit, making its coastline the home for almost half of the planet’s inhabitants. The capital city of Ann Arbor is located on South and is home to the first settlement on the planet. A small university and a shipping hub have grown up around it, making it the cultural center with a modest industry. South is home to the planet’s only native life form that can exit the water, the rainbow tree frog. The frog has taken well to the imported plant life and has prospered despite humanity encroaching on its territory. Recent laws have added additional protections for this potentially valuable creature.</p><p>North is home to more of the planet’s industrial concerns, including the famed MechWorks located in the metropolis of Dearborn. The sprawling facility was built north of the city, but Dearborn has expanded to engulf it on all but the northern edge, allowing future growth. The aerospace facility was constructed in nearby Flint in order to somewhat disperse the industry. In between these two lies the Warren Fault, a deep chasm that allows cheap, if dangerous, access to expansive ore veins. To the west of both lies the Detroit Proving Grounds, where ‘Mechs are tested and the local garrison can run live-fire exercises.</p><p>The islands of Detroit are home to the planet’s fishermen, who help keep the planet fed. They are sparsely populated with potential for the future. The White Sands  archipelago is being considered by a number of firms as a potential vacation destination, though attracting tourists when there are many more-established Canopian locations nearby presents a challenge. Detroit has even expanded to one of its moons—Livonia is home to a small chemical R&D firm. The complex is all interconnected, as the thin atmosphere won’t support human life for more than a few minutes.<p>Detroit was absorbed into the New Colony region when the Concordat and Magistracy formed it. Tired of its small industries being raided by pirates and unable to afford to hire or develop a force capable of stopping the raids, they welcomed the protection offered by the two realms. When it pulled of the small coup of winning the bid to host the Consolidated Mechworks, the populace knew it would be a boost to their world, but none realized how big the facility would be. Working on more than just a line or two, the new jobs and immense foreign funds attracted tens of millions of new residents, quickly overwhelming Detroit’s immigration department. While they have better control now, Detroit is still an easy place to go to get lost.</p><p>In 3071, Blakist forces attempted to capture or destroy the MechWorks. Landing near North’s largest city, Michiana, they began attacking the city, hoping to draw out the defenders. Local militia attempted to defend against the intruders, but the Canopian Highlanders stationed near Dearborn held their positions. After nearly two weeks of Blakists rampaging through Michiana, relief forces landed. With nearly a battalion of newly built <i>Danais</i> providing artillery cover, the Highlanders, supported by some of the relief forces, quickly pushed the Blakist attackers off planet. Michiana was nearly reduced to rubble, with a third of its population killed.</p>"
   },
   "Position": {
     "x": 19.15,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

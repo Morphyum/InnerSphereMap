@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alpheratz",
     "Name": "Alpheratz",
-    "Details": " "
+    "Details": "The capital of the Outworlds Alliance, Alpheratz is a temperate world that houses the Alliance Executive Parliament and most of the Alliance's remaining heavy industries. It has a population of about 2 million, most of whom are employed in industrial plants and research facilities. Though Alpheratz has never been occupied by foreign troops, it suffered heavy orbital bombardment during the Reunification War and marauding pirates since the start of the Succession Wars.Alpheratz is one of the few worlds in the Alliance where barter is not the economic staple: daily trade activities are conducted with ComStar C-Bills. There are three principle cities on Alpheratz: Famindas and Algomarle, on its northern continent, and Carolinas in the southern, each with a population of more than 100,000. The remainder of the population is dispersed among small farming communities throughout the planet's northern outback.<p>[3075] Five years ago Famindas, capital city of both Alpheratz and of the Outworlds Alliance, was destroyed by the Word of Blake. The Alliance Executive Parliament, the central offices of every national ministry and administration, and over 100,000 people were immolated in a single thermonuclear explosion targeted to decapitate the Outworlds Alliance. The attempt failed. What was meant to be a mortal wound has become a symbol of resilience and determination as the Alliance rallies to rebuild the world.</p><p>A measure of how dedicated the people of the Alliance areto their ideal of nonviolent perseverance is the fact the planetso sorely wounded has not become a fortress. It is not defenseless, of course. The  First  Alliance  Air Wing and the AvellarGuards BattleMech battalion are stationed on Alpheratz, andthere is no shortage of volunteers for the planetary militia. Butthese forces have always been present, and there are no plansto fortify beyond traditionally established levels. PresidentAvellar has stated that the Outworlds Alliance will not violateits foundation and ideals by diverting resources needed toensure the health and safety of the people to create a palaceguard. Nor will he pull forces needed to defend other worldsback to the capital because no planet of the alliance should beleft unprotected: “The Alliance stands or falls as a nation, withno world left alone.”</p><p>It is significant that Clan Snow Raven has stepped forward as a major partner in rebuilding the infrastructure of Alpheratz. Though no Clan technicians or workers are involved on the ground, an orbital Mobile Production site has been producing much-needed construction material.</p>It should be noted that unlike Dante and Quatre Belle, which are essentially Clan worlds at this point, Alpheratz holds few representatives of Clan Snow Raven’s Warrior Caste. However there are over a hundred scientist Caste and Technician Caste professionals working side-by-side with Alliance scientists and technicians to clean up the fallout and counter the ecological damage. This level of involvement and cooperation is unprecedented, and it says much about the Clan’s and the Alliance’s commitment to this nascent union.</p><p>The new seat of government for the Outworlds Alliance is the city of Carolinas on South Continent. The campus of a former community college has been appropriated as the new Executive ParliamentCcomplex. The former school and the community of administrative and ministerial offices that has grown up around the new Executive Parliament is referred to as the “Famindas District,” a reminder of the nation’s commitment to rebuild.</p> "
   },
   "Position": {
     "x": 502.78,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_small",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Betrayers",
   "ContractEmployers": [
     "Betrayers",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

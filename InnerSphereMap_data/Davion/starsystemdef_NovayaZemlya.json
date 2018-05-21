@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NovayaZemlya",
     "Name": "Novaya Zemlya",
-    "Details": " "
+    "Details": "The Capellan attack on Novaya Zemlya in 2399 was the first time that a fleet of heavily armed spaceships had bombarded a world from orbit. The Capellan attack wiped out roughly 75 percent of the planet's population and crippled industrial and agricultural centers for centuries to come. It set the precedent that would be repeated on countless worlds as the Succession Wars ensued."
   },
   "Position": {
     "x": 180.67,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ankaa",
     "Name": "Ankaa",
-    "Details": " "
+    "Details": "A small world blasted by its white-hot parent star, Ankaa held little promise for settlers during the first waves of interstellar colonization. Only 400 years after the first JumpShips left Terra did Sunni Muslim settlers land on Ankaa, one of the few uninhabited worlds left in the Inner Sphere by that time. These colonists decided to make a new life in Ankaa's polar regions, with their deadly climate and desolate but beautiful landscapes, and have since discovered deposits of rare metals."
   },
   "Position": {
     "x": 74.69,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

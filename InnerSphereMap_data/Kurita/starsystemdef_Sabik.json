@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sabik",
     "Name": "Sabik",
-    "Details": " "
+    "Details": "There was very little in initial surveys to recommend Sabik for colonization. It orbits twin stars, each three to four times the mass of Sol. There was little of interest on the planet's surface except valleys with its deep purple leaves. There was no indication of sizable mineral deposits. For colonists looking for somewhere to live, the planet had little appeal.It was the planet's harshness that prompted the SLDF to build its Harsh Terran Test Center and its Special Armed Services Training Center on Sabik. At the HTTC, new 'Mech and vehicle designs were put through their paces in the boiling heat.When the Draconis Combine assumed control of this planet after General Kerensky and his troops left, they found that little remained. Both the HTTC and the SASTC were stripped bare. Since then, the Combine has maintained a small military base on Sabik, called the Dragon's Stool, and there is a ComStar HPG station as well. ComStar researchers have been investigating the HTTC and the SASTC, but they have been cautious so they do not arouse the suspicions of the local Combine authorities. They have discovered that the SLDF left more behind than the Combine realized. "
   },
   "Position": {
     "x": -12.67,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 43,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

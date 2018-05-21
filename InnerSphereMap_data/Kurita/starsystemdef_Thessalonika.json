@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thessalonika",
     "Name": "Thessalonika",
-    "Details": " "
+    "Details": "Thessalonika is a resource-poor world; only petroleum deposits and a few gemstone veins give this planet any industry.  The real worth of the planet lies in its abundant life-forms.  Although possessing only one small ocean, the planet somehow manages to maintain a number of types of life.  The larger animals, such as oxen and Pesht butcher beasts, do quite well on the large, open, grassy plains on Thessalonika. Tyrsis is the capital city.  Located there is a major museum, the Tyrsis McNeil Museum, which is devoted to the preservation of military technology."
   },
   "Position": {
     "x": 74.18,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

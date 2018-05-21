@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ridgebrook",
     "Name": "Ridgebrook",
-    "Details": " "
+    "Details": "[2578] The opening round of the Taurian campaign in the Reunification War occurred on May 15, 2578. Elements of the Star League 3rd fleet battled a Taurian squadron for five hours in the Ridgebrook system, resulting in the destruction of four Taurian and three League warships.On the planet itself were the Concordat's 2nd and 15th Fortress Battalions, which defended their mountain fortifications against elements of the 1st and 2nd Divisions of the Star League's 1st Corps. Though lacking BattleMechs, the Taurians had positioned many heavy artillery and missile batteries in the mountains prior to the start of the war.The Taurians' three concentric rings of fortifications held until September 12, when the 3rd Heavy Assault Regiment stormed the Taurians headquarters. In this engagement, the Star League attackers were thwarted in their efforts to take prisoners. Not for the last time would the Taurians choose to die in place, taking as many League regulars with them as they could."
   },
   "Position": {
     "x": 201.36,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Maestu",
     "Name": "Maestu",
-    "Details": " "
+    "Details": "[3051] Clan Wolf landed on Maestu in November 3051. Galaxy Commander Mikel Fury's opponent on Maestu was Hauptman General Jane Cragie, a leader almost as flamboyant and eccentric as the Wolf commander. It proved to be a campaign of derring-do and great drama, reflecting the personalities of the two commanders. The 'Mechs and Elementals of Gamma Galaxy made a daring and difficult drop through a storm of Lyran fighters just kilometers from the First Lyran Guards RCT's defensive positions. On landing, Galaxy Commander Furey released a Star of headhunters who slipped through the left flank of the Lyrans and found General Cragie's HQ. The ensuing fight in and around the HQ building was fierce, but General Cragie and her command staff were not hurt. Gamma Galaxy launched a simultaneous offensive that broke through the general's lines in several places before she could regain command of the situation.The First Lyrans went of the defensive, retreating toward New Yoko, Maestu's capital. At Cold Harbor, the First Lyrans were cut off from New Yoko. General Cragie determined that her situation was unsalvageable and ordered her troops to retreat offworld to Shaula. She was following the orders issued by the Davion High Command stressing that it was better to run, and live to fight another day, than fight to the last warrior for a planet already lost."
   },
   "Position": {
     "x": -35.36,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gulkana",
     "Name": "Gulkana",
-    "Details": " "
+    "Details": "Gulkana is currently the center of much political and religious unrest. A relatively small world with few resources, the planet would probably go unnoticed except for its one industry. The Yeffters Weapons Factory makes DropShip autocannons of all calibers. Most of its products go to Galax, where they are installed on the DropShips of Federated-Boeing. When the Yeffters factory was shut down last year as the result of a political insurrection, everyone in the Federated Suns, including Prince Davion himself, sat up and took notice. The planet's democratic government had been usurped by a member of the planet's local militia. The nobility, including the weak and apathetic Duke Salos, was mollified with promises that their privileged positions were safe. Captain Yarborough, the new ruler of the civilian government, appeared to be a relatively reasonable man who promised to protect personal liberties and to lower taxes. It looked for a moment as though the change of governments had been for the better. That opinion soon changed when Captain Yarborough pro-claimed the Competency Laws, which used a farcical test to classify each inhabitant according to IC. Those who scored high were given important jobs; those who scored low were given shovels. Though the test was inaccurate and biased against the majority Hindu population, it was acceptable to Yarborough's fanatic and well-armed supporters. The effect of this lunacy was immediate. The entire planet ground to a complete halt, including the vital weapons industry. Because certain laws prevent the Davion central government from interfering in the affairs of its nobles, the most Hanse Davion has been able to do was attempt to pressure the apathetic Duke Salos to make a stand. The aging Duke has resisted the Prince's pleas for action, however. Some of the planet's lesser nobility would like to use their private forces against Yarborough, but Duke Salos directly controls the major cities, which effectively protects the usurper. At the moment, there is a grass-roots movement dedicated to the overthrow of the crazed Captain and to seek assistance of the Davion government, but it has not been possible to mount a coordinated effort so far. The capital city of Gulkana is Kanpur.When Christine Salos, Duchess of Gulkana, came to power in 3034, she immediately gave the AFFS permission to move in, but requested more military contracts as a reward for her loyalty to the Davion government. Her line of Mydron autocannons are now in use on Commonwealth 'Mechs and fighters, as well as the dropships in which they were originally installed."
   },
   "Position": {
     "x": 353.61,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 23,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

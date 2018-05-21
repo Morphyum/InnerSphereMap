@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Styk",
     "Name": "Styk",
-    "Details": " "
+    "Details": "[3025] Styk is the ducal holding of Maximillian Liao's commander-in-chief, Duke Pavel Ridzik. It is the second largest trading and industrial center in the Confederation and the largest interstellar trading planet. The third largest BattleMech production center surviving in the Confederation is also located on Styk. Troops of Warrior House Fujita have recently been added to Styk's sizable AeroSpace and naval reserve units.The capital city of Styk is Charon, but it's industrial heart is Tao City, built around the Tao MechWorks. No match for the annual output of Earthwerks' Tikonov facilities, Tao MechWorks and its affiliated industries still account for more than 20% of the Capellan Confederation's industrial output and employ over 5% of the planet's population. The majority of the population live in several large cities located on the planet's nine continents. These landmasses cover 22% of Styk's surface; saltwater oceans cover the rest."
   },
   "Position": {
     "x": 42.12,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

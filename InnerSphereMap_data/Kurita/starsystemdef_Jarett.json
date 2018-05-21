@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jarett",
     "Name": "Jarett",
-    "Details": " "
+    "Details": "Jarett became the the third target of the Minnesota Tribe, in early 2826. The Tribe took what they they needed before moving on, this time thwarting efforts to stop them when a large group of their AeroSpace Fighters intercepted and kept two battalions of Kurita 'Mechs out of the battle.[3050] When Clan Ghost Bear Khan Theresa DelVillar announced her batchall for Jarett in May 3050, Tai-sa Sonia Zev of the Ninth Alshain Regulars did not understand what response the Ghost Bear Khan expected to receive. She did know that she had an inexperienced unit under her command, and she had no intention of revealing here troops' lack of experience to the Clan. Unfortunately for Zev, Khan DelVillar had already learned from ComStar officials that the green Ninth regiment was spread out in three battalions over the northern part of the planet.Khan DelVillar dropped her units in a standard combat formation and immediately faced the determined warriors of the Ninth. The battle began with Khan DelVillar challenging a Commando. The Khan's Elemental Point quickly shredded the Commando, but the 'Mechs pilot refused to give up, continuing to fight even against the Clan's massive battle-armoured troopers. The Khan captured this feisty young warrior and made him her bondsman - the rest of the Ghost Bear warriors followed her lead by attempting to capture their opponents rather than kill them. This made the survival rate of the Ninth impressively high.The main battle for Jarett was fought in the lush foliage of the Solun Jungle. The Ninth's lead battalion made excellent use of the cover allowed by the trees, a lesson that Kanrei Kurita would borrow for himself later in the invasion. For nearly a week the Ninth survived by fighting on the run, but the Ghost Bears followed this fox hunt to its inevitable conclusion - the Ninth eventually succumbed to Clan Ghost Bear nearly ten days after the Golden Bears landed, but not before the defenders were able to gut the Gorton, Kingsley & Thorpe Enterprises 'Mech plant."
   },
   "Position": {
     "x": 102.17,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

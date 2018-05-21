@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pesht",
     "Name": "Pesht",
-    "Details": " "
+    "Details": "Discovered in 2212 by a group of Ozawan merchants, Pesht was not settled for a hundred years.  The apelike predators that lurked in the vast forests wiped out every colonization attempt by the Ozawa family, who laid sole claim to the planet.  Soon, the mercantile dynasty gave up trying. Later, the Ozawa clan relinquished all rights to the planet to the Draconis Combine, although the former did not tell the latter of the ape creatures.  The Kurita settling party was wiped out to the last man. Perhaps they were more determined or ruthless than the Ozawas.  Regardless, in less than ten years, the Combine had driven the creatures to the brink of extinction.  Only then did the Combine reveal its main interest in the world--to create a military base.  Fortifications reminiscent of feudal Japan sprang up, and soldiers from every branch of the military soon arrived.  Pesht became the launching point for Combine forays into the Draconis Rift. During the restructuring of the government under Coordinator Martin McAllister, Pesht became the capital of a Military District.  Then, when the capital of the Draconis Combine moved to Luthien, most of the units stationed on Pesht were transferred to Luthien. Rulers of Pesht have always resented the fact that Luthien--and not Pesht--was chosen as the new capital.  Pesht is now treated as a common garrison planet, and District leaders spend most of their time on Luthien, although they exert no more influence over the planet than any other district leaders.The city of Vrydolyak is home to Pesht Motors, producing trains, tractors, buses, and autocars. Pesht Mootors runs the mass transit system on most Kuritan worlds, even building and providing streetcars to be drawn by beasts on planets that cannot afford any other vehicles.Pesht is also home to the DEST Tactical Command Centre, hidden deep within the planet's forests. Originally built by the Combine military as a prototype installation based upon Star League Castle Brian designs, the project was abandoned when the Combine capital moved to Luthien. Recognizing the base as perfect for its training needs, DEST took control of the facility.As with the ISF installations on New Samarkand, it can only be reached by underground shuttle car. A sophisticated motion and heat-tracking surveillance system linked to an arsenal of hidden weapons and booby traps monitors the woods surrounding the center. In addition, DEST commanders have saved the population of ferocious simian predators that originally inhabited the planet from extinction, encouraging their breeding behavior to further discourage intruders. A complex system of anti-aircraft weapons mounted on the complex's buildings and on several weapons platforms in low orbit above the site shoot down any unidentified aircraft venturing into the area.[3059] During Operation Bulldog, Clan Smoke Jaguar attempted a counter-attack to relieve the pressure on their OZ from SLDF forces. The Jaguar's Delta Galaxy Command led the newly formed Third Assault cluster in a desperate bid to capture Pesht. The Jaguar's chances of victory were slim from the start, however, and Jaguar aerospace assets abandoned the Clan's ground forces soon after their combat drop. Encountering civilian resistance, the Jaguars began scorched-earth tactics, savaging the world as they fought a running battle with the SLDF forces that lasted several days.From intercepted 'Mech comm traffic, SLDF analysts later determined that the Assault cluster had expected to meet the Seventh Sword of Light, Ryuken-San, and the First Kell Hounds, but not the Second Wolf Legion that smashed in from the flank to annihilate the Galaxy Command Trinary. Left to their own devices, the warriors of the Third Assault cluster threw themselves at the Kell Hounds, thinking the mercenaries would break. Instead, the Hounds became the anvil on which the Seventh Sword and Ryuken shattered the Clan force. Within a few days, the SLDF forces hunted down the last remaining Jaguar Stars."
   },
   "Position": {
     "x": 206.14,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

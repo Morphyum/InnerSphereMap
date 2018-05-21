@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Acrux",
     "Name": "Acrux",
-    "Details": " "
+    "Details": "[3025] Acrux is highly suited to agriculture. The weather is temperate and pleasant enough to allow an almost year-long growing season. The city of Illampu is home to the headquarters of Acrux Agricultural Industries. After its president absconded with most of the company's cash and assets in 3019, Acrux Agricultural underwent a major reorganization. Under new president Carma Rosado, the future of the firm seems good. It has already posted impressive first-year earnings and has made many contacts and prospective clients, both in the Commonwealth and the Free Worlds League.[3056] Acrux has recently come under attack from a terrorist organization calling itself the Farmers Liberation Resistance Movement (FLRM). The FLRM claims that Acrux is destroying their livelihood by crowding or taking over their land. The FLRM has torched many of Acrux's fields on Valloire, creating a massive loss of profit for the agricultural giant."
   },
   "Position": {
     "x": -352.03,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 13,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

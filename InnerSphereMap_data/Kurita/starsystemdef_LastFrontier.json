@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_LastFrontier",
     "Name": "Last Frontier",
-    "Details": " "
+    "Details": "[3050] Clan Ghost Bear landed on Last Frontier on the 23rd June 3050 to face off against the First Freemen, the defenders of last frontier. The outcome of the short, brutal fight was a forgone conclusion. The green Rasalhague regiment fought bravely but offered no real opposition to the elite Clan force, though the repercussions of the battle would change the face of Clan Ghost Bear. When the Ourse Keshik, led by Khan DelVillar, raided a Freemen ammunition dump of the 24th June, Överste Knute Kurita's defending company opened fire on the charging Clam 'Mechs and, surely by chance rather than design, scored a direct missile hit on Khan DelVillar. Her Point scrambled to remove her from the battlefield, but the damage was done. Khan DelVillar slipped into a coma from which she would never emerge.Khan Bourjon secured Last Frontier, then immediately convened a meeting of all available Bloodnamed warriors to vote for a new Khan. MechWarrior Aletha Kabrinski, the Clan's current Oathmaster, earned the title of Khan by defeating stiff competition. Her first official statement as saKhan was to suggest to the assembled warriors that Khan Bourjon, while a competent warrior, was not leadership material. Her statement echoed the sentiments of many Bear warriors, whom felt that the Clan's poor performance to date could accurately be blamed on the Khan's lack of competence. She called for one of the warriors present to challenge Khan Bourjon for his position, and nominated Star Colonel Bjorn Jorgensson for the honor.Caught completely offguard by this show of no confidence, Khan Bourjon called for a vote to determine the extent of his warrior's discontent. The warriors voted unanimously to choose a new Khan, then voted to elect Star Colonel Jorgensson as Clan Ghost Bear's new Khan. When Khan Bourjon called for a Trial of Refusal, Khan Jorgensson choose to accept personally. Because he was a poor hand-to-hand fighter, Khan Bourjon chose to fight augmented, even though to do so gave Khan Jorgensson the advantage of his aerospace fighter. The battle took place in the tropical jungles of Last Frontier's equator, and ended with Khan Bourjon accepting Jorgonsson's offer of hegira."
   },
   "Position": {
     "x": 80.12,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

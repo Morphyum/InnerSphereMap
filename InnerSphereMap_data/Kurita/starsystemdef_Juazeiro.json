@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Juazeiro",
     "Name": "Juazeiro",
-    "Details": " "
+    "Details": "[3052] Star Colonel Istal Develis won honor for her assault on Juazeiro by fighting a tight, intelligent campaign that allowed her forces to the the world with minimal losses in January 3052. Her first move was to send a Headhunter Star to compromise the defending Twenty-First Galedon regulars command position. Concerned with accuracy placing his troops in hidden positions, Tai-sa Adam Sawyer was taken completely by surprise when Elementals destroyed his headquarters. Adam's brother Lee assumed command of the regiment upon the commander's death, and attempted to fight from the positions established in the original battle plan.The Twenty-First only realized the Nova Cats' frontal assault was a feint when the Forty-Forth Nova Cat Cavaliers attacked from the rear. Sawyer quickly broke his troops into lances and initiated a campaign of hit-and-run skirmishes that he hoped would allow the Twenty-First's surviving elements to reach its landing zone and leave the planet.Less than a battalion of the Twenty-First escaped offworld, and Devalis's insignificant losses gave her a victory. Hindsight showed that, had Star Colonel Devalis included aerospace assets in her bid to take the planet, she would have destroyed the entire Regulars force."
   },
   "Position": {
     "x": 162.58,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +41,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

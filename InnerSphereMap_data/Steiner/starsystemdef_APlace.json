@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_APlace",
     "Name": "A Place",
-    "Details": " "
+    "Details": "A desolate world with rich mineral resources, A Place has never been able to feed itself from what it raises from its meager topsoil. When the First Succession War came and commercial JumpShips were requisitioned, the planet/'s population immediately began to go hungry. Though the Commonwealth Government sent mercy missions, they came too infrequently too stave off mass starvation. Of the million inhabitants at the start of the war, only 100,000 at war's end. The capital and main spaceport of A Place, is Here."
   },
   "Position": {
     "x": -123.76,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

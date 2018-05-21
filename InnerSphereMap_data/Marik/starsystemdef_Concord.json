@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Concord",
     "Name": "Concord",
-    "Details": " "
+    "Details": "[3048] In December 3048 the Twentieth Marik Militia came under heavy attack by the Seventh Donegal Guards RCT. The Lyran unit had a simple mission: cause as much damage as possible to any Free Worlds units stationed on Concord in reprisal for the Third Free Worlds Legionnaire's' attack on Gienah several months previously. The Donegal Guards pushed the Twentieth to the limit of its endurance, but the Militia regiment stood its ground and harried the enemy's supply lines until League reinforcements arrived in-system. Less than two battalions of the Twentieth survived the month-long engagement, and the Donegal Guards withdrew believing their mission a success."
   },
   "Position": {
     "x": -146.6,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

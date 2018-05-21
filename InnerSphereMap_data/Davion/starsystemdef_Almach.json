@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Almach",
     "Name": "Almach",
-    "Details": " "
+    "Details": "A major site of ocean-based sea-farming technologies now all but lost to both the Capellans and the Federated Suns, Almach once single-handedly supplied the entire food demands of the other planets of Chesterton province. There are three continents on Almach, one of which contains the largest desert in this sector of space; otherwise, the land area of Almach is lush and contains extensive government-maintained national parks and wildlife preserve areas. Almach is unusual in its ethnic makeup, being the only planet in the Inner Sphere settled almost entirely by Argentineans."
   },
   "Position": {
     "x": 100.8,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

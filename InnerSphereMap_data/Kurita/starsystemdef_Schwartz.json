@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Schwartz",
     "Name": "Schwartz",
-    "Details": " "
+    "Details": "[3050] Star Colonel Thilla Showers led her Trinary Command, Trinary Battle and Supernova Striker, in a daring planetfall of agricultural world of Schwartz in March 3050. Landing virtually on top of the defending Ninth Pesht Regulars, the brutal fight ended when Star Colonel Showers defeated Tai-sa Mark Graham, the Ninth's commander, in single combat. Insufficient aerospace cover on the part of the Jaguars, however, allowed the bulk of the Ninth's survivors to escape.[3059] Schwartz was attacked during the third wave of Operation Bulldog by the Sixth Ghost, Second Night Stalkers, First FedSuns Armored Cavalry, and the Com Guards 85th Division. The Jaguars 189th Garrison Cluster offered only token resistance to the invading SLDF forces, and then abandoned the world. "
   },
   "Position": {
     "x": 176.29,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_ButteHold",
     "Name": "Butte Hold",
-    "Details": " "
+    "Details": "[3049] Clan Wolf landed on Butte Hold in September 3049. The Bronze Keshik was unnopposed when it invaded this barren, thinly populated world. "
   },
   "Position": {
     "x": -100.82,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Locals",
   "ContractEmployers": [
     "Locals"

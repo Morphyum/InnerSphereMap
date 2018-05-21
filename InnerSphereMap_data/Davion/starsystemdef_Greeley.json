@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Greeley",
     "Name": "Greeley",
-    "Details": " "
+    "Details": "A good part of the planet Greeley is frozen arctic tundra. Its small sun and the exaggerated tilt of the planet's axis produce strong arctic blizzards that actually push their way into the planet's tropical regions to blanket most of the world in snow. Underneath the snow and soil are a few modest deposits of metals and little else. Recent activity on the planet suggests that Greeley has suddenly become important to the Federated Suns. It appears that they are constructing a military base for BattleMechs, tanks, and infantry units. This new Fort Greeley is apparently going to play a role in the training of Davion troops. It is also known that several scientists from the NAIS are at Fort Greeley. Which may indicate that the fort will serve as an arctic test center for NAIS-designed devices. This planet definitely bears watching."
   },
   "Position": {
     "x": 449.25,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

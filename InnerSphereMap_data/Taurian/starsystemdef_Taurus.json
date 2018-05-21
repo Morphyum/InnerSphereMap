@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Taurus",
     "Name": "Taurus",
-    "Details": " "
+    "Details": "Settled in 2253, Taurus was named after Samantha Calderon's second husband, Victor Taurens, who had perished during the initial penetratation of the Hyades Cluster. Taurus quickly proved to be rich in natural resources, including a soil that quickly adapted to the introduction of Terran crops. Taurus itself is surround by a thick natural barrier of asteroids, seeded with mines and laser cannon emplacements, and host to elements of the Taurian Guard, the elite battalion of the Taurian Defense Force. Taurus is also home to a variety of industries, many of which produce 'Mechs and spare parts. As the nexus of the Concordat social system, Taurus is one of the few cultural centers in the Periphery and presently supports a population of over 2 billion inhabitants.[3025] Alone of all the Periphery states, the Taurian Concordat maintains large military training academies. At present, there is one academy for each major combat branch: the Army, Navy, and AeroSpace Arms. The army training academy is the École Militaire, located on Taurus. The Taurian Naval Institute and the Concordat AeroSpace Flight School are located on New Vandenberg and Samantha, respectively. Each has a well-developed training program for both NCOs and officers and can accommodate upward of five hundred personnel.<P/>The Concordat has also retained the highest literacy rate in the Periphery. Indeed, the Taurian educational system has served as a model for other states, including those of the Inner Sphere. Despite losing many educational institutions during the Reunification War, the Taurians have rebuilt their schools to pre-Star League levels, since regaining their independence. They can now boast no fewer than six universities. Located on Taurus, Samantha, Pinard, New Vandenberg, MacLeod's Land, and Euschelus, these universities graduate an average of over forty thousand students annually.<p>[3075] In 3074 the city of Samantha and its surrounding areas were effectively wiped out by the asteroid strikes, and evidence pointed to the disaster being a Federated Suns attack. Three craters approximately fifty meters deep (along with a half dozen smaller craters) now cover the former crown jewel city that was populated by eight million people at the time of attack. Five million people perished in an attack that lasted only hours but was followed by flash foods that filled up the three largest craters, effectively displacing the other three million. The only buildings left standing were a handful of underground bunkers on the outskirts of the city proper, buildings that had been secretly constructed during the nation’s resistance against the Star League Defense Force.</p><p>New Chappelle has become the planet’s new capital, though the handful of surviving government officials, including recently installed Protector Boris Tharn, insist this is only temporary and that a “New Samantha” will rise up in the place of the devastated original. Located on the Sicilian continent, New Chappelle had its spaceport expanded quickly to accept increasing cargo and passenger traffic in the wake of the Urukhai assault, making it a natural location from which to run the system. The continent is not as optimal as the Calderon continent was for Samantha, but extensive landscaping and excavation has made it much easier to navigate in the past few years, allowing for hasty reconstruction of smaller business and industries. </p><p>Outside the SASF, only a handful of militia troops remain on planet, with the rest of the forces of fighting Federated Suns troops. While this makes the planet a prime target for another ground assault, the SASF has been beefed up, setting up checkpoints to ensure that no invading force will make it to the vulnerable center. Protector Tharn has drafted most of the unemployed able-bodied population into clearing away the wreckage and debris around Samantha, and news reports have documented a high incidence of suicides and depression in these workers, especially in those assigned to rounding up, identifying, and clearing away the many bodies in the rubble.</p> "
   },
   "Position": {
     "x": 191.38,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_capital",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +46,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "TaurianConcordat",
   "ContractEmployers": [
     "Locals",

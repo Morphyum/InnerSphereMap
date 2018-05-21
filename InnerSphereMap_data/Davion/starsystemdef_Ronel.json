@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ronel",
     "Name": "Ronel",
-    "Details": " "
+    "Details": "Blasted by its large parent star, Ronel is an inhospitable world with significant mineral wealth. Although the Terran Hegemony never permanently settled Ronel, Hegemony mining companies sent teams of workers on multiyear assignments to drill deep into Ronel's broken terrain. House Liao and House Kurita both laid claim to Ronel after the fall of the First Star League. After years of stalemate, the Capellan Chancellor suspended the Ares Conventions and authorized the use of chemical weapons. The Confederation won Ronel, but only by poisoning its atmosphere. The chemical agents unleashed by the Capellans eventually dissipated to levels that could be managed with filtering masks. Once declared safe, Ronel became a prison world, a destination for the most criminal elements of Capellan society, which did the dangerous work of reopening the planet's mineshafts. Federated Suns mercenaries took Ronel in the Fourth Succession War, and The Republic of the Sphere has maintained investments started by House Davion in Ronel's mining economy. The twin continents of Oxo and Xox are nearly mirror images of each other, almost directly opposite each other; Oxo in the northern and Xox in the southern hemisphere. The capital city of Lenor is on Xox."
   },
   "Position": {
     "x": 95.64,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 19,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

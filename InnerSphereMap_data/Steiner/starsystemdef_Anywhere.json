@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Anywhere",
     "Name": "Anywhere",
-    "Details": " "
+    "Details": "[3050] The Second New Ivaarsen Chasseurs, the ducal forces of the Stephensons of the Draconis March, arrived on Anywhere shortly before the Jade Falcon assault in March 3050, and so were unfamiliar with the planet's terrain. The Golden Talons attacked so quickly that they caught the Chasseurs and the Anywhere Militia unprepared. This forced them to commit several costly mistakes, culminating in the loss of more than 60% of their forces in the Brigham Rollo. "
   },
   "Position": {
     "x": -167.21,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

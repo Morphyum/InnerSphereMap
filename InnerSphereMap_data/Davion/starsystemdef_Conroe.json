@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Conroe",
     "Name": "Conroe",
-    "Details": " "
+    "Details": "Conroe has one small, arid, marginally habitable satellite whose surface hides valuable mining operations, which are the lifeblood of the planet.The capital city of Conroe is Gilberhaven.[3062] Formed in 3024, the Conroe Training Battalion was the first of the regional training units created on the orders of Hanse Davion. Its first graduates vindicated the concept, proving that competent pilots could be created without extensive (and expensive) schooling, albeit without much of the ancillary education (such as tactics and technical matters) normally evident in academy graduates. The recruits for the Conroe Battalion come from worlds in the Bryceland PDZ, so there is a strong anti-Combine bias. Most in the current class are disappointed that, rather than immediately jumping the border to punish the Drac scrum, they spend several weeks in a boot camp instilling basic discipline before being allowed near a 'mech."
   },
   "Position": {
     "x": 377.13,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

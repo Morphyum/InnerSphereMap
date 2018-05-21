@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Principia",
     "Name": "Principia",
-    "Details": " "
+    "Details": "Principia is the seat of the Capellan judicial system, transplanted from Sian after the last Succession War due to numerous raids on that planet.  Principia houses special judicial branches that adjudicate contractual dealings with mercenary units in Capellan service.  The warm, temperate climate draws numerous noble families each year, many of which have holdings on Principia as \"homes-away-from-home.\"  At least one reserve unit and/or mercenary regiment is stationed on Principia at all times."
   },
   "Position": {
     "x": 0.02,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

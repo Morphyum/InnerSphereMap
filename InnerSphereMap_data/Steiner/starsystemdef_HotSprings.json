@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_HotSprings",
     "Name": "Hot Springs",
-    "Details": " "
+    "Details": "First colonized for its vast mineral deposits and metal ore veins, Hot Springs became famous for its rich mineral water. The planet developed a tourist industry centered on the mineral enriched water and therapeutic hot springs. Tourists from across the Inner Sphere would journey to Hot Springs just to take \"the baths,\" as they were called. The planet is primarily populated by the descendants of African and Black Americans, who emigrated from Terra in the latter half of the 28th century. Hot springs, however, was far from a resort world. The planet's two continents are the results of massive volcanic activity. Silver Springs, the larger of the two continents, is mostly covered in black crusty rock-ash, broken by the occasional outcropping of trees, a smattering of dense jungle or small lakes of brackish water. The Lucas Mountain Range found on the western side of Silver Springs, is part of the volcano mountain chain that formed the planet's continents.Manta Springs is the less hostile of the two lava-strewn landmasses. The majority of the planet's population settled Manta Springs. The planetary capital, Boulder, was built from the rocky terrain. Here in the capital is the Institute for Advanced Studies in Physical Therapy. It is here that many people come to learn special training in therapeutic methods of physical therapy and limb rehabilitation training.[3050] Clan Jade Falcon targeted the world of Hot Springs for a reason only recently made known: the founder of the Von Jankmon Bloodname was also born on that planet. Many members of that Bloodname held powerful positions in the Clan touman and convinced Khan Crichell to add Hot Springs to the invasion list in June 3050.The green troops of the Hot Springs TMM stood little chance aginst the fighters and OmniMechs of the Turkina Keshik, who advanced steadily from the spaceport, swatting aside the few conventional fighters and VTOL's that attempted to block their progress. The militia made its stand at the planetary capital, choosing the only position that could give the man advantage: the Falcons were reluctant to launch an all-out attack, because their orders were to take the city with minimum damage.Elementals formed the frontline force and made their way slowly through the streets, destroying tanks and pillboxes, routing the militia infantry, and eventually forcing the Hot Springs TMM 'Mechs units from their prepared positions. The Falcons allowed the militia to break out of the city, but stopped the defenders from reaching the world's wilderness areas, where they could organize guerrilla operations. The First Falcon Striker Cluster were in position to trap the militia as they escaped from the capital, and less than thirty minutes later, the last of the militia fell to the overwhelming firepower of Clan Jade Falcon.[3064] During the Jade Falcon Incursion, General Steiner and forces landed on Hot Springs on the 21st September 3064. Star Colonel Diane Anu and her fifth Battle Cluster kept Steiner tied up for some time, however, using Inner sphere-like tactics against the Lyran troops. By going to ground, and running a hit-and-run campaign, Anu prevented Steiner from using overwhelming force against her and further kept the general from launching any more assaults within the Falcon OZ until the second week of December. General Adam Steiner pulled off Hot Springs on the 12th of December, leaving the world in Falcon hands."
   },
   "Position": {
     "x": -170.46,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

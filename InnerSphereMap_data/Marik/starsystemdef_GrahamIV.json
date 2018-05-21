@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_GrahamIV",
     "Name": "Graham IV",
-    "Details": " "
+    "Details": "Graham was an important center of heavy industry in the Terran Hegemony. Six companies, each with a large city for its workers, built major manufacturing plants on the planet's surface. Two, Dekirk Aerospace and Mitchell Vehicles, were important contractors to the SLDF.Republican forces exploded a nuclear device over the capital city of Graham, Dekirk City, when it refused to hand over SLDF troopers who had escaped from a nearby Castle Brian. To the amazement of the Republican forces, the ruins of the bombed city slowly, then with increasing speed, sank into the ground. When they ventured to the crater's edge, the Amaris forces discovered that Dekirk City had been built over a secret Hegemony aerospace research and development facility.The Republican's bomb was especially radioactive, and so it was many years before anyone was able to climb into the crater and through the rubble. Even now, researchers cannot venture into many areas of the ruins because of the danger, but they have recovered many significant documents and projects. The Dekirk site is expected to provide more valuable clues to our knowledge of aerospace technology as other areas cool off.[3025] Graham IV is governed by a feudal autocracy.Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with both the Capellan Confederation and Draconis Combine. Graham IV is one of the worlds within Marik space that this trade is centered on. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profitable market (legal or otherwise) for virtually any commodity."
   },
   "Position": {
     "x": -23.52,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",

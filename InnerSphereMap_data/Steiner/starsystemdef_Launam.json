@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Launam",
     "Name": "Launam",
-    "Details": " "
+    "Details": "[3029] Pleasantly surprised that the AFFS and LCAF were not attacking his realm during the Forth succession War, Captain-General Janos Marik was more than willing to sit back and let the other Houses destroy one-another. However, neither of the Captain-General's Concord of Kapteyn allies cared much for this attitude. Strongly worded communiqués from Chancellor Liao and Coordinator Kurita convinced Janos Marik that he had no choice but to help both states. With great reluctance, the Captain-General set in motion what became Operation Dagger.October 1 saw the operation underway, with Marik forces appearing in five Commonwealth star systems, including Launam. Despite heavy fighting that lasted until late November, Marik forces managed to capture all five planets. They also conducted heavy raids against numerous other Commonwealth worlds in an attempt to force House Steiner to pull units from the Draconis front.Though initially amazed at Operation Dagger's success, Janos was horrified when he received news of a terrible occurrence on the planet Scarborough - namely, a clash between Marik forces and Capellan units taking refuge on the world. The Duchy of Andurien, always, a volatile and rebellious member of the League, immediately declared war on the Capellan Confederation. In less than a day, the Captain-General went from successful conquest of several hard-won worlds, to fighting a desperate two-front war.When the lull came in early 3029, the Marik forces breathed a sigh of relief, believing that they might have time to pull their realm out of the war. This was not to be however, when regiments from the newly formed Tikonov Free Republic attacked four Marik worlds. Even as the Republic forces were invading, Lyran forces invaded the League world of Callison. News of the Marik Guard's defeat on Callison worried the League's generals, and the apparent preparations for a massive invasion of the League by Commonwealth and Republic forces brought them to the edge of panic.Janos Marik reasoned that he could not save the planets threatened by the imminent invasion, but he could save the units stationed on them. On July 28, he issued orders to all troops Terra-ward of a line between the planets Callison and Wasat to evacuate immediately, as well as on the worlds captured in Operation Dagger. In his fear he gave up fourteen worlds that he might have saved. He did not know that the Commonwealth had no intention of launching an offensive, and that their messages implying such a scheme were a bluff. This single deception allowed the LCAF to absorb in a few weeks worlds that should have taken months, if not years to conquer, all without firing a shot."
   },
   "Position": {
     "x": -167.21,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

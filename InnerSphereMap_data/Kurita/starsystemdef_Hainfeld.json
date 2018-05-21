@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hainfeld",
     "Name": "Hainfeld",
-    "Details": " "
+    "Details": "[3051] Hainfeld was a test for the freebirth and veteran warriors of Epsilon Galaxy's Green Keshik, Nega and Dorbeng Garrison Clusters. Their opponents were the Second Freemen, a very capable veteran unit commanded by Överste Rhett Weaver, and the First, Second, and Third Hainfeld Militia Brigades (comprised of two mechanized infantry regiments, and one armor regiment each). All of the defending forces were arrayed around the capital city of Hainfeld Central. Galaxy Commander Anton Fetladral recognized that a campaign on open terrain favored the defenders, because they outnumbered the Wolf forces. Re-evaluating his strategy, Galaxy Commander Fetladral took notice of the capital city's sprawling, open parks and the defenders' lack of aerospace fighters. His troops performed a night drop into the city's parks. Reluctant to harm their city or its people, the Freemen skirmished only briefly before withdrawing to Carse."
   },
   "Position": {
     "x": -13.45,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

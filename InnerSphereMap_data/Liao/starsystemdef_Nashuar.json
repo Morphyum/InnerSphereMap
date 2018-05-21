@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nashuar",
     "Name": "Nashuar",
-    "Details": " "
+    "Details": "Nashuar is a water rich world, with oceans covering some 95% of its surface.Hazlet is the capital of Nashuar.[3060] The first true shots exchanged between troops of the former Federated Commonwealth came not during the Civil War, but almost two years earlier on Nashuar. In September of 3060, the St. Ives Compact's Blackwind Lancers staged an abortive raid against the Capellan world of Hustaing. In response, acting as First Lord of the Star League, Capellan Chancellor Sun-Tzu Liao ordered SLDF units to occupy several Compact worlds, ostensibly as peacekeepers.He placed the Fifth Lyran Regulars on Nashuar, who almost immediately began a tense standoff against the Seventh FedCom RCT, a unit that had garrisoned the compact for years. In January of 3061, the so-called peace-keeping mission turned into a war of aggression when St. Ives units and the SLDF clashed over First Lord Liao's orders to place Compact worlds under martial law.The fight on Nashuar turned bitter almost instantly, with the Seventh F-C and the Fifth Regulars showing each other little in the way of mercy. Supported by the Nashuar Home Guard, the Seventh had the better position on the world and refused to give anything to the Fifth Regulars other than cramped landing zones. The Fifth responded by making a lightning breakout from their LZ in the city of Grianet and into the Salt River Canyon. From that point, the fight degenerated into a battle that would eerily resemble many of the fights of the Civil War.By April of 3062, the situation within the Compact had turned into a full-fledged war with the Confederation and the Fifth was rapidly losing cohesion. A final push by the Seventh, spearheaded by its armor brigade, drove the Fifth off the world and back into the Lyran Alliance."
   },
   "Position": {
     "x": 97.58,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

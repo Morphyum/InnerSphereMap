@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BadNews",
     "Name": "Bad News",
-    "Details": " "
+    "Details": "[3059] In a district known for proud and devoted service, the loyalty of the Nineteenth Galedon Regulars has remained doubtful more often than not since the unit's inception. Formed during the long-drawn out Second Succession War in response to the DCMS's insatiable need for troops, the original Nineteenth was largely comprised of soldiers of questionable loyalty; however, the High Command determined that the need for more men outweighed the potential risk. The Nineteenth Galedon replaced other forces serving as planetary garrisons along the Periphery, freeing these more reliable units for more important duties.Nowadays the Nineteenth Galedon rarely sees significant action; for more than thirty-five years the unit has garrisoned the planet Bad News, where occasional bandit raiders are the only enemy the unit regularly faces.However, recently uncovered evidence suggests the Nineteenth Galedon may be financing its own operations into the Periphery, hunting down bandits and occasionally raiding planets near the Outworlds Alliance. Apparently, the unit keeps these activities at a low enough level to draw little attention and takes care not to leave evidence linking the attacks to Combine forces. The Nineteenth allegedly uses mercenary JumpShips for transportation, commanded by captains whose loyalty can be bought. Missing forces from the Nineteenth are consistently said to be on extended maneuvers, but little other information is available.The Warlord of Galedon may be allowing this state of affairs to continue because it keeps a potentially troublesome force occupied and allows the unit's warriors to maintain their level of expertise. Coordinator Theodore Kurita has declined to order an end to the alleged activities until clear evidence shows that the raids are taking place and damaging the Combine in some way."
   },
   "Position": {
     "x": 422.11,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

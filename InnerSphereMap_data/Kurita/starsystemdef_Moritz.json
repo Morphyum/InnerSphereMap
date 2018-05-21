@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Moritz",
     "Name": "Moritz",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Moritz in October 3050. Defending the world was the Moritz Defense Brigade. The Moritz mountain range around New Coffton, the planet's political and economic heart, gave the defenders the initial advantage. The Brigade's lack of air support, however, turned out to be the deciding factor in the conflict. The fighter Stars of the Forth and Fifth Mixed Services Trinaries were able to spot hidden defenses and thus support the tortuous advance of the Wolf OmniMechs and Elementals through the mountains toward the city. When the Wolf forces reached the valley floor, the planetary government sued for peace."
   },
   "Position": {
     "x": -32.32,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

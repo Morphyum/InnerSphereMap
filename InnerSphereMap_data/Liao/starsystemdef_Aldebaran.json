@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Aldebaran",
     "Name": "Aldebaran",
-    "Details": " "
+    "Details": "The oldest settled world in the Capellan Confederation, Aldebaran has long been a major commercial and industrial center, supporting a permanent military base and a high-priority defense rating. Aldebaran's temperate climate supports a wide variety of life forms that thrive in many different types of terrain.Aldebaran is a natural invasion route to the interior of the Tikonov commonality. For this reason, it has witnessed substantial fighting during the Succession Wars, and even today remains a tempting target to deep-space strikes from both House Marik and Davion. Thus, Aldebaran rates a high defense posture.It is the home to the Ijori Warrior House regiment, and maintains several squadrons of AeroSpace fighters. Though much reduced in capacity as a result of frequent occupation, Aldebaran retains a moderate industry that is growing slowly.[3030] Even though it was absorbed by the Federated Commonwealth during the Forth Succession War, Aldebaran's citizens continue to follow the ancient Capellan customs and ritual, which most newcomers to the planet also adopt. The capital city of Aldebaran is Jifang Po City.[3056] Tong activity, present on the planet since its capture, has increased dramatically in the last four years. Many attribute this to Sun-Tzu Liao's attempts to more subtly harass the Federated Commonwealth."
   },
   "Position": {
     "x": 24.81,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

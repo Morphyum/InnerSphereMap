@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_LastChance",
     "Name": "Last Chance",
-    "Details": " "
+    "Details": "[3049] On Last Chance, the Jade Falcons met the second battalion of Redjack Ryan's regiment in the first week of September 3049. Alpha and Bravo Trinaries of the Third Assault Cluster handily defeated Ryan's forces. When the Periphery unit attempted to retreat off-world, Falcon fighters prevented their escape, and they surrendered. Clan warriors bonded most of those captured, imprisoned some, and executed the rest. "
   },
   "Position": {
     "x": -159.79,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Penobscot",
     "Name": "Penobscot",
-    "Details": " "
+    "Details": "The population of this heavily wooded planet is mainly concentrated into two major cities. Penobscot's primary industry is petrochemicals.During the 3040s the Penobscot CTM fought off numerous FWL raids aimed at disrupting the planet's nascent petrochemical industry, rebuilt using recovered Star League technologies. Though frequently outclassed, the militia fared well in these engagements, gaining a reputation for courage and tenacity. A sneak attack by the First Fusiliers of Oriente against a Star League-era site guarded by the militia nearly destroyed the unit, both literally and figuratively. Dislodged from their defensive positions and unable to mount an effective counterattack, the militia sustained major losses against the raiders.More significant, however, was the political damage and the militia's shattered morale, both which threatened to ruin the unit. The former threatened to starve the unit of the material it needed to rebuild - the High Command viewed them as a liability - while the latter rendered them ineffectual as a fighting force. Colonel Metzger, a veteran of the War of '39 and the Clan invasion, has struggled to restore the unit to fighting trim, and on paper at least the unit is now at full strength."
   },
   "Position": {
     "x": -332.94,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

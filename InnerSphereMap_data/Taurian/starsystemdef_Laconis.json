@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Laconis",
     "Name": "Laconis",
-    "Details": " "
+    "Details": "Laconis is a world of lightly forested plains. Laconis' capital city is heavily fortified with gun emplacements and minefields that surround the city.[3025] With major holdings in both the Laconis and Camadeirre star systems, Taurus Majoris Mining is the largest commercial extractor and refiner of ores in the Concordat. In addition to employing over two million people, many of whom are engaged in stellar prospecting afield, TMM maintains a commercial fleet of over ten Dropships and 20 mobile refinery stations throughout Taurian space."
   },
   "Position": {
     "x": 152.05,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 16,
   "Owner": "TaurianConcordat",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

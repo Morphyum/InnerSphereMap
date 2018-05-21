@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lackland",
     "Name": "Lackland",
-    "Details": " "
+    "Details": "Lackland is true to its name, for it is almost entirely covered by one immense ocean. The only land that exists is the myriad but scattered island chains. This unusual planet has caused the downfall of more than a few nobles who could find no use for Lackland. Some have attempted to export the water, but it proved too costly. Others attempted to become successful through aquaculture. When they began to breed marine life as food delicacies, dangerous unknown creatures rose up from the depths of Lackland's ocean and swallowed the pens of fish whole. The people of Lackland like this situation just fine, however, preferring to bask in the sun and to live on the fish they catch themselves. The current Marquess has taken a new tack in an effort to develop Lackland. He has begun to build underwater habitats against the walls of the undersea cliffs. From these habitats, it may be possible to mine the mountains for chemical compounds and metals. The results have been promising so far, though some of the habitats have been menaced by the huge creatures that the natives know as The Mothers of the Ocean."
   },
   "Position": {
     "x": 546.47,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Miaplacidus",
     "Name": "Miaplacidus",
-    "Details": " "
+    "Details": "[3025] In the tradition of a trading nation, an eye for beauty and a sense of value go hand in hand. The arts flourish in the Free Worlds League as a by-product of the focus on trade. Created objects (plas-sculptures and abstract myomer art) and created movement (null-G dance, plays and improvisational drama) are appreciated beyond their utility, as is natural beauty. They fact that that they can be hawked or shown for gain is merely a profitable side-benefit.Some art forms rise above the profit motive, however. Even enemy raiders have left the Paradise Jungles on Miaplacidus, close to both the Lyran and Capellan borders, untouched."
   },
   "Position": {
     "x": -62.51,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

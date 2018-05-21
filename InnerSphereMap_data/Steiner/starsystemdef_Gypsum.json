@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gypsum",
     "Name": "Gypsum",
-    "Details": " "
+    "Details": "[3025] One of Archon Katrina Steiner's first military innovations was the creation of the Witch Hunt of Gypsum. These large scale military exercises are held on this barren world every third year in an effort to train all branches of the military to work together. The culmination of this exercise is the hunting down and mock destruction of the Witch, the name given to a light mobile unit such as Winfield's Brigade or the Stealthy Tigers, which play the hunted enemy."
   },
   "Position": {
     "x": -281.28,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewIvaarsen",
     "Name": "New Ivaarsen",
-    "Details": " "
+    "Details": "[3060] As with the First Capellan Dragoons, the two regiments of the New Ivaarsen Chasseurs hold dual positions as the family guard to Duke Leto Stephenson of New Ivaarsen and as elements of the AFFC. Less than a jump away from the Combine border, the world of New Ivaarsen has been the object of conquest dozens of times throughout centuries of hostilities between the Combine and the Federated Suns. Following the Suns' final recapture of New Ivaarsen almost two centuries ago, the world's new duke began to organize his private guard.As New Ivaarsen's farming and manufacturing industries recovered and began to grow, the Stephenson family's wealth likewise increased, prompting the duke to expand his private guard. By the beginning of this century, the New Ivaarsen Chasseurs had grown to two full BattleMech regiments, in addition to supporting elements. Though the Second was almost destroyed by the Jade Falcons during the initial months of the Clan invasion, Prince victor ordered the regiment rebuilt in 3060 in recognition of the Chasseurs' many years of devotion to the Federated Suns.The Chasseurs units are technically part of the AFFC, though the Stephenson family was accorded a number of privileges in deference to their years of fanatical loyalty to the Federated Suns. At least one of the Chasseur regiments has remained on New Ivaarsen since their attachment to the AFFS, and the Duke has the right to quash any Chasseur assignment he objects to (unless ordered by the rightful Prince, a technicality Duke Leto has used at least once since Archon Katherine's assumption of the throne on New Avalon). Additionally, the Chasseurs are under the direct authority of the High Command, though for practical purposes Chasseur officers routinely coordinate with the commanders on Le Blanc and Robinson."
   },
   "Position": {
     "x": 226.95,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

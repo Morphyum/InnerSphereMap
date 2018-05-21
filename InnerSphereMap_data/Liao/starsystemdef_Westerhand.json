@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Westerhand",
     "Name": "Westerhand",
-    "Details": " "
+    "Details": "[3025] To attract foreign cash as well as to test new battle techniques, Chancellor Maximilian Liao personally sponsors quarterly 'Mechs games on New Hessen, similar to those on Solaris. Attracting thousands of spectators both from within and without the confederation, these games serve as a welcome relief to the mundane routine for many Capellans endure during most of the year. They also offer ready-made shopping-centers for the recruitment o new MechWarriors for Capellan mercenary units. At such times, it is customary for Capellan military units to compete for team prizes and individual awards, and the games also serve as unit evaluations."
   },
   "Position": {
     "x": -5.43,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

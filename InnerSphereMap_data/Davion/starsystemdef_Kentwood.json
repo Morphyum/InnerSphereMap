@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kentwood",
     "Name": "Kentwood",
-    "Details": " "
+    "Details": "[3025] Kentwood is in the grip of a bitter religious war between Hindus and conservative Christians. as Kentwood is so far from New Avalon, the government is having difficulty finding resources to calm the unrest. As hostilities continue, the prospect of spreading hatred is more likely. Riots on the nearby worlds of Hiwannee and Abbeville have already been reported.In an attempt to stop the war, Kentwood has been divided evenly into three zones - as the planet is covered almost entirely by deciduous forests, this has not been a problem. The Treaty Zone, a neutral area bordered by the Christian and Hindu zones, houses most of the planet's industry.[3056] The rediscovery of Star-League-era technology has allowed Cerulean Waters, one of the best-known Federated Commonwealth water-purification companies, to expand its operations and holdings, and the company has recently finished constructing a new purification plant in the Treaty Zone. This new industry has produced the Treaty Zone's greatest economic expansion. Unfortunately, both factions appear ready to resume the conflict to subdue their opposition, though many citizens fear the disruption the renewed war will bring to the Treaty Zone."
   },
   "Position": {
     "x": 627.34,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rosamond",
     "Name": "Rosamond",
-    "Details": " "
+    "Details": "[3025] The city of Granite Falls on Rosamond is home to the enigma that is Interconnectedness Unlimited. For the past 50 years, the company has slowly been acquiring companies in a haphazard fashion. There is no apparent plan behind the company's actions, yet its acquired companies bloom into new productivity as soon as I.U. takes over. Attempts to establish a history for the company prior to 2971 have proven futile. It seems to have appeared fully grown on the planet Mariette in that year. Its first recorded action was acquisition of the Triple-F restaurant chain, a large and popular group of fast-food restaurants. It seems incredible, if not impossible, that a company with enough assets to swallow up a large and profitable restaurant chain could have blossomed overnight. Any attempt to categorize Interconnectedness Unlimited would be futile. A description of some of its various divisions is more to the point. It is estimated that there are over 5,000 Triple-F Restaurants on over 250 worlds in the Federated Suns. The restaurants are famous for their Triple-F burgers, which are made out of whatever meat animal is common to the area. Triple-F is sometimes awarded food contracts by local military units. The Triple-F logo is instantly recognizable to anyone from the Federated Suns.The D. Gently's Detective and Information Agency specializes in marital cases. Their many agents follow wayward spouses, deal with kidnappers, and deliver heartfelt sermons on the interconnectedness of all things. This is an homage to the company's founder, who lived about a thousand years ago and believed, quite rightly, that all things in the universe are related. Count Steffelbust is an avid follower of this philosophy, which is why he acquired the company.The Holy Order Press is the Federated Suns's third largest publisher of religious books. Though they have no formal affiliation with the Unfinished Book, several noted philosophers from that organization have published dissertations through the Holy Order Press. This has added considerably to the company's reputation,making it I.U.'s fastest-growing member.Golden Star Entertainments is the largest producer of holofilms in the Federated Suns. Their huge movie studio, located just outside New Hollywood, cranks out at least 50 full-length feature films per year. These movies, of all types, quality, and ratings, are distributed throughout the realm.There are an estimated 50 Golden Star hotels and gambling casinos scattered across the realm. Several investigations indicate that the various games are run honestly, as the hotel rooms and food are usually so expensive that there is no need for Golden Star to cheat in the casino. Rumor has it that the infamous Casimir family, a large organized crime syndicate based in the Lyran Commonwealth, has attempted to worm their way into the staff of the Golden Star Casino on Errai."
   },
   "Position": {
     "x": 178.61,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

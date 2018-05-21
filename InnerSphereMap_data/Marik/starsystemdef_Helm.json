@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Helm",
     "Name": "Helm",
-    "Details": " "
+    "Details": "Helm is not a pleasant place for man, lying on the outer fringes of its stars habitable zone. More than half of the planet's surface is locked beneath glaciers kilometers deep. Vast stretches of what had once been ocean floor were dry and bare, with much of the water now locked in Helm's ice caps. Much of the land that remained was either mountainous or desert. Between the relentless, endless seas of ice to the north and south, ice-capped mountains thousands of meters high girdle Helm at the equator. Yet life had evolved on Helm ages before, in an epoch when Helm's star was brighter and warmer. Life had continued by adapting to the cold. The planet had been discovered and colonized late in the 22nd century. The capital city of Freeport had grown up around the starport on a bluff overlooking the salt flats of a dried equatorial sea. For a time, Freeport had served as a Star League naval base, then as a storehouse for Star League weapons. In 2788, however, Minoru Kurita unleashed nuclear firestorms over Freeport and the other major settlements on Helm in an attempt to destroy or seize those stores. Within a single day, the population of Helm was reduced from over 100 million to a handful of starving wretches huddled around campfires in the wilderness. Kurita learned, that the weapons stockpiles he was seeking had been transported elsewhere, and departed.As the Star League fell, Major Edwin Keeler, the senior SLDF commander on Helm, tried to delay the various Marik commander's attempts to remove the cache by suggesting that they amongst themselves who had the proper authority to remove the cache. By invoking chapter and verse certain military articles, he was able to stop them walking in and carrying everything off. To stop the weapons falling into the wrong hands, Major Keeler and his battalion of Star League engineers moved the cache to the Star League's Nagayan Mountain's facility. Initially created with an eye towards being an underground laboratory, the project was later redirected to creating a Castle Brian-esq impregnable fortress. Though Keeler was not the first engineer to work on the project, he was the most successful. Mere weeks before Minuro Kurita arrived at Helm, he was able to transfer the entire weapons cache to the underground facility.It took over three centuries for the planet to even begin to recover. By the 31st century, Helm was part of the Duchy of Stewart. The planets population is now divided between numerous  villages and small farming communities rather than cities, scattered among the valleys and plateaus of the equatorial mountains. With its small population and non-existent industrial base, Helm was an ideal landhold for MechWarriors in the service of House Marik.Today the majority Helmans are farmers. An AgroMech planet outside Helmdown produces small, four-legged Harvester and Planter 'Mechs that are used locally, and another plant produces commercial hovercraft in small numbers. Heldown itself, is an untidy sprawl, more of a village than a city, but is current capital and primary starport on Helm. What little industry that exists on the world is centered here. Trader Dropships come infrequently to the starport to barter for offworld manufactured goods. Wheat, ice plums and ferris grass - a tough fast-growing nutritious grain from the Highland plateau's - are Helm's only exports.In 3027, the Nagayan Mountain complex was re-discovered by the Gray Death Legion. Implicated in  plot to brand them outlaws by rogue ComStar Precentor Rachan and a group of Marik nobles, Colonel Grayson Death Carlyle discovered the greatest treasure of all within the facility - a working Star League Field Library core. Once based in important cities of worlds across the Inner Sphere, very few have survived to the present day due to the holocausts of the First and Second Succession Wars, and none of these few are completely intact. Colonel Carlyle was able to copy the memory core and escape with some of the contents of the cache prior to the facilities destruction. Copies of the so-called Gray Death memory core slowly found their way around the Inner Sphere, eventually leading to the renaissance of technology."
   },
   "Position": {
     "x": -133.61,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

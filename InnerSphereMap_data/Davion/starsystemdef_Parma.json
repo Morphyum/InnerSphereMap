@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Parma",
     "Name": "Parma",
-    "Details": " "
+    "Details": "A dreary world, Parma's size and gravity twice that of Terra, make travelling anywhere on the planet extremely difficult, compounded by constant high winds and heavy storms. This, combined with the planet's almost perpetual mugginess, makes it a chore to perform even the simplest act of movement. Yet, the natives of Parma somehow find enough energy to make almost constant war on one other. Parma's surface is a studt in contrasts, alternating between high mountain range, deep, cavernous valleys, and swamps filled with some of the most dangerous predators in the Inner Sphere.The ancient ancestors of the present-day Counts and Barons divided the planet into countless little city-states declaring that no one, not even the Duke himself, could interfere with affairs within the walls of those individual cities. The nobility of Parma have been fighting among themselves ever since. Indeed, violence is such a way of life for the Parmians that they experience a severe shock upon traveling to other worlds where noblemen actually get along well together.The Duke of Parma has little control over the planet's nobility. Nor does he control the planetary militia. Each nobleman has his own private household guard, and so any attempt by the Duke to control the planet through force would lead to yet another war. Instead, Duke Garibaldi has settled for a peacemaker role, using his troops as a buffer between warring city-states until a treaty can be established. The Dukes of Parma are also the Counts of the rich Ace High Continent on the nearby world of Gambler, which accounts for the Garibaldi riches. The Duke's residence on Parma is in the walled city to New Brescia.[3056] The efforts of Duke Antonio I made toward establishing peace on the war-torn planet of Parma had begun to show some results, but the old duke's death and his son's ascension changed all that. Duke Antonio II also wishes for peace on Parma, but means to achieve it in a more aggressive fashion. Using the extensive Garibaldi assets, Duke Antonio is currently hiring troopers and MechWarriors in an all-out attempt to crush his fellow nobles into accepting peace."
   },
   "Position": {
     "x": 359.81,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 10,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

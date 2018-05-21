@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Stanzach",
     "Name": "Stanzach",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Stanzach in October 3050. An important economic center of the FRR, Stanzach should have been a difficult world to conquer. Fear of the Clan invasion, however, reawakened old hatreds between the planet's Scandinavian and Oriental populations. Though the tanks and soldiers of the First Stanzach Armored Division showed flashes of the true strength, the unwillingness of the two factions to bury their grievances for the duration of the conflict caused frequent miscommunications and some outright mutiny.Kirund is the capital of Stanzach."
   },
   "Position": {
     "x": 14.46,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

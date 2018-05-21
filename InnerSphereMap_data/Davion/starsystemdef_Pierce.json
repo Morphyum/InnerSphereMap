@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pierce",
     "Name": "Pierce",
-    "Details": " "
+    "Details": "[2581] In late 2581, the Davion auxiliary Corps, long hampered by lack of available transport due to the Taurians sneak attack of 2577, began their first offensives of the Reunification War in earnest. Despite capturing the Taurian  world of Pierce, the Davion victory was hollow, at best. A band of Taurian volunteers waited until the Federated Suns 107th Light Cavalry regiment occupied the capital and then, practising a variant on Mao Zedong's principles of People's Warfare, set off bombs in the sewer system under the occupying forces."
   },
   "Position": {
     "x": 343.01,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

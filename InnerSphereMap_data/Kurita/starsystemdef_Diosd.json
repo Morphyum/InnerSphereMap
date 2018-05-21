@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Diosd",
     "Name": "Diosd",
-    "Details": " "
+    "Details": "[3052] Clan Wolf landed on Diosd in February 3052. Defending the world were the First and Second Diosd Brigades, comprised of two tank and one infantry regiments each. The heavy OmniMechs of Beta Galaxy's 341st Assault Cluster easily defeated the tanks of the Diosd Militia. The planetary government surrendered soon after the battle for Bender Beila and ordered the militia to lay down its arms. Most refused to surrender, however, and fled to the planet's many swamps, forests, and mountain ranges. They were aided by compatriots who destroyed the planet's military computer network, making it virtually impossible for the Clan to determine how many militia units remained. The Wolves have garrisoned Diosd with frontline troops to keep the renegade militia from attempting to retake its cities and industries."
   },
   "Position": {
     "x": -2.34,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

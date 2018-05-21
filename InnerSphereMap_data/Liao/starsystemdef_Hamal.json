@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hamal",
     "Name": "Hamal",
-    "Details": " "
+    "Details": "Hamal is a cold desert world dominated by arid, frozen tundra and windstorms the locals call sand blizzards. Settlers from the highlands of Terra's South American continent established their only major city, Califa Hamal, on the planet's equator, where temperatures can reach above freezing. Hamal's surface is a single landmass with small, landlocked seas containing mostly crushed ice. Hamal served as one of three provincial capitals in the early days of the Tikonov Union. However, by the time the Tikonov Union joined the Capellan Confederation, Hamal's importance was supplanted by more habitable worlds with greater resources and larger populations. The Terran Hegemony agreed to incorporate the increasingly backwards planet. Aside from a small bureaucracy at Califa, most of Hamal's population carries out a nomadic, tribal existence to this day, and follows the growth of Hamal's meager vegetation as the seasons change. After the fall of the First Star League, the Capellan Confederation claimed Hamal. House Liao lost Hamal to the Federated Suns during the Fourth Succession War, but not before Hamal's expert desert fighters earned the respect of House Davion."
   },
   "Position": {
     "x": 64.87,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

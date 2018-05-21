@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Persistence",
     "Name": "Persistence",
-    "Details": " "
+    "Details": "During the mid 2600's the once barren, inhospitable world of Persistence, was made habitable by the development of advanced water purification units, technology developed during the good years of the Star League. [3050] While ill-equipped to protect themselves against the onslaught of a Clan Cluster, the defenders of Persistence lived upto their homeworld's name when Clan Jade Falcon invaded in March 3050.Nichole Dandersin, the charismatic president of the planet's congress and CEO of Persistence Munitions, Inc., led her personal security forces to a near-impossible victory over the Forth Falcon Talon at Jestin Ridge overlooking the capital, Danderson City. The victory was only temporary, however. The Falcons regrouped, flanked the defenders, and took the city, but most of the militia fled into the surrounding hills.  "
   },
   "Position": {
     "x": -106.26,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

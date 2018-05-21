@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zebebelgenubi",
     "Name": "Zebebelgenubi",
-    "Details": " "
+    "Details": "Zebebelgenubi is a planet with meagre water resources and dominated by a mountainous landscape. Flat lands are confined to the coastal areas, where 90% of the planet's people live. A few hardy people live in the mountains, prospecting for rare jewels and certain woods sought after by artists. The planet was once a center of the electronics industry in the Star League. Ulsop Robotics had its headquarters in Gray Valley City, the capital of Zebebelgenubi. Ulsop was a major developer in the SDS projects. After the coup, Republican soldiers forced the scientists of the company to train them to operate SDS systems. For a year, the scientists trained the Amaris soldiers. Several scientists tried to sabotage classes by setting fire to the classrooms. This enraged the local Republican commander, who executed all the scientists. By that time, enough soldiers had been trained for the Republicans to operate the SDS installations. Many of the planet's heavy industries were absorbed by the Lyran Commonwealth after the collapse of the Star League. The planet maintained a high level of technology for a long time, but the Draconis Combine took a special interest in Zebebelgenubi during the Third Succession War. As a result, most of its Star League technology was lost. Archaeologists have recently uncovered several hidden military caches in the planet's rough interior."
   },
   "Position": {
     "x": -52.22,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 40,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Fatima",
     "Name": "Fatima",
-    "Details": " "
+    "Details": "Fatima is famed for its obsidian, which is ideal for crafting into fine weapons. In June 2467, five students from Fatima forced their way into the bedchambers of Archon Alister Steiner, and stabbed him repeatedly with blades fashioned from Fatima obsidian. After a long chase through woods surrounding the capital city, the police captured the assassins alive. Only during interrogation, did they break down and implicate Duke Reynolds of Fatima.Alister's oldest son, Michael, was recalled from the front lines and sworn in as the fifth Archon of the Lyran Commonwealth. As Archon, Michael now had the disagreeable task of presiding over the trails of Duke Reynolds, a man he had always loved and respected. Though the Duke vehemently denied any knowledge of the assassination, evidence brought forth at the trial was damning.Not satisfied with the courts verdict, Michael sent what amounted to an invasion force of Lyran Intelligence agents to Fatima to investigate the lives of the Duke and the assassins. In the meantime, he held of sentencing Duke Reynolds, though everyone knew that death was the only sentence possible for killing an Archon.Late in the summer, members of the LIC returned with irrefutable proof of the Duke's innocence. They had learned that Graf DeSimon, a nobleman under Duke Reynolds, had managed to brainwash some idealistic but impressionable students. Having convinced them that the Steiner family had tricked duke Reynolds out of his claim to the Archonship, he then provided them with false identification so that they could slip into the royal palace and murder the Archon.Confronted with the evidence, the young assassins broke down and confessed. DeSimon's motivation became clear when Duke Reynolds told the Archon that he had recently stripped the man of his lands as punishment for treating his landworkers too harshly. when captured and confronted with the evidence, Graf DeSimon confessed during a live broadcast millions listened to word for word. Duke Reynolds was released, and he graciously pardoned his former accusers. Graf DeSimon and his gullible accomplices were executed."
   },
   "Position": {
     "x": -31.29,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

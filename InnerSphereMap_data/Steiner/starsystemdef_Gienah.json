@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gienah",
     "Name": "Gienah",
-    "Details": " "
+    "Details": "[3025] The city of Molfetta is home to the headquarters of Gienah Automotive, long a manufacturer of wheeled vehicles for the Commonwealth. Though established just prior to the Second Succession War, most of its factories are still able to churn out cars, trucks, and military vehicles. The Free Worlds League, especially the technology-poor worlds near the border, is one of the company's major customers.[3048] In September 3048, while elements of the Second brigade of the Fusiliers of Oriente targetted the factory, the Third Free Worlds Legionnaires engaged the defending Second Battalion of the Fourteenth Lyran Guard. In a two-day running battle, the Legionnaires shattered the FedCom unit; when Lyran reinforcements arrived, the Legionnaires acted as a reargaurd for the Marik force, inflicting further damage on the Fourteenth before withdrawing."
   },
   "Position": {
     "x": -183.07,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

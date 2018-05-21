@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hoonaar",
     "Name": "Hoonaar",
-    "Details": " "
+    "Details": "[3056] The planet Hoonaar is a water-poor world that, until recently, was unremarkable in every other way. Several years ago, an exploration team made up of citizens from both Hoonaar and its neighboring planet of Gronholt discovered rich gem and mineral deposits on Hoonaar's uninhabited southern continent. A dispute soon erupted between the two planets, over the newly found resources, culminating in forces from Gronholt seizing the southern continent, and laying siege to the rest of Hoonaar. Hoonaar has two continents separated by the planet's only major body of water, the Great Divide River, who's water runs crystal clear. The capital of Hoonar is Homefront City."
   },
   "Position": {
     "x": 460.63,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

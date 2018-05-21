@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Samantha",
     "Name": "Samantha",
-    "Details": " "
+    "Details": "[3025] Alone of all the Periphery states, the Taurian Concordat maintains large military training academies. At present, there is one academy for each major combat branch: the Army, Navy, and AeroSpace Arms. The army training academy is the École Militaire, located on Taurus. The Taurian Naval Institute and the Concordat AeroSpace Flight School are located on New Vandenberg and Samantha, respectively. Each has a well-developed training program for both NCOs and officers and can accommodate upward of five hundred personnel.  The Concordat has also retained the highest literacy rate in the Periphery. Indeed, the Taurian educational system has served as a model for other states, including those of the Inner Sphere. Despite losing many educational institutions during the Reunification War, the Taurians have rebuilt their schools to pre-Star League levels, since regaining their independence. They can now boast no fewer than six universities. Located on Taurus, Samantha, Pinard, New Vandenberg, MacLeod's Land, and Euschelus, these universities graduate an average of over forty thousand students annually."
   },
   "Position": {
     "x": 191.43,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

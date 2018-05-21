@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Summer",
     "Name": "Summer",
-    "Details": " "
+    "Details": "Once the home of a major Star League storehouse and an important staging world for Steiner offensives, this inhospitable desert planet is ruled by Duke Aldo Lestrade. Summer is the political center of its province. The separatist movement promoting the independence of the Federation of Skye from the rest of the Commonwealth congregates around Duke Lestrade's palace looming above Curitiba, Summer's largest city.A darker twin of Skye, Summer's weak sun changes hills that would be considered beautiful and stirring on Skye to dark and ominous shapes covered with the purple scrub-grass native to the planet. Dark hills loom over valleys steeped in shadows. In the summer months, the wind is often tainted with the peculiar odors of ist native blooming plants.The major industries on Summer are refineries for the planet's large deposits of oil and radioactives as well as factories manufacturing components for JumpShips."
   },
   "Position": {
     "x": -44.46,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

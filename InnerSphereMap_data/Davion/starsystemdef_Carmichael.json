@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Carmichael",
     "Name": "Carmichael",
-    "Details": " "
+    "Details": "[2585] After the second battle of Diefenbaker, the shattered remains of the Concordat armed forces drew back behind their protective wall of asteroids outside the Hyades Cluster. The Star League moved into the vacuum, cautiosly but determinedly. Carmichael was occupied in late 2585 by the Star League's 4th Corps."
   },
   "Position": {
     "x": 199.55,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

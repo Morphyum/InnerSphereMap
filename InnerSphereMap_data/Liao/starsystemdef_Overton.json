@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Overton",
     "Name": "Overton",
-    "Details": " "
+    "Details": "[3025] Since the signing of the Concord of Kapteyn, the Free Worlds League has opened up its trade routes with the Capellan Confederation. Although Capellan-manufactured equipment is often considered inferior to other House products, Quark Motors hovercraft from Overton have proved to be an exception to this rule."
   },
   "Position": {
     "x": 46.25,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bluford",
     "Name": "Bluford",
-    "Details": " "
+    "Details": "William Keller Reese, first Count of Bluford (2508-2594), is unique in the way he made his name and fortune. Reese, whose grandparents and great-grandparents all lived into their nineties, literally gambled his life to make his fortune - he entered tontines with smokers.This is the way it worked. Several young people would pledge a certain sum of money per year as long as they lived, to be paid into a trust in all of their names. When only one of the individuals was left alive, he or she would receive the entire sum. Named after Lorenzo Tonti, a financier of 17th-century Terra, the tontine was originally an early form of insurance plan, intended to guarantee funds for a person's retirement years. By Reese's time, it was little more than a wager that one person would outlive another.The soil of Bluford's smallest, eastern-most continent was, and is, ideally suited for growing a strain of tobacco developed in the 22nd century that was both deadlier and more addictive than any previous strain. Reese made sure that all of the other entrants in his many tontines were smokers. He was willing to take the calculated risk that he might meet an early death himself, and his gamble paid off. Although he was short-lived by the standards of his family, dying at the tender age of 86, he had, by age 75, amassed a fortune of over 70 million D-Bills. By age 81, a title of nobility was conferred upon Bluford for his monetary and political support of Davion entry into the Star League.Reese's success touched off a flurry of gambling activities on Bluford, with tontines becoming enormously popular among smokers and nonsmokers alike. For a 22 year period in the early 27th century, the planetary government of Bluford even entered every baby born on any given day into a tontine, which was referred to as a Life Lottery. A backlash began in the late 27th century, when problems with the system had become evident, and a movement to ban tontines developed. Although never successful, the movement did spawn the opposition Bluford Gambling Association, whose members protested any infringement on their rights to squander their money and gamble with their lives.Between 2620 and 2840, Bluford had the highest annual murder rate of any planet in the Inner Sphere."
   },
   "Position": {
     "x": 447.44,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

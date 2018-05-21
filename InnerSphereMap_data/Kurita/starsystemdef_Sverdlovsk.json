@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sverdlovsk",
     "Name": "Sverdlovsk",
-    "Details": " "
+    "Details": "When Shiro Kurita invaded Sverdlovsk in December 2303, he launched the first full-scale interstellar military operation ever seen in the Inner Sphere. The military operation required his entire KF-drive fleet and the vast majority of his battle-ready ground forces. Some reports indicate that only school-age military cadets and retirees were left behind to police New Samarkand and Galedon V. Even so, Urizen Kurita's army was not large, either by Terran standards or when compared to armies of two centuries later. Most accounts agree that roughly four divisions, perhaps 50,000 officers and men, landed in the cities and towns of Sverdlovsk.Of course, Sverdlovsk had no organized militia, which Kurita knew full well. Moreover, its leaders never expected to face an interstellar invasion, and so were completely staggered by the presence of nervous, but grim-faced soldiers on their peaceful world. Within weeks, the planetary officials (who could barely control their panic) had shakily signed a treaty of complete cooperation. Sverdlovsk became the first conquest of the nascent Draconis Combine.One battalion of heavy armor, supported by a regiment of infantry, served as Shiro's personal guard during the invasion of Sverlovsk. From this small beginning, the Fifth Galedon Regulars were formed. When the Draconis Combine was formally established in 2319, Shiro Kurita resurrected the Fifth and gave them an official place of honor on the rolls of the DCMS."
   },
   "Position": {
     "x": 341.2,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

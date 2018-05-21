@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_XhosaVII",
     "Name": "Xhosa VII",
-    "Details": " "
+    "Details": "Xhosa VII is a world of barren plains, interrupted by mountain chains and thick forests. It is rich in deposits of metals and chemical energy resources. The planet's population has tended to cluster about the five main spaceports, leaving the rest of the planet only sparsely inhabited by loggers, hunters, and farmers. The capital city is named New Xhosa."
   },
   "Position": {
     "x": 173.96,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

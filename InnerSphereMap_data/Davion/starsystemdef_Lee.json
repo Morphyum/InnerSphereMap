@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lee",
     "Name": "Lee",
-    "Details": " "
+    "Details": "[2952] To bolster her beleaguered ground forces, Chancellor Ingrid Liao's new offensive strategy for her armed forces involved the use of large groups of AeroSpace Fighters. This new strategy paid off when her fighters intercepted a raid by House Marik. Greatly encouraged, Chancellor Ingrid decided to launch a major offensive composed of almost three hundred AeroSpace Fighters against the Davion world of Lee. After the Davion Military Intelligence and the MIIO learned of her intentions, Prince Peter moved to reinforce the world. For the first time in years, Peter Davion entered a battle to direct the planet's defense.In a three-day battle on and around Lee, the Davion defenders crushed the Capellan attack. In the air, the AFFS AeroSpace Fighters crippled the Capellan air strike force, and succeeded in knocking out 40 of them. This left the Capellan 'Mechs, tanks, and infantry on the ground without the full weight of the massive air support they needed. At that point, Prince Peter led his Davion 'Mechs in an attack that easily pushed the Capellans off Lee, with heavy casualties. The Capellans had lost so many fighters in The Great Lee Turkey Shoot, as the battle came to be known, that it took them years to regain their former strength."
   },
   "Position": {
     "x": 116.83,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

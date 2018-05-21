@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dante",
     "Name": "Dante",
-    "Details": " "
+    "Details": "Dante is an agricultural world whose mild climate is ideally suited to the cultivation of grains and other seasonal crops. It was first settled after the First Succession War by waves of Kurita immigrants seeking to begin their lives anew, but has been an unofficially demilitarized planet since the 2800's. The planet currently depends on its stance of global non-violence as protection from raids from other systems. From it simple origins, Dante has evolved into the major cultural center of the Omniss cult, a group based on the rejection of all non-essential technologies in favor of an agrarian social code. Thus have planetary assemblies banned permanent garrisons on Dante for the last 150 years. At present, over 5000 civilians, mostly farm laborers and cottage-industry craftsmen, inhabit Dante. The local government maintains a strict ban against the importation of all technology not directly related to the medical or life sciences. Because of this technology ban, ComStar is not permitted to maintain communication facilities in the Dante system."
   },
   "Position": {
     "x": 427.86,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Betrayers",
   "ContractEmployers": [
     "Betrayers",
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

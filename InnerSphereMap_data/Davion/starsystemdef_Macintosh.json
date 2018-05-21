@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Macintosh",
     "Name": "Macintosh",
-    "Details": " "
+    "Details": "[3025] The city of New Deios is home to the headquarters of Apple Computers Interstellar, an ancient company with roots extending clear back to the 20th century. Since its birth, the computer company has gained a reputation for always being slightly ahead of its stodgier rivals. During the days of the Star League, the company grew so fat and contented that it actually bought the planet Drekos in the Federated Suns and renamed it Macintosh after one of their legendary computer models. When the Star League fell, most of the company's factories and secrets were lost in the mayhem of the Succession Wars. Only the small personal computer factory on Macintosh survived. Apple continues to manufacture small computers of near-Star League technology, and hopes to open a military computer facility within the next five years."
   },
   "Position": {
     "x": 358.51,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

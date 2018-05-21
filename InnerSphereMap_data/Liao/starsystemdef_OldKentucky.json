@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_OldKentucky",
     "Name": "Old Kentucky",
-    "Details": " "
+    "Details": "A wilderness resort world for Capellan nobility, and later nobles from the Federated Commonwealth, Old Kentucky once housed a secret Maskirovka training center for guerrilla fighters, which was shut down at the end of the Forth Succession War, after the Federated Commonwealth captured the planet.The terrain of the southern continent, where the base was housed, was ideal for jungle warfare training because of topographical eccentricities unknown in most such landscapes: declivities miles deep, venomous and carnivorous indigenous plantlife, sudden landslides, and large, gorilla-like native lifeform intelligent enough to lay primitive mantraps for the trainees. All in all, maneuvers here can be as deadly as real jungle warfare, and so the troops that survived here were probably as well qualified to survive similar situations as anyone in the galaxy.[3056] Elements of the notorious Rostov Tong have begun a fierce guerrilla war on the planet, severely damaging several of Old Kentucky's cities and generally making life an exercise in anxiety for the average citizen.The name Old Kentucky, is of course, the name of an ancient Terran political district. Why that name was chosen for this world is unknown. The capital city of Old Kentucky is Lexington."
   },
   "Position": {
     "x": 2.06,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

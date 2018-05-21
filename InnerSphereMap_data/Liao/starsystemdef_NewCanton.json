@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewCanton",
     "Name": "New Canton",
-    "Details": " "
+    "Details": "New Canton is a temperate planet with a diverse economy of light and medium industry, several commercial spaceports, fishing, and a thriving agricultural industry. Approximately 80% of New Canton's population live in large and medium sized cities that are evenly distributed on the planet's two continents. A large island chain, consisting of more than 900 islands spans the two-thousand kilometer distance between the two continents. The terrain and size of the islands vary from flat stretches of fifty kilometers to rocky uprisings that cover half of a square kilometer. Saltwater oceans cover the other 85% of New Canton's surface."
   },
   "Position": {
     "x": 8.26,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 11,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

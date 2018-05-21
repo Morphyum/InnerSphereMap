@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Oliver",
     "Name": "Oliver",
-    "Details": " "
+    "Details": "Oliver was one of the most quickly developed of the early colonies during the first Exodus. It was as if the early colonists were determined to bring the Industrial Revolution into space with them. The population grew rapidly, then miraculously levelled off as the natural resources of the planet were exploited more and more efficiently.By the time of the Star League, Oliver was one of the leading industrial centers of the Inner Sphere. Throughout that era, the planet maintained its economic base. Its people sowed the seeds of their own undoing, however, by basing more and more industry on military production. The planet became the headquarters for AeroFighter Unlimited, a major producer of aerospace fighters. The shining city of Warez, once a leader of research and development of new forms of wealth and productivity, relied more and more on BattleMech production, which made it one of the primary targets of aggression when the Succession Wars started.Oliver fell to the Free Worlds League in 2790. For 30 years during and after the ComStar war, it was occupied by both Kurita and Steiner armies; Robin Halas of Oriente successfully invaded the planet in 2869. Since then, Oliver has been invaded eight times by Steiner or Liao forces and has been the target of raiding parties on a score of occasions. These assaults have taken there toll on the planet's industrial capacity. Nevertheless, the people of Oliver have proven remarkably resilient, rebuilding their industry after each crisis. In the process, they have managed to keep afloat two important facilities: the Brigadier Corporation 'Mech plant at Gordon and the 'Mech repair facility beneath the bowels of Warez - nothing is left of this city but the shells of its buildings above ground and a labyrinth series of tunnels underground.If the cycle of destruction/reconstruction has kept Oliver stagnant economically, the same cannot be said about the planet's political leadership. The world has buttressed its defences (and its status) by entering into the Ring Coalition (along with Zosma, Devil's Rock, Graham IV, and Silver Hawk Callison). Oliver has taken a stronger role in the alliance over the past decade under the guidance of the McKenzie brothers, the first siblings to ever represent Oliver simultaneously in Parliament."
   },
   "Position": {
     "x": -31.8,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

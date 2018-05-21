@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_PaulusPrime",
     "Name": "Paulus Prime",
-    "Details": " "
+    "Details": "[3049] Clan Wolf landed on Paulus Prime in September 3049. The 341st Assault Cluster's invasion was such a complete surprise, that most of the Paulus Guards surrendered or were killed in the first moments of the attack."
   },
   "Position": {
     "x": -73.02,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -50,7 +49,8 @@
   "Owner": "MagistracyCentrella",
   "ContractEmployers": [
     "Locals",
-    "MagistracyCentrella"
+    "MagistracyCentrella",
+    "AuriganPirates"
   ],
   "ContractTargets": [
     "AuriganDirectorate",
@@ -144,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

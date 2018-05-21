@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sevren",
     "Name": "Sevren",
-    "Details": " "
+    "Details": "In December of 3024, the LCAF pushed the last remaining Kurita 'Mechs off this large industrialized world.  Like most worlds that have suffered major 'Mech battles, whole portions of Sevren's surface are scarred wastelands of torn earth, uprooted trees, and buildings crushed beneath the weight of BattleMechs. Sevren is large, however, and much of it still retains the planet's original character.  There is considerable agriculture here, despite the fact that the planet has only one small ocean.  What makes farming possible are countless freshwater springs and rivers running deep beneath the ground.  This allows the cultivation of land that otherwise would be nothing but barren desert.  Also deep beneath the ground are major deposits of radioactive and non-radioactive metals, which have created heavy industries for the manufacture of reactor cores for fission power plants and steel major parts. Though much of the fighting did avoid damaging cities and industries, the destruction of the Nesmith Nuclear Industries nuclear processing plant has created enormous problems.  When the plant mysteriously exploded the day after the last Kurita DropShip left Sevren, it spewed radioactive debris over several square miles of the surrounding terrain.  The debris blanketed the nearby city of New Cartis, a major population center.  Relief efforts are underway to seal off the damaged plant and to scrub clean the city, a backbreaking task that will require enormous sums of money and at least three years' work.[3051] Sevren, with its mineral deposits and abundant agriculture, was such a prestigious target that Khan Garth Radick pulled rank to win the bid for his Galaxy. Facing him was Hauptmann General Gilda Felra, a veteran of the Forth Succession War and the War of 3039, commander of the 25th Arcturan Guards RCT. When Beta Galaxy made their drop on the continent of Carlisle, the general hit them hard and fast at Dinton Acres. The battle, though inconclusive, effectively blunted the Wolves first offensive. The next series of battles were equally inconclusive. At Bassingdale, the Third Battle Cluster found an advantage and attacked a weak spot in the Arcturan Guards' line, overwhelming the defenders and cutting into the rear before General Felra could send reinforcements. The Arcturan Guards went on the defensive. Finally, after a battalion HQ was destroyed by headhunters in the battle of Mt. Ripchuk, General Felra and her troops retreated offworld to Colmar."
   },
   "Position": {
     "x": -44.47,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

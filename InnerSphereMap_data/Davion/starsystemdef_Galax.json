@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Galax",
     "Name": "Galax",
-    "Details": " "
+    "Details": "In some ways, Galax is the exact opposite of nearby New Avalon, in being both water and life-poor. Galax was not much popular as a colony site. The tainted and unsettled atmosphere, constantly churned by the planet's one large moon, kept away all but the staunchest. The perseverance rewarded those who came when huge deposits of almost every valuable mineral, metal, gemstone, jewel, and oil were discovered on Galax. It was not too long before the arrival of a new flood of colonists willing to brave the conditions in search of wealth. If was good that New Avalon, with its abundance of food, was nearby, because the Galax population soon grew far beyond the planet's ability to sustain itself without the help of huge food imports. During the peaceful years of the Star League, Galax was the focus of the Climate Restructuring and Adjusting Project (CRAP), a project sponsored by the Star League and funded by a Davion government eager to see the planet exploited. In the years 2721-33, CRAP engineers altered the planet's atmosphere with chemical and heat generators that slowly filtered out the most toxic elements while upping the oxygen content. By the end of 2733, the atmosphere was completely tamed, which sparked another wave of colonists. The project was such a success that firms from throughout the Star League began to open factories on Galax. The biggest of these was Boeing Interstellar, which built the huge Galax Megaplex on the planet during the League's last years.Since the fall of the Star League, Galax has been vital to the Federated Suns war effort. Some of its industries, especially those that depended on the Terran member-state for direction, eventually died out because of the decline of technology. Most of the other industries have survived, though the Star League machinery is now jury-rigged and patched together from years of make-do repairs.Two things could shut down the many industries of Galax. The first would be disruption in the flow of vital foodstuffs from New Avalon. One estimate indicates that a disruption of a single month would be enough to create panic in a population that has always been politically nervous. The other threat to Galaxian industries is the planet's weather. Over the past decade, a team of meteorologists from the NAIS has proven that the atmosphere of Galax is going toxic again, and at an alarming pace. If it were to become necessary for inhabitants to again wear environmental suits, as was necessary before the CRAP project, there might be a mass exodus offworld. This would, obviously, interrupt the flow of goods from the planet, causing economic and military difficulties throughout the Federated Suns.[3025] Canaveral City on Galax, is home the head office of Galax Launch Systems and Satellites, who provide planets in the Federated Suns with a wide variety of satellites and launch systems. The satellites, using a common framework, can easily be customized to handle almost any combination of tasks, such as communications, resource mapping, navigation, or security. The launch systems also vary between chemical or liquid rockets, payload drivers, or orbital mules. All Galax products are built at their factories on Galax, then shipped to the client. Their reputation as reliable manufacturers has sparked interest in House Steiner, which might invite Galax Launch Systems and Satellites to open a sister company in their realm.Located on Galax, the Armstrong Flight Academy was built during the First Succession War to train DropShip and JumpShip crews. The reason the AFFS chose Galax was because Federated-Boeing, the Inner Sphere's largest DropShip manufacturer, was also located on and around the planet.Today, the teaching staff at the Armstrong Flight Academy are also employees of Federated-Boeing. Their expertise makes graduates of this academy some of the best DropShip and JumpShip crewmen in the AFFS.Colonel Jaswa Punalla currently commands the Armstrong Flight Academy."
   },
   "Position": {
     "x": 283.63,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

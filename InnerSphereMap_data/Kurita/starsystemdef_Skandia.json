@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Skandia",
     "Name": "Skandia",
-    "Details": " "
+    "Details": "[3052] The defeat of the Third Drakøns, who had twice faced Clan Wolf and escaped, was given top priority by the Clan warriors. They were particularly interested in the unit because they hoped that the destruction of one of the few remaining Rasalhague 'Mech regiments, accompanied by the news of Prince Ragnar's capture, would demoralize the rest of the Free Rasalhague Republic.The bidding for the right to take Skandia, the homeworld of the Drakøns, was intense but restrained. The task fell to the Bronze Keshik, and the Seventh and 16th Battle Clusters of Gamma Galaxy commanded by Galaxy Commander Mikel Fury, in February 3052. Defending the world were the Third Drakøns and the First, Second, and Third Skandia Royal Militia Brigades.The fight for Skandia was tough and unforgiving. Names of individual battles mean nothing; they only represent convenient ways of dividing up what was essentially one relentless fight, from the moment the Wolves set foot on the planet, until the destruction of the last Drakøn 'Mechs two weeks later."
   },
   "Position": {
     "x": 22.74,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

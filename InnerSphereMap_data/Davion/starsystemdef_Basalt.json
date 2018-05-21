@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Basalt",
     "Name": "Basalt",
-    "Details": " "
+    "Details": "Basalt is a large world with an oppressively thick atmosphere, wild lightning storms, and a high gravity field. Despite these drawbacks, Basalt is rich in rare minerals and was one of the first planets settled by Terran mining companies. At the end of the First Star League, the Federated Suns laid claim to Basalt and held on to the world despite repeated Capellan raids through the early Succession Wars. During the Forth Succession War, as part of the Capellan Confederation's Operation Riposte, Liao sent a strike force to Basalt, to destroy warehouses storing vital supplies for the Davion offensive. In fact, the whole planet was an elaborate trap; Davion agents had leaked false intelligence to the Capellan Maskivorka. The warehouses weere empty, and the elite 4th Davion Guards RCT was waiting to ambush the Capellan units. Today, the mountains around Lake Zander and the Contrassa spaceport, both on Basalt's southern continent of Garnet, are littered with the remains of Liao BattleMechs.The five continents of Amethyst, Garnet, Opal, Topaz, and Quartz, are almost all situated along the equatorial region of Basalt. The capital, Manville, is located on Garnet."
   },
   "Position": {
     "x": 66.16,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

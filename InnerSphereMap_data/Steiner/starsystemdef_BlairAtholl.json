@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BlairAtholl",
     "Name": "Blair Atholl",
-    "Details": " "
+    "Details": "Blair Atholl is a dreary world covered by constant drizzling rains. Troops squelch through a landscape blanketed by an enormous amount of fungi, varying in size and shape but uniformly drab in color.[3055] Based on Blair Atholl, Clan Steel Viper's 1st Legion has fended off several probes by Federated Commonwealth forces. In 3055, the eleventh Avalon Hussars launched a major assault on the world, but the Vipers demonstrated their contempt for the Inner Sphere unit by sending only the 1st Legion to meet them. The veteran 1st repulsed the Hussars in short order.[3057] The Kathil Uhlans fared better in 3057, when their Third Battalion raided the world. Thinking to repeat their victory over the Hussars, the 1st Legion moved to repel the invaders, but instead found themselves the victims. After felling a Trinary of Viper 'Mechs, the Uhlans withdrew. Reports from the Watch indicate that only the secession of the Lyran Alliance and the formation of the Arc-Royal Defense Cordon forestalled an assault by the entire Kathil Uhlans to destroy the Viper Cluster.[3064] The Falcon's Ninth Provisional Garrison Cluster took up station on Blair Atholl before the Falcon Incursion even began. As the Incursion progressed, they remained ever-vigilant, ready to either defend the world, or to charge further into the Lyran Alliance to help exploit the gains of their brethren. ComStar's 388th Division landed on Blair Atholl on the 15th December 3064, putting paid to the Ninth's hopes of further conquest, though allowing them the glory of battle.The Ninth PGC never allowed the Com Guards to seize the initiative, hounding them from the moment they landed on world. The single cluster, reinforced by several trinaries pulled from nearby garrison units, drove the Com Guards ahead of them across two continents before seemingly running out of energy.Shortly afterward Khan Marthe Pryde led her Turkina Keshik to the world, landing on the 20th February 3065. Khan Phelan Kell reached the world on the 24th. SaKhan Clees made landfall on the 26th while General Adam Steiner, accompanied by Christifori, grounded on the 27th.Khan Pryde and General Steiner called a general cease fire within their respective regions and eventually agreed on a plan that would end the Falcon Incursion. The world of Blair Atholl would remain jointly-held by the Falcons and the LAAF as something of a live-fire training world, giving the Falcons a place where they could send their warriors to gain real combat experience. Though that agreement would mean that the LAAF troops on-world would constantly be threatened by the Jade Falcons, the world would at least remain something of a controlled environment."
   },
   "Position": {
     "x": -98.76,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

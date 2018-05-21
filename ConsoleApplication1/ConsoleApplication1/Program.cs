@@ -75,6 +75,8 @@ namespace ConsoleApplication1 {
 
         public static void newmap() {
             JArray jarray = JArray.Parse(File.ReadAllText(@"C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\mods\OldData\systems.json"));
+            string newdata = File.ReadAllText(@"C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\mods\OldData\planetstest.json");
+            JArray newdataArray = JArray.Parse(newdata);
             foreach (JObject system in jarray) {
                 if (!((string)system["affiliation"]).Equals("Clans") && !((string)system["affiliation"]).Equals("Inhabited system") &&
                     !((string)system["affiliation"]).Equals("No record") && !((string)system["affiliation"]).Equals("Clan") &&
@@ -90,70 +92,91 @@ namespace ConsoleApplication1 {
                     vector.z = 0;
                     Faction faction;
                     string folder = "";
+                    TagSet tags = new TagSet();
                     switch ((string)system["affiliation"]) {
                         case "Lyran Commonwealth":
                             faction = Faction.Steiner;
                             folder = "Steiner";
+                            tags.Add("planet_civ_innersphere");
                             break;
                         case "Free Worlds League":
                             faction = Faction.Marik;
                             folder = "Marik";
+                            tags.Add("planet_civ_innersphere");
                             break;
                         case "Draconis Combine":
                             faction = Faction.Kurita;
                             folder = "Kurita";
+                            tags.Add("planet_civ_innersphere");
                             break;
                         case "Federated Suns":
                             faction = Faction.Davion;
                             folder = "Davion";
+                            tags.Add("planet_civ_innersphere");
                             break;
                         case "Capellan Confederation":
                             faction = Faction.Liao;
                             folder = "Liao";
+                            tags.Add("planet_civ_innersphere");
                             break;
                         case "Aurigan Coalition":
                             faction = Faction.AuriganRestoration;
                             folder = "Aurigan";
+                            tags.Add("planet_civ_periphery");
                             break;
                         case "ComStar":
                             faction = Faction.ComStar;
                             folder = "ComStar";
+                            tags.Add("planet_civ_innersphere");
                             break;
                         case "Magistracy of Canopus":
                             faction = Faction.MagistracyOfCanopus;
                             folder = "Magistracy";
+                            tags.Add("planet_civ_periphery");
                             break;
                         case "Taurian Concordat":
                             faction = Faction.TaurianConcordat;
                             folder = "Taurian";
+                            tags.Add("planet_civ_periphery");
                             break;
                         case "Outworlds Alliance":
                             faction = Faction.Betrayers;
                             folder = "Outworld";
+                            tags.Add("planet_civ_periphery");
                             break;
                         case "Marian Hegemony":
                             faction = Faction.AuriganDirectorate;
                             folder = "Hegemony";
+                            tags.Add("planet_civ_periphery");
                             break;
                         case "Oberon Confederation":
                             faction = Faction.MagistracyCentrella;
                             folder = "Oberon";
+                            tags.Add("planet_civ_periphery");
+                            tags.Add("planet_other_pirate");
+                            tags.Add("planet_other_blackmarket");
                             break;
                         case "Lothian League":
                             faction = Faction.MajestyMetals;
                             folder = "Lothian";
+                            tags.Add("planet_civ_periphery");
                             break;
                         case "Circinus Federation":
                             faction = Faction.Nautilus;
                             folder = "Circinus";
+                            tags.Add("planet_civ_periphery");
+                            tags.Add("planet_other_pirate");
+                            tags.Add("planet_other_blackmarket");
                             break;
                         case "Illyrian Palatinate":
                             faction = Faction.AuriganMercenaries;
                             folder = "Illyrian";
+                            tags.Add("planet_civ_periphery");
                             break;
                         default:
                             faction = Faction.Locals;
                             folder = "Locals";
+                            tags.Add("planet_civ_periphery");
                             break;
                     }
                     string beginjson = File.ReadAllText("C:/Users/morph/Desktop/Neuer Ordner (4)/starsystemdef_Detroit.json");
@@ -161,13 +184,68 @@ namespace ConsoleApplication1 {
 
                     StarSystemDef def = new StarSystemDef();
                     def.FromJSON(beginjson);
-                    TagSet tags = new TagSet();
+
+
+                    bool fueling = false;
                     string details = " ";
-                    
-                    DescriptionDef desc = new DescriptionDef(("starsystemdef_" + system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty), (string)system["name"], details, "", 0, 0, false, "", "", "");
-                    StarSystemDef def2 = new StarSystemDef(desc, vector, def.Tags, false, 7, faction, getAllies(faction), getEnemies(faction), def.SystemInfluence, def.TravelRequirements);
-                    
-                            List<Biome.BIOMESKIN> biomes = new List<Biome.BIOMESKIN>();
+                    foreach (JObject newdataObject in newdataArray) {
+                        if (system["name"].Equals(newdataObject["Planet_Name"])) {
+                            if (!string.IsNullOrEmpty((string)newdataObject["Description"])) {
+                                details = ((string)newdataObject["Description"]).Replace("\t", "").Replace("\\","").Replace("</P>", "").Replace("<P>", "").Replace("\r", "").Replace("\n", "").Replace("</p>", "").Replace("<p>", "");
+                            }
+                            if ((int)newdataObject["Industry"] != 0) {
+                                tags.Add("planet_industry_mining");
+                                if ((int)newdataObject["Industry"] >= 100000000) {
+                                    tags.Add("planet_industry_rich");
+                                }
+                                else {
+                                    tags.Add("planet_industry_recreation");
+                                }
+                            }
+                            else {
+                                tags.Add("planet_industry_agriculture");
+                                tags.Add("planet_industry_aquaculture");
+                                tags.Add("planet_industry_poor");
+                            }
+                            if (!string.IsNullOrEmpty((string)newdataObject["comstar_facility"]) && !((string)newdataObject["comstar_facility"]).Equals("None")) {
+                                tags.Add("planet_industry_research");
+                                tags.Add("planet_other_comstar");
+                            }
+                            if ((int)newdataObject["Capital_Planet"] == 1) {
+                                tags.Add("planet_other_capital");
+
+                            }
+                            if ((long)newdataObject["population"] > 1000000000) {
+                                tags.Add("planet_pop_large");
+                                if ((long)newdataObject["population"] > 5000000000) {
+                                    tags.Add("planet_other_megacity");
+                                }
+                            }
+                            else if ((int)newdataObject["population"] > 100000000) {
+                                tags.Add("planet_pop_medium");
+
+                            }
+                            else if ((int)newdataObject["population"] > 1000000) {
+                                tags.Add("planet_pop_small");
+
+                            }
+                            else {
+                                tags.Add("planet_pop_none");
+
+                            }
+                            if((int)newdataObject["Charge_Station"] == 1) {
+                                fueling = true;
+                            }
+                            if ((int)newdataObject["Factory"] == 123) {
+                                tags.Add("planet_industry_manufacturing");
+                            }
+                            break;
+                        }
+                    }
+
+                    tags.Add("planet_size_medium"); 
+                    tags.Add("planet_climate_terran");
+                    List<Biome.BIOMESKIN> biomes = new List<Biome.BIOMESKIN>();
                     biomes.Add(Biome.BIOMESKIN.highlandsSpring);
                     biomes.Add(Biome.BIOMESKIN.highlandsFall);
                     biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
@@ -179,18 +257,43 @@ namespace ConsoleApplication1 {
                     biomes.Add(Biome.BIOMESKIN.martianVacuum);
                     biomes.Add(Biome.BIOMESKIN.polarFrozen);
                     biomes.Add(Biome.BIOMESKIN.tundraFrozen);
-                            ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
-                            ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });
-                            ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { 7 });
-                            ReflectionHelper.InvokePrivateMethode(def2, "set_ShopMaxSpecials", new object[] { 7 });
-                            ReflectionHelper.InvokePrivateMethode(def2, "set_SupportedBiomes", new object[] { biomes });
-        
+
+                    DescriptionDef desc = new DescriptionDef(("starsystemdef_" + system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty), (string)system["name"], details, "", 0, 0, false, "", "", "");
+                    StarSystemDef def2 = new StarSystemDef(desc, vector, tags, false, 7, faction, getAllies(faction), getEnemies(faction), def.SystemInfluence, def.TravelRequirements);
+
+                    foreach (JObject newdataObject in newdataArray) {
+                        if (system["name"].Equals(newdataObject["Planet_Name"])) {
+
+                            break;
+                        }
+                    }
+
+                    
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_FuelingStation", new object[] { fueling });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { 7 });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_ShopMaxSpecials", new object[] { 7 });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_SupportedBiomes", new object[] { biomes });
+
+                    foreach (JObject newdataObject in newdataArray) {
+                        if (system["name"].Equals(newdataObject["Planet_Name"])) {
+                            ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { getStartype((string)newdataObject["SpecClass"]) });
+                            if ((float)newdataObject["travel_time"] != 0f) {
+                                ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { (int)newdataObject["travel_time"] });
+                            }
+                            break;
+                        }
+                    }
+
                     string json = def2.ToJSON();
                     JObject jsonObject = JObject.Parse(json);
+
                     JObject descriptionjson = (JObject)jsonObject["Description"];
                     descriptionjson.Add("Id", "starsystemdef_" + ((string)system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty));
                     descriptionjson.Add("Name", (string)system["name"]);
                     descriptionjson.Add("Details", details);
+
                     // string json = JsonConvert.SerializeObject(def2, new Newtonsoft.Json.Converters.StringEnumConverter());
                     string path = "C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/mods/OldData/" + folder + "/starsystemdef_" + ((string)system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty) + ".json";
                     (new FileInfo(path)).Directory.Create();
@@ -331,17 +434,17 @@ namespace ConsoleApplication1 {
                 case Faction.Locals:
                     return new List<Faction>() { Faction.Locals };
                 case Faction.MagistracyCentrella:
-                    return new List<Faction>() { Faction.Locals, Faction.MagistracyCentrella };
+                    return new List<Faction>() { Faction.Locals, Faction.MagistracyCentrella, Faction.AuriganPirates };
                 case Faction.MagistracyOfCanopus:
                     return new List<Faction>() { Faction.Locals, Faction.ComStar, Faction.MagistracyOfCanopus };
                 case Faction.MajestyMetals:
                     return new List<Faction>() { Faction.Locals, Faction.MajestyMetals };
                 case Faction.Marik:
-                    return new List<Faction>() { Faction.Locals, Faction.Marik,Faction.ComStar };
+                    return new List<Faction>() { Faction.Locals, Faction.Marik, Faction.ComStar };
                 case Faction.MercenaryReviewBoard:
                     return new List<Faction>() { Faction.Locals, Faction.ComStar, Faction.MercenaryReviewBoard };
                 case Faction.Nautilus:
-                    return new List<Faction>() { Faction.Locals, Faction.Nautilus, Faction.ComStar };
+                    return new List<Faction>() { Faction.Locals, Faction.Nautilus, Faction.ComStar, Faction.AuriganPirates };
                 case Faction.NoFaction:
                     return new List<Faction>() { Faction.Locals, Faction.NoFaction };
                 case Faction.Steiner:
@@ -391,10 +494,10 @@ namespace ConsoleApplication1 {
                     return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganPirates,Faction.AuriganRestoration,
                         Faction.Davion,Faction.Kurita,Faction.Liao, Faction.MagistracyCentrella,
                         Faction.MagistracyOfCanopus,Faction.MajestyMetals, Faction.Marik,Faction.Nautilus,
-                        Faction.Steiner,Faction.TaurianConcordat };                    
+                        Faction.Steiner,Faction.TaurianConcordat };
                 case Faction.Kurita:
                     return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganPirates,Faction.AuriganRestoration,
-                        Faction.Betrayers, Faction.Davion, 
+                        Faction.Betrayers, Faction.Davion,
                         Faction.MagistracyOfCanopus,Faction.MajestyMetals, Faction.Nautilus,
                         Faction.Steiner,Faction.TaurianConcordat };
                 case Faction.Liao:
@@ -409,9 +512,9 @@ namespace ConsoleApplication1 {
                         Faction.Steiner,Faction.TaurianConcordat };
                 case Faction.MagistracyCentrella:
                     return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganRestoration,
-                        Faction.Betrayers, Faction.ComStar, Faction.Davion,Faction.Liao, 
+                        Faction.Betrayers, Faction.ComStar, Faction.Davion,Faction.Liao,
                         Faction.MagistracyOfCanopus,Faction.MajestyMetals, Faction.Marik,Faction.Nautilus,Faction.TaurianConcordat };
-                    
+
                 case Faction.MagistracyOfCanopus:
                     return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganPirates,
                         Faction.Betrayers, Faction.Davion,Faction.Kurita,Faction.Liao, Faction.MagistracyCentrella,
@@ -422,7 +525,7 @@ namespace ConsoleApplication1 {
                         Faction.Betrayers, Faction.ComStar, Faction.Davion,Faction.Kurita,Faction.Liao, Faction.MagistracyCentrella,
                         Faction.Marik,Faction.Nautilus,
                         Faction.Steiner};
-                    
+
                 case Faction.Marik:
                     return new List<Faction>() {Faction.AuriganMercenaries,Faction.AuriganPirates,Faction.AuriganRestoration,
                         Faction.Betrayers, Faction.Davion,Faction.Liao, Faction.MagistracyCentrella,
@@ -434,7 +537,7 @@ namespace ConsoleApplication1 {
                         Faction.MagistracyOfCanopus,Faction.MajestyMetals, Faction.Marik,Faction.Nautilus,
                         Faction.Steiner,Faction.TaurianConcordat };
                 case Faction.Nautilus:
-                    return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganPirates,Faction.AuriganRestoration,
+                    return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganRestoration,
                         Faction.Betrayers, Faction.ComStar, Faction.Davion,Faction.Kurita,Faction.Liao, Faction.MagistracyCentrella,
                         Faction.MagistracyOfCanopus,Faction.MajestyMetals, Faction.Marik,
                         Faction.Steiner,Faction.TaurianConcordat };
@@ -446,9 +549,9 @@ namespace ConsoleApplication1 {
 
                 case Faction.Steiner:
                     return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganPirates,Faction.AuriganRestoration,
-                        Faction.Betrayers,  Faction.Kurita,Faction.Liao, 
+                        Faction.Betrayers,  Faction.Kurita,Faction.Liao,
                         Faction.MagistracyOfCanopus,Faction.MajestyMetals, Faction.Marik,Faction.Nautilus,
-                        Faction.TaurianConcordat };        
+                        Faction.TaurianConcordat };
                 case Faction.TaurianConcordat:
                     return new List<Faction>() { Faction.AuriganDirectorate,Faction.AuriganMercenaries,Faction.AuriganPirates,Faction.AuriganRestoration,
                         Faction.Betrayers,  Faction.Davion,Faction.Kurita,Faction.Liao, Faction.MagistracyCentrella,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rollis",
     "Name": "Rollis",
-    "Details": " "
+    "Details": "[3033] In 3032, Chancellor Romano Liao ascended to the Celestial Throne. Opposition to her reign existed, though not for long. In 3033, Rollis attempted to cede from the Confederation and join the Taurian Concordat. There was no Capellan military response to the incident; instead, the eight members of the rebellious High Council of Rollis disappeared almost simultaneously. The new High Council decided it was in their own interests for Rollis to remain a Capellan world.Prefect Melanie Rollis is the last member of the Rollis family, which has ruled their homeworld of Rollis for centuries. In the early 3040's, a raiding party from the Taurian Concordat attacked the world. The raid claimed the lives of all the family members except Melanie and her younger brother Maxwell, who died soon after from wounds he received during the attack.When young Melanie took power, she vowed vengeance on those who killed her family. After learning the raid originated on the world of Laconis, Melanie immediately ordered the Rollis militia to attack. The raid on Laconis proved especially brutal and destructive, and Melanie made it clear to the Laconian Prime Minister, Harry Jagnon, that the attack was a retaliatory raid. Jagnon responded by hiring mercenaries to strike back at Rollis, establishing a lethal cycle of attrition that continues today."
   },
   "Position": {
     "x": 150.33,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

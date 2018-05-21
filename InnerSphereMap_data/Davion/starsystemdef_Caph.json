@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Caph",
     "Name": "Caph",
-    "Details": " "
+    "Details": "Caph was one of the first worlds that Human space explorers settled after the Kearny-Fuchida drive made interstellar space travel possible. During the Star League era, Caph was a center for advanced engineering research. Indeed, much of the original theory behind the newly invented BattleMechs was developed at the famed Caph Institute of Technology. Caph was also famous for successful medical research and for the development of important new techniques in the field. With the fall of the Star League, Caph became the center of bitter fighting between the Draconis Combine, the Capellan Confederation, and the Federated Suns. In 2787, the Fifth Battle for Caph became one of the few instances where three realms battled one another on the same planet. The Federated Suns was the eventual victory on Caph, however. What House Davion inherited was a planet full of ruins and radiation zones. Ninety-nine percent of all the world's buildings had been destroyed, and the little remaining arable land had suffered from the effects of combat. Only now is the planet slowly recovering, with a growth in population and the construction of a few small factories. Even more important is that Caph's location makes it the ideal site for offices and warehouses of many Federated Suns trading companies interested in dealing with the rich Lyran Commonwealth. With the recent alliance between the two realms, this planet's usefulness and importance can only grow greater. The capital city of Caph is Aswan."
   },
   "Position": {
     "x": 12.92,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

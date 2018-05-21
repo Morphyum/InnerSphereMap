@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gacrux",
     "Name": "Gacrux",
-    "Details": " "
+    "Details": "The capital of Gacrux is Morgan Junction. The world's main industrial complex of Rawlins, lies 125km to the southwest of the capital.[3062] Containing a large number of semi-retired veterans, the Gacrux FTM is a stronghold of the Brotherhood of Cincinnatus. They have long opposed the Federated Commonwealth, whose formation ironically led to the militia's creation. Though the secession of the Lyran Alliance from the Federated Commonwealth pleased the militia, the alliance with the Free Worlds League did not. The FTM has since argued for a resumption of hostilities against the Alliance's rimward neighbor. This aggressive stance has prompted the LAAF to keep the militia on a short leash, restricting their supplies and access to transport assets so as to prevent an independent operation against the League. The Free Skye movement has made numerous attempts to draw the militia into its tangled web but all to no avail."
   },
   "Position": {
     "x": -86.5,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

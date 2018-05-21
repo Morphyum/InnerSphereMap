@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Errai",
     "Name": "Errai",
-    "Details": " "
+    "Details": "Established early on as a major industrial planet, Errai is a world of dense forests and high, craggy mountains. Errai's population swelled in the days of the Star League with electronics, fusion reactors, and heavy industrial equipment all being manufactured by local companies.[3025] Rumor has it that the infamous Casimir family, a large organized crime syndicate based in the Lyran Commonwealth, has attempted to worm their way into the staff of the Golden Star Casino on Errai."
   },
   "Position": {
     "x": 52.51,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +145,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

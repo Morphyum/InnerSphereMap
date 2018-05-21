@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chapultepec",
     "Name": "Chapultepec",
-    "Details": " "
+    "Details": "[3064] General Adam Steiner pulled the forces that had survived Khan Pryde's initial assault on Melissia back to Chapultepec, landing on 25th August. With him he had approximately three brigades of troops, including some five assorted regiments of BattleMechs. Included in that number were the two Second Crucis Lancers Combat Commands that Victor Steiner-Davion had assigned him.Galaxy Commander Jared von Jankmon led the bulk of his Omega Galaxy to the world, where he maneuvered to catch General Steiner's flank, only to have Major General Christifori's own regiment unexpectedly show up in his own flank to spoil the attack. Generals Steiner and Christifori escaped Chapultepec before von Jankmon could pin them down and call Khan Pryde in to finish them off. By retreating from the world on the 25th August, the Lyran Generals ceded control of the world to Galaxy Commander von Jankmon.General Jasper Zibler dispatched a mixed combat command from his Seventh Crucis Lancers to the world in late May 3065. The unit arrived on the 4th June, and over the course of three weeks battled the Turkina Eyrie Cluster. Fielding a much heavier fighting force than the Falcons, the Lancers eventually won the battle for the world, driving three trinaries from the planet."
   },
   "Position": {
     "x": -240.36,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

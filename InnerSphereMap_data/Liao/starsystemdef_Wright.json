@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wright",
     "Name": "Wright",
-    "Details": " "
+    "Details": "[3025] Lustix Commodities is one of the Confederation's largest manufacturer of drugs, medical support systems, and specialized anti-radiation burn treatments. Formed in 2410, the Lustrix is a major supplier to the Marik and Kurita markets (often operating illegally), though their continued development of new and effective biomedical compounds and artificial limbs prompt the authorities to wink at the firm's questionable trading practices. Lustrix has maintained god relations with members of ComStar, and has on more than one occasion assisted ComStar in averting plagues on other worlds. This friendly relationship no doubt adds to the general feeling of immunity many Lustrix executives enjoy."
   },
   "Position": {
     "x": 26.35,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

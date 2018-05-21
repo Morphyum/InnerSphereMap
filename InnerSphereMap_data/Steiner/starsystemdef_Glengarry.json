@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Glengarry",
     "Name": "Glengarry",
-    "Details": " "
+    "Details": "Glengarry is a Terra-like world - not as big, but with smaller oceans and three sprawling, northern hemisphere continents. Most of Glengarry's population is concentrated on the smallest of the continents, dubbed Scotia by the Scots-descended pioneers who had settled there. Dalraida and Pictland, the larger two landmasses in the northern hemisphere, have never attracted much attention, partly because of their harsher climates, but mostly because the original colonists had been drawn to the abundant resources of Scotia. The mountain ranges that dominated much of the continent are rich in a variety of ores, while the open ground of the valleys and lowlands had been judged ideal for farming and ranching. If not for the wars, later colonial expansion might have opened up the other landmasses, but as it is, much of Glengarry remains a virgin wilderness.Glengarry was settled early in the Star League era by colonists from the impoverished nation-states of Scotland, Norway and Canada. The planet's climate, though on the cool side, is mild for most of its year, but the winters tend to be long and harsh, particularly in the northern latitudes.The capital of Dunkeld is nearly as big as any capital city on the major worlds of the Inner Sphere, including even New Avalon or Luthien or Tharkad, but appearances are deceiving. It's population, like that of the whole planet, has been declining steadily for generations. Glengarry had once been a thriving colony, one of Terra's oldest daughters, but it was hit hard in the early rounds of the Succession Wars. Dunkeld still possesses the vestiges of Glengarry's one time greatness, things like the fine architecture of the Municipal Center in the heart of the town, or the massive bulk of the old Star League fortifications on Castle Hill.The original colony had done well enough for a time, being close to the valuable Terran trade routes. Homegrown products exported to the hungry markets of Terra brought in a healthy revenue to fill the planetary coffers. Unfortunately, Glengarry's first colonists had never seen fit to diversify and build self-sufficient heavy industries. When the Star League collapsed and interstellar trade decline during the first Succession War, the planetary economy suffered a mortal blow."
   },
   "Position": {
     "x": -76.78,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Islamabad",
     "Name": "Islamabad",
-    "Details": " "
+    "Details": "[3025] On Islamabad, the Azami are in direct conflict with the smaller Sunni Moslem population. The feud between the two has roots extending back at least a millennium. The two religious groups have carried out a guerrilla war on the planet's desert continent for the past 50 years, despite the heavy Davion presence garrisoned there to stop it. Recent discoveries of oil and radioactives on the planet have suddenly given new urgency to the religious feud.First unveiled in 3030, the Com Guard's primary mission was to protect a world's HPG transmitter, though Primus Waterly assured the Inner sphere leaders that these forces would be as inoffensive and helpful as possible to the surrounding populations. Stories of their good deeds quickly began to flood the popular media.One such deed occurred on Islamabad, when the religious hatred exploded into a series of riots that rocked the planet. Com Guard forces accepted the pleas for help from the planetary governor and began to police the worst-hit sections of cities while mediating the dispute.[3062] One of the oldest units in the AFFC, the Islamabad CMM began life as the Messengers of Shiva, the combat arm of the United Hindu Collective (UHC). When the collective joined the Federated Suns in 2540, the Messengers were absorbed into the AFFS. Their traditions have eroded, but the thirty-first century has seen a rise in nationalism in the semi-independent collective, which has in turn prompted similar changes in the CMM. Chief among these is a resurgence in caste-based politics that threatens to undermine the unit's organization."
   },
   "Position": {
     "x": 321.56,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

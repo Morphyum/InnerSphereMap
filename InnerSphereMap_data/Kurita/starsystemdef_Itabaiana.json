@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Itabaiana",
     "Name": "Itabaiana",
-    "Details": " "
+    "Details": "[3052] The government of Itabaiana had no forces to defend its planet, and so Clan Nova Cat took the world without a fight in January 3052. The brief ceremony held to transfer the reins of government to the Nova Cats gave the Clan unrestricted access to a resource-rich world that continues to produce a quantity of iron ore far greater than any similar world in Clan space. The 44th Nova Cat Cavaliers garrison this world to protect the Clan's new-found resources against any other Clan intent on grabbing the rich deposit of iron for itself.[3059] During Operation Bulldog, a game of soccer decided possession of the Itabaiana. The Fifth Sun Zhang Cadre, under the colors of the SLDF, beat Clan Nova Cat 5 - 3 after penalties.[3062] When Clan Nova Cat was abjured and joined the SLDF, the Draconis Combine gifted the Nova Cats with Itabaiana to serve as one of their new homeworlds in the Inner Sphere. Later that same year, the SLDF Nova Cats and Clan Diamond Shark involved themselves in several massive deals which traded resources, weapon and 'Mech technology, and 2% of the Har Jel output from Jonah's Reach. After consulting with the Draconis Combine, the Nova Cats traded away Itabaiana to Clan Diamond Shark during one of these deals. Clan Diamond Shark has since garrisoned the world and declared it to be a trade world open to the Clans and the Inner Sphere alike."
   },
   "Position": {
     "x": 127.17,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mizar",
     "Name": "Mizar",
-    "Details": " "
+    "Details": "Basking beneath its huge sun, Mizar is one of the most well-groomed worlds in the Commonwealth.  Its people have been willing to allocate huge sums of money and effort to prettify their homeworld, even at the cost of further developing a promising crystal and metals operation. Some observers suspect that this beauty fetish is a hangover from the Good Years when Mizar was considered one of the most fashionable resort worlds in the League.  Mizar still has a large tourist industry based on the allure and beauty of its many tropical isles.  Others speculate that the people of Mizar are obsessed with proving their planet is better than the nearby world of Summer.  Why a world lit by a brilliant sun and possessing a colorful, harmonious landscape would want to compete with one that is dark and gloomy defies explanation."
   },
   "Position": {
     "x": -54.54,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 24,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_McRae",
     "Name": "McRae",
-    "Details": " "
+    "Details": "[3025] With its head office located in the city of New Dallas, McRae Quik Construct, with its location near the Periphery, is ideally situated to meet the enormous demand for housing from worlds teeming with new frontiersman. Created just a year after Hanse Davion's famous Bold New Frontier speech, the company's line of lightweight yet durable prefabricated housing has been extremely popular. The company is planning to follow up their success by expanding into the city planning and heavy construction fields. That way, when their many temporary buildings begin to wear out, McRae Quik Construct will be there, ready to build more permanent structures.Rumors abound that Mcrae have always indulged in less than ethical business practises, though nothing has ever been proved."
   },
   "Position": {
     "x": 553.18,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

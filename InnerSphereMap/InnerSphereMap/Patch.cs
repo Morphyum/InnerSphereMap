@@ -101,6 +101,63 @@ namespace InnerSphereMap {
                 go.GetComponent<Renderer>().material.mainTexture = texture2D2;
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.TaurianConcordat, go });
 
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/steinerLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Steiner, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/draconisLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Kurita, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/circinusLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Nautilus, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/oberonLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MagistracyCentrella, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/illyrianLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganMercenaries, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/lothianLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MajestyMetals, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/marianLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganDirectorate, go });
+
+                texture2D2 = new Texture2D(2, 2);
+                data = File.ReadAllBytes("mods/InnerSphereMap/Logos/outworldsLogo.png");
+                texture2D2.LoadImage(data);
+                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Betrayers, go });
+
+
             }
             catch (Exception e) {
                 Logger.LogError(e);

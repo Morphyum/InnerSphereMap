@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Montmarault",
     "Name": "Montmarault",
-    "Details": " "
+    "Details": "[3051] Though they fought well, Clan Jade Falcon's 305th Assault Cluster lost the right to conquer Montmarault, in November 3051, to Clan Steel Viper's Viper Guards. Most Falcon warriors blame this defeat on the fact that the Viper Guards were fresh, while the 305th fought in some of the invasion's fiercest battles."
   },
   "Position": {
     "x": -59.19,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 11,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

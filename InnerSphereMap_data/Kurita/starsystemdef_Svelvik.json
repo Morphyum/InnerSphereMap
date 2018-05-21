@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Svelvik",
     "Name": "Svelvik",
-    "Details": " "
+    "Details": "In late 2825, the Minnesota Tribe made its first appearance in the Inner Sphere, with a raid on the Draconis Combine world of Svelvik. This previously unknown 'Mech unit of nearly regimental strength showed considerable skill in besting the planet's meager garrison troops. Refusing any communications, they simply took what they needed, and then left Svelvik without further bloodshed.The few reports of this unknown unit noted that their impeccably maintained 'Mechs were freshly painted in Regular Army colors. The only visible insignia was an outline of Minnesota, a geo-political domain in the North American region of Terra. The reports also stated the regiment was apparently escorting a fleet of cargo, commercial, and liner JumpShips.[3050] Clan Wolf landed on Svelvik in April 3050. The First, Second and Third Svelvik Mechanized Militia quickly folded after their first encounter with the Elementals of Supernova Command, Eleventh Wolf Guard. "
   },
   "Position": {
     "x": 17.31,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

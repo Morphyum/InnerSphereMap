@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brisbane",
     "Name": "Brisbane",
-    "Details": " "
+    "Details": "A plush water world situated along the less-than-clearly-defined border between the Taurian Concordat and the Magistracy of Canopus, Brisbane has been the scene of numerous clashes between Taurian, Magistracy, and Independent forces in the last generation. Prized for its abundance of fresh- water sea life as much as for its surviving water purification plants dotting the southern hemisphere, Brisbane is a gigantic reservoir of marine foodstuffs and desalinized water stores. With over 80% of the planets land mass in the form of small island chains, the Taurian Concordat has had to resort to unorthodox expedients to defend the planet. For this reason, Brisbane has the only Taurian sea-going contingent in the Concordat as well as a contingent of traditional 'Mech and infantry forces in support of the planet's main starport in the northern archipelago. Brisbane is also the home planet to the Second Battalion of the Taurian Red Chasseurs, who maintain a constant garrison on the planet.Brisbane is also home of the so called Brisbane Virus - this incurable, degenerative nerve disease slowly robs its victims of their physical strength and coordination. Most victims are confined to a wheelchair after two years."
   },
   "Position": {
     "x": 154.95,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "TaurianConcordat",
   "ContractEmployers": [
     "Locals",

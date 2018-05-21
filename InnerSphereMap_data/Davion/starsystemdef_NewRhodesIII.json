@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewRhodesIII",
     "Name": "New Rhodes III",
-    "Details": " "
+    "Details": "New Rhodes III is a small, mostly desert world, unremarkable except for two things. First, because of its small star, the travel time between New Rhodes III and its jump point is very quick. With such short turnaround times, New Rhodes III became a crucial resupply world during the First Succession War and was fought over several times. However, it is the Colossii that truly sets New Rhodes III apart; luckily, none of the chain was touched during any of the Succession Wars. Found in 2259 by the first colonists, these huge rock pillars-approximately one hundred fifty in the chain, which runs in a snaking pattern from deep within the central desert on the continent of Crete, terminating right at the edge of the equatorial ocean-have been scientific oddities for centuries. Geologists speculate that a meteor-in all likelihood several meteors-from outside the galaxy impacted on New Rhodes some two million year ago, bringing chemicals and minerals completely foreign to the planet. After millennia of wind erosion and harsh desert climate mixed to reveal the minerals trapped in the ground, the Colossii revealed themselves in all their wonder and splendor; there are colors found in these rocks that have literally not been found on a single other colonized world. As word slowly spread, New Rhodes III became a pleasure destination from across the Inner Sphere, resulting in the small capital of Xerxes being established near the southern end of the Colossii chain. However, because of the harsh conditions of most of the rest of the planet-the continents of Minos and Sparta are almost unlivable-New Rhodes III is permanent home to only desert nomads and a small scientific community; the \"capital\" is home almost exclusively to said community."
   },
   "Position": {
     "x": 102.36,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

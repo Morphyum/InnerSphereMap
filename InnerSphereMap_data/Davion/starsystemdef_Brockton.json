@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Brockton",
     "Name": "Brockton",
-    "Details": " "
+    "Details": "[3062] Drawing its recruits from the Broken Wheel and Anjin Muerto Combat Regions, the Brockton Training Battalion contains a diverse mix of cultures and personalities. Some, like the anarchists of Cogdell, do not fit in well with the military lifestyle and are expelled within the first few days. Others, like the aqua-farmers of Lackland, are keen to learn, knowing the skills they gains can be applies to the subaquatic agromechs on their homeworld. Weeding out the wasters from the potential gems is a difficult process, carried out by the unit's sergeant-instructors during the initial weeklong evaluation period. Of those who graduate to the battalion proper - roughly half of those who attend the evaluation - the pass rate is 65%, the highest in the regional cadres."
   },
   "Position": {
     "x": 531.98,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Davion",
   "ContractEmployers": [
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

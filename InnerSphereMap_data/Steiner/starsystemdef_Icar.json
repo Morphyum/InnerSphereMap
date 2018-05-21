@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Icar",
     "Name": "Icar",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Icar in March 3050. Facing them were the Third Regiment (Twelfth Star Guards, and the Third Icar Armored Brigade. The first Wolf forces of Supernovas First and Second, and Alpha Assault Star (Forth Wolf Guards), overran the Star Guard's second battalion minutes after hitting their LZs. Colonel Hannah Caitlin, commander of the Star Guards, counterattacked at Pofadder's Gully but failed to accomplish her goal. Her unit's attempts to retreat offworld at Cuanger were thwarted by Elementals who fought their way into the DropShips and forced the Guards to surrender."
   },
   "Position": {
     "x": -83.49,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

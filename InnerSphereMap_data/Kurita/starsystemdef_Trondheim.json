@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Trondheim",
     "Name": "Trondheim",
-    "Details": " "
+    "Details": "In late 2825, Trondheim became the second target of the mysterious Minnesota Tribe. Because it was a prefecture capital, the 20th Rasalhague Regulars were stationed there. The ensuing battle was striking for the way the mystery 'Mechs dealt with the Kurita 'Mechs in strict Regular Army formations and tactics. Once again, the mystery group refused all attempts at communication, to the point that pilots of destroyed Tribe 'Mechs killed themselves to avoid capture. The mystery fleet then jumped from the system, apparently headed for some uninhabited star system near Trondheim.Trondhiem is a big world scarred by several active volcanoes. There are three currently errupting, and two of them having been erupting for the past three years. The ash thrown into the atmosphere disrupted the planet's climate, ushering in very hot summers broken by extremely cold winters. Until the volcanoes cease erupting, the population will have to contend with the quirky weather.The volatile nature of the planet does allow easy access to rare metals and minerals. Several major companies have been mining the planet for centuries. In addition, Amau Electronics, one of the largest electronics firms in the Draconis Combine, has its factories here. Headquartered in the city of Silvaton,  Amau makes electronics for consumer use, with products ranging from microwave ovens and music chip players to home automatic hair stylers and holo displays. Kurita consumer products have long been known for their low quality because most first-class materials are routed to the military rather than for frivolous consumer vanities. Nevertheless, there is currently a vogue on Kurita planets to acquire electronic toys, a vogue probably fed by recent exposure to Davion and Steiner goods on occupied worlds. At the moment, this buying frenzy is beneficial to the economy. If that trend should reverse for any reason, the government is expected to denounce decadent, foreign-influenced luxuries.The people of Trondhiem seem to be as volatile as the world they inhabit. Over the centuries, there have been many protests, rebellions, and attempted revolutions. Most disturbances require the Arm of the Dragon to be put down. Currently, the people of the planet are quiet, but the ISF has not reduced its sizeable force of agents.[3050] Trondheim fell to Clan Ghost Bear in May 3050. The Bear's stationed on this world reject the Clan custom of referring to all Inner Sphere worlds as paradises.[3065] Clan Ghost Bear gifted Trondheim to Clan Diamond Shark in return for services rendered during their relocation to the Inner Sphere. Clan Diamond Shark has since garrisoned Trondheim and declared it to be a Trade World in the Inner Sphere, open to all customers, be they Clan or Spheroid."
   },
   "Position": {
     "x": 72.64,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tentativa",
     "Name": "Tentativa",
-    "Details": " "
+    "Details": "[2357] After announcing his intention to scrap the Acala Pact in July 2357, Reynard Davion's forces overran the Sarna garrison on the then border world of Bell. The Davion forces destroyed the planet's military stockpiles and captured over 15,000 civilians.   When a combined Tikonov-Sarna-Capellan relief force arrived in January the following year, no sign of the Davion forces, the original Sarna garrison, or the civilian population was found. Though a three-month, planet-wide and later system-wide search was instituted, no clue to the whereabouts of the inhabitants  was ever uncovered by the Sarna government.In actuality, the population was transported as slave labor to the newly discovered world of Tentativa. In 2360, a Taurian explorer, Tracy Ashton Pendleton, accidentally discovered the missing Bellites while on a mapping/geology survey in the Tentativa system. Acting on her own initiative, Pendleton organized a revolt of the captive workers, who quickly overpowered the Davion garrison there. They then fled to the safety of the Taurian Concordat."
   },
   "Position": {
     "x": 349.73,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

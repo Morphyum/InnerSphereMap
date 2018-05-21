@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sax",
     "Name": "Sax",
-    "Details": " "
+    "Details": "The start of the Third Succession War, in 2866, brought final changes in the Capellan armed forces. As the availability of trained manpower continued to diminish with each successive campaign, all the major Houses were forced to look to other sources for expert warriors. Mercenaries were the logical answer. Thus, more and more such units were incorporated within the regular framework of existing house armies. Eventually, these mercenary units equalled and in some cases exceeded the number of regular line regiments available.Chancellor Otto Liao increased the use of mercenaries alongside regular Capellan units, and formalized the arrangements through charters, which specified rigid contractual conditions. Otto's initial efforts at chartering mercenaries away from other prospective employers were not always successful. In 2876, the 14th Aerospace regiment was hastily redeployed on Sax to destroy elements of Brighton's Rangers, after the Rangers broke the conditions of their original charter with the Capellan government.This incident served as a powerful demonstration of Chancellor Otto's determination to enforce the terms of his contracts, in effect using mercenaries on his terms, not theirs."
   },
   "Position": {
     "x": -1.56,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

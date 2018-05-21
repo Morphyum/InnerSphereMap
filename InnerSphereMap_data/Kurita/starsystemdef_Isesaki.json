@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Isesaki",
     "Name": "Isesaki",
-    "Details": " "
+    "Details": "The city of Ukonsoi is home to the Isesaki Shipping corporation. Dating back over 500 years, the firm has undergone changes and restructuring many times, though Isesaki has always held a royal patent to trade anywhere in the Successor States. The history of the Successor States has sometimes made it almost impossible for the company to carry out that shipping, but Isesaki agents have away of always finding someone who will deal, even in the midst of war."
   },
   "Position": {
     "x": 277.09,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

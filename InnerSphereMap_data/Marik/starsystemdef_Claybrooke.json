@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Claybrooke",
     "Name": "Claybrooke",
-    "Details": " "
+    "Details": "Claybrooke lies on the edge of the Periphery between the Magistracy of Canopus and the Duchy of Andurien. Dame Catherine Humphreys is known to covert Claybrooke for its ranch and dairy products, as well as its natural gas and fossil fuel. She appears to be using the proximity of the Magistracy to put pressure on the leaders of Claybrooke to join the Duchy, offering favorable tariffs and other economic incentives.The military dictator of Claybrooke, Lientenant Colonel Carla Chestine, is having none of it, however. She has political problems of her own, including arguments over mineral development of Claybrooke's two moons that have begun to resemble the arguments between the Liberals and Expansionists of old Terra. In fact, Chestine is using the threat of an Andurien takeover to hold her dictatorship together, as it is the one issue on which everyone on Claybroke agrees."
   },
   "Position": {
     "x": -51.97,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 19,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

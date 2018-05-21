@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Garstedt",
     "Name": "Garstedt",
-    "Details": " "
+    "Details": "[3050] Clan Smoke Jaguar landed on Garstedt in May 3050. Defending the world was the Third Alshain Regulars. Tai-sa Albert Brookhaven and his troops holed up in Cordivas Grotto, knowing that the Clan forces would have to pay a high cost to dislodge them. Rather than attacking the Third as Brookhaven had hoped, however, the Smoke Jaguar commander chose to wait out the Regulars.Realizing that he faced a choice between fighting or remaining trapped indefinitely by Jaguar troops, Tai-sa Brookhaven scouted out the best possible avenue for retreat to the Third's Dropships and then led his forces out of the Grotto.During the running battle from the Grotto to the south end of the Filmore Steppes, where the Third's DropShips waited, a Star of OmniMechs chewed up Brookhaven's command company. Lighter elements of Trinary Command kept the rest of the Third busy until Trinary Assault arrived. The Smoke Jaguar forces of the Seventh Jaguar Dragoons destroyed an entire battalion of the Third Alshain Regulars; most of the remaining two battalions managed to retreat off-planet.[3059] Wave Three of Operation Bulldog saw a number of battles in which the Smoke Jaguars offered little resistance before withdrawing and surrendering possession of the planet. In one regard, the battle of Garstedt was one such conflict, with a small Jaguar force acting as rear guard while the remaining forces boarded their DropShips and fled. Yet the battle was atypical of Clan fighting tactics, taking place in the confines of the Nürnburg Canyon. Though classified as second-line troops, the Seventeenth Jaguar Regulars proved that even rear-echelon warriors were a force to be reckoned with.Hard pressed by the SLDF troops, Trinary Echo held the Nürnburg Canyon for more than four hours, allowing the remainder of the Seventeenth Regulars and the 143rd Battle Cluster to evacuate the world. Only when a light company of Ryuken-Go circled behind the remaining Clan 'Mechs were the Jaguars dislodged. By the end of the battle, it had become a swirling melee, with Clan and Inner Sphere 'Mechs in hand-to-hand combat. Only two Clan warriors survived the battle, but they had delayed elements of the Sixth Lyran Guards, Ryuken-Go, First MAC, and the Com Guard 79th Division, earning themselves a place in the history books."
   },
   "Position": {
     "x": 126.14,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

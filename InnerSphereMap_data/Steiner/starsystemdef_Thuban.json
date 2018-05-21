@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thuban",
     "Name": "Thuban",
-    "Details": " "
+    "Details": "Thuban - Alpha Draconis, a name drawn from a constellation visible in the northern hemisphere skies of Terra, and therefore having nothing to do with the far-flung Draconis Combine - is a type A0 double star, both components blue-white in colour and demonic in their radiation output. Even at the system's jump points, radiation levels are uncomfortably high.Thankfully though, this isn't a problem for the inhabitants of Thuban, the system's only inhabited world. Thuban is a manmade world, one of a number of engineered planets scattered across the Inner Sphere, shaped by the engineers of the old Star League. Originally an airless, radiation blasted rock the size of Terra's moon, its core has been hollowed out into a vast rock-enclosed cavern. The planet's spin was increased to provide an artificial out-is-down gravity, and its interior filled with a breathable atmosphere distilled from the native rock and ice. It is an inside out world, an enclosed environment entered through an airlock, a place where you can stand on the ground and look up at farmlands and forest, and small landlocked seas. The 'sun' is a thin, intensely radiant thread across the land-encircled sky, that literally pipes in light from the outside as required. "
   },
   "Position": {
     "x": -196.26,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

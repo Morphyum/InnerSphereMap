@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alcyone",
     "Name": "Alcyone",
-    "Details": " "
+    "Details": "The Alcyone system was discovered by Captain Alfred Daniels of the Terran Survey Ship Seeker in 2214. The single habitable world was named by Daniels after his daughter, Alcyone Daniels. Alcyone's star is a main sequence K0 sun invisible from Sol. It is listed on navigational ephemerides as NSC E 4-008,332, and is called Alsun or Al's Sun by the natives. Alcyone is formally designated as Alsun II.Alcyone is rated as an earth-like world. Possessed of a terrestrial ecosystem and a standard oxygen-nitrogen atmosphere, it supports a population of several hundred million. The world has been repeatedly raided by Liao warfleets during the past several centuries and suffered heavily during the genocidal campaigns of the First and Second Succession Wars. Numerous of Alsun II's cities have been destroyed and never rebuilt, or they remain inhabited but show extensive signs of heavy war damage. Alcyone is marginally self-sufficient in both agriculture and industry. The planet's principal resource is the Hobson-Redeye factory complex outside Alcyone's capital of Gratura. The Hobson-Redeye plant manufactures core assembleis for medium and large lsers which are in demand throughout the Inner Sphere.[3025] Numerous recent Liao raids have been staged for the express purposes of securing stocks of the laser core untis for Liao manufacturing, or in order to destroy the plant in an effort to hamper House Davion's military effort."
   },
   "Position": {
     "x": 129.76,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_HarrowsSun",
     "Name": "Harrow's Sun",
-    "Details": " "
+    "Details": "Harrow's Sun is a dry agricultural world, which has some of the best vineyards in the Inner Sphere, and is particularly famous for its rare late harvest Riesling vintage. Once a Draconis March world, rumor has it that the Duke of Robinson's agents still smuggle bottles across the Draconis border, for re-bottling on Robinson.Another oddity, indigenous to Harrow's Sun are String Trees. String Trees grow long, thick, sticky tendrils from their branches. Whilst these tendrils cannot actually hold back anything of 'Mech-size of larger, they can cause a major annoyance."
   },
   "Position": {
     "x": 261.85,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

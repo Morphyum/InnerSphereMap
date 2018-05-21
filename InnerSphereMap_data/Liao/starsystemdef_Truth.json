@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Truth",
     "Name": "Truth",
-    "Details": " "
+    "Details": "Truth is an agricultural planet largely remembered as the site of a horrible massacre of religious dissidents on March 25, 3013. The unknown raiders attacked the Pan-Humanists sect, whose philosophy advocated a pan-human unity extending to all believers in all Successor States, without provocation with the loss of over 50,000 men, women, and children. A subsequent commission held to investigate the carnage was unable to find any clear evidence pointing to the identity of the attackers. Some rumors suggest a rogue mercenary band was responsible. Other more sinister rumors suggest a company of hand-picked MechWarriors, under the personal command of Colonel Pavel Ridzik, was called in to exterminate the colony under orders from Chancellor Maximillian Liao. Whatever the case, those few inhabitants who were able to escape have tried unsuccessfully to restore their colony to its former glory."
   },
   "Position": {
     "x": 78.31,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

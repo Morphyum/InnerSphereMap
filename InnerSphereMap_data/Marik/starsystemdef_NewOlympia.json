@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewOlympia",
     "Name": "New Olympia",
-    "Details": " "
+    "Details": "During the 22nd century, this fertile planet was settled by a half-dozen waves of colonists, who battled one another over land and water rights. In both 2196 and 2220, Terran Alliance military forces had to intervene to halt these conflicts. After the fall of the Alliance, the population formed three republics, Olympica, Kasnov, and New Greenland, which immediately went to war with each other.In 2265, the latter two accepted Alonzo Marik's proposal to join the fledgling Marik Commonwealth. The ruling D'Andre family of Olympica, however, declined the Marik's overtures. With the aid of a naval contingent from Regulus (which was contending with the Marik's over spheres of influence), Olympica managed to secure recognition as an independent state - a status it retains to this say.Though virtually all the agri-domes that once dotted New Olympica's landscape have been damaged or destroyed by the Succession Wars, the planet remains an important agricultural exporter to other League worlds. Its seas remain abundantly stocked with marine life, including marlin, sea bass, speckled hoodoo, and Hodson's Fliers (a unique breed whose members can grow to over four meters and can leap more than ten meters out of the water).New Olympia also houses two of the League's military academies: the Allison Mechwarrior Institute and the Lloyd Marik-Stanley Aerospace School.Situated outside the city of Darienbad on New Olympia, barely two hundred miles from the Lloyd Marik-Stanley Aerospace School, the Allison MechWarrior Institute is the League's premier MechWarrior academy. As the academy is one of the few MechWarrior-only schools in the League open to all applicants, competition for places is fierce. The Captain-General himself makes the final selection of all candidates - though Thomas Marik shows less political bias than his father in this process, he continues to use his right to control over these desirable positions as political leverage.The academy graduates 375 MechWarriors each year, roughly 75% of its annual enrolment. As a top producer of MechWarriors, AMI fosters a strong rivalry with the nearby Aerospace School; cadets from both institutions buy into the stereotypical rivalry commonly encouraged between MechWarriors and aerospace pilots.Situated in the New Greenland Mountains (nicknamed the \"Gardens of the Gods\"), the Lloyd Marik-Stanley Aerospace School trains the bulk of the League's aerospace and naval personnel. For nearly five hundred years the institute has trained fighter pilots as well as DropShip and JumpShip crews. The school's WarShip program was suspended following the loss of the League's last two WarShips, the FWLS Pleiades and Arcturas, in the early days of the Second Succession War, but the academy retained its sophisticated naval training simulators. When rumors of WarShips in the fleets of the Clan invaders began to circulate in 3050, the school dusted off its manuals and revived its WarShip training course.Beginning in 3054, the school resumed its full naval training program, at first cross-training JumpShip and DropShip crews and later providing specialist courses. LMS graduates have gone on to command the League's nascent fleet of WarShips, and the school is looking for ways to increase the number of graduates from this program."
   },
   "Position": {
     "x": -150.16,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",

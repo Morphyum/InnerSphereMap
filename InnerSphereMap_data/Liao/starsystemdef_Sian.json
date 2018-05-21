@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sian",
     "Name": "Sian",
-    "Details": " "
+    "Details": "A lush, tropical garden planet that is also richly endowed with precious metals and a still-functioning electronics industry, Sian has been the capital world of the Capellan Confederation since the bombardment of Capella in 2468.  It is the seat of House Liao's political apparatus and homeworld of the infamous Maskirovka.  Equally important, Sian is home to the original Warrior House regiment, House Imarra.  Other Warrior House battalions rotate to Sian periodically for special training.  The site of the Chancellor's summer palace, Sian is probably the best-defended world in Capellan space.  In addition to its Warrior Houses, Sian is garrisoned by Capellan Hussars with support AeroSpace fighter contingents commanded by the best pilots in the Capellan service.[3025] Hellespont Industrials was at one time the second largest manufacturer of weapons in the Confederation, giving Earthwerks Ltd. Strong competition for critical BattleMech production contracts. At the height of the succession Wars, however, Marik and Kurita attacks all but wiped out this firm's 'Mech production capabilities. In an effort to avoid total ruin, Hellespont relocated its remaining factory workers and production equipment on the more easily defensible capital of the Sian Commonality. Rather than trying to rebuild all the plants lost during the war, Hellespont moved away from 'Mech production into the manufacture of less expensive, more easily constructable armed hovercraft and tanks such as the Vedette.Hellespont is today the single largest producer of armored fighting vehicles in the Capellan state. Though in recent years the company has again taken on 'Mech research and development, principally in the salvaging and improvement of captured 'Mechs, corporate emphasis remains the production of lighter vehicles.<p>[3075] Life on Sian is comparable to life elsewhere in theConfederation, but it is of course more regimented. Unlike thecapitals of other Successor States, which often try to be more cosmopolitan,Sian is the centerpiece of the Capellan caste system,and nowhere else are an individual’s roles more sharply defined.The Barduc rule Sian under the Chancellor but during times ofconflict—as now—the sword nobility rises to the occasion, andlife as a servitor becomes even more harsh. Sian University, theonly working research university in the Confederation, has beeninundated with volunteers and applicants, as have the CCAFrecruiting stations around the world—mostly from the servitorcaste, as many of them, having worked alongside members ofthe Directorate during the reconstruction, are hungry for a betterlot in life.</p><p>The recent attacks by the Word of Blake have actually erodedsome of this discrimination, at least among the middle and lowercastes. With so much damage done—and the threat of the lossof Chancellor Sun-Tzu Liao—the citizens of Sian have drawn togetherin a display of Capellan unity. The wedding of Sun-TzuLiao to Naomi Centrella has also helped erode traditional discriminations—the open society of the Magistracy is antitheticalsome of the more conservative elements of the Capellan nobility,but the Chancellor’s acceptance of the Canopian Magestrixhas forced them to reconsider their evaluations of the Peripherynation. The sterling performance of the Canopian troops onhand during the Blakist invasions has helped this perceptionin the Capellan media, but it has taken the actual presence ofCanopian troops on Sian to begin to force the denizens of thecapital to accept them.</p> "
   },
   "Position": {
     "x": 7.15,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_capital",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +45,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

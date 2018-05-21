@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Flintoft",
     "Name": "Flintoft",
-    "Details": " "
+    "Details": "[2581] In spring 2581, the third year of the Reunficatiopn War, General Wexworth attacked the major Taurian mining world of Flintoft. Once again, the Taurian navy contested control of their territory against superior League numbers. Once again, their naval forces were overcome. The Taurians took out 16 League warships before the battle was over, often through suicide attacks by swarms of fireships (short-range craft piloted by volunteers and crammed to the bulkheads with explosive ordinance).With the system jump points secure, the 1st Corps's heavy assault regiments dropped onto the planet's northern industrial sites, bypassing the Taurian defense positions further south. Hoping to gain a solid foothold before the start of the inevitable Taurian armor attacks, the League regiments got a rude awakening when hundreds of Taurian conventional fighters and bombers pummelled their positions with high-explosive and inferno loads. Though League AeroSpace fighters were called in to deal with this new development, many 'Mechs were lost before Flintoft's air contingent was destroyed."
   },
   "Position": {
     "x": 191.54,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

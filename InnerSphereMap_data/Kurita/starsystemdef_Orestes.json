@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Orestes",
     "Name": "Orestes",
-    "Details": " "
+    "Details": "[3034] On March 13, 3034, Haakon Magnusson declared himself Prince of the Free Rasalhague Republic, which included most of the former Rasalhague Military District of the Draconis Combine, as well as numerous worlds captured by the Lyran Commonwealth during the Forth succession War. ComStar quickly recognized this new state, as did Coordinator Takashi Kurita.Not all the Warlords of the Combine accepted the decision to recognize Rasalhague's independence. The Warlords of the Pesht and Dieron Districts, Marcus Kurita and Vasily Cherenkoff, disagreed violently with the decision to surrender Combine worlds and vowed to fight. Under the leadership of Marcus Kurita, the renegade forces attacked the FRR.Gunji no Kanrei Theodore Kurita branded these men ronin, declaring that they did not act in the name of the Draconis Combine. He then sent DCMS troops to cut off the ronin from heir supply bases in the Combine and ordered his men to crush any resistance. Vasily Cherenkoff died in the ronin invasion when his Atlas was beheaded on Orestes. His second-in-command, Tai-sho Dexter Kingsley, withdrew from the fight and swore his allegiance to the Kanrei.  [3075] One of the prime Rasalhague worlds not conquered by the Clans, Orestes rose from a standard small colony world into that of a major industrial resource center after the Truce of Tukayyid halted the Clan advance on its doorstep. Comstar, pledging to protect the weakened FRR, heavily invested in the planetary infrastructure, building several civilian and military facilities to support the Com Guard armies and providing a gigantic boostto the system’s economy.</p><p>Comstar’s shot in the arm was needed, as Orestes received refugees fleeing the Clan occupation Zones. A mix of Combine, Rasalhague, and Lyran citizens all migrated to the world, which was perfectly suited to handle the massive influx of citizenry. As a result, several cultural enclaves sprang up, with most non-FRR citizens opting to work for Comstar. These refugees tended to settle better with better wages and standard of living provided from Comstar’s generous pay programs, which was backed by Terran banks and other financial conglomerates. The FRR citizenry ended up in the lower classes, eking out a poor existence in overburdened infrastructure. The resentment between the Rasalhagians and the “outsiders” tended to boil over on occasion, fostering a lingering resentment towards Comstar.</p><p>Orestes was once described by a Combine surveyor as “a bland world, devoid of interest or resources worth exploiting.”  Indeed, at first glance, it isn’t the poster world for fantastic vacations or rugged adventure. The true worth of the system resides within its inhabitants—both human and others.</p><p>As the Jihad raged and the Word began raiding the system, targeting Comstar facilities and resources, the inability of the FRR government—and the stationed Com Guards—to defend the citizenry turned ugly. Demands for Comstar’s removal reached a crescendo as the more pragmatic leaders called for the Dominion and First Prince Ragnar Magnusson to step in and save the Rasalhagian people from the threat. Several of the more radical groups took this as a rally call to attack Lyran and Combine cultural neighborhoods, setting of riots and firestorms that added to the Word’s destruction of several key facilities. The economy destabilized, citizen morale plummeted, and then the Dominion arrived.</p><p>Since the Clan’s quiet annexation, Orestes has begun to recover. While it will take time to rebuild, the Rasalhagian people have embraced the Clan’s societal mores with fervor, and already its rebuilding is above the Merchant Caste’s projections.</p>"
   },
   "Position": {
     "x": -26.12,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

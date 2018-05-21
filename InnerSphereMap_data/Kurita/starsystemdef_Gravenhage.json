@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gravenhage",
     "Name": "Gravenhage",
-    "Details": " "
+    "Details": "[3058] No longer a mere Periphery outpost, the world of Gravenhage and the military unit assigned to it have become a critical check against the Clan invasion. Should a new Clan force enter along the Smoke Jaguar flank, or should the Jaguars decide to move laterally and devour more Combine space, only the Tenth Pesht Regulars on Gravenhage could prevent the fall of several nearby worlds. Gravenhage also makes a convenient jumping-off point for hitting the Jaguars along their rear, disrupting their supply lines and possibly their communications network. That a green regiment guards such a planet either speaks well for the Tenth's ability - or indicates that the High Command has no plans to launch a counter-offensive in this area in the near future."
   },
   "Position": {
     "x": 304.75,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

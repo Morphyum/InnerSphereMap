@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Clovis",
     "Name": "Clovis",
-    "Details": " "
+    "Details": "The capital of Clovis, Gorst City, lies within a massive mountain-encircled valley.The Kentares PDZ has historically been a hotbed of anti-Combine sentiments. Most families can recount incidents of terror and brutality visited upon them by members of the DCMS, while those few that can't have only to look at the masses of unmarked gravestones and monuments on each world. While members of the Clovis DMM have had ample opportunities to repay the Combine throughout the years, they are far from sated. Only the deliberate reassignment of their JumpShip squadron long ago and the heavy-handed direction of their commanders have kept them from re-igniting war along the Draconis front.[3062] Just six months ago, Leftenant General Brain Bruning was found brutally murdered, the victim of an as-yet-unsolved crime. Leftenant General Jamil Ahmad was promoted in his place and immediately began to clean up his new command. Already, seventeen officers have been indicted for various violations of the AFFC Code of Conduct, while scores more have been discharged from service. Additionally, Ahmad brought four officers into the unit with him, each of whom has been tasked with enforcing discipline. To date, Ahmad has received eleven anonymous death threats any numerous other threats of violence."
   },
   "Position": {
     "x": 180.16,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

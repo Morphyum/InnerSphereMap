@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Meadowvale",
     "Name": "Meadowvale",
-    "Details": " "
+    "Details": "[2578] Although the victory off Vakarel boosted Canopian morale, the war would soon have been over for them had it not been for the action of Colonel Adam Buquoy. Buquoy was a die-hard military man, one of several professional soldiers that the Magistrix had hired to lead her troops. Ever since the broadcast of the Pollux Proclamation, Buquoy had spent his time planning and preparing contingencies for the day when he would have to face the might of the Star League military machine. Noting the League's dependence on high-tech equipment and the Marik's long supply lines, Buquoy decided to launch a surprise attack against the supply nexus on Meadowvale.Using the Canopian navy to slip behind Star League lines, Buquoy attacked Meadowvale in the early morning of January 9, 2578. Assaulting the supply depot was Buquoy's own Bandits, supported by the mercenary regiments of Samualson's Slaughterers, Kincani's Dragoons, and Miselsen's Marauders - nine battalions of 'Mechs and infantry in all. Though well conceived, Buquoy's mission failed to achieve surprise, for the crew at Meadowvale's Jump Point managed to alert the planet's garrison before being overwhelmed by Buquoy's force.His presence compromised, Buquoy determined to press home the attack anyway. Finding the 15th Terran Armored Division opposing his landings and threatened by approaching BattleMech reinforcements, he dispersed his units to strike at neighboring supply depots. Buquoy's Bandits waged a desperate five-hour holding action until the other mercenary units reported that the depots had been destroyed. Then, the mercenaries (minus most of Buquoy's Bandits) retreated offworld.The surprise attack on Meadowvale altered the shape of the Marik's campaign. After six months of constructing new supply and operation bases in regular intervals along her supply line, Marion Marik resumed the offensive late in 2578."
   },
   "Position": {
     "x": -134.9,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

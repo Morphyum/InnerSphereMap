@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Vestallas",
     "Name": "Vestallas",
-    "Details": " "
+    "Details": "The Capellan Confederation's main treasure (hard cash, precious metals, rare paintings, and so forth) has been deposited in Vestallas's underground vaults since the turn of the century.  As the planet's principle industry is banking, there is no military presence here.  This is due to the Koharken Rebellion of 2897, when a renegade Special Forces platoon penetrated a wellguarded vault and attempted to blackmail the government into accepting their leader, Lieutenant Jeremiah Koharken, as military plutarch of the planet.  After Lieutenant Koharken's execution for treason on New Year's Eve, 2899, House Liao made certain no military coup would ever occur again on Vestallas. This planet is also remarkable for the evolution of a unique architectural style, distinguished by gracefully curved walls and gently curved and sloping floors.  These are aesthetically pleasing to the eye, as well as a means of keeping the population in a perpetual state of disequilibrium the natives describe as a natural high."
   },
   "Position": {
     "x": 66.68,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

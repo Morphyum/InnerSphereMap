@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_St.John",
     "Name": "St. John",
-    "Details": " "
+    "Details": "St. John is a resource-rich world.[3050] Clan Wolf landed on St. John in April 3050. Defending the world were the First, Second, Forth and Sixth St. John Free Brigades. Led by Överste Klinton Meyer, a hero of Rasalhague's struggle for independence, the Free Brigades mounted an aggressive defense of St. John against Supernovas Command and Second (341st Assault Cluster), but surrendered when Star colonel Ramon Sender threatened the lives of civilians.Khan Ulric Kerensky publicly reprimanded Star Colonel Sender for this dishonorable action."
   },
   "Position": {
     "x": -13.45,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cogdell",
     "Name": "Cogdell",
-    "Details": " "
+    "Details": "With commoners pitted against nobles, Cogdell is a world in deep political turmoil. This conflict has its roots in the fact that the planet's original settlers were a boatload of convicts who had been brought to Cogdell from a Periphery world and dumped there without food or water. The convicts managed to survive and formed their own culture, a semi-anarchy where each citizen had the right to do as he wished and no one had the right to stop him. When the Federated Suns absorbed Cogdell just before the start of the Third Succession War, the Davion government chose a member of the Sims family, a famous native clan, as ruling Marquess. Since then, the Sims family has gradually adopted a more and more pro-Federated and pro-nobility attitude. The public of Cogdell now believes that the Davion government is a threat to their anarchistic way of life. The friction has even erupted recently into open fighting.Cogdell is a beautiful world covered by lush forests, pastures, and thousands of acres of arable land, which yield substantial crops of grains and vegetables. Cogdell exports most of this bounty to nearby worlds, but the recent civil war has damaged this land and disrupted trade. Though poor in metals and chemical compounds, also possesses large supplies of fresh water. The capital city is Hangman's Death on the southern continent."
   },
   "Position": {
     "x": 521.9,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gunzburg",
     "Name": "Gunzburg",
-    "Details": " "
+    "Details": "[3025] Gunzberg is a nightmare world of murky swamps and deep tropical rainforests. Terraforming plants built during the Star League-era had once dotted the planet, but now only two remain. Gunburg is also home to Birnheart's Fever, a crippling, though curable illness. [3051] The biding for the well defended world of Gunzberg, in December 3051, was fierce. The final bid was between Khan Natasha Kerensky and her Wolf spiders, and Star Colonel Marcos Radick and the Heel Snappers. Star Colonel Radick, still stinging after being low-balled by Natasha Kerensky at Memmington, hoped to return the favor. Radick and all the observing Khans were stunned into silence when Kerensky offered to take the whole planet with just one man, star Commander Phelan Wolf. Phelan had been stationed on Gunzberg as part of the Kell Hounds and knew the planet's leader, General Tor Miraborg, very well, though he did not remember him fondly.Tor was not only the charismatic leader of Gunzberg, but commander of all the Rasalhague forces in the Radstadt Province. He was also the father of Kapten Tyra Miraborg, the pilot whose suicide run against the Dire Wolf at Radstadt, resulted in the death of ilKhan Leo Showers. The idea that he could be won over by just one man seemed ludicrous, but Star Commander Phelan had the ability to tell the truth simply and without flinching. He told General Miraborg that his Gunzberg Eagles, Armor Regiment, and First and Second Mechanized Infantry Regiments would gain great glory if they chose to fight the Clans, but that they could not hope to win and would certainly be wiped out. He asked General Miraborg to weigh the glory against the pain and suffering that the battle would inflict on Gunzberg. Star Commander Phelan's appeal to Miraborg's concern for his people succeeded, and Gunzberg became part of the Wolf Occupation Zone without a shot being fired.Shortalar City is the capital of Gunzburg."
   },
   "Position": {
     "x": 12.39,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

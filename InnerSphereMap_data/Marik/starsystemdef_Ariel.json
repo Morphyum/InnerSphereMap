@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ariel",
     "Name": "Ariel",
-    "Details": " "
+    "Details": "[2730] Loyalist forces in the Free Worlds Rebellion, under the command of Bertram Marik, succeded in driving back a rebel invasion force on Ariel in a pitched desert battle."
   },
   "Position": {
     "x": -115.77,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

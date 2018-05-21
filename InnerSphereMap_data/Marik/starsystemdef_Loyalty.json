@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Loyalty",
     "Name": "Loyalty",
-    "Details": " "
+    "Details": "[3025] The Loyalty Theatrical Academy is a lively young institution was founded a mere 50 years ago to meet the demand for trained dramatic actors created by the vidtape fad. Although the fad eventually petered out, the Academy continued, with backing from both major vidtape networks. This has placed the Academy in an odd position. Some of the best performers in the League were hired and given carte blanche to provide the networks with a constant stream of talent and ideas. Then, unsatisfied with the results, the networks tried to control the curriculum by manipulating the purse strings and hiring practices.The turnover among the teaching staff is high, although teachers may be fired and rehired several times, depending on which creative direction manager is in power at the networks. The Academy is currently seeking independent backers from a powerful House to sustain its struggle against censorship. Along with the standard (and sub-standard) vidtape fodder, it is turning out original and exciting actors, writers, producers and directors.Loyalty is governed by a feudal autocracy."
   },
   "Position": {
     "x": -226.51,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

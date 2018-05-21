@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Altenmarkt",
     "Name": "Altenmarkt",
-    "Details": " "
+    "Details": "An ice age is currently unfolding on Altenmarkt. Massive glaciers make land movement treacherous, but 'Mechs do not have much of a problem with overheating.The small continent of Frosha is the site of Altenmarkt's industrial and political centers.[3052] The Wolf Spiders made quick work of the First Altenmarkt Brigade at Kokstad, in February 3052. They had a more difficult time defeating the First Altenmarkt 'Mech Regiment, who used the superior knowledge of the planet to their advantage for several days. The resistance fell apart when their commander was killed at Mydenberg."
   },
   "Position": {
     "x": 13.69,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

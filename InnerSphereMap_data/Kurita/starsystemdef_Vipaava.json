@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Vipaava",
     "Name": "Vipaava",
-    "Details": " "
+    "Details": "[3050] The 22nd Rasalhagian Free Company attempted to fight with honor, challenging the Ghost Bears to a stand-up fight in August 3050. The chosen sight for the battle was the Lion's Den, a massive rock outcropping far from Vipaava's cities and towns. The Bears, suspecting a trap, approached the sire cautiously. To their surprise, they found the Free Company arranged as promised in the batchall.Alpha Nova Star, of Beta Galaxy's 76th Supernova, engaged the defenders first, decimating the unit and forcing the Rasalhagian's to surrender. This engagement helped convince Rasalhagian commanders that they could not win a straight fight against Clan forces, and would have to develop new tactics."
   },
   "Position": {
     "x": 61.25,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

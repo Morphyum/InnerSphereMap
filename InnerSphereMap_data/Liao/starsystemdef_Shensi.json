@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Shensi",
     "Name": "Shensi",
-    "Details": " "
+    "Details": "Shensi is a small, fairly temperate agricultural world. It's capital is Freeborn City.From 2901 through 2910, elements of an elite strike force (code named Red Rover) containing units of the Defenders of Andurien and the Orloff Grenadiers, conducted a series of deep penetration raids against key Liao supply depots at Aldebarran, Shensi and Nanking. The raid culminated in the daring capture of a fully laded iceship, the Silver Frost, as it prepared to depart the Buenos Aires system. With the Silver Frost in tow, the Red Rovers launched a multi-pronged assault on the then Liao desert world of Zion, routing the defending garrison from its fortifications in the Gapston mountain range."
   },
   "Position": {
     "x": 53.76,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 14,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

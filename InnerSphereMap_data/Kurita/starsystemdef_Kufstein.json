@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kufstein",
     "Name": "Kufstein",
-    "Details": " "
+    "Details": "[3050] Clan Wolf Forces landed on Kufstein in August 3050. Defending the planet were the First and Forth Kufstein Planetary Guard Brigades. The battle itself was unusual in two aspects. The first was the almost total lack of daytime fighting, a result of battling in the extreme southern latitudes of the planet. The second was the ferocity of the Kufstein defenders, particularly the Second Kufstein Mechanized Regiment, which was made up entirely of women. Trinaries First and Second Striker (of the Eleventh Wolf Guards) defeated the defenders in just seven days, a feat typical of their skill; that they did so with only light casualties was remarkable."
   },
   "Position": {
     "x": -11.13,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [

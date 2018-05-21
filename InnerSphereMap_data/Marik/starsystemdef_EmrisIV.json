@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_EmrisIV",
     "Name": "Emris IV",
-    "Details": " "
+    "Details": "[3014] During the Anton Marik civil war of 3014, Wolf's Dragoons assaulted Emris IV. Defending the world were the Sixth and Ninth Marik Militia's. Knowing they were outnumbered, they lured the Dragoon's into the industrial complexes of the cities of Ivanograd and Urseinova, where the Dragoon's size and tactics would have little benefit. After three weeks of bitter street-to-street fighting, the Militia's finally conceded the world to the Dragoon's, though they managed to escape relatively intact."
   },
   "Position": {
     "x": -88.93,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Marik",
   "ContractEmployers": [
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

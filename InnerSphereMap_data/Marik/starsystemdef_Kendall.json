@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kendall",
     "Name": "Kendall",
-    "Details": " "
+    "Details": "People have fit comfortably into the ecology of this anomalous world, whose lopsidedness and eccentric orbit compensate to create mild seasons. The dominant lifeform is a large, migratory insect that apparently has yet to notice the incursion of humans some seven centuries ago. The creatures generate hive-like homes that, after the creatures move on, are ideal for human habitation. Although it takes decades for the organic dwellings to deteriorate, they begin exuding a smell that is equally unpalatable to humans and insects alike in just a few years. therefore they are abandoned regularly, and the areas in which they are constructed remain deserted for a century or more.The principal industry of this rimward world is agriculture; its native strain of cereal grass is the staple diet of nearby worlds such as Lahti, Landfall, and Huntington. The extensive apiary industry uses a native bee-like insect for food and to produce honey. This product is sometimes mixed with the honey of Terran bees, which are also cultivated on Kendall. It is said that this product once deterred a Capellan invasion of the Free Worlds prior to the Second Succession War, as the Chancellor had no wish to cut off the supply to his breakfast table. The expression smooth as Kendall honey is common as far away as the Outworlds Alliance.People on Kendall have always been the best-nourished in the Free Worlds. Combined with the planet's light gravity, this has caused men to grow to an average height of nearly seven feet, and the women to reach an average height of six and a half feet."
   },
   "Position": {
     "x": -370.2,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 11,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

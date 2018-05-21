@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gotterdammerung",
     "Name": "Gotterdammerung",
-    "Details": " "
+    "Details": "A cold world (in keeping with the temperament of its ruler), Gotterdammerung is typical of the worlds held by Maria Morgraine. Much of the surface is covered with layers of ice and snow; the only habitable region is a thin belt of tundra near the equator. The population of just over a thousand have managed to scratch out a meager existance by hunting the small herds of reindeer-like animals.[3049] Clan Jade Falcon faced Redjack Ryan's third battalion in September 3049. The defenders put up a better fight than Ryan's second battalion on Last Chance; it took two Trinaries of Gyrfalcon Galaxy to corner and destroy the battalion on the rock-strewn floor of the Mishup Crater. "
   },
   "Position": {
     "x": -179.59,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Locals",
   "ContractEmployers": [
     "Locals"
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

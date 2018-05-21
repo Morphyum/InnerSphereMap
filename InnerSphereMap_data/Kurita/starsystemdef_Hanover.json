@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hanover",
     "Name": "Hanover",
-    "Details": " "
+    "Details": "[3025] Given the fearful atmosphere that permeates even the highest strata of Kurita society, a company producing security systems and personal weapons should be prosperous. There are scores of such firms, the most successful being People's Protection. Based in the city of East Wexler, People's manufactures alarm systems, secure storage safes and rooms, surveillance equipment, surveillance equipment detectors, and a host of other security products for civilian use.People's also produces small personal weapons, mostly bladed weapons, slug-throwing guns, and laser pistols. People's sells only to the civilian population, but their research and development department freely shares ideas with the military.[3050] Clan Smoke Jaguar landed on Hanover in July 3050. Defending the world were the two 'Mech battalions of the Hanover Militia. At first the battle went well for the Militia; using supply caches hidden in the Worldspine Mountains, they were able to beat the Jaguars under-supplied Third Battle Supernova (Fifth Jaguar Regulars) to a standstill. After nearly nine days of stalemate, the Smoke Jaguar commander called down reinforcements and sent them to flank the Combine units.The final battle took place in a blizzard and inflicted heavy casualties on both sides. After extracting a promise from the Smoke Jaguar commander to treat the militia fighters honorably, the Hanover Militia's commander surrendered.[3059] Hanover was attacked during the second wave of Operation Bulldog by the Second Dieron Regulars, Second Sword of Light, Warrior House Daidachi, and the Crater Cobras. The Jaguar's Seventeenth Garrison Cluster attempted to leave the world, but were mauled by the SLDF forces - barely two Trinaries of 'Mechs and meager Elemental and aerospace support managed to escape."
   },
   "Position": {
     "x": 167.23,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Torrence",
     "Name": "Torrence",
-    "Details": " "
+    "Details": "[3025] The level of technology varies widely in the Federated Suns. Among the worlds in and around the Golden Five-the planets New Avalon, Galax, El Dorado, Belladonna and Torrence - it often seems that the glory days of the Star League never left. This is misleading. The Star League did fall and these worlds, though still impressive with their high-tech items and pristine cities, are only just rediscovering and learning to use technology of the 25th century. Nevertheless, the Golden Five are worlds where even the lowliest citizen can expect sufficient food and a warm, dry place to sleep. Items like holosystems and remote communication devices are considered essential for the average middle-class family.Kiverson City is home to the headquarters of Vinson Pharmaceuticals. Vinson is currently attempting to avoid being nationalized by the Torrence government, which recently went socialist. In its efforts to remain independent, the company has been looking for offworld investors to buy up at least 40 percent of the company's securities, which would make it ineligible for nationalization. Vinson is famed for its ability to isolate the effective agents in old folk remedies such as herbal teas or homeopathic mixtures. Its several powerful, yet cheaply made, painkillers have made the company extremely popular with the Davion military."
   },
   "Position": {
     "x": 289.51,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

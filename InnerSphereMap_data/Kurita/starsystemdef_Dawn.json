@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dawn",
     "Name": "Dawn",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Dawn in July 3050. Defending the world were the First, Forth and Sixth Dawn Planetary Guard Regiments. The Guard regiments were no match for the Trinary Command, and Trinaries Forth and Fifth Mixed Services of Delta Galaxy's Forth Striker Cluster. The balanced forces of OmniMechs, Elementals, and fighters outclassed the Guards, and within 5 days the planetary government capitulated."
   },
   "Position": {
     "x": 29.19,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

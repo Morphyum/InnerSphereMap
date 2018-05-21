@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Murchison",
     "Name": "Murchison",
-    "Details": " "
+    "Details": "A large, populous world blessed with a habitable satellite (Oasis), Murchison was a colonists' dream when it was discovered in the early days of space flight. Though gravity was slightly greater and the atmosphere somewhat heavier than Terran-normal, Murchison's ample water supply, fertile soils, and mineral wealth invited millions of eager colonists to the planet. An assortment of civilian industries grew on Murchison and its satellite, particularly electronics, pharmaceuticals, automotive, and aerospace industries. Cattle farming, which proved more suited to the planet, and agriculture on the primary moon, provided an interesting food-trading network between the dual worlds that kept both populations well fed and virtually self-sufficient.However, this symbiotic balance became disrupted more than a few times during the Succession Wars, when invading troops used the smaller Oasis as a jump-off point for attacks on Murchison itself. Today, much of the surface of Oasis still bears the scars of several battles, and its settlers have mostly relocated to Murchison, leaving the moon a largely military holding of the planetary government.Murchison itself has three main continents, Abla, Haschweld, and Felkra, home to its capital city of Murchison City. Oasis' two continents, Schultz and Rhinehold, by comparison, are home only to the lunar capital of Fort Wolfe and the principal spaceport of Laubenstein."
   },
   "Position": {
     "x": 74.69,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",

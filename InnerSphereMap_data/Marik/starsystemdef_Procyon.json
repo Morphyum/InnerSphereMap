@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Procyon",
     "Name": "Procyon",
-    "Details": " "
+    "Details": "Procyon is an agricultural world, with large tracts of sparsely populated farmland and forest. It contains a mere handful of small cities and commercial spaceports. Colonists from the North American continent of Terra first settled Procyon in 2134. Because of its rugged terrain and its proximity to Terra, it quickly became a major stronghold of the Terran Alliance, and remained a major naval base during the years of the Star League. In the early 28th century, Oliver Marik and his supporters resided on Procyon to plan the actions that eventually led to the Marik Civil War. Sixty years later, the planet fell to the Free Worlds military forces shortly after the exodus of General Kerensky.Though Procyon's location, raw manpower, and substantial gemstone and fossil fuel reserves have made it a frequent bone of contention between Marik and Liao forces, most natives of Procyon take a lackadaisical view about the outcome of these struggles. Despite over 200 years of Free Worlds control, the world retains most of the customs of the Terran Hegemony. The most telling image of Procyon's indifference is the sprawling, long-abandoned Brigadier Corporation 'Mech production complex at Cleveburg - a symbol of the planet's glorious past, trapped within a desolate present."
   },
   "Position": {
     "x": -5.04,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_other_megacity",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +46,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 15,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

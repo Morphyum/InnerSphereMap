@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Golandrinas",
     "Name": "Golandrinas",
-    "Details": " "
+    "Details": "[3050] The Golandrinas Militia attempted to stop the 124th Striker Cluster in its initial approach by mining the spaceport with vibrabombs and digging tanks and infantry into concealed positions. The Elementals of the 124th disarmed or destroyed most of the mines, allowing the Clan OmniMechs to close in and annihilate the militia's tanks and 'Mech company unopposed. Because they lost more than 90% of their forces to the Clan, the militia and the planetary government surrendered without further resistance."
   },
   "Position": {
     "x": -159.49,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

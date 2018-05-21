@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lovinac",
     "Name": "Lovinac",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Lovinac in May 3050. Defending the world were the First, Forth and Fifth Lovinac Royal Citizens Armored Militia. The militia had stockpiled weapons and supplies to use against the Clans in the Black Death Mountains of the southern continent, but a harsh snowstorm prevented their use. Without these the Wolves Supernova Command, Trinary Striker and Binary Fighter (of the Third Battle Cluster), defeated the militia easily."
   },
   "Position": {
     "x": -29.21,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

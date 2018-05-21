@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jaipur",
     "Name": "Jaipur",
-    "Details": " "
+    "Details": "Jaipur is a small planet with modest resources and a reasonably pleasant atmosphere, located in the Capellan March. The original settlers of Jaipur were from Terran India and from the planet Mars. They settled down to begin farming the dry, but workable land. When the planet became the site of a major battle during the Civil War era of the Federated Suns, the farmers waited quietly until the killing stopped and they could return to their land once more. For several hundred years, the predominantly agricultural population was contented enough. They did fairly well during the Star League Era, but only barely survived the First and Second Succession Wars. Now that the progress of the Third War has pushed the Capellan border far from Jaipur, the planetary population looks forward to years of peace. Things began to change recently when the Feruc family decided to become one of the industrial powers of the Federated Suns. They have begun to mine the planet's meager resources and to build huge factories far beyond the capacity of the planet or its people. This has led to growing resentment among the common folk and some of Jaipur's lesser nobles. The capital of Jaipur is New Amritsar."
   },
   "Position": {
     "x": 175.51,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

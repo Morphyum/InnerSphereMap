@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Leskovik",
     "Name": "Leskovik",
-    "Details": " "
+    "Details": "[3050] The Leskovik Militia lured Alpha Trinary of the Second Falcon Jaegers into the massive Leskovik Refinery. During the battle, a huge tank of liquid natural gas exploded, consuming invader and defender alike in the firestorm. Subsequent investigation proved that the explosion was accidental, not the result of sabotage or battle damage. Leskovik Refinery remains a ruin, a monument commemorating the brave warriors struck down by fire."
   },
   "Position": {
     "x": -90.48,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

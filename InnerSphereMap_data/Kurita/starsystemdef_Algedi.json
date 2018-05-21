@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Algedi",
     "Name": "Algedi",
-    "Details": " "
+    "Details": "Algedi is a barren world beneath a sun so large that it takes up a full third of the sky during the day. Because the sun allows no true night, people not  accustomed to the planet seem to suffer from broken biological clocks. Efficiency on this world is very poor; only the Alegedian Azami, long-settled on this arid world, seem to have adjusted. When they leave Algedi, however, they are terrified of the dark.The Azami of Algedi are very independent, which has often led to clashes between their ways and those of the Combine. They own half of the planet, but non-Azami are not allowed to enter their Desert Paradise. The ISF presence here is fairly high but inconspicuous.Descended from Terran African's, the Azami people first settled Algedi, and nearby worlds, in the early days of the 25th century. Within a century though, in the spring of 2497, the Von Rohrs Coordinators sent out military expeditions to break the Azami and integrate them into Kurita society and ideology. Three regiments of Kurita BattleMechs landed on Algedi, but Terran viruses that lay latent in the Azami bloodstreams eventually wiped out the Draconis invaders. Though this problem could have been overcome easily in subsequent campaigns, those campaigns never took place, because the Von Rohrs line was interrupted and exterminated by the McAllister Rebellion on Luthien.The Azami had a realistic appreciation of their position. In 2516, an Azami delegation arrived on Luthien. In return for formal autonomy, they agreed to allow Kurita exploitation of their mineral resources. They also agreed to act as border units for the Draconis military, and to serve when required as cross-border raiders, with their Kurita-provided light and medium 'Mechs traveling in Kurita JumpShips and DropShips. These became the famous Arkab Legions.The question of religion and ideology proved more difficult to resolve. In the end, the Azami decided that the Dictum Honorium was not really so foreign to their own strict desert codes. Citing the Islamic principle of taqiyya, or caution, which allowed a Shi'ite to pass himself off as a mainline Sunni Moslem if it meant saving his life, the Azami agreed to adopt the Dictum as their ideology if the Kurita agreed not to inquire too closely into their faithfulness to it. After Hehiro Kurita assumed the Coordinatorship from his mother Siriwan, the male supremacist Azami found it convenient, if not to replace their Imam as 'Zaman messiah with the Kurita Coordinator, at least to blur the lines when dealing with Draconis emissaries.Though there has been much talk about moving the prefecture capital to a planet where the bureaucracy can function effectively, nothing comes of it. Despite the most modern equipment, paperwork in this prefecture is in a perpetual snarl.Imported life forms adapted to desert life are flourishing on the planet. Asketen Sand Walkers and Terran Burros are commonly seen grazing on tough grasses and cacti. Some minor deposits of gold have been discovered on the planet, but not enough to warrant exploitation."
   },
   "Position": {
     "x": 66.07,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 22,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

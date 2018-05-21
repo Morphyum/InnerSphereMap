@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Unzmarkt",
     "Name": "Unzmarkt",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Unzmarkt in July 3050. The Unzmarkt Free Rebel Armored Division staged an effective defense, particularly along the shoes of the Hester-Kester waterway, where they held back the two Wolf Novas for three days. A critical lack of discipline among the Unzmarkt soldiery, however, who view the military as a democracy, cost the defenders their planet. It was not long before the Wolf forces of Trinaries command and Striker, plus Alpha and Bravo Assault Novas (of Delta Galaxy's 37th Striker Cluster), shattered the defenders' line and seized the capital of Castle Rock."
   },
   "Position": {
     "x": -0.01,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

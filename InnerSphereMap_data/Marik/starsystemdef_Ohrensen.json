@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ohrensen",
     "Name": "Ohrensen",
-    "Details": " "
+    "Details": "[2941] Captain-General Samuel Marik was not above using subtle (some would say treacherous means) to win his battles for him. On the Liao front, the Marik scored a clever diplomatic coup when his agents convinced Vincente Sian-Marik, a distant cousin of the Marik line and Administrator of five world in the Sarna Commonality (Ohrensen, Ventabren, Suzano, Zion, Kyrkbacken) to sign a treaty transferring his allegiance to the Free Worlds. Marik forces occupied these world in 2941, but not before the departing Liao garrisons made the Free Worlds League pay dearly for its cleverness. The Capellans conducted a brutal \"scorched earth\" operation that caused widespread destruction and saddled the Free Worlds economy with a major - and costly rebuilding effort.[3025] Ohrensen is governed by a civilian dictatorship."
   },
   "Position": {
     "x": -16.29,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

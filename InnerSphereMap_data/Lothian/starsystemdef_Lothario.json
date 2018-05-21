@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Lothario",
     "Name": "Lothario",
-    "Details": " "
+    "Details": "The capital of the seven-member Lothian League, Lothario is typical of the other worlds of the League. This small world has a thin atmosphere and is perpetually covered in ice and snow, with only marginal zones of habitation centered upon the planet's equator. A rather beautiful world, it is known for its spectacular aurora arising from the frequently intense solar winds of its parent sun.Lothario exports large quantities of furs, iron, and copper ores to worlds within the Magistracy and the Taurian Concordat. Indeed, its trapping industry has created impressive revenues as demand for the rich pelts has grown in the last century. Most of the planet's inhabitants exist in subterranean conclaves, though a few hardy souls continue to scrap out sustenance on the planet's surface, fiercely defending their small agricultural plots. The average Lotharian is highly territorial and suspicious of any offworlder.<p>[3075] This small world, like the other six Lothian planets, has a thin atmosphere and is almost perpetually covered in ice and snow, with marginally habitable zones centered on the world’s equator. Lothario is known for the stark beauty of its wintry landscapes, especially the spectacular aurora created by the frequently intense solar winds of its primary. Most local inhabitants live in subterranean enclaves, though a few hardy souls scrape out a living on the surface, mainly by farming the narrow equatorial zone.  Lothario’s primary resources are iron and copper ores, and its fur-trapping industry continues to benefit the local economy as well as adding a bit to Hegemony coffers.</p><p>Lothario was once the capital of the Lothian League, but after the League’s conquest by Sean O’Reilly in 3055, it became the capital of the Marian Hegemony’s Lothian district. For nearly seven years after the League’s “surrender,” the Lothian people practiced asymmetrical warfare against the occupiers. Restaurants and markets frequented by Marian soldiers were bombed. Food destined for the Hegemony commissaries was poisoned. In one spectacular incident, the subterranean town of Anselmo was appropriated by the MHAF as a command post. After most of the town’s population fled, the rebels sealed the six access tunnels servicing Anselmo with reinforced concrete. Before sealing the final tunnel, the rebels lighted an immense bonfire that rapidly consumed the community’s oxygen. A maniple of soldiers asphyxiated before anyone even knew they were in trouble. When the town was dug out, the bodies of soldiers and a few remaining townsfolk were found at the mouths of the blocked tunnels, their fingers bloody from trying to claw their way through the concrete.</p><p>The Hegemony met terrorism with brutality. Any Lothian citizen acting suspiciously was immediately shot. Occupying soldiers retreated to heavily Fortifed green zones where they were relatively safe. Rebellious communities were cut of from all commerce. They were starved into submission—or if they were too stubborn to submit, they just starved.  In one particularly brutal case, a Marian centurion interned the students of an elementary school, holding the children against the good behavior of their parents. Repression led to more terrorist attacks, which led to still more repression.</p><p>The cycle of violence was broken by Julius O’Reilly and Elena Logan, who managed to broker an uneasy peace.  Afterwards, Lothario slowly began to accept its new status as a provincial capital. The world’s people gradually began to employ the rights granted them by Julius, and the economy benefted from integration into the broader Hegemony marketplace.</p><p>Then in 3069, the second round of the Lothian Troubles began. No one was quite sure how it all started—but suddenly small grievances were magnified into demonstrations, demonstrations became riots, and riots grew into attacks. In a few bloody months everything that the people of the Lothian District and the Marian Hegemony had worked for had been lost.<p>And Lothario was once again a world of barbed wire and bombs.</p>     "
   },
   "Position": {
     "x": -474.39,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_capital",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "MajestyMetals",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

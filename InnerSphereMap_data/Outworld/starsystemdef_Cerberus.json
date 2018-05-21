@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cerberus",
     "Name": "Cerberus",
-    "Details": " "
+    "Details": "[2583] The Star League's 2nd Corps, under the command of General Forlough, landed on Cerberus in early 2583. A desert world, Cerberus was one of the few Outworlds Alliance worlds that had any industrial base at all, and was also a provincial capital. With the planet's 'Mech garrison unable to re-deploy in time, the local militia was scattered in short order. There followed several months of angry reprisals in which Forlough's warriors put entire towns to the torch.[2585] After the disastrous events on Tellman IV in the autumn of 2583, and the replacement of General Forlough in summer 2584, the war in the Alliance gradually wound down. Unable to obtain reinforcements for a major push on Alpheratz and all too conscious of the fact that another Tellman IV would spell the end of his military career, Major-General Franklin Barnex (Forlough's replacement), remained content to hang onto the worlds won by his predecessor. The Alliance campaign began to stagnate, punctuated only by occasional clashes with Kuritan BattleMechs.In 2585, a Star League peace commission succeeded in negotiating the Peace of Cerberus, ending this part of the Reunification War. The Alliance was granted local autonomy under the direction of a council of Terran Policy Directors. The Alliance had originally offered to sue for peace in return for the concession that General Baby Killer Forlough be tried on Alpheratz for war crimes, but the Star League refused."
   },
   "Position": {
     "x": 475.84,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +41,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Betrayers",
   "ContractEmployers": [
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_St.Robert",
     "Name": "St. Robert",
-    "Details": " "
+    "Details": "Between 3034 to 3037, a bloody conflict raged on St.Robert, after religious extremists staged a coup. The Tsamma CMM were called in to restore the duke to power, and fought on until the Barnet Accords brought peace to the world, though the a full regiment of the militia remained until 3042."
   },
   "Position": {
     "x": 433.49,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

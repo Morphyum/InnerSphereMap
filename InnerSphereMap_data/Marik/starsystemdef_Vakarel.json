@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Vakarel",
     "Name": "Vakarel",
-    "Details": " "
+    "Details": "[2577] After a relatively easy Reunification War campaign against the Magistracy of Canopus, the Magistracy navy caught the Terran 14th Special Task Force napping off the asteroid shoals of Vakarel in November 2577. The Canopians destroyed five Jumpships and an escort, eliminating two battalions of the Star League 25th Chasseurs. Losing so many men and ships without damaging a single Magistracy ship forced Marion Marik to reconsider her plan of attack."
   },
   "Position": {
     "x": -141.44,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

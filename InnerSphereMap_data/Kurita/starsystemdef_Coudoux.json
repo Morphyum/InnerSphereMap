@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Coudoux",
     "Name": "Coudoux",
-    "Details": " "
+    "Details": "Coudoux has some local industry, a few factories, and large tracts of hard-wood forests.[3050] Clan Smoke Jaguar landed on Coudoux in May 3050. Defending the world was Colette's Crusaders 'Mech Company. The Alpha Battle Star, First Trinary Battle of the Jaguar Grenadiers, quickly overran their objectives and took the Crusaders' Dropship as spoils of war.[3059] Coudoux was attacked during the third wave of Operation Bulldog by the First Amphigean LAG, Second Sword of Light, First Aragon Borderers, and the Com Guards 34th Division. The Jaguars Eighth Garrison Cluster offered only token resistance to the invading SLDF forces, and then abandoned the world."
   },
   "Position": {
     "x": 180.69,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

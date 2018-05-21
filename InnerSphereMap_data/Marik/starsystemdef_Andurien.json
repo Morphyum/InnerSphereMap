@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Andurien",
     "Name": "Andurien",
-    "Details": " "
+    "Details": "Though much-contested, Andurien has the distinction of having never been heavily damaged by an invading force. Its defenders have traditionally been more willing to offer their services to attackers rather than to let them devastate the planet. The planet still has the appearance of a wealthy, populous world, though MechWarriors (and their war machines) are not an uncommon sight. Andurien is most famous for its extensive Botanical Gardens, which boast samples of rare plants and trees from across the Inner Sphere. It was built by the hypochondriac Duke Allard of Andurien in the late twenty-fifth century.[3050] Though there have been no major uprisings since Andurien's unsuccessful bid for independence in 3030, a certain amount of civil unrest is constant in the duchy. Enemies of the Free Worlds League will find vital military intelligence readily available here, along with other types of assistance. As a result, the regular units stationed here maintain a higher alert status."
   },
   "Position": {
     "x": -41.34,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

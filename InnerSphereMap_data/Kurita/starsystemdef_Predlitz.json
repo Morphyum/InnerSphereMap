@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Predlitz",
     "Name": "Predlitz",
-    "Details": " "
+    "Details": "[3050] Clan Ghost Bear landed on Predlitz in September 3050. Defending the world  were the 17th, 20th, and 31st Rasalhagian Free Divisions, consisting of 1 'Mech battalion and 2 armor regiments. In the face of overwhelming opposition, the Rasalhagians fought a mobile defense, dashing from supply cache to supply cache with the Bears in hot pursuit. Each Free Division made a separate stand, and the Clan forces overran the defenders each time.Near the craggy cliffs known as Billy's Tears, the Bears discovered a supply cache that no Free Division had yet reached. Rather than take it, the 2133rd Striker Trinary hid in the crags and waited for the Free Divisions to come and get their supplies. When the Rasalhagians appeared, the 2133rd pounced and wiped them out."
   },
   "Position": {
     "x": 43.68,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

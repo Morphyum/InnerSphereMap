@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sarna",
     "Name": "Sarna",
-    "Details": " "
+    "Details": "Regional capital of the Sarna Commonality and once the capital of the mighty Sarna Supremacy, Sarna has suffered tremendously from the devastations of the Succession Wars.  With most of its industry relocated or destroyed during the last two centuries and its cities almost bombed out of existence, Sarna today is a mere shell of its former self.  What little industrial capacity remains is in the form of copper and iron ore deposits, which are still being worked.  Nevertheless, Sarna's historical and political importance is enough to warrant the presence of a reserve regiment as a permanent garrison, though such assignments are considered light duty. "
   },
   "Position": {
     "x": 55.02,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +43,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 9,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

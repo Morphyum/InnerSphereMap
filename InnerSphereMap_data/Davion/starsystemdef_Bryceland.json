@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bryceland",
     "Name": "Bryceland",
-    "Details": " "
+    "Details": "The capital city of Bryceland is Harland's Port, and is situated on the continent of Bryce Prime. Bryceland's major industry is mining.[3062] The Bryceland DMM has a reputation for pragmatism, subsuming politics and individual ambition to the needs of defending their PDZ against the Draconis Combine and the Outworlds Alliance. Though the militia remains concentrated on its homeworld, it has established a corps of observers on every world under its protection, even those, like Pascagoula, that are more than a jump inside the Commonwealth. When combined with extensive knowledge of conventional and pirate points for each system, this intelligence network allows the DMM to respond quickly and efficiently to any incursion."
   },
   "Position": {
     "x": 406.6,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

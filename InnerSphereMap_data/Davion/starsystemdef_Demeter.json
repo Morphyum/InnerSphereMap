@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Demeter",
     "Name": "Demeter",
-    "Details": " "
+    "Details": "Once known for possessing world-class nature reserves, Demeter is now a major staging world for the AFFS. Where naturally occurring crystalline formations - some reportedly over a kilometer in diameter - grew on the continent of Shallahandra, the ground is now covered with ferrocrete and heavy construction. Since the fall of the Star League, Demeter has been used to stage many assaults against the Capellan Confederation. The fruits of that continued aggression proved deadly to Demeter's inhabitants, however, when on a warm spring day in May 2760, a series of atomic blasts destroyed the BattleMech and Aerospace production plants of Lycomb-Davion IntraTech. The blast also decimated nearly a thousand square kilometers of Ulreich, the smallest of Demeter's three continents.For three centuries, it was believed that this area of Ulreich was uninhabitable. A recent inspection of the site revealed that the radiation had dropped to acceptable levels and, backed by the Duke of Demeter, Vicore Industries broke ground on a new industrial complex near the old site. Nine years to the day, the first lines were activated and began producing a series of electronics and mechanical equipment. The planetary capital of New Demeter City, On Demeter's largest continent of Bolan, houses the company's home offices, however.[3062] During a recent training mission in Demeter's Kuriak Mountains, the Fifth Crucis Lancers RCT lost contact with their Second and Third battalions. After three days, General Richardson dispatched a recon force from the 204th Scout. A day later he led four regiments into the mountains, where he found all his missing equipment but the remains of only a few of the 204th's soldiers. DMI investigators later uncovered a mass grave and concluded a Thuggee attack had killed Richardson's troops."
   },
   "Position": {
     "x": 91.5,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +46,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +147,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

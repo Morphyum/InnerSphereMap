@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rochester",
     "Name": "Rochester",
-    "Details": " "
+    "Details": "The first colonists on Rochester were puzzled by the absence of life on a world with such plentiful water and potentially good soil. Then their own crops and animals began to die for unknown reasons. When the experts studied the water and soil to learn the causes, they discovered the presence of a variety of trace elements that, when combined, formed a deadly group of toxins. At that time, there existed no means to filter out or neutralize the poisons. Though the planet had to be abandoned for years, a purification system developed during the early years of the Star League was capable of removing harmful agents from Rochester's water and soil. Rochester was resettled, and this time, the colony was a success. One of the byproducts of the purification process also became valuable. It was sludge that became known as Green Jelly Gold because it contained unusual elements highly sought after by pharmaceutical companies. By the time of the First Succession War, the colony had developed extensively, having spread a carpet of plant and animal life across nearly the entire planet. The Draconis Combine attacked and occupied Rochester during the First War and quickly destroyed the water and soil purification plants. This led to the rapid loss of plant and animal life, leaving the colonists helpless. The occupying forces of the Draconis Combine refused to feed or evacuate the colonists from their dying world. Fifty-two thousand colonists died in what came to be known as the Rochester Starvation. Only the Kentares Massacre surpassed this event in cruelty or in the anger it aroused in the people of the Federated Suns. It is rumored that scientists from the NAIS have lately rediscovered the purification process that once gave life to Rochester and that they are about to test it there."
   },
   "Position": {
     "x": 226.95,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

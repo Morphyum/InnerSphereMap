@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Twycross",
     "Name": "Twycross",
-    "Details": " "
+    "Details": "Once the capital of the Trellshire Province, Twycross has become one of the most infamous worlds in the Inner Sphere. From the heroic stand of the Twycross Militia to the single-handed destruction of the Falcon Guards by Kai Allard-Liao in the Great Gash. During the Wolf/Falcon Refusal War, Khan Natasha Kerensky, the famed Black Widow, met her end in the single combat against Star Commander Joanna. During the Jade Falcon Incursion, the Falcon Guards were once more destroyed by the forces of General Christifori. Twycross has earned its place in history as a planet of dubious qualities. The planet has earned the nickname TodescWelt (Death's World).The planet is a study in contrasts. Orbiting a large hot sun, Twycross has a desert climate that is as volatile as it is hot. The perpetual windstorm call \"Diablo\" scours the ground on the Plains of Curtains to the Carswell Barrens. Great Typhoons, tornadoes and all manner of minor disturbances are so common that the reports of major cataclysms do little more than cause Twycross natives to shrug in indifference and carry on. In order to survive, the majority of the population is housed under ground. The few surface dwellers make their homes in low squatting buildings. The capital, Camora, is built both above and below ground. The city is incorporated with its large spaceport.With the Trellshire Heavy Industries BattleMech factory seriously damaged early in Operation Revival, Clan Jade Falcon's leaders considered the world nearly worthless, prompting Khan Marthe Pryde to cede control of the planet to Lyran forces following the second destruction of the Falcon Guards, during Operation Audacity. In return for the Diamond Shark holdings on Lum, Clan Jade Falcon traded all rights to the Twycross system to Clan Diamond Shark. Not until later, did the Falcon Khans realize the depth of their mistake.[3065] On the 8th April 3065, a force of three Diamond Shark clusters landed on Twycross, issuing a batchall to the single mixed combat command culled from Archer's Avengers. Five days of battling ensued, but in the end the Diamond Sharks all but destroyed the Inner Sphere troops, taking the world for themselves. Intelligence reports indicate that the Shark's have since returned the Trellshire factories to service, and that their scout's discovered a substance not unlike HarJel which could be produced from naturally-found organic compounds on the nearby planet of Jonah's Reach in the same system.<p>[3075] Since acquiring the Twycross system, the Sharks have turned the planet into one of their most important possessions. They repaired and reactivated the old Trellshire Heavy Industries BattleMech factory, increasing the number of production lines in the process, and have been developing it as a major manufacturing site. Thus far, their number one client is Clan Wolf, which is in desperate need of war materials. Through the canny bidding skills of Shark merchants, the Wolves are paying much more than they are comfortable with for this materiel, but they have little choice.</p><p>The Sharks maintain a sizable force on Twycross to protect the valuable production lines there.  In addition to a full Galaxy, the Shark flagship, <i>Terror of the Deep</i>, is permanently stationed at Jonah’s Reach.</p>"
   },
   "Position": {
     "x": -108.34,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 6,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

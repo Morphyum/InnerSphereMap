@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewKyoto",
     "Name": "New Kyoto",
-    "Details": " "
+    "Details": "When New Kyoto was first discovered, the virulence of the native lifeforms were not immediately apparent. When colonists attempted to import plants and animals, the results were disastrous, because the native fauna either consumed the newcomers or local diseases killed off the competition in other ways. After some very lean and difficult years, the scientists on New Kyoto managed to discover an opening in the previously impenetrable armor of native lifeforms. Though progress has been slow, imported life has begun to gain a foothold on the     planet. There is a strict ban against exporting native species of New Kyoto to other worlds. Furthermore, no one should be foolish enough to venture either alone or unarmed into the many wild areas of the planet. As fearsome as this sounds, New Kyoto is relatively safe and free of the major Kyotan carnivores like Armor Bears and Ki-rians.Many major industries have been constructed along the coasts of the planet's four continents, and several spaceports are being built to help promote the growing trade with the Free Worlds League.New Kyoto is heavily populated with people of Japanese ancestry, and is the main center for Buddhism within the Lyran Commonwealth. The Tooshodai-ji temple houses the largest known sculpture of the Amida Buddha in the Inner Sphere.[3025] Though smaller than many other similar institutions, Kyoto College has the advantage of concentrating its curriculum entirely on the study and research of myomers. It was here that engineers recently rediscovered the method of magnetically tri-splicing myomer muscle bundles directly to a 'Mechs skeleton without using the usual Jamison coupling."
   },
   "Position": {
     "x": -125.72,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

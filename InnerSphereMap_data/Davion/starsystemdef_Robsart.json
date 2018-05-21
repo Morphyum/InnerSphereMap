@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Robsart",
     "Name": "Robsart",
-    "Details": " "
+    "Details": "[2581] When the Star League's 3rd Corps advanced against the Taurian provincial capital of Robsart, they entered the largest naval battle of the entire Reunification War. In a series of engagements lasting over two weeks, 120 Terran warships battled against 100 Taurian vessels. Under the able command of Admiral Janissa Franklin, the Star League eventually won the day. Despite the loss of over 30 Star League craft, she and her men destroyed the cream of the Taurian navy.Despite Franklin's victory, the hundreds of casualties prompted the Admiral to commit a rash act of retribution. Her orbital bombardment of Robsart's capital killed over 30 thousand civilians and destroyed any Star League hopes of an early peace. The loss of so many non-combatants re-inflamed the Taurian forces and vengeance became their rallying cry."
   },
   "Position": {
     "x": 170.86,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

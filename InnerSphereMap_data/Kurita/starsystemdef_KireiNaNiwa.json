@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_KireiNaNiwa",
     "Name": "Kirei Na Niwa",
-    "Details": " "
+    "Details": "During the early years of Shiro Kurita's Alliance of Galedon, each populated world agreed to send a percentage of its citizenry to New Samarkand for indoctrination and military training. On one occasion, the planet Kirei Na Niwa failed to do so, falling short of its  quota by less than 20 persons. Before three months had passed, the world had lost exactly double the requisite percentage of its population in mass executions orchestrated by Shiro Kurita and carried out by his brother and warlord, Urizen Kurita. No world ever missed its quota again."
   },
   "Position": {
     "x": 297.77,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

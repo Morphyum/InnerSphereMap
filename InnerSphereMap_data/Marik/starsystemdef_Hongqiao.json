@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hongqiao",
     "Name": "Hongqiao",
-    "Details": " "
+    "Details": "[3023] Political discontent, simmering for the past 20 years on Hongqiao, broke into outright guerrilla war when new tax assignments arrived from Regulus. When the local garrison found it impossible to keep order, the garrison commander called for assistance. Having failed to study the situation carefully, the Regulan High Command reacted in the usual manner by sending in conventional reinforcements that included 'Mechs.These new troops learned the lessons of guerrilla warfare in the steamy jungles of Hongqiao. Conventional patrols never found the enemy, while terror tactics only hardened the populace toward their rulers. Two years passed before the generals admitted their failure, and many people died before the lesson was learned. Eventually, the Regulan authority was forced to rescind its new taxes, and pull its provincial forces offworld."
   },
   "Position": {
     "x": -227.17,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Engadin",
     "Name": "Engadin",
-    "Details": " "
+    "Details": "Engadin is a manufacturing planet with only one major industry - the manufacture of inferno rounds. Clan Wolf landed on Engadin in late August 3050. Led by Star Colonel Ramon Sender, the Wolf forces had to suffer through a seemingly endless barrage of infernos from SRM's, LRM's, artillery, tanks and infantry. The First and Third Engadin Home Defense Brigades managed to hold Clan Wolf at a standstill for almost two weeks until their stockpiles ran out, after which the planet was captured within four days.This delayed victory caused considerable embarrassment to Star Colonel Sender, who had bragged that taking the planet would be quick and easy. After the planet was secured, Clan Wolf began stockpiling supplies in several secure locations on the planet's surface to use in their invasion supply lines.The capital of Engadin is Yonkers."
   },
   "Position": {
     "x": 19.9,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

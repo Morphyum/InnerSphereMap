@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kaifeng",
     "Name": "Kaifeng",
-    "Details": " "
+    "Details": "Kaifeng is a sparsely populated agricultural world. Approximately 60% of Kaifeng's total landmass is covered by dense jungle, but the remaining land contains some of the most productive agricultural concerns in the entire Inner Sphere. At four million tonnes per year, rice is Kaifeng's primary export. In fact, Kaifeng supplies almost all of Sarna's food and exports agricultural products to other nearby worlds as well.Apart from the farming communities, Kaifeng has only four cities. The farmland is clumped into three large districts, one in the southern hemisphere and two in the northern. Each district is administered by a single large city - Franklin in the south, Beijing and Tarrahause in the north. The planets largest city and capital, Mahabodhi, is situated outside the Beijing District, and has the only full-service spaceport on the planet. The three districts act as gathering points - surplus food is routed from them to Mahabohdi for export. Kaifeng has only one moon, Nochon, which is barely bigger than a mere asteroid."
   },
   "Position": {
     "x": 71.8,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

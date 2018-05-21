@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_SteinsFolly",
     "Name": "Stein's Folly",
-    "Details": " "
+    "Details": "The capital of Stein's Folly is Steinsdown, and is built on the planet's northern-most continent. The first settlement on the planet, Steinsdown was rupetedly built on the only dry land that Stein could find.As the colony grew, settlements grew up along the coast before spreading to the other minor continents. Lollan, Travis, Grebuchin and Harbor are the other four main cities on the northern continent. The planet's main starport is situated to the north of the capital, though both Travis and Lollan have smaller ports. With a population of almost half a million, Steinsdown has a fair sized fishing industry, but the peninsula except for area around the capital, is poor for farming. Lollan and Travis are planet's main farming areas. Most of the Folly's population is employed as service personnel in cities and ports, the rest being famrers. The Highland Penninsula region on which Steinsdown is situated, is rugged and mountainous on its east coast and comes down to just a little istmus, just 50 kilometers wide, named Folly's Neck. The only major route through the istmus is the so called Coast Road, passing through the narrow Jordan's Pass, which links all the cities together.North of the peninsula is the Ordolo basin. The Ordolo river meanders south from the Yaeger Mountains, and the whole, vast bole between the mountains all the way to the equator is one enormous swamp. The area is also home to dense jungle, marshes and the wetlands area known as the Lost Lakes. During the planets wet season (the winter monthes of the year), most of the lakes run together, making it almost impossible to keep track of the shorelines.Stein's Folly possess three other continents. Thelan and Maris are large triopical islands. Lying to the south of the Highland Peninsula, both have several large cities. At the antipodes is Talliferro, a small continent that has a large mining settlement and commercial spaceport."
   },
   "Position": {
     "x": 159.73,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Davion",
   "ContractEmployers": [
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

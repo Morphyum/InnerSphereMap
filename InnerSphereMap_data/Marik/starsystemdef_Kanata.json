@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kanata",
     "Name": "Kanata",
-    "Details": " "
+    "Details": "In contrast to the other Peoples of the Book, the Moslem community has retained little influence in the Free Worlds League. The Islamic faith is very constraining and not at all in harmony with the entrepreneurial nature of the Free Worlds. In particular, the payment of zakat (alms) and the sexist attitude of some Islamic sects are disharmonious with the Free Worlds' temperament.One of the most popular sects is the doctrine of K'Wara, founded by an Islamic mullah on Kanata during the middle of the 25th century. This is representative of the conservative offshoots of the Moslem faith. It is extremely anti-technological, almost Luddite in its outlook, and is presently one of the most virulent anti-bionic groups."
   },
   "Position": {
     "x": -96.16,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

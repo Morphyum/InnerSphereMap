@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_LaGrave",
     "Name": "La Grave",
-    "Details": " "
+    "Details": "[3051] The survivors of Fifth Davion Guards RCT, fresh from the Clan Wolf front, used their hard-won knowledge of Clan tactics to avoid the mistakes made by other Federated Commonwealth units earlier in the war. Unfortunately for the Fifth, Clan Jade Falcon had also learned new methods of fighting the Inner Sphere. A Headhunter Star of Elementals assassinated Hauptmann General William Galloway. His aide, Colonel James Allison, led several ambushes against the Jade Falcon forces before he was vaporized in his 'Mech by the concentrated fire from an Assault Star of OmniMechs.Clan OmniMechs combined their fire several times during this battle, frequently when FC MechWarriors committed some breach of Clan honor, but also from tactical necessity. The Jade Falcons adopted this firing technique specifically to counter Inner Sphere battle tactics.[3053] The 13th Donegal Guards spearheaded a raid against La Grave in 3053, their mission to deprive the invaders of the industrial facilities of Bissau. Supported by independent infantry and armor regiments, the Guards - known as the Black Cats for their reputation for success against the odds - exploited the wooded terrain surrounding the city. They remained concealed from the Clan defenders and seemed to strike from nowhere, then fade away before an effective counterattack could be organized.Frustrated by these tactics. The second-line garrison troops withdrew and the raiders easily accomplished their objectives. However, the garrison Cluster decided to focus its attentions on the FedCom LZ to force the Donegal Guards to fight their way clear. The 13th lost almost a quarter of its personnel, mostly in the wild melee as they sought to leave the planet.[3064] During the Falcon Incursion, Khan Vladimir Ward's Wolves attempted to make inroads into the Falcon's Occupation Zone. The 13th Wolf Regulars hit La Grave during December 3064, though were unable to consolidate their hold on the world. Unlike the Coventry Campaign of seven years previously, Khan Marthe Pryde was ready for a Wolf attack into her OZ and had troops in reserve.With the aid of the 5th PGC, the defending 1st Falcon Velites, 22nd Provisional Garrison and 74th Battle Clusters, forced the 13th Wolf Regulars to withdraw with heavy casualties, having only suffered light casualties themselves."
   },
   "Position": {
     "x": -51.18,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +42,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",

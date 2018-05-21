@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Marik",
     "Name": "Marik",
-    "Details": " "
+    "Details": "First settled by Terran Alliance ships in 2139, this metal-rich planet evolved into the cornerstone of the financial empire that would become the Marik Commonwealth. Today, with its most lucrative mineral deposits mined out, it serves as the symbolic seat of the Marik's power and the site of the Captain-General's winter residence.Marik is a Terran-sized planet, with a gravity slightly higher than Terran normal and a hot, dry climate. During the height of its summer, devastating duststorms and tornadoes are common. Consequently, both the royal palace at Dormuth and the LCCC headquarters complex outside Malkent are stark, sprawling facilities that possess little of the majesty one expects to find in a major public edifice.Between the Captain-General, the LCCC, and Imstar Aerospace's fighter production facility in Cugyar, the planet recieves many military visitors. Many of the civilian travellers who arrive at Andrew Marik Memorial Spaceport come either to trade, prospect for firestones (a much-prized orange-red gemstone), or to compete in the Burlingrad Hoverdrome, where weekly individual and team speeder races are vidtape entertainment staples.    "
   },
   "Position": {
     "x": -79.62,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

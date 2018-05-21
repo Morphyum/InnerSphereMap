@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_PortArthur",
     "Name": "Port Arthur",
-    "Details": " "
+    "Details": "[3052] SaKhan Weaver personally directed the battle for this resource-rich world in March 3052. The Shroud Keshik immediately engaged the First Proserpina Hussars, forcing the veteran unit to retreat to a second line of defense. The pursuing Jaguars bogged down at the secondary line, failing to dislodge the dug-in defenders. SaKhan Weaver ordered a Headhunter Star to attack the Hussars' command company; but Tai-sa Jeong Moon Lee narrowly escaped. The Hussars retreated again, drawing the Jaguars after them until the Clan units came within firing range of several concealed remote-firing weapons in hardened positions. The Jaguars spent almost a week hunting for and dismantling the hidden heavy weapons while the First launched sporadic attacks on the Jaguars' supply depots. Angered at the dishonorable automated attacks, the Shroud Keshik mercilessly hounded the Hussars, eventually forcing the battered unit to abandon the world. [3059] Initially, SLDF commanders believed that Port Arthur was defended only by a small garrison unit of Smoke Jaguar bondsmen piloting captured Inner Sphere 'Mechs. The SLDF's plan was to quickly eliminate these defending forces and prepare Port Arthur as a staging area for three DCMS regiments slated to participate in the second wave of the invasion. Acting on the most recent intelligence, the SLDF commanders sent the First Battalion of the first Davion Guards into Port Arthur as part of Operation bird dog, the prelude to the main assault on the Smoke Jaguar-held worlds. Expecting only slight resistance, the Guards were almost overwhelmed when the defending Clan bondsmen fought well above the attackers' initial expectations. Knowing that reinforcements would not arrive for almost two weeks, the guards set up a methodical plan of attack that would leave them in control of Port Arthur.The hard-fought, days-long battle was nearing its conclusion when the Guards suddenly came under fierce fire from Clan 'Mechs sporting Jaguar colors. Far from being poorly defended, Port Arthur was currently occupied by the Jaguars' 168th Garrison Cluster, which had been stationed on the planet's southern continent and which had arrived at the battle site to force the Inner Sphere invaders offworld. But even as the 168th began to engage the Davion Guards, Inner Sphere reinforcements arrived - three DCMS regiments that vastly outnumbered the Jaguar force. The arriving regiments shattered the Clan Cluster, finishing it as an effective fighting force before nightfall."
   },
   "Position": {
     "x": 131.56,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

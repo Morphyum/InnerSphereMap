@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Pleione",
     "Name": "Pleione",
-    "Details": " "
+    "Details": "Pleione is an inhospitable place. Deserts cover 95% of the planet's landmass, and the terrain is nearly featureless save for large rock formations that dot the land. Several of these formations were turned into military bases during the Star League era. The most notable of these is a huge formation called Thunder Rock. Capellan defenders used this base during the invasion of Pleione in the Forth Succession War."
   },
   "Position": {
     "x": 51.43,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Addicks",
     "Name": "Addicks",
-    "Details": " "
+    "Details": "Large, with four small moons and an atmosphere most visitors liken to breathing soup, Addicks is nonetheless a pleasant and temperate world.One of the Golden Ten universities of the Star League, the university of Addicks was devoted to training teachers and professors. To provide a realistic training environment, Addicks ran five other schools in which teacher trainees could develop their skills with real students. Nothing remains today.[3025] When the Star League fell, the wealthy Johnstons of the Federated Suns purchased the Tauken Weapons System manufacturing facility on Addicks, despite the fact that the planet would most surely become a battlefield once the fighting started. When the war began, the Johnstons had to sit on their hands and watch as forces from the Federated Suns, the Draconis Combine, and the Capellan Confederation made their bids for the planet.By the time the Federated Suns finally secured the world, over half the factories had been destroyed. The only factories that had managed to survive were those manufacturing trooper-portable laser and particle weapons and the one producing the Goblin medium tank. Fortunately for the Johnston family, the Goblin's ability to carry a squad of infantry make it a favorite of AFFS mechanized regiments. There are rumors that Johnston Industries is considering opening a new facility on New Syrtis.Headquartered on Addicks, Three Houses is a large entertainment agency specializing in music groups and live acts. The firm is one of the few Davion agencies that regularly sends acts into the Draconis Combine and the Capellan Confederation.Because live entertainment is not on the list of items forbidden by the Economic War Powers Act, the Three Houses entertainment troupes move back and forth into enemy realms. Though all our evidence indicates that Three Houses is actually gathering information for both the Department of Military Intelligence and the M17-MIIO, both agencies keep the firm under heavy surveillance to prevent becoming the victims of a double-cross. At the moment, Three Houses has two equally popular groups under contract. One is the Kyotan Native Instrument Band and the other is the Jameson Troubadours, both groups whose music appeals to the people of all three realms."
   },
   "Position": {
     "x": 71.43,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chateau",
     "Name": "Chateau",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Chateau in March 3050. Facing them were the Tenth Donegal Guards RCT, and the First and Second Chateau Mechanized Militia. The Donegal Guards, commanded by Marshal Sara Steiner, gave Clan Wolf their toughest fight in the first wave of the Clan invasion. Star Colonel Lara Ward expected to steamroll over any resistance with Supernova Command and Trinary First, of the 279th Battle Cluster, but was stymied by Marshal Steiner's tactical skill. The decisive point in the campaign came when the Chateau militia panicked, compromising the Guards' position. Marshal Steiner called a retreat, but could save only two companies of her 'Mechs and less than three regiments of conventional forces."
   },
   "Position": {
     "x": -75.75,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

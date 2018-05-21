@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Belladonna",
     "Name": "Belladonna",
-    "Details": " "
+    "Details": "[3025] The level of technology varies widely in the Federated Suns. Among the worlds in and around the Golden Five-the planets New Avalon, Galax, El Dorado, Belladonna and Torrence - it often seems that the glory days of the Star League never left. This is misleading. The Star League did fall and these worlds, though still impressive with their high-tech items and pristine cities, are only just rediscovering and learning to use technology of the 25th century. Nevertheless, the Golden Five are worlds where even the lowliest citizen can expect sufficient food and a warm, dry place to sleep. Items like holosystems and remote communication devices are considered essential for the average middle-class family.Cal-Boeing of Dorwinion is a small company made up of engineers and designers who left Federated-Boeing in 2899 over a disagreement about whether the company should expand into new areas of weapons design. The parting was amiable, however, and so Federated-Boeing donated a group of long-empty warehouses on the planet Belladonna to their former employees.The new Cal-Boeing produced its first Ferret in 2901 and won an AFFS contract to build 6,000 of the light scout VTOL. Surprised by their good fortune, Cal-Boeing paid back Federated-Boeing to avoid any nasty takeover attempts on their part, then proceeded to expand their facilities to cope with the sudden demand. For 40 years, the company was so busy with the demand for Ferrets that they could not stop to design any other aircraft.In 2967, Cal-Boeing finally came out with the Wild Weasel, a combat version of the Ferret. The design did not sell, however, except to Periphery kingdoms. Stung by the poor showing of the Wild Weasel, Ca-lBoeing did not produce another new design until 3021. This was the Marten, another VTOL scout but with a wiser selection of weapons.[3054] Cal-Boeing's current COE, Count Douglas Fassei, is a firm believer in the combat value of his VTOL's. In a statement declaring that, Only one who has the utmost confidence in his product deserves the patronage of his customers, the count announced that he would no longer require the services of the AFFC. A battalion of his Wild Weasel and Marten VTOL's would henceforth defend his factories.As Belladonna is located deep within the Commonwealth, any raid here is highly unlikely. In fact, many sceptics believe the count's proclamation to be nothing more than a publicity stunt. It is clear that the dainty defenders will not pose much of a threat to any aggressors reaching this planet."
   },
   "Position": {
     "x": 262.88,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

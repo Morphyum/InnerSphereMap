@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Valexa",
     "Name": "Valexa",
-    "Details": " "
+    "Details": "[3062] Following the Forth Succession War, the Valexa PDZ suddenly found itself in the interior of the Federated Suns. With little chance of a major Confederation advance toward the region, the High Command cut the PDZ's training and supply budget to the absolute minimum. Over the years, skills honed by decades of opposing Capellan raids atrophies, and when the Marik-Liao offensive of '57 tore through the Sarna March, the Valexa CMM could do little more than hope the Capellan forces wouldn't cross into their region. Many officers in the unit placed blame for the invasion squarely on Archon Katherine, who refused support to the Sarna March and sundered the nation.Leftenant General Sarah Delittle was a promising officer who got on the bad side of an AFFC Marshal and found herself promoted out of the Crucis Lancers and into the Valexa CMM. Surprisingly, especially to herself, she found a family in the RCT and remained with the unit even after the court-martial of her nemesis, Marshal Aldrich King. She has gone to great lengths to retrain the RCT following the '57 offensive, and her efforts have been rewarded by the Syrtis Medal of Honor and a regular rating for her unit."
   },
   "Position": {
     "x": 113.8,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

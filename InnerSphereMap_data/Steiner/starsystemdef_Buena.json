@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Buena",
     "Name": "Buena",
-    "Details": " "
+    "Details": "[3062] Established in 3020, the War College of Buena has become one of the strongest academies in existence. The Federated Commonwealth alliance led to massive investment in the academy, allowing it to expand its facilities and curriculum. Since then, although still best known as a center for training technicians, its MechWarrior and aerospace programs have gained considerable respect. Though lacking the history and prestige of the Nagelring or Sanglamore, graduates of Buena have a reputation as practical and dedicated warriors. Buena's graduates rarely rise to high command, but Buena-trained troops and technicians form the backbone of the LAAF due to their high levels of competence.Practical experience forms a major part of education at the War College of Buena, and each cadet spends six months in the Buena Training Battalion under the command of Kommandant Florence Landers, one of only three such units in the Alliance. The unit stages a number of live-fire exercises on Buena itself, as well as anti-pirate missions along the Periphery border.Buena's technicians are acknowledged as the best produced in the Alliance. Although the academies only combat programs are for MechWarriors and aerospace pilots, the technical staff learns to maintain everything from small arms and electrical equipment to massive combat vehicles like the Demolisher tank. Indeed, all technical cadets are required to be proficient in multiple technical fields before being allowed to graduate.Though nearing 90 years of age, Leutnant-General Melissa Waverly continues to command the War College of Buena. Regarded as a grande dame of the LAAF, Waverly has influence at all levels of the military and has repeatedly refused retirement. Although she is now infirm and confined to a wheelchair, her intellect and authority are unquestioned."
   },
   "Position": {
     "x": -400.43,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

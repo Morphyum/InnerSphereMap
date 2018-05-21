@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kobe",
     "Name": "Kobe",
-    "Details": " "
+    "Details": "When Kobe was first colonized early in the 25th century, it was a very young world.  The continents had just finished forming, the volcanoes were newly silent, and the seas recently calmed.  By the heyday of the Star League, the colonists had transformed Kobe into a beautiful world filled with species from over a hundred worlds.  Kobe became a fashionable vacation resort for the rich, and even First Lord Cameron and his family once spent time on the Della Islands. But the Star League fell.  That same year, Kobe entered another volcanic phase.  The citizens of the planet became convinced that the two events were somehow related.  Of the five continents that were heavily populated at the time of the League's fall, only two are now capable of sustaining life.  The other continents fell prey to almost constant earthquakes and volcanoes.  There were many catastrophes during the 30 years after the eruption of the first volcano; the worst and most bitterly ironic was the eruption of Mount Millay, whose pyroclastic flows and lava covered the city called New Pompeii.  The climate of Kobe immediately changed from tropical to subarctic because of the tons of volcanic ash in the air.  Cities had to cover their streets and filter the air.  Green became a color of the past.Kobe still manages to be a major producer of computer electronics and chemical engines.  The recent eruptions of Mount Augustine and Mount Tilson on one of the remaining inhabited continents puts the continued habitation of Kobe in doubt.[3051] The planet Kobe holds a special place in the hearts of Clan members because it is one of the many paradise worlds found in Clan mythology. The truth behind this myth is that Kobe was a popular vacation spot during the heyday of the Star League. Khan Garth Radick and his Arctic Wolves were disappointed when they landed in December 3051, to find a world ravaged by volcanic activity. Against Beta Galaxy stood the 26th Lyran Guards RCT, who had been pushed off Tamar, and the two battalions of 'Mechs from the First and Second Kobe Mechanized Brigades.Beta gained the upper hand in the first battle, fought in Ash Valley, when Elementals slipped through the Lyrans' lines and killed Hauptmann General Joy Corelli. Command fell to Leftenant General Jinders Green-Davion, who showed remarkable composure and leadership in regrouping the 26th Lyrans and stopping the rout. Subsequent battles made it clear, however, that the RCT had been hit too hard to keep the Wolves away from the political and industrial heart of the planet, the reclaimed capital city of New Pompeii. The 26th Lyran Guards retreated offworld to Thun."
   },
   "Position": {
     "x": -15.01,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",

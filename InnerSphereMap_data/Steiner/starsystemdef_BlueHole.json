@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BlueHole",
     "Name": "Blue Hole",
-    "Details": " "
+    "Details": "The surface of Blue Hole is dotted with small clear-water ponds of surprising depth, and many of the pools are connected by deep channels.During the Clan war, Inner Sphere 'Mechs used these terrain features to great effect, essentially evening-out the Clan 'Mechs heat-efficiency advantage. Enemy 'Mechs are often able to close to short range without being detected, a tactic which negates the Clans' weapon-range superiority.[3064] During first wave of the Jade Falcon incursion of the Lyran Alliance, Blue Hole was attacked by the First Falcon Swoop Cluster, the Turkina Eyrie Cluster, and Galaxy Commander Timur Malthus' Sigma Galaxy Command. Blue Hole was a world already gripped by violence. After being forced off Kikuyu early in the Civil War, the remnants Eighth Deneb Light Cavalry retreated to Blue Hole. There they faced the Third Alliance Guards. Both sides believed they could easily crush the other, and so only both sides kept their distance, trading only long ranged shots. Several weeks later, the Storm's Metal Thunder mercenary arrived to tip the balance in favor of the Loyalist forces. Colonel Jean-Henri de Jeruc, commander of the Eight DLC, waged a mobile campaign for months, keeping both Loyalist units constantly off guard. Then the Falcons landed on 28th May 3064.Galaxy Commander Malthus primarily watched from the sidelines as the First Swoop concentrated on Storm's Metal Thunder and the Turkina Eyrie took on the Third Alliance Guards. Colonel de Jeruc tried to assist where he could, but the Loyalist regiments not only refused his help, but actually fired on his troops. The Eighth DLC continued to operate on the move, keeping the Falcon troops off them. The Alliance Guards and Storm's Metal Thunder did not learn from Colonel de Jurec's lead, though, and were punished heavily by the Clan troops. The Alliance Guards escaped Blue Hole with only four companies, though Storm's Metal Thunder managed to last for a while longer, giving time for reinforcements to arrive from Kikuyu. Approximately battalions worth of the Sixth Donegal Guards pulled of Kikuyu, under orders from General Sharon Bryan. The addition of the Sixth Donegal did little to save the situation though.On the 15th June, the Seventh Talon Cluster landed, having followed the Sixth from Kikuyu. The Falcons first crushed the mercenaries - who escaped with only two operational 'Mechs, and then the Sixth Donegal, which was wiped out in late July. Khan Kell's First Wolf Legion reached the world on the 7th August, facing only the Seventh Talon - the other units having moved on with the Falcon incursion. The fresh Wolf Cluster eventually won the day, though the Eighth DLC was all but destroyed in the months of battling. By the end of August, Blue Hole was firmly in Allied hands."
   },
   "Position": {
     "x": -186.65,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

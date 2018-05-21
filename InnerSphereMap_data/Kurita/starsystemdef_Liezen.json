@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Liezen",
     "Name": "Liezen",
-    "Details": " "
+    "Details": "Liezen is a planet of lush forests. It has only three major cities of which Salzmin is the capital.[3050] Clan Wolf faced strong resistance from the well-equipped and highly motivated Liezen Militia when it landed on the world in June 3050. Trinaries Assault, Battle, Striker and Fighter (of the Eleventh Battle Cluster), made effective use of flanking attacks and pinning frontal attacks against the defenders, and carried the day."
   },
   "Position": {
     "x": -20.95,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

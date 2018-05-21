@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewValencia",
     "Name": "New Valencia",
-    "Details": " "
+    "Details": "The city of NeuStravros is home to the headquarters of the New Valencia Agriculture Company. NVAC is currently in deep financial and legal trouble. Recent discoveries by the planetary government's Business Practices Department indicate apparent gross illegalities in corporate procedure. It is quite possible that the company will be seized by the planet's government, which would almost guarantee years of disrupted services. This is especially discouraging because of rumors that the company's research division was on the verge of developing a wheat-type grain that could grow in soil with high mineral and salt contents. The Davion government is privately considering bailing out NVAC  because the firm has always been in the forefront of agricultural sciences.[3025] GM/Blackwell maintains an assembly plant here for the feared Marauder II on New Valencia. The NVAC is said to be able to regulate test sites for the Marauder II in such a way that they completely avoid accidental destruction of their crops by the huge war machines.The capital of New Valencia is Raiteland."
   },
   "Position": {
     "x": 219.97,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

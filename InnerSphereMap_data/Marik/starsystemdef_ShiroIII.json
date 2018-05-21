@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_ShiroIII",
     "Name": "Shiro III",
-    "Details": " "
+    "Details": "Shiro III and has large water-resources. The worlds capital is Shimgata.[3025] Shiro III is one of the major ports of entry for traders entering League space along the Capellan border. The starport cities on this world contain magnificent bazaars, teeming with merchant houses, wholesalers, and speculators who can find a profitable market (legal or otherwise) for virtually any commodity. "
   },
   "Position": {
     "x": -28.17,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +42,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 15,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Axton",
     "Name": "Axton",
-    "Details": " "
+    "Details": "Most of Axton is a polar wasteland, though many people praise the skiing to be found there. Volcanic activity warms the oceans, making the coastal areas habitable. The oceans are deep blue and the beaches are blacker than night on a moonless world.Barros is the capital of Axton.[3025] At one time, Wangker Aerospace had five separate factory complexes on five worlds, producing many kinds of AeroSpace Fighters. The pride of Wangker was the Corsair, a design they had created. The First Succession War, with its widespread destruction, demolished all five factory complexes. During the Second War, Wangker had salvaged enough from its earlier plants to construct a fighter manufacturing center on the planet Axton. Since then, the factory has been producing fighters for the AFFS, including the company's famed Corsair. The firm has been doing so well that they are thinking of expanding, either into the manufacture of another fighter design or combat vehicles.[3028] During the Forth Succession War documents captured from a secret NAIS research facility on Axton led the Capellan Confederation to believing in the existence of recent advances in myomer technology at a hidden NAIS outpost on the world of Bethel. In reality, the documents were part of an elaborate plan to let the Confederation gain access to the flawed triple-strength myomer technology."
   },
   "Position": {
     "x": 127.17,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

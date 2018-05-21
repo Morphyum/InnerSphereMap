@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Mayetta",
     "Name": "Mayetta",
-    "Details": " "
+    "Details": "[3062] Far from any hostile borders, the Mayetta DMM has become lazy and complacent. The unit rarely takes part in exercises and is considered borderline operational by the AFFC. Corruption is prevalent but despite attempts by the AFFC to clean up the Mayetta DMM, support for the Yalos family is too strong. While Prince Victor was off fighting the Smoke Jaguars, rumor has it that Leftenant General Kirk Yalos set about establishing his own fief in the Draconis March. He engineered his son's rapid promotion to command the militia, allowing him to retain influence in the unit while concentrating on political and economic matters.The AFFC has considered disbanding the Militia but believe doing so would result in major casualties in the Mayetta DMM and any unit sent to enforce the order."
   },
   "Position": {
     "x": 405.31,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_OuterVolta",
     "Name": "Outer Volta",
-    "Details": " "
+    "Details": "[3051] The planetary council surrendered to the Smoke Jaguars before the Clan forces landed in November 3051.[3059] During Operation Bulldog, the Smoke Jaguar's Beta Galaxy Command Trinary and the First Jaguar Guards ended up trapped on Outer Volta, having sent their ships to support the failed Jaguar counter-attack. Beset by the Izanagi Warriors and Eighth Sword of Light, supported by the Com Guard Thirty-Ninth Division, the Clan forces were crushed in just five days.The remnants of the two Clan forces were eventually surrounded in the Marin Valley. Tai-sa Shin Yodama led his company of Izanagi Warriors down into the hollow, understanding that he must destroy any remaining Jaguars were overwhelming force. As a gesture of respect he gave the Clan warriors, led by Galaxy Commander Mikhail Ward, a chance to die as warriors, by permitting single combat. Yodama's unit enjoyed a slight advantage in strength, but the Jaguars' ferocity negated this edge. In the first round of fighting, eight Kurita 'Mechs and four Jaguar 'Mechs won their engagements, with Galaxy Commander Ward falling to Tai-sa Yodama. Then the remaining forces matched up, after which only one Jaguar 'Mech remained standing. Shin Yodama defeated this warrior in less than thirty seconds, claiming an astounding victory."
   },
   "Position": {
     "x": 155.34,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

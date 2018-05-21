@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Biota",
     "Name": "Biota",
-    "Details": " "
+    "Details": "[3052] Biota, passed over early in the invasion because of its poor militia and lack of strategic importance, was picked up by Clan Wolf when both the Steel Vipers and Jade Falcons expressed little interest in bidding for this water-bound world. Negotiations to win the surrender of the planet and to disarm the world's meager militia were once again successfully completed by Star Commodore Nihsen.[3065] During the Falcon Incursion, Khan Vladimir Ward's Wolves attempted to make inroads into the Falcon's Occupation Zone. Unlike the Coventry Campaign of seven years previously, Khan Marthe Pryde was ready for a Wolf attack into her OZ and had troops in reserve, which she then sent to counterattack the Wolves in their own territory.Elements of the 12th Falcon Regulars, 124th Striker and Jade Falcon Eyrie Clusters, landed on Biota during March 3065, forcing the 20th Wolf Regulars and 1st Wolf Garrison Cluster to withdraw, with both sides suffering heavy damage."
   },
   "Position": {
     "x": -44.74,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

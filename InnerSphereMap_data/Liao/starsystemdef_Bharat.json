@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bharat",
     "Name": "Bharat",
-    "Details": " "
+    "Details": "Bharat is a planet-wide nature and hunting preserve for noble and commoner alike.  The variety of terrain offers highly distinctive native lifeforms; large lizard-like animals similar to the Terran Komodo dragon are abundant in the desert areas, while the forests teem with opossum-like creatures who are so agile either on the ground or in trees that only the most excellent marksman can bring one down.  Along the seacoast, there are fat but graceful land/sea mammals that seem to disappear without a trace at the first scent of humans.  In addition, there is a small mushroom-like plant that can uproot itself to move to more fertile ground or to avoid danger.  All of these lifeforms are adept at avoiding traps, and all of them are delicious."
   },
   "Position": {
     "x": 58.93,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 12,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

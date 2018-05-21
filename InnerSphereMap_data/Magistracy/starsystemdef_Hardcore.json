@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hardcore",
     "Name": "Hardcore",
-    "Details": " "
+    "Details": "One of the most financially successful of the Magistracy's celebrated entertainment centers, the pleasure planet Hardcore caters to the upper crust of Canopian society as well as the wealthier Inner Sphere clientele. With a permanent staff of over 75,000 professional entertainers, this warm temperate world boasts every conceivable type of pleasure palace along its equatorial and northern latitude rim. With a capacity to serve well over ten million quests annually, Hardcore's entertainments range from the tame to the terrifying, and from ballet to full-scale blood sports. In particular, Hardcore hosts a series of MechWarrior games each spring, turning vast regions of the planet's northern hemisphere to competing BattleMech teams for weeks on end while the planetary populace enjoys the carnage live and in color on the public monitors. Beyond this Hardcore is famous throughout the Magistracy for its emerging film industry, which produces hundreds of full-feature erotic epics quarterly for distribution even deep into the Inner Sphere."
   },
   "Position": {
     "x": -198.28,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "MagistracyOfCanopus",
   "ContractEmployers": [
     "Locals",

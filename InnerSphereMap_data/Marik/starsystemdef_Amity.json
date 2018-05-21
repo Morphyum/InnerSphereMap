@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Amity",
     "Name": "Amity",
-    "Details": " "
+    "Details": "An independent member-state of the League since 2335, Amity spent its first 450 years of its membership as a prosperous, non-controversial industrial state. Its four great cities of Freewheel, Oxbridge, Ruhr, and the island megalopolis of Stryker produced everything from Galleon light tanks and Farley speeders to Sonnheim and Four Winds musical synthesizers and recording equipment. Since the Succession Wars, however, Amity has become both a military and political battlefield.On the military front, the planet has been raided or attacked by enemy forces on 23 separate occasions. The Lyran Commonwealth has occupied this planet twice, between 2837 and 2858, and for 30 months in 2980-2982. The early battles of the war destroyed much of Amity's industry, which was then further pillaged by the Lyan garrison during the final months of 2858. Between 2863-2865, however, Captain General Philippa Marik dispatched a team of scientists to help the populace restore these factories to full productivity. Today the planet is once again able to provide a decent standard of living for its citizens and actually has a positive balance of trade.Instead of gratitude for this effort, however, the leaders of Amity have become increasingly critical of the Mariks, spearheading the passage of the Home Defense Act, and uniting with five of its fellow principalities in the mutual defense association known as the Silver Hawks. Three years ago, First minister Richards and MP Sir Charles Smith made the most radical break of all - concluding an independent peace treaty with the neighboring Lyran world of Solaris. Janos Marik and Minister of Defense Erin McQuarrie have renounced this treaty as invalid, but have thus far refrained from making any kind of attack against Amity or Solaris (knowing their fragile coalition of supporters would not back such a move). The absence of retaliation has made Charles Smith's cries for a full-fledged peace settlement even louder on the floor of Parliament.Amity's large, widespread islands are linked by maglev trains and Ground Effect Vehicle (GEV) causeways. The planet features a tropical atmosphere with temperate zones near the poles. Hurricanes are commonplace, and the tremendous cost of constant rebuilding keeps the economy unbalanced."
   },
   "Position": {
     "x": -128.96,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

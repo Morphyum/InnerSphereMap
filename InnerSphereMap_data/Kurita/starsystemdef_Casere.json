@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Casere",
     "Name": "Casere",
-    "Details": " "
+    "Details": "[3050] Clan Ghost Bear landed on Casere in September 3050. Defending the world were the KungsÁrme's Second Husars. The fanatical Husars used their light elements to harass the Third Bear Guards and draw the Bear into an old industrial sector where the Husars' heavy elements lashed out from reinforced positions. The close-quarters fighting neutralized the Third's advantage in weapons range, but their firepower compensated for that loss. Despite their habit of taking as many bondsmen as possible from their enemies' ranks, the fierce fighting forced the Ghost Bear Cluster to destroy the Husars to a man."
   },
   "Position": {
     "x": 77.8,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

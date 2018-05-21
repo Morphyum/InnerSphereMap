@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Odessa",
     "Name": "Odessa",
-    "Details": " "
+    "Details": "The world of Odessa has two polar ice caps, and dark blue northern and sothern seas, surrounding a belt of land around the equator.Odessa is home to the raxx; a massive, six-legged reptilian creature, which possesses high intelligence, a gentle disposition, and unmatched durability that have made it an ideal mount and pack animal. As a result, the adaptable species has been introduced to countless worlds throughout known space. Despite the raxx's gentle nature, the animals are fiercely protective of their young and will defend their nesting grounds to the death.Three centuries ago, the city of Bealton, built on the banks of the Potomac river,  had been the thriving capital of Odessa. Then came of the First Succession War, when the Draconis Combine dropped a pair of nuclear bombs on the city, turning it into a wasteland of radioactive and toxic rubble. To make sure the city would never be rebuilt, they also followed up with several chemically based, biotoxic bombs as well - salting the proverbial earth.Odessa recovered from the damage of the Succession Wars, and a new capital called New Bealton, was built only a few hours away from the the ruins of Bealton. Today, the ruins of old Bealton do not attract many visitors, save for the odd treasure hunter, tempted by rumors of riches still to be found within the remains of the city. Odessa has a light industrial base, though the area roundabouts New Bealton has been cultivated for farming, being mostly open terrain; plains and rolling hills and a few forests.[3063] Built on a massive hill that dominates New Bealton and the surrounding area, is the political seat of the world - the palace of the Fisk family. Count Nicholas Fisk currently rules Odessa in the name of Katrina Steiner, for the Lyran Alliance."
   },
   "Position": {
     "x": -120.72,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

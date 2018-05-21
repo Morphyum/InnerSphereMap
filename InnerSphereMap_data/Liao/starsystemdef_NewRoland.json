@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewRoland",
     "Name": "New Roland",
-    "Details": " "
+    "Details": "[3032] In early 3032, the ever rebellious Duchy of Andurien, and it's new allies the Magistracy of Canopus, attacked the Capellan Confederation. Still weak from the battering it received during the Forth Succession War, many Capellan worlds including New Roland, were lost for little of no cost to the attacking forces.The Confederation itself managed to mount a major counter-offensive in March 3032. Aided by the feared McCarron's Armored Cavalry, the Liao forces defeated the Anduriens with major victories on two worlds, whilst Warrior House Daidachi did the same to the Canopians. The Ferocity of the Daidachi was so effective against the Canopians that troops began to flee the battlefield at the first sign of the warriors. The Anduriens were not so easily bullied, but with their allies in rout, they could not withstand the pressure from the seasoned Armored Calvary. By 3035, the Capellans had won back all their worlds."
   },
   "Position": {
     "x": -8.02,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Manteno",
     "Name": "Manteno",
-    "Details": " "
+    "Details": "The planet Manteno is currently experiencing a sudden and continuing outburst of geologic activity. It began about eight years ago with several major earthquakes, and has continued with a series of volcanic eruptions and earthquakes that left nearly everyone on the planet severely shaken. Since the beginning of this period of planetary upheaval. over 20 percent of the population has left Manteno and about 10 percent of the businesses have relocated. Manteno was not always shaking or threatening to explode. At one time, geologists of the Terran Alliance considered it to be both a stable world and one rich in large and accessible deposits of metals and chemical compounds. The planet was colonized and immediately became an important part of the Federated Suns economy. Manteno's first major setback in the First Succession War came when the Draconis Combine attacked, destroying most of the planet's industries. Manteno was just regaining its industrial might at the time that the current phase of convulsions began. Those who remained on the planet, whether by choice or because they lacked the money to leave, pray that the planetary eruptions are temporary and that one day the ground will stop threatening to buck like a wild animal."
   },
   "Position": {
     "x": 189.22,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

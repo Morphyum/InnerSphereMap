@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dehgolan",
     "Name": "Dehgolan",
-    "Details": " "
+    "Details": "Dehgolan - Canaris III - is that rarity among planetary subtypes, a true jungle planet. It's surface area is evenly divided between low-lying landmasses and shallow, stagnant seas. It has no axial tilt to produce seasonal variation and it possesses a dense, fetid atmosphere, which evenly distributes the heat it receives from Canaris. Under these conditions, most of Dehgolan's land area, excepting the desert uplands and open plains at the poles, is covered in dense, impenetrable jungle.Dehgolan's cities, clustered along the shores of several of the world's seas, rely heavily on fishing and water-born transport. The interior is a place where few people care to visit. There are countless tales of life forms - large, vicious, and very, very hungry - which inhabit the deep jungle.People have investigated the interior, however, and those who have returned have done so using BattleMechs. Dehgolan is a prime example of lengths to which natural selection can go to produce life forms efficient at survival. Whatever the truth behind the tales of truly enormous jungle creatures, much of the planet's native life is vicious with a bloodthirsty single-mindedness difficult for offworlder humans to understand. BattleMechs, at least, give humans an even chance when they venture into Dehgolan's interior."
   },
   "Position": {
     "x": 5.43,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ningxia",
     "Name": "Ningxia",
-    "Details": " "
+    "Details": "A small agricultural planet, Ningxia has only one large city--New Zephyus, the rocky, forest-covered island in the planets only ocean, New Zephyus is well-known throughout the Combine for the beauty of its ukiyo.  The saying is that on Nigxia, one can satisfy ones hunger, and in New Zephyus, one can satisfy all ones aesthetic and sensual desires. The Planet has benefited from this reputation.  Even though Ningxia has large diamond deposits worth millions, many highly placed politicians, including the present Coordinator, want the planet to retain its pristine, pastoral beauty.  Many rich politicians and business leaders have houses along the shore of the ocean. Ningxia supports a large spaceport on an island near New Zephyus.  because this ancient facilitys machinery chronically breaks down, there have been several major disasters in recent years.  The machinery needed to repair the facility is better to needy worlds.  Ningxia Foods, a major food-producing company on the planet, has resorted to having its freighters land directly on its farms to load up cargo.  This has angered many people, who worry that other companies will copy the practice, eventually marring the world with scorched earth, noxious fumes, and toxic wastes."
   },
   "Position": {
     "x": 314.65,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

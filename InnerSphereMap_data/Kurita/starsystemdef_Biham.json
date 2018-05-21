@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Biham",
     "Name": "Biham",
-    "Details": " "
+    "Details": "A world of modest mineral or agricultural wealth, but rich in raw hydrocarbons, Biham became a haven for industrial magnates who still saw a future in petrochemical fuels. Coal, oil, and natural gas refineries formed the central businesses, around which settlements sprang up, even on the polar continent of Borellas. The runaway mining, drilling, and petrochemical processing rapidly devastated what had proven to be an extremely fragile ecosystem. By the time the planetary government finally stepped in to regulate the industries, the damage was so extreme travelers were urged to stay clear of the planet for health considerations, and all material shipped off-world had to undergo decontamination at special orbital outposts. Only Yoshimatsu Chemicals, one of the Draconis Combine's greatest chemical corporations, with its track record for rigorous safety procedures and strict clean-air guidelines, met the harsh restrictions suddenly imposed by the planetary government. Yoshimatsu today maintains the most extensive chemical facilities in the system, including processing centers on both moons, and even a space-fuel refinery over Tiberius, the smaller of the Biham system's gas giants.Apart from Borellas, Biham also has two temperate continents, Hoshina and Quang-tze. Siang, the planetary capital and home to Yoshimatsu Chemical's corporate headquarters - as well as a sprawling plastics and polymers plant - is located on the north shore of Hoshina.[3025] In a freak accident two years ago, a Yoshimatsu worker fell into a vat of polymers. Since then, there have been endless rumors that his ghost now stalks the corridors of the plant. The rumor has now grown even more elaborate, with the ghost sightings reported in a half-dozen different plants on as many worlds. Although workers cannot leave their jobs over such a baseless fear, employee morale is low in most plants and trouble may be brewing."
   },
   "Position": {
     "x": 71.85,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

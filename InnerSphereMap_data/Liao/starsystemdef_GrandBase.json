@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_GrandBase",
     "Name": "Grand Base",
-    "Details": " "
+    "Details": "The personal holding of the Duke of Thomas, Colonel Pavel Ridzik, Grand Base is a major military staging, training, and repair facility.  After Tikonov, Grand Base maintains the largest 'Mech production facilities in the Confederation.  Permanent garrison forces consist of two Sian Commonality reserve units and one Warrior House regiment.  Grand Base is also the home of the newly created elite Warrior House Death Commandos (possibly Maximilian Liao's hedge against his colonel becoming too powerful).  Grand Base also supports local militia backed by major AeroSpace Fighter and naval support."
   },
   "Position": {
     "x": 46,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

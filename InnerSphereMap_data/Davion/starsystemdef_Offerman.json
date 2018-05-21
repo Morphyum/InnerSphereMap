@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Offerman",
     "Name": "Offerman",
-    "Details": " "
+    "Details": "First unveiled in 3030, the Com Guard's primary mission was to protect a world's HPG transmitter, though Primus Waterly assured the Inner sphere leaders that these forces would be as inoffensive and helpful as possible to the surrounding populations. Stories of their good deeds quickly began to flood the popular media. One such deed occurred on Offerman, when the daughter of an important government official became lost in the wilds of the planet's Rift Forests. Com Guard 'Mechs and troops searched the forests, while fighters scanned from the air with infrared camera pods; the official's daughter was quickly found."
   },
   "Position": {
     "x": 573.32,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

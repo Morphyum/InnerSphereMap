@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thun",
     "Name": "Thun",
-    "Details": " "
+    "Details": "[3051] The survivors of the 26th Lyran Guards RCT had faced Beta Galaxy on the planet of Kobe, earlier that month in December 3051, and were still trying to recover from the battle when Beta Galaxy DropShips appeared hot on their tail in Thun's system. Leftenant General Green-Davion deployed his forces to protect the city of Logan Delta so that his reserves would be able to react swiftly to the enemy attack.This was a smart move, because Khan Garth Radick was impatient to defeat the 26th Lyrans. Headhunter Stars failed to find and kill the Lyrans' commanders and it looked as if the Lyrans' line would hold. Until Khan Radick personally led Alpha Command Star in a daring low-level drop onto Logan Delta which disrupted the Lyran forces and forced then to withdraw offworld."
   },
   "Position": {
     "x": -17.85,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

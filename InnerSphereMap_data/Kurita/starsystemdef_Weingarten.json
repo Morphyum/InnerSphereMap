@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Weingarten",
     "Name": "Weingarten",
-    "Details": " "
+    "Details": "<p>[3051] Clan Wolf landed on Weingarten in November 3051. Defending the world were the First and Forth Weingarten Armored Militia Regiments. The planetary government went into exile immediately after the majority of the capital city's defenders were surrounded and captured by Gamma Galaxy's Seventh Battle Cluster.</p><p>[3075] In the closing days of 3070, Tamar was subjected to a brutal scouring. Khan Vlad Ward found he was no longer able to govern a great star-spanning state from a capital burned to a cinder by nuclear fire. Let no one say the Clans are not decisive. In one hectic month the Wolf Khan moved his capital to Weingarten, dropships burning out of a blue sky, Clanners commandeering buildings, and plowing under vineyards. The quiet little world has suddenly found itself the seat of an interstellar power. The people may not like it, but that's the way it is.</p>"
   },
   "Position": {
     "x": -19.4,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

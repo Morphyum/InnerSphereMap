@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wheel",
     "Name": "Wheel",
-    "Details": " "
+    "Details": "Early records concerning the Valdis system are fragmentary. It is believed that independent asteroid miners first began exploitation of the Valdis belts prior to the 24th century. Certainly, there was a permanently manned facility on the large asteroid known locally as Rikerstrike by 2403, and a consortium of Terran-based deep-space exploration and development corporations had begun construction of a Zenith point recharging station by 2450.The Valdis System consists of two major bodies, plus multiple asteroid belts. The inner world is officially Valdis I, but generally known simply as Rock, is a barren, airless and waterless world, where temperatures vary between 150ºC in the afternoon to -50ºC at night.Valdis II, known locally as Giant or, humorously, The Hard Place, is a superjovian gas giant with a diameter some five times that of Sol V (Jupiter). Valdis II is credited by planetologists with the current form of the Valdis. It's massive gravitational field disrupted early planetary formation, a disruption which prevented the creation of man-habitable worlds but left the Valdis belts instead.The Valdis belts are the source of most of the system's riches. Iron and nickel are the principle products, or course, but large quantities of chromium, cobalt, magnesium, gold, platinum, iridium, silver, tin, tungsten, and copper are also mined here. Rikerstrike, the largest of the Valdean Beltworlds, is located in the Mid-Belt and is still the site of the system's principal settlement outside of Wheel itself. Other important resource points in the system are the Giant's moons and rings, which are the principal sources of water for the various human settlements.The principal center of human activity in the Valdis system is, paradoxically, nowhere near the various worldlets and asteroids in the system's planetary plane, but at the star's Zenith jump point. Wheel began as a system recharge station, but because of the inhospitality of the various worlds of the system, and due to the relative abundance of local raw materials, the Zenith station grew to become the principal habitation center for the system, providing homes, recreation, and services for the miners and corporate executives assigned there.The Valdis system has been fought over many times in the past, though two major considerations remain true. Firstly, Wheel itself is literally irreplaceable, so many of its construction techniques have been lost during the centuries. Major damage to the station-keeping drives, or the massive fusion drive that powers them, would result in disaster as Wheel slowly - but inexorably - fell into the systems sun. A second consideration is the presence of a Class B ComStar HPG on Wheel. No would-be raiders or defenders wish to instigate a battle which could damage or destroy the station - with the attendant threat of ComStar imposing punitive measures on the combatants.As a result, Wheel itself has achieved something of a neutral status. Free traders and merchant ships have called freely at Wheel for many years. Under the shelter of a general unwritten and unspoken agreement, even Lyran Commonwealth nationals have visited Wheel freely and conducted their business there - usually trading agreements with Kuritan merchant firms - although Steiner warships know better than to test this de facto neutrality. Because of this, Wheel has become a pot similar to, if not as active as, Lyran Port Moseby. Like Port Moseby, Wheel provides both an avenue for Kuritan merchants who seek goods beyond the borders of the Combine and an outlet for those of their own products which interest visiting Lyran traders. Local Kuritan government representative seek, with varying levels of success, to limit the exposure of their own nationals with foreigners to encounters with high-ranking officers and trade representatives.Other targets within the Valdis system are fair game, however. Numerous raids have been staged against titanium storage yards on the surface of Valdis I by Dropships making high-G runs from the Valdean Nadir jumppoint.[3051] The soldiers of Epsilon Galaxy's Dorbeng Garrison Cluster dealt easily with the defenders of Wheel, in December 3051. The Free Wheelers, a corporate regiment composed of two companies of light 'Mechs) and the First Wheel Mechanized Militia were not inept by any means. In fact, they were actually better trained than most other second-line troops. The two units simply failed to act in a coordinated fashion, even when defending the same line."
   },
   "Position": {
     "x": -30.51,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

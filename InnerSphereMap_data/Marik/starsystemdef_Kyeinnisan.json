@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kyeinnisan",
     "Name": "Kyeinnisan",
-    "Details": " "
+    "Details": "Like Herotitus and Galatea, Kyeinnisan - also known as the Gambler's World - offers a wide-open society where every pleasure, both imaginable and unimaginable, is for sale. The League's most popular game is Four-Card Drax, but there are many other games designed to test the nerve of opponents as well as to separate the sucker from his money. Sitting in lavish, soundproof rooms amid the smoke of fine dryweed, some inveteriate gamblers will even wager on the flip of a coin.The serious-minded, idealistic, Thomas Marik has not tried to shut it down. Perhaps even he realizes that such a world in his own backyard offers a place where certain kinds of information can be exchanged and a wary eye kept on potential threats to the security of the Free Worlds League. Needless to say, SAFE agents haunt this prosperous planet.Ironically Kyeinnisan, lawless as it is, has the lowest crime rate of any Free Worlds League planet, including Atreus. The planetary government maintains law and order - after a fashion - by means of a highly efficient, well-trained, security force. It is said that death is preferable to imprisonment in Kyeinnisan's penal colony.The Holy Rollers are maintained by a tax imposed on casino owners and the various other merchants involved with supporting the world's gaming and other entertainment industries. Such people might not have been motivated to pay these taxes, except that not doing so meant a serious drop in profits when their premises were no longer patrolled or monitored, and became too dangerous for most patrons. It is also rumored that individuals with enough wealth and power could engage the security force for their own purposes.The capital of Kyeinnisan is Luck City.Kyeinnisan is governed by an oligarchy."
   },
   "Position": {
     "x": -100.8,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 2,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",

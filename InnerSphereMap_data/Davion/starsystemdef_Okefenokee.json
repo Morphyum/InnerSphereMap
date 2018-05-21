@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Okefenokee",
     "Name": "Okefenokee",
-    "Details": " "
+    "Details": "Okefenokee is one of the poorest worlds in the Federated Suns. Located on the edge of the Periphery, it was inhabited until recently only by religious zealots living in isolated villages in the planet's Great Swamp. Most Humans find the world's many native creatures either dangerous or disgusting. Beneath the many swamps encircling the tropic and temperate zones, there lies a vast pool of oil. For many years, the oil went undiscovered. When Interstellar Star Petroleum, a large petroleum products company, undertook a vast exploration project under government auspices, they found the oil in this unlikely spot. The discovery has touched off an economic boom on Okefenokee, with money, products, and people pouring onworld. The planet's original settlers and inhabitants resent this sudden influx so much that they have taken to shooting at anyone who enters the swamps.[3062] Perhaps the biggest challenge faced by the Anjin Muerto Militia is the conflict on Okefenokee, which has gradually increased to the level of a guerrilla war. Two full regiments of the militia's infantry have been based on the world as peacekeepers for the best part of the last forty years, but they have been caught between the two factions. On top of this, the planet's newfound wealth has made it an inviting target for pirates operating from the Periphery."
   },
   "Position": {
     "x": 606.93,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

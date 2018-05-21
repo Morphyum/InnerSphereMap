@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TurtleBay",
     "Name": "Turtle Bay",
-    "Details": " "
+    "Details": "The planet of Turtle Bay has numerous rings, providing spectacular views from both orbit and ground. Most of the planets heavy industries are based in space, primarily asteroid mining in the planet's rings, and the refining of the ore into raw materials. This leaves the planet's cities serene and free of large industrial complexes.Edo was the capital city of Turtle Bay, prior to 3050. In May of that year, the Smoke Jaguars came and conquered the world. Hohiro Kurita, eldest son and heir to the Dragon throne, was injured and captured whilst defending the world. With the Smoke Jaguars unaware of who they had captured, Hohiro was interned in the infamous Kurushiiyama (Pain Mountain) correctional facility. The local Yakuza clan, the Ryugawa-gumi, with help from Shin Yodama, were able to rescue Hohiro, and then began a campaign of resistance against the Smoke Jaguars. After 6 weeks of rioting, and with the Smoke Jaguars unwilling to send in front line troops forces to assist their garrison forces, the city of Edo was razed from orbit. The Sawagashii river was boiled away to nothing, and all that remains of a city of over 1 million people is a charred, glassy scar on the face of the planet. Resistance across the rest of Turtle Bay ceased over night.[3059] When the Operation Bulldog task force came to Turtle Bay in June 3059, they found the world undefended. In a gesture he hoped would in some small way atone for their loss, Precentor Martial Victor Steiner-Davion assigned the Legions of Vega to retake Turtle Bay, the unit that had lost the world to the Jaguars ten years earlier. The Eleventh, Sixteenth and elements of the Second Legion all took part in the planet's liberation.  "
   },
   "Position": {
     "x": 152.76,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

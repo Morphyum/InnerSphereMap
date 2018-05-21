@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Angol",
     "Name": "Angol",
-    "Details": " "
+    "Details": "Angol is a frozen planet circling a small, dying red star. Angol's fossil record shows that it was a habitable planet before its parent star shrank, and the world's oceans and atmosphere froze into planet-wide glaciers. Angol would not have been settled had the Carinus family, founders and rulers of the neighboring world of Tikonov, not needed secure access to rare metals used in their Earthwerks, Ltd. factories. The Carinus family based their government on Soviet-era Russia and used Angol like the Siberian gulags on Terra, condemning criminals and debtors to decades of drilling the planet's glaciers and working its foundries. When the Tikonov Union joined the Capellan Confederation, Angol's natives requested and received protection from the Terran Hegemony. By the time of the First Star League, the population's standard of living had improved considerably under Hegemony rule. When the First Star League fell, the Federated Suns laid claim to Angol.The Angol has no continents per se, but the capital of Carius's Cache is situated near the planet's south pole."
   },
   "Position": {
     "x": 87.88,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

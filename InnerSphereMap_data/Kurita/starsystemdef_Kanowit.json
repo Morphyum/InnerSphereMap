@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kanowit",
     "Name": "Kanowit",
-    "Details": " "
+    "Details": "[3050] Aware that his troops would face the green Eleventh Alshain Regulars and the more experienced Thirty-Forth Galedon Regulars, saKhan Carns chose to split his invading force and attack the defending units simultaneously in March 3052. The Eleventh had taken a position on a high bluff that fell steeply away to a grassy plain, planning to take full advantage of this natural fortification's steep rise and crumbling limestone cliff face.Unable to precisely determine why the planet's defenders made this choice but confident that their superior weaponry and armor would carry the day, saKhan Carns landed the First Nova Cat Guards on the plains below the Eleventh's position. While this position did not prove particularly damaging, saKhan Carns found his unit's inability to reach the Kurita troops from below, even by using the unique skills of the Elementals, extremely frustrating. Adding to his frustration, it quickly became apparent that the Eleventh's main goal was simply to occupy the invaders until the Thirty-Forth arrived to reinforce them.The second Clan force, made up of the 449th and 489th Assault Clusters, attacked the Thirty-Forth in he interlocking tunnels and caverns of a natural formation known as Theodore's Retreat. Using well-placed traps and plenty of ammunition, Tai-sa Venn Oblak and his troops managed to seriously damage the attackers. Star colonel Evelyn Morris eventually ordered a fighting retreat from what appeared to be a death-trap, her troops seeding the tunnels and caverns with explosives as the withdrew. Less than half the Thirty-Forth walked away from the collapsed landmark. Upon discovering that the 449th had accomplished its goal, saKhan Carns ordered the unit to board its DropShips and land behind the Eleventh's lines. Unable to hold its position in the face of this new enemy force, the green Eleventh broke and ran, somehow managing to escape the planet with a substantial number of its members intact.[3059] Though limited in scale, the formal contest against the Nova Cats on Kanowit was one of the most violent engagements between the DCMS and Nova Cat forces. Kanowit was a front-line world, and Nova Cat honor demanded a true battle, no matter how heavily the Cats stacked the deck against themselves.The Nova Cat leadership on Avon decided to fight the battle as a series of Clan-Style Trials of Position, with Kurita forces acting as the Challenge Group for each. Because Star Colonels and Star Captains would be doing the fighting, the Clan would have to defeat all Kurita challengers to retain autonomy. If defeated, the Nova Cat forces would be absorbed into the Draconis Combine and re-deployed as SLDF units. When the Kuritan High Command then offered to pit regular warriors against the Nova Cat elite, the Clan officers intentionally bid themselves down to lesser 'Mechs or 'Mechs with a slight design flaw that the Kurita forces could exploit.The SLDF forces preveiled in the ensuing Trials, though the Nova Cats did fought hard. Following the battle, the Nova Cat Clusters became the SLDF Nova Cats."
   },
   "Position": {
     "x": 87.19,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 15,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",

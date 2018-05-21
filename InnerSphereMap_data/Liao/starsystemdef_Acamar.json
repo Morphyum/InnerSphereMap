@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Acamar",
     "Name": "Acamar",
-    "Details": " "
+    "Details": "Orbiting a long distance from its sun, Acamar is a world of almost constant winter. The vast mines of precious metals on Acamar's one major continent of Katenga, and various mining operations that also take place within the Illeudian asteroid belt, made it a jewel in the Capellan Confederation's crown for centuries. The Liao government gave Acamar's nobility the lion's share of profits from the planet's gold and silver trading, and so the nobles have always been staunchly pro-Liao. The merchant class, however, chafed under the status quo. Eager to see it changed, they threw their economic weight behind the rebel Pavel Ridzik during the Forth Succession War and helped to found the Tikonov Free Republic. Upon Ridzik's assassination in 3029, the merchant class voted as a body to bring Acamar into the Federated Commonwealth. Under Commonwealth rule, Acamar's merchant class prospered. The nobles, bitterly incensed, no longer had sufficient power to challenge the increasingly powerful middle class. They nursed their grievances along with their Liaoist loyalties, and bided their time.When Liao and Marik forces attacked Acamar in 3057, the pro-Liao nobility saw their chance. Acting in concert with Capellan agents and their own private armies, Acamar's nobles overwhelmed the planetary garrison in a series of swift attacks. To celebrate their stunning victory, the victorious Liao loyalists forced the captured garrison troops out into Acamar's brutal winter with scant clothing and supplies. Most of the soldiers died; the few who survived found shelter were rescued a few days later by Patrick Gladden, the owner of a large silver mine.Enraged at the thought of Acamar falling back under Capellan sway, Gladden persuaded several of his colleagues to form the Acamar Merchants Freedom Guild. In their first act, Guild members pooled their resources to hire a mercenary unit from Outreach to take back the planet. The Tiger Sharks, a combined-arms battalion, hit the ground running, destroying numerous 'Mechs and vehicles and liberating two major cities in their initial engagements with the Liao forces. After being badly mauled during a major Liao counterattack, however, the Tiger Sharks attempted an assault on Acamar's capital of Kalskag. Confident of Kalskag's defenses, the Liao government ordered the bulk of its troops to assault the HQ of the Acamar Merchants Freedom Guild in the city of Flat.The Tiger Sharks stormed into Kalskag, overrunning the few remaining government troops. They leveled the capitol building and killed several prominent nobles inside. In Flat, government tanks rolled over much of the city center, and the leaders of the AMFG fled before the onslaught. With their employers vanished into hiding or off world, the Tiger Sharks sought passage off Acamar, returning to Outreach to rebuild and seek a new contract.No centralized government currently exists on Acamar. Most towns have become independent city-states with their own laws, many run by former members of the AMFG and others by surviving Liaoist nobles. Acamar's people have largely ceased fighting and returned to mining, selling the ore to those traders brave enough to travel through the Chaos March. A remnant of the Acamar Merchants Freedom Guild, determined to see the planet under the FedCom banner, has set up offices on Outreach, where they hope to raise enough funds to hire more troops to retake their world.   "
   },
   "Position": {
     "x": 39.54,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

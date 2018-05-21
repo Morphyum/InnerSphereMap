@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Talcott",
     "Name": "Talcott",
-    "Details": " "
+    "Details": "During the Davion Civil War in 2525, Marshal Nikolai Rostov took sides with Alexander Davion against the forces of David and Cassandra Varney. Rostov's idol was the Russian General Kutuzov, who defeated Napoleon during the latter's invasion of Russia. Using a variant of the famous General George Washington's principle of strategic retreat to prevent a less mobile army from establishing effective supply lines, Kutuzov pioneered a policy known as scorched earth, which called for retreat into the vast Asian continent while destroying everything of value. Rostov's favorite strategy was another variant on Washington's and Kutuzov's strategies. Named after a practice popular with dishonest merchants, the bait and switch tactic also relied on strategic retreat into vast wilderness lands to throw an opponent off balance. The object was to lay a trap for an enemy bent on easy plunder.On the planet Talcott, for instance, Rostov pretended to flee superior Varnayist forces from nearby Salem. When the pursuers jumped into the Talcot system, they discovered that the defending forces had disappeared into the verdant farmlands of the planet. They foraged the land to replenish their food stocks and notified General Varnay that Rostov's forces had disappeared.Varnay wired back, as Rostov knew he would, that Rostov's forces were too significant to be overlooked, and ordered a thorough search of the planet. Rostov's strategy became a waiting game. Rostov was taking a huge gamble. Knowing that his forces would be planetbound for some time, he turned off his heat-generating equipment, whose traces would have led Varnay's troops straight to him. He knew the time had come to move when he intercepted an enemy message that Varnay himself was coming to lead the search. While the enemy was preoccupied with preparations for the arrival of their commanding general, Rostov mobilized his troops for a lightning raid on the Varnayist camp. With the element of surprise on their side and with Varnay's troops exhausted from searching, Roslov's troops easily over-powered the Varnayists, crippling their forces and destroying their newly acquired stores of provisions. Then they disappeared back into the wilderness. Varnay arrived to find his troops decimated and that Rostov had simply vanished from the face of the planet."
   },
   "Position": {
     "x": 199.81,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

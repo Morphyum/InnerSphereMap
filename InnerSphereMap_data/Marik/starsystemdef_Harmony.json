@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Harmony",
     "Name": "Harmony",
-    "Details": " "
+    "Details": "[3025] The mercantile Rodriguez family holds valuable mining concessions on Trablek, The northern continent of Harmony. Unfortunately, these concessions were won at the cost of the powerful Cherenkov family, who hold similar mining rights in the area. The legal wrangling over rival claims escalated to full-scale warfare over two hundred years ago. Though overt violence is no longer condoned between the two families, the legacy of bitterness continues to this day.The Order of the Saber if the highest decoration awarded in the FWLM. The medal is awarded by the Captain-General for \"heroism in pursuit of the cause of the Free Worlds League\" and confers membership in the Order of the Saber. The order maintains chapter houses on many major worlds in the League, where members may receive free meals and lodging. The first Chapter Houses - on Atreus, Harmony, New Olympia, and Orloff City on Vanra - were built just after the Civil War in 2737. Members fervently guard these Houses, which reputedly contain technologies from before the Succession Wars. The truth of these stories has never been confirmed or denied, as the Chapter Houses remain inaccessible to non-members."
   },
   "Position": {
     "x": -141.63,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +41,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Marik",
   "ContractEmployers": [
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

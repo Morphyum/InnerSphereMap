@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Strawn",
     "Name": "Strawn",
-    "Details": " "
+    "Details": "The ugliest effects of House Kurita's invasion into the Federated Suns were psychological. Among the Davion citizenry, there developed an unreasoning greed, secrecy, suspicion, and a widespread compulsion to steal supplies. A particularly wicked case in point occurred on Strawn.In 2794, a fifth-rate petty bureaucrat, who had somehow managed to become Prime Minister of Strawn, issued an order that stripped all members of the Oriental race of their property and belongings and relocated them to camps away from sensitive government facilities.This law struck a responsive chord among the people now so desperately afraid of the Kurita Dragon. Suddenly, anyone of Oriental lineage was a potential agent of the Draconis Combine. The Capellans were equally feared since they had cut off the Suns's bond with Terra. In the resulting hysteria, many unfortunates were accused of being an agent of both realms. Paranoia spread like wildfire. Homes were burned, businesses bombed, and even a pasta factory was shut down because its noodles were declared oriental. For those citizens of the Federated Suns who happened to be of Oriental ancestry, this was far from a laughing matter. Many were dragged from their homes and killed, while others watched as everything they had worked for was taken from them.There were mixed reactions from the various planetary governments and nobility. Most were outraged by the citizens' actions and tried to stop the madness. Others took advantage of the situation, profiting from their Oriental citizens' misfortunes. A few governments and nobles actually believed in the Purge, and the history of these worlds will forever be stained by innocent blood.After two years, the problem had so intensified that even the preoccupied Davion government could no longer ignore it. In January 2796, Prince John issued a proclamation that any form of racism was contrary to the right of freedom granted every citizen of the realm. Later, Pope Clement XX of the New Avalon Catholic Church issued a similar decree, claiming that racism could not coexist with the love of God and was therefore punishable by excommunication.Though these actions served to calm the mania that had overtaken so many ordinary men and women, nothing could make up for the lost lives and property. To this day, there are very few willing to discuss the Purge in the Federated Suns."
   },
   "Position": {
     "x": 235.99,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

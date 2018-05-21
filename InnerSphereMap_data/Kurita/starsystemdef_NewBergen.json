@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_NewBergen",
     "Name": "New Bergen",
-    "Details": " "
+    "Details": "[2334] In 2330, Shiro Kurita turned the armies of his brother and warlord, Urizen Kurita, towards the Principality of Rasalhague. During the first three years of the campaign, Urizen encountered only token resistance. Several Rasalhague member-worlds fell in a matter of months, with Combine advances limited more by logistics than by the minimal opposition. Using leap-frogging techniques, the Kuritans seized planets in a seemingly erratic sequence. In this way, Urizen would continue to keep the enemy off guard while always creating an advance staging base for upcoming attacks. Other planets would then be taken during a second wave, sometimes two to four years later. Moderately large Combine garrisons and enormous weapon caches were stationed on the advance bases, as Urizen and his forces seized worlds and continued to penetrate deeply into the Principality. In fact, by late 2333, they had actually bypassed the planet Rasalhague, having seized and subjugated New Bergen in its place. This move surprised even the Rasalhagians, who felt sure Urizen Kurita would strike for their capital. In retrospect, he should have.In January 2334 the sons of Urizen Kurita, Victor and Isaac, made up a small part of the Draconis Combine occupation force on New Bergen. The troops there were preparing for action against the planet Outpost, but, for the moment, were enjoying an extended R&R period before the next battle. During this state of lessened attention, a powerful defending force dropped onto the world and combined their might with a prearranged uprising of local citizens. In an unprecedented massacre, the defenders wiped out the occupation force to the last man. Huge stocks of armored ground vehicles, personal weapons and artillery, munitions and equipment, and even a handful of parked JumpShips were captured and quickly distributed among the Rasalhagians.Combined with the natives' own resourcefulness and sense of economy, these new weapons provided them with a means to fight the Draconis Combine on their own terms. Thanks to the New Bergen raid, guerrilla fighting continued in the Principality of Rasalhague for three decades. In 2367 Shiro's heir, Tenno Kurita, finally declared the Rasalhague menace vanquished, and withdrew most of the Combine's armed units present. In reality, the Principality remained officially neutral and an independent state until 2510, almost a century and a half later.[3025] New Bergen has become one of the centers of the old Scandinavian culture,  as Rasalhague and Radstadt are both too overrun with Kurita operatives.[3050] Major General Geston, commander of the planetary Militia, lied about the size of his force when challenged by Star Colonel Lara Ward in May 3050. As a result, Star Colonel Ward was ill prepared for the strength of New Bergen's defense. Rather than break her bid, she ordered her forces to retreat, laying ambushes as they went, and finally wore down the defenders enough to make a successful counterattack."
   },
   "Position": {
     "x": 19.38,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

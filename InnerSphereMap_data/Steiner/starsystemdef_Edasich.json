@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Edasich",
     "Name": "Edasich",
-    "Details": " "
+    "Details": "[3025] The city of Vesteralen is home to the headquarters of Edasich Motors. The Edasich family took over the operation of two major fusion engine factories just after the fall of the star League in 2784. The two factories, which manufacture Vlar and Pitban type engines, have continued production since then, but at an ever slower rate. They currently operate at only one-fifth of their former capacity. Due to layers upon layers of jury-rigged systems, these factories can no longer be repaired, and so Duke Edasich is considering building a plant on a more peaceful world. When he learned that Defiance Industries was trying to build its own engine plant, the Duke's project took on a new urgency. Defiance is the best customer of Edasich, whose large engines power most of Defiance Industries famous Zeus and Atlas assault 'Mechs."
   },
   "Position": {
     "x": -96.42,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 14,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

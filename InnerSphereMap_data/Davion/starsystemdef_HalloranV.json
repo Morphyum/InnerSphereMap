@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_HalloranV",
     "Name": "Halloran V",
-    "Details": " "
+    "Details": "A generally bleak and forbidding arctic world, Halloran V is a relatively young planet that is still active geologically.  It is almost 20 percent solid copper, and its copper exports provided a mainstay for Tikonov finances until Davion occupied the world. Halloran's only other major industry is water exportation; at the rate the Hallorans are selling icebergs to water-poor worlds, they are likely to run out of water a century or more sooner than copper, which could precipitate a major ecological crisis.  Most of the inhabitants take a depressingly cavalier attitude, however, reasoning that their descendants can always find another mining world later on.Vanders is Halloran's largest city."
   },
   "Position": {
     "x": 72.89,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_other_megacity",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +46,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +147,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

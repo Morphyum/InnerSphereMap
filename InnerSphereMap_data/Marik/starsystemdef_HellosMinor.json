@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_HellosMinor",
     "Name": "Hellos Minor",
-    "Details": " "
+    "Details": "[2669] In 2667, a powerful explosive detonated in the Marik family mansion, nearly wiping out the entire ruling family line. Only a badly wounded Gerald Marik survived the blast. Later investigations turned up evidence that not only were the Scourge of Death responsible for the assassinations, but the House Selaj, rulers of the Principality of Regulus, had provided equipment, transportation, and training for the terrorist band.A military tribunal convicted three members of House Selaj of treason and sentenced them to death, in absentia. Meanwhile, House Selaj placed the Regulan Hussars on full military alert. After Rajneesh Selaj paid a personal visit to the Regulan Hussars to earnestly proclaim his innocence, he won their full support.In December 2669, Gerald Marik's forces invaded the Principality, after winning a promise from the other members of the Star League that they would not interfere. When six regiments of the Marik Militia attacked Hellos Minor, homeworld of D'mir Selaj, the Regulan Hussars valiantly held them off for almost a month. As the Hussars were gradually driven back, however, many soldiers began to defect. Rather than be captured, D'mir committed suicide at his country estate as the Marik troops forced their way inside.Two weeks after the fall of Hellos Minor, the Marik forces also took the planet of Harmony. At this point, the remaining members of the Selaj family thought it prudent to seek refuge the Magistracy of Canopus."
   },
   "Position": {
     "x": -185.48,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

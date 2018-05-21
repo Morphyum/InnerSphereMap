@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bryant",
     "Name": "Bryant",
-    "Details": " "
+    "Details": "Colonial Resources, the Hegemony department assigned to arrange and coordinate expeditions to new worlds, made the planet seem enticing. It told of chemical and metal resources, fertile soils, and deep seas. Many men and women, lured by the glowing reports, lined up to join expeditions to Bryant. What had gone unmentioned in the accounts was that Bryant had a harsh climate that lashed most of the planet's surface with storms and winds approaching 300 kilometers per hour. For the first two centuries, colonization was confined to the planet's polar regions, where the men and women lived a cold, quiet existence.In 2478, the Terran Hegemony put the first Storm Inhibitor into geosynchronous orbit around Bryant. The Storm Inhibitor is a reflector that is aimed at clouds gathering above a planet's oceans. The concentrated heat on the clouds did not prevent storms but lessened their severity. The change in the weather soon allowed colonists to begin settling the temperate regions of the planet.Once the colonists could begin farming the warmer lands, Bryant became an important agricultural center for the Hegemony. Many of the planet's indigenous lifeforms, such as the Crowley Lizard Cow and the Jewel Bass, became delicacies. Tourism became important to Bryant's economy because of the planet's many beaches.Then came the forces of Stefan Amaris. Republican pilots used the Storm Inhibitors for target practice. The remaining Inhibitors became the final strongholds for the SLDF. The soldiers died like insects beneath a magnifying glass. With the Storm Inhibitors gone, the planet's climate has once again become stormy.Then came the forces of Stefan Amaris. Republican pilots used the Storm Inhibitors for target practice. The remaining Inhibitors became the final strongholds for the SLDF. The soldiers died like insects beneath a magnifying glass. With the Storm Inhibitors gone, the planet's climate has once again become stormy. Since then the planet's population has been moving back towards the poles because of the worsening weather, leaving behind them abandoned cities.[3056] When Liao and Marik forces invaded the Sarna March, they bypassed Bryant for more tempting targets. Taking advantage of the breakdown of what little authority existed, a local warlord calling himself Viscount Dvensky has claimed Bryant as his personal fiefdom. Anticipating a Liao attack, the self-styled Viscount appealed to the Victor Steiner-Davion of the Federated Commonwealth for military support, but none was forthcoming. Dvensky has since declared Bryant independent, and apparently supports his government - such as it is - by sending bands of fighters loyal to him on supply raids against the nearby planets of New Home and Epsilon Indi. These so-called Bryant Regulars has been alarmingly successful, prompting calls for action against them from various quarters. According to rumor, Viscount Dvensky is secretly raising an army to capture Epsilon Indi or New Home, or possibly both. As yet, no one can confirm the truth of these rumors.In the past few months, Bryant has attracted increasing numbers of explorers and treasure hunters searching for Star League relics that may still exist in the numerous abandoned cities across the planet."
   },
   "Position": {
     "x": 13.18,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 15,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

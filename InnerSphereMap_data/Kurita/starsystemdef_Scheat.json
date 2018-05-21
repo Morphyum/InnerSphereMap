@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Scheat",
     "Name": "Scheat",
-    "Details": " "
+    "Details": "A world of heavy rainfall, rich soils, and basic metals, Scheat became an industrialized world soon after the first colonists made planetfall. Lumber and common raw metals such as aluminum and iron made up the bulk of the planetary economy, with textiles forming a supplemental export. Only moderately successful in comparison to neighboring systems, very little made this world stand out in the early years of human expansion into the galaxy. Many cities arose on the primary temperate continents of Kohl and Warschen, centered on the local timber industries and mining establishments, while agricultural settlements developed along the winding rivers that connected many of these cities.In the days of the Terran Hegemony, Scheat was a Hegemony border world to the Draconis Combine, and so military outposts and a small 'Mech repair and refit complex were placed on the world for the benefit of defending troops. When the Star League fell, these assets became natural targets for the feuding Great Houses, and were largely destroyed in the fighting.Only in the past decade have efforts to reclaim the devastated facilities borne fruit with the opening of Landhome Industrial 'Mech Enterprises, producer of construction, mining, and forestry 'Mech designs. The LIME plant is located on Waschen, while the planetary capital and primary spaceport lie in the foothills of Kohl. The large, lake-riddled equatorial continent of Rhodes is Scheat's only other major landmass, and it is home to the industrial city of Valorie, where Valorie Metals, Unlimited, Scheat's largest mining concern, is headquartered."
   },
   "Position": {
     "x": 168.53,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",

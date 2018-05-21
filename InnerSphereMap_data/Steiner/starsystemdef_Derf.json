@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Derf",
     "Name": "Derf",
-    "Details": " "
+    "Details": "[3025] The city of Hollis is the headquarters of Vickers Mining. The major mining firm in the Trellshire Province, Vickers has operations on more than 40 worlds, moons and asteroids. They specialize in the extraction of rare minerals and have an impeccable safety record. Vickers was counting on the Woman Mole-TS Tunnel Borer to assist its work in airless conditions. Because of the tunnel borer's poor performance, the Vickers operation on the second moon of Apollo is in question. Unless Vickers is willing to do the job in less-than-safe conditions, another firm less concerned with their employee's safety will win the bid.[3050] Disheartened by their recent defeat on Trell 1, the Twelfth Donegal Guards RCT disintegrated soon after the Third Falcon Talon landed in May 3050. The Falcons easily crushed the small groups of Guards that rallied to fight fierce actions, but by the end of the day, the Twelfth RCT no longer existed."
   },
   "Position": {
     "x": -130.84,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Steiner",
   "ContractEmployers": [
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

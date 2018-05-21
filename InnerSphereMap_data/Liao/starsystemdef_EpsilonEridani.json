@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_EpsilonEridani",
     "Name": "Epsilon Eridani",
-    "Details": " "
+    "Details": "Epsilon Eridani's prime location in the Sarna March made it a valuable crossroads for much of the merchant traffic that flowed through the Terran Corridor. The commercial boom that followed the Forth Succession War made Epsilon E a business and cultural mecca, which in turn made it a prime target for reconquest by the Capellan Confederation. At the time of the invasion, this planet's garrison consisted of the Epsilon Eridani SMM, a green unit with unclear loyalties. Though nominally loyal to the Federated Commonwealth, the unit's commander, Leftenant General Pierre Benton, owed his first allegiance to his homeworld.Chancellor Sun-Tzu Liao's earlier efforts to set up Liaoist cells on Epsilon E largely fell flat, and so he had limited resources to call on once the invasion of the Sarna March began. The few Liaoist rebels, however, caused damage far out of proportion to their numbers. A series of well-planned bombings killed hundreds of civilians and created a serious crisis for the planetary government. A Epsilon's leaders dithered, Leftenant General Benton grew increasingly frustrated with their inaction. Unable to sit and watch his world crumble around him, Benton took matters into his own hands with brutal efficiency. Within three weeks, no Liaoist presence to speak of remained alive on the planet. Instead of praising Benton, Council President Gloria Freeman saw the Leftenant General's actions as a flagrant disregard for the government and ordered him to surrender his unit to government commanders. Benton refused. Calling the Council a gang of frightened bureaucrats unfit to govern a compost heap, he ordered his militia forces against the capital city of Madison. Cheered on by the local people Benton and his militia seized the capital without bloodshed and arrested the council leaders. Benton then publicly addressed Epsilon E's citizens, telling them he had temporarily suspended the Council and taken charge of the planet until new elections could be held. He further declared Epsilon Eridani independent of any Successor State for as long as he remained in control, because our rulers from the Great Houses have not done well by us. Therefore, I believe we must do right by ourselves. Benton renamed the militia the Eridani Guards, and handily won a popular election two months after independence.Under Benton's leadership, Epsilon Eridani continues to be a haven for interstellar commerce in the troubled Chaos March, where groups from various worlds can trade and cut deals. The city of Dori on Epsilon E'' northern continent has become the planet'' largest trading center. Heavy industry also continues to thrive; the new Kressly Warworks factory on the southern continent, long a minor producer of military vehicles, has just begun production of its first BattleMech model, the Lineholder. Despite its mediocre performance profile, the 'Mech is inexpensive enough to sell extremely well to all the interested parties currently struggling for dominance in the March.Epsilon Eridani has a pleasant, if damp, climate. Few of the world's frequent rainstorms ever become true thunderstorms. The southern continent contains large regions of swamplands, while the northern continent is drier and rockier, as well as containing large areas of hinterlands. The northern continent is also host to infrequent, but spectacular, thunder tempests."
   },
   "Position": {
     "x": 18.35,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Setubal",
     "Name": "Setubal",
-    "Details": " "
+    "Details": "[3052] Clan Ghost Bear landed on Setubal in February 3052. Defending the world were the 21st Benjamin Regulars. The 21st Regulars spilt their forces and deployed the two halves about two kilometers apart, hoping that the Bears would do likewise. Against a divided Clan force, the Regulars could slowly close the gap between the two halves and destroy the Bears with their combined strength. Star Colonel Stephan Huntsig, however, massed the entire 50th Striker Cluster against half of the defenders. As he had hoped, the green warriors cracked and charged toward the other half of their unit for help with the Bears in hot pursuit. The other half of the 21st, not knowing who was charging over the hill toward them, began firing into the pack, hitting as many friendlies as enemies. The 50th Striker Cluster hit the rest of the 21st at full steam and plowed straight through them. Soon thereafter, the green 21st surrendered."
   },
   "Position": {
     "x": 44.19,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

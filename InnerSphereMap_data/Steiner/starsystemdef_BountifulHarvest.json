@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_BountifulHarvest",
     "Name": "Bountiful Harvest",
-    "Details": " "
+    "Details": "Bountiful Harvest is a planet slightly larger than Terra. With large tracts of flat land and fertile soil, bright beautiful oceans, and an amazing temperate climate, it is no wonder that Bountiful Harvest has become the largest     agricultural planet in the Commonwealth. An amazing 70 percent of the land area is involved with food production, be it by crops or livestock. The two major oceans also live up to the planet's name, with native fish grown and harvested.Bountiful Harvest was discovered just after the formation of the Protectorate of Donegal. Lying quite near the border with the Tamar Pact, it soon became the source of considerable tension between the two realms. For a time, it even looked as though they would war over which side would control the planet. The issue was resolved when three separate companies, one from each realm in the Commonwealth, were allowed to farm the lands and fish the seas. Those three companies eventually merged into Bountiful Delicacies, the planet's largest agri-business.When the Archon conscripted commercial transports into the military during the First Succession War, it had a disastrous effect on the Bountiful Harvest. Unable to regularly export any of its products during the war, the planetary economy plunged, while huge silos stood filled with rotting grain and farmers were burying their butchered meat animals in ditches because there was nobody to buy them.[3025] A publicly owned company, Bountiful Delicacies has slowly evolved from being a food company dealing only in grains to one famed for its gourmet items such as White Hart truffles and Harvest Caviar. In direct competition with Nashan Foods, Bountiful has decided to branch out into aquaculture and meat production in a big way to maintain its slight edge over its rival. A recent blight of Henderson's Ich wiped out Bountiful's stock of sturgeon, which was a major setback to their caviar production. Some of the firm's executives point the finger of blame at Nashan, though they have no evidence to back up the accusation.  The headquarters of Bountiful Delicacies is located in KevGlen City. Nashsan Foods, part of Nashsan Diversified also owns huge tracts of land on Bountiful Harvest."
   },
   "Position": {
     "x": -137.28,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +43,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 11,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

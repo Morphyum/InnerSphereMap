@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Hobbs",
     "Name": "Hobbs",
-    "Details": " "
+    "Details": "Hobbs is a relatively dry world whose native flora and fauna are confined to an extensive system of underground caverns that honeycomb the world. The caverns are host to an amazing ecosystem of animals, some of whose behavior borders on intelligence. The most advanced of the native lifeforms are the Takooma, vaguely apelike mammals with keen infrared vision and sense of smell. They travel in extended family groups and seem to have a rudimentary language, though scientists from the NAIS and other universities have yet to penetrate its secret. The Federated Suns military uses the countless interconnected underground caverns of Hobbs as a kind of enormous warehouse, which has put the AFFS in direct conflict with the Takooma. The creatures have waged something akin to a guerrilla war against the alien Humans, ambushing anyone caught alone and stoning them to death. Soldiers who try to hunt down the Takooma often become lost in the maze of tunnels and end up becoming the hunted instead. The capital city of Hobbs is Luray Caverns, one of many cavern-based cities on the planet."
   },
   "Position": {
     "x": 255.39,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 21,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +146,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

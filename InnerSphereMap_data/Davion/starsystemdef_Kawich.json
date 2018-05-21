@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kawich",
     "Name": "Kawich",
-    "Details": " "
+    "Details": "Ten small continents (Adaven, Armagosa, Darrough, Hannapah, Ione, Nyala, Ophir, Pactolus, Tolicha, and Wahmonie) dot Kawich's large but shallow seas. Kawich's soil is generally poor, but its rocks are rich in metal ores, minerals, and petroleum. Although mining and refining industries boomed on Kawich under the Terran Hegemony, Kawich's population has always retained a frontier attitude given the hardscrabble land they must work. After the fall of the First Star League, the Federated Suns laid claim to Kawich. Kawich remained under the banner of House Davion, except for a brief period during the Third Succession War when the Capellan Confederation held the planet. During the Fourth Succession War, House Davion lured House Liao into an ill-fated counterattack on Kawich involving famous units like the Eridani Light Horse and the Davion Guards. Today, locals still refer to the BattleMech carcasses on the hills and groves around the towns of Samanan, Jamou, and the capital of Dotara as Liao's metal tombstones. "
   },
   "Position": {
     "x": 53.76,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

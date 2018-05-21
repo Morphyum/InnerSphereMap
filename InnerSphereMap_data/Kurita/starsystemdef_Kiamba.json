@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kiamba",
     "Name": "Kiamba",
-    "Details": " "
+    "Details": "Kiamba is covered by huge shallow seas and extensive swamplands. Insects thrive, attaining unusual and horrifying size.[3052] Knowing that the Third Proserpina Hussars were combat veterans, Khan Hoyt personally led the assault against them in March 3052 with his own Galaxy Command Trinary. Immediately on landing, the Jaguars found themselves battling armor elements attached to the Third. As the OmniMechs fought of the attackers, the Third's aerospace fighters launched a strafing attack on the Jaguar Dropships and severely damaged one of them before the Jaguar fighters forced the from the sky. The Jaguars then pursued the retreating armored battalion into Hecate's Swamp, where the Third sprung its deathtrap. The armored battalion's personnel mixed kerosene with the murky swamp water and set it alight, engulfing two Clan Stars in flames.Infuriated by this underhand tactic, Khan Hoyt unleashed a Headhunter Star to decapitate the Third. Tai-sa Weston, commanding officer of the Third Hussars, died in the attack along with most of the command company. The Jaguars then forced the demoralized Third back to Collins Ridge, where the embattled Hussars made a brave but futile last stand.[3059] Like many other first-wave engagements during Operation Bulldog, the battle for Kiamba was distinctly one-sided, particularly as the Smoke Jaguar commander deployed his aerospace fighters too late. Faced with overwhelming odds, the front-line 362nd Assault Cluster was crushed by the combined might of the First Genyosha, First Kestrel Grenadiers, Third Drakøns, and the Com Guards Eleventh Division. The SLDF forces only suffered minimal damage."
   },
   "Position": {
     "x": 71.07,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 16,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",

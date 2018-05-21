@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jezersko",
     "Name": "Jezersko",
-    "Details": " "
+    "Details": "[3050] Clan Ghost Bear landed on Jezersko in September 3050. Facing them was the First and Second Jezersko Brigade, consisting of 2 armor regiments. The Bears 310th Assault Trinary stormed the Jezersko Brigades as soon as they spotted the defenders' tanks. Using their weight to their advantage, the Bears picked their opponents apart. The Brigades attempted to outmaneuver the Bears, but the Clan forces moved too swiftly for them. The Brigades scrambled to the Pleasure Grotto, where they had set up remote-firing weapons and vibrabombs. The pursuing Bears easily side-stepped most of these, but found it more difficult than they expected to rout the defenders. They finally resorted to aerial bombardment, forcing both defending units into the open where the Ghost Bear 'Mechs dispatched them."
   },
   "Position": {
     "x": 88.13,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

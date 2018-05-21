@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chesterton",
     "Name": "Chesterton",
-    "Details": " "
+    "Details": "This planet was the original provincial capital of Chesterton province of the old Tikonov Grand Union, and was settled in 2412 by the last of the great Welsh space explorers, Ian Chesterton of Chisholm. Until the start of the Succession Wars, Chesterton was a rich water world; land comprised only 25 percent of its surface.  These small continents were discovered to be rich in organic chemical compounds and concentrates used in the production of important pharmaceuticals.  Chesterton is also remembered for its native wool-bearing animals that produce a remarkably fine-textured fiber.  With the end of the Succession Wars, however, little is left of this once thriving industry.  Chesterton is the major Davion military base in the Capellan March."
   },
   "Position": {
     "x": 115.62,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

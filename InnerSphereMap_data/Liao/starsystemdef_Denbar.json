@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Denbar",
     "Name": "Denbar",
-    "Details": " "
+    "Details": "The planet is the site of a lost Star League expedition dating from the mid-27th century.  Comstar investigations have uncovered the salvageable wreckage of two large DropShips and assorted heavy machinery littered about the northern pole.  The ancient expedition had set out to investigate a mysterious signal originating on Denbar, a world that has never held a permanent settlement.  No traces of transmission equipment were ever found, nor were the remains of DropShip crews ever recovered. House Liao is currently contemplating the creation of a settlement on Denbar, though it would mainly service a military garrison that might be moved here because of the planet's strategic position."
   },
   "Position": {
     "x": 69.01,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

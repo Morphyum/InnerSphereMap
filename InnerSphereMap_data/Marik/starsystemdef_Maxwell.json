@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Maxwell",
     "Name": "Maxwell",
-    "Details": " "
+    "Details": "There is no intermediate level of technology on Maxwell, a remote world in the Abbey District. The mountainous but fertile terrain makes land vehicles impractical, but the quality of the soil is ideal for farming. As a result, there are clearing for Dropships, silos and warehouses, but the rest of the world is rural. Every home is equipped with high-tech communications devices, and every garage sports some form of personal hovercraft, but most of the work is done by beasts of burden called Taraises, sleek, big-eyed oxen that roam wild on the slopes of Maxwell's mountain ranges.Because of either its rough terrain or its lack of industry, Maxwell has never been invaded. Its exports have greatly aided relief efforts to war-torn worlds, particularly those in the Duchy of Tamarind.Maxwell has produced more than its share of distinguished Parliamentarians. Among the greatest of these have been Ronald Iasceau, who was instrumental in working out tariff compromises with the Capellan Confederation during the Star League days; Jimmy the Romanian Romanici, who opposed Kenyon Marik dramatically in Parliament and nearly brought about a vote to prevent him from leaving the Star League; and Carolyn Levanthal, a recently retired delegate who eloquently defended peace proposals of Sir Carven Gibson when he was unjustly accused of treason."
   },
   "Position": {
     "x": -376.94,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 11,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

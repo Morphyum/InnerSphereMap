@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Alyina",
     "Name": "Alyina",
-    "Details": " "
+    "Details": "[3052] Once a world of verdant jungle, Alyina's landscape now lies pitted and scarred from combat with the Clans. Native to the swamps of Alyina the 'brutto vapore,' or ugly vapor, is a major hazard to the unwary. These clouds of insects hit their victims with a nacrotic sting, then implant their eggs. The victims generally remain unconcious for the two days it takes for the hatching, then the pupae leave for the swamp to continue their breeding cycle. Needless to say, the survival rate for hosts is not very high, although rumor tells of a Jade Falcon elemental surviving the hatching."
   },
   "Position": {
     "x": -134.91,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

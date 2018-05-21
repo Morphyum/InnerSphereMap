@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_FortLoudon",
     "Name": "Fort Loudon",
-    "Details": " "
+    "Details": "[3053] Clan Jade Falcon launched a raid against Fort Loudon in 3053, striking out against the Blue star Irregulars' Twenty-First Rim Worlds regiment stationed there - apparently, the Clan's warriors had heard of the Irregulars' SLDF origins and wished to prove themselves against such worthy opponents. The Falcons first captured the regiment's JumpShips, then proceeded to overwhelm the mercenaries in a prolonged assault. Only two shattered companies remained, hidden in the planet's mountains, by the time a relief force arrived. The Jade Falcons pulled back to Quarrel convinced of their superiority."
   },
   "Position": {
     "x": -32.33,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

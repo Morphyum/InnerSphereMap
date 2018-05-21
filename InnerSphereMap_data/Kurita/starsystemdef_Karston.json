@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Karston",
     "Name": "Karston",
-    "Details": " "
+    "Details": "[3051] Epsilon Galaxy's Choyer Garrison Cluster believed that they had negotiated a peaceful surrender of Karston's government in December 3051, and all that remained was to witness the treaty signing in the valley of Cannon Dale. As Star Colonel Jewel was signing the treaty, the forces of the Karston Militia Regiment fell upon her Cluster's rear. The Trinary Eighth Garrison suffered heavy losses in the ensuing battle, but their losses were not as devastating as those suffered by the militia who incurred the full fury of the Wolves rage."
   },
   "Position": {
     "x": -10.35,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

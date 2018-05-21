@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rio",
     "Name": "Rio",
-    "Details": " "
+    "Details": "Famous for deep valleys that twist across its surface, settlers named Rio after a similar canyon in Terra's western hemisphere. Rio lacks significant exports and relied instead on its dramatic natural beauty to attract tourists, Tri-Vid production houses, and art colonies to boost its early economy. Rio lost its independence to the Tikonov Union in 2223. When the Capellan Confederation absorbed the Tikonov Union 150 years later, Rio's planetary council petitioned for incorporation in the Terran Hegemony. Rio went on to prosper as a center of fine arts, filmmaking, and high-end tourism throughout the First Star League. Both House Liao and House Kurita claimed Rio after the fall of the First Star League. In 2806, the Confederation unleashed nuclear weapons against the Combine to break the stalemate. Radioactive craters obliterated Rio's landscape and forced most of its population off-planet. In the end, neither side occupied the ruined world. Realizing Rio's strategic position in the Terran corridor, House Davion claimed the planet and used Rio as a base to support military action against House Liao for most of the Succession Wars. In 2980, the Confederation tried to retake Rio with an enormous aerospace assault that ended in spectacular defeat, leading to a major restructuring of Capellan aerospace forces. Conditions on Rio have not changed since the early Succession Wars. The Republic of the Sphere established self-sufficient cantonments to stabilize Rio's economy. Rio only sports two continents, both which sit astride the equator: Grando and Pequeno. The capital, Reno, is on Grando."
   },
   "Position": {
     "x": 95.38,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 12,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

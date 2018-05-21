@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Idlewind",
     "Name": "Idlewind",
-    "Details": " "
+    "Details": "[3025] Prefect Stefan Shor of Trondheim is attempting to promote Idlewind as a center for trade with the Periphery. The Kuritan government is quite amenable to the idea, but most Periphery traders are still uncomfortable about entering Kurita space for extensive negotiations.[3050] The Third Jaguar Cavaliers Assault Trinary, commanded by Star Colonel Paul Moon, dropped on to the lightly defended world of Idlewind in March 3050. Upon realizing that a single armored battalion of local militia stood ready to repel the invaders, Moon declared that the forces within his Assault Trinary would bid for the right to lead the rest in taking the world. The honour fell to two Points of Elementals, led by Star Commander Joal. The Star Commander issued a batchall to the defending militia, who agreed to meet the Elementals in a wooded area approximately two kilometer's from Idlewind's capital city. The Elementals dropped from their troop carrier straight into the woods; seconds later, dozens of napalm bombs planted by the militia exploded, setting off a raging inferno around them.Unfortunately for the militia, the napalm tactic only enraged the Elementals. Their armored suits were impervious to the fire, and the two Points emerged from the death-trap unscathed. Star Commander Joal and his troops led the Third Cavaliers' Assault Trinary in search of the enemy. Reasoning that the militia had probably gone to ground into the nearby capital, the Star Commander declared it a no-holds-barred target. Any enemy dishonorable to set a trap for its foe deserved no mercy. The Trinary's 'Mechs and Elementals swept through the city in a street-by-street search, destroying buildings and even tearing up pavements in search of the cowardly militia who refused to stand and fight.The city's inhabitants responded with defiance, taking up every weapon they could find to battle the invaders. Unfortunately for the people of Idlewind, shotguns and rifles and ancient troop carriers were no match for a Trinary of angry Clan Smoke Jaguar warriors. The Jaguars hunted down every defender they saw; within three hours, they had slaughtered half of the captial's inhabitants and reduced its buildings to rubble.[3059] During Operation Bulldog, the entire Smoke Jaguar Fifth Garrison Cluster on Idlewind abandoned the world, after receiving the recall order on the 13th August 3059. "
   },
   "Position": {
     "x": 123.55,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

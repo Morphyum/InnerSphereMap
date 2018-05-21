@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Baker3",
     "Name": "Baker 3",
-    "Details": " "
+    "Details": "Small and cold, Baker 3 is the only marginally terrestrial plant is a system populated by gas giants. Its twin domed cities house a modest population that serve's the 'Mech garrison and the administrative headquarters for a dozen orbital stations that mine the 'jovian' planets. The planet's thin carbon dioxide atmosphere gives the rocky wastes of the surface a distintly orange hue.[3025] One of Archon Katrina Steiner's first military innovations was the creation of the Witch Hunts of Gypsum and Baker 3. These large scale military exercises are held on these barren worlds every third year in an effort to train all branches of the military to work together. The culmination of this exercise is the hunting down and mock destruction of the Witch, the name given to a light mobile unit such as Winfield's Brigade or the Stealthy Tigers, which play the hunted enemy.The city of New Benner is the headquarters of Baker Pharmaceuticals. In recent years, Baker has faced serious financial and personnel problems. In 3023, the firm had to pay a huge 300 million S-Bill lawsuit when certain batches of synthetic molecular antibodies went toxic, killing over 100 soldiers in the LCAF. Sensing an easy kill, the Nashan conglomerate moved to take over Baker Pharmaceuticals the next year. To fight the takeover, CEO John Sleeth ordered his brokers to buy back all public Baker stocks at a substantially higher price than Nashan were offering. As a result, Baker Pharmaceuticals has been cutting costs and cutting back their staff. It is uncertain whether the company can survive the coming year, especially with Nashan circling like a shark.[3050] Because his combined-arms battalion stood at less than full strength, Colonel Matthew Anders defended his world against the Jade Falcon's by setting traps and ambushes, in August 3050. His forces destroyed a few OmniMechs and three Elemental Points using this tactic, but the militia's dishonorable strategy drove the warriors of Turkina Keshik to hunt down and kill every militia member they could find. Colonel Anders died in his command bunker when two Points of Flamer-equipped Elementals slipped past the militia lines and destroyed the HQ."
   },
   "Position": {
     "x": -104.47,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 14,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

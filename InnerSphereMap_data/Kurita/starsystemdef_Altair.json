@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Altair",
     "Name": "Altair",
-    "Details": " "
+    "Details": "Altair is a large, dry planet beneath a very unstable sun. The cause of the sun's frequent solar storms and violent flares is unknown, but such activity shuts down communications, sometimes for two months or more. Unsurprisingly, Altair has been raided often throughout it's history. The planet's underground rivers are the reason that a few areas do support vegetation. Around these green patches cluster the three billion inhabitants of the planet. Mining is a major industry, with five iron ore deposits and one titanium ore deposit presently being mined.The curious water in certain portions of the planet has given rise to the planet's second biggest firm, the Long Life Company. Headquartered in the city of Bonanza, this company grows certain herbs in Altarian Medicinal Water(as they call it) so that the herbs may be used in teas. Initially set up some 200 years ago, it now produces sophisticated chemical medications and hospital equipment, but still derives a good profit from its 'Tree of Life', 'Hands of a Loving Mother', and 'Secret of a Bull's Virility' tonics.[3025] Currently, the 18th Dieron Regulars are stationed on Altair."
   },
   "Position": {
     "x": 8.83,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

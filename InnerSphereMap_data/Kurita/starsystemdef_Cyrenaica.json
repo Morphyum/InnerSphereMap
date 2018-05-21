@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Cyrenaica",
     "Name": "Cyrenaica",
-    "Details": " "
+    "Details": "[3052] When Warlord Theodore Kurita allocated some of the Star League weapons given by ComStar to the Combine to the First Shin Legion, Tai-sa Chou Yanyouan knew his unit would face the Clans. Yanyouan felt confident in his knowledge of Clan equipment and tactics and so expected to give the Nova Cats a run for their money.When the Clan attacked in February 3052 without announcing their forces through the batchall, and then used the recently developed Smoke Jaguar tactic of sending the Clan's heaviest 'Mechs to tear up and down the defenders' lines, probing the farthest-flung elements with Striker Trinaries, and strafing the Legion's rear with aerospace assets, the terrified and confused Tai-sa ordered a fighting retreat.The Legion pulled back to the coastal city of Lasner and settled in for a siege. The Nova Cats immediately sent their aerospace assets to take out the Legion's long-range artillery, then drove their 'Mechs straight through the defenders and into the heart of the city. Here the Legion infantry finally held the tactical advantage long enough to destroy almost a Trinary's worth of the 179th Striker Cluster's OmniMechs. The First Shin Legion survived to limp offworld."
   },
   "Position": {
     "x": 156.56,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 17,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

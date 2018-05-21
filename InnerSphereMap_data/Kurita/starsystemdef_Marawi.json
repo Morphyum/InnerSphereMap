@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Marawi",
     "Name": "Marawi",
-    "Details": " "
+    "Details": "[3052] Clan Ghost Bear landed on Marawi in January 3052. Expecting little serious opposition from the green 41st Dieron Regulars who defended the world, Star Colonel Seija Harlow prepared for a short campaign. The 332nd Assault Cluster dropped east of the 41st, straight into a barrage of artillery. As the Bear 'Mechs sought cover, Star Colonel Harlow unleashed her fighters to find the guns. A wing of old-style fighter planes intercepted the Clan aerospace units, but the Bears blew the defenders out of the sky within 20 minutes. They then sought out the gun emplacements and razed them to the ground.No longer trapped by artillery fire, the 322nd slammed into the 41st from the left flank, rolling up the green unit as it went. The Bears made short work of the 41st, pursuing the retreating unit to the town of Hull along the roads leading to it from Brossard Woods. The Bear aerospace fighters caught the defenders just shy of the town and crushed them."
   },
   "Position": {
     "x": 62.28,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

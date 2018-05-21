@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Holmsbu",
     "Name": "Holmsbu",
-    "Details": " "
+    "Details": "[3050] Clan Ghost Bear landed on Holmsbu in March 3050. Defending the world were the Seventh and Eighth Corrugated Lancers  - 2 armored regiments supported by infantry. The Lancers were ill-prepared for a fight with battle-armored Elementals and fell quickly to the Clan troops' superior weapons and training. The Ghost Bears readily accepted the Lancers' surrender."
   },
   "Position": {
     "x": 57.67,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

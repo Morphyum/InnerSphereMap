@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zoetermeer",
     "Name": "Zoetermeer",
-    "Details": " "
+    "Details": "[3050] The gutted Tenth Donegal RCT and the Twelfth Star Guards' Third Regiment made a brave stand on Zoetermeer, between September and October 3050. Apparently possessing nothing the Clans would want, Zoetermeer came under attack for reasons still unknown to the Inner Sphere, though some people suggest a naval depot is hidden somewhere in the system. Khan Chistu ordered the Emerald Talon Assault Star to take the world without resorting to an orbital bombardment, a tactic the Clans abandoned in the wake of Clan Smoke Jaguar's destruction of Turtle Bay in retaliation for that planet's continued resistance. The Khan used the Emerald Talon mainly because he could spare no troops for the assault. Star Admiral Adrian Malthus positioned his ships above the capital city of Hohenzollern and bluffed the planetary forces into surrender by threatening the orbital bombardment he was barred from unleashing."
   },
   "Position": {
     "x": -78.07,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

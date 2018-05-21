@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Trip",
     "Name": "Trip",
-    "Details": " "
+    "Details": "Canopian history remembers Gorraine Centralla as one of the most important Magistixes because of her sponsorship of an exploration program that added several worlds to the Magistracy, the world of Adhara being one of them.Her reign was cut short in 2680, however, when she was travelling in an air transport that disappeared mysteriously in a remote mining region of Adhara. In Gorraine's absence, her granddaughter Kim was confirmed as interim Magistrix. Three years later, Kim took the title officially when the wreckage of Gorraine's airship was discovered. Though the cause of the crash remains a mystery, the date of her disappearance, June 17th, is a solemn legal holiday on Canopus. The anniversary is known as Gorraine Remembrance Day. "
   },
   "Position": {
     "x": -123.31,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TokDo",
     "Name": "Tok Do",
-    "Details": " "
+    "Details": "[3054] Alshain Weapons has had a difficult time of it lately. First, they destroyed their factories on Jarett before the Clans occupied, to keep them from falling into enemy hands. Then, Alshain was forced to disassemble the Panther plant on Krenice and relocate it two jumps away at Tok Do. The firm may not survive many more major setbacks."
   },
   "Position": {
     "x": 94.82,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +43,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 5,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

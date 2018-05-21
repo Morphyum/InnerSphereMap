@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Algol",
     "Name": "Algol",
-    "Details": " "
+    "Details": "An original world of the old Tikonov Union, Algol became an important agricultural center during the height of the Star League. Algol produced enough food to trade and supply all the worlds within one jump. A large world, Algol has two major continents and a few islands. The largest continent, Shalom, hosts three major cities as well as the planetary capital of Algol City. It is here that the planet's food exports are brought in for shipment off world through its large spaceport. Algol City was founded on the coast due to the large amount of fish found in the surrounding waters. Exploration of its remaining continent of Durant revealed the soil was highly enriched and could produce a wide range of agricultural products. The planet immediately began to grow and flourish due to this new discovery.During the Fourth succession War, Count Wayne Hargrove-Sung had negotiated the peaceful surrender of the 1st Ariana Fusiliers. In doing so, the Count saved the planet from suffering more damage than it already had. Algol had suffered little since the fall of the Star League and its people did not want to see that changed."
   },
   "Position": {
     "x": 64.88,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

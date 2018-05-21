@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Freedom",
     "Name": "Freedom",
-    "Details": " "
+    "Details": "The so-called Outer Reaches Rebellion began in early 2236 when the planet of Freedom declared itself independent from the Terran Alliance authority due to high taxes and social constainst imposed by the high-handed Terran plantary governors and administative officials. The proverbial straw that broke the camel's back came when Colonial Terran Governor Ardath Rathill imposed one tax scheme too many. He issued the Freedom Marriage Tax Bill, requiring that a mandatory dowry be paid to his office before it would issue appropriate marriage permits. This proved too much for the native Freedomians, who to this day are noted for their hot-natured natures.When Terra received the colonists' rambling, semi-coherent declaration of independence, military leaders saw it as a revolt, and Parliament took some semi-coherent action of its own. Armed, troop-carrying naval vessels moved quickly from Terra to the system's jump points and beyond. Upon arriving at the frontier, they carried out their orders.System jump points were blockaded, detachments of Alliance soldiers patrolled the streets, and colonists possessing weapons were summarily detained and harassed. Smuggled reports carried at great danger by blockade runners spread from world to world, helping to fan the flames of rebellion. Obviously, the Alliance would not acknowledge a peaceful act of secession. This could only mean war.As the conflict on Freedom and nearby worlds quickly escalated from martial law to full-scale guerrilla warfare, the Alliance's military response to the situation grew increasingly unpopular. When word of the fighting slowly spread throughout inhabited space, many still-loyal colonies expressed extreme dissatisfaction. Within a matter of months, what had begun as a mere handful of rebellious colonies had grown to several dozen.The Alliance military, which had been having enough trouble coping with the colonists' unorthodox tactics on just a few planets, now suddenly found its resources being stretched throughout known space. The sheer cost of mobilizing and transporting personnel and materiel to the frontier, not to speak of the actual costs of combat, rose to astronomical levels. Reports of colonists being executed (true but exaggerated), rumors of biochemical agents used (completely untrue), and Alliance casualty reports (increasing hourly) led to discontent on Terra.After a year of running battles on more than 50 worlds, the minority Liberal Party - and many Terrans normally disinterested in politics - made their feelings known. Describing the war as unwinnable, this group managed to vigorously block all efforts to obtain additional military funding. Low on supplies, manpower, and vessels, the Terran Alliances forces were slowly being forced to withdraw on most worlds. On the other planets, only a few small garrisons remained.The colonists had 'Won, if either side could win such an insidious conflict. Military and civilian casualties numbered in the hundreds of thousands. As for the material cost of the rebellion, it was estimated in the tens of billions of credits. The following stagnation of Terran politics lead to the demise of the Terran Alliance, some 80 years after the beginning of the Outer Reaches Rebellion. In July 2315, Fleet Admiral James McKenna announced the creation of the Terran Hegemony, eventually leading to the birth of the Star League.      [3025] Water Pure Industries, the largest of the five Commonwealth companies currently manufacturing water purification systems, has a small plant on Freedom."
   },
   "Position": {
     "x": -64.28,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +41,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Steiner",
   "ContractEmployers": [
@@ -145,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

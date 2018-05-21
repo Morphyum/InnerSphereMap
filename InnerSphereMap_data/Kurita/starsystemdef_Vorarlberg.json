@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Vorarlberg",
     "Name": "Vorarlberg",
-    "Details": " "
+    "Details": "[3051] The government of Vorarlberg sued for peace in November 3051, after the Red Keshik and Eleventh Wolf Guards decimated the defending Vorarlberg Royals battalion of 'Mechs and three regiments of infantry. The Two battles were only notable for the Royals' dogged determination and unflinching stupidity."
   },
   "Position": {
     "x": 24.29,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sonnia",
     "Name": "Sonnia",
-    "Details": " "
+    "Details": "Though this tropical planet was originally settled as a resort world by members of Tikonov aristocracy in the early 27th century, a high concentration of fissionable materials was discovered on Sonnia.  This led to the rapid development of local nuclear-oriented industries.  Today, Sonnia remains heavily garrisoned by Davion reserves, though the exact reason for the planet's continued importance is unclear.  One possible explanation is that, topographically, Sonnia presents a wider variety of terrain than nearly any known world, making it ideal for training practice maneuvers.  Paradoxically, no major battle has ever been fought on Sonnia. The natives seem to have a pragmatic political approach that could almost be mistaken for indifference.  That is, when asked to swear allegiance to Liao, they did so and went on with their business.  When later told they must then owe allegiance to Davion, they were equally cooperative.  Belying this easy-going attitude is the fact that the planet's most popular game is Counter-Spy: the Game of Switching Sides.  Sonnia is, however, regarded as a politically stable entry, with Counterspy a harmless diversion to which even the governor-general admits being addicted."
   },
   "Position": {
     "x": 123.55,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

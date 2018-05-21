@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ryerson",
     "Name": "Ryerson",
-    "Details": " "
+    "Details": "[2864] During the lull at the end of the Second Succession War, Captain General Philippa Marik dispatched several of her surviving scientist enclaves to the devastated world of Ryerson to repair the planets industrial base. The level of recovery achieved by these teams was remarkable, and is largely responsible for the economic viability of Ryerson today."
   },
   "Position": {
     "x": -75.42,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

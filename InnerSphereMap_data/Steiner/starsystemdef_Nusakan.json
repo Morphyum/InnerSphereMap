@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nusakan",
     "Name": "Nusakan",
-    "Details": " "
+    "Details": "Nusakan is a dim little world. Its one valuable resource is its abundance of high-grade silicon. Nusakan became a center of computer technology during the Star League era. Jobs City, the capital of Nusakan, was the headquarters of Interstellar Business Computers and Pottor Light Computers. The Terran Hegemony heavily defended the planet with the SDS system, three Castles Brian, and twice the normal number of military bases and spaceports.During the Amaris coup, Nusakan was the scene of heavy fighting. Republican troops ambushed SLDF units stationed there inside two of the Castles Brian. Present-day legends say that the fighting deep within the two forts continued for weeks, causing the land of nearby towns to shake with the underground explosions. The third base, Fort Romas, held out for a year before its was eliminated with a nuclear bomb.When General Kerensky's forces came to liberate the planet from the republican forces, the SDS destroyed many Star League warships. Two of them, the cruiser SLS Havana and the destroyer SLS Dularam, spent their final moments plummeting through Nusakan's atmosphere. The wreckage of the two ships can still be seen.The Castles Brian and the wrecks of their warships have yielded many useful artifacts. Unfortunately, the computer industry, which had been so large and vital, was razed by Amaris forces. Nothing has been found in the ashes of the factories."
   },
   "Position": {
     "x": -34.77,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

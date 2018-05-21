@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_PommeDeTerre",
     "Name": "Pomme De Terre",
-    "Details": " "
+    "Details": "[3025] Billings City is the headquarters of the Pomme De Terre Foods corporation. Producing food products that are simpler and sometimes tastier than Surinami's, this is possibly the result of the corporation's location on the most productive Kurita agricultural planet. Among Pomme De Terre's products are canned fruits and vegetables in almost recognizable forms. Their food is not as widely distributed as Surinami's and is more expensive, but is very popular wherever available. Pomme de Terre has recently begun a chain of fast food stands that has taken off like a firecracker.[3050] Several of the planet's prominent politicians had heard reports of high civilian casualties during battles against the seemingly unstoppable Clans. Because only a small planetary militia defended the planet, the politicians appealed to the ruling council of Pomme de Terre to surrender without a fight, reminding those who wavered of Clan Ghost Bear's equitable treatment of occupied populations.After days of debate, mere minutes before Star Colonel Stephan Huntsig issued his batchall in September 3050, the Council made its decision. Pomme de Terre surrendered unconditionally to Clan Ghost Bear, and the Clan left only a small garrison on the world."
   },
   "Position": {
     "x": 56.33,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

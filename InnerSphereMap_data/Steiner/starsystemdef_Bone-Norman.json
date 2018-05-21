@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Bone-Norman",
     "Name": "Bone-Norman",
-    "Details": " "
+    "Details": "[3050] Bone Norman's defenders received ample warning of the enemy's advance via a test run of an FCCS surveillance satellite network that coincided with the Falcon's approach. Colonel Dennis Merwin, commander of the First Grave Walkers, a mercenary 'Mech regiment, read the small number of approaching Clan DropShips as a sign of weakness and attacked the Falcons as they dropped onto the planet below the Red Stone Palace. The Grave Walkers initially beat back the Turkina Keshik, but as the Eighth Falcon Regulars arrived, the momentum of the battle swung in favor of the attackers. Warned of the enemy's strength, the planetary militia scattered and began guerrilla action. Bone Norman continues to be a hotbed of armed resistance to the Clans.[3054] The desolate periphery world of Bone-Norman has recently gained significance as the Jade Falcons try to use the forces here to secure their flank against the Federated Commonwealth. Combat in the wind-carved badlands of this planet has been described as positively eerie. "
   },
   "Position": {
     "x": -185.36,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

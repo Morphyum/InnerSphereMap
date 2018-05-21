@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Skye",
     "Name": "Skye",
-    "Details": " "
+    "Details": "Much more than just the capital of the Federation of Skye, Skye is the emotional heartland of many millions descended from Scottish-English-Irish ancestors. For them, the bleak green hills and cold, misty mornings on Skye were the closest thing to heaven outside of Scotland on Terra. The many succeeding generations on Skye have developed a deep emotional attachment to this world of contrasting landscapes, beneath twin suns.Despite all the publicity given to the planet's unspoiled landscape, Skye is a very industrialized planet. There are enough smelters, refineries, and  manufacturers to make any greedy businessman's heart happy. To counter the effects of these potential environmental disasters, the early founders of the planet kept over 50 percent of the planet wild and untamed. While this saved the land, it stifled economic prosperity and kept wealth in the hands of certain nobles and businessmen. Who was rich and who was poor has remained static for the hundreds of years since. This has made the social hierarchy rigid and stagnant, with few people able to move up the social ladder and many more actually descending.In late 2892, House Kurita launched its only major offensive against Skye. Three 'Mech regiments and twelve lesser units defended the planet, against them Coordinator Taragi Kurita sent five 'Mech regiments and 19 armor and infantry regiments. The Kurita soldiers encountered difficulties almost immediately after landing, as Commonwealth units responded with a fierceness never seen before. Particularly disturbing was the population's fanatical devotion to their world.Almost every day, the Skye guerrillas carried out some act of terrorism or sabotage against the occupying force. To this day, Commonwealth historians have not decided whether it was the shining moment of the LCAF, or its darkest day. The Steiner forces committed many atrocities, including the 'accidental' deaths of Kurita prisoners and the use of a tactical nuclear device to prevent a Kuritan thrust near Iverness.Though partizan actions slowed the offensive, it was eventually the unpredictable winter weather in the capital of New Glasgow that caused the most setbacks to the Kuritan forces. The crucial battle occurred at the Bannockburn Bogs. A Kurita 'Mech battalion accompanied by a tank regiment was sent to take New Glasgow. After fighting off an attack from the 17th Skye Rangers, the Kuritan forces were spread out over a large front as they began their march on the capital.As night fell, the Kuritan forces found their way blocked by a vast bog. They had no alternative but to stop for the night to encamp on a series of narrow concrete highways. During the night, Commonwealth troops moved into the bogs along paths only they knew. Surrounded and lined up like targets on the narrow roads, the Kuritans were badly mauled in the battle and forced to retreat. Though the struggle for the planet lasted another year, the Kuritan forces never regained the advantage. The cost of the campaign finally proved too much for the new Coordinator, and in early 2894, he reluctantly ordered his troops off the planet.[3025] The economic boom created by the Commonwealth's alliance with the Federated Suns has created considerable social unrest on Skye. Though many welcome the  opportunity for stimulating new influences, and hope for eventual social, economic, and land reforms, others still consider the Federated Suns an enemy. These hold rigidly to the old ways of doing things, including defending the wilderness to the death. Despite this clash, every long-time citizen of Skye has the same deep attachment to the planet and most born there never contemplate leaving it.Skye is also home to the Sanglamore military academy. Another former Star League academy, Sanglamore is the twin of the Nagelring. During House Kurita's attempt to take the planet, the academy was so damaged that it was no longer able to train Naval officers. Since then, Sanglamore has concentrated on producing the best MechWarriors and Warrant Officers possible. Though officially a Commonwealth academy, the school has a strong undercurrent of Federation separatist sentiment, with many graduates actively seeking to join the Skye Rangers.Raina University on Skye is the Lyran center for AeroSpace research. Its graduates usually go on to become the moving forces behind efforts to rediscover the technology of DropShip and JumpShip construction.The EarCandy Company of Skye, is the largest producer of musical and sensory recordings in the Commonwealth.<p> [3075] The Jihad has proven quite interesting for Skye, at least in the sense of the ancient Chinese proverb. In 3068, the world was raided by a Free Worlds League Warship allegedly under command of renegades. Troops under Sirian colors landed and waged a brutal battle for two days before retreating. This raid turned out to be only a foretaste of things to come. In 3069, the Word of Blake paid their first visit to the planet, but were stopped in space by a Lyran Warship. <p>In early 3073, intelligence reports became more and more persistent that the Word planned a second assault on Skye. Robert Kelswa-Steiner tried to reinforce the planet with troops loyal to him and Skye, but eventually he had to accept help from the outside. Devlin Stone offered him troops, and Kelswa-Steiner swallowed his pride to benefit his beloved homeworld. In March of 3075 roughly three regiments worth of troops, hailing from Clan Wolf, the Wolves-in-exile and the Com Guards, led by Devlin Stone himself, landed on the planet.</p><p>These troops arrived with barely enough time to for basic cooperative exercises when the Word of Blake attacked in June of 3075. The Word landed a total of four regiments worth of troops, both militia and mercenaries. When two allied Warships were destroyed by Blakist nuclear weapons, it is reported that Kelswa-Steiner came close to deploying nuclear weapons of his own against the Blakist ground units. However, the different allied factions successfully defended the capital of Skye, New Glasgow, in a four-week siege that ended with a rapid retreat by Word of Blake forces.</p><p>Skye has been hit hard. Before finally retreating, the Word managed to navigate a Warship to bombard the Sanglamore Academy complex and many key industrial complexes. Among others, Shipil Company lost their planet-based headquarters and some of their production facilities, while Avanti Motors was all but obliterated by orbital fire. The damage is in trillions of C-bills, and Skye will take a long time to recover from the assault.</p> "
   },
   "Position": {
     "x": -57,
@@ -17,16 +17,16 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_capital",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +45,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",

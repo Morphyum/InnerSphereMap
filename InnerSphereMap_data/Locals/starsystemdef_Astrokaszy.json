@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Astrokaszy",
     "Name": "Astrokaszy",
-    "Details": " "
+    "Details": "Huge bands of semi-barbarian nomads under the control of various Caliphs inhabit this dry wind-swept world. The Caliphate cities contain some notable remnants of technology, and a few even have the ability to manufacture munitions and energy weapons. For the most part however, technology is on the decline all across the planet.The inhabitants of Astrokaszy are the descendants of a mercenary band, the Crimson Reapers, that fought with the Free Worlds League until several Warrior House regiments of the Capellan Confederation mauled it. After breaking their contract with House Marik, the survivors raided several Marik supply centers before making their way into the Periphery, where they settled Astrokaszy in 2892. By 2905, a small number of city-states has emerged around the trading ports of the planet. By 3001, these city-states has joined together in a loose federation, earning diplomatic recognition from several Inner Sphere and Periphery powers, prompting ComStar to establish an HPG facility on Astrokaszy.The typical Astrokaszi is a fearless fighter and a lover of blood sports, who still practices the warrior life and philosophy of his ancestors. Indeed, since the planet's founding, the surviving population fragmented as it expanded, as charismatic leaders rose to form their own self-imposed rule. Many of Astrokaszy's cities still show a marked Moslem influence because of the influence of the original Crimson Reapers, many of whom were Moslems. The result is a collection of jewelled oases reminiscent of the Arabian Nights, though with a decidedly more sinister aspect."
   },
   "Position": {
     "x": -290.63,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Locals",
   "ContractEmployers": [
     "Locals"

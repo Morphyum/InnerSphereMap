@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Jeanette",
     "Name": "Jeanette",
-    "Details": " "
+    "Details": "The planet Jeanette is one big ocean. Though a few islands are sprinkled across the planet, the only sizeable solid surfaces are the polar ice caps.[3050] According to what the Smoke Jaguars had been able to learn, the world of Jeanette was undefended. They did not expect the battle they got from the Com Guards' unit Divine Light. The Light's commander, Precentor Kevin James, deplored ComStar's collusion with the Clans and chose to attack the Smoke Jaguars. The Jaguars, incensed at the assault by forces they had assumed were their allies, destroyed the unit. This incident temporarily strained relations between ComStar and the Clans until Precentor Martial Focht offered the Smoke Jaguar Khans a personal apology and agreed to pay restitution for the damage done to their 'Mechs."
   },
   "Position": {
     "x": 222.03,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +42,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 2,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

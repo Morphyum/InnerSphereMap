@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tybalt",
     "Name": "Tybalt",
-    "Details": " "
+    "Details": "Possessing small, shallow oceans, Tybalt's surface is dominated by eleven mountainous continents. Tybalt is wracked by tectonic activity, which has raised steep mountain ranges on all of its landmasses. Only one continent, Titania, is old and worn enough by erosion to be widely habitable. Although settlers have eked out livings as herders, trappers, and prospectors on nearly all of Tybalt's continents, its only significant population has always been located in or near MacBeth, Tybalt's capital and spaceport, which is located on Titania. Soon after MacBeth's founding, the neighboring worlds of the Tikonov Union sent military units to subjugate the planet. With no military force of its own, Tybalt's nascent government quickly voted to join the Union in 2225. When the Tikonov Union joined the Capellan Confederation 150 years later, Tybalt was one of several Tikonov worlds that requested protectorate status from the neighboring Terran Hegemony. Eventually, Tybalt was fully integrated into the Hegemony, and the factories of Jolassa Armored Vehicles, maker of the Star League Defense Force's Fury armored command vehicle, were built. After the fall of the First Star League, control of Tybalt reverted to the Capellan Confederation. Although its factories never suffered direct damage in the fighting, Jolassa was forced to close its doors during the First Succession War as the loss of advanced technologies made the Fury's sophisticated command computer useless. Tybalt remained part of the Confederation until the Fourth Succession War, when the Federated Suns gained control of MacBeth and drove the Capellan defenders from the planet."
   },
   "Position": {
     "x": 89.95,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",

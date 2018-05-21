@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Herotitus",
     "Name": "Herotitus",
-    "Details": " "
+    "Details": "Herotitus was jointly colonized in the late 2600's by the Magistracy of Canopus and the Taurian Concordat. Though situated in a prime position on the routes travelled by traders from the Concordat and the Magistracy, the Planet Herotitus passed through the various conflicts fought in the Periphery practically untouched. Because neither realm fully claimed it, the agricultural world held no strategic value to the various powers who sought to control the larger states.When the New Hedons, philosophical dissidents from the Taurian Concordat, arrived on Herotitus in 2997, they quickly took over the planet's minimal government. Firmly devoted to the belief that only those things that give pleasure possess intrinsic value, the New Hedons established governmental initiatives to create an industry providing the widest possible variety of physical and spiritual indulgences. Revenues from the pleasure industry and hefty trade tariffs support the expanded government required to administrate the resulting interstellar immigration laws and necessary law enforcement personnel.Most of Herotitus maintains the simple agrarian lifestyle established by the first settlers, as the Hedonists concentrated most of their industry into a limited number of locations. Because no single group dared disrupt the status quo on Herotitus for fear of reprisals from across the Periphery, freedom from war has allowed the planet's citizenry to prosper over the centuries. They currently produce sufficient marketable items and crops to support a modest trade in exports, and the revenue from this commerce is earmarked specifically for the non-industrial part of the society.New Hedon is the capital of Herotitus."
   },
   "Position": {
     "x": 58.73,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "Locals",
   "ContractEmployers": [
     "Locals"

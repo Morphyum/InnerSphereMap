@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ford",
     "Name": "Ford",
-    "Details": " "
+    "Details": "[3025] Both the Commonwealth government and the Free Worlds League require that all traders entering and leaving their realms sumbit to a vessel search. The LCAF usually carries out searches for House Steiner, a routine duty usually assigned to common soldiers who are not too diligent in their efforts. Ford is one the three most popular jump points for traders entering the Free Worlds League, which is quickly turning the planet into an economic boom world.[3028] Following the disastrous invasion attempt on Loric the proceeding March, House Marik regrouped its forces and lunched a less ambitious assault on the nearby planet of Ford. The initial landings in May 3028 proved successful, and the Marik invaders pushed the planetary garrison halfway across the planet's largest continent of Queensland, before reinforcements arrived and resistance stiffened.The battle lines formed along the Sinclair River Valley. The planet's major river, the Sinclair is a formidable natural obstacle, offering only five major crossing points along its entire length. Control of these points was vital for the continuing success of the Marik drive, and so House Steiner was determined to recapture or destroy them.Assembling a heavy counterattack force, the Lyrans struck the Marik positions at 0400 hours on the 12th May 3028. The Marik defenders fought desperately but could not stem the advance of the heavy Lyran 'Mechs. Several companies broke through and advanced on the vital bridges. Intense fighting erupted as both sides committed all their resources to win the battle. Finally, the Lyrans withdrew, after suffering heavy casualties. The Marik forces were in equally bad shape, however. After learning that additional Lyran reinforcements had arrived, the Marik forces regrouped and evacuated the planet."
   },
   "Position": {
     "x": -191.3,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

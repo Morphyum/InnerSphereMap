@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kandis",
     "Name": "Kandis",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Kandis in September 3050. Defending the world were the remnants of the Third Freemen, and the First and Second Kandis Mechanized Brigades. The Freemen put the lessons they had learned so painfully on Rasalhague to good use on Kandis. They, along with most of the Kandis militia, scattered themselves throughout the main continent of Cess, determined to hit and run from the invaders.This plan worked for several days, but when Khan Garth Radick finally recognized this strategy he ordered his forces to hit the defenders' communication and command structures. Of key importance to the Khan's plan was the death or capture of General Major Rhodes, the charismatic commander of the defending forces. The Wolf forces, comprised of Trinaries Command and Assault and Binary Elemental (of the 352nd Assault Cluster), along with the Silver Keshik, captured the general at his headquarters with a series of lightning raids, and resistance collapsed soon afterwards.The capital of Kandis is Coalston City."
   },
   "Position": {
     "x": -6.48,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

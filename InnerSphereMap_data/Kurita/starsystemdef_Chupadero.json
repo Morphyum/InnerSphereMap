@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Chupadero",
     "Name": "Chupadero",
-    "Details": " "
+    "Details": "[3050] Clan Smoke Jaguar landed on Chupadero in May 3050. Defending the world was the First Chupadero Armored Legion, consisting of 11 regiment of armor, 2 mobile infantry regiments and an aerospace wing. The Aerospace Trinary, 214th Jaguar Dragoons, decimated the antiquated fighters sent against them, quickly winning air superiority and buying the Assault Trinary time to hunt down the rest of the planet's defenders at their leisure.The Legion set 'Mech traps all over the floor of Dale Valley, but the Jaguar 'Mechs stepped over most of them and broke the tank regiment's ranks as it retreated. The battered remnant of the defenders entered the nearby Billoc Tunnels, through which they intended to return to the capital city of Fresdin and make a last-ditch stand. Rather than wait for the Legion to come out of hiding, Star Captain Wesley Moon took his unit into the tunnels and destroyed all of the First Legion's remaining vehicles."
   },
   "Position": {
     "x": 227.98,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 14,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

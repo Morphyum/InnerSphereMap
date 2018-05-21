@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_TellmansMistake",
     "Name": "Tellman's Mistake",
-    "Details": " "
+    "Details": "Close to the Periphery not far from the Rim Commonality, Tellman's Mistake is a strictly agricultural world that imports all its meat. It is named after Zacharias Tellman, who established the first colony there in 2460. Tellman was convinced that this world, with good soil, temperate weather, and no large predators, would be an ideal place for a colony of farmers. <br />When the colonists arrived, they found the world infested with small, bat-like, vampiric creatures whose bite - though only momentarily painful - injected saliva containing a natural anaesthesia that deadened the victim's nerves. Almost from the first day, the colonists began coming down with a mild fever that steadily worsened. Tellman frantically collected specimens of the animal and sent blood and tissue samples to the nearest clinic on far-off Regulus. As they waited for the results, most of the colonists recovered from the fever, but a few died, sparking heated debate as to whether they should stay.<br /><br />Within days, the colonists who recovered found themselves feeling stronger and more energetic than they ever had before, and after the first week, no one else died from the bites. Tellman insisted that this indicated that the deaths were probably due to some form of allergic reaction, and that the colony would be safe for those that survived. The lab reports from Regulus indicated that, except for people with a certain rare blood type, an enzyme in the animals' saliva stimulated the victim's immune system and increased the efficiency of his digestive system. Nearly six centuries later, the colonists' descendants still cultivate the animals for their medicinal properties, although they, like all the fauna of the planet, are inedible by humans.<br /><br />Tellman's faith in the colony had been vindicated. A year after the colony had been established, the first colonial legislature officially - and affectionately - christened the world \"Tellman's Mistake.\""
   },
   "Position": {
     "x": -243.53,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 14,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Loxley",
     "Name": "Loxley",
-    "Details": " "
+    "Details": "Loxley was settled by the embittered Scots-Irish refugees from the Stewart Confederacy. Having been forced off their colonies of York and Lancaster in 2346 by the Protectorate of Donegal, the luckless ex-Confederates gained a respite just long enough to raise their families and plant their roots.In 2378, Lyran Commonwealth Archon Robert Marsden, on a tour of the Commonwealth's holdings, arrived on Loxley. Expecting to find a small Lyran agro-colony on the world, Marsden was startled to find instead an independent community of over 15,000 people, with a highly developed cottage-industry base. Marsden quickly claimed Loxley as Commonwealth territory (and part of his personal estates) and invited the doughty natives to join him as part of his loyal constabulary. When the people refused, an enraged Marsden ordered his men to occupy the planet by force.This time, the Confederates fought back, but their sticks and stones were of little value against laser rifles and sonic mortars. Less than 1,500 Confederates - 10% of the original population - managed to survive the carnage, escaping in a lone Jumpship. No longer nursing any hopes of peaceful coexistence in the Inner Sphere, the Confederates headed into the Periphery.[3034] During garrison duty in 3034, Colonel Griff Storm and his Storm's Metal Thunder mercenary regiment, discovered a forgotten BattleMech factory in Loxley's Grey Mountains. Twelve years of hard work, huge loans from the Steiner government and additional financial support from investor Samuel Norse helped bring the plant on-line. Norse-Storm BattleMechs knew that to haul themselves out of their increasing debt, they needed a winning 'Mech design. In 3048, they produced that design - the Devastator assault 'Mech, based on Star League-era blueprints. Almost immediately the Federated Commonwealth signed an agreement to but Norse-Storm's entire production output of the new 'Mech."
   },
   "Position": {
     "x": -312.31,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

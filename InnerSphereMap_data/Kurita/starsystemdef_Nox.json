@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Nox",
     "Name": "Nox",
-    "Details": " "
+    "Details": "The world of Nox, with its many gem deposits, was the site of the first full-scale 'Mech-versus-'Mech battle in 2475, the so-called Battle of Beckvern Hill. Archon Michael Steiner's company of 'Mechs and heavy tanks moved against an equal number of House Kurita's 'Mechs from a Sword of Light regiment. In a three-hour engagement against the notoriously tenacious Kurita forces, the Archon's troops fought their way into the enemies rear areas. They then fanned out into lance-sized units to cause as much damage as possible to in the enemy's supply and communication centers.    Michael Steiner's command lance fought its way to the enemy's regimental headquarters. There, the former Archon managed to destroy the HQ, killing the commanding officer and staff before being killed by Kurita 'Mech reinforcements.Though this Kurita attack was neither successful nor strategically significant, it marked a major turning point in armed warfare. The few confrontations in military history that compare to it include the Monitor-vs.-Merrimack engagement in March, 1862 and the Battle of Coral Sea in May, 1942.Nox is also the headquarters of Metals of the Earth, based in the city of Jassen. Dating back to the Star League era, when it was a medium-sized mining firm, Metals of the Earth now also manufactures mining equipment, chemicals and synthetics, including myomers.Metals of the Earth has always been closely tied to the Kurita family. One of the original founding partners was a Kurita, and there has always been at least one Kurita on the Board of Directors. It is no surprise that Metals of the Earth gets the majority of valuable government contracts.[3052] Clan Wolf landed on Nox in February 3052. Defending the world was the First Nox Tank Regiment, and the First and Second Nox Infantry Regiments. The militia surrendered to Gamma Galaxy's Eleventh Battle Cluster soon after the battle for Bolson."
   },
   "Position": {
     "x": 13.17,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

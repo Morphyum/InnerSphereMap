@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sirdar",
     "Name": "Sirdar",
-    "Details": " "
+    "Details": "[3062] With their area of responsibility including the largest salient into Capellan territory, the Sirdar CMM has not lacked for combat. Over the past century, the militia has fought CCAF forces on sixty-two occasions, ranging from small lance-on-lance engagements to pitched battles. The unit believes prevention is better than a cure and has taken part in numerous tactical assaults against Liao positions. The unit has been rebuilt five times but always gets up for more, earning them a formidable reputation in the PDZ."
   },
   "Position": {
     "x": 127.16,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

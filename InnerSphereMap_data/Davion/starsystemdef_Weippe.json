@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Weippe",
     "Name": "Weippe",
-    "Details": " "
+    "Details": "[2581] In late 2581, the Davion auxiliary Corps, long hampered by lack of available transport due to the Taurians sneak attack of 2577, began their first offensives of the Reunification War in earnest. Despite capturing the agricultural world of Weippe, the Davion victory was hollow, at best. Knowing the fight was lost, the Concordat defenders put to the torch the vast stores of grains and foodstuffs that would have sustained the Federated Suns force for months."
   },
   "Position": {
     "x": 314.42,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

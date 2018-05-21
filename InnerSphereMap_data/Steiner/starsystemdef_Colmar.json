@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Colmar",
     "Name": "Colmar",
-    "Details": " "
+    "Details": "[3050] The 25th Arcturan Guards arrived on Colmar already tired from heavy fighting in the Clan Wolf invasion corridor to meet the Seventh Falcon Talon, in August 3050. A second-line Cluster, the Seventh were fresh from garrison duty. The Jade Falcon Khans decided that in order to catch up to Clan Wolf's rate of conquest, they would bring second-line forces to the front and risk losing a battle or two. The Seventh defeated the 25th Arcturan's, but their fighter pilots bungled a deep-space interception that would have annihilated the surviving enemy force. The Seventh's overall performance pleased the Khans.The capital city of Colmar is Doren.[3064] During the Falcon Incursion, Khan Vladimir Ward's Wolves attempted to make inroads into the Falcon's Occupation Zone. The 21st Wolf Regulars hit Colmar during December 3064, and managed to force the Falcon's 51st Garrison Cluster offworld, though both sides suffered heavy casualties. Unlike the Coventry Campaign of seven years previously, Khan Marthe Pryde was ready for a Wolf attack into her OZ and had troops in reserve.The First Falcon Striker, 7th Talon, Turkina Eyrie and 73rd Striker Clusters landed on Colmar during early June 3065, and by the end of the month forced the 21st Regulars to retreat with serious losses."
   },
   "Position": {
     "x": -66.18,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

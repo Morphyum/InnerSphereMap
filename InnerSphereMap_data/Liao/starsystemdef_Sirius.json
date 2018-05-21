@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sirius",
     "Name": "Sirius",
-    "Details": " "
+    "Details": "Sirius V is empty of life, save for what men had imported here early in the history of human expansion in the stars. At a distance of 8.7 light years from Terra, Sirius is one of old Earth's closest interstellar neighbors. The first manned outpost on this frigid, barren world was established not long after FTL transport became available in the 22nd century.The planet's atmosphere is a chill mix of hydrogen and nitrogen, the water is liquid ammonia. With a surface temperature rarely above -40 Celsius. Open flame cannot exist in this environment, though when heated the sub-zero chemical soup precipitates oily, red-brown clouds of sulphur and nitrogen compounds. Interference from Sirius's hot, young A1 star periodically raises havoc with communications.The first Sirian colony was et up to research the improbabilities of the Sirius system, which according to the astrophysical understanding of the time, was too young to even have planets. It was over a century later that Sirius V's considerable resources of heavy metals and transuranic minerals were discovered.The industrial and city complex known as the Heavenly Palace (Tiatan) was constructed by the Star League in the 26th Century to exploit the planet's resources. The largest of the five cavernous ferrocrete and steel domes contains the city proper, whilst the others contain hydroponics farms other support facilities.The Heavenly Palace was destroyed by rogue ComStar Precentor Rachan in 3027, in a plot to implicate the Gray Death Legion. Almost all the 12 million inhabitants perished."
   },
   "Position": {
     "x": -2.56,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_small",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "A",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

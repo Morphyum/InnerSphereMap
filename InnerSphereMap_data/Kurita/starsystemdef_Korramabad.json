@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Korramabad",
     "Name": "Korramabad",
-    "Details": " "
+    "Details": "Covered by open plains and sandy deserts, Korramabad punishes its inhabitants with a hot atmosphere that only the hardiest can tolerate. The inhabited area lies on the southern continent, which is slightly cooler because of a ring of high, rocky mountains threaded by narrow passes and deep gorges. Korramabad is one of the Inner Sphere's leading suppliers of industrial diamonds.[3056] Korramabad is currently in the midst of a revolution launched by Sir Timothy Bentlen in an attempt to unseat the ruling Duke Taikara Imushiu. Duke Imushiu, a die-hard supporter of the late Coordinator Takashi Kurita and the old Kurita ways of combat, has ruled over the citizens of Korramabad cruely since coming to power. Bentlen supports Coordinator Theodore Kurita and his reforms and intends to make these changes felt on his home planet.  "
   },
   "Position": {
     "x": 372.73,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 6,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Eleusis",
     "Name": "Eleusis",
-    "Details": " "
+    "Details": "Located at the edge of the Periphery, Eleusis is popular for its lakes. In 2360, the Sultan of Eleusis directed a public works project to lay out a series of small lakes, ponds, and lagoons so that a filigree of water extended for hundreds of miles in all directions. From overhead, the lakes resemble a decoration from the Sultan's favorite copy of the Koran.Suprisingly, Islam is not the predominant religion on Eleusis. In the last two centuries, there has been a revival of both animism and worship of Athena, the Greek goddess of wisdom. (Theologians of this religion point out that the people worship the aspect of wisdom and personify that aspect by giving it the name Athena.) The planet's religious diversity has led to problems, the worst being the age-old debacle between the Shi'ite and Sunni Moslems as to whether secular or religious authorities should control the government. The fact that Moslems comprise only 35 percent of Eleusis's population renders the question moot.The atmosphere of Eleusis contains traces of poisonous gases that can be breathed safely for only a few hours a day. Consequently, all buildings are air-conditioned, and inhabitants wear filtration devices when travelling outside."
   },
   "Position": {
     "x": -166.52,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Marik",
   "ContractEmployers": [
     "Locals",
@@ -144,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

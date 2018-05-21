@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tarazed",
     "Name": "Tarazed",
-    "Details": " "
+    "Details": "[3052] Clan Smoke Jaguars' Trinaries Assault and Battle, of the First Jaguar Guards, landed on Tarazed in April 3052. In a ferocious attack, their assault OmniMechs made short work of the defending Seventh and Thirteenth Tarazed Armored Regiments.[3059] The Seventh Jaguar Dragoons made the fatal mistake of granting their attackers safcon, in response to Kai Allard-Liao's batchall. They recalled their aerospace forces and allowed the SLDF ships to land unmolested. The Dragoons chose the Kyrchek Mountains as the place of the battle. Unfortunately, the Dragoons did not comprehend the size of the force arrayed against them, and so their chosen site proved disastrous. As the Seventh moved toward a network of canyons, the SLDF regiments cut them off and decimated them. The battle, and with it the first wave of Operation Bulldog, ended after just five days."
   },
   "Position": {
     "x": 126.13,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

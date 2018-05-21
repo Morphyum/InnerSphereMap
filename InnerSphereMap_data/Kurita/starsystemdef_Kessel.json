@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Kessel",
     "Name": "Kessel",
-    "Details": " "
+    "Details": "Although captured from the Lyran Commonwealth hundreds of years ago, Kessel still supports a strong underground movement agitating for freedom from the Draconis Combine.  The main underground force is the Kessel Freedom Fighters, who conduct hit-and-run attacks against military targets and the bureaucracy. The Draconis Combine decided to make Kesssel a prefecture capital at the beginning of the Third Succession War to assert its domination over the planet.  Since then, the toll of freedom fighters, soldiers, and petty bureaucrats killed here has climbed into the hundreds of thousands.  Hard-pressed to explain why they cannot get rid of the terrorist organizations, the ISF tends to blame it on aid from the Lyran Commonwealth and on Loki, Steiner's crack terrorist squad. Kessel is heavily industrialized.  In recent years, the pollution created by the industries has poisoned the clouds, contaminated the water, and tainted the land.Troops on Kessel wear life-support equipment when away from the protection of vehicles or buildings."
   },
   "Position": {
     "x": -13.13,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

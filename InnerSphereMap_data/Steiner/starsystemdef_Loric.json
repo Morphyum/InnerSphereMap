@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Loric",
     "Name": "Loric",
-    "Details": " "
+    "Details": "Loric has a temperate atmosphere, and medium sized cities (250,000 or more citizens). Even though various raids and invasion attempts throughout the Succession Wars have ruined some of the planet's beauty, its remaining gentle shorelines, rugged mountains, and deep, dark forests continue to make this world a favorite played of the rich in times of peace or near-calm."
   },
   "Position": {
     "x": -230.35,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",

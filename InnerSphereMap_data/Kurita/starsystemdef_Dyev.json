@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dyev",
     "Name": "Dyev",
-    "Details": " "
+    "Details": "[3025] Dyev is rough mining world. Its primary exports are vanadium and chromium. A large Kuritan airbase its situated at Trogport, to protect the valauble mining assets."
   },
   "Position": {
     "x": 5.68,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },

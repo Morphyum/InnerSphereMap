@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Andalusia",
     "Name": "Andalusia",
-    "Details": " "
+    "Details": "When Melissa Steiner married Hanse Davion in 3028, the Prince of the Federated Suns had paid vast sums to supply true Mycosia blossoms for the bridesmaids bouquets. The brilliant green, triangular flowers grew successfully only on one world, Andalusia, and blossomed only once a year. Hanse Davion had the flowers harvested and conveyed up to a command circuit of Jumpships to carry them to Terra in time for the ceremony.That romantic gesture created a demand for mycosia the like of which had never been seen in the annuls of mercantilism. Hundreds of scientists began work on breeding a version of the plant that would flower more often, in different colors, and on worlds other than Andalusia. This proved difficult, but the race was won by the New Avalon Istitute of Science in 3038. Mycosia Pseudflora entered the commercial market two year's later and thereafter became Melissa's trademark flower."
   },
   "Position": {
     "x": 391.34,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +42,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Davion",
   "ContractEmployers": [
@@ -147,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

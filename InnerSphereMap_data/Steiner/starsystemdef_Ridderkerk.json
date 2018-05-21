@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Ridderkerk",
     "Name": "Ridderkerk",
-    "Details": " "
+    "Details": "[3050] Clan Wolf landed on Ridderkerk in July 3050. Defending the world were the First Lyran Regulars RCT. The warriors of the Lion-Hearted, Alpha Galaxy's 328th Assault Cluster, hit their DZs and advanced on the capital of Vesinur unopposed. They were unaware that the commander of the First was in a coma as a result of a traffic accident and that this second could not control the unit.When the 32thy finally encountered the First Lyrans, lack of leadership and tactical coordination made even retreat offworld hopeless. At day's end, the First Lyran Regulars had ceased to exist."
   },
   "Position": {
     "x": -46.27,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

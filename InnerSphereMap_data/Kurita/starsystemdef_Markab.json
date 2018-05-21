@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Markab",
     "Name": "Markab",
-    "Details": " "
+    "Details": "Markab was settled in the early days of the 25th century by the Azami, a fanatical Muslim culture originating infrom the northern region of Terra's Africa continent, known for its fierce and dedicated warriors. Much of Markab strongly resembles the native lands of these proud people. The surface land of Markab is concentrated mostly in a single, giant supercontinent known as Al-Qoradana, which has few inland rivers or bodies of water of any sort. A few islands of various sizes pepper the oceans surrounding this great landmass, but it is on Al-Qoradana that the settlers established the majority of their cities. These early colonists, drawn by the hidden wealth of precious metals and hydrocarbons beneath the windswept surface of sand, rocks, and preciously few oases, carved their niche into the world despite a harmful bacteriological taint in the atmosphere.Resourceful, the Azami learned to overcome the ravages of the world's environment, and the planet flourished despite a campaign by the forces of the Draconis Combine to undercut their culture and independence. As a result of the Combine attacks, however, most of the Azami's water-purification plants were destroyed, and those that survived malfunctioned over time. Only in the last century or so, with the rediscovery of lost technologies, have the inhabitants of Markab been able to restore the lost ability to drink their own world's abundant seawater and use it for irrigation."
   },
   "Position": {
     "x": 97.7,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 3,
   "Owner": "Kurita",
   "ContractEmployers": [
     "ComStar",
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

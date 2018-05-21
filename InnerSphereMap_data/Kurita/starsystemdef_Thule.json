@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Thule",
     "Name": "Thule",
-    "Details": " "
+    "Details": "[3050] When Clan Ghost Bear announced its batchall for Thule in March 3050, the defending First Husars of the Rasalhague KungsÁrme refused to respond. Though she had no idea what a Galaxy represented, Överste Joannie Swigard massed her troops in the Fresdon Desert, a treacherous terrain for which her troops had been selectively trained, and prepared to do battle. A force of three Trinaries dropped onto the desert plain anticipating a swift victory, but the Clan force failed to take account for the incredible heat of Thule's noonday sun. Many Clan 'Mechs shut down after their first volleys, leaving them vulnerable to the Hussar's artillery. Before the Bears could restart their machines, they lost a full Trinary of equipment. The First then began a running battle, using their light 'Mechs to draw the Ghost Bear fire, move out of harms way, and then return to attack their overheated opponents.Star Colonel François Cole broke his bid first, ordering the remainder of his Cluster to approach the Husars from the east. The Husars had anticipated this strategy, and sent aerospace fighters to strafe the Third Bear Striker Cluster on its approach. In response, Star Colonel Stephan Hustig broke his bid and called in his aerospace elements. As the fighters danced overhead, the Fiftieth Striker Cluster (the Black Bears) advanced. The two Clan forces surrounded the First Husars but did not engage the enemy. Suspicious of the sudden calm, the Husars sent out recon units. When these units failed to return, Överste Swigard realized that the Bears had not given up, but were waiting for nightfall.Rather than waiting for the Clans to gain the advantage, the Husars decided to push at the Ghost bear lines while the sun was still high in the sky. Using an artillery barrage to cover its movement, the Husars struck at the Bears northern flank. When the Bears attempted to stem the tide by setting their lighter elements against the Husars, Överste Swigard simply maneuvered her troops away from the Bears heavier elements. Meanwhile the Husars infantry continued to tear huge holes in the Ghost Bears rear lines. Star Colonel Paul Vishio broke his bid next by calling in aerospace forces to silence the Husar's long-range guns.Deprived of their artillery, the Husars could do little but run. They made for the large river that bisected the Fresdon plain to meet their naval assets. An entire company sacrificed itself in the final push that allowed the Husars to board the massive cargo ships and head upriver. Unwilling to simply sink the cargo ships - a vote amongst the warriors present concluded this went against Clan honor - units were dispatched to follow the ships until they landed. With the majority of the Husars out of the picture, the Ghost Bear Khans declared Thule pacified, and left the 312th Assault Trinary behind to garrison Thule.The First Husars finally reappeared two months later and destroyed the 312th, forcing the Ghost Bears to re-pacify the world. The Golden Bears returned to Thule and caught the remainder of the First in the planet's frigid south lands. The Bears easily swept through the Husar's prepared positions, the Elementals taking control of the narrow trenches that the First had intended to use as fortifications. The battle ended almost before it began, and certain proof indicates that Joannie Swigard has already risen to warrior status from bondsman."
   },
   "Position": {
     "x": 93.06,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,7 +41,7 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 7,
   "Owner": "Kurita",
   "ContractEmployers": [
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

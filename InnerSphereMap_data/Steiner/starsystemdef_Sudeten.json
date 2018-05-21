@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sudeten",
     "Name": "Sudeten",
-    "Details": " "
+    "Details": "When Sudeten was first surveyed, its extreme changes in atmospheric weather patterns were major concerns. Upon further investigation, however, these concerns were considered acceptable risks due to the wealth of untapped resources Sudeten held. Some of the new colonists likened the planet's climate to that of the Highlands of old Scotland in the British Isles on Terra. Sudeten was found to have massive ore deposits and petroleum resources, which have made the planet an important world for the Tamar Pact.Sudeten has three continents, two of which are settled. Dargoth and Holcomb are large continents where most of Sudeten's resources are found. On Dargoth, the rebuilt Star League BattleMech factory, Olivetti Weaponry, close to the planetary capital of Patterson, is now operational. On Holcomb, Trellshire Heavy Industries is located just outside of the Compton Iron Ore Mines. Dagroth and Holcomb produce most of the planet's food supplies.In the southern polar region is the continent of Cheragain. This inhospitable continent offers nothing but a cold harsh environment that no one wants. Most of this continent is covered in thick ice flows. Here Lake Sudeten is situated between the Cheragain Ice Flows and the Kadaicha Mountain Range.[3050] The Gray Death Legion, one of the best mercenary units in the Inner Sphere, defended Sudeten by fighting a series of delaying actions to maul the Turkina Keshik and 124th Striker Cluster. The Legion escaped off-planet after the Sudeten Militia's 'Mech company sacrificed itself to hold off the Falcons long enough for the mercenaries to board their DropShips.The Olivetti Weaponry factory is actually a recently restored Star League 'Mech plant. Outdated by Clan standards, this factory appears to have some value to the Jade Falcons.[3060] Sudeten has become the Jade Falcon's \"provincial capital\" within the Inner Sphere."
   },
   "Position": {
     "x": -83.47,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -45,8 +44,8 @@
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
-  "FuelingStation": false,
-  "JumpDistance": 7,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Tukayyid",
     "Name": "Tukayyid",
-    "Details": " "
+    "Details": "First settled in the twenty-seventh century, Tukayyid is a relatively mild and somewhat arid planet. It is primarily an agricultural world, never deemed important enough to merit being garrisoned by a BattleMech regiment, with most of the landmasses comprised of grassy plains controlled by agrocombines. During the era of Kurita rule, several minority religions came to this world and set up monastic communities in the mountains, and in one case under the Crucible Sea. As a result the population of the world is relatively small, the government decentralized, with each corporation running its holdings like a fiefdom, except where the theocracies have carved out their little domains.All that changed in April 3052, when fleets of merchantmen chartered by ComStar came to evacuate the world's population. In May 3052, the largest battle in recorded history took place as over 10,000 Com Guards and Clan 'Mechs met on various fields of battle. After 20 days of fighting, an exhausted ComStar force stood victorious, having won a fifteen-year truce with the Clans. [3075] With the dissolution of the Second Star League, the Word of Blake wasted little time striking at its Comstar brothers. A Blakist fleet appeared in system on January 21st, 3068. They quickly swatted aside the ill-prepared Com Guard warships and began to lay siege to the planet. Among the casualties of the heavy fighting we the 21st Centauri Lancers and First Royal Battlemech Division. </p><p>The fighting continued until July 3070, when a Ghost Bear Fleet led by Star Colonel Ragnar arrived in system calling for the Word of Blake's unconditional surrender. Overestimating their chances, the Blakists warships in system were completely eradicated by the Ghost Bear <i>Leviathan</i>-class <i>Rasalhague</i>. The Blake forces attempted to scatter on planet, but were hunted down to the man.</p><p>Eventually with the integration of the Free Rasalhague Republic into the Ghost Bear Dominion, Comstar was forced to leave the planet in 3072.</p>"
   },
   "Position": {
     "x": -4.43,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +140,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

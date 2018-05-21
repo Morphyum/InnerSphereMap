@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Wyatt",
     "Name": "Wyatt",
-    "Details": " "
+    "Details": "Wyatt is a planet of deserts and bizarre rock formations.[2991] Much to the chargrin of Lyran forces, a Marik Liberation Unit dropped onto the Steiner world of Wyatt, infiltrated the Bowie Industries plant, and successfully stole four of the newest Chippewa fighters from there production silos."
   },
   "Position": {
     "x": -67.26,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -145,7 +142,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

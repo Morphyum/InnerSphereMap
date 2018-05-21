@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Dormandaine",
     "Name": "Dormandaine",
-    "Details": " "
+    "Details": "In contrast to the bleakness of the desert worlds of the Islamic cultures within the Alliance, Dormandaine is a rich agricultural planet that was first settled in 2990 by the sect known as the Gregorian Creed. The Gregorians currently number just over 10000 inhabitants, many of whom have managed to acquire considerable wealth by building large cattle and other meat-producing herds. The Greorians live in large extended families, which reflects the basic Gregorian belief that multiple marriages are necessary to repopulate the many shattered and war-weary worlds of the Alliance. Most Gregorians are married to several different spouses, with internal family councils playing the role of political legislatures and councils."
   },
   "Position": {
     "x": 462.32,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 16,
   "Owner": "Betrayers",
   "ContractEmployers": [
     "Betrayers",
@@ -147,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

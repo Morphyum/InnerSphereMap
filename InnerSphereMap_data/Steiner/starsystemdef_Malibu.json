@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Malibu",
     "Name": "Malibu",
-    "Details": " "
+    "Details": "[3050] Jade Falcon forces landed on Malibu in June 3050. The green troops of the Malibu Militia met the 89th Falcon Strikers four kilometers outside the capital, Malibu City. Within five minutes of joining battle. The militia broke and ran in a blind panic. Two Trinaries of the 89th pursued the fleeing troops back into the city, where the planetary administrator surrendered the world with no further resistance.Derided by both Clansmen and Inner Sphere military personnel as a coward, the administrator chose to save his people from being slaughtered by an invincible enemy. Malibu has been the least rebellious world in the Jade Falcon Occupation Zone.[3064] During the Falcon Incursion, General Adam Steiner jumped into the Malibu system on the 26th of October 3064. His forces succeeded in taking the system's nadir recharge station from Star Colonel Terrance and his Eighth Falcon Regulars, after a proxy battle on the Rothschild III asteroid. The civilian leadership of Malibu forbade General Steiner and his forces from landing on the world, however, apparently satisfied with continued life under Jade Falcon rule."
   },
   "Position": {
     "x": -145.31,
@@ -17,16 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +42,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",

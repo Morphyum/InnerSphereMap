@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Gronholt",
     "Name": "Gronholt",
-    "Details": " "
+    "Details": "Gronholt is such a poor world that many traders claim to not even know it's location.[3056] Baroness Tsanma has recently gone to war with Hoonaar, over the resources located by a joint exploration team. Forces from Gronholt have seized Hoonaar's southern continent, the location of the disputed resouces, and are laying siege to the rest of Hoonaar."
   },
   "Position": {
     "x": 466.05,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +43,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ContractEmployers": [
     "Davion",

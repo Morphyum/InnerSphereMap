@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Noisiel",
     "Name": "Noisiel",
-    "Details": " "
+    "Details": "[3056] Duke Michael Alextep is one of the most eccentric nobles in the entire Inner Sphere and also one of the richest. Every summer, Duke Michael holds The Games on his home planet of Noisiel. This yearly competition has only two contestants: Duke Michael and his best friend and business competitor, his son Heinrich. Every year the duke and his sun hire a number of MechWarrior's, many from Solaris, to compete in different BattleMech sports, including baseball, football, soccer, and the Duke's personal favorite, chess.In the duke's version of chess, a specific type of BattleMech takes the place of each chess piece. The game follows the standard chess rules, except that a piece that would normally be taken may fight t stay on the board. Four Wasps and Stingers serve as pawns. Griffins become the rooks, and Warhammers the knights. Shadow Hawks or Phoenix Hawks serve as bishops. The queen is either a modified Banshee or Zeus, and the duke and his son pilot the kings, which are Atlases.The Games allow the citizens of Noisiel to take a national holiday, and visitors from nearby worlds also join the festivities. All proceeds from the event support local charities."
   },
   "Position": {
     "x": -308.36,
@@ -17,16 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
+      "planet_size_medium",
       "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +45,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
@@ -145,7 +144,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Zurich",
     "Name": "Zurich",
-    "Details": " "
+    "Details": "Zurich is a pleasant world with a temperate atmosphere. When recent investigations into the jungles of Zurich's southern continent uncovered the remains of a Star League Dropship with three BattleMechs aboard, the planet's leaders immediately cleared the site and built a museum around the artifacts.  This popular new addition to Zurich's other numerous tourist attractions also includes an amusement park and an opera house.The military presence on Zurich is minimal.  Warriors are sometimes spacelifted there for R&R, but the lack of strategic significance and economic resources makes it one of the most benignly neglected of Liao worlds. It is, nevertheless, one of Maximilian Liao's personal favorites, and so unofficially receives tax advantages and favored trade status that has induced an artificial prosperity on the planet.The capital of Zurich is Daosha."
   },
   "Position": {
     "x": 20.15,
@@ -17,16 +17,14 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_size_medium",
+      "planet_pop_large",
+      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -46,7 +44,7 @@
   "MapRequiredTags": null,
   "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 4,
   "Owner": "Liao",
   "ContractEmployers": [
     "Liao",
@@ -145,7 +143,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "K",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Sierra",
     "Name": "Sierra",
-    "Details": " "
+    "Details": "The worlds of Sierra, Cerillos, and Galisteo make up the Trinity worlds, also known as the Southwestern Worlds. These hot, dry worlds had once been a bandit kingdom, styling itself the Intendancy of New Spain, prior to being conquered and absorbed by the Free Worlds League. This did much to win the fledging League acceptance from the Southwesterners' long suffering neighbors. The bulk of Trinitarians, red, white and brown were descended from residents of the ancient Terran states of Chiluahua, New Mexico, Arizona, and Sonora. The population is a curious mix of Cowboys, nortenos, Indians, and Jewboys. These Jewish Cowboys descended from Israeli refugees who didn't want to go along when many Jews went over to the Catholic church in protest against certain actions by the state of Israel back on Terra. Not wanting anything to with Orthodox Jews ever again, who they blamed for troubles back home, they decided to get as far away from them as they could. Santa Fé is the capital of Sierra.[3025] Located near the Lyran border, the sparsely developed, sleepy world of Sierra is one of the main trade routes from Marik space into the Periphery. It has an unusually large population of ex-spacers who are willing to share their knowledge of the mysterious beyond. It has become a tradition that traders who return successfully to this port, give a cut to anyone whose advice directly contributed to their success. This practise has surely increased the group's willingness to talk to outsiders."
   },
   "Position": {
     "x": -411.23,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "B",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

@@ -8,7 +8,7 @@
     "UIName": "",
     "Id": "starsystemdef_Rochelle",
     "Name": "Rochelle",
-    "Details": " "
+    "Details": "Rochelle is a rainy world, with violent thunderstorms that can turn a battlefield into a sea of mud in a matter of moments. It has been much fought over by Houses Steiner and Marik, each striving to gain control of the water and raw minerals common to the planet.[3025]Rochelle is home to the head offices of MediQuick Services. MediQuick's three Jumpships and twelve Dropships support a network of conventional ground and air freight vehicles that market medical equipment and supplies to over two dozen Marik worlds along the Steiner-Marik border. In a war where casualties are one of the only things booming, the market for MediQuick's product lines is strong. Nonetheless, there are consistent reports that the company's sales representatives engage in price-gouging and profiteering whenever possible to increase their gains.MediQuick has recently purchased four White Whale Mobile Surgical Hospital units, which they are renting to the League military on a long-term basis. The company's reputation for dishonesty and corner-cutting is so widespread that there have allegedly been a number of cases in which seriously injured MechWarriors have refused to be treated after seeing the MediQuick insignia - two yellow-edged white crosses on a scarlet background - on a MASH unit."
   },
   "Position": {
     "x": -113.79,
@@ -17,16 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
-      "planet_civ_periphery",
-      "planet_progress_1",
-      "planet_industry_agriculture",
+      "planet_size_medium",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_industry_aquaculture",
-      "planet_industry_mining",
-      "planet_name_detroit",
-      "planet_faction_independent"
+      "planet_industry_agriculture",
+      "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
@@ -144,7 +141,7 @@
   ],
   "AlternateSystem": false,
   "StarPosition": null,
-  "StarType": "G",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,
