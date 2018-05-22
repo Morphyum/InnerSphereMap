@@ -100,35 +100,41 @@ namespace ConsoleApplication1 {
                             faction = Faction.Steiner;
                             folder = "Steiner";
                             tags.Add("planet_civ_innersphere");
+                            tags.Add("planet_faction_steiner");
                             break;
                         case "Free Worlds League":
                             maxspecials++;
                             faction = Faction.Marik;
                             folder = "Marik";
                             tags.Add("planet_civ_innersphere");
+                            tags.Add("planet_faction_marik");
                             break;
                         case "Draconis Combine":
                             maxspecials++;
                             faction = Faction.Kurita;
                             folder = "Kurita";
                             tags.Add("planet_civ_innersphere");
+                            tags.Add("planet_faction_kurita");
                             break;
                         case "Federated Suns":
                             maxspecials++;
                             faction = Faction.Davion;
                             folder = "Davion";
                             tags.Add("planet_civ_innersphere");
+                            tags.Add("planet_faction_davion");
                             break;
                         case "Capellan Confederation":
                             maxspecials++;
                             faction = Faction.Liao;
                             folder = "Liao";
                             tags.Add("planet_civ_innersphere");
+                            tags.Add("planet_faction_liao");
                             break;
                         case "Aurigan Coalition":
                             faction = Faction.AuriganRestoration;
                             folder = "Aurigan";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_aurigan");
                             break;
                         case "ComStar":
                             maxspecials++;
@@ -140,21 +146,25 @@ namespace ConsoleApplication1 {
                             faction = Faction.MagistracyOfCanopus;
                             folder = "Magistracy";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_magistracy");
                             break;
                         case "Taurian Concordat":
                             faction = Faction.TaurianConcordat;
                             folder = "Taurian";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_taurian");
                             break;
                         case "Outworlds Alliance":
                             faction = Faction.Betrayers;
                             folder = "Outworld";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_outworlds");
                             break;
                         case "Marian Hegemony":
                             faction = Faction.AuriganDirectorate;
                             folder = "Hegemony";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_marian");
                             break;
                         case "Oberon Confederation":
                             faction = Faction.MagistracyCentrella;
@@ -163,11 +173,13 @@ namespace ConsoleApplication1 {
                             tags.Add("planet_civ_periphery");
                             tags.Add("planet_other_pirate");
                             tags.Add("planet_other_blackmarket");
+                            tags.Add("planet_faction_oberon");
                             break;
                         case "Lothian League":
                             faction = Faction.MajestyMetals;
                             folder = "Lothian";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_lothian");
                             break;
                         case "Circinus Federation":
                             faction = Faction.Nautilus;
@@ -176,11 +188,13 @@ namespace ConsoleApplication1 {
                             tags.Add("planet_civ_periphery");
                             tags.Add("planet_other_pirate");
                             tags.Add("planet_other_blackmarket");
+                            tags.Add("planet_faction_circinus");
                             break;
                         case "Illyrian Palatinate":
                             faction = Faction.AuriganMercenaries;
                             folder = "Illyrian";
                             tags.Add("planet_civ_periphery");
+                            tags.Add("planet_faction_illyrian");
                             break;
                         default:
                             faction = Faction.Locals;
