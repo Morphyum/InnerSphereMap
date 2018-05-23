@@ -1,3 +1,6 @@
+## GOG Version users:
+Don't replace the sharedassets6.assets file when installing. This will lead to some extra icons on the map but otherwise your game will crash.
+
 # InnerSphereMap
 The Inner Sphere Map is a BattleTech mod (using ModTek) adding the whole inner Sphere to the map.
 
@@ -52,8 +55,11 @@ Best enjoyed with:
 Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/releases).
     
 ## Install and use
+All:
 - After installing BTML and ModTek, put the CommanderPortraitLoader folder into the \BATTLETECH\Mods\ folder.
+Steam:
 - BACKUP \BATTLETECH\BattleTech_Data\sharedassets6.assets.
 - Put the mods\InnerSphereMap\BattleTech_Data folder into \BATTLETECH\ and say yes to the replace of one file.
+All:
 - Change any settings in mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json if you would like to.
 - Start a new campaign.
