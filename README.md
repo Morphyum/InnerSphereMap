@@ -43,6 +43,7 @@ Best enjoyed with:
 - There is no more local contracts and each planet generates 10 travel contracts.
 
 ## Tips
+- Don't freak out if loading to the main menu takes abit longer, modtek does its while the skull is displayed.
 - Since i am using the Tutorial skip you have to save and load once to use your commander in a mech.
 - The starting planet only has one random contract(this is a known bug), all other planets will have 10 travel contracts.
 - If you like local contracts back you have to edit mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json
