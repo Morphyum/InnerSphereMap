@@ -57,9 +57,11 @@ Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/re
 ## Install and use
 All:
 - After installing BTML and ModTek, put the CommanderPortraitLoader folder into the \BATTLETECH\Mods\ folder.
+
 Steam:
 - BACKUP \BATTLETECH\BattleTech_Data\sharedassets6.assets.
 - Put the mods\InnerSphereMap\BattleTech_Data folder into \BATTLETECH\ and say yes to the replace of one file.
+
 All:
 - Change any settings in mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json if you would like to.
 - Start a new campaign.
