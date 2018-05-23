@@ -6,15 +6,21 @@ The Inner Sphere Map is a BattleTech mod (using ModTek) adding the whole inner S
 
 * install [BattleTechModLoader](https://github.com/Mpstark/BattleTechModLoader/releases) using the [instructions here](https://github.com/Mpstark/BattleTechModLoader)
 * install [ModTek](https://github.com/Mpstark/ModTek/releases) using the [instructions here](https://github.com/Mpstark/ModTek)
-* install [RandomTravelContracts](https://github.com/Morphyum/RandomTravelContracts/releases) using the [instructions here](https://github.com/Morphyum/RandomTravelContracts)
+* install [RandomTravelContracts](https://www.nexusmods.com/battletech/mods/126?tab=files) using the [instructions here](https://www.nexusmods.com/battletech/mods/126)
 
 ## Recommended
-This mod is suposed to be hard and balanced around using the following mods:
 
-* [MechMaintenanceByCost](https://github.com/Morphyum/MechMaintenanceByCost)
-* [DropCostPerMech](https://github.com/Morphyum/DropCostPerMech)
-* [BrokenSalvagedMechs](https://github.com/Morphyum/BrokenSalvagedMechs)
-* [CompanyMechSalvage](https://github.com/Morphyum/CompanyMechSalvage)
+Best enjoyed with:
+* [MechMaintenanceByCost](https://www.nexusmods.com/battletech/mods/92)
+* [DropCostPerMech](https://www.nexusmods.com/battletech/mods/97)
+* [BrokenSalvagedMechs](https://www.nexusmods.com/battletech/mods/93)
+* [CompanyMechSalvage](https://www.nexusmods.com/battletech/mods/44)
+* [CommanderPortraitLoader](https://www.nexusmods.com/battletech/mods/84)
+* [Permanent Evasion](https://www.nexusmods.com/battletech/mods/94)
+* [True RNG Hit Rolls](https://www.nexusmods.com/battletech/mods/100)
+* [Real Hit Chance](https://www.nexusmods.com/battletech/mods/90)
+
+
 
 ## Features
 - Over 2000 planets added.
@@ -29,7 +35,8 @@ This mod is suposed to be hard and balanced around using the following mods:
 - There is no more local contracts and each planet generates 10 travel contracts.
 
 ## Tips
-This game expects you to do 2 skull missions with your starting lance, if you do fewer skulls you might get broke quickly.
+- The starting planet only has one random contract(this is a known bug), all other planets will have 10 travel contracts.
+- If you like local contracts back you have to edit mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json
 
 ## Download
 Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/releases).
