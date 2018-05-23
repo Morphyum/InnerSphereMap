@@ -17,8 +17,10 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_fungus",
+      "planet_other_mudflats",
+      "planet_climate_arid",
       "planet_pop_none",
       "planet_industry_poor",
       "planet_industry_aquaculture",
@@ -28,17 +30,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
     "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "badlandsParched"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

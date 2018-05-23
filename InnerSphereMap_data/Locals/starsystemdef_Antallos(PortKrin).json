@@ -17,9 +17,12 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_volcanic",
+      "planet_climate_mars",
+      "planet_other_hub",
       "planet_pop_small",
+      "planet_other_starleague",
       "planet_other_comstar",
       "planet_industry_research",
       "planet_industry_poor",
@@ -30,17 +33,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
     "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "badlandsParched"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

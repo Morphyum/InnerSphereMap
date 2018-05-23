@@ -17,13 +17,15 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_megaforest",
+      "planet_climate_terran",
       "planet_industry_manufacturing",
       "planet_pop_small",
       "planet_industry_poor",
       "planet_industry_aquaculture",
       "planet_industry_agriculture",
+      "planet_faction_steiner",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
@@ -33,13 +35,7 @@
     "highlandsFall",
     "lowlandsSpring",
     "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

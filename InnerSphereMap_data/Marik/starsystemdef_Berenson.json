@@ -17,30 +17,25 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_fungus",
+      "planet_other_mudflats",
+      "planet_climate_arid",
       "planet_pop_none",
+      "planet_other_starleague",
       "planet_other_comstar",
       "planet_industry_research",
       "planet_industry_poor",
       "planet_industry_aquaculture",
       "planet_industry_agriculture",
+      "planet_faction_marik",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
     "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "badlandsParched"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

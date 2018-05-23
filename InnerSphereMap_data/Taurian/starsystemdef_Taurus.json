@@ -17,15 +17,18 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_megaforest",
+      "planet_climate_terran",
       "planet_industry_manufacturing",
       "planet_pop_large",
       "planet_other_capital",
+      "planet_other_starleague",
       "planet_other_comstar",
       "planet_industry_research",
       "planet_industry_rich",
       "planet_industry_mining",
+      "planet_faction_taurian",
       "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
@@ -35,13 +38,7 @@
     "highlandsFall",
     "lowlandsSpring",
     "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "badlandsParched"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

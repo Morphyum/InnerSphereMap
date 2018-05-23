@@ -17,12 +17,13 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_climate_tropical",
       "planet_pop_none",
       "planet_industry_poor",
       "planet_industry_aquaculture",
       "planet_industry_agriculture",
+      "planet_faction_oberon",
       "planet_other_blackmarket",
       "planet_other_pirate",
       "planet_civ_periphery"
@@ -30,17 +31,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
     "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

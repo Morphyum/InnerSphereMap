@@ -17,27 +17,20 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_moon",
+      "planet_climate_lunar",
       "planet_pop_none",
       "planet_industry_recreation",
       "planet_industry_mining",
+      "planet_faction_davion",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
     "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "lunarVacuum"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

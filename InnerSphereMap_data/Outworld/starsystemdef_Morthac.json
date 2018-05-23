@@ -17,27 +17,20 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_volcanic",
+      "planet_climate_mars",
       "planet_pop_none",
       "planet_industry_recreation",
       "planet_industry_mining",
+      "planet_faction_outworlds",
       "planet_civ_periphery"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
     "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "badlandsParched"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

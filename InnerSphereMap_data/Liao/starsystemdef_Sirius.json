@@ -17,30 +17,24 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_other_moon",
+      "planet_climate_lunar",
       "planet_pop_small",
+      "planet_other_starleague",
       "planet_other_comstar",
       "planet_industry_research",
       "planet_industry_poor",
       "planet_industry_aquaculture",
       "planet_industry_agriculture",
+      "planet_faction_liao",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
     "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "lunarVacuum"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

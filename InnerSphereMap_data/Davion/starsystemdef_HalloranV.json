@@ -17,29 +17,22 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_climate_arctic",
       "planet_other_megacity",
       "planet_pop_large",
+      "planet_other_starleague",
       "planet_other_comstar",
       "planet_industry_research",
       "planet_industry_poor",
       "planet_industry_aquaculture",
       "planet_industry_agriculture",
+      "planet_faction_davion",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
     "polarFrozen",
     "tundraFrozen"
   ],

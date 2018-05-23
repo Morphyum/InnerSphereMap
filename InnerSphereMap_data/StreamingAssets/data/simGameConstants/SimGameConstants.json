@@ -3,7 +3,7 @@
 		"MaxJumpDistance": 60
 	},
 	"Finances" : {  
-		"ArgoBaseMaintenanceCost" : 130000
+		"ArgoBaseMaintenanceCost" : 100000
 	},
 	"Story": {
 		"PrologueStartingSystem": "Terra",

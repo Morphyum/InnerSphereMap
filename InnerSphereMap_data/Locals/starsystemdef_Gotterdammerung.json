@@ -17,8 +17,8 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_climate_arctic",
       "planet_pop_none",
       "planet_industry_poor",
       "planet_industry_aquaculture",
@@ -28,15 +28,6 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
     "polarFrozen",
     "tundraFrozen"
   ],

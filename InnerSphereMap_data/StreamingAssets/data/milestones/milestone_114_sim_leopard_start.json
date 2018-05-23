@@ -36,12 +36,13 @@
             "Requirements" : null,
             "AddedTags" : {
 			    "items" : [
+					"SYSTEM_UseEvents",
 					"SYSTEM_UseTime",
 					"map_travel_1",
 					"map_travel_2",
 					"map_travel_2a",
 					"map_travel_3",
-					"oc01_post_se2"
+					"story_complete"
 				],
                 "tagSetSourceFile" : ""
 			},
@@ -171,15 +172,14 @@
 					"value" : false,
 					"additionalValues" : [
 						"Kamea",
-						"Alexander",
-						"Farah"
+						"Alexander"
 					]
 				},
 
 				/* set in 000, repeated here for debug purposes */
                 {
                     "Type" : "System_SetTargetBreadcrumbSystem",
-                    "value" : "starsystemdef_Detroit",
+                    "value" : "starsystemdef_Terra",
                     "valueConstant" : null
                 },
 				
@@ -191,13 +191,7 @@
 				}
 			],
             "ForceEvents" : [
-				{
-					"Scope" : "Company",
-					"EventID" : "forcedevent_leopard_shakedown",
-					"MinDaysWait" : 9,
-					"MaxDaysWait" : 9,
-					"Probability" : 100
-				}
+				
 			],
             "TemporaryResult" : false,
             "ResultDuration" : 0

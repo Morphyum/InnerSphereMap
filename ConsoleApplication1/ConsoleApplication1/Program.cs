@@ -134,7 +134,7 @@ namespace ConsoleApplication1 {
                             faction = Faction.AuriganRestoration;
                             folder = "Aurigan";
                             tags.Add("planet_civ_periphery");
-                            tags.Add("planet_faction_aurigan");
+                            tags.Add("planet_faction_restoration");
                             break;
                         case "ComStar":
                             maxspecials++;
@@ -211,8 +211,12 @@ namespace ConsoleApplication1 {
 
                     bool fueling = false;
                     string details = " ";
+                    List<Biome.BIOMESKIN> biomes = new List<Biome.BIOMESKIN>(); ;
+                    bool newdatafound = false;
                     foreach (JObject newdataObject in newdataArray) {
+                        biomes = new List<Biome.BIOMESKIN>();
                         if (system["name"].Equals(newdataObject["Planet_Name"])) {
+                            newdatafound = true;
                             if (!string.IsNullOrEmpty((string)newdataObject["Description"])) {
                                 details = ((string)newdataObject["Description"]).Replace("\t", "").Replace("\\", "").Replace("</P>", "").Replace("<P>", "").Replace("\r", "").Replace("\n", "").Replace("</p>", "").Replace("<p>", "");
                                 if (details.Length > 255) {
@@ -237,6 +241,7 @@ namespace ConsoleApplication1 {
                             if (!string.IsNullOrEmpty((string)newdataObject["comstar_facility"]) && !((string)newdataObject["comstar_facility"]).Equals("None")) {
                                 tags.Add("planet_industry_research");
                                 tags.Add("planet_other_comstar");
+                                tags.Add("planet_other_starleague");
                                 maxspecials++;
                             }
                             if ((int)newdataObject["Capital_Planet"] == 1) {
@@ -266,7 +271,7 @@ namespace ConsoleApplication1 {
                                 tags.Add("planet_pop_none");
 
                             }
-                            if((int)newdataObject["Charge_Station"] == 1) {
+                            if ((int)newdataObject["Charge_Station"] == 1) {
                                 fueling = true;
                             }
                             if ((int)newdataObject["Factory"] == 123) {
@@ -274,24 +279,123 @@ namespace ConsoleApplication1 {
                                 maxspecials++;
                                 maxspecials++;
                             }
+                            if ((int)newdataObject["hiringhall"] == 1) {
+                                tags.Add("planet_other_hub");
+                            }
+                            switch ((int)newdataObject["terrain_class_ID"]) {
+                                case 1: {
+                                        tags.Add("planet_climate_terran");
+                                        tags.Add("planet_other_megaforest");
+                                        biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.highlandsFall);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsFall);
+                                        biomes.Add(Biome.BIOMESKIN.badlandsParched);
+                                        break;
+                                    }
+                                case 2: {
+                                        tags.Add("planet_climate_lunar");
+                                        tags.Add("planet_other_moon");
+                                        biomes.Add(Biome.BIOMESKIN.martianVacuum);
+                                        biomes.Add(Biome.BIOMESKIN.lunarVacuum);
+                                        break;
+                                    }
+                                case 3: {
+                                        tags.Add("planet_climate_desert");
+                                        tags.Add("planet_other_storms");
+                                        biomes.Add(Biome.BIOMESKIN.desertParched);
+                                        break;
+                                    }
+                                case 4: {
+                                        tags.Add("planet_climate_arid");
+                                        tags.Add("planet_other_mudflats");
+                                        tags.Add("planet_other_fungus");
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                                        biomes.Add(Biome.BIOMESKIN.badlandsParched);
+                                        break;
+                                    }
+                                case 5: {
+                                        tags.Add("planet_climate_arctic");
+                                        biomes.Add(Biome.BIOMESKIN.polarFrozen);
+                                        biomes.Add(Biome.BIOMESKIN.tundraFrozen);
+                                        break;
+                                    }
+                                case 6: {
+                                        tags.Add("planet_climate_tropical");
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsFall);
+                                        break;
+                                    }
+                                case 7: {
+                                        tags.Add("planet_climate_rocky");
+                                        biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.highlandsFall);
+                                        break;
+                                    }
+                                case 8: {
+                                        tags.Add("planet_climate_mars");
+                                        tags.Add("planet_other_volcanic");
+                                        biomes.Add(Biome.BIOMESKIN.martianVacuum);
+                                        biomes.Add(Biome.BIOMESKIN.badlandsParched);
+                                        break;
+                                    }
+                                case 10: {
+                                        tags.Add("planet_climate_terran");
+                                        tags.Add("planet_other_megaforest");
+                                        biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.highlandsFall);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsFall);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                                        break;
+                                    }
+                                case 18: {
+                                        tags.Add("planet_climate_water");
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                                        break;
+                                    }
+                                default: {
+                                        tags.Add("planet_climate_terran");
+                                        biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.highlandsFall);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsFall);
+                                        biomes.Add(Biome.BIOMESKIN.desertParched);
+                                        biomes.Add(Biome.BIOMESKIN.badlandsParched);
+                                        biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                                        biomes.Add(Biome.BIOMESKIN.lunarVacuum);
+                                        biomes.Add(Biome.BIOMESKIN.martianVacuum);
+                                        biomes.Add(Biome.BIOMESKIN.polarFrozen);
+                                        biomes.Add(Biome.BIOMESKIN.tundraFrozen);
+                                        break;
+                                    }
+                            }
+
                             break;
                         }
+
+                    }
+                    if (newdatafound) {
+                        tags.Add("planet_size_medium");
+                    }
+                    else {
+                        tags.Add("planet_climate_terran");
+                        tags.Add("planet_size_medium");
+                        biomes.Add(Biome.BIOMESKIN.highlandsSpring);
+                        biomes.Add(Biome.BIOMESKIN.highlandsFall);
+                        biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
+                        biomes.Add(Biome.BIOMESKIN.lowlandsFall);
+                        biomes.Add(Biome.BIOMESKIN.desertParched);
+                        biomes.Add(Biome.BIOMESKIN.badlandsParched);
+                        biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                        biomes.Add(Biome.BIOMESKIN.lunarVacuum);
+                        biomes.Add(Biome.BIOMESKIN.martianVacuum);
+                        biomes.Add(Biome.BIOMESKIN.polarFrozen);
+                        biomes.Add(Biome.BIOMESKIN.tundraFrozen);
                     }
 
-                    tags.Add("planet_size_medium"); 
-                    tags.Add("planet_climate_terran");
-                    List<Biome.BIOMESKIN> biomes = new List<Biome.BIOMESKIN>();
-                    biomes.Add(Biome.BIOMESKIN.highlandsSpring);
-                    biomes.Add(Biome.BIOMESKIN.highlandsFall);
-                    biomes.Add(Biome.BIOMESKIN.lowlandsSpring);
-                    biomes.Add(Biome.BIOMESKIN.lowlandsFall);
-                    biomes.Add(Biome.BIOMESKIN.desertParched);
-                    biomes.Add(Biome.BIOMESKIN.badlandsParched);
-                    biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
-                    biomes.Add(Biome.BIOMESKIN.lunarVacuum);
-                    biomes.Add(Biome.BIOMESKIN.martianVacuum);
-                    biomes.Add(Biome.BIOMESKIN.polarFrozen);
-                    biomes.Add(Biome.BIOMESKIN.tundraFrozen);
+
 
                     DescriptionDef desc = new DescriptionDef(("starsystemdef_" + system["name"]).Replace(" ", string.Empty).Replace("'", string.Empty), (string)system["name"], details, "", 0, 0, false, "", "", "");
                     StarSystemDef def2 = new StarSystemDef(desc, vector, tags, false, 7, faction, getAllies(faction), getEnemies(faction), def.SystemInfluence, def.TravelRequirements);
@@ -303,7 +407,7 @@ namespace ConsoleApplication1 {
                         }
                     }
 
-                    
+
                     ReflectionHelper.InvokePrivateMethode(def2, "set_FuelingStation", new object[] { fueling });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });

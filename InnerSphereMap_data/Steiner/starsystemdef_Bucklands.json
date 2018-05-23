@@ -17,27 +17,18 @@
   },
   "Tags": {
     "items": [
-      "planet_climate_terran",
       "planet_size_medium",
+      "planet_climate_water",
       "planet_pop_none",
       "planet_industry_rich",
       "planet_industry_mining",
+      "planet_faction_steiner",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,
