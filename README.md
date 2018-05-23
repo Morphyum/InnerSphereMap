@@ -62,6 +62,9 @@ Steam:
 - BACKUP \BATTLETECH\BattleTech_Data\sharedassets6.assets.
 - Put the mods\InnerSphereMap\BattleTech_Data folder into \BATTLETECH\ and say yes to the replace of one file.
 
+GoG:
+- Put the video from BATTLETECH\mods\InnerSphereMap\BattleTech_Data\StreamingAssets\Video into BATTLETECH\BattleTech_Data\StreamingAssets\Video.
+
 All:
 - Change any settings in mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json if you would like to.
 - Start a new campaign.
