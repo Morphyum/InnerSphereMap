@@ -1,6 +1,16 @@
 # InnerSphereMap
 The Inner Sphere Map is a BattleTech mod (using ModTek) adding the whole inner Sphere to the map.
 
+## Special Thanks
+This mod would not be possible without all the help i got so Special thanks to:
+
+- Callyste, for making the icons
+- LegendKiller [CSV], for providing his vectors of the icons
+- Jalif, for making the awesome cinematic
+- mpstark, for BTML without him we wouldn't have such awesome mods
+- SaltyHotDog, for helping me gather the data on the planets
+- Xavier, for providing us with the NBT data
+
 ## Requirements
 ** Warning: Uses the experimental BTML mod loader and ModTek that might change, come here again to check for updates **
 
@@ -19,8 +29,6 @@ Best enjoyed with:
 * [Permanent Evasion](https://www.nexusmods.com/battletech/mods/94)
 * [True RNG Hit Rolls](https://www.nexusmods.com/battletech/mods/100)
 * [Real Hit Chance](https://www.nexusmods.com/battletech/mods/90)
-
-
 
 ## Features
 - Over 2000 planets added.
@@ -44,6 +52,6 @@ Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/re
 ## Install and use
 - After installing BTML and ModTek, put the CommanderPortraitLoader folder into the \BATTLETECH\Mods\ folder.
 - BACKUP \BATTLETECH\BattleTech_Data\sharedassets6.assets.
-- Replace \BATTLETECH\BattleTech_Data\sharedassets6.assets with the one in the zip.
+- Put the mods\InnerSphereMap\BattleTech_Data folder into \BATTLETECH\ and say yes to the replace of one file.
 - Change any settings in mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json if you would like to.
 - Start a new campaign.
