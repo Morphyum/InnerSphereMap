@@ -59,6 +59,21 @@ namespace InnerSphereMap {
         }
         static void Postfix(StarmapRenderer __instance) {
             try {
+                var davionLogo = GameObject.Find("davionLogo");
+                var marikLogo = GameObject.Find("marikLogo");
+                var directorateLogo = GameObject.Find("directorateLogo");
+                directorateLogo?.SetActive(false);
+                davionLogo?.SetActive(false);
+                marikLogo?.SetActive(false);
+                var liaoLogo = GameObject.Find("liaoLogo");
+                liaoLogo?.SetActive(false);
+                var taurianLogo = GameObject.Find("taurianLogo");
+                taurianLogo?.SetActive(false);
+                var magistracyLogo = GameObject.Find("magistracyLogo");
+                magistracyLogo?.SetActive(false);
+                var restorationLogo = GameObject.Find("restorationLogo");
+                restorationLogo?.SetActive(false);
+
                 Texture2D texture2D2 = new Texture2D(2, 2);
                 byte[] data = File.ReadAllBytes("mods/InnerSphereMap/Logos/davionLogo.png");
                 texture2D2.LoadImage(data);
