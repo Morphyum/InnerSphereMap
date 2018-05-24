@@ -1,6 +1,3 @@
-## GOG Version users:
-Don't replace the sharedassets6.assets file when installing. This will lead to some extra icons on the map but otherwise your game will crash.
-
 # InnerSphereMap
 The Inner Sphere Map is a BattleTech mod (using ModTek) adding the whole inner Sphere to the map.
 
@@ -38,7 +35,7 @@ Best enjoyed with:
 - All the major factions added.
 - Factions now lose proper standing when you fight against them.
 - Removed Story.
-- Starting with the argo on Terra.
+- Starting with the argo on Galatea.
 - Raised jumping distance to fit for the map.
 - Raised Argo monthly costs for balancing reasons.
 - Faction Screen now shows your 8 highest factions.
@@ -55,16 +52,7 @@ Best enjoyed with:
 Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/releases).
     
 ## Install and use
-All:
-- After installing BTML and ModTek, put the CommanderPortraitLoader folder into the \BATTLETECH\Mods\ folder.
-
-Steam:
-- BACKUP \BATTLETECH\BattleTech_Data\sharedassets6.assets.
-- Put the mods\InnerSphereMap\BattleTech_Data folder into \BATTLETECH\ and say yes to the replace of one file.
-
-GoG:
+- After installing BTML and ModTek, put the InnerSphereMap folder into the \BATTLETECH\Mods\ folder.
 - Put the video from BATTLETECH\mods\InnerSphereMap\BattleTech_Data\StreamingAssets\Video into BATTLETECH\BattleTech_Data\StreamingAssets\Video.
-
-All:
 - Change any settings in mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json if you would like to.
 - Start a new campaign.
