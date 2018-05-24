@@ -27,7 +27,6 @@
       "planet_industry_poor",
       "planet_industry_aquaculture",
       "planet_industry_agriculture",
-      "planet_faction_steiner",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
@@ -39,11 +38,11 @@
   "MapExcludedTags": null,
   "FuelingStation": false,
   "JumpDistance": 12,
-  "Owner": "Steiner",
+  "Owner": "MercenaryReviewBoard",
   "ContractEmployers": [
     "Locals",
-    "Steiner",
-    "ComStar"
+    "ComStar",
+    "MercenaryReviewBoard"
   ],
   "ContractTargets": [
     "AuriganDirectorate",
@@ -51,12 +50,15 @@
     "AuriganPirates",
     "AuriganRestoration",
     "Betrayers",
+    "Davion",
     "Kurita",
     "Liao",
+    "MagistracyCentrella",
     "MagistracyOfCanopus",
     "MajestyMetals",
     "Marik",
     "Nautilus",
+    "Steiner",
     "TaurianConcordat"
   ],
   "ShopRefreshRate": 0,

@@ -179,7 +179,7 @@
 				/* set in 000, repeated here for debug purposes */
                 {
                     "Type" : "System_SetTargetBreadcrumbSystem",
-                    "value" : "starsystemdef_Terra",
+                    "value" : "starsystemdef_Galatea",
                     "valueConstant" : null
                 },
 				

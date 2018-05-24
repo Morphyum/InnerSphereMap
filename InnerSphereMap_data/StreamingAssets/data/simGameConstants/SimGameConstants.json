@@ -6,10 +6,10 @@
 		"ArgoBaseMaintenanceCost" : 100000
 	},
 	"Story": {
-		"PrologueStartingSystem": "Terra",
-		"DefaultStartingSystem": "Terra",
+		"PrologueStartingSystem": "Galatea",
+		"DefaultStartingSystem": "Galatea",
 		"StartingCoreSystems": [
-			"Terra"
+			"Galatea"
 		],
 		"StartingDisplayedFactions": [
 			"Steiner",
@@ -50,7 +50,7 @@
 		"MaxBreadcrumbsPerSystem": 10,
 		"MissionsForFirstBreadcrumb": 0,
 		"MissionsForAdditionalBreadcrumb": 0,
-		"StartingTargetSystem": "Terra"
+		"StartingTargetSystem": "Galatea"
 	}
 
 

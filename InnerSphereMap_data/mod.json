@@ -2,7 +2,7 @@
     "Name": "InnerSphereMap",
     "Enabled": true,
 
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Description": "Map of the Inner Sphere",
     "Author": "Morphyum",
     "Website": "https://github.com/Morphyum/InnerSphereMap",
@@ -29,6 +29,7 @@
 		{ "Type": "StarSystemDef", "Path": "Lothian\\" },
 		{ "Type": "StarSystemDef", "Path": "Circinus\\" },
 		{ "Type": "StarSystemDef", "Path": "Illyrian\\" },
+		{ "Type": "StarSystemDef", "Path": "MRB\\" },
 		{ "Type": "Sprite", "Path": "StreamingAssets\\emblems\\factions\\" },
 		{ "Type": "Texture2D", "Path": "StreamingAssets\\emblems\\factions\\" }	
     ]

@@ -202,6 +202,12 @@ namespace ConsoleApplication1 {
                             tags.Add("planet_civ_periphery");
                             break;
                     }
+                    if (((string)system["name"]).Equals("Galatea")){
+                        faction = Faction.MercenaryReviewBoard;
+                        folder = "MRB";
+                        tags.Remove("planet_faction_steiner");
+                    }
+
                     string beginjson = File.ReadAllText("C:/Users/morph/Desktop/Neuer Ordner (4)/starsystemdef_Detroit.json");
                     string name = (string)system["name"];
 
