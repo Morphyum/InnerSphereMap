@@ -28,7 +28,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
   "MapRequiredTags": null,
   "MapExcludedTags": null,

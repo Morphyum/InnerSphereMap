@@ -14,63 +14,7 @@ using static BattleTech.SimGameSpaceController;
 namespace ConsoleApplication1 {
     class Program {
         static void Main(string[] args) {
-            newmap();
-            /* string[] lines = System.IO.File.ReadAllLines(@"C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\mods\OldData\is3025_planets.txt");
-             foreach (string line in lines) {
-                 string[] words = line.Split(' ');
-                 string name = words[9];
-                 if (words.Length == 11) {
-                     name += " " + words[10];
-                 }
-                 FakeVector3 vector = new FakeVector3();
-                 string x = words[4].Replace("<", "").Replace(",", "");
-                 vector.x = float.Parse(x, CultureInfo.InvariantCulture);
-                 string y = words[6].Replace(">", "");
-                 vector.y = float.Parse(y, CultureInfo.InvariantCulture);
-                 vector.z = 0;
-                 DescriptionDef desc = new DescriptionDef("starsystemdef_" + name, name, " ", "", 0, 0, false, "", "", "");
-                 Faction faction;
-                 string folder = "";
-                 switch (words[2]) {
-                     case "LCPlanet":
-                         faction = Faction.Steiner;
-                         folder = "Steiner";
-                         break;
-                     case "FWLPlanet":
-                         faction = Faction.Marik;
-                         folder = "Marik";
-                         break;
-                     case "DCPlanet":
-                         faction = Faction.Kurita;
-                         folder = "Kurita";
-                         break;
-                     case "FSPlanet":
-                         faction = Faction.Davion;
-                         folder = "Davion";
-                         break;
-                     case "CCPlanet":
-                         faction = Faction.Liao;
-                         folder = "Liao";
-                         break;
-                     default:
-                         faction = Faction.Locals;
-                         folder = "Locals";
-                         break;
-                 }
-                 string beginjson = File.ReadAllText("C:/Users/morph/Desktop/Neuer Ordner (4)/starsystemdef_Terra.json");
-                 StarSystemDef def = new StarSystemDef();
-                 def.FromJSON(beginjson);
-
-                 StarSystemDef def2 = new StarSystemDef(desc, vector, def.Tags, false, 7, faction, def.ContractEmployers, def.ContractTargets, def.SystemInfluence, def.TravelRequirements);
-                 string json = def2.ToJSON();
-                 JObject jsonObject = JObject.Parse(json);
-                 JObject descriptionjson = (JObject)jsonObject["Description"];
-                 descriptionjson.Add("Id", "starsystemdef_" + name);
-                 descriptionjson.Add("Name", name);
-                 descriptionjson.Add("Details", " ");
-                 // string json = JsonConvert.SerializeObject(def2, new Newtonsoft.Json.Converters.StringEnumConverter());
-                 string path = "C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/mods/OldData/" + folder + "/starsystemdef_" + name + ".json";
-                 File.WriteAllText(path, jsonObject.ToString());*/
+            newmap();      
         }
 
         public static void newmap() {
@@ -359,6 +303,7 @@ namespace ConsoleApplication1 {
                                 case 18: {
                                         tags.Add("planet_climate_water");
                                         biomes.Add(Biome.BIOMESKIN.lowlandsCoastal);
+                                        biomes.Add(Biome.BIOMESKIN.highlandsSpring);
                                         break;
                                     }
                                 default: {
