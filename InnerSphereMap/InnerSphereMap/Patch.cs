@@ -15,6 +15,21 @@ using UnityEngine;
 
 namespace InnerSphereMap {
 
+    [HarmonyPatch(typeof(MainMenu), "Init")]
+    public static class MainMenu_Init_Patch {
+
+        static void Prefix(MainMenu __instance) {
+            try {
+                HBSRadioSet topLevelMenu = (HBSRadioSet)ReflectionHelper.GetPrivateField(__instance, "topLevelMenu");
+                topLevelMenu.RadioButtons.Find((HBSButton x) => x.GetText() == "Campaign").SetText("Sandbox");
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+
+            }
+        }
+    }
+
     [HarmonyPatch(typeof(SGCaptainsQuartersReputationScreen), "RefreshWidgets")]
     public static class SGCaptainsQuartersReputationScreen_RefreshWidgets {
 
