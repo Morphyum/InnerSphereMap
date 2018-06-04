@@ -1,0 +1,36 @@
+{
+    "Name": "InnerSphereMap",
+    "Enabled": true,
+
+    "Version": "0.2.1",
+    "Description": "Map of the Inner Sphere",
+    "Author": "Morphyum",
+    "Website": "https://github.com/Morphyum/InnerSphereMap",
+    "Contact": "",
+	
+	"DLL": "InnerSphereMap.dll",
+	
+	"DependsOn": [ "RandomTravelContracts"],
+	
+	"Manifest": [
+        { "Type": "StarSystemDef", "Path": "Aurigan" },
+		{ "Type": "StarSystemDef", "Path": "ComStar" },
+		{ "Type": "StarSystemDef", "Path": "Davion" },
+		{ "Type": "StarSystemDef", "Path": "Kurita" },
+		{ "Type": "StarSystemDef", "Path": "Liao" },
+		{ "Type": "StarSystemDef", "Path": "Locals" },
+		{ "Type": "StarSystemDef", "Path": "Magistracy" },
+		{ "Type": "StarSystemDef", "Path": "Marik" },
+		{ "Type": "StarSystemDef", "Path": "Steiner" },
+		{ "Type": "StarSystemDef", "Path": "Taurian" },
+		{ "Type": "StarSystemDef", "Path": "Outworld" },
+		{ "Type": "StarSystemDef", "Path": "Hegemony" },
+		{ "Type": "StarSystemDef", "Path": "Oberon" },
+		{ "Type": "StarSystemDef", "Path": "Lothian" },
+		{ "Type": "StarSystemDef", "Path": "Circinus" },
+		{ "Type": "StarSystemDef", "Path": "Illyrian" },
+		{ "Type": "StarSystemDef", "Path": "MRB" },
+		{ "Type": "Sprite", "Path": "StreamingAssets/emblems/factions" },
+		{ "Type": "Texture2D", "Path": "StreamingAssets/emblems/factions" }	
+    ]
+}
