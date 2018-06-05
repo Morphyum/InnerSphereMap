@@ -5,9 +5,13 @@ namespace InnerSphereMap
 {
     public class InnerSphereMap
     {
-        public static void Init() {
+        internal static string ModDirectory;
+         
+        public static void Init(string directory, string settingsJSON) {
             var harmony = HarmonyInstance.Create("de.morphyum.InnerSphereMap");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
+
+            ModDirectory = directory;
         }
     }
 
