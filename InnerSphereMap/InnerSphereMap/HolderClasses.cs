@@ -4,12 +4,22 @@ using System.Collections.Generic;
 
 namespace InnerSphereMap {
     public class Settings {
-        public float percentageOfMechCost = 0.0025f;
+        public List<float> KuritaRGB;
+        public List<float> SteinerRGB;
+        public List<float> OutworldsRGB;
+        public List<float> OberonRGB;
+        public List<float> LothianRGB;
+        public List<float> MarianRGB;
+        public List<float> CircinusRGB;
+        public List<float> IllyrianRGB;
+        public List<float> DavionRGB;
+        public List<float> LiaoRGB;
+        public List<float> MarikRGB;
+        public List<float> TaurianRGB;
+        public List<float> MagistracyRGB;
+        public List<float> RestorationRGB;
+        
 
-        public bool CostByTons = false;
-        public int cbillsPerTon = 500;
-
-        public List<float> KuritaRGB = new List<float>() { 0.863f, 0.078f, 0.235f };
     }
 
     public class Fields {

@@ -209,37 +209,55 @@ namespace InnerSphereMap {
 
         static void Postfix(StarmapRenderer __instance, ref Color __result, Faction thisFaction) {
             try {
-                if (__result == __instance.nofactionColor || __result == __instance.directorateColor) {
-                    Settings settings = Helper.LoadSettings();
-                    switch (thisFaction) {
-                        case Faction.Kurita:
-                            __result = new Color(settings.KuritaRGB[0], settings.KuritaRGB[1], settings.KuritaRGB[2], 1f);
-                            break;
-                        case Faction.Steiner:
-                            __result = new Color(0.255f, 0.412f, 0.882f, 1f);
-                            break;
-                        case Faction.Betrayers:
-                            __result = new Color(0.627f, 0.322f, 0.176f, 1f);
-                            break;
-                        case Faction.MagistracyCentrella:
-                            __result = new Color(1f, 1f, 0f, 1f);
-                            break;
-                        case Faction.MajestyMetals:
-                            __result = new Color(0.196f, 0.804f, 0.196f, 1f);
-                            break;
-                        case Faction.AuriganDirectorate:
-                            __result = new Color(1f, 0.549f, 0f, 1f);
-                            break;
-                        case Faction.Nautilus:
-                            __result = new Color(0.545f, 0f, 0f, 1f);
-                            break;
-                        case Faction.AuriganMercenaries:
-                            __result = new Color(0.741f, 0.718f, 0.420f, 1f);
-                            break;
-                        default:
-                            __result = __instance.nofactionColor;
-                            break;
-                    }
+
+                Settings settings = Helper.LoadSettings();
+                switch (thisFaction) {
+                    case Faction.Kurita:
+                        __result = new Color(settings.KuritaRGB[0], settings.KuritaRGB[1], settings.KuritaRGB[2], 1f);
+                        break;
+                    case Faction.Steiner:
+                        __result = new Color(settings.SteinerRGB[0], settings.SteinerRGB[1], settings.SteinerRGB[2], 1f);
+                        break;
+                    case Faction.Betrayers:
+                        __result = new Color(settings.OutworldsRGB[0], settings.OutworldsRGB[1], settings.OutworldsRGB[2], 1f);
+                        break;
+                    case Faction.MagistracyCentrella:
+                        __result = new Color(settings.OberonRGB[0], settings.OberonRGB[1], settings.OberonRGB[2], 1f);
+                        break;
+                    case Faction.MajestyMetals:
+                        __result = new Color(settings.LothianRGB[0], settings.LothianRGB[1], settings.LothianRGB[2], 1f);
+                        break;
+                    case Faction.AuriganDirectorate:
+                        __result = new Color(settings.MarianRGB[0], settings.MarianRGB[1], settings.MarianRGB[2], 1f);
+                        break;
+                    case Faction.Nautilus:
+                        __result = new Color(settings.CircinusRGB[0], settings.CircinusRGB[1], settings.CircinusRGB[2], 1f);
+                        break;
+                    case Faction.AuriganMercenaries:
+                        __result = new Color(settings.IllyrianRGB[0], settings.IllyrianRGB[1], settings.IllyrianRGB[2], 1f);
+                        break;
+                    case Faction.Davion:
+                        __result = new Color(settings.DavionRGB[0], settings.DavionRGB[1], settings.DavionRGB[2], 1f);
+                        break;
+                    case Faction.Liao:
+                        __result = new Color(settings.LiaoRGB[0], settings.LiaoRGB[1], settings.LiaoRGB[2], 1f);
+                        break;
+                    case Faction.Marik:
+                        __result = new Color(settings.MarikRGB[0], settings.MarikRGB[1], settings.MarikRGB[2], 1f);
+                        break;
+                    case Faction.TaurianConcordat:
+                        __result = new Color(settings.TaurianRGB[0], settings.TaurianRGB[1], settings.TaurianRGB[2], 1f);
+                        break;
+                    case Faction.MagistracyOfCanopus:
+                        __result = new Color(settings.MagistracyRGB[0], settings.MagistracyRGB[1], settings.MagistracyRGB[2], 1f);
+                        break;
+                    case Faction.AuriganRestoration:
+                        __result = new Color(settings.RestorationRGB[0], settings.RestorationRGB[1], settings.RestorationRGB[2], 1f);
+                        break;
+                    default:
+                        __result = __instance.nofactionColor;
+                        break;
+
                 }
             }
             catch (Exception e) {
