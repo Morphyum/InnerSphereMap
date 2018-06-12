@@ -1,5 +1,6 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
+using System.Collections.Generic;
 
 namespace InnerSphereMap {
     public class Settings {
@@ -7,6 +8,8 @@ namespace InnerSphereMap {
 
         public bool CostByTons = false;
         public int cbillsPerTon = 500;
+
+        public List<float> KuritaRGB = new List<float>() { 0.863f, 0.078f, 0.235f };
     }
 
     public class Fields {

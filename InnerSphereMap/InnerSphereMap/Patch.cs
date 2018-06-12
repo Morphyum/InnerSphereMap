@@ -215,9 +215,10 @@ namespace InnerSphereMap {
         static void Postfix(StarmapRenderer __instance, ref Color __result, Faction thisFaction) {
             try {
                 if (__result == __instance.nofactionColor || __result == __instance.directorateColor) {
+                    Settings settings = Helper.LoadSettings();
                     switch (thisFaction) {
                         case Faction.Kurita:
-                            __result = new Color(0.863f, 0.078f, 0.235f, 1f);
+                            __result = new Color(settings.KuritaRGB[0], settings.KuritaRGB[1], settings.KuritaRGB[2], 1f);
                             break;
                         case Faction.Steiner:
                             __result = new Color(0.255f, 0.412f, 0.882f, 1f);
