@@ -18,8 +18,11 @@ namespace InnerSphereMap {
         public List<float> TaurianRGB;
         public List<float> MagistracyRGB;
         public List<float> RestorationRGB;
-        
 
+        public float MinFov;
+        public float MaxFov;
+        public float MapWidth;
+        public float MapHeight;
     }
 
     public class Fields {

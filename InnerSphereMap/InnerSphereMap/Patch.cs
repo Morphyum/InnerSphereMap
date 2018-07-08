@@ -210,7 +210,7 @@ namespace InnerSphereMap {
         static void Postfix(StarmapRenderer __instance, ref Color __result, Faction thisFaction) {
             try {
 
-                Settings settings = Helper.LoadSettings();
+                Settings settings = InnerSphereMap.SETTINGS;
                 switch (thisFaction) {
                     case Faction.Kurita:
                         __result = new Color(settings.KuritaRGB[0], settings.KuritaRGB[1], settings.KuritaRGB[2], 1f);
@@ -263,6 +263,45 @@ namespace InnerSphereMap {
             catch (Exception e) {
                 Logger.LogError(e);
             }
+        }
+    }
+
+    // The original method had a rectangular normalization here -- it did 56% of the y axis
+    [HarmonyPatch(typeof(StarmapRenderer), "NormalizeToMapSpace")]
+    public static class StarmapRenderer_NormalizeToMapSpace_Patch
+    {
+        static bool Prefix(StarmapRenderer __instance, Vector2 normalizedPos, ref Vector3 __result)
+        {
+            // Reminder -- normalizedPos is normalized between [0,1]
+            // This normalizes it between [-100,100]
+            Vector3 newResult = normalizedPos;
+            newResult.x = (newResult.x * 2f - 1f) * InnerSphereMap.SETTINGS.MapWidth;
+            newResult.y = (newResult.y * 2f - 1f) * InnerSphereMap.SETTINGS.MapHeight;
+            newResult.z = 0f;
+
+            __result = newResult;
+
+            return false;
+        }
+    }
+
+    // We want control of our FOV
+    [HarmonyPatch(typeof(StarmapRenderer), "Update")]
+    public static class StarmapRenderer_Update_Patch
+    {
+        static void Postfix(StarmapRenderer __instance)
+        {
+            // Two private fields
+            Traverse travInstance = Traverse.Create(__instance);
+            float zoomLevel = travInstance.Field("zoomLevel").GetValue<float>();
+            Camera fakeCamera = travInstance.Field("fakeCamera").GetValue<Camera>();
+
+            // starMapCamera is public
+            Camera starMapCamera = __instance.starmapCamera;
+
+            // We want to readjust the field of view given our own min and max
+            starMapCamera.fieldOfView = Mathf.Lerp(InnerSphereMap.SETTINGS.MinFov, InnerSphereMap.SETTINGS.MaxFov, zoomLevel);
+            fakeCamera.fieldOfView = __instance.starmapCamera.fieldOfView;             
         }
     }
 }
