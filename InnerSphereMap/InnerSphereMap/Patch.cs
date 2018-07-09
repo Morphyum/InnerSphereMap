@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Reflection.Emit;
 using TMPro;
 using UnityEngine;
 
@@ -285,23 +287,62 @@ namespace InnerSphereMap {
         }
     }
 
-    // We want control of our FOV
+    
     [HarmonyPatch(typeof(StarmapRenderer), "Update")]
     public static class StarmapRenderer_Update_Patch
     {
-        static void Postfix(StarmapRenderer __instance)
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            // Two private fields
-            Traverse travInstance = Traverse.Create(__instance);
-            float zoomLevel = travInstance.Field("zoomLevel").GetValue<float>();
-            Camera fakeCamera = travInstance.Field("fakeCamera").GetValue<Camera>();
+            List<CodeInstruction> instructionList = instructions.ToList();
 
-            // starMapCamera is public
-            Camera starMapCamera = __instance.starmapCamera;
+            try
+            {
+                // Targetting the line: float num4 = Mathf.Lerp(150f, 70f, this.zoomLevel);
+                int index0 = instructionList.FindIndex(instruction => ((object)150f).Equals(instruction.operand));
+                int index1 = instructionList.FindIndex(instruction => ((object)70f).Equals(instruction.operand));
+                if (index1 - index0 == 1) // Make sure these two calls are adjacent -- since it should be loading the stack
+                {
+                    instructionList[index0].operand = InnerSphereMap.SETTINGS.GetXBoundaryForMinFov();
+                    instructionList[index1].operand = InnerSphereMap.SETTINGS.GetXBoundaryForMaxFov();
+                }
 
-            // We want to readjust the field of view given our own min and max
-            starMapCamera.fieldOfView = Mathf.Lerp(InnerSphereMap.SETTINGS.MinFov, InnerSphereMap.SETTINGS.MaxFov, zoomLevel);
-            fakeCamera.fieldOfView = __instance.starmapCamera.fieldOfView;             
+                // Targetting the line: float num5 = Mathf.Lerp(99f, 50f, this.zoomLevel);
+                int index2 = instructionList.FindIndex(instruction => ((object)99f).Equals(instruction.operand));
+                int index3 = instructionList.FindIndex(instruction => ((object)50f).Equals(instruction.operand));
+                if (index3 - index2 == 1)  // Make sure these two calls are adjacent -- since it should be loading the stack
+                {
+                    instructionList[index2].operand = InnerSphereMap.SETTINGS.GetYBoundaryForMinFov();
+                    instructionList[index3].operand = InnerSphereMap.SETTINGS.GetYBoundaryForMaxFov();
+                }
+
+                // Targetting the line: this.starmapCamera.fieldOfView = Mathf.Lerp(this.fovMin, this.fovMax, this.zoomLevel);
+                FieldInfo fovMinInfo = AccessTools.Field(typeof(StarmapRenderer), nameof(StarmapRenderer.fovMin));
+                int fovMinIndex = instructionList.FindIndex(instruction => fovMinInfo.Equals(instruction.operand));
+               
+                // First remove the previous ldarg.0 (StarmapRenderer.this)
+                instructionList[fovMinIndex - 1].opcode = OpCodes.Nop;
+
+                // Now change the load from this.fovMin to InnerSphereMap.SETTINGS.MinFov
+                instructionList[fovMinIndex].opcode = OpCodes.Ldc_R4;
+                instructionList[fovMinIndex].operand = InnerSphereMap.SETTINGS.MinFov;
+
+                FieldInfo fovMaxInfo = AccessTools.Field(typeof(StarmapRenderer), nameof(StarmapRenderer.fovMax));
+                int fovMaxIndex = instructionList.FindIndex(instruction => fovMaxInfo.Equals(instruction.operand));
+
+                // First remove the previous ldarg.0 (StarmapRenderer.this)
+                instructionList[fovMaxIndex - 1].opcode = OpCodes.Nop;
+
+                // Now change the load from this.fovMax to InnerSphereMap.SETTINGS.MaxFov
+                instructionList[fovMaxIndex].opcode = OpCodes.Ldc_R4;
+                instructionList[fovMaxIndex].operand = InnerSphereMap.SETTINGS.MaxFov;
+
+                return instructionList;
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e);
+                return instructions;
+            }
         }
     }
 }
