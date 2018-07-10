@@ -12,8 +12,6 @@ This mod would not be possible without all the help i got so Special thanks to:
 - Xavier, for providing us with the NBT data
 
 ## Requirements
-** Warning: Uses the experimental BTML mod loader and ModTek that might change, come here again to check for updates **
-
 * install [BattleTechModLoader](https://github.com/Mpstark/BattleTechModLoader/releases) using the [instructions here](https://github.com/Mpstark/BattleTechModLoader)
 * install [ModTek](https://github.com/Mpstark/ModTek/releases) using the [instructions here](https://github.com/Mpstark/ModTek)
 * install [RandomTravelContracts](https://www.nexusmods.com/battletech/mods/126?tab=files) using the [instructions here](https://www.nexusmods.com/battletech/mods/126)
@@ -48,9 +46,13 @@ Best enjoyed with:
 - The starting planet only has one random contract(this is a known bug), all other planets will have 10 travel contracts.
 - If you like local contracts back you have to edit mods\InnerSphereMap\StreamingAssets\data\simGameConstants\simGameConstants.json
 
+## Settings
+- [FACTION]RGB- List<float> - RGB Colors for the different factions on the map (r,g,b) range:0-1
+
 ## Download
 Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/releases).
     
+
 ## Install and use
 - After installing BTML and ModTek, put the InnerSphereMap folder into the \BATTLETECH\Mods\ folder.
 - Put the video from BATTLETECH\mods\InnerSphereMap\BattleTech_Data\StreamingAssets\Video into BATTLETECH\BattleTech_Data\StreamingAssets\Video.
