@@ -152,7 +152,7 @@ namespace ConsoleApplication1 {
                         tags.Remove("planet_faction_steiner");
                     }
 
-                    string beginjson = File.ReadAllText("C:/Users/morph/Desktop/Neuer Ordner (4)/starsystemdef_Detroit.json");
+                    string beginjson = File.ReadAllText(@"C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\mods\OldData\starsystemdef_Detroit.json");
                     string name = (string)system["name"];
 
                     StarSystemDef def = new StarSystemDef();
@@ -360,7 +360,7 @@ namespace ConsoleApplication1 {
 
 
                     ReflectionHelper.InvokePrivateMethode(def2, "set_FuelingStation", new object[] { fueling });
-                    ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 5 });
+                    ReflectionHelper.InvokePrivateMethode(def2, "set_Difficulty", new object[] { 0 });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_StarType", new object[] { StarType.G });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_JumpDistance", new object[] { 7 });
                     ReflectionHelper.InvokePrivateMethode(def2, "set_ShopMaxSpecials", new object[] { maxspecials });
