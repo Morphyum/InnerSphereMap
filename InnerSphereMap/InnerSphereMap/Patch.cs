@@ -291,50 +291,39 @@ namespace InnerSphereMap {
     [HarmonyPatch(typeof(StarmapRenderer), "Update")]
     public static class StarmapRenderer_Update_Patch
     {
+        // This transpiler aims to remove two method calls at the end of the Update loop
+        // The this.needsPan = false; in the if statement
+        // and the final this.starmapCamera.transform.position = position3;
+        // These are converted to NOOPs and then properly handled with a PostFix
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             List<CodeInstruction> instructionList = instructions.ToList();
-
             try
             {
-                // Targetting the line: float num4 = Mathf.Lerp(150f, 70f, this.zoomLevel);
-                int index0 = instructionList.FindIndex(instruction => ((object)150f).Equals(instruction.operand));
-                int index1 = instructionList.FindIndex(instruction => ((object)70f).Equals(instruction.operand));
-                if (index1 - index0 == 1) // Make sure these two calls are adjacent -- since it should be loading the stack
+                // Targetting the last instance of: this.needsPan = false; 
+                FieldInfo panInfo = AccessTools.Field(typeof(StarmapRenderer), "needsPan");
+                int setPanIndex = instructionList.FindLastIndex(instruction =>
                 {
-                    instructionList[index0].operand = InnerSphereMap.SETTINGS.GetXBoundaryForMinFov();
-                    instructionList[index1].operand = InnerSphereMap.SETTINGS.GetXBoundaryForMaxFov();
-                }
+                    return instruction.opcode == OpCodes.Stfld && panInfo.Equals(instruction.operand);
+                });
+                instructionList[setPanIndex - 2].opcode = OpCodes.Nop; // remove loading "this"
+                instructionList[setPanIndex - 1].opcode = OpCodes.Nop; // remove loading "false"
+                instructionList[setPanIndex].opcode = OpCodes.Nop; // remove the set
 
-                // Targetting the line: float num5 = Mathf.Lerp(99f, 50f, this.zoomLevel);
-                int index2 = instructionList.FindIndex(instruction => ((object)99f).Equals(instruction.operand));
-                int index3 = instructionList.FindIndex(instruction => ((object)50f).Equals(instruction.operand));
-                if (index3 - index2 == 1)  // Make sure these two calls are adjacent -- since it should be loading the stack
+
+                // Targetting the last instance of: this.starmapCamera.transform.position = position3
+                // We don't want to simply remove this code, since there is some branching jumps that land on it earlier
+                // So replace these with NOPs too
+                MethodInfo setPosInfo = AccessTools.Property(typeof(Transform), nameof(Transform.position)).GetSetMethod();
+                int setPositionIndex = instructionList.FindLastIndex(instruction =>
                 {
-                    instructionList[index2].operand = InnerSphereMap.SETTINGS.GetYBoundaryForMinFov();
-                    instructionList[index3].operand = InnerSphereMap.SETTINGS.GetYBoundaryForMaxFov();
-                }
-
-                // Targetting the line: this.starmapCamera.fieldOfView = Mathf.Lerp(this.fovMin, this.fovMax, this.zoomLevel);
-                FieldInfo fovMinInfo = AccessTools.Field(typeof(StarmapRenderer), nameof(StarmapRenderer.fovMin));
-                int fovMinIndex = instructionList.FindIndex(instruction => fovMinInfo.Equals(instruction.operand));
-               
-                // First remove the previous ldarg.0 (StarmapRenderer.this)
-                instructionList[fovMinIndex - 1].opcode = OpCodes.Nop;
-
-                // Now change the load from this.fovMin to InnerSphereMap.SETTINGS.MinFov
-                instructionList[fovMinIndex].opcode = OpCodes.Ldc_R4;
-                instructionList[fovMinIndex].operand = InnerSphereMap.SETTINGS.MinFov;
-
-                FieldInfo fovMaxInfo = AccessTools.Field(typeof(StarmapRenderer), nameof(StarmapRenderer.fovMax));
-                int fovMaxIndex = instructionList.FindIndex(instruction => fovMaxInfo.Equals(instruction.operand));
-
-                // First remove the previous ldarg.0 (StarmapRenderer.this)
-                instructionList[fovMaxIndex - 1].opcode = OpCodes.Nop;
-
-                // Now change the load from this.fovMax to InnerSphereMap.SETTINGS.MaxFov
-                instructionList[fovMaxIndex].opcode = OpCodes.Ldc_R4;
-                instructionList[fovMaxIndex].operand = InnerSphereMap.SETTINGS.MaxFov;
+                    return instruction.opcode == OpCodes.Callvirt && setPosInfo.Equals(instruction.operand);
+                });
+                instructionList[setPositionIndex - 4].opcode = OpCodes.Nop; // remove loading "this"
+                instructionList[setPositionIndex - 3].opcode = OpCodes.Nop; // remove load starmapCamera
+                instructionList[setPositionIndex - 2].opcode = OpCodes.Nop; // remove get_transform
+                instructionList[setPositionIndex - 1].opcode = OpCodes.Nop; // remove loading position3
+                instructionList[setPositionIndex].opcode = OpCodes.Nop; // remove the set_position
 
                 return instructionList;
             }
@@ -344,5 +333,53 @@ namespace InnerSphereMap {
                 return instructions;
             }
         }
+
+        static void Postfix(StarmapRenderer __instance)
+        {
+            try
+            {
+                // Two private fields
+                Traverse travInstance = Traverse.Create(__instance);
+                float zoomLevel = travInstance.Field("zoomLevel").GetValue<float>();
+                Camera fakeCamera = travInstance.Field("fakeCamera").GetValue<Camera>();
+
+                // starMapCamera is public
+                Camera starMapCamera = __instance.starmapCamera;
+
+                // We want to readjust the field of view given our own min and max
+                float newFov = Mathf.Lerp(InnerSphereMap.SETTINGS.MinFov, InnerSphereMap.SETTINGS.MaxFov, zoomLevel);
+                starMapCamera.fieldOfView = newFov;
+                fakeCamera.fieldOfView = newFov;
+
+                // Now we need to clamp the bounadries
+                float verticalViewSize = CameraHelper.GetViewSize(Mathf.Abs(starMapCamera.transform.position.z), newFov);
+                float horizontalViewSize = CameraHelper.GetViewSize(Mathf.Abs(starMapCamera.transform.position.z), CameraHelper.GetHorizontalFov(newFov));
+
+                Vector3 currentPosition = starMapCamera.transform.position;
+                Vector3 clampedPosition = currentPosition;
+
+                // The clamping boundaries are the map width / height + the buffers + the viewing distance created with the FOVs
+                float leftBoundary = -InnerSphereMap.SETTINGS.MapWidth - InnerSphereMap.SETTINGS.MapLeftViewBuffer + horizontalViewSize;
+                float rightBoundary = InnerSphereMap.SETTINGS.MapWidth + InnerSphereMap.SETTINGS.MapRightViewBuffer - horizontalViewSize;
+                float bottomBoundary = -InnerSphereMap.SETTINGS.MapHeight - InnerSphereMap.SETTINGS.MapBottomViewBuffer + verticalViewSize;
+                float topBoundary = InnerSphereMap.SETTINGS.MapHeight + InnerSphereMap.SETTINGS.MapTopViewBuffer - verticalViewSize;
+
+                // Clamp the camera's current position
+                clampedPosition.x = Mathf.Clamp(currentPosition.x, leftBoundary, rightBoundary);
+                clampedPosition.y = Mathf.Clamp(currentPosition.y, bottomBoundary, topBoundary);
+                if (clampedPosition.x == leftBoundary || clampedPosition.x == rightBoundary || clampedPosition.y == topBoundary || clampedPosition.y == bottomBoundary)
+                {
+                    bool needsPan = travInstance.Field("needsPan").GetValue<bool>();
+                    needsPan = false;
+                }
+
+                starMapCamera.transform.position = clampedPosition;
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e);
+            }
+        }
+
     }
 }
