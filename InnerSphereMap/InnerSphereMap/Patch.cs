@@ -46,6 +46,11 @@ namespace InnerSphereMap {
     public static class StarmapBorders_OnWillRenderObject {
 
         static bool Prefix(StarmapBorders __instance) {
+            // Disables the dashed-line border
+            GameObject.Find("Edges").SetActive(false);
+
+            // Disables the gray box, and other borders -- also fully disables StarmapBorders itself (since its a MonoBehavior attached to RegionBorders)
+            GameObject.Find("RegionBorders").SetActive(false);
             return false;
         }
     }
@@ -270,10 +275,9 @@ namespace InnerSphereMap {
 
     // The original method had a rectangular normalization here -- it did 56% of the y axis
     [HarmonyPatch(typeof(StarmapRenderer), "NormalizeToMapSpace")]
-    public static class StarmapRenderer_NormalizeToMapSpace_Patch
-    {
-        static bool Prefix(StarmapRenderer __instance, Vector2 normalizedPos, ref Vector3 __result)
-        {
+    public static class StarmapRenderer_NormalizeToMapSpace_Patch {
+
+        static bool Prefix(StarmapRenderer __instance, Vector2 normalizedPos, ref Vector3 __result) {
             // Reminder -- normalizedPos is normalized between [0,1]
             // This normalizes it between [-100,100]
             Vector3 newResult = normalizedPos;
@@ -287,36 +291,32 @@ namespace InnerSphereMap {
         }
     }
 
-    
+
     [HarmonyPatch(typeof(StarmapRenderer), "Update")]
-    public static class StarmapRenderer_Update_Patch
-    {
+    public static class StarmapRenderer_Update_Patch {
+
         // This transpiler aims to remove two method calls at the end of the Update loop
         // The this.needsPan = false; in the if statement
         // and the final this.starmapCamera.transform.position = position3;
         // These are converted to NOOPs and then properly handled with a PostFix
-        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-        {
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
+
             List<CodeInstruction> instructionList = instructions.ToList();
-            try
-            {
+            try {
                 // Targetting the last instance of: this.needsPan = false; 
                 FieldInfo panInfo = AccessTools.Field(typeof(StarmapRenderer), "needsPan");
-                int setPanIndex = instructionList.FindLastIndex(instruction =>
-                {
+                int setPanIndex = instructionList.FindLastIndex(instruction => {
                     return instruction.opcode == OpCodes.Stfld && panInfo.Equals(instruction.operand);
                 });
                 instructionList[setPanIndex - 2].opcode = OpCodes.Nop; // remove loading "this"
                 instructionList[setPanIndex - 1].opcode = OpCodes.Nop; // remove loading "false"
                 instructionList[setPanIndex].opcode = OpCodes.Nop; // remove the set
 
-
                 // Targetting the last instance of: this.starmapCamera.transform.position = position3
                 // We don't want to simply remove this code, since there is some branching jumps that land on it earlier
                 // So replace these with NOPs too
                 MethodInfo setPosInfo = AccessTools.Property(typeof(Transform), nameof(Transform.position)).GetSetMethod();
-                int setPositionIndex = instructionList.FindLastIndex(instruction =>
-                {
+                int setPositionIndex = instructionList.FindLastIndex(instruction => {
                     return instruction.opcode == OpCodes.Callvirt && setPosInfo.Equals(instruction.operand);
                 });
                 instructionList[setPositionIndex - 4].opcode = OpCodes.Nop; // remove loading "this"
@@ -327,20 +327,18 @@ namespace InnerSphereMap {
 
                 return instructionList;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 Logger.LogError(e);
                 return instructions;
             }
         }
 
-        static void Postfix(StarmapRenderer __instance)
-        {
-            try
-            {
+        static void Postfix(StarmapRenderer __instance) {
+            try {
                 // Two private fields
                 Traverse travInstance = Traverse.Create(__instance);
                 float zoomLevel = travInstance.Field("zoomLevel").GetValue<float>();
+                bool needsPan = travInstance.Field("needsPan").GetValue<bool>();
                 Camera fakeCamera = travInstance.Field("fakeCamera").GetValue<Camera>();
 
                 // starMapCamera is public
@@ -364,22 +362,35 @@ namespace InnerSphereMap {
                 float bottomBoundary = -InnerSphereMap.SETTINGS.MapHeight - InnerSphereMap.SETTINGS.MapBottomViewBuffer + verticalViewSize;
                 float topBoundary = InnerSphereMap.SETTINGS.MapHeight + InnerSphereMap.SETTINGS.MapTopViewBuffer - verticalViewSize;
 
-                // Clamp the camera's current position
-                clampedPosition.x = Mathf.Clamp(currentPosition.x, leftBoundary, rightBoundary);
-                clampedPosition.y = Mathf.Clamp(currentPosition.y, bottomBoundary, topBoundary);
-                if (clampedPosition.x == leftBoundary || clampedPosition.x == rightBoundary || clampedPosition.y == topBoundary || clampedPosition.y == bottomBoundary)
-                {
-                    bool needsPan = travInstance.Field("needsPan").GetValue<bool>();
+                float totalWidth = InnerSphereMap.SETTINGS.MapWidth * 2f + InnerSphereMap.SETTINGS.MapLeftViewBuffer + InnerSphereMap.SETTINGS.MapRightViewBuffer;
+                float totalHeight = InnerSphereMap.SETTINGS.MapHeight * 2f + InnerSphereMap.SETTINGS.MapTopViewBuffer + InnerSphereMap.SETTINGS.MapBottomViewBuffer;
+
+                // We have to check for the FOV being larger than the whole map -- or it'll bounce around
+                if (horizontalViewSize * 2f >= totalWidth) {
+                    clampedPosition.x = 0f;
                     needsPan = false;
                 }
+                else {
+                    clampedPosition.x = Mathf.Clamp(currentPosition.x, leftBoundary, rightBoundary);
+                }
 
+                if (verticalViewSize * 2f >= totalHeight) {
+                    clampedPosition.y = 0f;
+                    needsPan = false;
+                }
+                else {
+                    clampedPosition.y = Mathf.Clamp(currentPosition.y, bottomBoundary, topBoundary);
+                }
+
+                // Check for boundaries conditions -- continue the previous HBS behavior of not panning
+                if (clampedPosition.x == leftBoundary || clampedPosition.x == rightBoundary || clampedPosition.y == topBoundary || clampedPosition.y == bottomBoundary) {
+                    needsPan = false;
+                }
                 starMapCamera.transform.position = clampedPosition;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 Logger.LogError(e);
             }
         }
-
     }
 }
