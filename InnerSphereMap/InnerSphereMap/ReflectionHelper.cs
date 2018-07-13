@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Reflection;
-using BattleTech;
 
 namespace InnerSphereMap {
     public static class ReflectionHelper {

@@ -1,5 +1,4 @@
 ﻿using BattleTech;
-using BattleTech.StringInterpolation;
 using BattleTech.UI;
 using Harmony;
 using System;
@@ -8,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
-using TMPro;
 using UnityEngine;
 
 namespace InnerSphereMap {

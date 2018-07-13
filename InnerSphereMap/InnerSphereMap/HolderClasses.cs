@@ -1,7 +1,6 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace InnerSphereMap {
     public class Settings {
