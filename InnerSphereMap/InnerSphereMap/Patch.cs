@@ -1,4 +1,5 @@
 ﻿using BattleTech;
+using BattleTech.StringInterpolation;
 using BattleTech.UI;
 using Harmony;
 using System;
@@ -19,6 +20,23 @@ namespace InnerSphereMap {
             try {
                 HBSRadioSet topLevelMenu = (HBSRadioSet)ReflectionHelper.GetPrivateField(__instance, "topLevelMenu");
                 topLevelMenu.RadioButtons.Find((HBSButton x) => x.GetText() == "Campaign").SetText("Sandbox");
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+
+            }
+        }
+    }
+
+    
+    [HarmonyPatch(typeof(SimGameState), "GetFactionDefIDFromEnum")]
+    public static class SimGameState_GetFactionDefIDFromEnum_Patch {
+
+        static void Postfix(ref string __result) {
+            try {
+                if (__result.Equals("faction_Betrayers")) {
+                    __result = "faction_AuriganBetrayers";
+                } 
             }
             catch (Exception e) {
                 Logger.LogError(e);
@@ -91,105 +109,203 @@ namespace InnerSphereMap {
                 var restorationLogo = GameObject.Find("restorationLogo");
                 restorationLogo?.SetActive(false);
 
-                Texture2D texture2D2 = new Texture2D(2, 2);
-                byte[] data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/davionLogo.png");
-                texture2D2.LoadImage(data);
-                GameObject go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                GameObject go;
+                Texture2D texture2D2;
+                byte[] data;
+                if (GameObject.Find("davionLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/davionLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "davionLogoMap";
+                } else {
+                    go = GameObject.Find("davionLogoMap");
+                    
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Davion, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/liaoLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("liaoLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/liaoLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "liaoLogoMap";
+                }
+                else {
+                    go = GameObject.Find("liaoLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Liao, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/magistracyLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("magistracyLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/magistracyLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "magistracyLogoMap";
+                }
+                else {
+                    go = GameObject.Find("magistracyLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MagistracyOfCanopus, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/marikLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("marikLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/marikLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "marikLogoMap";
+                }
+                else {
+                    go = GameObject.Find("marikLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Marik, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/restorationLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("restorationLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/restorationLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "restorationLogoMap";
+                }
+                else {
+                    go = GameObject.Find("restorationLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganRestoration, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/taurianLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("taurianLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/taurianLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "taurianLogoMap";
+                }
+                else {
+                    go = GameObject.Find("taurianLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.TaurianConcordat, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/steinerLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("steinerLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/steinerLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "steinerLogoMap";
+                }
+                else {
+                    go = GameObject.Find("steinerLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Steiner, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/draconisLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("draconisLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/draconisLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "draconisLogoMap";
+                }
+                else {
+                    go = GameObject.Find("draconisLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Kurita, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/circinusLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("circinusLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/circinusLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "circinusLogoMap";
+                }
+                else {
+                    go = GameObject.Find("circinusLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Nautilus, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/oberonLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+
+                if (GameObject.Find("oberonLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/oberonLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "oberonLogoMap";
+                }
+                else {
+                    go = GameObject.Find("oberonLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MagistracyCentrella, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/illyrianLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("illyrianLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/illyrianLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "illyrianLogoMap";
+                }
+                else {
+                    go = GameObject.Find("illyrianLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganMercenaries, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/lothianLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("lothianLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/lothianLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "lothianLogoMap";
+                }
+                else {
+                    go = GameObject.Find("lothianLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MajestyMetals, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/marianLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("marianLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/marianLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "marianLogoMap";
+                }
+                else {
+                    go = GameObject.Find("marianLogoMap");
+
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganDirectorate, go });
 
-                texture2D2 = new Texture2D(2, 2);
-                data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/outworldsLogo.png");
-                texture2D2.LoadImage(data);
-                go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                if (GameObject.Find("outworldsLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/outworldsLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "outworldsLogoMap";
+                }
+                else {
+                    go = GameObject.Find("outworldsLogoMap");
+                }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Betrayers, go });
-
-
             }
             catch (Exception e) {
                 Logger.LogError(e);
