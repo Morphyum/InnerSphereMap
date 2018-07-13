@@ -1,6 +1,7 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace InnerSphereMap {
     public class Settings {
@@ -18,7 +19,18 @@ namespace InnerSphereMap {
         public List<float> TaurianRGB;
         public List<float> MagistracyRGB;
         public List<float> RestorationRGB;
-        
+
+        public float MinFov; // this is the vertical FOV
+        public float MaxFov; // this is the vertical FOV
+
+        public float MapWidth;
+        public float MapHeight;
+
+        public float MapTopViewBuffer;
+        public float MapLeftViewBuffer;
+        public float MapRightViewBuffer;
+        public float MapBottomViewBuffer;
+
 
     }
 
@@ -39,4 +51,5 @@ namespace InnerSphereMap {
         // Token: 0x040089A7 RID: 35239
         public int difficulty;
     }
+ 
 }
