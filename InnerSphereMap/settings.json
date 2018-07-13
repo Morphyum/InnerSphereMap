@@ -17,8 +17,8 @@
 	"MaxFov" : 100.0,
 	"MapWidth" : 200.0,
 	"MapHeight" : 200.0,
-	"MapTopViewBuffer" : 10.0,
-	"MapLeftViewBuffer" : 10.0,
-	"MapRightViewBuffer" : 10.0,
-	"MapBottomViewBuffer" : 50.0
+	"MapTopViewBuffer" : 25.0,
+	"MapLeftViewBuffer" : 25.0,
+	"MapRightViewBuffer" : 25.0,
+	"MapBottomViewBuffer" : 75.0
 }
