@@ -506,5 +506,19 @@ namespace InnerSphereMap {
                 Logger.LogError(e);
             }
         }
+        
+        //rezising all the map logos
+        [HarmonyPatch(typeof(StarmapRenderer), "PlaceLogo")]
+        public static class StarmapRenderer_PlaceLogo_Patch {
+
+            static void Postfix(StarmapRenderer __instance, Faction faction, GameObject logo) {
+                try{
+                    logo.transform.localScale += new Vector3(10f, 10f, 10f);
+                }
+                 catch (Exception e) {
+                    Logger.LogError(e);
+                }
+            }
+        }
     }
 }
