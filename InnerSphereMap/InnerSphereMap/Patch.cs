@@ -108,6 +108,9 @@ namespace InnerSphereMap {
                 restorationLogo?.SetActive(false);
 
                 GameObject go;
+                if(Fields.originalTransform == null) {
+                    Fields.originalTransform = UnityEngine.Object.Instantiate(__instance.restorationLogo).transform;
+                }
                 Texture2D texture2D2;
                 byte[] data;
                 if (GameObject.Find("davionLogoMap") == null) {
@@ -513,7 +516,9 @@ namespace InnerSphereMap {
 
             static void Postfix(StarmapRenderer __instance, Faction faction, GameObject logo) {
                 try{
-                    logo.transform.localScale += new Vector3(10f, 10f, 10f);
+                    if(logo.transform.localScale == Fields.originalTransform.localScale) {
+                        logo.transform.localScale += new Vector3(10f, 10f, 10f);
+                    }
                 }
                  catch (Exception e) {
                     Logger.LogError(e);

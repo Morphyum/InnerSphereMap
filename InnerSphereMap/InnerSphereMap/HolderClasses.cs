@@ -1,6 +1,7 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace InnerSphereMap {
     public class Settings {
@@ -35,6 +36,7 @@ namespace InnerSphereMap {
 
     public class Fields {
         public static float cbill = 0;
+        public static Transform originalTransform = null;
     }
 
     public struct PotentialContract {
