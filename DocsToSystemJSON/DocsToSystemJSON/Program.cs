@@ -6,7 +6,7 @@
         static string BlueprintPath = "C:/Users/morph/Source/Repos/InnerSphereMap/DocsToSystemJSON/DocsToSystemJSON/Blueprint.json";
 
         static void Main(string[] args) {
-            Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, false);
+            Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, true);
             converter.newMap();
         }
     }

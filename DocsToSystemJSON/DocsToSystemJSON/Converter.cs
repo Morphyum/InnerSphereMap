@@ -11,6 +11,7 @@ namespace DocsToSystemJSON {
         private string OutputPath;
         private string BlueprintPath;
         private bool is3040;
+        private string yearFolder = "/IS3025/";
 
         public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040) {
 
@@ -19,6 +20,9 @@ namespace DocsToSystemJSON {
             this.OutputPath = OutputPath;
             this.BlueprintPath = BlueprintPath;
             this.is3040 = is3040;
+            if (is3040) {
+                this.yearFolder = "/IS3040/";
+            }
         }
 
         public void newMap() {
@@ -38,8 +42,12 @@ namespace DocsToSystemJSON {
                 newSystemJObject["Position"]["y"] = systemJObject["y"];
                 newSystemJObject["Owner"] = getOwner(systemJObject);
                 newSystemJObject["SupportedBiomes"] = JArray.FromObject(getBiomes(systemJObject));
-                (new FileInfo(OutputPath + "/Locals/" + newSystemJObject["Description"]["Id"] + ".json")).Directory.Create();
-                File.WriteAllText(OutputPath + "/Locals/" + newSystemJObject["Description"]["Id"] + ".json", newSystemJObject.ToString());
+                string year = "Faction3025";
+                if (is3040) {
+                    year = "Faction3040";
+                }
+                (new FileInfo(OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json")).Directory.Create();
+                File.WriteAllText(OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json", newSystemJObject.ToString());
             }
         }
 
@@ -104,11 +112,15 @@ namespace DocsToSystemJSON {
             switch ((string)systemJObject[year]) {
                 case "Lyran Commonwealth":
                     return "Steiner";
+                case "Federated Commonwealth (LC)":
+                    return "Steiner";
                 case "Free Worlds League":
                     return "Marik";
                 case "Draconis Combine":
                     return "Kurita";
                 case "Federated Suns":
+                    return "Davion";
+                case "Federated Commonwealth (FS)":
                     return "Davion";
                 case "Capellan Confederation":
                     return "Liao";
@@ -137,7 +149,7 @@ namespace DocsToSystemJSON {
                 case "Undiscovered":
                     return "NoFaction";
                 default:
-                   return "Locals";
+                    return "Locals";
             }
         }
         public List<string> createTags(JObject systemJObject) {
@@ -446,6 +458,12 @@ namespace DocsToSystemJSON {
                     break;
                 case "Illyrian Palatinate":
                     tagList.Add("planet_faction_illyrian");
+                    break;
+                case "Abandoned":
+                    tagList.Add(" planet_other_empty");
+                    break;
+                case "Undiscovered":
+                    tagList.Add(" planet_other_empty");
                     break;
                 default:
                     break;
