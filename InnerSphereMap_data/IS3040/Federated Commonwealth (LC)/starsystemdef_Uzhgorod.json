@@ -16,17 +16,30 @@
   "Tags": {
     "items": [
       "planet_name_uzhgorod",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_size_small",
+      "planet_climate_arctic",
+      "planet_other_megaforest",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_pop_medium",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -5,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +128,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

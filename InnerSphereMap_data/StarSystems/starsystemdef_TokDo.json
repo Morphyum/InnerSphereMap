@@ -16,17 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_tokdo",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_large",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_storms",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_none",
+      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 3,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -116,13 +127,9 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

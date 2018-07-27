@@ -16,16 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_death'sgazecluster",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_small",
+      "planet_climate_arid",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
       "planet_pop_none",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_other_hub",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
+      "planet_other_prison"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -2,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -88,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -114,14 +126,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

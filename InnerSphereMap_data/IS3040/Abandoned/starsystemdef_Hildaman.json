@@ -17,16 +17,25 @@
     "items": [
       "planet_name_hildaman",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_desert",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_other_hub",
+      "planet_other_newcolony",
+      "planet_other_pirate",
+      "planet_other_prison",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 2,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +124,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

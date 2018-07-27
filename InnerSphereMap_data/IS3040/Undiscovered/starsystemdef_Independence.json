@@ -16,16 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_independence",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_small",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_mining",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
+  "FuelingStation": true,
   "JumpDistance": 1,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
@@ -89,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

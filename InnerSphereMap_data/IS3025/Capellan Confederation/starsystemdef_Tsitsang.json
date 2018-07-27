@@ -17,16 +17,25 @@
     "items": [
       "planet_name_tsitsang",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_ice",
+      "planet_other_volcanic",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_pop_medium",
+      "planet_industry_recreation",
+      "planet_industry_research",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_prison",
+      "planet_ruins",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": -11,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +124,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

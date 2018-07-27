@@ -16,17 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_melissia",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_size_large",
+      "planet_climate_moon",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_feature_asteroids",
+      "planet_feature_comet",
+      "planet_feature_gasgiant",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_manufacturing",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 2,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

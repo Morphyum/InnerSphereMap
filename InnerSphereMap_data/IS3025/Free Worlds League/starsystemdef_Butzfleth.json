@@ -17,16 +17,28 @@
     "items": [
       "planet_name_butzfleth",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_rocky",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -6,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -116,13 +128,9 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

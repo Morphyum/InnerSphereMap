@@ -16,16 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_thun",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_size_large",
+      "planet_climate_mars",
+      "planet_other_megaforest",
+      "planet_feature_asteroids",
+      "planet_feature_comet",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_industry_poor",
+      "planet_industry_mining",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_alienvegetation",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
+      "planet_other_pirate",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 13,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -88,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -114,14 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

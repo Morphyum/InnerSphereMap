@@ -16,17 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_mundrabilla",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_large",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_other_megacity",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_other_prison",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 13,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +125,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "G",
   "ContractEmployers": [

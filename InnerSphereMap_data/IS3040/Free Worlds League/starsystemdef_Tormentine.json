@@ -17,16 +17,26 @@
     "items": [
       "planet_name_tormentine",
       "planet_size_medium",
-      "planet_climate_terran",
+      "planet_climate_lunar",
+      "planet_feature_comet",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
       "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
+      "planet_other_pirate",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -12,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +125,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

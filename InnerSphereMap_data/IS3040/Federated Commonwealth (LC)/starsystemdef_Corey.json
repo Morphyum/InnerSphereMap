@@ -16,17 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_corey",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_size_large",
+      "planet_climate_moon",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_other_megacity",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_hub",
+      "planet_other_newcolony",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 14,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +125,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
   "StarType": "G",
   "ContractEmployers": [

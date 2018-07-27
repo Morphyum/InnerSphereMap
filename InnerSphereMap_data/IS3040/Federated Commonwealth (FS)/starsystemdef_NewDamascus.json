@@ -16,17 +16,25 @@
   "Tags": {
     "items": [
       "planet_name_newdamascus",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_large",
+      "planet_climate_ice",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_feature_comet",
       "planet_pop_none",
-      "planet_civ_primitive",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_other_hub",
+      "planet_other_newcolony",
+      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -15,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -115,14 +123,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

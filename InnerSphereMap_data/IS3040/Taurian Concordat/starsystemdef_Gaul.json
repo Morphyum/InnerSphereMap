@@ -16,17 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_gaul",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_size_small",
+      "planet_climate_moon",
+      "planet_other_megaforest",
+      "planet_other_mudflats",
+      "planet_feature_gasgiant",
+      "planet_pop_large",
+      "planet_civ_innersphere",
       "planet_industry_poor",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 15,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +126,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

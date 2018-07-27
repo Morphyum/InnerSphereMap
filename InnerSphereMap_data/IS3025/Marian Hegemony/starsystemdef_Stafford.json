@@ -17,10 +17,23 @@
     "items": [
       "planet_name_stafford",
       "planet_size_medium",
-      "planet_climate_terran",
+      "planet_climate_mars",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
+      "planet_feature_comet",
+      "planet_feature_gasgiant",
       "planet_pop_none",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_other_starleague",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins",
       "planet_faction_marian"
     ],
     "tagSetSourceFile": ""
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +128,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

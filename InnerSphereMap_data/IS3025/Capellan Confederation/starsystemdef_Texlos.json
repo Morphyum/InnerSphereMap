@@ -16,17 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_texlos",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_size_large",
+      "planet_climate_lunar",
+      "planet_other_megaforest",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_research",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 2,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +132,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

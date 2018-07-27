@@ -16,17 +16,26 @@
   "Tags": {
     "items": [
       "planet_name_tetschner",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_feature_asteroids",
+      "planet_pop_small",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_pirate",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 13,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +124,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

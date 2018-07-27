@@ -17,16 +17,24 @@
     "items": [
       "planet_name_ma'anshan",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_water",
+      "planet_other_mudflats",
+      "planet_other_fungus",
+      "planet_other_taintedair",
+      "planet_pop_small",
+      "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_hub",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 13,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +123,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

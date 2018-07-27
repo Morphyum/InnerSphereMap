@@ -17,15 +17,27 @@
     "items": [
       "planet_name_balsta",
       "planet_size_medium",
-      "planet_climate_terran",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_feature_moon01",
+      "planet_other_moon",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_aquaculture",
+      "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_other_prison"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 5,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -88,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,13 +127,9 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

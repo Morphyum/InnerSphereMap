@@ -17,16 +17,24 @@
     "items": [
       "planet_name_bernardo",
       "planet_size_medium",
-      "planet_climate_terran",
+      "planet_climate_arctic",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_feature_asteroids",
+      "planet_feature_moon03",
+      "planet_other_moon",
       "planet_pop_none",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_blackmarket",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -11,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +123,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

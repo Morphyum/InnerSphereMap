@@ -16,17 +16,31 @@
   "Tags": {
     "items": [
       "planet_name_dothan",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_size_small",
+      "planet_climate_tropical",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_comet",
+      "planet_pop_small",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 0,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +129,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

@@ -16,17 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_skokie",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_size_large",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_boreholes",
+      "planet_other_prison",
+      "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
-  "Owner": "Locals",
+  "JumpDistance": 6,
+  "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -88,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -114,14 +126,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

@@ -16,18 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_wazan",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_faction_steiner"
+      "planet_size_large",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
+      "planet_industry_manufacturing",
+      "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
-  "Owner": "Steiner",
+  "FuelingStation": true,
+  "JumpDistance": 15,
+  "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -89,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +126,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "G",
   "ContractEmployers": [

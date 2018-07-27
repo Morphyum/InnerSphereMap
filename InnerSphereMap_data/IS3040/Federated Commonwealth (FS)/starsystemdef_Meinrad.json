@@ -16,17 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_meinrad",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_size_small",
+      "planet_climate_ice",
+      "planet_other_mudflats",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_comet",
+      "planet_feature_gasgiant",
+      "planet_pop_medium",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +127,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
   "StarType": "G",
   "ContractEmployers": [

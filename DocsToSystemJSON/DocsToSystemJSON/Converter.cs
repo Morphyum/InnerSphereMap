@@ -32,8 +32,13 @@ namespace DocsToSystemJSON {
         public void newMap() {
             string beginjson = File.ReadAllText(BlueprintPath);
             JObject originalJObject = JObject.Parse(beginjson);
-            foreach (JObject systemJObject in universeDataJArray) {
+            Random rand = new Random();
+            foreach (JObject originalSystemJObject in universeDataJArray) {
+                JObject systemJObject = originalSystemJObject;
                 JObject newSystemJObject = originalJObject;
+                if ((bool)systemJObject["Randomize"]) {
+                    systemJObject = randomizeSystem(originalSystemJObject, rand);
+                }
                 newSystemJObject["Description"]["Id"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
                 newSystemJObject["Description"]["Name"] = systemJObject["PlanetName"];
                 newSystemJObject["Description"]["Details"] = systemJObject["Description"];
@@ -83,6 +88,201 @@ namespace DocsToSystemJSON {
             }
         }
 
+        public JObject randomizeSystem(JObject systemJObject, Random rand) {
+            //Startype
+            switch (rand.Next(0, 7)) {
+                case 0: {
+                        systemJObject["StarType"] = "A";
+                        break;
+                    }
+                case 1: {
+                        systemJObject["StarType"] = "B";
+                        break;
+                    }
+                case 2: {
+                        systemJObject["StarType"] = "F";
+                        break;
+                    }
+                case 3: {
+                        systemJObject["StarType"] = "G";
+                        break;
+                    }
+                case 4: {
+                        systemJObject["StarType"] = "K";
+                        break;
+                    }
+                case 5: {
+                        systemJObject["StarType"] = "M";
+                        break;
+                    }
+                default: {
+                        systemJObject["StarType"] = "0";
+                        break;
+                    }
+            }
+
+
+            //Gravity
+            switch (rand.Next(0, 3)) {
+                case 0: {
+                        systemJObject["Gravity"] = "High Gravity Planet";
+                        break;
+                    }
+                case 1: {
+                        systemJObject["Gravity"] = "Medium Gravity Planet";
+                        break;
+                    }
+                default: {
+                        systemJObject["Gravity"] = "Low Gravity Planet";
+                        break;
+                    }
+            }
+
+            //Climate
+            switch (rand.Next(0, 11)) {
+                case 0: {
+                        systemJObject["ClimateBiome"] = "Arctic World";
+                        break;
+                    }
+                case 1: {
+                        systemJObject["ClimateBiome"] = "Arid World";
+                        break;
+                    }
+                case 2: {
+                        systemJObject["ClimateBiome"] = "Desert World";
+                        break;
+                    }
+                case 3: {
+                        systemJObject["ClimateBiome"] = "Ice World";
+                        break;
+                    }
+                case 4: {
+                        systemJObject["ClimateBiome"] = "Lunar World";
+                        break;
+                    }
+                case 5: {
+                        systemJObject["ClimateBiome"] = "Martian World";
+                        break;
+                    }
+                case 6: {
+                        systemJObject["ClimateBiome"] = "Rocky World";
+                        break;
+                    }
+                case 7: {
+                        systemJObject["ClimateBiome"] = "Terran World";
+                        break;
+                    }
+                case 8: {
+                        systemJObject["ClimateBiome"] = "Tropical World";
+                        break;
+                    }
+                case 9: {
+                        systemJObject["ClimateBiome"] = "Water World";
+                        break;
+                    }
+                default: {
+                        systemJObject["ClimateBiome"] = "Barren World";
+                        break;
+                    }
+            }
+
+            //Population
+            switch (rand.Next(0, 4)) {
+                case 0: {
+                        systemJObject["Population"] = "Billions";
+                        break;
+                    }
+                case 1: {
+                        systemJObject["Population"] = "Hundreds Of Millions";
+                        break;
+                    }
+                case 2: {
+                        systemJObject["Population"] = "Millions";
+                        break;
+                    }
+                default: {
+                        systemJObject["Population"] = "Less Than A Million";
+                        break;
+                    }
+            }
+
+            //TechLevel
+            switch (rand.Next(0, 3)) {
+                case 0: {
+                        systemJObject["TechLevel"] = "Inner Sphere-Level Civilization";
+                        break;
+                    }
+                case 1: {
+                        systemJObject["TechLevel"] = "Periphery-Level Civilization";
+                        break;
+                    }
+                default: {
+                        systemJObject["TechLevel"] = "Primitive Civilization";
+                        break;
+                    }
+            }
+
+            //Resources
+            switch (rand.Next(0, 3)) {
+                case 0: {
+                        systemJObject["Resources"] = "Many";
+                        break;
+                    }
+                case 1: {
+                        systemJObject["Resources"] = "Normal";
+                        break;
+                    }
+                default: {
+                        systemJObject["Resources"] = "Few";
+                        break;
+                    }
+            }
+
+            systemJObject["Difficulty"] = rand.Next(-10, 11);
+            systemJObject["JumpDistance"] = rand.Next(-15, 16);
+
+            systemJObject["NumberOfMoons"] = rand.Next(0, 4);
+
+            systemJObject["ExtensiveVulcanism"] = randomBool(rand);
+            systemJObject["PlanetwideForest"] = randomBool(rand);
+            systemJObject["PlanetwideMudflats"] = randomBool(rand);
+            systemJObject["DenseCloudLayer"] = randomBool(rand);
+            systemJObject["DominantFungus"] = randomBool(rand);
+            systemJObject["HallucinatoryVegetation"] = randomBool(rand);
+            systemJObject["PlanetwideStorms"] = randomBool(rand);
+            systemJObject["TaintedAtmosphere"] = randomBool(rand);
+            systemJObject["Asteroids"] = randomBool(rand);
+            systemJObject["Comet"] = randomBool(rand);
+            systemJObject["Gasgiant"] = randomBool(rand);
+            systemJObject["PlanetRings"] = randomBool(rand);
+            systemJObject["MegaCity"] = randomBool(rand);
+            systemJObject["RechargeStation"] = randomBool(rand);
+            systemJObject["Recreation"] = randomBool(rand);
+            systemJObject["Mining"] = randomBool(rand);
+            systemJObject["Agriculture"] = randomBool(rand);
+            systemJObject["Aquaculture"] = randomBool(rand);
+            systemJObject["ResearchFacility"] = randomBool(rand);
+            systemJObject["Manufactoring"] = randomBool(rand);
+            systemJObject["ComstarBase"] = randomBool(rand);
+            systemJObject["StarleagueRemnants"] = randomBool(rand);
+            systemJObject["TradeHub"] = randomBool(rand);
+            systemJObject["AlienVegetation"] = randomBool(rand);
+            systemJObject["BlackMarket"] = randomBool(rand);
+            systemJObject["GeothermalBoreholes"] = randomBool(rand);
+            systemJObject["RecentlyColonized"] = randomBool(rand);
+            systemJObject["PiratePresence"] = randomBool(rand);
+            systemJObject["PrisonPlanet"] = randomBool(rand);
+            systemJObject["Ruins"] = randomBool(rand);
+
+            return systemJObject;
+        }
+        public bool randomBool(Random rand) {
+            if(rand.Next(0,2) == 1) {
+                return true;
+            } else {
+                return false;
+            }
+        }
         public List<string> getBiomes(JObject systemJObject) {
             List<string> biomeList = new List<string>();
             if (((string)systemJObject["ClimateBiome"]).Equals("Arctic World")) {
@@ -295,22 +495,26 @@ namespace DocsToSystemJSON {
             }
 
             //PlanetRings
-            if ((bool)systemJObject["PlanetRings"]) {
+            //currently removed because broken
+           /* if ((bool)systemJObject["PlanetRings"]) {
                 tagList.Add("planet_feature_rings");
-            }
+            }*/
 
             //NumberOfMoons
             if ((int)systemJObject["NumberOfMoons"] > 0) {
                 if ((int)systemJObject["NumberOfMoons"] > 1) {
                     if ((int)systemJObject["NumberOfMoons"] > 2) {
                         tagList.Add("planet_feature_moon03");
+                        tagList.Add("planet_other_moon");
                     }
                     else {
                         tagList.Add("planet_feature_moon02");
+                        tagList.Add("planet_other_moon");
                     }
                 }
                 else {
                     tagList.Add("planet_feature_moon01");
+                    tagList.Add("planet_other_moon");
                 }
             }
 

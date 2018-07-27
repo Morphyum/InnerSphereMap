@@ -17,16 +17,32 @@
     "items": [
       "planet_name_oltepesi",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_poor",
+      "planet_industry_mining",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_boreholes",
+      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -9,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -116,13 +132,9 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

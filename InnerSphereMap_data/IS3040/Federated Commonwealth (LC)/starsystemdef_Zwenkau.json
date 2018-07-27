@@ -17,16 +17,29 @@
     "items": [
       "planet_name_zwenkau",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_climate_arctic",
+      "planet_other_megaforest",
+      "planet_other_mudflats",
+      "planet_feature_comet",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_large",
       "planet_civ_primitive",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_agriculture",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 13,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +128,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
   "StarType": "G",
   "ContractEmployers": [

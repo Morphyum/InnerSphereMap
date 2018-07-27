@@ -16,17 +16,30 @@
   "Tags": {
     "items": [
       "planet_name_mkuranga",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_terran",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
+      "planet_other_moon",
       "planet_pop_none",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_other_comstar",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 13,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -122,7 +135,7 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

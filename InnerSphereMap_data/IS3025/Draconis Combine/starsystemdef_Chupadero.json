@@ -16,17 +16,30 @@
   "Tags": {
     "items": [
       "planet_name_chupadero",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_size_large",
+      "planet_climate_water",
+      "planet_other_volcanic",
+      "planet_other_fungus",
+      "planet_feature_asteroids",
+      "planet_feature_comet",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
+      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": -11,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +128,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

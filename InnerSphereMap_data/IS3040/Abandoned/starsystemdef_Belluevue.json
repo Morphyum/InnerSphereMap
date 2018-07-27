@@ -17,16 +17,27 @@
     "items": [
       "planet_name_belluevue",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_moon",
+      "planet_other_volcanic",
+      "planet_other_floatingworld",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_pop_small",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": -13,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -115,14 +126,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

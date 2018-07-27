@@ -16,18 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_lesalles",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
       "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_civ_innersphere",
       "planet_industry_poor",
-      "planet_faction_steiner"
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_prison",
+      "planet_ruins",
+      "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
-  "Owner": "Steiner",
+  "JumpDistance": -2,
+  "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -89,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +131,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

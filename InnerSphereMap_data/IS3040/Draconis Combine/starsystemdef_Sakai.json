@@ -17,16 +17,28 @@
     "items": [
       "planet_name_sakai",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_moon",
+      "planet_other_volcanic",
+      "planet_other_floatingworld",
+      "planet_other_storms",
+      "planet_feature_asteroids",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_newcolony",
+      "planet_other_prison",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -15,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -115,14 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

@@ -17,16 +17,33 @@
     "items": [
       "planet_name_harminous",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
       "planet_faction_magistracy"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 10,
   "Owner": "MagistracyOfCanopus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +132,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "G",
   "ContractEmployers": [

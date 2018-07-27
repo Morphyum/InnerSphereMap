@@ -16,16 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_unionofsamoyediccolonies",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_size_large",
+      "planet_climate_rocky",
+      "planet_other_megaforest",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -9,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -88,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,13 +126,9 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

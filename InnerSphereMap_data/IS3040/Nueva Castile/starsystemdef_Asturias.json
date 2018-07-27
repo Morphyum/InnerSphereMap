@@ -18,14 +18,23 @@
       "planet_name_asturias",
       "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_other_volcanic",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_pop_medium",
+      "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_prison"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 11,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -88,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -121,7 +130,7 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

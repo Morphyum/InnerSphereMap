@@ -16,18 +16,33 @@
   "Tags": {
     "items": [
       "planet_name_fomalhaut",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_faction_kurita"
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_fungus",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_industry_rich",
+      "planet_industry_research",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins",
+      "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
-  "Owner": "Kurita",
+  "FuelingStation": true,
+  "JumpDistance": 5,
+  "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -89,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +130,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

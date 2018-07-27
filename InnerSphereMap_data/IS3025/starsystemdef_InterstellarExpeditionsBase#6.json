@@ -16,16 +16,32 @@
   "Tags": {
     "items": [
       "planet_name_interstellarexpeditionsbase#6",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_small",
+      "planet_climate_arctic",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_storms",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
+      "planet_other_moon",
       "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor"
+      "planet_other_megacity",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_boreholes",
+      "planet_other_prison",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": -13,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -88,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -114,14 +130,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

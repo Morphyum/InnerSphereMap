@@ -17,16 +17,29 @@
     "items": [
       "planet_name_landfall",
       "planet_size_medium",
-      "planet_climate_terran",
+      "planet_climate_tropical",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 8,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +128,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

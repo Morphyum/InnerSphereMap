@@ -16,17 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_miquelon",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_size_small",
+      "planet_climate_desert",
+      "planet_other_volcanic",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_small",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +127,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched"
   ],
-  "StarType": "G",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

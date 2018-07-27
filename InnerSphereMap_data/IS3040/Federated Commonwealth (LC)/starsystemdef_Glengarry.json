@@ -17,16 +17,30 @@
     "items": [
       "planet_name_glengarry",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
+      "planet_climate_desert",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
+      "planet_other_pirate",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +129,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

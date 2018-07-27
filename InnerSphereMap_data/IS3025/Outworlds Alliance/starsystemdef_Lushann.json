@@ -16,17 +16,30 @@
   "Tags": {
     "items": [
       "planet_name_lushann",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_size_small",
+      "planet_climate_moon",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_ruins",
       "planet_faction_outworlds"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 13,
   "Owner": "Betrayers",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +128,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

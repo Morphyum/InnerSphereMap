@@ -17,16 +17,27 @@
     "items": [
       "planet_name_thun",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_climate_tropical",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_industry_recreation",
+      "planet_industry_research",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 2,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -89,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,12 +126,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsFall"
   ],
   "StarType": "G",
   "ContractEmployers": [

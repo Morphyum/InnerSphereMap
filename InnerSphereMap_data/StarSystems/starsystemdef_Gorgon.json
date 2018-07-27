@@ -16,11 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_gorgon",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_size_large",
+      "planet_climate_tropical",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_taintedair",
+      "planet_pop_large",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -89,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,14 +124,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"
