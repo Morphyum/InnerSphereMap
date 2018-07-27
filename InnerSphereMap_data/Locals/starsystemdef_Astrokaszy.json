@@ -1,68 +1,34 @@
 {
   "Description": {
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "",
     "Id": "starsystemdef_Astrokaszy",
     "Name": "Astrokaszy",
-    "Details": "Huge bands of semi-barbarian nomads under the control of various Caliphs inhabit this dry wind-swept world. The Caliphate cities contain some notable remnants of technology, and a few even have the ability to manufacture munitions and energy weapons. For "
+    "Details": "NOT DONE",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
   },
   "Position": {
-    "x": -290.63,
-    "y": -315.41,
+    "x": -290.407,
+    "y": -315.356,
     "z": 0
   },
   "Tags": {
     "items": [
       "planet_size_medium",
-      "planet_other_storms",
-      "planet_climate_desert",
-      "planet_other_hub",
+      "planet_climate_terran",
       "planet_pop_none",
-      "planet_other_starleague",
-      "planet_other_comstar",
-      "planet_industry_research",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_civ_periphery"
+      "planet_civ_primitive",
+      "planet_industry_poor"
     ],
     "tagSetSourceFile": ""
   },
-  "SupportedBiomes": [
-    "desertParched"
-  ],
-  "MapRequiredTags": null,
-  "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 1,
   "Owner": "Locals",
-  "ContractEmployers": [
-    "Locals"
-  ],
-  "ContractTargets": [
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
-    "AuriganRestoration",
-    "Betrayers",
-    "ComStar",
-    "Davion",
-    "Kurita",
-    "Liao",
-    "MagistracyCentrella",
-    "MagistracyOfCanopus",
-    "MajestyMetals",
-    "Marik",
-    "Nautilus",
-    "Steiner",
-    "TaurianConcordat"
-  ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 2,
+  "ShopMaxSpecials": 9,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",
@@ -121,12 +87,14 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": [],
+        "items": [
+          "map_travel_2a"
+        ],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -136,12 +104,30 @@
       "RequirementComparisons": []
     }
   ],
-  "AlternateSystem": false,
-  "StarPosition": null,
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
+  ],
   "StarType": "G",
-  "Depletable": false,
-  "UseSystemRoninHiringChance": false,
-  "RoninHiringChance": 0,
-  "UseMaxContractOverride": false,
-  "MaxContractOverride": 0
+  "ContractEmployers": [
+    "Davion",
+    "TaurianConcordat"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "Davion",
+    "TaurianConcordat"
+  ]
 }

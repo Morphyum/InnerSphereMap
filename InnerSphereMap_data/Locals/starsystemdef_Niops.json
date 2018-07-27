@@ -1,70 +1,34 @@
 {
   "Description": {
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "",
     "Id": "starsystemdef_Niops",
     "Name": "Niops",
-    "Details": " "
+    "Details": "NOT DONE",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
   },
   "Position": {
-    "x": -374.01,
-    "y": -263.17,
+    "x": -374.013,
+    "y": -263.173,
     "z": 0
   },
   "Tags": {
     "items": [
       "planet_size_medium",
       "planet_climate_terran",
-      "planet_civ_periphery"
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor"
     ],
     "tagSetSourceFile": ""
   },
-  "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "lowlandsCoastal",
-    "lunarVacuum",
-    "martianVacuum",
-    "polarFrozen",
-    "tundraFrozen"
-  ],
-  "MapRequiredTags": null,
-  "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 1,
   "Owner": "Locals",
-  "ContractEmployers": [
-    "Locals"
-  ],
-  "ContractTargets": [
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
-    "AuriganRestoration",
-    "Betrayers",
-    "ComStar",
-    "Davion",
-    "Kurita",
-    "Liao",
-    "MagistracyCentrella",
-    "MagistracyOfCanopus",
-    "MajestyMetals",
-    "Marik",
-    "Nautilus",
-    "Steiner",
-    "TaurianConcordat"
-  ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 0,
+  "ShopMaxSpecials": 9,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",
@@ -123,12 +87,14 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": [],
+        "items": [
+          "map_travel_2a"
+        ],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -138,12 +104,30 @@
       "RequirementComparisons": []
     }
   ],
-  "AlternateSystem": false,
-  "StarPosition": null,
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
+  ],
   "StarType": "G",
-  "Depletable": false,
-  "UseSystemRoninHiringChance": false,
-  "RoninHiringChance": 0,
-  "UseMaxContractOverride": false,
-  "MaxContractOverride": 0
+  "ContractEmployers": [
+    "Davion",
+    "TaurianConcordat"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "Davion",
+    "TaurianConcordat"
+  ]
 }

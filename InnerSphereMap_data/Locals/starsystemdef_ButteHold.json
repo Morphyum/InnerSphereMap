@@ -1,66 +1,34 @@
 {
   "Description": {
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "",
     "Id": "starsystemdef_ButteHold",
     "Name": "Butte Hold",
-    "Details": "[3049] Clan Wolf landed on Butte Hold in September 3049. The Bronze Keshik was unnopposed when it invaded this barren, thinly populated world. "
+    "Details": "NOT DONE",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
   },
   "Position": {
-    "x": -100.82,
-    "y": 462.4,
+    "x": -100.816,
+    "y": 462.398,
     "z": 0
   },
   "Tags": {
     "items": [
       "planet_size_medium",
-      "planet_other_moon",
-      "planet_climate_lunar",
+      "planet_climate_terran",
       "planet_pop_none",
-      "planet_industry_poor",
-      "planet_industry_aquaculture",
-      "planet_industry_agriculture",
-      "planet_civ_periphery"
+      "planet_civ_primitive",
+      "planet_industry_poor"
     ],
     "tagSetSourceFile": ""
   },
-  "SupportedBiomes": [
-    "martianVacuum",
-    "lunarVacuum"
-  ],
-  "MapRequiredTags": null,
-  "MapExcludedTags": null,
   "FuelingStation": false,
-  "JumpDistance": 6,
+  "JumpDistance": 1,
   "Owner": "Locals",
-  "ContractEmployers": [
-    "Locals"
-  ],
-  "ContractTargets": [
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
-    "AuriganRestoration",
-    "Betrayers",
-    "ComStar",
-    "Davion",
-    "Kurita",
-    "Liao",
-    "MagistracyCentrella",
-    "MagistracyOfCanopus",
-    "MajestyMetals",
-    "Marik",
-    "Nautilus",
-    "Steiner",
-    "TaurianConcordat"
-  ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 0,
+  "ShopMaxSpecials": 9,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",
@@ -119,12 +87,14 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": [],
+        "items": [
+          "map_travel_2a"
+        ],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -134,12 +104,30 @@
       "RequirementComparisons": []
     }
   ],
-  "AlternateSystem": false,
-  "StarPosition": null,
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
+  ],
   "StarType": "G",
-  "Depletable": false,
-  "UseSystemRoninHiringChance": false,
-  "RoninHiringChance": 0,
-  "UseMaxContractOverride": false,
-  "MaxContractOverride": 0
+  "ContractEmployers": [
+    "Davion",
+    "TaurianConcordat"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "Davion",
+    "TaurianConcordat"
+  ]
 }
