@@ -15,18 +15,18 @@
   },
   "Tags": {
     "items": [
+      "planet_name_milos",
       "planet_size_medium",
       "planet_climate_terran",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_faction_liao"
+      "planet_industry_poor"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
   "JumpDistance": 1,
-  "Owner": "Liao",
+  "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,

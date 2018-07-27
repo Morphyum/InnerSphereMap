@@ -187,6 +187,9 @@ namespace DocsToSystemJSON {
         public List<string> createTags(JObject systemJObject) {
             List<string> tagList = new List<string>();
 
+            //Nametag
+            tagList.Add("planet_name_" + ((string)systemJObject["PlanetName"]).Replace(" ","").ToLower());
+
             //planetSize
             if (((string)systemJObject["Gravity"]).Equals("Medium Gravity Planet")) {
                 tagList.Add("planet_size_medium");

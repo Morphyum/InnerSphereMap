@@ -15,18 +15,19 @@
   },
   "Tags": {
     "items": [
+      "planet_name_dersidatz(blantleff3025+)",
       "planet_size_medium",
       "planet_climate_terran",
       "planet_pop_none",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_faction_lothian"
+      "planet_faction_circinus"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
   "JumpDistance": 1,
-  "Owner": "MajestyMetals",
+  "Owner": "Nautilus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
