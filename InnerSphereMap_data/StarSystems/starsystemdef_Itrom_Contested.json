@@ -1,0 +1,146 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Itrom_Contested",
+    "Name": "Itrom",
+    "Details": "One of the four founding worlds of the Aurigan Coalition under the direction of House Gallas, Itrom is a jewel of the region, a pleasant Terran world with a population of over a billion. Centuries-old wars left a scar across the surface: a cratered radioactive wasteland that dominates the northern hemisphere.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 92.37,
+    "y": -445.82,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_progress_2",
+      "planet_feature_moon03",
+      "planet_industry_agriculture",
+      "planet_industry_manufacturing",
+      "planet_industry_recreation",
+      "planet_industry_rich",
+      "planet_other_battlefield",
+      "planet_other_blackmarket",
+      "planet_other_moon",
+      "planet_name_itrom_contested",
+      "planet_faction_restoration"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 10,
+  "Owner": "AuriganRestoration",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 8,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": 1,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsSpring",
+    "lowlandsFall",
+    "highlandsSpring",
+    "highlandsFall",
+    "desertParched",
+    "badlandsParched",
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "StarType": "G",
+  "AlternateSystem": true,
+  "UseMaxContractOverride": true,
+  "MaxContractOverride": 0,
+  "ContractEmployers": [
+    "AuriganRestoration"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "AuriganDirectorate"
+  ]
+}

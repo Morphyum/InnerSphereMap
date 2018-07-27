@@ -1,0 +1,142 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Zangul",
+    "Name": "Zangul",
+    "Details": "Zangul is a cold water-world with chains of rocky islands and sprawling archipelagos. Most of the population lives on a single island, which is entirely covered with the slowly-decaying hulk of the original Capellan spaceport.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 119.8,
+    "y": -402.48,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_size_medium",
+      "planet_climate_water",
+      "planet_pop_small",
+      "planet_civ_periphery",
+      "planet_progress_3",
+      "planet_feature_moon02",
+      "planet_industry_aquaculture",
+      "planet_industry_poor",
+      "planet_other_hub",
+      "planet_other_moon",
+      "planet_name_zangul",
+      "planet_faction_restoration"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 4,
+  "Owner": "AuriganRestoration",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 4,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": -1,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsSpring",
+    "lowlandsFall",
+    "highlandsSpring",
+    "highlandsFall",
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "StarType": "M",
+  "ContractEmployers": [
+    "AuriganRestoration",
+    "Liao",
+    "TaurianConcordat"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "Liao",
+    "TaurianConcordat",
+    "AuriganDirectorate"
+  ]
+}

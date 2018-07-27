@@ -12,14 +12,18 @@ namespace DocsToSystemJSON {
         private string BlueprintPath;
         private bool is3040;
         private string yearFolder = "/IS3025/";
+        private string OriginalData;
+        private bool keepKamea;
 
-        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040) {
+        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
             this.universeDataJArray = (JArray)jobject[arrayName];
             this.OutputPath = OutputPath;
             this.BlueprintPath = BlueprintPath;
             this.is3040 = is3040;
+            this.OriginalData = OriginalData;
+            this.keepKamea = keepKamea;
             if (is3040) {
                 this.yearFolder = "/IS3040/";
             }
@@ -48,6 +52,34 @@ namespace DocsToSystemJSON {
                 }
                 (new FileInfo(OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json")).Directory.Create();
                 File.WriteAllText(OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json", newSystemJObject.ToString());
+
+                if (!File.Exists(OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json")) {
+                    string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
+                    (new FileInfo(filepath)).Directory.Create();
+                    File.WriteAllText(filepath, newSystemJObject.ToString());
+                }
+            }
+            if (keepKamea) {
+                switchToRestauration();
+            }
+        }
+
+        public void switchToRestauration() {
+            DirectoryInfo d = new DirectoryInfo(OriginalData);
+            foreach (var file in d.GetFiles("*.json")) {
+                JObject systemJOBject = JObject.Parse(File.ReadAllText(file.FullName));
+                if (((string)systemJOBject["Owner"]).Equals("AuriganDirectorate")) {
+                    systemJOBject["Owner"] = "AuriganRestoration";
+                    JArray tags = JArray.FromObject(systemJOBject["Tags"]["items"]);
+                    List<string> stringtags = tags.ToObject<List<string>>();
+                    stringtags.Remove("planet_faction_directorate");
+                    tags = JArray.FromObject(stringtags);
+                    tags.Add("planet_faction_restoration");
+                    systemJOBject["Tags"]["items"] = tags;
+                    string filepath = OutputPath + "/StarSystems/" + systemJOBject["Description"]["Id"] + ".json";
+                    (new FileInfo(filepath)).Directory.Create();
+                    File.WriteAllText(filepath, systemJOBject.ToString());
+                }
             }
         }
 

@@ -1,0 +1,135 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Ichlangis",
+    "Name": "Ichlangis",
+    "Details": "Ichlangis is a Martian planet, with atmosphere too thin to breathe, no surface water, and temperature below freezing. The planet is rich in titanium, and the ores are made easily accessible by the deep chasms that crack the planet’s surface.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 101.63,
+    "y": -404.09,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_size_small",
+      "planet_climate_mars",
+      "planet_pop_none",
+      "planet_civ_periphery",
+      "planet_progress_3",
+      "planet_feature_moon03",
+      "planet_industry_mining",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_moon",
+      "planet_name_ichlangis",
+      "planet_faction_restoration"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 4,
+  "Owner": "AuriganRestoration",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 4,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": -1,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "martianVacuum"
+  ],
+  "StarType": "M",
+  "ContractEmployers": [
+    "AuriganRestoration",
+    "Liao"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "Liao",
+    "AuriganDirectorate"
+  ]
+}

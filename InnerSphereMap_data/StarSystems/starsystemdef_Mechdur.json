@@ -1,0 +1,142 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Mechdur",
+    "Name": "Mechdur",
+    "Details": "Mechdur is a bustling trade and industrial hub, with three different starports, over a billion inhabitants, and gleaming cities in the heart of its vast grasslands. Ruled by a group of oligarchs, it is in many ways the heart of the Aurigan region.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 112.38,
+    "y": -426.37,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_size_large",
+      "planet_climate_terran",
+      "planet_pop_medium",
+      "planet_civ_periphery",
+      "planet_progress_3",
+      "planet_feature_moon03",
+      "planet_industry_mining",
+      "planet_industry_manufacturing",
+      "planet_industry_rich",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_moon",
+      "planet_name_mechdur",
+      "planet_faction_restoration"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 6,
+  "Owner": "AuriganRestoration",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 6,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": 0,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsSpring",
+    "lowlandsFall",
+    "highlandsSpring",
+    "highlandsFall",
+    "desertParched",
+    "badlandsParched",
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "StarType": "K",
+  "ContractEmployers": [
+    "AuriganRestoration"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "AuriganDirectorate"
+  ]
+}

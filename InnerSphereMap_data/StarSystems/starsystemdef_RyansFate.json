@@ -1,0 +1,134 @@
+{
+  "Description": {
+    "Id": "starsystemdef_RyansFate",
+    "Name": "Ryans Fate",
+    "Details": "A hot, arid world with a single, shallow, briny sea, Ryans Fate survives on flood farming in the brief rainy seasons, and mining high-quality crystals and fissionable materials from the extensive caverns that honeycomb the planet's surface.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 90.09,
+    "y": -419.53,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_pop_small",
+      "planet_civ_periphery",
+      "planet_progress_3",
+      "planet_feature_comet",
+      "planet_industry_mining",
+      "planet_industry_manufacturing",
+      "planet_name_ryansfate",
+      "planet_faction_restoration"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 6,
+  "Owner": "AuriganRestoration",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 4,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": -1,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched",
+    "martianVacuum"
+  ],
+  "StarType": "M",
+  "ContractEmployers": [
+    "AuriganRestoration",
+    "Liao"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "Liao",
+    "AuriganDirectorate"
+  ]
+}

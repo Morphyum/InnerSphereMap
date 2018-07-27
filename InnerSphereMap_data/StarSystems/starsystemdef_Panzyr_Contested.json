@@ -1,0 +1,143 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Panzyr_Contested",
+    "Name": "Panzyr",
+    "Details": "As a result of multiple conflicts above the surface of Panzyr, the orbital approach to the planet is potentially hazardous, so despite its pleasant climate and resources, Panzyr is in a slow decline. House Decimis, originally from Guldra, took possession of the world and it is now their home system.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 88.01,
+    "y": -433.17,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_pop_medium",
+      "planet_civ_periphery",
+      "planet_progress_2",
+      "planet_feature_asteroids",
+      "planet_industry_agriculture",
+      "planet_other_battlefield",
+      "planet_industry_poor",
+      "planet_other_hub",
+      "planet_name_panzyr_contested",
+      "planet_faction_restoration"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 9,
+  "Owner": "AuriganRestoration",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 5,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": 0,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsSpring",
+    "lowlandsFall",
+    "highlandsSpring",
+    "highlandsFall",
+    "desertParched",
+    "badlandsParched",
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "StarType": "G",
+  "AlternateSystem": true,
+  "UseMaxContractOverride": true,
+  "MaxContractOverride": 0,
+  "ContractEmployers": [
+    "AuriganRestoration"
+  ],
+  "ContractTargets": [
+    "AuriganPirates",
+    "AuriganDirectorate"
+  ]
+}
