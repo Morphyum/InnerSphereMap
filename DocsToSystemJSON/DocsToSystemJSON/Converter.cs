@@ -385,6 +385,10 @@ namespace DocsToSystemJSON {
             }
         }
         public List<string> createTags(JObject systemJObject) {
+            string year = "Faction3025";
+            if (is3040) {
+                year = "Faction3040";
+            }
             List<string> tagList = new List<string>();
 
             //Nametag
@@ -421,13 +425,13 @@ namespace DocsToSystemJSON {
                 tagList.Add("planet_climate_mars");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Barren World")) {
-                tagList.Add("planet_climate_moon");
+                tagList.Add("planet_climate_lunar");
+
+                //Currently broken
+                //tagList.Add("planet_climate_moon");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Rocky World")) {
                 tagList.Add("planet_climate_rocky");
-            }
-            else if (((string)systemJObject["ClimateBiome"]).Equals("Terran World")) {
-                tagList.Add("planet_climate_terran");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Terran World")) {
                 tagList.Add("planet_climate_terran");
@@ -495,10 +499,9 @@ namespace DocsToSystemJSON {
             }
 
             //PlanetRings
-            //currently removed because broken
-           /* if ((bool)systemJObject["PlanetRings"]) {
+            if ((bool)systemJObject["PlanetRings"]) {
                 tagList.Add("planet_feature_rings");
-            }*/
+            }
 
             //NumberOfMoons
             if ((int)systemJObject["NumberOfMoons"] > 0) {
@@ -519,37 +522,49 @@ namespace DocsToSystemJSON {
             }
 
             //Population
-            if (((string)systemJObject["Population"]).Equals("Billions")) {
-                tagList.Add("planet_pop_large");
-            }
-            else if (((string)systemJObject["Population"]).Equals("Hundreds Of Millions")) {
-                tagList.Add("planet_pop_medium");
-            }
-            else if (((string)systemJObject["Population"]).Equals("Millions")) {
-                tagList.Add("planet_pop_small");
-            }
-            else if (((string)systemJObject["Population"]).Equals("Less Than A Million")) {
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if (((string)systemJObject["Population"]).Equals("Billions")) {
+                    tagList.Add("planet_pop_large");
+                }
+                else if (((string)systemJObject["Population"]).Equals("Hundreds Of Millions")) {
+                    tagList.Add("planet_pop_medium");
+                }
+                else if (((string)systemJObject["Population"]).Equals("Millions")) {
+                    tagList.Add("planet_pop_small");
+                }
+                else if (((string)systemJObject["Population"]).Equals("Less Than A Million")) {
+                    tagList.Add("planet_pop_none");
+                }
+            } else {
                 tagList.Add("planet_pop_none");
             }
 
             //MegaCity
-            if ((bool)systemJObject["MegaCity"]) {
-                tagList.Add("planet_other_megacity");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["MegaCity"]) {
+                    tagList.Add("planet_other_megacity");
+                }
             }
 
             //CapitalSystem
-            if ((bool)systemJObject["CapitalSystem"]) {
-                tagList.Add("planet_other_capital");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["CapitalSystem"]) {
+                    tagList.Add("planet_other_capital");
+                }
             }
 
             //TechLevel
-            if (((string)systemJObject["TechLevel"]).Equals("Inner Sphere-Level Civilization")) {
-                tagList.Add("planet_civ_innersphere");
-            }
-            else if (((string)systemJObject["TechLevel"]).Equals("Periphery - Level Civilization")) {
-                tagList.Add("planet_civ_periphery");
-            }
-            else if (((string)systemJObject["TechLevel"]).Equals("Primitive Civilization")) {
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if (((string)systemJObject["TechLevel"]).Equals("Inner Sphere-Level Civilization")) {
+                    tagList.Add("planet_civ_innersphere");
+                }
+                else if (((string)systemJObject["TechLevel"]).Equals("Periphery - Level Civilization")) {
+                    tagList.Add("planet_civ_periphery");
+                }
+                else if (((string)systemJObject["TechLevel"]).Equals("Primitive Civilization")) {
+                    tagList.Add("planet_civ_primitive");
+                }
+            } else {
                 tagList.Add("planet_civ_primitive");
             }
 
@@ -562,38 +577,52 @@ namespace DocsToSystemJSON {
             }
 
             //Recreation
-            if ((bool)systemJObject["Recreation"]) {
-                tagList.Add("planet_industry_recreation");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["Recreation"]) {
+                    tagList.Add("planet_industry_recreation");
+                }
             }
 
             //Mining
-            if ((bool)systemJObject["Mining"]) {
-                tagList.Add("planet_industry_mining");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["Mining"]) {
+                    tagList.Add("planet_industry_mining");
+                }
             }
 
             //Agriculture
-            if ((bool)systemJObject["Agriculture"]) {
-                tagList.Add("planet_industry_agriculture");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["Agriculture"]) {
+                    tagList.Add("planet_industry_agriculture");
+                }
             }
 
             //Aquaculture
-            if ((bool)systemJObject["Aquaculture"]) {
-                tagList.Add("planet_industry_aquaculture");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["Aquaculture"]) {
+                    tagList.Add("planet_industry_aquaculture");
+                }
             }
 
             //ResearchFacility
-            if ((bool)systemJObject["ResearchFacility"]) {
-                tagList.Add("planet_industry_research");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["ResearchFacility"]) {
+                    tagList.Add("planet_industry_research");
+                }
             }
 
             //Manufactoring
-            if ((bool)systemJObject["Manufactoring"]) {
-                tagList.Add("planet_industry_manufacturing");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["Manufactoring"]) {
+                    tagList.Add("planet_industry_manufacturing");
+                }
             }
 
             //ComstarBase
-            if ((bool)systemJObject["ComstarBase"]) {
-                tagList.Add("planet_other_comstar");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["ComstarBase"]) {
+                    tagList.Add("planet_other_comstar");
+                }
             }
 
             //StarleagueRemnants
@@ -602,8 +631,10 @@ namespace DocsToSystemJSON {
             }
 
             //TradeHub
-            if ((bool)systemJObject["TradeHub"]) {
-                tagList.Add("planet_other_hub");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["TradeHub"]) {
+                    tagList.Add("planet_other_hub");
+                }
             }
 
             //AlienVegetation
@@ -612,8 +643,10 @@ namespace DocsToSystemJSON {
             }
 
             //BlackMarket
-            if ((bool)systemJObject["BlackMarket"]) {
-                tagList.Add("planet_other_blackmarket");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["BlackMarket"]) {
+                    tagList.Add("planet_other_blackmarket");
+                }
             }
 
             //GeothermalBoreholes
@@ -621,19 +654,23 @@ namespace DocsToSystemJSON {
                 tagList.Add("planet_other_boreholes");
             }
 
-            //GeothermalBoreholes
-            if ((bool)systemJObject["RecentlyColonized"]) {
-                tagList.Add("planet_other_newcolony");
+            //RecentlyColonized
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["RecentlyColonized"]) {
+                    tagList.Add("planet_other_newcolony");
+                }
             }
 
-            //GeothermalBoreholes
+            //PiratePresence
             if ((bool)systemJObject["PiratePresence"]) {
                 tagList.Add("planet_other_pirate");
             }
 
             //PrisonPlanet
-            if ((bool)systemJObject["PrisonPlanet"]) {
-                tagList.Add("planet_other_prison");
+            if (!((string)systemJObject[year]).Equals("Abandoned") || !((string)systemJObject[year]).Equals("Undiscovered")) {
+                if ((bool)systemJObject["PrisonPlanet"]) {
+                    tagList.Add("planet_other_prison");
+                }
             }
 
             //Ruins
@@ -642,10 +679,6 @@ namespace DocsToSystemJSON {
             }
 
             //FactionTag
-            string year = "Faction3025";
-            if (is3040) {
-                year = "Faction3040";
-            }
             switch ((string)systemJObject[year]) {
                 case "Lyran Commonwealth":
                     tagList.Add("planet_faction_steiner");

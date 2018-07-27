@@ -17,26 +17,24 @@
     "items": [
       "planet_name_landrum",
       "planet_size_medium",
-      "planet_climate_arid",
+      "planet_climate_mars",
       "planet_other_megaforest",
       "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_pop_large",
+      "planet_industry_rich",
       "planet_industry_research",
-      "planet_other_blackmarket",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_boreholes",
       "planet_other_prison"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -3,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,10 +123,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

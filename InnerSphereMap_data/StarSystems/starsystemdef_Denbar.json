@@ -16,31 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_denbar",
-      "planet_size_large",
-      "planet_climate_lunar",
+      "planet_size_small",
+      "planet_climate_rocky",
       "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
       "planet_other_taintedair",
       "planet_feature_comet",
-      "planet_feature_moon01",
+      "planet_feature_rings",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_medium",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_research",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 4,
+  "FuelingStation": true,
+  "JumpDistance": -7,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +126,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

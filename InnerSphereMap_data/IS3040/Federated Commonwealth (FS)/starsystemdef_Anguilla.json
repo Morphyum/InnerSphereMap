@@ -16,29 +16,32 @@
   "Tags": {
     "items": [
       "planet_name_anguilla",
-      "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_floatingworld",
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_other_fungus",
       "planet_other_storms",
-      "planet_other_taintedair",
       "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_feature_moon02",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_small",
+      "planet_other_megacity",
       "planet_industry_mining",
       "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
+      "planet_other_prison",
       "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -8,
+  "JumpDistance": -6,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,12 +130,7 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched"
   ],
   "StarType": "F",
   "ContractEmployers": [

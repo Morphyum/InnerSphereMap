@@ -17,7 +17,7 @@
     "items": [
       "planet_name_jamestown",
       "planet_size_small",
-      "planet_climate_arctic",
+      "planet_climate_water",
       "planet_other_volcanic",
       "planet_other_megaforest",
       "planet_other_mudflats",
@@ -25,25 +25,24 @@
       "planet_other_storms",
       "planet_feature_asteroids",
       "planet_feature_gasgiant",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_small",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_starleague",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
       "planet_other_hub",
-      "planet_other_alienvegetation",
       "planet_other_blackmarket",
       "planet_other_boreholes",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": -3,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +131,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "A",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

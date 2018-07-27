@@ -16,25 +16,26 @@
   "Tags": {
     "items": [
       "planet_name_reykavis",
-      "planet_size_small",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
+      "planet_size_large",
+      "planet_climate_rocky",
+      "planet_other_stonedcaribou",
       "planet_other_taintedair",
       "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_pop_large",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_blackmarket",
+      "planet_other_prison",
       "planet_faction_illyrian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": -5,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -97,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -123,10 +124,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "M",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

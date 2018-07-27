@@ -16,22 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_cajamarca",
-      "planet_size_small",
+      "planet_size_large",
       "planet_climate_tropical",
       "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_fungus",
+      "planet_other_floatingworld",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_none",
-      "planet_industry_poor",
+      "planet_feature_comet",
+      "planet_pop_small",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
+      "planet_industry_research",
       "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_other_prison",
       "planet_ruins",
       "planet_faction_marik"
@@ -39,7 +36,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -2,
+  "JumpDistance": 9,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,7 +129,7 @@
     "lowlandsSpring",
     "lowlandsFall"
   ],
-  "StarType": "A",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"

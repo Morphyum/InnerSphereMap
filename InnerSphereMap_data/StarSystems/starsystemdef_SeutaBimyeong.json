@@ -16,19 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_seutabimyeong",
-      "planet_size_medium",
-      "planet_climate_tropical",
+      "planet_size_small",
+      "planet_climate_mars",
       "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_feature_moon02",
+      "planet_other_megaforest",
+      "planet_feature_rings",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_civ_primitive",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_industry_recreation",
       "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
       "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_newcolony",
       "planet_other_pirate",
       "planet_other_prison",
@@ -37,8 +39,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -11,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,11 +129,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "TaurianConcordat"
