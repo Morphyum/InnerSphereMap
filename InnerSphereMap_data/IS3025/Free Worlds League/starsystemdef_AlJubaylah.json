@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AlJubaylah",
     "Name": "Al Jubaylah",
-    "Details": "NOT DONE",
+    "Details": "Al Jubaylah is a farming world. Most the world is plains and to maximize farmable land the cities and rich live in the few mountainous areas. The ruling Mullahs are even handed and it is a prosperous world whose citizens enjoy freedoms most do not.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,17 @@
     "items": [
       "planet_name_aljubaylah",
       "planet_size_medium",
-      "planet_climate_lunar",
-      "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_climate_terran",
       "planet_pop_small",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_agriculture",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,17 +116,27 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "F",
+  "StarType": "B",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Marik",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

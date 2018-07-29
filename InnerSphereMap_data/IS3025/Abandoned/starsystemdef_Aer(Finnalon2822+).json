@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Aer(Finnalon2822+)",
     "Name": "Aer (Finnalon 2822+)",
-    "Details": "NOT DONE",
+    "Details": "A very recent colony of Polygamists was formed here. While mainly a farming world, many pirate hideouts are present on the two habitable moons, leading to a nice blackmarket on planet, where it’s said even people are bought and sold.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_aer(finnalon2822+)",
-      "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_pop_large",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_comstar",
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_other_mudflats",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_industry_poor",
+      "planet_industry_agriculture",
+      "planet_other_blackmarket",
       "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_other_pirate",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -2,
+  "FuelingStation": false,
+  "JumpDistance": 22,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,17 +121,20 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "M",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "K",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

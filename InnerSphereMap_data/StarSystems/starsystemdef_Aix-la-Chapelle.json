@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Aix-la-Chapelle",
     "Name": "Aix-la-Chapelle",
-    "Details": "NOT DONE",
+    "Details": "Home to the Diplan Mechyards, the whole population lives in the Diplan Mechworks Fortress, or is involved in mining. Criminals are sent outside for a breath of fresh air, as the atmosphere is poisonous and uninhabitable..",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_aix-la-chapelle",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_size_medium",
+      "planet_climate_tropical",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_industry_agriculture",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_hub",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 5,
+  "JumpDistance": 43,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,21 +125,24 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsFall"
   ],
-  "StarType": "F",
+  "StarType": "A",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Kurita",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

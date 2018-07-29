@@ -26,7 +26,7 @@ namespace InnerSphereMap {
         }
     }
 
-    
+
     [HarmonyPatch(typeof(SimGameState), "GetFactionDefIDFromEnum")]
     public static class SimGameState_GetFactionDefIDFromEnum_Patch {
 
@@ -34,7 +34,7 @@ namespace InnerSphereMap {
             try {
                 if (__result.Equals("faction_Betrayers")) {
                     __result = "faction_AuriganBetrayers";
-                } 
+                }
             }
             catch (Exception e) {
                 Logger.LogError(e);
@@ -108,7 +108,7 @@ namespace InnerSphereMap {
                 restorationLogo?.SetActive(false);
 
                 GameObject go;
-                if(Fields.originalTransform == null) {
+                if (Fields.originalTransform == null) {
                     Fields.originalTransform = UnityEngine.Object.Instantiate(__instance.restorationLogo).transform;
                 }
                 Texture2D texture2D2;
@@ -120,9 +120,10 @@ namespace InnerSphereMap {
                     go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
                     go.GetComponent<Renderer>().material.mainTexture = texture2D2;
                     go.name = "davionLogoMap";
-                } else {
+                }
+                else {
                     go = GameObject.Find("davionLogoMap");
-                    
+
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Davion, go });
 
@@ -253,19 +254,50 @@ namespace InnerSphereMap {
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MagistracyCentrella, go });
 
-                if (GameObject.Find("illyrianLogoMap") == null) {
-                    texture2D2 = new Texture2D(2, 2);
-                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/illyrianLogo.png");
-                    texture2D2.LoadImage(data);
-                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
-                    go.name = "illyrianLogoMap";
+ 
+                if (InnerSphereMap.SETTINGS.use3040Map) {
+                    if (GameObject.Find("rasalhagueLogoMap") == null) {
+                        texture2D2 = new Texture2D(2, 2);
+                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/rasalhagueLogo.png");
+                        texture2D2.LoadImage(data);
+                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                        go.name = "rasalhagueLogoMap";
+                    }
+                    else {
+                        go = GameObject.Find("rasalhagueLogoMap");
+                    }
                 }
                 else {
-                    go = GameObject.Find("illyrianLogoMap");
-
+                    if (GameObject.Find("illyrianLogoMap") == null) {
+                        texture2D2 = new Texture2D(2, 2);
+                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/illyrianLogo.png");
+                        texture2D2.LoadImage(data);
+                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                        go.name = "illyrianLogoMap";
+                    }
+                    else {
+                        go = GameObject.Find("illyrianLogoMap");
+                    }
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganMercenaries, go });
+
+                if (InnerSphereMap.SETTINGS.use3040Map) {
+                    if (GameObject.Find("stivesLogoMap") == null) {
+                        texture2D2 = new Texture2D(2, 2);
+                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/stivesLogo.png");
+                        texture2D2.LoadImage(data);
+                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                        go.name = "stivesLogoMap";
+                    }
+                    else {
+                        go = GameObject.Find("stivesLogoMap");
+
+                    }
+                    ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.ComStar, go });
+                }
 
                 if (GameObject.Find("lothianLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -358,7 +390,15 @@ namespace InnerSphereMap {
                         __result = new Color(settings.CircinusRGB[0], settings.CircinusRGB[1], settings.CircinusRGB[2], 1f);
                         break;
                     case Faction.AuriganMercenaries:
-                        __result = new Color(settings.IllyrianRGB[0], settings.IllyrianRGB[1], settings.IllyrianRGB[2], 1f);
+                        if (!InnerSphereMap.SETTINGS.use3040Map) {
+                            __result = new Color(settings.IllyrianRGB[0], settings.IllyrianRGB[1], settings.IllyrianRGB[2], 1f);
+                        }
+                        else {
+                            __result = new Color(settings.RasalhagueRGB[0], settings.RasalhagueRGB[1], settings.RasalhagueRGB[2], 1f);
+                        }
+                        break;
+                    case Faction.ComStar:
+                        __result = new Color(settings.StIvesRGB[0], settings.StIvesRGB[1], settings.StIvesRGB[2], 1f);
                         break;
                     case Faction.Davion:
                         __result = new Color(settings.DavionRGB[0], settings.DavionRGB[1], settings.DavionRGB[2], 1f);
@@ -509,18 +549,18 @@ namespace InnerSphereMap {
                 Logger.LogError(e);
             }
         }
-        
+
         //rezising all the map logos
         [HarmonyPatch(typeof(StarmapRenderer), "PlaceLogo")]
         public static class StarmapRenderer_PlaceLogo_Patch {
 
             static void Postfix(StarmapRenderer __instance, Faction faction, GameObject logo) {
-                try{
-                    if(logo.transform.localScale == Fields.originalTransform.localScale) {
-                        logo.transform.localScale += new Vector3(10f, 10f, 10f);
+                try {
+                    if (logo.transform.localScale == Fields.originalTransform.localScale) {
+                        logo.transform.localScale += new Vector3(4f, 4f, 4f);
                     }
                 }
-                 catch (Exception e) {
+                catch (Exception e) {
                     Logger.LogError(e);
                 }
             }

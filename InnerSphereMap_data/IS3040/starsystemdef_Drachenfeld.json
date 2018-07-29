@@ -17,27 +17,23 @@
     "items": [
       "planet_name_drachenfeld",
       "planet_size_small",
-      "planet_climate_ice",
+      "planet_climate_tropical",
       "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_other_fungus",
       "planet_pop_medium",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
+      "planet_industry_poor",
+      "planet_industry_aquaculture",
       "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_ruins"
+      "planet_other_pirate"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -7,
-  "Owner": "Locals",
+  "JumpDistance": 9,
+  "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -99,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,17 +121,15 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "0",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "F",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MajestyMetals"
   ]
 }

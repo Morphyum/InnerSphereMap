@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Adherlwin",
     "Name": "Adherlwin",
-    "Details": "NOT DONE",
+    "Details": "Adherlwin’s manufacturing and mining operations made it a target of SLDF in the Star League days. Not important enough for a garrison the world was conquered and the SLDF moved on. Eventually it was reincorporated into the Magistracy of Canopus.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_adherlwin",
-      "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_megaforest",
+      "planet_size_medium",
+      "planet_climate_arctic",
       "planet_other_mudflats",
-      "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_pop_small",
+      "planet_industry_mining",
       "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_faction_magistracy"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 0,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "MagistracyOfCanopus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,17 +118,24 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "MagistracyOfCanopus",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

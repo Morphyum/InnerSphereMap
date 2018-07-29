@@ -14,6 +14,10 @@ namespace DocsToSystemJSON {
         private string yearFolder = "/IS3025/";
         private string OriginalData;
         private bool keepKamea;
+        public static List<string> AllFactions = new List<string>() { "ComStar","Betrayers","AuriganDirectorate","AuriganMercenaries","AuriganPirates","AuriganRestoration",
+                        "Davion","Kurita","Liao","Locals", "MagistracyCentrella",
+                        "MagistracyOfCanopus","MajestyMetals", "Marik","Nautilus",
+                        "Steiner","TaurianConcordat" };
 
         public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea) {
 
@@ -50,16 +54,23 @@ namespace DocsToSystemJSON {
                 newSystemJObject["Position"]["x"] = systemJObject["x"];
                 newSystemJObject["Position"]["y"] = systemJObject["y"];
                 newSystemJObject["Owner"] = getOwner(systemJObject);
+                newSystemJObject["ContractEmployers"] = JArray.FromObject(getEmployees((string)newSystemJObject["Owner"]));
+                newSystemJObject["ContractTargets"] = JArray.FromObject(getTargets((string)newSystemJObject["Owner"]));
                 newSystemJObject["SupportedBiomes"] = JArray.FromObject(getBiomes(systemJObject));
                 string year = "Faction3025";
                 if (is3040) {
                     year = "Faction3040";
                 }
-                (new FileInfo(OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json")).Directory.Create();
-                File.WriteAllText(OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json", newSystemJObject.ToString());
+                string path = OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json";
+                path = path.Replace("\n", "");
+                (new FileInfo(path)).Directory.Create();
+                File.WriteAllText(path, newSystemJObject.ToString());
 
+                path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
+                path = path.Replace("\n", "");
                 if (!File.Exists(OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json")) {
                     string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
+                    filepath = filepath.Replace("\n", "");
                     (new FileInfo(filepath)).Directory.Create();
                     File.WriteAllText(filepath, newSystemJObject.ToString());
                 }
@@ -359,7 +370,12 @@ namespace DocsToSystemJSON {
                 case "Aurigan Coalition":
                     return "AuriganRestoration";
                 case "ComStar":
-                    return "ComStar";
+                    if (is3040) {
+                        return "Locals";
+                    }
+                    else {
+                        return "ComStar";
+                    }
                 case "Magistracy of Canopus":
                     return "MagistracyOfCanopus";
                 case "Taurian Concordat":
@@ -375,13 +391,32 @@ namespace DocsToSystemJSON {
                 case "Circinus Federation":
                     return "Nautilus";
                 case "Illyrian Palatinate":
-                    return "AuriganMercenaries";
+                    if (is3040) {
+                        return "Locals";
+                    }
+                    else {
+                        return "AuriganMercenaries";
+                    }
+                case "Free Rasalhague Republic":
+                    if (is3040) {
+                        return "AuriganMercenaries";
+                    }
+                    else {
+                        return "Locals";
+                    }
+                case "St. Ives Compact":
+                    if (is3040) {
+                        return "ComStar";
+                    }
+                    else {
+                        return "Locals";
+                    }
                 case "Abandoned":
                     return "NoFaction";
                 case "Undiscovered":
                     return "NoFaction";
                 default:
-                    return "Locals";
+                    return "NoFaction";
             }
         }
         public List<string> createTags(JObject systemJObject) {
@@ -741,6 +776,25 @@ namespace DocsToSystemJSON {
                     break;
             }
             return tagList;
+        }
+
+        public static List<string> getEmployees(string faction) {
+            List<string> employees = new List<string>();
+            if (faction.Equals("NoFaction")) {
+                return employees;
+            }
+            employees.Add(faction);
+            employees.Add("Locals");
+            return employees;
+        }
+
+        public static List<string> getTargets(string faction) {
+            List<string> targets = AllFactions;
+            if (faction.Equals("NoFaction")) {
+                return targets;
+            }
+            targets.Remove(faction);
+            return targets;
         }
 
     }

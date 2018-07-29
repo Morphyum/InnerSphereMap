@@ -19,6 +19,8 @@ namespace InnerSphereMap {
         public List<float> TaurianRGB;
         public List<float> MagistracyRGB;
         public List<float> RestorationRGB;
+        public List<float> RasalhagueRGB;
+        public List<float> StIvesRGB;
 
         public float MinFov; // this is the vertical FOV
         public float MaxFov; // this is the vertical FOV
@@ -30,6 +32,8 @@ namespace InnerSphereMap {
         public float MapLeftViewBuffer;
         public float MapRightViewBuffer;
         public float MapBottomViewBuffer;
+
+        public bool use3040Map = false;
 
 
     }

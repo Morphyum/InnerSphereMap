@@ -17,32 +17,30 @@
     "items": [
       "planet_name_blommestein",
       "planet_size_medium",
-      "planet_climate_desert",
+      "planet_climate_arctic",
       "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_other_floatingworld",
       "planet_feature_gasgiant",
       "planet_feature_rings",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_pop_medium",
+      "planet_other_megacity",
       "planet_industry_agriculture",
-      "planet_other_comstar",
+      "planet_industry_research",
       "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
+      "planet_other_hub",
+      "planet_other_newcolony",
       "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -5,
+  "JumpDistance": 2,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,16 +129,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "K",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "M",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

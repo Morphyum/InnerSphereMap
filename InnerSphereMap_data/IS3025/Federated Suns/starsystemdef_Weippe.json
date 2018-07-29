@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Weippe",
     "Name": "Weippe",
-    "Details": "NOT DONE",
+    "Details": "Weippe is best known for it's fine grain sands and glassblowing industries, which are unique to the planet.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,33 +17,25 @@
     "items": [
       "planet_name_weippe",
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_volcanic",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_climate_water",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_small",
       "planet_civ_innersphere",
       "planet_industry_poor",
       "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
+      "planet_other_hub",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 0,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,17 +124,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

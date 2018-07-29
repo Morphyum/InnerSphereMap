@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Acoma",
     "Name": "Acoma",
-    "Details": "NOT DONE",
+    "Details": "Acoma vanished from maps during the First Succession War, depopulated due to the viscous and unrelenting fighting at the time.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_acoma",
-      "planet_size_large",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_other_taintedair",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_civ_primitive",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 6,
+  "FuelingStation": false,
+  "JumpDistance": 12,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,17 +116,22 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "desertParched"
   ],
-  "StarType": "A",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "K",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

@@ -17,27 +17,27 @@
     "items": [
       "planet_name_oli",
       "planet_size_large",
-      "planet_climate_ice",
+      "planet_climate_desert",
       "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
+      "planet_other_megaforest",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
       "planet_feature_rings",
-      "planet_pop_none",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_alienvegetation",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_manufacturing",
       "planet_other_pirate",
       "planet_other_prison",
-      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 10,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,17 +126,13 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched"
   ],
-  "StarType": "F",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "G",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

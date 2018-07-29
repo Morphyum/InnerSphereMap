@@ -17,36 +17,30 @@
     "items": [
       "planet_name_oli",
       "planet_size_small",
-      "planet_climate_rocky",
+      "planet_climate_lunar",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
+      "planet_other_floatingworld",
       "planet_other_fungus",
-      "planet_other_taintedair",
       "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
+      "planet_industry_rich",
+      "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_blackmarket",
       "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
       "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -11,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -109,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 3,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -135,17 +129,13 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "desertParched",
+    "badlandsParched"
   ],
   "StarType": "B",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

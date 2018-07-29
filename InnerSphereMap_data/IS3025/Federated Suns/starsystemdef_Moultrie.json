@@ -16,34 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_moultrie",
-      "planet_size_large",
-      "planet_climate_arctic",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
+      "planet_size_medium",
+      "planet_climate_lunar",
       "planet_other_mudflats",
-      "planet_other_floatingworld",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_other_taintedair",
+      "planet_feature_rings",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_medium",
       "planet_other_megacity",
       "planet_civ_innersphere",
       "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_research",
-      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_boreholes",
-      "planet_ruins",
+      "planet_other_alienvegetation",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
+  "FuelingStation": false,
   "JumpDistance": 4,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
@@ -133,17 +127,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched",
+    "badlandsParched"
   ],
   "StarType": "G",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

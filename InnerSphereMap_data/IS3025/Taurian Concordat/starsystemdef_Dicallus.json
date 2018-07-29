@@ -16,32 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_dicallus",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_fungus",
+      "planet_other_floatingworld",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
       "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_comet",
       "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
+      "planet_pop_none",
+      "planet_other_megacity",
+      "planet_civ_primitive",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
       "planet_other_boreholes",
       "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_other_prison",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -9,
+  "JumpDistance": 0,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,14 +135,15 @@
     "polarFrozen",
     "tundraFrozen"
   ],
-  "StarType": "F",
+  "StarType": "M",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "TaurianConcordat",
+    "Locals"
   ],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

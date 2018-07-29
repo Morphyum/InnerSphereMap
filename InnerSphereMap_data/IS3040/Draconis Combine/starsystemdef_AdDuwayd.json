@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AdDuwayd",
     "Name": "Ad Duwayd",
-    "Details": "NOT DONE",
+    "Details": "Ad Duwayd is not a very hospitable planet. Geothermal vents allow for extensive under ice fisheries. Large silo like structures are built through the ice. Most of the population live in these large under ice facilities.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_adduwayd",
-      "planet_size_large",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
+      "planet_size_medium",
+      "planet_climate_ice",
+      "planet_other_floatingworld",
       "planet_feature_comet",
-      "planet_feature_moon01",
-      "planet_other_moon",
       "planet_pop_small",
       "planet_civ_innersphere",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_starleague",
+      "planet_industry_aquaculture",
       "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -13,
+  "JumpDistance": 30,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,16 +119,26 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "K",
+  "StarType": "O",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Kurita",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

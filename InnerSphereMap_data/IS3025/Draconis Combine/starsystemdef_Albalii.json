@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Albalii",
     "Name": "Albalii",
-    "Details": "NOT DONE",
+    "Details": "Albalii is an excellent example of arid terraforming. When first colonized, the interiors of the planet were deserts, using dropships and vast amounts of purified seawater, the interiors of the continents were turned into lush crop producing havens.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_albalii",
-      "planet_size_large",
-      "planet_climate_tropical",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_arid",
       "planet_pop_medium",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_industry_aquaculture",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 3,
+  "JumpDistance": 22,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -5,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,17 +118,22 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "F",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Kurita",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AblesGlory",
     "Name": "Able's Glory",
-    "Details": "NOT DONE",
+    "Details": "Large quantities of germanium present prompted Hunter’s Paradise and Gillfillan’s Gold to collectively form a colony on Able’s Glory. Outside of mining the colony is mostly used as a safe jump point for jump ship traffic.  ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,21 @@
     "items": [
       "planet_name_able'sglory",
       "planet_size_large",
-      "planet_climate_lunar",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
+      "planet_other_storms",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
       "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_other_pirate",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -12,
+  "FuelingStation": false,
+  "JumpDistance": 12,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,17 +120,23 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "F",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "K",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "Locals",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

@@ -17,29 +17,25 @@
     "items": [
       "planet_name_anembo",
       "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
+      "planet_climate_tropical",
+      "planet_other_stonedcaribou",
       "planet_other_storms",
       "planet_other_taintedair",
-      "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_large",
       "planet_industry_poor",
-      "planet_industry_aquaculture",
+      "planet_industry_recreation",
       "planet_industry_manufacturing",
+      "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_alienvegetation",
+      "planet_other_newcolony",
       "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 10,
+  "FuelingStation": false,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,17 +124,22 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

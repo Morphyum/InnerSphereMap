@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Zangul",
     "Name": "Zangul",
-    "Details": "NOT DONE",
+    "Details": "The Zangul system was colonised in the Star League era, but was wiped out during the First Succession War. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,35 +17,18 @@
     "items": [
       "planet_name_zangul",
       "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
+      "planet_climate_lunar",
       "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 7,
+  "FuelingStation": false,
+  "JumpDistance": 14,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,17 +117,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "desertParched",
     "badlandsParched"
   ],
-  "StarType": "K",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "O",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

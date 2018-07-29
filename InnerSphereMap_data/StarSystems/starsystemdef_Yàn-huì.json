@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Yàn-huì",
     "Name": "Yàn-huì",
-    "Details": "NOT DONE",
+    "Details": "The Yàn-huì system was colonized by the Confederation during the Star League era at some point after the end of the Reunification War, but was devastated due to the fighting during the Third Succession War.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,27 +17,20 @@
     "items": [
       "planet_name_yàn-huì",
       "planet_size_small",
-      "planet_climate_lunar",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 3,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,17 +119,13 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "0",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "M",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

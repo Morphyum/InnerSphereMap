@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Afleir",
     "Name": "Afleir",
-    "Details": "NOT DONE",
+    "Details": "Recently rediscovered, Afleir went uncharted on maps for over 200 years. The locals just thought their habit of eating people scared non pirates off. The pirates have made a good living smuggling in “food” for the local populace.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,34 +17,20 @@
     "items": [
       "planet_name_afleir",
       "planet_size_medium",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_climate_mars",
+      "planet_feature_gasgiant",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_industry_poor",
+      "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -1,
+  "FuelingStation": false,
+  "JumpDistance": 35,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,17 +119,20 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "K",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "O",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

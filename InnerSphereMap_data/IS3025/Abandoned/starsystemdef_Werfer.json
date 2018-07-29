@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Werfer",
     "Name": "Werfer",
-    "Details": "NOT DONE",
+    "Details": "The Werfer system was settled during or shortly before the Age of War by the Taurian Concordat, but was abandoned during the Third Succession War. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,17 @@
     "items": [
       "planet_name_werfer",
       "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
+      "planet_climate_mars",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 11,
+  "FuelingStation": false,
+  "JumpDistance": 14,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,16 +116,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "K",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "F",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

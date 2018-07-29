@@ -17,24 +17,30 @@
     "items": [
       "planet_name_kirchbach",
       "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
+      "planet_climate_arctic",
+      "planet_other_megaforest",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
       "planet_feature_rings",
-      "planet_pop_none",
-      "planet_industry_rich",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_prison"
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_boreholes",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 15,
-  "Owner": "Locals",
+  "FuelingStation": false,
+  "JumpDistance": -6,
+  "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -96,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -122,18 +128,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "AuriganMercenaries",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MajestyMetals"
   ]
 }

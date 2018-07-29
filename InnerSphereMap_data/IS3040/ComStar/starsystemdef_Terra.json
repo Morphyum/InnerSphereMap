@@ -39,7 +39,7 @@
   },
   "FuelingStation": true,
   "JumpDistance": 9,
-  "Owner": "ComStar",
+  "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -136,12 +136,25 @@
   ],
   "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Locals",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
+    "AuriganRestoration",
     "Davion",
+    "Kurita",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
+    "Steiner",
     "TaurianConcordat"
   ]
 }

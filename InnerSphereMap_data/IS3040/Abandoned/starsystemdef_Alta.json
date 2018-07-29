@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alta",
     "Name": "Alta",
-    "Details": "NOT DONE",
+    "Details": "Alta vanished from maps during the Third Succession War, abandoned due to the fighting.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,17 @@
   "Tags": {
     "items": [
       "planet_name_alta",
-      "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_feature_asteroids",
-      "planet_pop_small",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
+      "planet_size_medium",
+      "planet_climate_lunar",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": 12,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,21 +115,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "F",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "K",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "ComStar",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

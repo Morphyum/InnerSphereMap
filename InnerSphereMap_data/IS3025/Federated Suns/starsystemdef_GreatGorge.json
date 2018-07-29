@@ -16,31 +16,26 @@
   "Tags": {
     "items": [
       "planet_name_greatgorge",
-      "planet_size_large",
-      "planet_climate_arctic",
+      "planet_size_small",
+      "planet_climate_mars",
       "planet_other_volcanic",
       "planet_other_megaforest",
+      "planet_other_floatingworld",
       "planet_other_fungus",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
       "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_pop_small",
-      "planet_other_megacity",
+      "planet_pop_medium",
+      "planet_civ_primitive",
+      "planet_industry_recreation",
       "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 14,
+  "JumpDistance": -10,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,17 +124,18 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Weekapaug",
     "Name": "Weekapaug",
-    "Details": "NOT DONE",
+    "Details": "The Weekapaug system was settled during or shortly after the First Exodus from Terra and was a member of the St. Ives Mercantile League prior to the formation of the Capellan Confederation in the mid-twenty-fourth century.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,34 +17,16 @@
     "items": [
       "planet_name_weekapaug",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_primitive",
+      "planet_climate_arid",
+      "planet_pop_small",
       "planet_industry_poor",
-      "planet_industry_recreation",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 5,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,21 +115,16 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

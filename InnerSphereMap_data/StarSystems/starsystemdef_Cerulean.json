@@ -16,29 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_cerulean",
-      "planet_size_large",
-      "planet_climate_ice",
-      "planet_other_volcanic",
+      "planet_size_medium",
+      "planet_climate_arid",
       "planet_other_megaforest",
-      "planet_other_mudflats",
       "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_feature_asteroids",
-      "planet_feature_moon01",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_pop_small",
+      "planet_industry_recreation",
       "planet_industry_aquaculture",
       "planet_industry_research",
+      "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_pirate",
       "planet_other_prison",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -4,
+  "JumpDistance": -8,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,17 +127,18 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
   "StarType": "M",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

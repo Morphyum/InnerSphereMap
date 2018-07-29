@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Weitinger",
     "Name": "Weitinger",
-    "Details": "NOT DONE",
+    "Details": "The Weitinger system was settled during the Star League era at some point after the Reunification War, but continued fighting eventually led to mass famine on the surface and then abandonment.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,20 +17,11 @@
     "items": [
       "planet_name_weitinger",
       "planet_size_small",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_large",
+      "planet_climate_desert",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_mining",
-      "planet_other_starleague",
-      "planet_other_hub",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -99,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,17 +116,12 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "F",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "B",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

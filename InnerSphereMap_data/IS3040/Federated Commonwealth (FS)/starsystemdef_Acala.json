@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Acala",
     "Name": "Acala",
-    "Details": "NOT DONE",
+    "Details": "The Acala system changed hands between the Federated Suns and the Capellan Confederation at least twice after the system was settled and was on the border between the two nations for most of the history of the two states.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,33 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_acala",
-      "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_arid",
+      "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_small",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
       "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 14,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -5,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,17 +117,25 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

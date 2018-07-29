@@ -16,32 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_jápminboddu",
-      "planet_size_small",
-      "planet_climate_tropical",
+      "planet_size_medium",
+      "planet_climate_desert",
       "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
       "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
       "planet_pop_medium",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 3,
+  "JumpDistance": -3,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,18 +126,13 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "desertParched"
   ],
-  "StarType": "F",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "B",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MajestyMetals"
   ]
 }

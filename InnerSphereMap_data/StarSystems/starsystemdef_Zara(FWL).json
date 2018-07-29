@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Zara(FWL)",
     "Name": "Zara (FWL)",
-    "Details": "NOT DONE",
+    "Details": "The Zara system was colonised in the Star League era, but abandoned during the Third Succession War. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_zara(fwl)",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_other_taintedair",
+      "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_civ_primitive",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -5,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,13 +122,9 @@
     "badlandsParched"
   ],
   "StarType": "A",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

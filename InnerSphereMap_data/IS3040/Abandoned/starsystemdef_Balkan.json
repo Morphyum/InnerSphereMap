@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Balkan",
     "Name": "Balkan",
-    "Details": "NOT DONE",
+    "Details": "Balkan was always listed in early Lyran charts as \"Marginally Habitable\".  When the Combine captured it during the 3rd succession war, they soon discovered what a drain on resorces it was, and abandoned it shortly thereafter.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,26 +16,17 @@
   "Tags": {
     "items": [
       "planet_name_balkan",
-      "planet_size_medium",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -4,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -98,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -124,17 +115,16 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
+    "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "F",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "K",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Adler",
     "Name": "Adler",
-    "Details": "NOT DONE",
+    "Details": "Abandoned due to a nuclear winter caused by strikes during the Second Succession war. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,22 @@
     "items": [
       "planet_name_adler",
       "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_prison",
+      "planet_climate_ice",
+      "planet_other_taintedair",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_other_alienvegetation",
+      "planet_other_pirate",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 9,
+  "FuelingStation": false,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -127,21 +121,21 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "M",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "B",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

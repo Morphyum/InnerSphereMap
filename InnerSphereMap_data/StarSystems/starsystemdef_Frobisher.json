@@ -18,27 +18,29 @@
       "planet_name_frobisher",
       "planet_size_large",
       "planet_climate_tropical",
-      "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_moon02",
+      "planet_other_mudflats",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_large",
       "planet_industry_mining",
       "planet_industry_research",
-      "planet_other_comstar",
+      "planet_other_starleague",
       "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_other_prison"
+      "planet_other_prison",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 11,
-  "Owner": "Locals",
+  "JumpDistance": -11,
+  "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -100,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,14 +132,11 @@
     "lowlandsSpring",
     "lowlandsFall"
   ],
-  "StarType": "A",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "F",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MajestyMetals"
   ]
 }

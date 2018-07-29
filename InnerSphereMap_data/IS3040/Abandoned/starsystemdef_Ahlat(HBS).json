@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ahlat(HBS)",
     "Name": "Ahlat (HBS)",
-    "Details": "NOT DONE",
+    "Details": "Depopulated and abandoned during the Third Succession war, Ahlat is known for it's asteroid belt where pirates have been known to hide. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_ahlat(hbs)",
-      "planet_size_small",
-      "planet_climate_desert",
+      "planet_size_medium",
+      "planet_climate_rocky",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_other_taintedair",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_other_pirate",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 2,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,16 +121,20 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "M",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "F",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

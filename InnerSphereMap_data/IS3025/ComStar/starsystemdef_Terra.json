@@ -136,12 +136,25 @@
   ],
   "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "ComStar",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
+    "AuriganRestoration",
     "Davion",
+    "Kurita",
+    "Liao",
+    "Locals",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
+    "Steiner",
     "TaurianConcordat"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Adhara(Trip3040+)",
     "Name": "Adhara (Trip 3040+)",
-    "Details": "NOT DONE",
+    "Details": "Originally named Adhara the planetary government had to change the name to Trip after too many misshipping accidents. Negotiations for the 1000 tons of Agromech shears misdelivered is still a hot topic of debate amongst locals.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,33 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_adhara(trip3040+)",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
+      "planet_size_medium",
+      "planet_climate_desert",
       "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_pop_small",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_boreholes",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_magistracy"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -15,
+  "JumpDistance": 28,
   "Owner": "MagistracyOfCanopus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,21 +116,23 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched"
   ],
   "StarType": "F",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "MagistracyOfCanopus",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

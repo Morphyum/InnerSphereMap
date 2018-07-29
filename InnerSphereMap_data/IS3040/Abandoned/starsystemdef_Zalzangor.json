@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Zalzangor",
     "Name": "Zalzangor",
-    "Details": "NOT DONE",
+    "Details": "The Zalzangor system was colonised in the Star League era, but was abandoned during the First Succession War after heavy fighting. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,14 @@
   "Tags": {
     "items": [
       "planet_name_zalzangor",
-      "planet_size_large",
+      "planet_size_medium",
       "planet_climate_rocky",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -105,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,14 +121,10 @@
     "highlandsSpring",
     "highlandsFall"
   ],
-  "StarType": "B",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "A",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

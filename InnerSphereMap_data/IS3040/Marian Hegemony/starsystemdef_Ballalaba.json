@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ballalaba",
     "Name": "Ballalaba",
-    "Details": "NOT DONE",
+    "Details": "One of the more important Hegemony planets, Ballalaba's high concentration of heavy metal deposits have given rise to an extensive mining industry, in spite of it's extensive volcanisation.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_ballalaba",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
+      "planet_feature_moon01",
+      "planet_other_moon",
       "planet_pop_small",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_agriculture",
-      "planet_industry_manufacturing",
+      "planet_industry_rich",
+      "planet_industry_mining",
       "planet_other_boreholes",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_marian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -9,
+  "JumpDistance": 9,
   "Owner": "AuriganDirectorate",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,17 +120,19 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "0",
+  "StarType": "K",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "AuriganDirectorate",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Adhafera",
     "Name": "Adhafera",
-    "Details": "NOT DONE",
+    "Details": "Adhafera is filled with sweatshops and other textile manufacturing.  The rivers are dyed different colors by the factories. Every year the citizens celebrate with a rainbow festival and the rivers are dyed rainbow. Don’t eat the fish. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,19 @@
     "items": [
       "planet_name_adhafera",
       "planet_size_medium",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_pop_small",
+      "planet_climate_terran",
+      "planet_pop_medium",
+      "planet_other_megacity",
       "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
+      "planet_industry_manufacturing",
+      "planet_other_pirate",
+      "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 10,
+  "FuelingStation": false,
+  "JumpDistance": 25,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,17 +118,28 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Marik",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

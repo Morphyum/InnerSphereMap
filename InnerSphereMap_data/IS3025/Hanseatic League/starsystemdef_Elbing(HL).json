@@ -16,30 +16,33 @@
   "Tags": {
     "items": [
       "planet_name_elbing(hl)",
-      "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_megaforest",
+      "planet_size_medium",
+      "planet_climate_water",
       "planet_other_floatingworld",
       "planet_other_fungus",
-      "planet_other_stonedcaribou",
       "planet_other_storms",
       "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon02",
+      "planet_feature_rings",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_none",
+      "planet_other_megacity",
       "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_ruins"
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_boreholes"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 0,
-  "Owner": "Locals",
+  "JumpDistance": 9,
+  "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -101,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,17 +131,14 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "highlandsSpring"
   ],
-  "StarType": "G",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "M",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

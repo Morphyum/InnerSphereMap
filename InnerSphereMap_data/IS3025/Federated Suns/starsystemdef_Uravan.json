@@ -16,31 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_uravan",
-      "planet_size_medium",
-      "planet_climate_tropical",
+      "planet_size_large",
+      "planet_climate_water",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
       "planet_other_taintedair",
       "planet_feature_asteroids",
-      "planet_feature_moon03",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_pop_small",
       "planet_civ_primitive",
       "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_research",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_pirate",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -1,
+  "JumpDistance": 15,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,17 +127,16 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "highlandsSpring"
   ],
-  "StarType": "B",
+  "StarType": "0",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

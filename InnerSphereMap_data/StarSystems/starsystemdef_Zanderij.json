@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Zanderij",
     "Name": "Zanderij",
-    "Details": "NOT DONE",
+    "Details": "The Zanderij system was colonized by the Lyran Commonwealth during the Star League era at some point after the end of the Reunification War. The medical research undertaken here is enhanced by the hallucinogenic fruit found growing across the planet.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_zanderij",
-      "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_size_small",
+      "planet_climate_tropical",
+      "planet_other_stonedcaribou",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_agriculture",
+      "planet_pop_small",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
+      "planet_industry_research",
       "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 14,
+  "FuelingStation": false,
+  "JumpDistance": 12,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,17 +121,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "K",
+  "StarType": "M",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

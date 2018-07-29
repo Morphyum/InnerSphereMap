@@ -17,31 +17,32 @@
     "items": [
       "planet_name_gypsum",
       "planet_size_large",
-      "planet_climate_terran",
+      "planet_climate_arid",
       "planet_other_volcanic",
-      "planet_other_mudflats",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
       "planet_other_fungus",
       "planet_feature_asteroids",
       "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
+      "planet_pop_large",
       "planet_industry_rich",
-      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
       "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 14,
+  "FuelingStation": true,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,21 +131,18 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "A",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alarion",
     "Name": "Alarion",
-    "Details": "NOT DONE",
+    "Details": "Alarion is the administrative capital of the Alarion Province and is home to a number of industries including JumpShip and WarShip manufacturers, such as Bowie Industries and the Alarion Naval Academy.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,29 @@
     "items": [
       "planet_name_alarion",
       "planet_size_medium",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_climate_tropical",
       "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_large",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_rich",
       "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
       "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 11,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,16 +129,23 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "highlandsSpring"
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

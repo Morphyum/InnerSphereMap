@@ -16,36 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_nanking",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_terran",
-      "planet_other_volcanic",
       "planet_other_mudflats",
       "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_feature_comet",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_none",
       "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
       "planet_industry_research",
-      "planet_industry_manufacturing",
+      "planet_other_starleague",
       "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
-      "planet_faction_liao"
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -11,
-  "Owner": "Liao",
+  "JumpDistance": -1,
+  "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -107,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -140,14 +138,13 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "B",
+  "StarType": "0",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

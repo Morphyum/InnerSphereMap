@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Woodbine",
     "Name": "Woodbine",
-    "Details": "NOT DONE",
+    "Details": "The Woodbine system was colonized by the Federated Suns during the Age of War. A world known for it's vast planetwide forests and large mineral content, Woodbine's population is still hindered by the high gravity of their world. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,29 +18,22 @@
       "planet_name_woodbine",
       "planet_size_large",
       "planet_climate_tropical",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
+      "planet_other_megaforest",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_research",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 5,
+  "FuelingStation": true,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,14 +126,14 @@
     "lowlandsSpring",
     "lowlandsFall"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

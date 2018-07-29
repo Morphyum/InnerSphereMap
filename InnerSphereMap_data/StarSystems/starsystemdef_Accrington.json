@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Accrington",
     "Name": "Accrington",
-    "Details": "NOT DONE",
+    "Details": "Accrington was settled prior to the beginning of the Age of War, with the system forming a part of the interstellar proto-nation known as the Federation of Skye and subsequently the Lyran Commonwealth.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,32 +18,20 @@
       "planet_name_accrington",
       "planet_size_medium",
       "planet_climate_tropical",
-      "planet_other_floatingworld",
+      "planet_other_mudflats",
       "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
+      "planet_pop_small",
+      "planet_other_starleague",
       "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -10,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -136,14 +124,23 @@
     "lowlandsSpring",
     "lowlandsFall"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

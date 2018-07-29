@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Wotan",
     "Name": "Wotan",
-    "Details": "NOT DONE",
+    "Details": "The Wotan system is home to numerous industries such as Krauss-Lieman Incorporated and Wotan Mining Systems, making it a key industrial location. It also houses the remains of Hevrol Aero Base, a Star League era facility.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_wotan",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_size_medium",
+      "planet_climate_terran",
       "planet_pop_large",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
       "planet_industry_recreation",
-      "planet_industry_agriculture",
+      "planet_industry_mining",
       "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_boreholes",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -12,
+  "FuelingStation": true,
+  "JumpDistance": 11,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,16 +126,20 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall"
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

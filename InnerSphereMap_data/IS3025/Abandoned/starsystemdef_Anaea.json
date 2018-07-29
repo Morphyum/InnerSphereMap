@@ -16,34 +16,31 @@
   "Tags": {
     "items": [
       "planet_name_anaea",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_mars",
       "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
+      "planet_other_megaforest",
       "planet_other_stonedcaribou",
       "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_medium",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_feature_asteroids",
+      "planet_pop_small",
+      "planet_civ_primitive",
+      "planet_industry_rich",
       "planet_industry_mining",
+      "planet_industry_aquaculture",
       "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
       "planet_other_starleague",
       "planet_other_hub",
       "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -12,
+  "JumpDistance": -13,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -135,14 +132,15 @@
     "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "G",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "F",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

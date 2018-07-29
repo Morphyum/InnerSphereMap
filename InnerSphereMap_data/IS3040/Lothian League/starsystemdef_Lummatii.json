@@ -17,30 +17,30 @@
     "items": [
       "planet_name_lummatii",
       "planet_size_medium",
-      "planet_climate_water",
+      "planet_climate_rocky",
       "planet_other_mudflats",
       "planet_other_floatingworld",
       "planet_other_fungus",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
       "planet_feature_gasgiant",
-      "planet_feature_moon02",
+      "planet_feature_rings",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_industry_poor",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
       "planet_industry_research",
-      "planet_other_comstar",
+      "planet_industry_manufacturing",
       "planet_other_starleague",
-      "planet_other_alienvegetation",
+      "planet_other_hub",
+      "planet_other_pirate",
       "planet_faction_lothian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -8,
+  "FuelingStation": true,
+  "JumpDistance": 3,
   "Owner": "MajestyMetals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,17 +129,16 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "F",
+  "StarType": "K",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "MajestyMetals",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

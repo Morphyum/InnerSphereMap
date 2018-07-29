@@ -16,30 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_gaeri",
-      "planet_size_medium",
-      "planet_climate_lunar",
+      "planet_size_large",
+      "planet_climate_rocky",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_other_fungus",
       "planet_feature_asteroids",
-      "planet_feature_moon03",
+      "planet_feature_comet",
+      "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_rich",
+      "planet_industry_poor",
+      "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_hub",
       "planet_other_boreholes",
-      "planet_other_pirate",
+      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -7,
+  "JumpDistance": -11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,17 +125,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "0",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "K",
+  "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "MajestyMetals"
   ]
 }

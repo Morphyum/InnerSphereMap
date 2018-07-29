@@ -17,19 +17,24 @@
     "items": [
       "planet_name_morges",
       "planet_size_large",
-      "planet_climate_desert",
+      "planet_climate_arid",
       "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_fungus",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
       "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_feature_comet",
+      "planet_feature_gasgiant",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_industry_poor",
-      "planet_industry_manufacturing",
+      "planet_pop_small",
+      "planet_industry_rich",
+      "planet_industry_mining",
       "planet_other_comstar",
-      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
       "planet_other_prison",
       "planet_ruins",
       "planet_faction_steiner"
@@ -37,7 +42,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -4,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,16 +131,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "M",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Locals"
   ]
 }

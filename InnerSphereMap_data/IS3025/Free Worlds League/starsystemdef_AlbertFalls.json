@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AlbertFalls",
     "Name": "Albert Falls",
-    "Details": "NOT DONE",
+    "Details": "A quiet agricultural system, it's sole claim to fame is a ancient monument to the SLDF troopers who conducted a HALO insertion to eliminate a pirate band who took a whole city hostage hundreds of years ago.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_albertfalls",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_tropical",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_pop_small",
       "planet_industry_agriculture",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_other_alienvegetation",
+      "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -6,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,21 +120,24 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsFall"
   ],
   "StarType": "F",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Marik",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

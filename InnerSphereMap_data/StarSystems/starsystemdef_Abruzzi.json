@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Abruzzi",
     "Name": "Abruzzi",
-    "Details": "NOT DONE",
+    "Details": "Forming a part of the St. Ives Commonality region of the Capellan Confederation, Abruzzi was conquered or annexed by the Federated Suns during the Second Succession War.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_abruzzi",
-      "planet_size_large",
-      "planet_climate_arctic",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_mars",
+      "planet_other_floatingworld",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_small",
-      "planet_other_megacity",
       "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_other_boreholes",
+      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -5,
+  "FuelingStation": false,
+  "JumpDistance": 10,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,17 +120,26 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "K",
   "ContractEmployers": [
     "Davion",
-    "TaurianConcordat"
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

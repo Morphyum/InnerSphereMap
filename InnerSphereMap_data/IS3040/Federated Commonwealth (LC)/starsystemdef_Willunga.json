@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Willunga",
     "Name": "Willunga",
-    "Details": "NOT DONE",
+    "Details": "The Willunga system was originally a part of the Finmark Province by the Rim Worlds Republic, but joined the Lyran Commonwealth when the Star League fell.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,20 @@
     "items": [
       "planet_name_willunga",
       "planet_size_small",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
+      "planet_climate_tropical",
       "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -15,
+  "FuelingStation": false,
+  "JumpDistance": 7,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,17 +119,17 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "A",
+  "StarType": "K",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

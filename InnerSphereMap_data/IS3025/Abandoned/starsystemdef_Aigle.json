@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Aigle",
     "Name": "Aigle",
-    "Details": "NOT DONE",
+    "Details": "Abandoned after the 3rd Succession War, Aigle was removed from most maps of the known Inner Sphere.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,17 @@
   "Tags": {
     "items": [
       "planet_name_aigle",
-      "planet_size_medium",
-      "planet_climate_rocky",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_size_small",
+      "planet_climate_lunar",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_prison",
+      "planet_industry_poor",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -11,
+  "FuelingStation": false,
+  "JumpDistance": 20,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,17 +115,20 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "M",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "B",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

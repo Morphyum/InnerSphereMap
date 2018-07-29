@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Addhara",
     "Name": "Addhara",
-    "Details": "NOT DONE",
+    "Details": "Addhara is a recently formed colony, a large population of sheep like animals were discovered here and soon their meat became a regional delicacy. Also their wool makes nice hats. Agromech’s are needed to herd them as they grow to 3 meters.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_addhara",
-      "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_comet",
-      "planet_feature_rings",
+      "planet_size_small",
+      "planet_climate_terran",
+      "planet_other_megaforest",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_manufacturing",
       "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
       "planet_other_newcolony",
       "planet_faction_marian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -10,
+  "JumpDistance": 16,
   "Owner": "AuriganDirectorate",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,17 +121,27 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
   "StarType": "K",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "AuriganDirectorate",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

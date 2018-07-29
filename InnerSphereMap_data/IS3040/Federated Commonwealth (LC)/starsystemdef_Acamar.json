@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Acamar",
     "Name": "Acamar",
-    "Details": "NOT DONE",
+    "Details": "The Acamar system has ten planets and a substantial asteroid belt named Illeudian, which is the site of a number of mining operations due to the massive mineral deposits located in the system. Acamar VIII is more commonly referred to as Acamar. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,24 @@
   "Tags": {
     "items": [
       "planet_name_acamar",
-      "planet_size_small",
-      "planet_climate_lunar",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_arctic",
+      "planet_other_volcanic",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_pop_small",
+      "planet_civ_innersphere",
       "planet_industry_rich",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_mining",
+      "planet_other_hub",
+      "planet_other_boreholes",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 10,
+  "JumpDistance": 9,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -129,17 +122,26 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

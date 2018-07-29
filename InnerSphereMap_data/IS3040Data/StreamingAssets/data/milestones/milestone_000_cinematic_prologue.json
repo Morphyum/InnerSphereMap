@@ -1,0 +1,100 @@
+{
+    "Description" : {
+        "Id" : "milestone_000_cinematic_prologue",
+        "Name" : "cinematic",
+        "Details" : "A cinematic for stuff",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+					"debug_milestone",
+					"debug_start_argo",
+					"quickstart_leopard_intro",
+					"quickstart_leopard",
+					"quickstart_m3",
+					"quickstart_m4",
+					"quickstart_argo_intro",
+					"quickstart_argo",
+					"quickstart_panzyr_attack",
+					"quickstart_smithon_attack",
+					"quickstart_m5",
+					"quickstart_m6",
+					"quickstart_smithon_defense",
+					"quickstart_itrom_attack",
+					"quickstart_panzyr_defense",
+					"quickstart_m7",
+					"quickstart_tyrlon_attack",
+					"quickstart_m8",
+					"quickstart_ending"
+				],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {			    
+				"items" : [
+					"AARCompleteNotificationsDisabled"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "RemovedTags" : {},
+            "Stats" : [
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "NextStoryMilestone",
+                    "value" : 1,
+                    "valueConstant" : ""
+                }
+            ],
+            "Actions" : [
+				{
+                    "Type" : "System_PlayVideo",
+                    "value" : "Alpha.mp4",
+                    "valueConstant" : null
+                },
+                {
+                    "Type" : "System_SetContractScope",
+                    "value" : "TUTORIAL",
+                    "valueConstant" : null
+                },
+                {
+                    "Type" : "System_SetTargetBreadcrumbSystem",
+                    "value" : "starsystemdef_Galatea",
+                    "valueConstant" : null
+                },
+                {
+                    "Type" : "StarSystem_SetCurBreadcrumbOverride",
+                    "value" : 1,
+					"additionalValues" : [ "starsystemdef_Galatea" ]
+                }
+            ],
+            "ForceEvents" : null,
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

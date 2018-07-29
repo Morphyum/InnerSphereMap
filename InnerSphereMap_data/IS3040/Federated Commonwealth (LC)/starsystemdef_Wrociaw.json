@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Wrociaw",
     "Name": "Wrociaw",
-    "Details": "NOT DONE",
+    "Details": "The Wrociaw system was settled during the First Exodus from Terra, and is known for it's heavy tank track production facilities.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,35 +16,24 @@
   "Tags": {
     "items": [
       "planet_name_wrociaw",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
+      "planet_size_medium",
+      "planet_climate_desert",
       "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_civ_innersphere",
       "planet_industry_rich",
       "planet_industry_recreation",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
+      "planet_industry_manufacturing",
       "planet_other_boreholes",
-      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -6,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,17 +122,15 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "desertParched"
   ],
   "StarType": "B",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Steiner",
+    "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration"
   ]
 }

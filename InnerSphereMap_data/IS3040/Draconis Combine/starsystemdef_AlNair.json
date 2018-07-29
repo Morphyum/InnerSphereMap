@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AlNair",
     "Name": "Al Na'ir",
-    "Details": "NOT DONE",
+    "Details": "Capital of the Al Na’ir Prefecture in the DC, The system has 2 major population centers, Al Na’ir itself and the Yuri Mech Works, located in domed cities in the asteroid belt around the planets. It is one of the most valuable systems the DC owns.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_alna'ir",
-      "planet_size_medium",
+      "planet_size_small",
       "planet_climate_terran",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_other_taintedair",
       "planet_feature_asteroids",
-      "planet_feature_gasgiant",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_poor",
+      "planet_pop_medium",
+      "planet_other_capital",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
       "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -12,
+  "FuelingStation": true,
+  "JumpDistance": 24,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -139,14 +133,19 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "A",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Kurita",
+    "Locals"
   ],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

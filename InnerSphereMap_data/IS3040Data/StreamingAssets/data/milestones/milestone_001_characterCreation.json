@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "milestone_001_characterCreation",
+        "Name" : "Character Creation",
+        "Details" : "Create a Commander!",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 1,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {},
+            "RemovedTags" : {},
+            "Stats" : [
+                {
+					"typeString" : "System.Int32",
+                    "name" : "NextStoryMilestone",
+                    "value" : 003,
+					"set" : "true",
+                    "valueConstant" : ""
+				}
+            ],
+            "Actions" : [
+                {
+                    "Type" : "System_CreateCommander",
+                    "value" : null,
+                    "valueConstant" : null
+                }
+            ],
+            "ForceEvents" : null,
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

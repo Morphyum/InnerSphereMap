@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Aldebaran",
     "Name": "Aldebaran",
-    "Details": "NOT DONE",
+    "Details": "Throughout its history, Aldebaran has been a contested world. Until recently, House Liao was able to maintain control through all the invasions. However in 3028 House Davion finally succeeded in wresting control and have held firm to counter attacks.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,21 @@
     "items": [
       "planet_name_aldebaran",
       "planet_size_medium",
-      "planet_climate_arid",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_none",
-      "planet_industry_research",
+      "planet_climate_terran",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_pirate",
+      "planet_other_comstar",
+      "planet_other_hub",
+      "planet_other_prison",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -14,
+  "JumpDistance": 4,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,17 +120,27 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
+    "Liao",
+    "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
+    "AuriganRestoration",
+    "Locals",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus",
     "TaurianConcordat"
   ]
 }

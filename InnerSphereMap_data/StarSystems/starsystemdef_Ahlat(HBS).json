@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ahlat(HBS)",
     "Name": "Ahlat (HBS)",
-    "Details": "NOT DONE",
+    "Details": "Depopulated and abandoned during the Third Succession war, Ahlat is known for it's asteroid belt where pirates have been known to hide. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_ahlat(hbs)",
-      "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_floatingworld",
-      "planet_other_storms",
+      "planet_size_medium",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
       "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_other_pirate",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 14,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -135,20 +122,19 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "0",
-  "ContractEmployers": [
-    "Davion",
-    "TaurianConcordat"
-  ],
+  "StarType": "F",
+  "ContractEmployers": [],
   "ContractTargets": [
+    "ComStar",
+    "Betrayers",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "Davion",
-    "TaurianConcordat"
+    "AuriganRestoration",
+    "Liao",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }
