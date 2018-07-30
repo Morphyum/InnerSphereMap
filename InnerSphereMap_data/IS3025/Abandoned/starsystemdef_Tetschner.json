@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tetschner",
     "Name": "Tetschner",
-    "Details": "NOT DONE",
+    "Details": "Tetschner was settled during the Star League era, but was abandoned by the time of the Third Succession War. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,34 +18,16 @@
       "planet_name_tetschner",
       "planet_size_medium",
       "planet_climate_arid",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 0,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -137,11 +119,10 @@
     "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "AuriganRestoration",
-    "Locals"
+    "AuriganRestoration"
   ]
 }

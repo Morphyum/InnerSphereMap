@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alexandria(LC)",
     "Name": "Alexandria (LC)",
-    "Details": "NOT DONE",
+    "Details": "Known for its pastoral beauty and high culture, Alexandria has been a hub of the arts since the Star league. Unfortunately this also made it a target during the Succession wars, and is now constantly under siege from one aggressor or another.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,25 @@
   "Tags": {
     "items": [
       "planet_name_alexandria(lc)",
-      "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_megaforest",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_feature_moon01",
+      "planet_other_moon",
       "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
       "planet_other_comstar",
-      "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -4,
+  "FuelingStation": true,
+  "JumpDistance": 7,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,7 +123,12 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
   "StarType": "M",
   "ContractEmployers": [

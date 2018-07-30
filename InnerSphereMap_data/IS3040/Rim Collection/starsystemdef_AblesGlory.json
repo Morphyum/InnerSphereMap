@@ -31,7 +31,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 12,
-  "Owner": "NoFaction",
+  "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -123,7 +123,10 @@
     "highlandsFall"
   ],
   "StarType": "K",
-  "ContractEmployers": [],
+  "ContractEmployers": [
+    "Locals",
+    "Locals"
+  ],
   "ContractTargets": [
     "ComStar",
     "Betrayers",

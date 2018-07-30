@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Baltar",
     "Name": "Baltar",
-    "Details": "NOT DONE",
+    "Details": "This former Taurean system has long been abandoned due to limited resources and an almost non-existant atmosphere.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,16 @@
     "items": [
       "planet_name_baltar",
       "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_taintedair",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
+      "planet_climate_lunar",
+      "planet_pop_none",
+      "planet_industry_poor",
       "planet_other_pirate",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 2,
+  "FuelingStation": false,
+  "JumpDistance": 4,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,16 +115,15 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
-    "Locals",
     "MagistracyCentrella",
     "MajestyMetals",
     "Nautilus"

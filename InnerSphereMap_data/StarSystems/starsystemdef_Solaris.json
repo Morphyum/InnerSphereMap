@@ -41,7 +41,7 @@
   },
   "FuelingStation": true,
   "JumpDistance": 5,
-  "Owner": "NoFaction",
+  "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -137,7 +137,10 @@
     "lowlandsCoastal"
   ],
   "StarType": "K",
-  "ContractEmployers": [],
+  "ContractEmployers": [
+    "Locals",
+    "Locals"
+  ],
   "ContractTargets": [
     "AuriganPirates",
     "AuriganRestoration"

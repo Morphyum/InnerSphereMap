@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Turko",
     "Name": "Turko",
-    "Details": "NOT DONE",
+    "Details": "Turko was settled during the Star League era at some point after the end of the Reunification War, but it was abandoned entirely during the Second Succession War. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,17 @@
     "items": [
       "planet_name_turko",
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_climate_arid",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -11,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,8 +116,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
   "StarType": "A",
   "ContractEmployers": [],

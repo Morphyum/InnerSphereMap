@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Wazan",
     "Name": "Wazan",
-    "Details": "NOT DONE",
+    "Details": "An oft traded world, Wazan is nevertheless full of surprises with it's deep mines amongst it's rocky terrain.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,18 @@
     "items": [
       "planet_name_wazan",
       "planet_size_large",
-      "planet_climate_desert",
+      "planet_climate_rocky",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
       "planet_pop_small",
-      "planet_civ_primitive",
       "planet_industry_rich",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
       "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 9,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,9 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "M",
+  "StarType": "B",
   "ContractEmployers": [
     "Steiner",
     "Locals"

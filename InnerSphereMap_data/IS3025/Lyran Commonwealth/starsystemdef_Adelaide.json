@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Id": "starsystemdef_Adelaide\n",
-    "Name": "Adelaide\n",
+    "Id": "starsystemdef_Adelaide",
+    "Name": "Adelaide",
     "Details": "Before the Star League, Adelaide’s claim to fame was the longest individual hour of any Lyran system at 89 min an hour. Not much has changed.",
     "Icon": "",
     "Cost": 0,
@@ -15,7 +15,7 @@
   },
   "Tags": {
     "items": [
-      "planet_name_adelaide\n",
+      "planet_name_adelaide",
       "planet_size_medium",
       "planet_climate_tropical",
       "planet_other_volcanic",

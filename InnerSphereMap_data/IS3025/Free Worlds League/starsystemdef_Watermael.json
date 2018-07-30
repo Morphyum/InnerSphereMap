@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Watermael",
     "Name": "Watermael",
-    "Details": "NOT DONE",
+    "Details": "The Watermael system was settled during the Age of War and then became a member of the Free Worlds League. The 21st Royal Division of the SLDF fought on this world centuries ago, and rumours exist of Star League weapons caches hidden away here.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,29 +18,22 @@
       "planet_name_watermael",
       "planet_size_small",
       "planet_climate_water",
-      "planet_other_megaforest",
       "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_rich",
-      "planet_industry_mining",
+      "planet_other_floatingworld",
+      "planet_feature_asteroids",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_industry_recreation",
       "planet_industry_agriculture",
       "planet_industry_research",
-      "planet_other_comstar",
+      "planet_industry_manufacturing",
       "planet_other_starleague",
-      "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 4,
+  "JumpDistance": 9,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,14 +125,13 @@
     "lowlandsCoastal",
     "highlandsSpring"
   ],
-  "StarType": "K",
+  "StarType": "F",
   "ContractEmployers": [
     "Marik",
     "Locals"
   ],
   "ContractTargets": [
     "AuriganPirates",
-    "AuriganRestoration",
-    "Locals"
+    "AuriganRestoration"
   ]
 }

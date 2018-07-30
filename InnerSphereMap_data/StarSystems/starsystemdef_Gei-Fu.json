@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Gei-Fu",
     "Name": "Gei-Fu",
-    "Details": "NOT DONE",
+    "Details": "Gei-Fu III - more commonly known simply as Gei-Fu - is the third planet in the Gei-Fu system and has a single moon named Yè xīng. While still a Capellan world, the population is known to have a large number of St. Ives sympathists in it.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_gei-fu",
-      "planet_size_large",
+      "planet_size_medium",
       "planet_climate_tropical",
-      "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_manufacturing",
+      "planet_pop_large",
+      "planet_civ_innersphere",
       "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_ruins",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -14,
+  "FuelingStation": false,
+  "JumpDistance": 15,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -136,7 +122,7 @@
     "lowlandsSpring",
     "lowlandsFall"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [
     "Liao",
     "Locals"

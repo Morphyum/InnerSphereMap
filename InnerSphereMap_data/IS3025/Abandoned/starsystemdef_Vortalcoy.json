@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Vortalcoy",
     "Name": "Vortalcoy",
-    "Details": "NOT DONE",
+    "Details": "The Vortalcoy system was either settled during the Star League era at some point after the end of the Reunification War, but was abandoned after the main colony was destroyed during the First Succession War in a chemical weapons strike. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_vortalcoy",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_ice",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
       "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -6,
+  "FuelingStation": false,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -139,7 +124,6 @@
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
-    "AuriganRestoration",
-    "Locals"
+    "AuriganRestoration"
   ]
 }

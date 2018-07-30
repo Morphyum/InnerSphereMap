@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Umgard",
     "Name": "Umgard",
-    "Details": "NOT DONE",
+    "Details": "Umgard was settled during the Star League era at some point after the end of the Reunification War, but it was abandoned entirely during the Third Succession War. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_umgard",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_pirate",
+      "planet_size_medium",
+      "planet_climate_arctic",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 15,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

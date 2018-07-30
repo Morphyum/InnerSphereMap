@@ -16,31 +16,30 @@
   "Tags": {
     "items": [
       "planet_name_newportroyal",
-      "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
+      "planet_size_small",
+      "planet_climate_desert",
       "planet_other_fungus",
       "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_pop_large",
       "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_mining",
       "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
+      "planet_other_hub",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
       "planet_other_pirate"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
-  "Owner": "NoFaction",
+  "FuelingStation": false,
+  "JumpDistance": -13,
+  "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -102,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,11 +127,13 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "A",
-  "ContractEmployers": [],
+  "StarType": "M",
+  "ContractEmployers": [
+    "Locals",
+    "Locals"
+  ],
   "ContractTargets": [
     "AuriganPirates",
     "AuriganRestoration"

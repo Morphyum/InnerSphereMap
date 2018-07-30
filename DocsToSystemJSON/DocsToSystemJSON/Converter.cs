@@ -416,7 +416,7 @@ namespace DocsToSystemJSON {
                 case "Undiscovered":
                     return "NoFaction";
                 default:
-                    return "NoFaction";
+                    return "Locals";
             }
         }
         public List<string> createTags(JObject systemJObject) {

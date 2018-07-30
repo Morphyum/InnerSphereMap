@@ -135,7 +135,6 @@
   "ContractTargets": [
     "AuriganMercenaries",
     "AuriganPirates",
-    "AuriganRestoration",
-    "Locals"
+    "AuriganRestoration"
   ]
 }
