@@ -18,25 +18,29 @@
       "planet_name_harlez",
       "planet_size_small",
       "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
+      "planet_other_mudflats",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_feature_comet",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_civ_innersphere",
       "planet_industry_rich",
+      "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_pirate",
+      "planet_other_starleague",
+      "planet_other_boreholes",
       "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -15,
+  "FuelingStation": false,
+  "JumpDistance": 3,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,7 +132,7 @@
     "lunarVacuum",
     "martianVacuum"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

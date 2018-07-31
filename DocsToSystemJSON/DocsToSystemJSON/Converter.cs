@@ -62,15 +62,12 @@ namespace DocsToSystemJSON {
                     year = "Faction3040";
                 }
                 string path = OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                path = path.Replace("\n", "");
                 (new FileInfo(path)).Directory.Create();
                 File.WriteAllText(path, newSystemJObject.ToString());
 
                 path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                path = path.Replace("\n", "");
                 if (!File.Exists(OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json")) {
                     string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
-                    filepath = filepath.Replace("\n", "");
                     (new FileInfo(filepath)).Directory.Create();
                     File.WriteAllText(filepath, newSystemJObject.ToString());
                 }

@@ -16,30 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_mirage",
-      "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
+      "planet_size_small",
+      "planet_climate_mars",
+      "planet_other_volcanic",
       "planet_other_mudflats",
-      "planet_other_fungus",
       "planet_other_stonedcaribou",
       "planet_other_taintedair",
       "planet_feature_rings",
       "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_small",
-      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_mining",
       "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_boreholes",
+      "planet_other_comstar",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
       "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 3,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "Locals"
