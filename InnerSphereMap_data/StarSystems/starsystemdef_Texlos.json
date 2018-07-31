@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Texlos",
     "Name": "Texlos",
-    "Details": "NOT DONE",
+    "Details": "With the highest population growth rate of the St. Ives worlds, Texlos is a pleasant garden-planet.Texlos serves as the main recruiting pool for the St. Ives Armored Cavalry regiments and also maintains a large and well equipped militia force.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,22 @@
     "items": [
       "planet_name_texlos",
       "planet_size_medium",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_moon02",
+      "planet_climate_terran",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
       "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_ruins"
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_manufacturing",
+      "planet_other_comstar"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -1,
+  "JumpDistance": 4,
   "Owner": "ComStar",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +121,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "F",
+  "StarType": "K",
   "ContractEmployers": [
     "ComStar",
     "Locals"

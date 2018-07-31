@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_TurtleBay",
     "Name": "Turtle Bay",
-    "Details": "NOT DONE",
+    "Details": "Turtle Bay is a world located near the Periphery border with the Draconis Combine. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,21 @@
     "items": [
       "planet_name_turtlebay",
       "planet_size_medium",
-      "planet_climate_water",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_climate_terran",
       "planet_feature_asteroids",
-      "planet_feature_moon02",
-      "planet_other_moon",
+      "planet_feature_rings",
       "planet_pop_small",
-      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
       "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 1,
+  "JumpDistance": 7,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +120,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "F",
+  "StarType": "M",
   "ContractEmployers": [
     "Kurita",
     "Locals"

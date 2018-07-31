@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Krin",
     "Name": "Krin",
-    "Details": "NOT DONE",
+    "Details": "Krin is a prosperous world along the Capellan/League border. The 4th Tau Ceti Lancers have recently been redeployed to the world to recover after suffering significant losses against House Davion forces over the last decade.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,19 @@
     "items": [
       "planet_name_krin",
       "planet_size_large",
-      "planet_climate_tropical",
-      "planet_other_megaforest",
+      "planet_climate_terran",
       "planet_other_floatingworld",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
       "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
       "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_ruins",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -13,
+  "FuelingStation": true,
+  "JumpDistance": 5,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,9 +118,12 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "highlandsSpring",
+    "highlandsFall",
     "lowlandsSpring",
-    "lowlandsFall"
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
   "StarType": "K",
   "ContractEmployers": [

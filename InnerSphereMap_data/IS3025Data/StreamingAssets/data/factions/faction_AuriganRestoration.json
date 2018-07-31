@@ -8,6 +8,7 @@
     "MagistracyOfCanopus"
   ],
   "Enemies": [
+	"ComStar",
 	"Betrayers",
 	"AuriganDirectorate",
 	"AuriganMercenaries",

@@ -16,29 +16,31 @@
   "Tags": {
     "items": [
       "planet_name_jabuka",
-      "planet_size_medium",
-      "planet_climate_mars",
+      "planet_size_large",
+      "planet_climate_arctic",
       "planet_other_volcanic",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
       "planet_feature_asteroids",
-      "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_pop_large",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_industry_rich",
+      "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_industry_mining",
       "planet_industry_aquaculture",
-      "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_ruins"
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
+      "planet_other_pirate"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 3,
+  "JumpDistance": -2,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +129,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "AuriganMercenaries",
     "Locals"

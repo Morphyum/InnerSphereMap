@@ -30,16 +30,16 @@
   "DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
   "HeraldryDefId": "heraldrydef_canopus",
   "ReputationStatements": [
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it."
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it.",
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it.",
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it.",
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it.",
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it.",
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it.",
+    "We've 'eard ye be a competent mercenary. We've been 'avin' some trouble as o' late, an' if ye could resolve it fer us, we'll ensure ye be paid well. If not, so be it."
   ],
-  "MissionSuccessStatement": "Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you.",
-  "GoodFaithFailureStatement": "You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot.",
-  "BadFaithFailureStatement": "For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess.",
-  "Description" : "This world is independently ruled by a planetary government, unaffiliated with any of the interstellar states of the Inner Sphere or the Periphery."
+  "MissionSuccessStatement": "Avast, Commander. We obviously placed our faith in the right mercenary company. We'll let ye know if we 'ave any other work fer ye.",
+  "GoodFaithFailureStatement": "Ye win some, ye lose some. Oftentimes it be in between. I be disappointed ye couldn't complete the contract, but at least ye gave it yer best shot.",
+  "BadFaithFailureStatement": "Fer somebody who came so 'ighly recommended, ye let us down pretty 'ard. Thanks fer nothing, I guess.",
+  "Description" : "The Oberon Confederation is a Periphery nation, located on the coreward rim of the Lyran Commonwealth near the Draconis Combine.  As a periphery realm, it sits on the very fringe of the Inner Sphere's Hyperpulse Generator network. The only known Confederation world to feature a functional HPG was the fairly well industrialized capital world of Oberon VI. Alternating between obscure periphery ministate and outright pirate kingdom at various points in time, the Oberon Confederation offers numerous opportunities for those mercenaries who are less than scrupulous in their dealings."
 }

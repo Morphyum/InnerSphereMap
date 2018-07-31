@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alktral",
     "Name": "Alktral",
-    "Details": "NOT DONE",
+    "Details": "Alktral's only major landmass features rocky terrain and several active volcanoes. No indigenous lifeforms exist here, and the only human habitation was centered around small-scale mining operations which is now abandoned.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_alktral",
-      "planet_size_small",
+      "planet_size_medium",
       "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_prison",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 5,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,7 +120,7 @@
     "highlandsSpring",
     "highlandsFall"
   ],
-  "StarType": "A",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

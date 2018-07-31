@@ -6,6 +6,7 @@
   "Government": "state",
   "Allies": [],
   "Enemies": [
+	"ComStar",
 	"Betrayers",
 	"AuriganDirectorate",
 	"AuriganMercenaries",

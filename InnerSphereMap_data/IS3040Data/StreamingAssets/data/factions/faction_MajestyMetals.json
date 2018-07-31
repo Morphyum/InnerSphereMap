@@ -29,16 +29,16 @@
   "DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
   "HeraldryDefId": "heraldrydef_MajestyMetals",
   "ReputationStatements": [
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
-    "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it."
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it.",
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it.",
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it.",
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it.",
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it.",
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it.",
+    "We've heard ye'r a competent mercenary. We've bin havin some trauchle lately, 'n' if ye cuid resolve it fur us, we'll ensure ye'r paid weel. If nae, sae be it."
   ],
-  "MissionSuccessStatement": "Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you.",
-  "GoodFaithFailureStatement": "You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot.",
-  "BadFaithFailureStatement": "For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess.",
-  "Description" : "This world is independently ruled by a planetary government, unaffiliated with any of the interstellar states of the Inner Sphere or the Periphery."
+  "MissionSuccessStatement": "Weel dane, commander. We obviously placed oor faith in th' richt mercenary company. We'll let ye ken if we hae any other work fur ye.",
+  "GoodFaithFailureStatement": "Ye win some, ye lose some. Whiles tis in atween. A'm disappointed ye coudnae complete th' contract, bit at least ye gave it yer best shot.",
+  "BadFaithFailureStatement": "Fur somebody wha cam sae gey recommended, ye let us doon bonny solid. Cheers fur hee haw, ya gobshite.",
+  "Description" : "The Lothian League is a small Periphery realm composed of a small number of ice-and-snow planets located beyond the outer reaches of the Free Worlds League near the Marian Hegemony. Ruled by the Grand Mistress of the Lothian League, it has no standing army and relies on Mercenary units for military might."
 }

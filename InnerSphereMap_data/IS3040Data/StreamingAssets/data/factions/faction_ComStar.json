@@ -29,16 +29,16 @@
   "DefaultCombatLeaderCastDefId": "castDef_ComStarDefault",
   "DefaultRepresentativeCastDefId": "castDef_ComStarDefault",
   "ReputationStatements": [
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
-    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us."
+    "In these trying times, even the mighty must resort to hiring those such as you. This is a kindness we do to you, mercenary: you serve your betters.",
+    "We would not offer you this contract unless we had no other choice, mercenary. As it stands, this is simple: we have a task, and you need money. Accept or don't, it's your choice.",
+    "The St. Ives Compact has need of your unit, mercenary. And you have need of our money, I assume. I think this will benefit both of us.",
+    "There are few mercenaries House Allard-Liao trusts with tasks like this, Commander. Make certain our faith is not misplaced. We can both profit from this.",
+    "Hello, Commander. The St. Ives Compact would like your assistance with a particular matter. In exchange, we will ensure you are well rewarded.",
+    "I'm glad you're well, my friend. Once again, House Allard-Liao would like to call upon your prowess. Undertake this task for us, and we will pay you the highest possible rates. I assure you, this is not a contract for lesser warriors.",
+    "My old friend, I hope this message finds you well. If you have the time, the St. Ives Compact would once again like to retain your services."
   ],
-  "MissionSuccessStatement": "ComStar congratulates you on your successful mission, mercenary. We are pleased you've been able to assist us so thoroughly.",
-  "GoodFaithFailureStatement": "It seems apparent that while you failed to achieve our goals, you engaged the enemy for as long as you were able. Better luck next time, Commander. May the Spirit of Blake be with you.",
-  "BadFaithFailureStatement": "Far be it from a simple organization like ComStar to reprimand you in matters of warfare, Commander, but… your performance on that operation was positively abysmal. We roundly condemn your inadequacies.",
-  "Description" : "ComStar, the institution and religion, grew out of the Star League Department of Communications, as reenvisioned by Jerome Blake, Minister of Communications. ComStar is transnational, beholden to none of the Successor States, and its priesthood exclusively controls access to the only means of faster-than-light communications, the HyperPulse Generators. ComStar facilities and personnel are sacrosanct, a status enforced aggressively by the institution; offending states—even entire Successor States—can find themselves cut off from the rest of the Inner Sphere, unable to communicate or trade. The current head of ComStar is Primus Julian Tiepolo."
+  "MissionSuccessStatement": "House Allard-Liao trusts in two things, Commander: strength and victory. It seems you also understand this vital lesson. The Prime Minister is pleased you've performed so well.",
+  "GoodFaithFailureStatement": "You fought honourably, Commander, even if you did not prevail. Learn from this lesson and do better next time.",
+  "BadFaithFailureStatement": "If you cannot accomplish the missions we lay before you, Commander, we will find another mercenary who can! The Prime Minister will hear of your incompetence!",
+  "Description" : "The Compact was formed in 3029 as a direct result of the Fourth Succession War. Duchess Candace Liao, firstborn of Chancellor Maximilian Liao and his heir, fell in love with Justin Xiang Allard, a Federated Suns spy who had infiltrated the Capellan Confederation's spy agency the Maskirovka. Rather than stay in the Capellan Confederation with a double-agent who helped conquer a third of her home nation, she fled and took the St. Ives Commonality with her. It's tenuous position requires careful negotiation and pinpoint strikes to maintain their independence."
 }

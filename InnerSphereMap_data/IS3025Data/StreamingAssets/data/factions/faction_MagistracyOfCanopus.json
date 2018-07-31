@@ -8,6 +8,7 @@
     "AuriganRestoration"
   ],
   "Enemies": [
+	"ComStar",
 	"Betrayers",
 	"AuriganDirectorate",
 	"AuriganMercenaries",

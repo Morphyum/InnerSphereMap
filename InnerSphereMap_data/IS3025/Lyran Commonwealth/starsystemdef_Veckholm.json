@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Veckholm",
     "Name": "Veckholm",
-    "Details": "NOT DONE",
+    "Details": "A small penal colony on a harsh world, Veckholm holds many dangerous criminals from across the Commonwealth.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_veckholm",
-      "planet_size_small",
-      "planet_climate_water",
+      "planet_size_large",
+      "planet_climate_mars",
       "planet_other_volcanic",
-      "planet_other_megaforest",
       "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_innersphere",
+      "planet_pop_none",
       "planet_industry_poor",
-      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_other_starleague",
-      "planet_other_newcolony",
       "planet_other_pirate",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 15,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +121,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "B",
   "ContractEmployers": [
     "Steiner",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Valasha",
     "Name": "Valasha",
-    "Details": "NOT DONE",
+    "Details": "The Valasha system is a key entry point to the Outworlds Alliance. With its high energy star, multiple jumpships as well as cargo transfer and recharge stations could be found at both of Valasha's main jump points.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,24 @@
     "items": [
       "planet_name_valasha",
       "planet_size_medium",
-      "planet_climate_tropical",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_moon02",
+      "planet_climate_arid",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_alienvegetation",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_hub",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_other_pirate",
+      "planet_ruins",
       "planet_faction_outworlds"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 5,
+  "JumpDistance": 4,
   "Owner": "Betrayers",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +124,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "badlandsParched"
   ],
-  "StarType": "K",
+  "StarType": "A",
   "ContractEmployers": [
     "Betrayers",
     "Locals"

@@ -95,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": "",
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",

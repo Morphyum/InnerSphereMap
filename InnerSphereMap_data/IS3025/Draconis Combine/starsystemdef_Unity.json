@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Unity",
     "Name": "Unity",
-    "Details": "NOT DONE",
+    "Details": "An agricultural world with a substantial trading outpost. One corporation, Pesht Motors, has a small facility on the planet producing many small cars and tractors, but with the option to expand into larger units. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,25 @@
   "Tags": {
     "items": [
       "planet_name_unity",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_other_megaforest",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
       "planet_industry_manufacturing",
-      "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -11,
+  "JumpDistance": 9,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,9 +124,13 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall"
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "Kurita",
     "Locals"

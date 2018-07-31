@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AllDawn",
     "Name": "All Dawn",
-    "Details": "NOT DONE",
+    "Details": "An agricultural world which grows the native plumberry - a thumb-sized purple fruit which tasted like a cross between a blueberry and a lemon. The plumberry wine industry employs millions of seasonal workers.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,18 @@
     "items": [
       "planet_name_alldawn",
       "planet_size_medium",
-      "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_climate_terran",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
-      "planet_ruins"
+      "planet_pop_large",
+      "planet_industry_recreation",
+      "planet_industry_agriculture",
+      "planet_other_alienvegetation"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -4,
+  "JumpDistance": 11,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +117,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "K",
   "ContractEmployers": [
     "Locals",
     "Locals"

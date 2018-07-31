@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_ÚrCruinne",
     "Name": "Úr Cruinne",
-    "Details": "NOT DONE",
+    "Details": "A desert world with a nitrogen/oxygen atmosphere. The planet's only ocean surrounds its northern ice-cap.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_úrcruinne",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -9,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +117,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "desertParched"
   ],
-  "StarType": "0",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

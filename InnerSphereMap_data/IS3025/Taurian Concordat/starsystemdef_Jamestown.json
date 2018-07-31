@@ -16,32 +16,25 @@
   "Tags": {
     "items": [
       "planet_name_jamestown",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_small",
+      "planet_climate_arid",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_pop_small",
+      "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
+      "planet_industry_agriculture",
+      "planet_industry_manufacturing",
       "planet_other_pirate",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 10,
+  "FuelingStation": true,
+  "JumpDistance": -6,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,14 +123,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "B",
   "ContractEmployers": [
     "TaurianConcordat",
     "Locals"

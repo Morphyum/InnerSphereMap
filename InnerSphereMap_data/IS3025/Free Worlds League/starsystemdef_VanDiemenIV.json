@@ -1,8 +1,8 @@
 {
   "Description": {
-    "Id": "starsystemdef_VanDiemen",
-    "Name": "Van Diemen",
-    "Details": "NOT DONE",
+    "Id": "starsystemdef_VanDiemenIV",
+    "Name": "Van Diemen IV",
+    "Details": "Van Diemen IV was settled at some point during the Star League era after the end of the Reunification War, and is a picturesque world that produces agricultural produce for nearby worlds.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -15,30 +15,25 @@
   },
   "Tags": {
     "items": [
-      "planet_name_vandiemen",
+      "planet_name_vandiemeniv",
       "planet_size_medium",
       "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_storms",
-      "planet_feature_comet",
+      "planet_other_mudflats",
+      "planet_other_stonedcaribou",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -4,
+  "JumpDistance": 9,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,7 +129,7 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "F",
   "ContractEmployers": [
     "Marik",
     "Locals"

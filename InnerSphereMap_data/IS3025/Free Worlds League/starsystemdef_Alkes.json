@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alkes",
     "Name": "Alkes",
-    "Details": "NOT DONE",
+    "Details": "Alkes is covered with vast, deep oceans. A large axial tilt and a highly elliptical orbit make for extremes of temperature, driving a highly unpredictable and notoriously unpleasant weather system.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_alkes",
-      "planet_size_large",
-      "planet_climate_rocky",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
+      "planet_size_medium",
+      "planet_climate_water",
       "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_small",
       "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_industry_poor",
+      "planet_industry_aquaculture",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -3,
+  "JumpDistance": 14,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "M",
+  "StarType": "K",
   "ContractEmployers": [
     "Marik",
     "Locals"

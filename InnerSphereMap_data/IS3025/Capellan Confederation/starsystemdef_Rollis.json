@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Rollis",
     "Name": "Rollis",
-    "Details": "NOT DONE",
+    "Details": "Rollis was originally settled by Taurians, but by 2750 was annexed by the Federated Suns after the Reunification War. The Capellan Confederation conquered the system in turn during the 1st Succession War and has maintained control since.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_rollis",
-      "planet_size_small",
-      "planet_climate_lunar",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_arctic",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_other_starleague",
-      "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -8,
+  "FuelingStation": false,
+  "JumpDistance": 17,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +118,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "K",
+  "StarType": "F",
   "ContractEmployers": [
     "Liao",
     "Locals"

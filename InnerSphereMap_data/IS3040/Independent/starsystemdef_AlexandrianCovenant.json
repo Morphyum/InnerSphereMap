@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AlexandrianCovenant",
     "Name": "Alexandrian Covenant",
-    "Details": "NOT DONE",
+    "Details": "The Alexandrian Covenant is a group of systems that moved away from the Magistracy of Canopus and settled 3 different systems. Not much is known about these systems and only recent exploration expeditions have confirmed their existence.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_alexandriancovenant",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_mars",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison"
+      "planet_industry_poor",
+      "planet_industry_agriculture",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -15,
+  "FuelingStation": false,
+  "JumpDistance": 19,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,14 +120,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

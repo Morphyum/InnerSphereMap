@@ -38,8 +38,8 @@
     "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
     "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it."
   ],
-  "MissionSuccessStatement": "Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you.",
+  "MissionSuccessStatement": "Well done, Commander. We obviously placed our faith in the right mercenary company. Glory be to the Hegemony!",
   "GoodFaithFailureStatement": "You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot.",
   "BadFaithFailureStatement": "For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess.",
-  "Description" : "This world is independently ruled by a planetary government, unaffiliated with any of the interstellar states of the Inner Sphere or the Periphery."
+  "Description" : "The origins of the Marian Hegemony lie from the demise of the old Alphard Trading Corporation during the Succession Wars. A Periphery native and lostech prospector named Johann Sebastian O'Reilly found a treasure trove of germanium worth billions upon billions of C-Bills, with which he styled himself Imperator and set up his own nation. The Hegemony spent almost a century as little more than a bandit kingdom fashioned after a society that had been dead for millennia, until the Fourth Succession War which allowed the Hegemony to grow peacefully. With no standing military of it's own, the Marian Hegemony relies on mercenary units for defence and garrison duty."
 }
