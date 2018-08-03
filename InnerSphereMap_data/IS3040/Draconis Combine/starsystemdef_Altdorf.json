@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Altdorf",
     "Name": "Altdorf",
-    "Details": "NOT DONE",
+    "Details": "Settled as a farming community, Altdorf no longer is suitable for this. Gamma rays destroyed the atmosphere a few hundred years after colonization. Instead the DC now uses this planet as a prison and work camp.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_altdorf",
-      "planet_size_medium",
-      "planet_climate_desert",
+      "planet_size_small",
+      "planet_climate_mars",
       "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_ruins",
+      "planet_pop_none",
+      "planet_industry_poor",
+      "planet_industry_mining",
+      "planet_other_prison",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -10,
+  "FuelingStation": false,
+  "JumpDistance": 16,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,9 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "O",
   "ContractEmployers": [
     "Kurita",
     "Locals"

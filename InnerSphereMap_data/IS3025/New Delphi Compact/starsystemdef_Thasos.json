@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Thasos",
     "Name": "Thasos",
-    "Details": "NOT DONE",
+    "Details": "Most of the population of Thasos live an agricultural lifestyle maintained by technology of an equivalent to that found on Terra in the late eighteenth or early nineteenth century, a consequence of the heavy influence of the Omniss philosophy.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_thasos",
-      "planet_size_small",
-      "planet_climate_desert",
+      "planet_size_medium",
+      "planet_climate_terran",
       "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
       "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_small",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_other_prison"
+      "planet_industry_poor",
+      "planet_industry_agriculture"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -7,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,9 +119,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "B",
+  "StarType": "F",
   "ContractEmployers": [
     "Locals",
     "Locals"

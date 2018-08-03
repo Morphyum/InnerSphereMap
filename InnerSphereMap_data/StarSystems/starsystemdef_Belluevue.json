@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Belluevue",
     "Name": "Belluevue",
-    "Details": "NOT DONE",
+    "Details": "Belluevue was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_belluevue",
-      "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_pop_small",
+      "planet_size_large",
+      "planet_climate_rocky",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 10,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -128,11 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

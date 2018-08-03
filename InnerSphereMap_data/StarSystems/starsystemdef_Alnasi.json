@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alnasi",
     "Name": "Alnasi",
-    "Details": "NOT DONE",
+    "Details": "Alnasi is known for it's vast ore mining and mineral facilities dotted around the capital city of Gantarius. The low gravity makes sending large amounts of material to orbit extremely cost effective. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,20 @@
     "items": [
       "planet_name_alnasi",
       "planet_size_small",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_pop_none",
-      "planet_other_megacity",
+      "planet_climate_terran",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_industry_research",
+      "planet_industry_agriculture",
       "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 13,
+  "FuelingStation": true,
+  "JumpDistance": 17,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +119,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "B",
+  "StarType": "F",
   "ContractEmployers": [
     "Kurita",
     "Locals"

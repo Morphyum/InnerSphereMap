@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_TransferStationP9",
     "Name": "Transfer Station P9",
-    "Details": "NOT DONE",
+    "Details": "SURVEY DATA INCOMPLETE",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,27 +17,15 @@
     "items": [
       "planet_name_transferstationp9",
       "planet_size_small",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_pop_small",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_ruins",
+      "planet_climate_lunar",
+      "planet_pop_none",
+      "planet_civ_primitive",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 14,
+  "JumpDistance": 2,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,10 +114,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "0",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

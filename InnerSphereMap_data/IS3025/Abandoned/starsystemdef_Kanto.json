@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Kanto",
     "Name": "Kanto",
-    "Details": "NOT DONE",
+    "Details": "Kanto was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,30 +18,16 @@
       "planet_name_kanto",
       "planet_size_large",
       "planet_climate_lunar",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_rings",
-      "planet_pop_small",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "A",
+  "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

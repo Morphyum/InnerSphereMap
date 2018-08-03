@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Uhuru",
     "Name": "Uhuru",
-    "Details": "NOT DONE",
+    "Details": "By the end of the Star League era Uhuru was a major industrial center, but the First Succession War devastated the planet. By the Second, those living on Uhuru were reduced to a bare subsistence level of existence from which they have not recovered.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,24 @@
   "Tags": {
     "items": [
       "planet_name_uhuru",
-      "planet_size_small",
-      "planet_climate_arctic",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_other_mudflats",
       "planet_other_fungus",
-      "planet_other_storms",
       "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_small",
-      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_mining",
+      "planet_industry_recreation",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
       "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 0,
+  "JumpDistance": 11,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +122,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Marik",
     "Locals"

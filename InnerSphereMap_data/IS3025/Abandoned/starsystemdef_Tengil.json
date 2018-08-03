@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tengil",
     "Name": "Tengil",
-    "Details": "NOT DONE",
+    "Details": "A small colony located on a hot ball of rock near to the B class star throughout most of the Succession Wars, it was destroyed by a solar flare.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_tengil",
-      "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_size_large",
+      "planet_climate_mars",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
+      "planet_industry_rich",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -8,
+  "JumpDistance": 8,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,7 +118,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "B",
   "ContractEmployers": [],

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_NonDiz",
     "Name": "Non Diz",
-    "Details": "NOT DONE",
+    "Details": "Non Diz was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,33 +17,17 @@
     "items": [
       "planet_name_nondiz",
       "planet_size_large",
-      "planet_climate_lunar",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_climate_mars",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -12,
+  "FuelingStation": false,
+  "JumpDistance": 13,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "A",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

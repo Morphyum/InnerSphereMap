@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alphard(MH)",
     "Name": "Alphard (MH)",
-    "Details": "NOT DONE",
+    "Details": "The capital of the Marian Hegemony since that nation was founded, Alphard was host to at least two major manufacturers - Alphard Trading Corporation and Marian Arms Incorporated - as well as an aerospace training academy and the Senate House.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,24 @@
   "Tags": {
     "items": [
       "planet_name_alphard(mh)",
-      "planet_size_small",
+      "planet_size_medium",
       "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_pop_small",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_prison",
       "planet_faction_marian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -10,
+  "JumpDistance": 8,
   "Owner": "AuriganDirectorate",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,7 +125,7 @@
     "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "AuriganDirectorate",
     "Locals"

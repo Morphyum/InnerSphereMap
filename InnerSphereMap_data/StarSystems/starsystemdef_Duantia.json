@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Duantia",
     "Name": "Duantia",
-    "Details": "NOT DONE",
+    "Details": "Duantia was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,18 @@
     "items": [
       "planet_name_duantia",
       "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_taintedair",
+      "planet_climate_desert",
       "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -2,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +117,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched"
   ],
-  "StarType": "A",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

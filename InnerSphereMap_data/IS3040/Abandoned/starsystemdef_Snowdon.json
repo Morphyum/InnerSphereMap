@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Snowdon",
     "Name": "Snowdon",
-    "Details": "NOT DONE",
+    "Details": "Snowdon was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,19 @@
     "items": [
       "planet_name_snowdon",
       "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_storms",
+      "planet_climate_desert",
       "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 3,
+  "FuelingStation": false,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +118,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "A",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tizga",
     "Name": "Tizga",
-    "Details": "NOT DONE",
+    "Details": "An enormous gas giant at the outer edge of its star's habitable zone. It supports a system of small to medium-sized moons. One of the moons has a breathable nitrogen/oxygen atmosphere but is not considered habitable due to extremes of temperature.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,16 @@
   "Tags": {
     "items": [
       "planet_name_tizga",
-      "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_pop_large",
+      "planet_size_small",
+      "planet_climate_lunar",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_prison"
+      "planet_industry_poor"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": 25,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,10 +114,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "O",
   "ContractEmployers": [
     "Locals",
     "Locals"

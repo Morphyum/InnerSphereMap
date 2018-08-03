@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ramen",
     "Name": "Ramen",
-    "Details": "NOT DONE",
+    "Details": "Ramen was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_ramen",
-      "planet_size_large",
-      "planet_climate_ice",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_moon02",
-      "planet_other_moon",
+      "planet_size_small",
+      "planet_climate_arid",
       "planet_pop_none",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -10,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

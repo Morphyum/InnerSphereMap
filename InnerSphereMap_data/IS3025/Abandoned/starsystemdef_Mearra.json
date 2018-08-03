@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Mearra",
     "Name": "Mearra",
-    "Details": "NOT DONE",
+    "Details": "Mearra was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_mearra",
-      "planet_size_large",
-      "planet_climate_ice",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_size_small",
+      "planet_climate_mars",
       "planet_pop_none",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 13,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -130,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tematagi",
     "Name": "Tematagi",
-    "Details": "NOT DONE",
+    "Details": "A small industrial outpost surrounds the main colony on this barren world. Many recreational facilities exist and nearby pirates are known to use it as a rest stop.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_tematagi",
-      "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_lunar",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_none",
       "planet_civ_innersphere",
-      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_other_pirate",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 15,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -134,14 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "A",
   "ContractEmployers": [
     "Marik",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Kent",
     "Name": "Kent",
-    "Details": "NOT DONE",
+    "Details": "Kent was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,17 @@
     "items": [
       "planet_name_kent",
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_climate_water",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 14,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -5,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "A",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

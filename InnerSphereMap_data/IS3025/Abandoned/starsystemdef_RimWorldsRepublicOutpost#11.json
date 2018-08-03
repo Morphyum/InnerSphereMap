@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_RimWorldsRepublicOutpost#11",
     "Name": "Rim Worlds Republic Outpost #11",
-    "Details": "NOT DONE",
+    "Details": "Rim Worlds Republic Outpost #11 was a station settled in this system by the Rim Worlds Republic but subsequently abandoned... Or was it?",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_rimworldsrepublicoutpost#11",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_large",
+      "planet_size_medium",
+      "planet_climate_mars",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_other_pirate",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -3,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_RimWorldsRepublicOutpost#7",
     "Name": "Rim Worlds Republic Outpost #7",
-    "Details": "NOT DONE",
+    "Details": "Rim Worlds Republic Outpost #7 was a station settled in this system by the Rim Worlds Republic but subsequently abandoned... Or was it?",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_rimworldsrepublicoutpost#7",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_size_large",
+      "planet_climate_mars",
       "planet_pop_none",
-      "planet_other_megacity",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 5,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,14 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

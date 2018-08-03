@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alphard(MH)",
     "Name": "Alphard (MH)",
-    "Details": "NOT DONE",
+    "Details": "The capital of the Marian Hegemony since that nation was founded, Alphard was host to at least two major manufacturers - Alphard Trading Corporation and Marian Arms Incorporated - as well as an aerospace training academy and the Senate House.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,38 +17,23 @@
     "items": [
       "planet_name_alphard(mh)",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
+      "planet_climate_arid",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
+      "planet_pop_large",
       "planet_civ_innersphere",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_other_comstar",
       "planet_faction_marian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 11,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "AuriganDirectorate",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -111,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -137,14 +122,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "AuriganDirectorate",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_BetaRegulus",
     "Name": "Beta Regulus",
-    "Details": "NOT DONE",
+    "Details": "Beta Regulus was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,18 @@
     "items": [
       "planet_name_betaregulus",
       "planet_size_medium",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_prison",
+      "planet_climate_arctic",
+      "planet_other_mudflats",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -15,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "F",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

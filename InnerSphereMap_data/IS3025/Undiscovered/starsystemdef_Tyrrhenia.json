@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tyrrhenia",
     "Name": "Tyrrhenia",
-    "Details": "NOT DONE",
+    "Details": "Tyrrhenia is home to numerous mining companies who desire access to the vast riches contained under the surface of this otherwise barren world. The Fourth Succession War has delayed further industrialisation.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_tyrrhenia",
-      "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
+      "planet_size_large",
+      "planet_climate_lunar",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_primitive",
-      "planet_industry_aquaculture",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_pop_small",
+      "planet_industry_poor",
+      "planet_industry_mining",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -3,
+  "JumpDistance": 16,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,14 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

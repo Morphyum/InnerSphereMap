@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Branzoll",
     "Name": "Branzoll",
-    "Details": "NOT DONE",
+    "Details": "Branzoll was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,17 @@
     "items": [
       "planet_name_branzoll",
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_pop_small",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_climate_arid",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -9,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

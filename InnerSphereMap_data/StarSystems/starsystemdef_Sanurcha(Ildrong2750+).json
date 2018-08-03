@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sanurcha(Ildrong2750+)",
     "Name": "Sanurcha (Ildrong 2750+)",
-    "Details": "NOT DONE",
+    "Details": "Sanurcha (Ildrong 2750+) was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,24 +17,17 @@
     "items": [
       "planet_name_sanurcha(ildrong2750+)",
       "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_mudflats",
-      "planet_other_taintedair",
-      "planet_pop_medium",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_climate_mars",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -97,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -123,8 +116,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "M",
   "ContractEmployers": [],

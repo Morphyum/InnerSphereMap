@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_StarCluster643",
     "Name": "Star Cluster 643",
-    "Details": "NOT DONE",
+    "Details": "An unexplored star cluster outside the Inner Sphere.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_starcluster643",
-      "planet_size_large",
+      "planet_size_medium",
       "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_industry_poor",
       "planet_other_pirate",
-      "planet_other_prison"
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -5,
+  "JumpDistance": 10,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",

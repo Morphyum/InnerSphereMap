@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Altenmarkt",
     "Name": "Altenmarkt",
-    "Details": "NOT DONE",
+    "Details": "Currently locked in an extended ice age. Years of fighting has led the planetary government to join the Free Rasalhague Republic. It is now a buffer between the LC and DC and the citizens hope their backyard will no longer be a battlefield.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,34 +17,17 @@
     "items": [
       "planet_name_altenmarkt",
       "planet_size_medium",
-      "planet_climate_lunar",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_small",
+      "planet_climate_ice",
+      "planet_pop_medium",
       "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
+      "planet_industry_mining",
       "planet_other_blackmarket",
-      "planet_other_prison",
-      "planet_ruins"
+      "planet_other_pirate"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 5,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -133,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "F",
+  "StarType": "K",
   "ContractEmployers": [
     "AuriganMercenaries",
     "Locals"

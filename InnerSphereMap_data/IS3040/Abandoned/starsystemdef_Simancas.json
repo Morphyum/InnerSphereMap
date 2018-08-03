@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Simancas",
     "Name": "Simancas",
-    "Details": "NOT DONE",
+    "Details": "Simancas was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_simancas",
-      "planet_size_medium",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_feature_comet",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
+      "planet_size_small",
+      "planet_climate_desert",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 9,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,10 +116,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "desertParched"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

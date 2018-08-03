@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Charleywood",
     "Name": "Charleywood",
-    "Details": "NOT DONE",
+    "Details": "Charleywood was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_charleywood",
-      "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
+      "planet_size_small",
+      "planet_climate_lunar",
+      "planet_feature_comet",
+      "planet_feature_rings",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +118,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

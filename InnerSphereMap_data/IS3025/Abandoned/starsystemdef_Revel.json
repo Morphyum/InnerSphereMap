@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Revel",
     "Name": "Revel",
-    "Details": "NOT DONE",
+    "Details": "Revel was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_revel",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_rich",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_size_medium",
+      "planet_climate_rocky",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -2,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "K",
+  "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

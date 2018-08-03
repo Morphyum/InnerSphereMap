@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Manennaia",
     "Name": "Manennaia",
-    "Details": "NOT DONE",
+    "Details": "Manennaia was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_manennaia",
-      "planet_size_small",
+      "planet_size_large",
       "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_newcolony",
+      "planet_other_pirate",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -12,
+  "FuelingStation": false,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,7 +120,7 @@
     "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

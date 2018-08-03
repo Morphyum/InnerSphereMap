@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_TransferFacility4",
     "Name": "Transfer Facility 4",
-    "Details": "NOT DONE",
+    "Details": "SURVEY DATA INCOMPLETE",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,35 +17,15 @@
     "items": [
       "planet_name_transferfacility4",
       "planet_size_small",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_climate_lunar",
+      "planet_pop_none",
+      "planet_civ_primitive",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 0,
+  "JumpDistance": 2,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,10 +114,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "M",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

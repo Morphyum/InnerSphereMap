@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_UlanBator",
     "Name": "Ulan Bator",
-    "Details": "NOT DONE",
+    "Details": "Settled in 2271 thanks to it's steppe landscapes suitable for pastoral farming. In the years prior to the fall of the Star League, the SLDF built numerous small forts and hidden boltholes across the landscape of Ulan Bator.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,33 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_ulanbator",
-      "planet_size_large",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
+      "planet_size_medium",
+      "planet_climate_arid",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_industry_rich",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
+      "planet_industry_recreation",
       "planet_industry_agriculture",
       "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_newcolony",
-      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 11,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "Steiner",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Josselin",
     "Name": "Josselin",
-    "Details": "NOT DONE",
+    "Details": "Josselin was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,18 @@
     "items": [
       "planet_name_josselin",
       "planet_size_small",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_climate_lunar",
       "planet_pop_none",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 3,
+  "FuelingStation": false,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,14 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

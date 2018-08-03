@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ueda",
     "Name": "Ueda",
-    "Details": "NOT DONE",
+    "Details": "Ueda is a cold planet orbiting at the outer edge of its star's habitable zone, but it is kept relatively warm by its atmosphere, which is mostly composed of CO2. This is a damp, boggy world, prone to excessive rain and seasonal flooding.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_ueda",
-      "planet_size_large",
-      "planet_climate_arctic",
-      "planet_other_floatingworld",
+      "planet_size_medium",
+      "planet_climate_tropical",
       "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_small",
       "planet_civ_innersphere",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket"
+      "planet_industry_rich",
+      "planet_industry_agriculture"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -6,
+  "JumpDistance": 6,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +118,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "B",
+  "StarType": "O",
   "ContractEmployers": [
     "AuriganMercenaries",
     "Locals"

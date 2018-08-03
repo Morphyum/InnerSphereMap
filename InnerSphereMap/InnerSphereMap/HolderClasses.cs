@@ -21,7 +21,8 @@ namespace InnerSphereMap {
         public List<float> RestorationRGB;
         public List<float> RasalhagueRGB;
         public List<float> StIvesRGB;
-
+        public List<float> AbandonedRGB;
+        public List<float> MRBRGB; 
         public float MinFov; // this is the vertical FOV
         public float MaxFov; // this is the vertical FOV
 

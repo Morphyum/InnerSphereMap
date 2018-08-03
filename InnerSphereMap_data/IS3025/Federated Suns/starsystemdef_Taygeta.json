@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Taygeta",
     "Name": "Taygeta",
-    "Details": "NOT DONE",
+    "Details": "An agricultural world wracked with storms, the capital city of Taygeta city still maintains some of the most nitrogen rich soils land in the entire Inner Sphere. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,14 @@
   "Tags": {
     "items": [
       "planet_name_taygeta",
-      "planet_size_small",
+      "planet_size_large",
       "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_comet",
+      "planet_other_fungus",
       "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_civ_innersphere",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
@@ -132,10 +118,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Anaea",
     "Name": "Anaea",
-    "Details": "NOT DONE",
+    "Details": "Anaea was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,18 @@
     "items": [
       "planet_name_anaea",
       "planet_size_large",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_small",
+      "planet_climate_arid",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
+      "planet_industry_poor",
+      "planet_other_pirate",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -1,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,9 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

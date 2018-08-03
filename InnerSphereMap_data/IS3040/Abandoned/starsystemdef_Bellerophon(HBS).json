@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Bellerophon(HBS)",
     "Name": "Bellerophon (HBS)",
-    "Details": "NOT DONE",
+    "Details": "Bellerophon (HBS) was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,26 +17,10 @@
     "items": [
       "planet_name_bellerophon(hbs)",
       "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_climate_mars",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
@@ -106,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 3,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,14 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "A",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

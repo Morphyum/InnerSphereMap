@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tarol",
     "Name": "Tarol",
-    "Details": "NOT DONE",
+    "Details": "Settled at some point prior to the end of the Age of War, Tarol IV was a member of the Magistracy of Canopus when an SLDF task force under the command of Captain-General Marion Marik was assigned to conquer the Magistracy of Canopus in 2577.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,22 +17,10 @@
     "items": [
       "planet_name_tarol",
       "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_mining",
+      "planet_climate_desert",
+      "planet_pop_none",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_ruins",
       "planet_faction_magistracy"
     ],
     "tagSetSourceFile": ""
@@ -101,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +115,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "desertParched"
   ],
-  "StarType": "A",
+  "StarType": "K",
   "ContractEmployers": [
     "MagistracyOfCanopus",
     "Locals"

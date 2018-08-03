@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_NewSamarkand",
     "Name": "New Samarkand",
-    "Details": "NOT DONE",
+    "Details": "This former capital of the Draconis Combine was once heavily populated and industrialised, although it has recently been in decline.  It is however still the home of the Combine's ISF and an important university.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,24 @@
     "items": [
       "planet_name_newsamarkand",
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_climate_terran",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_other_boreholes",
-      "planet_other_pirate",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_hub",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 11,
+  "FuelingStation": true,
+  "JumpDistance": 22,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +123,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Kurita",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Turinge",
     "Name": "Turinge",
-    "Details": "NOT DONE",
+    "Details": "A terrestrial planet with an unusually large axial tilt causing extreme seasonal changes. The most advanced forms of life on the planet are marsupials.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,19 @@
     "items": [
       "planet_name_turinge",
       "planet_size_medium",
-      "planet_climate_arid",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_climate_terran",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_rich",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_industry_aquaculture",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 10,
+  "FuelingStation": false,
+  "JumpDistance": 15,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +118,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "M",
   "ContractEmployers": [
     "Steiner",
     "Locals"

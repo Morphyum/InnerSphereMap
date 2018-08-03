@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sarkel",
     "Name": "Sarkel",
-    "Details": "NOT DONE",
+    "Details": "Sarkel was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,24 +16,17 @@
   "Tags": {
     "items": [
       "planet_name_sarkel",
-      "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_megaforest",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_pop_small",
+      "planet_size_large",
+      "planet_climate_desert",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
+  "FuelingStation": false,
   "JumpDistance": 9,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
@@ -97,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -123,11 +116,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "desertParched"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

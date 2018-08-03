@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sichuan",
     "Name": "Sichuan",
-    "Details": "NOT DONE",
+    "Details": "Sichuan was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,22 +17,11 @@
     "items": [
       "planet_name_sichuan",
       "planet_size_small",
-      "planet_climate_mars",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_climate_arctic",
+      "planet_other_taintedair",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
@@ -102,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

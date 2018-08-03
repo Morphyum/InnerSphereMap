@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Solor",
     "Name": "Solor",
-    "Details": "NOT DONE",
+    "Details": "Solor was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_solor",
-      "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
+      "planet_size_large",
+      "planet_climate_desert",
+      "planet_other_volcanic",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -3,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,8 +120,7 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched"
   ],
   "StarType": "M",
   "ContractEmployers": [],

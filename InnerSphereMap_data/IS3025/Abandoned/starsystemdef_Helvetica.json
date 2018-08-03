@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Helvetica",
     "Name": "Helvetica",
-    "Details": "NOT DONE",
+    "Details": "Helvetica was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_helvetica",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_moon02",
-      "planet_other_moon",
+      "planet_size_small",
+      "planet_climate_arctic",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
       "planet_other_pirate",
-      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -6,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,14 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

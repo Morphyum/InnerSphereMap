@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Saumur",
     "Name": "Saumur",
-    "Details": "NOT DONE",
+    "Details": "Saumur was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,17 @@
     "items": [
       "planet_name_saumur",
       "planet_size_large",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_small",
+      "planet_climate_mars",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 0,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

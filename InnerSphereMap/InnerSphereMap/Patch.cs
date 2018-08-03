@@ -418,6 +418,12 @@ namespace InnerSphereMap {
                     case Faction.AuriganRestoration:
                         __result = new Color(settings.RestorationRGB[0], settings.RestorationRGB[1], settings.RestorationRGB[2], 1f);
                         break;
+                    case Faction.NoFaction:
+                        __result = new Color(settings.AbandonedRGB[0], settings.AbandonedRGB[1], settings.AbandonedRGB[2], 0.7f);
+                        break;
+                    case Faction.MercenaryReviewBoard:
+                        __result = new Color(settings.MRBRGB[0], settings.MRBRGB[1], settings.MRBRGB[2], 1f);
+                        break;
                     default:
                         __result = __instance.nofactionColor;
                         break;

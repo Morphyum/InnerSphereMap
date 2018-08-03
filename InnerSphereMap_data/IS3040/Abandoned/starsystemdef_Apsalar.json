@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Apsalar",
     "Name": "Apsalar",
-    "Details": "NOT DONE",
+    "Details": "Apsalar was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,26 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_apsalar",
-      "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
+      "planet_size_large",
+      "planet_climate_lunar",
       "planet_feature_rings",
+      "planet_feature_moon03",
+      "planet_other_moon",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_manufacturing",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -1,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -98,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -124,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

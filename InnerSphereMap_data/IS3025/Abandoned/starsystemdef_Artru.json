@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Artru",
     "Name": "Artru",
-    "Details": "NOT DONE",
+    "Details": "Artru was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_artru",
-      "planet_size_medium",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_pop_medium",
+      "planet_size_large",
+      "planet_climate_lunar",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_pirate",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -10,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "0",
+  "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

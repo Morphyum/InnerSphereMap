@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Mechdur",
     "Name": "Mechdur",
-    "Details": "NOT DONE",
+    "Details": "Mechdur was settled during the Star League era at some point after the end of the Reunification War but was utterly destroyed in the first Succession War.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,17 @@
     "items": [
       "planet_name_mechdur",
       "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_climate_water",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 13,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +117,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "highlandsSpring"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

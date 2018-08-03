@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tikonov",
     "Name": "Tikonov",
-    "Details": "NOT DONE",
+    "Details": "One of the earliest systems colonised, Tikonov has seen more than it's share of conflict.  The numerous Earthwerks (and other) factories has seen it become a battlefield several times, and was most recently taken over by the Feds some 10 years ago.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,25 @@
     "items": [
       "planet_name_tikonov",
       "planet_size_medium",
-      "planet_climate_mars",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_climate_terran",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_civ_primitive",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
       "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_ruins",
+      "planet_other_hub",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -2,
+  "JumpDistance": 9,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +124,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
     "Steiner",
     "Locals"

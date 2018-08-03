@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Dresden",
     "Name": "Dresden",
-    "Details": "NOT DONE",
+    "Details": "Dresden was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_dresden",
-      "planet_size_small",
+      "planet_size_medium",
       "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_newcolony",
+      "planet_other_pirate",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 14,
+  "FuelingStation": false,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,7 +120,7 @@
     "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

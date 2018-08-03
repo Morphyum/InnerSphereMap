@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Monthey",
     "Name": "Monthey",
-    "Details": "NOT DONE",
+    "Details": "Monthey was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,29 +17,17 @@
     "items": [
       "planet_name_monthey",
       "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_rich",
-      "planet_industry_aquaculture",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_pirate",
+      "planet_climate_water",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 12,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -129,9 +117,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

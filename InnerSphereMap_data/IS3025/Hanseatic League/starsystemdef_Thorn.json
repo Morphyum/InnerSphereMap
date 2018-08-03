@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Thorn",
     "Name": "Thorn",
-    "Details": "NOT DONE",
+    "Details": "Thorn is one of the worlds that form a part of the Deep Periphery nation known as the Hanseatic League.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,17 @@
     "items": [
       "planet_name_thorn",
       "planet_size_medium",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_climate_lunar",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_primitive",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes"
+      "planet_pop_small",
+      "planet_industry_rich",
+      "planet_industry_mining"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 12,
+  "JumpDistance": 15,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,9 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [
     "Locals",
     "Locals"

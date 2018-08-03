@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Bougie",
     "Name": "Bougie",
-    "Details": "NOT DONE",
+    "Details": "Bougie was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_bougie",
-      "planet_size_small",
+      "planet_size_medium",
       "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_rich",
-      "planet_other_comstar",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -11,
+  "FuelingStation": false,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 3,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,7 +118,7 @@
   "SupportedBiomes": [
     "desertParched"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

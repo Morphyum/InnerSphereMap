@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Thala",
     "Name": "Thala",
-    "Details": "NOT DONE",
+    "Details": "Thala is the capital world of the Axumite Providence. It was first settled in 2239 by colonists fleeing the Terran Alliance. Thala is a lush world with multiple smaller continents and ancient mountain ranges.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,26 +17,19 @@
     "items": [
       "planet_name_thala",
       "planet_size_medium",
-      "planet_climate_mars",
-      "planet_other_floatingworld",
-      "planet_feature_moon03",
+      "planet_climate_terran",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_small",
       "planet_industry_poor",
-      "planet_industry_recreation",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_pirate",
-      "planet_other_prison"
+      "planet_industry_aquaculture",
+      "planet_other_pirate"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 10,
+  "JumpDistance": 12,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,10 +118,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

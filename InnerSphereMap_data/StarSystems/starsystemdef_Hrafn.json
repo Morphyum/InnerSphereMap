@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Hrafn",
     "Name": "Hrafn",
-    "Details": "NOT DONE",
+    "Details": "Hrafn was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,17 @@
     "items": [
       "planet_name_hrafn",
       "planet_size_large",
-      "planet_climate_tropical",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_climate_lunar",
       "planet_pop_none",
-      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_newcolony",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -1,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,11 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "0",
+  "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

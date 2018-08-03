@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Truth",
     "Name": "Truth",
-    "Details": "NOT DONE",
+    "Details": "Once a desert planet with vast irrigated flood plains, Truth was devastated in the Third Succession War. Most of the populated die of famine, leaving only a few token hardy survivors on the surface.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_truth",
-      "planet_size_small",
+      "planet_size_medium",
       "planet_climate_desert",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_taintedair",
       "planet_feature_moon02",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_industry_rich",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_industry_poor",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 7,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,7 +119,7 @@
   "SupportedBiomes": [
     "desertParched"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "Steiner",
     "Locals"

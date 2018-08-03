@@ -16,7 +16,7 @@
   "Tags": {
     "items": [
       "planet_name_dyev",
-      "planet_size_medium",
+      "planet_size_small",
       "planet_climate_lunar",
       "planet_other_volcanic",
       "planet_other_megaforest",
@@ -24,12 +24,20 @@
       "planet_other_fungus",
       "planet_other_stonedcaribou",
       "planet_other_storms",
+      "planet_other_taintedair",
       "planet_feature_asteroids",
+      "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_pop_medium",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_industry_agriculture",
       "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_starleague",
       "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
@@ -39,7 +47,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 9,
+  "JumpDistance": 6,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +110,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,7 +139,7 @@
     "lunarVacuum",
     "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Kurita",
     "Locals"

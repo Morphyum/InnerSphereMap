@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Trell(Trellwan)",
     "Name": "Trell (Trellwan)",
-    "Details": "NOT DONE",
+    "Details": "A planetary year on Trellwan is only 45 standard days, while a planetary day is 30.5 standard days due to the planet's slow rotation. As a result, vulcanism and earthquakes are common and the climatic changes are quite abrupt and severe.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,22 @@
     "items": [
       "planet_name_trell(trellwan)",
       "planet_size_medium",
-      "planet_climate_lunar",
+      "planet_climate_desert",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon01",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_rich",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_industry_agriculture",
+      "planet_other_comstar",
       "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 2,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +121,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "desertParched"
   ],
-  "StarType": "F",
+  "StarType": "M",
   "ContractEmployers": [
     "Steiner",
     "Locals"

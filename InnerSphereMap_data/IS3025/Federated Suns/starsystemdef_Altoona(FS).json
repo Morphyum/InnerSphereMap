@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Altoona(FS)",
     "Name": "Altoona (FS)",
-    "Details": "NOT DONE",
+    "Details": "Altoona is a rare example of a system orbiting a red dwarf star. Even rarer that the planet itself is a moon of a gas giant. But what makes it exceptional is that there are 3 habitable moons orbiting the same gas giant although only one is inhabited.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_altoona(fs)",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_lunar",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
+      "planet_pop_small",
       "planet_other_blackmarket",
-      "planet_other_newcolony",
       "planet_other_pirate",
+      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -14,
+  "FuelingStation": false,
+  "JumpDistance": 2,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "K",
+  "StarType": "M",
   "ContractEmployers": [
     "Davion",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ammon",
     "Name": "Ammon",
-    "Details": "NOT DONE",
+    "Details": "Ammon was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,33 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_ammon",
-      "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
+      "planet_size_medium",
+      "planet_climate_lunar",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_agriculture",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_industry_poor",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -2,
+  "JumpDistance": 15,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,7 +116,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
   "StarType": "M",
   "ContractEmployers": [],

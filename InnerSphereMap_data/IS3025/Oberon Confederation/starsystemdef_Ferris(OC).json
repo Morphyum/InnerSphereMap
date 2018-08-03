@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ferris(OC)",
     "Name": "Ferris (OC)",
-    "Details": "NOT DONE",
+    "Details": "Settled by a group of rebels from the Draconis Combine during the Third Succession War, Ferris is now home to many hordes of disreputables. Good ale though.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_ferris(oc)",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_large",
+      "planet_size_medium",
+      "planet_climate_lunar",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_oberon"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 0,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "MagistracyCentrella",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "B",
   "ContractEmployers": [
     "MagistracyCentrella",
     "Locals"
