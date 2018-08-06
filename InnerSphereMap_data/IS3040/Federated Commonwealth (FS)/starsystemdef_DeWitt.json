@@ -16,28 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_dewitt",
-      "planet_size_large",
-      "planet_climate_water",
+      "planet_size_medium",
+      "planet_climate_arctic",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_other_taintedair",
       "planet_feature_asteroids",
-      "planet_feature_comet",
+      "planet_feature_gasgiant",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_pop_small",
       "planet_industry_poor",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
+      "planet_industry_mining",
       "planet_other_comstar",
       "planet_other_alienvegetation",
-      "planet_other_newcolony",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -10,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,10 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "0",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "Locals"

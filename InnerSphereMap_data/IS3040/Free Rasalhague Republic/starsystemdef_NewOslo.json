@@ -16,27 +16,33 @@
   "Tags": {
     "items": [
       "planet_name_newoslo",
-      "planet_size_large",
-      "planet_climate_desert",
+      "planet_size_medium",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_feature_moon01",
+      "planet_feature_rings",
+      "planet_feature_moon02",
       "planet_other_moon",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
+      "planet_industry_aquaculture",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
       "planet_other_pirate",
       "planet_other_prison"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -6,
+  "FuelingStation": true,
+  "JumpDistance": 8,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,7 +131,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "StarType": "K",
   "ContractEmployers": [

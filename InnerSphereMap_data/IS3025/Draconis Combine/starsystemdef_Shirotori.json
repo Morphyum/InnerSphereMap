@@ -17,26 +17,30 @@
     "items": [
       "planet_name_shirotori",
       "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
+      "planet_climate_desert",
+      "planet_other_fungus",
       "planet_other_stonedcaribou",
+      "planet_other_storms",
       "planet_other_taintedair",
-      "planet_pop_medium",
+      "planet_feature_gasgiant",
+      "planet_pop_none",
       "planet_other_megacity",
       "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
       "planet_other_starleague",
       "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -11,
+  "JumpDistance": -15,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,10 +129,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "K",
+  "StarType": "M",
   "ContractEmployers": [
     "Kurita",
     "Locals"

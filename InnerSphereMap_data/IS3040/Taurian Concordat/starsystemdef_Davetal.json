@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Davetal",
     "Name": "Davetal",
-    "Details": "NOT DONE",
+    "Details": "Recently settled after the Fourth Succession War, Davetal is a small trading post colony set up upon a lunar outpost.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,35 +16,16 @@
   "Tags": {
     "items": [
       "planet_name_davetal",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
+      "planet_size_large",
+      "planet_climate_lunar",
+      "planet_pop_none",
       "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 6,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,10 +114,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
     "TaurianConcordat",
     "Locals"

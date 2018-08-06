@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ankaa",
     "Name": "Ankaa",
-    "Details": "NOT DONE",
+    "Details": "Ankaa wasn't settled until four centuries after the first JumpShips left Terra. The hot world resembled the African and Middle East regions, but the middle latitudes and equator were far harsher and hotter than any Terran desert. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_ankaa",
-      "planet_size_large",
-      "planet_climate_lunar",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
+      "planet_size_small",
+      "planet_climate_mars",
       "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 8,
+  "FuelingStation": false,
+  "JumpDistance": 26,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +118,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
+    "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "Locals"

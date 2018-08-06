@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AmberGrove",
     "Name": "Amber Grove",
-    "Details": "NOT DONE",
+    "Details": "Amber Grove, named after the amber like glow from the forests situated on mudflats, was settled during the Star League era at some point after the end of the Reunification War, and for much of its history was a part of the Taurian Concordat.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,24 @@
   "Tags": {
     "items": [
       "planet_name_ambergrove",
-      "planet_size_medium",
-      "planet_climate_ice",
-      "planet_other_volcanic",
+      "planet_size_small",
+      "planet_climate_desert",
+      "planet_other_megaforest",
       "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_moon02",
+      "planet_other_fungus",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_mining",
+      "planet_pop_small",
+      "planet_industry_poor",
+      "planet_industry_recreation",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
       "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -14,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,10 +122,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [
     "TaurianConcordat",
     "Locals"

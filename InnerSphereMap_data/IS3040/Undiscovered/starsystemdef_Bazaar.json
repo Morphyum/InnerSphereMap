@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Bazaar",
     "Name": "Bazaar",
-    "Details": "NOT DONE",
+    "Details": "SURVEY DATA INCOMPLETE",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,16 @@
     "items": [
       "planet_name_bazaar",
       "planet_size_large",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_climate_water",
       "planet_pop_none",
-      "planet_civ_innersphere",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
+      "planet_civ_primitive",
       "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,8 +115,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
   "StarType": "G",
   "ContractEmployers": [],

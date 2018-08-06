@@ -16,28 +16,33 @@
   "Tags": {
     "items": [
       "planet_name_gant",
-      "planet_size_small",
-      "planet_climate_desert",
+      "planet_size_medium",
+      "planet_climate_tropical",
+      "planet_other_volcanic",
       "planet_other_megaforest",
+      "planet_other_mudflats",
       "planet_other_floatingworld",
+      "planet_other_taintedair",
       "planet_feature_asteroids",
+      "planet_feature_gasgiant",
       "planet_feature_rings",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_mining",
+      "planet_pop_small",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_other_comstar",
       "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_pirate",
       "planet_other_prison",
+      "planet_ruins",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -8,
+  "JumpDistance": 7,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,9 +131,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "TaurianConcordat",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AlulaBorealis",
     "Name": "Alula Borealis",
-    "Details": "NOT DONE",
+    "Details": "Colonized to take advantage of the rare earth elements readily available on the surface, Alula Borealis is a backwater mining colony with enough strategic value to have a garrison stationed on planet. Not much has changed since the Star League days.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,33 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_alulaborealis",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_size_medium",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
+      "planet_pop_small",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 14,
+  "JumpDistance": 13,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,8 +116,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
   "StarType": "K",
   "ContractEmployers": [

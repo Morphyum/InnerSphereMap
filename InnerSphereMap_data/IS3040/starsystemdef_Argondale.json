@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Argondale",
     "Name": "Argondale",
-    "Details": "NOT DONE",
+    "Details": "SURVEY DATA INCOMPLETE",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,16 @@
   "Tags": {
     "items": [
       "planet_name_argondale",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_water",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins"
+      "planet_other_alienvegetation"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 0,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,7 +117,7 @@
     "lowlandsCoastal",
     "highlandsSpring"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

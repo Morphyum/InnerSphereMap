@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Astrokaszy",
     "Name": "Astrokaszy",
-    "Details": "NOT DONE",
+    "Details": "Astrokaszy is hot, dry and windswept despite having a large amount of water. Treasure hunters are still drawn to the planet by rumors of a Star League Defense Force cache of precious metals, hidden during the Reunification War.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_astrokaszy",
-      "planet_size_large",
-      "planet_climate_arctic",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_size_medium",
+      "planet_climate_arid",
+      "planet_other_storms",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_industry_poor",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_prison",
-      "planet_ruins"
+      "planet_other_comstar"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -5,
+  "JumpDistance": 8,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 3,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

@@ -16,32 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_diosd",
-      "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_mars",
+      "planet_other_fungus",
       "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_large",
+      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_mining",
       "planet_industry_aquaculture",
-      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
       "planet_other_alienvegetation",
-      "planet_other_blackmarket",
       "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_other_prison",
       "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 2,
+  "JumpDistance": -15,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +126,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "AuriganMercenaries",
     "Locals"

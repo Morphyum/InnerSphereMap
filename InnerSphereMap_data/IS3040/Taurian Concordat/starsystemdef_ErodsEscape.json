@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_ErodsEscape",
     "Name": "Erod's Escape",
-    "Details": "NOT DONE",
+    "Details": "Recently settled after the Fourth Succession War, Erod's Escape is a small colony set up by a mercenary band who fled their employer.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,16 @@
     "items": [
       "planet_name_erod'sescape",
       "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_volcanic",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_pop_medium",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
+      "planet_climate_arid",
+      "planet_other_stonedcaribou",
+      "planet_pop_none",
       "planet_other_newcolony",
-      "planet_other_pirate",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 15,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +115,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "TaurianConcordat",
     "Locals"

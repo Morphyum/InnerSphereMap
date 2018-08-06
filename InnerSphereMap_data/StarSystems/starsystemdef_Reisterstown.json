@@ -17,23 +17,21 @@
     "items": [
       "planet_name_reisterstown",
       "planet_size_medium",
-      "planet_climate_tropical",
+      "planet_climate_desert",
       "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_rings",
-      "planet_pop_none",
-      "planet_other_megacity",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_large",
       "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_research",
+      "planet_industry_rich",
       "planet_industry_manufacturing",
-      "planet_other_starleague",
       "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_other_pirate",
       "planet_other_prison",
       "planet_ruins",
@@ -42,7 +40,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 13,
+  "JumpDistance": 12,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,11 +129,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "desertParched"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "Locals"

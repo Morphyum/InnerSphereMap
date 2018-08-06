@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_BelleIsle",
     "Name": "Belle Isle",
-    "Details": "NOT DONE",
+    "Details": "Recently settled after the Fourth Succession War, Belle Isle is a small agricultural colony set up amongst a water world.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,16 @@
   "Tags": {
     "items": [
       "planet_name_belleisle",
-      "planet_size_medium",
+      "planet_size_large",
       "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_feature_comet",
-      "planet_pop_large",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_ruins",
+      "planet_pop_none",
+      "planet_other_newcolony",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 7,
+  "JumpDistance": 9,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,7 +117,7 @@
     "lowlandsCoastal",
     "highlandsSpring"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

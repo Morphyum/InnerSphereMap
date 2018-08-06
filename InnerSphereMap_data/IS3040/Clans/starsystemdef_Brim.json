@@ -16,26 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_brim",
-      "planet_size_large",
-      "planet_climate_mars",
+      "planet_size_medium",
+      "planet_climate_arctic",
       "planet_other_volcanic",
-      "planet_other_floatingworld",
+      "planet_other_mudflats",
       "planet_other_stonedcaribou",
       "planet_other_taintedair",
       "planet_feature_asteroids",
       "planet_feature_comet",
       "planet_feature_rings",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_small",
       "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_boreholes"
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_pirate",
+      "planet_other_prison"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 14,
+  "FuelingStation": false,
+  "JumpDistance": -13,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -98,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -124,8 +132,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
   "StarType": "B",
   "ContractEmployers": [

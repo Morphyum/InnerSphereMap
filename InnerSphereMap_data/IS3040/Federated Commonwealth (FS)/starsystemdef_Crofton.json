@@ -16,32 +16,33 @@
   "Tags": {
     "items": [
       "planet_name_crofton",
-      "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_megaforest",
+      "planet_size_medium",
+      "planet_climate_ice",
+      "planet_other_mudflats",
       "planet_other_floatingworld",
+      "planet_other_fungus",
       "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
       "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_large",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_civ_primitive",
+      "planet_industry_rich",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
+      "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 4,
+  "JumpDistance": 1,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +131,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
     "Locals"

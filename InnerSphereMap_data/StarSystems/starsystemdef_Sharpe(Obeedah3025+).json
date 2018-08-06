@@ -16,30 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_sharpe(obeedah3025+)",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_other_volcanic",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
       "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_industry_recreation",
+      "planet_pop_medium",
+      "planet_industry_poor",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
       "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_other_pirate",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -2,
+  "JumpDistance": 8,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +126,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "F",
+  "StarType": "M",
   "ContractEmployers": [
     "Locals",
     "Locals"

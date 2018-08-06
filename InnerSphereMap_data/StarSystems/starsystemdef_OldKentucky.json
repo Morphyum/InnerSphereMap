@@ -16,26 +16,31 @@
   "Tags": {
     "items": [
       "planet_name_oldkentucky",
-      "planet_size_small",
-      "planet_climate_water",
+      "planet_size_large",
+      "planet_climate_tropical",
       "planet_other_volcanic",
+      "planet_other_mudflats",
       "planet_other_floatingworld",
-      "planet_other_fungus",
       "planet_other_storms",
       "planet_other_taintedair",
-      "planet_pop_large",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_starleague",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 8,
+  "FuelingStation": true,
+  "JumpDistance": -5,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -98,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,9 +130,10 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "highlandsSpring"
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "B",
+  "StarType": "0",
   "ContractEmployers": [
     "Steiner",
     "Locals"

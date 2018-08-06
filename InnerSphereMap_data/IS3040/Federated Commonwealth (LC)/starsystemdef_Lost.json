@@ -17,30 +17,33 @@
     "items": [
       "planet_name_lost",
       "planet_size_large",
-      "planet_climate_mars",
+      "planet_climate_arid",
       "planet_other_volcanic",
-      "planet_other_mudflats",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
       "planet_feature_gasgiant",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_large",
+      "planet_feature_rings",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_other_comstar",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_starleague",
-      "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -15,
+  "FuelingStation": false,
+  "JumpDistance": -11,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +132,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
+    "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Steiner",
     "Locals"

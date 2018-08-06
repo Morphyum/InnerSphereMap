@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Andro",
     "Name": "Andro",
-    "Details": "NOT DONE",
+    "Details": "Apart from a few warm lakes and rivers, Andro is dry. Noxious gases erupt from deep fissures. Some local plants hover in mid-air, held aloft by gas bags.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_andro",
-      "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_megaforest",
+      "planet_size_medium",
+      "planet_climate_arid",
       "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_pop_small",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_other_alienvegetation",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -6,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
+    "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "Locals"

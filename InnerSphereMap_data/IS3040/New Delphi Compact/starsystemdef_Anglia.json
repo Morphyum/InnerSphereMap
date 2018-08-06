@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Anglia",
     "Name": "Anglia",
-    "Details": "NOT DONE",
+    "Details": "In common with the other worlds of the New Delphi Compact, ninety percent of the population of Anglia lived an agricultural lifestyle maintained by technology of an equivalent to that found on Terra in the late eighteenth or early nineteenth century",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,27 +17,17 @@
     "items": [
       "planet_name_anglia",
       "planet_size_medium",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
+      "planet_climate_arid",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_poor",
-      "planet_industry_agriculture",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket"
+      "planet_civ_primitive",
+      "planet_industry_agriculture"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -5,
+  "JumpDistance": 8,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,9 +117,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "highlandsSpring"
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "F",
   "ContractEmployers": [
     "Locals",
     "Locals"

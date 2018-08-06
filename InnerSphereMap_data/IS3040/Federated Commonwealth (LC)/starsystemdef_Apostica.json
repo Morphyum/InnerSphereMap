@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Apostica",
     "Name": "Apostica",
-    "Details": "NOT DONE",
+    "Details": "A planet-wide ocean mostly free of ice, except at the poles. Groups of striped creatures splash and frolic in the shallows. The adults hunt their own juveniles for food. Constant hurricanes ravage the surface.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_apostica",
-      "planet_size_small",
-      "planet_climate_tropical",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_pop_small",
-      "planet_civ_primitive",
-      "planet_industry_rich",
+      "planet_size_large",
+      "planet_climate_water",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
       "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -7,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +118,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "highlandsSpring"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "Steiner",
     "Locals"

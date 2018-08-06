@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Carvajal",
     "Name": "Carvajal",
-    "Details": "NOT DONE",
+    "Details": "Recently settled after the Fourth Succession War, Carvajal is a small agricultural colony set up amongst a fertile volcanic plain.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,17 @@
   "Tags": {
     "items": [
       "planet_name_carvajal",
-      "planet_size_small",
-      "planet_climate_arctic",
+      "planet_size_large",
+      "planet_climate_rocky",
       "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
+      "planet_pop_none",
+      "planet_other_newcolony",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 5,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,8 +115,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "highlandsSpring",
+    "highlandsFall"
   ],
   "StarType": "G",
   "ContractEmployers": [],

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Anguilla",
     "Name": "Anguilla",
-    "Details": "NOT DONE",
+    "Details": "The surface of Anguilla is tundra and a few frozen lakes. There are extensive fossilized forests with squat, knotted trunks with black spines. Large amounts of petroleum sit under the surface, the basis for the economy on this ruined world.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_anguilla",
-      "planet_size_large",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_size_small",
+      "planet_climate_ice",
       "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
+      "planet_other_alienvegetation",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 14,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
     "Locals"

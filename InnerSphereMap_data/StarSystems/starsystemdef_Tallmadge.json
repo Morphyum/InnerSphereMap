@@ -17,29 +17,29 @@
     "items": [
       "planet_name_tallmadge",
       "planet_size_medium",
-      "planet_climate_lunar",
+      "planet_climate_desert",
+      "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_mudflats",
       "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_none",
-      "planet_industry_rich",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
+      "planet_other_taintedair",
+      "planet_feature_comet",
+      "planet_feature_gasgiant",
+      "planet_pop_medium",
+      "planet_other_megacity",
+      "planet_industry_mining",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_hub",
       "planet_other_alienvegetation",
-      "planet_other_blackmarket",
       "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 8,
+  "FuelingStation": true,
+  "JumpDistance": 9,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +128,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "B",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "Locals"

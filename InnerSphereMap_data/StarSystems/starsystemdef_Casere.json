@@ -16,26 +16,33 @@
   "Tags": {
     "items": [
       "planet_name_casere",
-      "planet_size_medium",
-      "planet_climate_terran",
+      "planet_size_small",
+      "planet_climate_lunar",
       "planet_other_volcanic",
-      "planet_other_stonedcaribou",
+      "planet_other_megaforest",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_pop_large",
-      "planet_industry_rich",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
+      "planet_industry_aquaculture",
       "planet_other_comstar",
       "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_alienvegetation"
+      "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "AuriganMercenaries",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -98,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -124,14 +131,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "F",
+  "StarType": "A",
   "ContractEmployers": [
     "AuriganMercenaries",
     "Locals"

@@ -17,29 +17,33 @@
     "items": [
       "planet_name_leshalles",
       "planet_size_large",
-      "planet_climate_mars",
+      "planet_climate_terran",
       "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_floatingworld",
+      "planet_other_fungus",
       "planet_other_stonedcaribou",
+      "planet_other_taintedair",
       "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_none",
       "planet_civ_innersphere",
+      "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_research",
-      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_hub",
+      "planet_other_starleague",
+      "planet_other_boreholes",
       "planet_other_prison",
+      "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 3,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +132,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Marik",
     "Locals"

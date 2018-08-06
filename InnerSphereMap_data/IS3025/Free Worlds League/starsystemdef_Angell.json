@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Angell",
     "Name": "Angell",
-    "Details": "NOT DONE",
+    "Details": "Settled to access radium and cesium, Angell has a stark social structure. Water supplies are tainted with a chemical called citrium which is poisonous in large doses. As a result the population is reliant on technology and fresh water shipments.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,17 @@
     "items": [
       "planet_name_angell",
       "planet_size_medium",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_feature_comet",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_climate_arid",
       "planet_pop_large",
-      "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -9,
+  "JumpDistance": 8,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Marik",
     "Locals"

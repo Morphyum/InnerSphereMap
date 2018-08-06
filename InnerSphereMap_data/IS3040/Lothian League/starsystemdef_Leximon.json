@@ -16,34 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_leximon",
-      "planet_size_large",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
+      "planet_size_small",
+      "planet_climate_lunar",
       "planet_other_floatingworld",
-      "planet_other_taintedair",
+      "planet_other_fungus",
+      "planet_other_storms",
       "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_medium",
       "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
       "planet_other_newcolony",
+      "planet_other_prison",
       "planet_ruins",
       "planet_faction_lothian"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 9,
+  "JumpDistance": 4,
   "Owner": "MajestyMetals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +132,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [
     "MajestyMetals",
     "Locals"

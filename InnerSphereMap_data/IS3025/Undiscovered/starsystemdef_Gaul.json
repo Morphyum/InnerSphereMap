@@ -17,32 +17,28 @@
     "items": [
       "planet_name_gaul",
       "planet_size_medium",
-      "planet_climate_lunar",
-      "planet_other_megaforest",
+      "planet_climate_water",
       "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
       "planet_other_storms",
       "planet_feature_asteroids",
       "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
+      "planet_pop_none",
       "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_other_hub",
+      "planet_other_boreholes",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 2,
+  "JumpDistance": -13,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +127,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "0",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganMercenaries",

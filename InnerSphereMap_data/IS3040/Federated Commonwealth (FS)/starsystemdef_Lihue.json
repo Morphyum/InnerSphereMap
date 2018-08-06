@@ -17,28 +17,25 @@
     "items": [
       "planet_name_lihue",
       "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
+      "planet_climate_mars",
       "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_pop_small",
-      "planet_civ_innersphere",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_civ_primitive",
+      "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_pirate",
       "planet_other_prison",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 3,
+  "FuelingStation": true,
+  "JumpDistance": -12,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": -10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +124,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "martianVacuum",
     "badlandsParched"
   ],
-  "StarType": "A",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "Locals"

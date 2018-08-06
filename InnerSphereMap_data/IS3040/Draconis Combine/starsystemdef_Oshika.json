@@ -16,28 +16,34 @@
   "Tags": {
     "items": [
       "planet_name_oshika",
-      "planet_size_small",
-      "planet_climate_terran",
+      "planet_size_large",
+      "planet_climate_ice",
+      "planet_other_volcanic",
       "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_other_taintedair",
+      "planet_feature_comet",
       "planet_feature_gasgiant",
       "planet_pop_large",
       "planet_other_megacity",
+      "planet_civ_primitive",
       "planet_industry_rich",
       "planet_industry_recreation",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_alienvegetation",
+      "planet_industry_mining",
+      "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_newcolony",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 14,
+  "FuelingStation": true,
+  "JumpDistance": 6,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +106,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,14 +132,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Kurita",
     "Locals"

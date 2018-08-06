@@ -17,30 +17,29 @@
     "items": [
       "planet_name_dompaire",
       "planet_size_large",
-      "planet_climate_water",
+      "planet_climate_mars",
       "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_other_fungus",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_innersphere",
+      "planet_pop_medium",
+      "planet_other_megacity",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_other_starleague",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
       "planet_other_prison",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +128,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Steiner",
     "Locals"

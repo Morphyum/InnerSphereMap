@@ -17,29 +17,30 @@
     "items": [
       "planet_name_siendou",
       "planet_size_large",
-      "planet_climate_water",
+      "planet_climate_mars",
       "planet_other_volcanic",
-      "planet_other_mudflats",
       "planet_other_floatingworld",
+      "planet_other_fungus",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_pop_large",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_feature_rings",
+      "planet_pop_small",
       "planet_other_megacity",
-      "planet_industry_poor",
+      "planet_civ_innersphere",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
       "planet_other_blackmarket",
+      "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 10,
+  "JumpDistance": 7,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +129,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "Marik",
     "Locals"

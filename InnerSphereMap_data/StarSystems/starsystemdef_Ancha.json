@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ancha",
     "Name": "Ancha",
-    "Details": "NOT DONE",
+    "Details": "Ancha is best known for the fate of the first wave of colonists who all died to plague. The second wave, using the notes from the first wave, managed to synthesize a cure, meaning that their sacrifice was not in vain.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,37 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_ancha",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_tropical",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_pop_small",
+      "planet_civ_innersphere",
       "planet_industry_poor",
-      "planet_industry_recreation",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 9,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -109,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -136,9 +120,10 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "badlandsParched"
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "A",
+  "StarType": "G",
   "ContractEmployers": [
     "Kurita",
     "Locals"

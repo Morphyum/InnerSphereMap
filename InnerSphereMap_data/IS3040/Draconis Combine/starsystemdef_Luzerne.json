@@ -17,29 +17,31 @@
     "items": [
       "planet_name_luzerne",
       "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_mudflats",
+      "planet_climate_mars",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_storms",
       "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_small",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
+      "planet_other_megacity",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_starleague",
+      "planet_other_comstar",
+      "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_blackmarket",
       "planet_other_boreholes",
+      "planet_other_pirate",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 5,
+  "JumpDistance": -2,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +130,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "A",
+  "StarType": "B",
   "ContractEmployers": [
     "Kurita",
     "Locals"
