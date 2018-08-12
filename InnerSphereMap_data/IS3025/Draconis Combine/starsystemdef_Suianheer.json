@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Suianheer",
     "Name": "Suianheer",
-    "Details": "NOT DONE",
+    "Details": "A border world against the Outworlds Alliance, munitions depots were created all across the icy world of Suianheer. Nowadays, the mining colonies occassionally stumble across LosTech and more.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_suianheer",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
+      "planet_size_medium",
+      "planet_climate_ice",
       "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_small",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_industry_manufacturing",
       "planet_other_starleague",
       "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -9,
+  "JumpDistance": 7,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -5,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +120,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Kurita",
     "Locals"

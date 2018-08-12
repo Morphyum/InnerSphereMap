@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Skondia",
     "Name": "Skondia",
-    "Details": "NOT DONE",
+    "Details": "Skondia possesses abundant deposits of rare metals and minerals. Skondia produces nickel-alloys, titanium, and steel, used in everything from forks to fusion reactors. Ownership has changed hands multiple times over the course of the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,26 @@
   "Tags": {
     "items": [
       "planet_name_skondia",
-      "planet_size_medium",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_gasgiant",
+      "planet_size_large",
+      "planet_climate_arid",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_large",
+      "planet_other_megacity",
       "planet_civ_innersphere",
-      "planet_industry_poor",
+      "planet_industry_rich",
       "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_other_comstar",
+      "planet_other_hub",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 5,
+  "JumpDistance": 14,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +98,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,9 +125,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "highlandsSpring"
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Kurita",
     "Locals"

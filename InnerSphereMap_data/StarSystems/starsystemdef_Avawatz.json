@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Avawatz",
     "Name": "Avawatz",
-    "Details": "NOT DONE",
+    "Details": "Avawatz is a planet-wide ocean. Gigantic scintillating creatures live in the ocean, moving slowly by using their siphons. Day and night rapidly follow on from each other.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_avawatz",
-      "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
+      "planet_size_small",
+      "planet_climate_water",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_pop_medium",
       "planet_civ_innersphere",
-      "planet_industry_rich",
+      "planet_industry_poor",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 11,
+  "JumpDistance": 15,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,9 +120,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Davion",
     "Locals"

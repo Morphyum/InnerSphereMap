@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tarazed",
     "Name": "Tarazed",
-    "Details": "NOT DONE",
+    "Details": "Tarazed city sits atop a large plateau above the extensive mudflats of the world. Mining operations are common here for easily accessible heavy ores and petroleum. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,19 @@
     "items": [
       "planet_name_tarazed",
       "planet_size_medium",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_pop_large",
-      "planet_civ_primitive",
-      "planet_industry_rich",
+      "planet_climate_rocky",
+      "planet_other_mudflats",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 10,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,9 +118,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "B",
   "ContractEmployers": [
     "Kurita",
     "Locals"

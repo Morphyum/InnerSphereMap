@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Paran",
     "Name": "Paran",
-    "Details": "NOT DONE",
+    "Details": "Paran VI served as a breadbasket system for the Rim Worlds Republic, covered in island-spanning orchards and massive fisheries. After the Amaris Civil War ended, Paran kept to itself, and slid back into 20th century tech.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,23 +17,16 @@
     "items": [
       "planet_name_paran",
       "planet_size_medium",
-      "planet_climate_ice",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_industry_manufacturing",
-      "planet_other_blackmarket",
-      "planet_ruins"
+      "planet_climate_terran",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_industry_agriculture"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 10,
+  "JumpDistance": 33,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -96,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -122,10 +115,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "M",
+  "StarType": "A",
   "ContractEmployers": [
     "Locals",
     "Locals"

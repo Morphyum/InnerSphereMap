@@ -764,10 +764,10 @@ namespace DocsToSystemJSON {
                     tagList.Add("planet_faction_illyrian");
                     break;
                 case "Abandoned":
-                    tagList.Add(" planet_other_empty");
+                    tagList.Add("planet_other_empty");
                     break;
                 case "Undiscovered":
-                    tagList.Add(" planet_other_empty");
+                    tagList.Add("planet_other_empty");
                     break;
                 default:
                     break;

@@ -424,6 +424,9 @@ namespace InnerSphereMap {
                     case Faction.MercenaryReviewBoard:
                         __result = new Color(settings.MRBRGB[0], settings.MRBRGB[1], settings.MRBRGB[2], 1f);
                         break;
+                    case Faction.MorphyumTestFaction:
+                        __result = new Color(1, 0, 1, 1f);
+                        break;
                     default:
                         __result = __instance.nofactionColor;
                         break;

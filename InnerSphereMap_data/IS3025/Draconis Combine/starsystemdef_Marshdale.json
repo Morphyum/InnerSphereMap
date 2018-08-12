@@ -17,30 +17,30 @@
     "items": [
       "planet_name_marshdale",
       "planet_size_small",
-      "planet_climate_lunar",
+      "planet_climate_desert",
+      "planet_other_volcanic",
       "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_floatingworld",
-      "planet_other_storms",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_other_taintedair",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_starleague",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 9,
+  "JumpDistance": -1,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +129,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "desertParched"
   ],
-  "StarType": "M",
+  "StarType": "0",
   "ContractEmployers": [
     "Kurita",
     "Locals"

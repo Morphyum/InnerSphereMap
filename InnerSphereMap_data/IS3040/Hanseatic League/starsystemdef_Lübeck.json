@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Lübeck",
     "Name": "Lübeck",
-    "Details": "NOT DONE",
+    "Details": "Lubeck is one of the worlds that forms part ofthe Hanseatic League. There are two worlds in this system, Quarantine, and Lubeck - Quarantine is used as a customs holding point before allowing access to Lubeck.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_lübeck",
-      "planet_size_large",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_gasgiant",
-      "planet_feature_moon02",
-      "planet_other_moon",
+      "planet_size_medium",
+      "planet_climate_arid",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_rich",
       "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
       "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
       "planet_other_pirate"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 2,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

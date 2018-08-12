@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Kalmar(HL)",
     "Name": "Kalmar (HL)",
-    "Details": "NOT DONE",
+    "Details": "Kalmar is one of the worlds that form a part of the Deep Periphery nation known as the Hanseatic League, exporting goods to other Hanseatic worlds. It is a mostly water world, with vast ship building facilities for boats.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,25 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_kalmar(hl)",
-      "planet_size_small",
+      "planet_size_medium",
       "planet_climate_water",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_industry_recreation",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison"
+      "planet_industry_mining",
+      "planet_industry_agriculture"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -8,
+  "FuelingStation": false,
+  "JumpDistance": 7,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -97,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,7 +120,7 @@
     "lowlandsCoastal",
     "highlandsSpring"
   ],
-  "StarType": "F",
+  "StarType": "K",
   "ContractEmployers": [
     "Locals",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Spencer",
     "Name": "Spencer",
-    "Details": "NOT DONE",
+    "Details": "Known during the Star League era for its fisheries, Spencer was resettled by the Taurian Concordat and the Magistracy of Canopus as a part of the Treaty of Taurus and was incorporated into the New Colony Region. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_spencer",
-      "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_gasgiant",
+      "planet_size_medium",
+      "planet_climate_terran",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_medium",
       "planet_other_megacity",
-      "planet_industry_poor",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_prison"
+      "planet_industry_aquaculture",
+      "planet_other_blackmarket"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -11,
+  "FuelingStation": false,
+  "JumpDistance": 10,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,9 +117,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

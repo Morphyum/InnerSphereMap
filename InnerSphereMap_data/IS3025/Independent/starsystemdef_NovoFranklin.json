@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_NovoFranklin",
     "Name": "Novo Franklin",
-    "Details": "NOT DONE",
+    "Details": "Novo Franklin is a hot, agricultural world settled in 2598 by Reunification War refugees fleeing the Outworlds Alliance. Over the next four hundred years, all of these splinter groups had developed feudal states, as many as 55 different kingdoms.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,35 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_novofranklin",
-      "planet_size_small",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_size_medium",
+      "planet_climate_desert",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_primitive",
+      "planet_pop_small",
+      "planet_industry_poor",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison"
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 1,
+  "JumpDistance": 13,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,10 +118,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Locals",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_ShadyPalms",
     "Name": "Shady Palms",
-    "Details": "NOT DONE",
+    "Details": "Placed deep in the Deep Periphery astrogeographical feature known as the Orion Rift, the installation known colloquially as Shady Palms is located within the asteroid belt around the the yellow-white super giant star catalogued as SLSC F81a.0086.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,25 +18,17 @@
       "planet_name_shadypalms",
       "planet_size_small",
       "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_pop_small",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_prison",
+      "planet_industry_poor",
       "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 5,
+  "JumpDistance": 8,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,7 +120,7 @@
     "lunarVacuum",
     "martianVacuum"
   ],
-  "StarType": "B",
+  "StarType": "M",
   "ContractEmployers": [
     "Locals",
     "Locals"

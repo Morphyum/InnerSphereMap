@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Haddings",
     "Name": "Haddings",
-    "Details": "NOT DONE",
+    "Details": "Haddings was devastated by WMDs during the Amaris Civil War, to the point the planet disappeared off star charts. ComStar rediscovered it in 3028 and found it populated by small communities living at an approximately 17th century level of technology.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_haddings",
-      "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_rocky",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
+      "planet_pop_small",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
       "planet_other_newcolony",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_civ_innersphere"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -8,
+  "JumpDistance": 14,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "A",
+  "StarType": "B",
   "ContractEmployers": [
     "Locals",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_St.Loris",
     "Name": "St. Loris",
-    "Details": "NOT DONE",
+    "Details": "St. Loris is an important agricultural center. In 3010 the 2nd St. Ives Lancers fought the Ceti Hussars there and much of the planet's vital wheat crop was destroyed, which caused a mighty famine. The crop has recovered, but the population has not. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,14 @@
   "Tags": {
     "items": [
       "planet_name_st.loris",
-      "planet_size_large",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
+      "planet_pop_medium",
       "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_newcolony",
-      "planet_other_pirate",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
@@ -107,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,10 +118,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "Liao",
     "Locals"

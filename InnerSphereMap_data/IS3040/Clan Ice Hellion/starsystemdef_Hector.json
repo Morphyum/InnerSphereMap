@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Hector",
     "Name": "Hector",
-    "Details": "NOT DONE",
+    "Details": "One of the first worlds colonized after the landing on Strana Mechty, Hector is a frigid world. It is home to the Ice Hellion, a cunning pack predator of the world’s snowy mountains, which preyed on the first Clan explorers.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,28 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_hector",
-      "planet_size_large",
-      "planet_climate_ice",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
+      "planet_size_small",
+      "planet_climate_arctic",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_pop_small",
+      "planet_other_capital",
+      "planet_civ_innersphere",
       "planet_industry_rich",
+      "planet_industry_mining",
       "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague"
+      "planet_industry_manufacturing"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -15,
+  "JumpDistance": 15,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,7 +123,7 @@
     "polarFrozen",
     "tundraFrozen"
   ],
-  "StarType": "0",
+  "StarType": "B",
   "ContractEmployers": [
     "Locals",
     "Locals"

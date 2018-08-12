@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sevon",
     "Name": "Sevon",
-    "Details": "NOT DONE",
+    "Details": " Sevon - is a lightly-populated and lightly industrialized world with a single moon. A mutual distrust of outsiders is common across the world, due to the devastation caused to their world during the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,19 @@
     "items": [
       "planet_name_sevon",
       "planet_size_medium",
-      "planet_climate_tropical",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon03",
+      "planet_climate_terran",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_small",
       "planet_industry_poor",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_mining",
+      "planet_industry_manufacturing",
       "planet_faction_outworlds"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -14,
+  "JumpDistance": 3,
   "Owner": "Betrayers",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,11 +118,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "highlandsSpring",
+    "highlandsFall",
     "lowlandsSpring",
-    "lowlandsFall"
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "B",
+  "StarType": "M",
   "ContractEmployers": [
     "Betrayers",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Shahhat",
     "Name": "Shahhat",
-    "Details": "NOT DONE",
+    "Details": "One of the only Axumite Providence worlds with the resources to maintain an industrial fusion power plants, Shahhat is at roughly mid 21st century levels of technology.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,32 +17,17 @@
     "items": [
       "planet_name_shahhat",
       "planet_size_medium",
-      "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_climate_terran",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_industry_poor",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins"
+      "planet_pop_small",
+      "planet_civ_primitive",
+      "planet_industry_mining"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 12,
+  "JumpDistance": 11,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -105,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -131,10 +116,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

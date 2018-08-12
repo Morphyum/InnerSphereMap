@@ -17,19 +17,20 @@
     "items": [
       "planet_name_drozan",
       "planet_size_large",
-      "planet_climate_tropical",
-      "planet_other_floatingworld",
+      "planet_climate_arid",
       "planet_other_fungus",
+      "planet_other_storms",
       "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_rich",
+      "planet_pop_none",
+      "planet_civ_primitive",
       "planet_industry_recreation",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
+      "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
       "planet_other_boreholes",
       "planet_other_prison",
       "planet_ruins",
@@ -37,8 +38,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 6,
+  "FuelingStation": true,
+  "JumpDistance": 14,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +129,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "badlandsParched"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [
     "Liao",
     "Locals"

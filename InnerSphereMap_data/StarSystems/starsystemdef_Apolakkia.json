@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Apolakkia",
     "Name": "Apolakkia",
-    "Details": "NOT DONE",
+    "Details": "Apolakkia has a planet-wide, deep ocean that is constantly steaming. Black winged creatures spend their lives in flight, not even landing to reproduce. Most of the local animals are different morphs of the same highly versatile species.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,24 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_apolakkia",
-      "planet_size_medium",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_feature_rings",
+      "planet_size_small",
+      "planet_climate_water",
+      "planet_other_storms",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_research",
-      "planet_other_comstar",
+      "planet_pop_small",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -11,
+  "FuelingStation": false,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -96,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -122,9 +120,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "0",
+  "StarType": "M",
   "ContractEmployers": [
     "Steiner",
     "Locals"

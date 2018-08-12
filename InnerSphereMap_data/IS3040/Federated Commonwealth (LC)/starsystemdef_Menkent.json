@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Menkent",
     "Name": "Menkent",
-    "Details": "NOT DONE",
+    "Details": "Menkent is an arid world lit by a dim orange star. While it posseses water, it is so salty that purification units are needed to prep it for consumption and irrigation. Menkent has little to offer, exporting common metals and small industrial goods.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,39 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_menkent",
-      "planet_size_large",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_size_small",
+      "planet_climate_arid",
+      "planet_other_floatingworld",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -12,
+  "FuelingStation": false,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -111,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -137,9 +117,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "F",
+  "StarType": "K",
   "ContractEmployers": [
     "Steiner",
     "Locals"

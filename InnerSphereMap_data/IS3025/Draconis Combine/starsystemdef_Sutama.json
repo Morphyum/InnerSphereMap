@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sutama",
     "Name": "Sutama",
-    "Details": "NOT DONE",
+    "Details": "Firmly situated amongst the Draconic Combine for centuries, Sutama produces a vast range of citrus fruits and pharmaceuticals for export. The tropical climate of Sutama makes it a vacationing hotspot for higher ranked Nobles of the Combine.  ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,25 +17,23 @@
     "items": [
       "planet_name_sutama",
       "planet_size_medium",
-      "planet_climate_arctic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_climate_tropical",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_large",
       "planet_other_megacity",
-      "planet_industry_research",
-      "planet_other_boreholes",
-      "planet_other_pirate",
+      "planet_civ_innersphere",
+      "planet_industry_recreation",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
+      "planet_other_starleague",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -12,
+  "FuelingStation": true,
+  "JumpDistance": 10,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -98,7 +96,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -124,10 +122,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
     "Kurita",
     "Locals"

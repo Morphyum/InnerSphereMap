@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_BetaSalandor",
     "Name": "Beta Salandor",
-    "Details": "NOT DONE",
+    "Details": "Beta Salandor is located in the spinward region of the Deep Periphery, in a remote location anti-spinward of the Orion Rift and coreward of Lambda Orionis.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,33 +17,16 @@
     "items": [
       "planet_name_betasalandor",
       "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_climate_arid",
       "planet_pop_none",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
       "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -4,
+  "FuelingStation": false,
+  "JumpDistance": 12,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +115,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
+    "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Locals",
     "Locals"

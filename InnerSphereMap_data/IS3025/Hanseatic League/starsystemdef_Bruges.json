@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Bruges",
     "Name": "Bruges",
-    "Details": "NOT DONE",
+    "Details": "Bruges is one of the worlds that form a part of the Deep Periphery nation known as the Hanseatic League, exporting goods to other Hanseatic worlds. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,25 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_bruges",
-      "planet_size_small",
-      "planet_climate_tropical",
+      "planet_size_medium",
+      "planet_climate_terran",
       "planet_other_megaforest",
-      "planet_feature_asteroids",
+      "planet_other_storms",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
-      "planet_civ_innersphere",
+      "planet_pop_small",
       "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_ruins"
+      "planet_industry_agriculture"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -11,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -97,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -123,11 +119,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
+    "highlandsSpring",
+    "highlandsFall",
     "lowlandsSpring",
-    "lowlandsFall"
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Locals",
     "Locals"

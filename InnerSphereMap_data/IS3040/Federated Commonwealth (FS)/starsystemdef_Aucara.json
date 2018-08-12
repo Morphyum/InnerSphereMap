@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Aucara",
     "Name": "Aucara",
-    "Details": "NOT DONE",
+    "Details": "An unremarkable, self-sufficient planet only notable because the Capellan's seem to have an interest in it.  Aucara seems to have an unusual amount of \"alleged\" Maskirovka agents captured on it - which the Capellans deny.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,35 +18,20 @@
       "planet_name_aucara",
       "planet_size_medium",
       "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_comet",
-      "planet_feature_moon01",
+      "planet_feature_moon02",
       "planet_other_moon",
       "planet_pop_large",
+      "planet_other_megacity",
       "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 12,
+  "FuelingStation": false,
+  "JumpDistance": 6,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -109,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -142,7 +127,7 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
     "Locals"

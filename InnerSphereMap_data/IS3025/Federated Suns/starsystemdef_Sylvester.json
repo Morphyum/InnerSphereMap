@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sylvester",
     "Name": "Sylvester",
-    "Details": "NOT DONE",
+    "Details": "The low gravity ice world of Sylvester is a popular destination for many thrill seekers, with it's population devoted almost entirely to a service based economy.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,35 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_sylvester",
-      "planet_size_medium",
-      "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_moon03",
+      "planet_size_small",
+      "planet_climate_ice",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
       "planet_industry_rich",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_other_comstar",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 1,
+  "JumpDistance": 7,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,10 +120,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [
     "Davion",
     "Locals"

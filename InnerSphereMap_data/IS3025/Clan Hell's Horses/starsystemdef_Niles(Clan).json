@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Niles(Clan)",
     "Name": "Niles (Clan)",
-    "Details": "NOT DONE",
+    "Details": "Niles is the homeworld of Clan Hell's Horses, in the Kerensky Cluster. Numerous manufacturers are based here, churning out the war machine for Clan Hell Horses.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,30 +18,20 @@
       "planet_name_niles(clan)",
       "planet_size_small",
       "planet_climate_rocky",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
+      "planet_other_taintedair",
       "planet_pop_small",
-      "planet_other_megacity",
+      "planet_other_capital",
       "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_industry_rich",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
       "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony"
+      "planet_industry_manufacturing",
+      "planet_other_starleague"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 0,
+  "JumpDistance": 22,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 3,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,7 +123,7 @@
     "highlandsSpring",
     "highlandsFall"
   ],
-  "StarType": "B",
+  "StarType": "F",
   "ContractEmployers": [
     "Locals",
     "Locals"

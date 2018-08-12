@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_RichmondsWorld(Murrain3025+)",
     "Name": "Richmond's World (Murrain 3025+)",
-    "Details": "NOT DONE",
+    "Details": "Once a lush world, the initial colonists brought a pictovirus with them that ended up wiping all life off the planet - down to the smallest microbes. Now quarantined, Murrain is best left to it's own devices.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,34 +17,17 @@
     "items": [
       "planet_name_richmond'sworld(murrain3025+)",
       "planet_size_small",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
+      "planet_climate_terran",
       "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
+      "planet_pop_none",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_prison"
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 15,
+  "JumpDistance": 6,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,10 +116,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Suianheer",
     "Name": "Suianheer",
-    "Details": "NOT DONE",
+    "Details": "A border world against the Outworlds Alliance, munitions depots were created all across the icy world of Suianheer. Nowadays, the mining colonies occassionally stumble across LosTech and more.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_suianheer",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_pop_none",
-      "planet_other_megacity",
+      "planet_size_medium",
+      "planet_climate_ice",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_small",
       "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_mining",
+      "planet_other_starleague",
+      "planet_other_alienvegetation",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 15,
+  "FuelingStation": true,
+  "JumpDistance": 7,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +120,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "0",
+  "StarType": "F",
   "ContractEmployers": [
     "Kurita",
     "Locals"

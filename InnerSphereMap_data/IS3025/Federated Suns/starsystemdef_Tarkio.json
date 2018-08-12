@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Tarkio",
     "Name": "Tarkio",
-    "Details": "NOT DONE",
+    "Details": "Tarkio has many large and small islands centered around the south pole and between the equator and south pole. Easily mined metals are scarce, but boreholes allow access to the rich depths. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_tarkio",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_size_medium",
+      "planet_climate_water",
+      "planet_other_volcanic",
       "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_medium",
       "planet_civ_innersphere",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
+      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "FuelingStation": false,
+  "JumpDistance": 11,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,14 +120,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "highlandsSpring"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "Locals"

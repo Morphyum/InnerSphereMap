@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sigurd",
     "Name": "Sigurd",
-    "Details": "NOT DONE",
+    "Details": "Sigurd is the cold moon of a glowing gas giant, described as a striped sphere that fills a third of the sky. The surface of Sigurd is completely made up of an ice mantle several hundred meters thick, with liquid water below.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_sigurd",
-      "planet_size_small",
-      "planet_climate_lunar",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_size_medium",
+      "planet_climate_ice",
+      "planet_feature_gasgiant",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
       "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_oberon"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 0,
+  "JumpDistance": 8,
   "Owner": "MagistracyCentrella",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,8 +118,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
   "StarType": "M",
   "ContractEmployers": [

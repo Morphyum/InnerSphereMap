@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ramsey",
     "Name": "Ramsey",
-    "Details": "NOT DONE",
+    "Details": "Ramsey is a surface garrison within the Deep Periphery, near St. Jean and Santiago. During Operation Revival, Ramsey is operated by Clan Steel Viper.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,17 @@
   "Tags": {
     "items": [
       "planet_name_ramsey",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_size_small",
+      "planet_climate_lunar",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
       "planet_ruins",
-      " planet_other_empty"
+      "planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -10,
+  "JumpDistance": 6,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,14 +115,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "K",
+  "StarType": "G",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",
