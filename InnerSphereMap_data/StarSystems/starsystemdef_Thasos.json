@@ -31,7 +31,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 9,
-  "Owner": "Locals",
+  "Owner": "Delphi",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -128,11 +128,17 @@
   ],
   "StarType": "F",
   "ContractEmployers": [
-    "Locals",
+    "Delphi",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "AuriganRestoration"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

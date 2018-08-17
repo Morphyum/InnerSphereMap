@@ -17,17 +17,21 @@
     "items": [
       "planet_name_milligan",
       "planet_size_medium",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
+      "planet_climate_ice",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
       "planet_other_fungus",
-      "planet_feature_moon03",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
+      "planet_feature_moon02",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_poor",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_alienvegetation",
+      "planet_other_hub",
       "planet_other_blackmarket",
       "planet_other_boreholes",
       "planet_other_newcolony",
@@ -36,8 +40,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -1,
+  "FuelingStation": false,
+  "JumpDistance": -6,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,8 +130,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
   "StarType": "0",
   "ContractEmployers": [
@@ -135,7 +139,13 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "AuriganRestoration"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

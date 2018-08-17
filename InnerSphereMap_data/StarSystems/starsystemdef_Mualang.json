@@ -16,31 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_mualang",
-      "planet_size_medium",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
+      "planet_size_small",
+      "planet_climate_arid",
+      "planet_other_fungus",
       "planet_other_stonedcaribou",
       "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
       "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
       "planet_pop_none",
-      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_rich",
       "planet_industry_recreation",
-      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_other_starleague",
+      "planet_other_hub",
       "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_pirate",
+      "planet_other_blackmarket",
+      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -6,
+  "FuelingStation": false,
+  "JumpDistance": -10,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -129,20 +127,22 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "M",
   "ContractEmployers": [
     "Kurita",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "AuriganRestoration"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

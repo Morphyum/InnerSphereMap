@@ -134,8 +134,8 @@
     "Locals"
   ],
   "ContractTargets": [
-    "ComStar",
     "Betrayers",
+    "AuriganDirectorate",
     "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",

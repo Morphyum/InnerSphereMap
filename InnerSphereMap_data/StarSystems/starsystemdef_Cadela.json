@@ -129,8 +129,12 @@
   "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
+    "MagistracyCentrella",
     "MajestyMetals",
     "Nautilus"
   ]

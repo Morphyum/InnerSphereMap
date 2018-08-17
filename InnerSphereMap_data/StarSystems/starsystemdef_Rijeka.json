@@ -17,31 +17,32 @@
     "items": [
       "planet_name_rijeka",
       "planet_size_large",
-      "planet_climate_desert",
+      "planet_climate_rocky",
       "planet_other_volcanic",
-      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
       "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_small",
       "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
+      "planet_industry_manufacturing",
+      "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_newcolony",
+      "planet_other_pirate",
       "planet_other_prison",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -1,
+  "FuelingStation": false,
+  "JumpDistance": 14,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +105,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,7 +131,8 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
   "StarType": "K",
   "ContractEmployers": [
@@ -138,7 +140,13 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "AuriganRestoration"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

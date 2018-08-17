@@ -30,7 +30,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 7,
-  "Owner": "Locals",
+  "Owner": "ClanSmokeJaguar",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -127,10 +127,13 @@
   ],
   "StarType": "G",
   "ContractEmployers": [
-    "Locals",
+    "ClanSmokeJaguar",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
     "MagistracyCentrella",

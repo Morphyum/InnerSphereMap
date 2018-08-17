@@ -66,7 +66,7 @@ namespace DocsToSystemJSON {
                 File.WriteAllText(path, newSystemJObject.ToString());
 
                 path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                if (!File.Exists(OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json")) {
+                if (!File.Exists(path)) {
                     string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
                     (new FileInfo(filepath)).Directory.Create();
                     File.WriteAllText(filepath, newSystemJObject.ToString());
@@ -285,9 +285,10 @@ namespace DocsToSystemJSON {
             return systemJObject;
         }
         public bool randomBool(Random rand) {
-            if(rand.Next(0,2) == 1) {
+            if (rand.Next(0, 2) == 1) {
                 return true;
-            } else {
+            }
+            else {
                 return false;
             }
         }
@@ -367,47 +368,79 @@ namespace DocsToSystemJSON {
                 case "Aurigan Coalition":
                     return "AuriganRestoration";
                 case "ComStar":
-                    if (is3040) {
-                        return "Locals";
-                    }
-                    else {
-                        return "ComStar";
-                    }
+                    return "ComStar";
                 case "Magistracy of Canopus":
                     return "MagistracyOfCanopus";
                 case "Taurian Concordat":
                     return "TaurianConcordat";
                 case "Outworlds Alliance":
-                    return "Betrayers";
+                    return "Outworld";
                 case "Marian Hegemony":
-                    return "AuriganDirectorate";
+                    return "Marian";
                 case "Oberon Confederation":
-                    return "MagistracyCentrella";
+                    return "Oberon";
                 case "Lothian League":
-                    return "MajestyMetals";
+                    return "Lothian";
                 case "Circinus Federation":
-                    return "Nautilus";
+                    return "Circinus";
                 case "Illyrian Palatinate":
-                    if (is3040) {
-                        return "Locals";
-                    }
-                    else {
-                        return "AuriganMercenaries";
-                    }
+                    return "Illyrian";
                 case "Free Rasalhague Republic":
-                    if (is3040) {
-                        return "AuriganMercenaries";
-                    }
-                    else {
-                        return "Locals";
-                    }
+                    return "Rasalhague";
                 case "St. Ives Compact":
-                    if (is3040) {
-                        return "ComStar";
-                    }
-                    else {
-                        return "Locals";
-                    }
+                    return "Ives";
+                case "Axumite Providence":
+                    return "Axumite";
+                case "Nueva Castile":
+                    return "Castile";
+                case "Chainelane Isles":
+                    return "Chainelane";
+                case "Clan Burrock":
+                    return "ClanBurrock";
+                case "Clan Cloud Cobra":
+                    return "ClanCloudCobra";
+                case "Clan Coyote":
+                    return "ClanCoyote";
+                case "Clan Diamond Shark":
+                    return "ClanDiamondShark";
+                case "Clan Fire Mandrill":
+                    return "ClanFireMandrill";
+                case "Clan Ghost Bear":
+                    return "ClanGhostBear";
+                case "Clan Goliath Scorpion":
+                    return "ClanGoliathScorpion";
+                case "Clan Hell's Horses":
+                    return "ClanHellsHorses";
+                case "Clan Ice Hellion":
+                    return "ClanIceHellion";
+                case "Clan Jade Falcon":
+                    return "ClanJadeFalcon";
+                case "Clan Nova Cat":
+                    return "ClanNovaCat";
+                case "Clans":
+                    return "ClansGeneric";
+                case "Clan Smoke Jaguar":
+                    return "ClanSmokeJaguar";
+                case "Clan Snow Raven":
+                    return "ClanSnowRaven";
+                case "Clan Star Adder":
+                    return "ClanStarAdder";
+                case "Clan Steel Viper":
+                    return "ClanSteelViper";
+                case "Clan Wolf":
+                    return "ClanWolf";
+                case "New Delphi Compact":
+                    return "Delphi";
+                case "Elysian Fields":
+                    return "Elysia";
+                case "Hanseatic League":
+                    return "Hanse";
+                case "JarnFolk":
+                    return "JarnFolk";
+                case "Tortuga Dominions":
+                    return "Tortuga";
+                case "Greater Valkyrate":
+                    return "Valkyrate";
                 case "Abandoned":
                     return "NoFaction";
                 case "Undiscovered":
@@ -424,7 +457,7 @@ namespace DocsToSystemJSON {
             List<string> tagList = new List<string>();
 
             //Nametag
-            tagList.Add("planet_name_" + ((string)systemJObject["PlanetName"]).Replace(" ","").ToLower());
+            tagList.Add("planet_name_" + ((string)systemJObject["PlanetName"]).Replace(" ", "").ToLower());
 
             //planetSize
             if (((string)systemJObject["Gravity"]).Equals("Medium Gravity Planet")) {
@@ -567,7 +600,8 @@ namespace DocsToSystemJSON {
                 else if (((string)systemJObject["Population"]).Equals("Less Than A Million")) {
                     tagList.Add("planet_pop_none");
                 }
-            } else {
+            }
+            else {
                 tagList.Add("planet_pop_none");
             }
 
@@ -596,7 +630,8 @@ namespace DocsToSystemJSON {
                 else if (((string)systemJObject["TechLevel"]).Equals("Primitive Civilization")) {
                     tagList.Add("planet_civ_primitive");
                 }
-            } else {
+            }
+            else {
                 tagList.Add("planet_civ_primitive");
             }
 

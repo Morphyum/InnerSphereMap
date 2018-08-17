@@ -237,7 +237,7 @@ namespace InnerSphereMap {
                     go = GameObject.Find("circinusLogoMap");
 
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Nautilus, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Circinus, go });
 
 
                 if (GameObject.Find("oberonLogoMap") == null) {
@@ -252,52 +252,51 @@ namespace InnerSphereMap {
                     go = GameObject.Find("oberonLogoMap");
 
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MagistracyCentrella, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Oberon, go });
 
- 
-                if (InnerSphereMap.SETTINGS.use3040Map) {
-                    if (GameObject.Find("rasalhagueLogoMap") == null) {
-                        texture2D2 = new Texture2D(2, 2);
-                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/rasalhagueLogo.png");
-                        texture2D2.LoadImage(data);
-                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
-                        go.name = "rasalhagueLogoMap";
-                    }
-                    else {
-                        go = GameObject.Find("rasalhagueLogoMap");
-                    }
+
+                if (GameObject.Find("rasalhagueLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/rasalhagueLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "rasalhagueLogoMap";
                 }
                 else {
-                    if (GameObject.Find("illyrianLogoMap") == null) {
-                        texture2D2 = new Texture2D(2, 2);
-                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/illyrianLogo.png");
-                        texture2D2.LoadImage(data);
-                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
-                        go.name = "illyrianLogoMap";
-                    }
-                    else {
-                        go = GameObject.Find("illyrianLogoMap");
-                    }
+                    go = GameObject.Find("rasalhagueLogoMap");
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganMercenaries, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Rasalhague, go });
 
-                if (InnerSphereMap.SETTINGS.use3040Map) {
-                    if (GameObject.Find("stivesLogoMap") == null) {
-                        texture2D2 = new Texture2D(2, 2);
-                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/stivesLogo.png");
-                        texture2D2.LoadImage(data);
-                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
-                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
-                        go.name = "stivesLogoMap";
-                    }
-                    else {
-                        go = GameObject.Find("stivesLogoMap");
 
-                    }
-                    ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.ComStar, go });
+                if (GameObject.Find("illyrianLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/illyrianLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "illyrianLogoMap";
                 }
+                else {
+                    go = GameObject.Find("illyrianLogoMap");
+                }
+
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Illyrian, go });
+
+                if (GameObject.Find("stivesLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/stivesLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "stivesLogoMap";
+                }
+                else {
+                    go = GameObject.Find("stivesLogoMap");
+
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Ives, go });
+
 
                 if (GameObject.Find("lothianLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -311,7 +310,7 @@ namespace InnerSphereMap {
                     go = GameObject.Find("lothianLogoMap");
 
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.MajestyMetals, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Lothian, go });
 
                 if (GameObject.Find("marianLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -325,7 +324,7 @@ namespace InnerSphereMap {
                     go = GameObject.Find("marianLogoMap");
 
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganDirectorate, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Marian, go });
 
                 if (GameObject.Find("outworldsLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -338,7 +337,150 @@ namespace InnerSphereMap {
                 else {
                     go = GameObject.Find("outworldsLogoMap");
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Betrayers, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Outworld, go });
+
+                if (GameObject.Find("directorateLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/directorateLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "directorateLogoMap";
+                }
+                else {
+                    go = GameObject.Find("directorateLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.AuriganDirectorate, go });
+
+                if (GameObject.Find("AxumiteLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/AxumiteLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "AxumiteLogoMap";
+                }
+                else {
+                    go = GameObject.Find("AxumiteLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Axumite, go });
+
+                if (GameObject.Find("CastileLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/CastileLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "CastileLogoMap";
+                }
+                else {
+                    go = GameObject.Find("CastileLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Castile, go });
+
+                if (GameObject.Find("ChainelaneLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/ChainelaneLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "ChainelaneLogoMap";
+                }
+                else {
+                    go = GameObject.Find("ChainelaneLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Chainelane, go });
+
+                if (GameObject.Find("ClansGenericLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/ClansGenericLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "ClansGenericLogoMap";
+                }
+                else {
+                    go = GameObject.Find("ClansGenericLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.ClansGeneric, go });
+
+                if (GameObject.Find("DelphiLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/DelphiLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "DelphiLogoMap";
+                }
+                else {
+                    go = GameObject.Find("DelphiLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Delphi, go });
+
+                if (GameObject.Find("ElysiaLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/ElysiaLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "ElysiaLogoMap";
+                }
+                else {
+                    go = GameObject.Find("ElysiaLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Elysia, go });
+
+                if (GameObject.Find("HanseLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/HanseLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "HanseLogoMap";
+                }
+                else {
+                    go = GameObject.Find("HanseLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Hanse, go });
+
+                if (GameObject.Find("JarnFolkLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/JarnFolkLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "JarnFolkLogoMap";
+                }
+                else {
+                    go = GameObject.Find("JarnFolkLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.JarnFolk, go });
+
+                if (GameObject.Find("TortugaLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/TortugaLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "TortugaLogoMap";
+                }
+                else {
+                    go = GameObject.Find("TortugaLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Tortuga, go });
+
+                if (GameObject.Find("ValkyrateLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/ValkyrateLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "ValkyrateLogoMap";
+                }
+                else {
+                    go = GameObject.Find("ValkyrateLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Valkyrate, go });
             }
             catch (Exception e) {
                 Logger.LogError(e);
@@ -375,30 +517,22 @@ namespace InnerSphereMap {
                         __result = new Color(settings.SteinerRGB[0], settings.SteinerRGB[1], settings.SteinerRGB[2], 1f);
                         break;
                     case Faction.Betrayers:
-                        __result = new Color(settings.OutworldsRGB[0], settings.OutworldsRGB[1], settings.OutworldsRGB[2], 1f);
+                        __result = new Color(1f, 0.6f, 0.4f, 1f);
                         break;
                     case Faction.MagistracyCentrella:
-                        __result = new Color(settings.OberonRGB[0], settings.OberonRGB[1], settings.OberonRGB[2], 1f);
+                        __result = new Color(0.43f, 0.67f, 0.23f, 1f);
                         break;
                     case Faction.MajestyMetals:
-                        __result = new Color(settings.LothianRGB[0], settings.LothianRGB[1], settings.LothianRGB[2], 1f);
+                        __result = new Color(0.345f, 0.345f, 0.34f, 1f);
                         break;
                     case Faction.AuriganDirectorate:
-                        __result = new Color(settings.MarianRGB[0], settings.MarianRGB[1], settings.MarianRGB[2], 1f);
+                        __result = __result;
                         break;
                     case Faction.Nautilus:
-                        __result = new Color(settings.CircinusRGB[0], settings.CircinusRGB[1], settings.CircinusRGB[2], 1f);
-                        break;
-                    case Faction.AuriganMercenaries:
-                        if (!InnerSphereMap.SETTINGS.use3040Map) {
-                            __result = new Color(settings.IllyrianRGB[0], settings.IllyrianRGB[1], settings.IllyrianRGB[2], 1f);
-                        }
-                        else {
-                            __result = new Color(settings.RasalhagueRGB[0], settings.RasalhagueRGB[1], settings.RasalhagueRGB[2], 1f);
-                        }
+                        __result = new Color(0.345f, 0.567f, 0.234f, 1f);
                         break;
                     case Faction.ComStar:
-                        __result = new Color(settings.StIvesRGB[0], settings.StIvesRGB[1], settings.StIvesRGB[2], 1f);
+                        __result = new Color(0.294f, 0f, 0.510f, 1f); ;
                         break;
                     case Faction.Davion:
                         __result = new Color(settings.DavionRGB[0], settings.DavionRGB[1], settings.DavionRGB[2], 1f);
@@ -424,13 +558,111 @@ namespace InnerSphereMap {
                     case Faction.MercenaryReviewBoard:
                         __result = new Color(settings.MRBRGB[0], settings.MRBRGB[1], settings.MRBRGB[2], 1f);
                         break;
-                    case Faction.MorphyumTestFaction:
-                        __result = new Color(1, 0, 1, 1f);
+                    case Faction.Castile:
+                        __result = new Color(0f, 0.5f, 1, 1f);
+                        break;
+                    case Faction.Chainelane:
+                        __result = new Color(0.196f, 0.804f, 0.196f, 1f);
+                        break;
+                    case Faction.Circinus:
+                        __result = new Color(settings.CircinusRGB[0], settings.CircinusRGB[1], settings.CircinusRGB[2], 1f);
+                        break;
+                    case Faction.ClanBurrock:
+                        __result = new Color(0.855f, 0.647f, 0.125f, 1f);
+                        break;
+                    case Faction.ClanCloudCobra:
+                        __result = new Color(0.482f, 0.408f, 0.933f, 1f);
+                        break;
+                    case Faction.ClanCoyote:
+                        __result = new Color(0.627f, 0.322f, 0.176f, 1f);
+                        break;
+                    case Faction.ClanDiamondShark:
+                        __result = new Color(0.000f, 1.000f, 1.000f, 1f);
+                        break;
+                    case Faction.ClanFireMandrill:
+                        __result = new Color(1.000f, 0.549f, 0.000f, 1f);
+                        break;
+                    case Faction.ClanGhostBear:
+                        __result = new Color(0.878f, 1.000f, 1.000f, 1f);
+                        break;
+                    case Faction.ClanGoliathScorpion:
+                        __result = new Color(0.000f, 0.392f, 0.000f, 1f);
+                        break;
+                    case Faction.ClanHellsHorses:
+                        __result = new Color(0.545f, 0.000f, 0.000f, 1f);
+                        break;
+                    case Faction.ClanIceHellion:
+                        __result = new Color(0.690f, 0.769f, 0.871f, 1f);
+                        break;
+                    case Faction.ClanJadeFalcon:
+                        __result = new Color(0.604f, 0.804f, 0.196f, 1f);
+                        break;
+                    case Faction.ClanNovaCat:
+                        __result = new Color(0.000f, 0.000f, 0.545f, 1f);
+                        break;
+                    case Faction.ClansGeneric:
+                        __result = new Color(0.863f, 0.078f, 0.235f, 1f);
+                        break;
+                    case Faction.ClanSmokeJaguar:
+                        __result = new Color(0.502f, 0.000f, 0.000f, 1f);
+                        break;
+                    case Faction.ClanSnowRaven:
+                        __result = new Color(0.400f, 0.804f, 0.667f, 1f);
+                        break;
+                    case Faction.ClanStarAdder:
+                        __result = new Color(0.000f, 0.000f, 1.000f, 1f);
+                        break;
+                    case Faction.ClanSteelViper:
+                        __result = new Color(0.000f, 1.000f, 0.498f, 1f);
+                        break;
+                    case Faction.ClanWolf:
+                        __result = new Color(0.698f, 0.133f, 0.133f, 1f);
+                        break;
+                    case Faction.Delphi:
+                        __result = new Color(1f, 0.5f, 0f, 1f);
+                        break;
+                    case Faction.Elysia:
+                        __result = new Color(0.541f, 0.169f, 0.886f, 1f);
+                        break;
+                    case Faction.Hanse:
+                        __result = new Color(1f, 0.95f, 0.05f, 1f);
+                        break;
+                    case Faction.Illyrian:
+                        __result = new Color(0.941f, 0.902f, 0.549f, 1f);
+                        break;
+                    case Faction.Ives:
+                        __result = new Color(settings.StIvesRGB[0], settings.StIvesRGB[1], settings.StIvesRGB[2], 1f);
+                        break;
+                    case Faction.JarnFolk:
+                        __result = new Color(1f, 0.8f, 0.2f, 1f);
+                        break;
+                    case Faction.Lothian:
+                        __result = new Color(settings.LothianRGB[0], settings.LothianRGB[1], settings.LothianRGB[2], 1f);
+                        break;
+                    case Faction.Marian:
+                        __result = new Color(settings.MarianRGB[0], settings.MarianRGB[1], settings.MarianRGB[2], 1f);
+                        break;
+                    case Faction.Oberon:
+                        __result = new Color(settings.OberonRGB[0], settings.OberonRGB[1], settings.OberonRGB[2], 1f);
+                        break;
+                    case Faction.Outworld:
+                        __result = new Color(settings.OutworldsRGB[0], settings.OutworldsRGB[1], settings.OutworldsRGB[2], 1f);
+                        break;
+                    case Faction.Rasalhague:
+                        __result = new Color(settings.RasalhagueRGB[0], settings.RasalhagueRGB[1], settings.RasalhagueRGB[2], 1f);
+                        break;
+                    case Faction.Tortuga:
+                        __result = new Color(1f, 0.5f, 0.5f, 1f);
+                        break;
+                    case Faction.Valkyrate:
+                        __result = new Color(1f, 0.45f, 0.55f, 1f);
+                        break;
+                    case Faction.Axumite:
+                        __result = new Color(1f, 0.4f, 0.6f, 1f);
                         break;
                     default:
                         __result = __instance.nofactionColor;
                         break;
-
                 }
             }
             catch (Exception e) {

@@ -134,6 +134,9 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
     "MagistracyCentrella",

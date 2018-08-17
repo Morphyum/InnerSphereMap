@@ -28,7 +28,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 10,
-  "Owner": "Locals",
+  "Owner": "Elysia",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -120,11 +120,17 @@
   ],
   "StarType": "B",
   "ContractEmployers": [
-    "Locals",
+    "Elysia",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
-    "AuriganRestoration"
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

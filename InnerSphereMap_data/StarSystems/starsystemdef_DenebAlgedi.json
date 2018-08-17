@@ -17,26 +17,26 @@
     "items": [
       "planet_name_denebalgedi",
       "planet_size_large",
-      "planet_climate_lunar",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_moon01",
+      "planet_climate_tropical",
+      "planet_other_megaforest",
+      "planet_other_stonedcaribou",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_civ_innersphere",
-      "planet_other_comstar",
+      "planet_pop_medium",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
       "planet_other_hub",
+      "planet_other_blackmarket",
       "planet_other_prison",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -1,
+  "FuelingStation": true,
+  "JumpDistance": 5,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,8 +125,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
   "StarType": "M",
   "ContractEmployers": [
@@ -134,8 +135,13 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
-    "MajestyMetals"
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

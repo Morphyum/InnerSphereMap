@@ -33,7 +33,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 16,
-  "Owner": "AuriganDirectorate",
+  "Owner": "Marian",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -130,12 +130,12 @@
   ],
   "StarType": "K",
   "ContractEmployers": [
-    "AuriganDirectorate",
+    "Marian",
     "Locals"
   ],
   "ContractTargets": [
-    "ComStar",
     "Betrayers",
+    "AuriganDirectorate",
     "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",

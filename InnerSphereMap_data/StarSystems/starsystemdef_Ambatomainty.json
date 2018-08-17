@@ -122,7 +122,9 @@
   "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
-    "ComStar",
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
     "MagistracyCentrella",

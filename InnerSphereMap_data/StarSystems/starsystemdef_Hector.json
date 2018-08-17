@@ -32,7 +32,7 @@
   },
   "FuelingStation": true,
   "JumpDistance": 15,
-  "Owner": "Locals",
+  "Owner": "ClanIceHellion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -125,12 +125,17 @@
   ],
   "StarType": "B",
   "ContractEmployers": [
-    "Locals",
+    "ClanIceHellion",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
-    "MajestyMetals"
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

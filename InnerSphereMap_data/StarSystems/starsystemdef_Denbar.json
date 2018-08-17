@@ -33,7 +33,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 3,
-  "Owner": "ComStar",
+  "Owner": "Ives",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -127,12 +127,17 @@
   ],
   "StarType": "M",
   "ContractEmployers": [
-    "ComStar",
+    "Ives",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
-    "MajestyMetals"
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

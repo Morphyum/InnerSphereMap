@@ -133,13 +133,13 @@
     "Locals"
   ],
   "ContractTargets": [
-    "ComStar",
     "Betrayers",
     "AuriganDirectorate",
     "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
     "Liao",
+    "Locals",
     "MagistracyCentrella",
     "MagistracyOfCanopus",
     "MajestyMetals",

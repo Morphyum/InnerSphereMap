@@ -131,7 +131,6 @@
   "StarType": "F",
   "ContractEmployers": [],
   "ContractTargets": [
-    "ComStar",
     "Betrayers",
     "AuriganDirectorate",
     "AuriganMercenaries",
@@ -140,6 +139,7 @@
     "Davion",
     "Kurita",
     "Liao",
+    "Locals",
     "MagistracyCentrella",
     "MagistracyOfCanopus",
     "MajestyMetals",

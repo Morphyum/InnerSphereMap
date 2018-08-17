@@ -125,6 +125,9 @@
   "StarType": "K",
   "ContractEmployers": [],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
     "MagistracyCentrella",

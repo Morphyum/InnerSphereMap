@@ -31,7 +31,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 14,
-  "Owner": "Locals",
+  "Owner": "ComStar",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -124,12 +124,17 @@
   ],
   "StarType": "B",
   "ContractEmployers": [
-    "Locals",
+    "ComStar",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
-    "MajestyMetals"
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
   ]
 }

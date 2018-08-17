@@ -39,7 +39,7 @@
   },
   "FuelingStation": true,
   "JumpDistance": 9,
-  "Owner": "Locals",
+  "Owner": "ComStar",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -136,11 +136,10 @@
   ],
   "StarType": "G",
   "ContractEmployers": [
-    "Locals",
+    "ComStar",
     "Locals"
   ],
   "ContractTargets": [
-    "ComStar",
     "Betrayers",
     "AuriganDirectorate",
     "AuriganMercenaries",
@@ -149,6 +148,7 @@
     "Davion",
     "Kurita",
     "Liao",
+    "Locals",
     "MagistracyCentrella",
     "MagistracyOfCanopus",
     "MajestyMetals",

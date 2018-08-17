@@ -17,32 +17,31 @@
     "items": [
       "planet_name_brasha",
       "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_volcanic",
+      "planet_climate_rocky",
       "planet_other_megaforest",
       "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
+      "planet_other_storms",
+      "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_feature_rings",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_agriculture",
+      "planet_pop_medium",
+      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
+      "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_other_newcolony",
+      "planet_other_boreholes",
+      "planet_other_pirate",
       "planet_other_prison",
       "planet_faction_outworlds"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -15,
-  "Owner": "Betrayers",
+  "FuelingStation": false,
+  "JumpDistance": 11,
+  "Owner": "Outworld",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -104,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": -4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,17 +129,21 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall"
   ],
   "StarType": "M",
   "ContractEmployers": [
-    "Betrayers",
+    "Outworld",
     "Locals"
   ],
   "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
     "AuriganPirates",
     "AuriganRestoration",
+    "MagistracyCentrella",
     "MajestyMetals",
     "Nautilus"
   ]
