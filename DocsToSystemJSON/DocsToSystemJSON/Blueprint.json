@@ -100,20 +100,20 @@
     ],
     "Difficulty": 2,
     "TravelRequirements": [
-        {
-            "Scope": "Company",
-            "RequirementTags": {
-                "items": [
-                    "map_travel_2a"
-                ],
-                "tagSetSourceFile": ""
-            },
-            "ExclusionTags": {
-                "items": [],
-                "tagSetSourceFile": ""
-            },
-            "RequirementComparisons": []
-        }
+      {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": [
+            "map_travel_3"
+          ],
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": [],
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
     ],
     "MapRequiredTags": {
         "items": [],
