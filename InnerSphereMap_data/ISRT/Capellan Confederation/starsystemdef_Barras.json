@@ -1,0 +1,148 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Barras",
+    "Name": "Barras",
+    "Details": "With a population of nearly 3.5 billion and a thriving trade economy, Barras is a critical link between the Capellans and the League. As a consequence, it is also a hotbed of intrigue and espionage.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 20.917,
+    "y": -354.184,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_name_barras",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_blackmarket",
+      "planet_faction_liao"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 4,
+  "Owner": "Liao",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": 5,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2a"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
+  ],
+  "StarType": "K",
+  "ContractEmployers": [
+    "Liao",
+    "Locals"
+  ],
+  "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
+  ]
+}

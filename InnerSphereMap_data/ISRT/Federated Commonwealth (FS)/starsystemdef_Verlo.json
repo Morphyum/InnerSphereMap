@@ -1,0 +1,137 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Verlo",
+    "Name": "Verlo",
+    "Details": "Constant earthquakes and volcanic eruptions shake the surface of Verlo, a highly volatile world. Rich mineral deposits exist here for those brave enough to endure the harsh climate.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 100.547,
+    "y": -303.042,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_name_verlo",
+      "planet_size_medium",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_pop_small",
+      "planet_industry_mining",
+      "planet_other_boreholes",
+      "planet_faction_davion"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 11,
+  "Owner": "Davion",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": 10,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2a"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "martianVacuum",
+    "badlandsParched"
+  ],
+  "StarType": "F",
+  "ContractEmployers": [
+    "Davion",
+    "Locals"
+  ],
+  "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
+  ]
+}

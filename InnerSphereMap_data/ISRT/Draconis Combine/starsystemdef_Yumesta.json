@@ -1,0 +1,140 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Yumesta",
+    "Name": "Yumesta",
+    "Details": "The Yumesta system was settled by the Draconis Combine during the Star League era. Along with other cultural plazas, it is the site of the Regis Art Gallery, a large complex built solely for housing royal artifacts.",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 169.82,
+    "y": 225.134,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_name_yumesta",
+      "planet_size_medium",
+      "planet_climate_tropical",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_research",
+      "planet_other_hub",
+      "planet_faction_kurita"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 12,
+  "Owner": "Kurita",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": 3,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2a"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
+  ],
+  "StarType": "F",
+  "ContractEmployers": [
+    "Kurita",
+    "Locals"
+  ],
+  "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
+  ]
+}
