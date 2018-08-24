@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using BattleTech;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,11 +15,12 @@ namespace DocsToSystemJSON {
         private string yearFolder = "/IS3025/";
         private string OriginalData;
         private bool keepKamea;
-        public static List<string> AllFactions = new List<string>() { "ComStar","Betrayers","AuriganDirectorate","AuriganMercenaries","AuriganPirates","AuriganRestoration",
-                        "Davion","Kurita","Liao","Locals", "MagistracyCentrella",
-                        "MagistracyOfCanopus","MajestyMetals", "Marik","Nautilus",
-                        "Steiner","TaurianConcordat" };
-
+        public static List<string> AllFactions = new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
+            "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
+            "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
+            "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals" };
+        public static List<string> debug = new List<string>();
         public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
@@ -75,6 +77,10 @@ namespace DocsToSystemJSON {
             if (keepKamea) {
                 switchToRestauration();
             }
+            foreach (string tag in debug) {
+                Console.Out.WriteLine(tag);
+            }
+            Console.ReadKey();
         }
 
         public void switchToRestauration() {
@@ -746,66 +752,10 @@ namespace DocsToSystemJSON {
             }
 
             //FactionTag
-            switch ((string)systemJObject[year]) {
-                case "Lyran Commonwealth":
-                    tagList.Add("planet_faction_steiner");
-                    break;
-                case "Federated Commonwealth (LC)":
-                    tagList.Add("planet_faction_steiner");
-                    break;
-                case "Free Worlds League":
-                    tagList.Add("planet_faction_marik");
-                    break;
-                case "Draconis Combine":
-                    tagList.Add("planet_faction_kurita");
-                    break;
-                case "Federated Suns":
-                    tagList.Add("planet_faction_davion");
-                    break;
-                case "Federated Commonwealth (FS)":
-                    tagList.Add("planet_faction_davion");
-                    break;
-                case "Capellan Confederation":
-                    tagList.Add("planet_faction_liao");
-                    break;
-                case "Aurigan Coalition":
-                    tagList.Add("planet_faction_restoration");
-                    break;
-                case "ComStar":
-                    tagList.Add("planet_civ_innersphere");
-                    break;
-                case "Magistracy of Canopus":
-                    tagList.Add("planet_faction_magistracy");
-                    break;
-                case "Taurian Concordat":
-                    tagList.Add("planet_faction_taurian");
-                    break;
-                case "Outworlds Alliance":
-                    tagList.Add("planet_faction_outworlds");
-                    break;
-                case "Marian Hegemony":
-                    tagList.Add("planet_faction_marian");
-                    break;
-                case "Oberon Confederation":
-                    tagList.Add("planet_faction_oberon");
-                    break;
-                case "Lothian League":
-                    tagList.Add("planet_faction_lothian");
-                    break;
-                case "Circinus Federation":
-                    tagList.Add("planet_faction_circinus");
-                    break;
-                case "Illyrian Palatinate":
-                    tagList.Add("planet_faction_illyrian");
-                    break;
-                case "Abandoned":
-                    tagList.Add("planet_other_empty");
-                    break;
-                case "Undiscovered":
-                    tagList.Add("planet_other_empty");
-                    break;
-                default:
-                    break;
+            string owner = getOwner(systemJObject);
+            tagList.Add(GetFactionTag((Faction)Enum.Parse(typeof(Faction), owner)));
+            if((Faction)Enum.Parse(typeof(Faction), owner) == Faction.NoFaction){
+                tagList.Add("planet_other_empty");
             }
             return tagList;
         }
@@ -827,6 +777,13 @@ namespace DocsToSystemJSON {
             }
             targets.Remove(faction);
             return targets;
+        }
+
+        public static string GetFactionTag(Faction faction) {
+            if (!debug.Contains("planet_faction_" + faction.ToString().ToLower())) {
+                debug.Add("planet_faction_" + faction.ToString().ToLower());
+            }
+            return "planet_faction_" + faction.ToString().ToLower();
         }
 
     }

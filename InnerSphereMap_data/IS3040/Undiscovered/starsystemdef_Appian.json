@@ -1,0 +1,134 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Appian",
+    "Name": "Appian",
+    "Details": "SURVEY DATA INCOMPLETE",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Position": {
+    "x": 44.143,
+    "y": -466.662,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_name_appian",
+      "planet_size_large",
+      "planet_climate_water",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_other_alienvegetation",
+      "planet_faction_nofaction",
+      "planet_other_empty"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 8,
+  "Owner": "NoFaction",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "Difficulty": -9,
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "highlandsSpring"
+  ],
+  "StarType": "G",
+  "ContractEmployers": [],
+  "ContractTargets": [
+    "Betrayers",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "MagistracyCentrella",
+    "MajestyMetals",
+    "Nautilus"
+  ]
+}

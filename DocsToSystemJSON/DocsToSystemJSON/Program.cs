@@ -9,6 +9,7 @@
         static void Main(string[] args) {
             Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, true, originalData, false);
             converter.newMap();
+
         }
     }
 }
