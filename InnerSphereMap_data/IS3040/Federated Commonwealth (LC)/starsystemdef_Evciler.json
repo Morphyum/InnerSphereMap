@@ -17,27 +17,35 @@
     "items": [
       "planet_name_evciler",
       "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_mudflats",
-      "planet_other_taintedair",
+      "planet_climate_ice",
+      "planet_other_megaforest",
+      "planet_other_storms",
       "planet_feature_asteroids",
+      "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_none",
       "planet_other_megacity",
-      "planet_civ_primitive",
       "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_other_alienvegetation",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_hub",
       "planet_other_blackmarket",
       "planet_other_newcolony",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -8,
+  "JumpDistance": 2,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -100,7 +108,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -5,
+  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,21 +134,28 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [
     "Steiner",
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Illyrian",
+    "Axumite",
+    "ClanCoyote",
+    "ClanFireMandrill",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClansGeneric",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Tortuga",
+    "NoFaction"
   ]
 }

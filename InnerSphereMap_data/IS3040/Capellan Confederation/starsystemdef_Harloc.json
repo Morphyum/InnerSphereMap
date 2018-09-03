@@ -127,13 +127,15 @@
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Illyrian",
+    "Axumite",
+    "ClanFireMandrill",
+    "ClanIceHellion",
+    "ClansGeneric",
+    "ClanStarAdder",
+    "ClanWolf",
+    "NoFaction"
   ]
 }

@@ -16,34 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_brixtana",
-      "planet_size_small",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_storms",
-      "planet_feature_asteroids",
+      "planet_size_large",
+      "planet_climate_arctic",
+      "planet_other_mudflats",
       "planet_feature_gasgiant",
-      "planet_feature_moon01",
+      "planet_feature_rings",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_pop_medium",
+      "planet_civ_primitive",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_boreholes",
+      "planet_other_pirate",
       "planet_faction_magistracyofcanopus"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 1,
+  "FuelingStation": true,
+  "JumpDistance": 6,
   "Owner": "MagistracyOfCanopus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,22 +125,34 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "M",
+  "StarType": "F",
   "ContractEmployers": [
     "MagistracyOfCanopus",
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Axumite",
+    "Chainelane",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClansGeneric",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Tortuga",
+    "NoFaction"
   ]
 }

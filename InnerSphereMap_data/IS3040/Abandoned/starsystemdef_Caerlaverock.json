@@ -126,13 +126,25 @@
   "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Axumite",
+    "Chainelane",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClansGeneric",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Tortuga",
+    "NoFaction"
   ]
 }

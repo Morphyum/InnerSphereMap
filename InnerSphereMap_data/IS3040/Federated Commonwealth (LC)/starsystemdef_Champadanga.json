@@ -17,28 +17,29 @@
     "items": [
       "planet_name_champadanga",
       "planet_size_medium",
-      "planet_climate_desert",
+      "planet_climate_lunar",
       "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_small",
-      "planet_civ_innersphere",
+      "planet_feature_rings",
+      "planet_pop_none",
+      "planet_other_megacity",
+      "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_other_pirate",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -9,
+  "JumpDistance": 1,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -127,21 +128,33 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Steiner",
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Axumite",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClansGeneric",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Tortuga",
+    "NoFaction"
   ]
 }

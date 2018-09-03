@@ -16,27 +16,28 @@
   "Tags": {
     "items": [
       "planet_name_hibernia",
-      "planet_size_medium",
-      "planet_climate_tropical",
+      "planet_size_small",
+      "planet_climate_mars",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
       "planet_other_stonedcaribou",
-      "planet_other_taintedair",
+      "planet_other_storms",
+      "planet_feature_gasgiant",
       "planet_feature_rings",
-      "planet_pop_small",
-      "planet_civ_innersphere",
-      "planet_industry_recreation",
+      "planet_pop_none",
+      "planet_other_megacity",
+      "planet_civ_primitive",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_ruins",
+      "planet_other_comstar",
+      "planet_other_prison",
       "planet_faction_delphi"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -6,
+  "JumpDistance": -12,
   "Owner": "Delphi",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +100,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,23 +126,23 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "A",
+  "StarType": "M",
   "ContractEmployers": [
     "Delphi",
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Illyrian",
+    "Axumite",
+    "ClanFireMandrill",
+    "ClansGeneric",
+    "ClanStarAdder",
+    "ClanWolf",
+    "NoFaction"
   ]
 }

@@ -8,10 +8,12 @@ namespace DocsToSystemJSON {
 
 
     class Converter {
+        private int JumpPointCount = 0;
         private JArray universeDataJArray;
         private string OutputPath;
         private string BlueprintPath;
         private bool is3040;
+        private bool createJumpPoints;
         private string yearFolder = "/IS3025/";
         private string OriginalData;
         private bool keepKamea;
@@ -20,8 +22,7 @@ namespace DocsToSystemJSON {
             "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
             "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
             "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals" };
-        public static List<string> debug = new List<string>();
-        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea) {
+        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea, bool createJumpPoints) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
             this.universeDataJArray = (JArray)jobject[arrayName];
@@ -30,6 +31,7 @@ namespace DocsToSystemJSON {
             this.is3040 = is3040;
             this.OriginalData = OriginalData;
             this.keepKamea = keepKamea;
+            this.createJumpPoints = createJumpPoints;
             if (is3040) {
                 this.yearFolder = "/IS3040/";
             }
@@ -77,12 +79,142 @@ namespace DocsToSystemJSON {
             if (keepKamea) {
                 switchToRestauration();
             }
-            foreach (string tag in debug) {
-                Console.Out.WriteLine(tag);
+            if (createJumpPoints) {
+                CreateJumpPoints();
             }
-            Console.ReadKey();
         }
 
+        private void CreateJumpPoints() {
+            DirectoryInfo d = new DirectoryInfo(OriginalData);
+
+            //Axumite Viroflay to Thala
+            JObject startJOBject = JObject.Parse(File.ReadAllText(OutputPath+ "/StarSystems/starsystemdef_Viroflay.json"));
+            JObject goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Thala.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Hanse ChaineCluster to Stralsund
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_ChaineCluster.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Stralsund.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Castille _Novgorod to Asturias
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Novgorod.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Asturias.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //JarnFolk Nowhere to Ålborg
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Nowhere.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Ålborg.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Delphi Rover to Dania
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Rover.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Dania.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Tortuga Ulvskollen to NewPortRoyal
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Ulvskollen.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_NewPortRoyal.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS1 Cabanatuan to Columbus
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Cabanatuan.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS2 Columbus to Salonika
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+
+            //EXODUS3 Salonika to StarClusterA51
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS4 StarClusterA51 to StarClusterP12
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS5 StarClusterP12 to Arcadia
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Arcadia(Clan).json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Clans Arcadia to Shadow
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Arcadia(Clan).json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Shadow.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Hanse Noise1 Wismar to Greifswald
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Wismar.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Greifswald.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Hanse Noise2 Novgorod to Gateway
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Novgorod.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Gateway.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+        }
+
+        private void CreateJumpPointsToTarget(float startx, float starty, float goalx, float goaly) {
+            
+            Random rand = new Random();
+            while(GetDistanceInLY(startx, starty, goalx, goaly) > 50) {
+                JumpPointCount++;
+                bool created = false;
+                while (!created) {
+                    float newx;
+                    float newy;
+                    if (startx < goalx)
+                        newx = startx + rand.Next(10, 51);
+                    else
+                        newx = startx - rand.Next(10, 51);
+                    if (starty < goaly)
+                        newy = starty + rand.Next(10, 51);
+                    else
+                        newy = starty - rand.Next(10, 51);
+                    if (GetDistanceInLY(startx, starty, newx, newy) < 50) {
+                        string beginjson = File.ReadAllText(BlueprintPath);
+                        JObject originalJObject = JObject.Parse(beginjson);
+                        JObject newSystemJObject = originalJObject;
+                        newSystemJObject["Description"]["Id"] = "starsystemdef_JumpPoint" + JumpPointCount;
+                        newSystemJObject["Description"]["Name"] = "Jump Point" + JumpPointCount;
+                        newSystemJObject["Description"]["Details"] = "This system contains near to nothing. It's whole purpose is to refill your jumpdrive.";
+                        newSystemJObject["Tags"]["items"] = JArray.FromObject(new List<string>{ "planet_size_small", "planet_climate_lunar", "planet_pop_none", "planet_name_"+ "Jump Point" + JumpPointCount });
+                        newSystemJObject["FuelingStation"] = false;
+                        newSystemJObject["JumpDistance"] = 30;
+                        newSystemJObject["Difficulty"] = -10;
+                        newSystemJObject["StarType"] = "M";
+                        newSystemJObject["Position"]["x"] = newx;
+                        newSystemJObject["Position"]["y"] = newy;
+                        newSystemJObject["Owner"] = "NoFaction";
+                        newSystemJObject["ContractEmployers"] = JArray.FromObject(getEmployees("NoFaction"));
+                        newSystemJObject["ContractTargets"] = JArray.FromObject(getTargets("NoFaction"));
+                        newSystemJObject["SupportedBiomes"] = JArray.FromObject(new List<string> { "lunarVacuum", "martianVacuum" });
+                        string path = OutputPath + yearFolder + "JumpPoints" + "/" + newSystemJObject["Description"]["Id"] + ".json";
+                        (new FileInfo(path)).Directory.Create();
+                        File.WriteAllText(path, newSystemJObject.ToString());
+
+                        path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
+                        if (!File.Exists(path)) {
+                            string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
+                            (new FileInfo(filepath)).Directory.Create();
+                            File.WriteAllText(filepath, newSystemJObject.ToString());
+                        }
+                        startx = newx;
+                        starty = newy;
+                        created = true;
+                    }
+                }
+            }
+        }
+
+        public static double GetDistanceInLY(float x1, float y1, float x2, float y2) {
+            return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+        }
         public void switchToRestauration() {
             DirectoryInfo d = new DirectoryInfo(OriginalData);
             foreach (var file in d.GetFiles("*.json")) {
@@ -754,7 +886,7 @@ namespace DocsToSystemJSON {
             //FactionTag
             string owner = getOwner(systemJObject);
             tagList.Add(GetFactionTag((Faction)Enum.Parse(typeof(Faction), owner)));
-            if((Faction)Enum.Parse(typeof(Faction), owner) == Faction.NoFaction){
+            if ((Faction)Enum.Parse(typeof(Faction), owner) == Faction.NoFaction) {
                 tagList.Add("planet_other_empty");
             }
             return tagList;
@@ -780,11 +912,7 @@ namespace DocsToSystemJSON {
         }
 
         public static string GetFactionTag(Faction faction) {
-            if (!debug.Contains("planet_faction_" + faction.ToString().ToLower())) {
-                debug.Add("planet_faction_" + faction.ToString().ToLower());
-            }
             return "planet_faction_" + faction.ToString().ToLower();
         }
-
     }
 }

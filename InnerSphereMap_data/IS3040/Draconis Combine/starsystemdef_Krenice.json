@@ -17,34 +17,28 @@
     "items": [
       "planet_name_krenice",
       "planet_size_small",
-      "planet_climate_arid",
+      "planet_climate_terran",
       "planet_other_volcanic",
-      "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_floatingworld",
       "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_hub",
+      "planet_industry_manufacturing",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
       "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_other_newcolony",
       "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -15,
+  "FuelingStation": true,
+  "JumpDistance": -2,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
+  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,8 +127,12 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
   "StarType": "B",
   "ContractEmployers": [
@@ -142,13 +140,12 @@
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "ClanFireMandrill",
+    "ClansGeneric",
+    "ClanStarAdder",
+    "ClanWolf",
+    "NoFaction"
   ]
 }

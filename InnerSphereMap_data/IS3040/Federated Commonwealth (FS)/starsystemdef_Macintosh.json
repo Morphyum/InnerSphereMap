@@ -16,22 +16,26 @@
   "Tags": {
     "items": [
       "planet_name_macintosh",
-      "planet_size_medium",
-      "planet_climate_water",
+      "planet_size_large",
+      "planet_climate_rocky",
+      "planet_other_volcanic",
       "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_storms",
+      "planet_other_taintedair",
       "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_feature_rings",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_industry_poor",
-      "planet_industry_agriculture",
+      "planet_pop_small",
+      "planet_industry_rich",
+      "planet_industry_recreation",
       "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
+      "planet_industry_manufacturing",
       "planet_other_blackmarket",
-      "planet_other_boreholes",
       "planet_other_pirate",
-      "planet_ruins",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
@@ -100,7 +104,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -126,22 +130,20 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "highlandsSpring",
+    "highlandsFall"
   ],
-  "StarType": "G",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "ClanFireMandrill",
+    "ClansGeneric",
+    "ClanStarAdder",
+    "ClanWolf",
+    "NoFaction"
   ]
 }

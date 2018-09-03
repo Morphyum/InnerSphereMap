@@ -123,13 +123,8 @@
   "StarType": "O",
   "ContractEmployers": [],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "ClansGeneric",
+    "NoFaction"
   ]
 }

@@ -16,28 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_isesaki",
-      "planet_size_large",
+      "planet_size_small",
       "planet_climate_arid",
-      "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
       "planet_other_stonedcaribou",
+      "planet_other_storms",
       "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_small",
       "planet_civ_primitive",
-      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
+      "planet_industry_research",
       "planet_industry_manufacturing",
+      "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
+      "planet_other_newcolony",
       "planet_other_prison",
       "planet_ruins",
       "planet_faction_kurita"
@@ -45,7 +40,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -7,
+  "JumpDistance": 4,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +103,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
+  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -143,13 +138,12 @@
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "ClanFireMandrill",
+    "ClansGeneric",
+    "ClanStarAdder",
+    "ClanWolf",
+    "NoFaction"
   ]
 }

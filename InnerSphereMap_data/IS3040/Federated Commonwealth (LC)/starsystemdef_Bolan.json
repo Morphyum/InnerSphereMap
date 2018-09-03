@@ -20,32 +20,26 @@
       "planet_climate_rocky",
       "planet_other_volcanic",
       "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
       "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_other_storms",
       "planet_other_taintedair",
-      "planet_feature_asteroids",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_small",
-      "planet_other_megacity",
+      "planet_pop_medium",
       "planet_civ_primitive",
+      "planet_industry_rich",
       "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
+      "planet_industry_manufacturing",
       "planet_other_newcolony",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -10,
+  "FuelingStation": true,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +102,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": -1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -137,19 +131,32 @@
     "highlandsSpring",
     "highlandsFall"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [
     "Steiner",
     "Locals"
   ],
   "ContractTargets": [
-    "Betrayers",
-    "AuriganDirectorate",
-    "AuriganMercenaries",
-    "AuriganPirates",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Axumite",
+    "Chainelane",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClansGeneric",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Tortuga",
+    "Valkyrate",
+    "NoFaction"
   ]
 }
