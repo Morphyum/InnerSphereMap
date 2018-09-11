@@ -91,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,6 +134,8 @@
     "ClanStarAdder",
     "ClanSteelViper",
     "ClanWolf",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

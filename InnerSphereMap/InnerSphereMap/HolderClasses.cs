@@ -22,7 +22,35 @@ namespace InnerSphereMap {
         public List<float> RasalhagueRGB;
         public List<float> StIvesRGB;
         public List<float> AbandonedRGB;
-        public List<float> MRBRGB; 
+        public List<float> MRBRGB;
+        public List<float> ComStarRGB;
+        public List<float> CastileRGB;
+        public List<float> ChainelaneRGB;
+        public List<float> ClanBurrockRGB;
+        public List<float> ClanCloudCobraRGB;
+        public List<float> ClanCoyoteRGB;
+        public List<float> ClanDiamondSharkRGB;
+        public List<float> ClanFireMandrillRGB;
+        public List<float> ClanGhostBearRGB;
+        public List<float> ClanGoliathScorpionRGB;
+        public List<float> ClanHellsHorsesRGB;
+        public List<float> ClanIceHellionRGB;
+        public List<float> ClanJadeFalconRGB;
+        public List<float> ClanNovaCatRGB;
+        public List<float> ClansGenericRGB;
+        public List<float> ClanSmokeJaguarRGB;
+        public List<float> ClanSnowRavenRGB;
+        public List<float> ClanStarAdderRGB;
+        public List<float> ClanSteelViperRGB;
+        public List<float> ClanWolfRGB;
+        public List<float> DelphiRGB;
+        public List<float> ElysiaRGB;
+        public List<float> HanseRGB;
+        public List<float> JarnFolkRGB;
+        public List<float> TortugaRGB;
+        public List<float> ValkyrateRGB;
+        public List<float> AxumiteRGB;
+
         public float MinFov; // this is the vertical FOV
         public float MaxFov; // this is the vertical FOV
 

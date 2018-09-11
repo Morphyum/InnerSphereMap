@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Brockway",
     "Name": "Brockway",
-    "Details": "NOT DONE",
+    "Details": "Brockway has a harsh, rugged environment, however the native plants and animals were found to be extremely nutritious by colonists, setting Brockway up to be an important fronteer agricultural world for the Feds.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,26 +18,20 @@
       "planet_name_brockway",
       "planet_size_medium",
       "planet_climate_tropical",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_other_volcanic",
+      "planet_feature_moon02",
+      "planet_other_moon",
       "planet_pop_medium",
-      "planet_civ_innersphere",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
+      "planet_other_megacity",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_other_alienvegetation",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 0,
+  "FuelingStation": true,
+  "JumpDistance": 4,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -130,7 +124,7 @@
     "lowlandsSpring",
     "lowlandsFall"
   ],
-  "StarType": "M",
+  "StarType": "K",
   "ContractEmployers": [
     "Davion",
     "Locals"
@@ -155,6 +149,8 @@
     "ClanSteelViper",
     "ClanWolf",
     "Tortuga",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

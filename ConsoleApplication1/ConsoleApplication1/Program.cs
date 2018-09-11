@@ -14,7 +14,22 @@ using static BattleTech.SimGameSpaceController;
 namespace ConsoleApplication1 {
     class Program {
         static void Main(string[] args) {
-            newmap();      
+            DirectoryInfo d = new DirectoryInfo("C:/Users/morph/Desktop/Jumppoints");
+            foreach (var file in d.GetFiles("*.json")) {
+                JObject systemJOBject = JObject.Parse(File.ReadAllText(file.FullName));
+                if (((string)systemJOBject["Owner"]).Equals("AuriganDirectorate")) {
+                    systemJOBject["Owner"] = "AuriganRestoration";
+                    JArray tags = JArray.FromObject(systemJOBject["Tags"]["items"]);
+                    List<string> stringtags = tags.ToObject<List<string>>();
+                    stringtags.Remove("planet_faction_directorate");
+                    tags = JArray.FromObject(stringtags);
+                    tags.Add("planet_faction_restoration");
+                    systemJOBject["Tags"]["items"] = tags;
+                    string filepath = OutputPath + "/StarSystems/" + systemJOBject["Description"]["Id"] + ".json";
+                    (new FileInfo(filepath)).Directory.Create();
+                    File.WriteAllText(filepath, systemJOBject.ToString());
+                }
+            }
         }
 
         public static void newmap() {

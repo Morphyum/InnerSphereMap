@@ -91,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,6 +127,8 @@
     "ClanFireMandrill",
     "ClansGeneric",
     "ClanStarAdder",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

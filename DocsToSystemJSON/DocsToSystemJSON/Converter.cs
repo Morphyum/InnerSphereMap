@@ -21,7 +21,7 @@ namespace DocsToSystemJSON {
             "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
             "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
             "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
-            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals" };
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates" };
         public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea, bool createJumpPoints) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
@@ -51,7 +51,7 @@ namespace DocsToSystemJSON {
                 newSystemJObject["Description"]["Name"] = systemJObject["PlanetName"];
                 newSystemJObject["Description"]["Details"] = systemJObject["Description"];
                 newSystemJObject["Tags"]["items"] = JArray.FromObject(createTags(systemJObject));
-                newSystemJObject["FuelingStation"] = systemJObject["RechargeStation"];
+                newSystemJObject["FuelingStation"] = (bool)systemJObject["RechargeStation"];
                 newSystemJObject["JumpDistance"] = systemJObject["JumpDistance"];
                 newSystemJObject["Difficulty"] = systemJObject["Difficulty"];
                 newSystemJObject["StarType"] = systemJObject["StarType"];

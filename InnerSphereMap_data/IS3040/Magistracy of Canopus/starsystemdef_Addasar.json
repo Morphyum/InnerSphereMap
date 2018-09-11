@@ -92,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -164,6 +164,8 @@
     "JarnFolk",
     "Tortuga",
     "Valkyrate",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

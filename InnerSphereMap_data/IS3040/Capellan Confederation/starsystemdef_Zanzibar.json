@@ -134,6 +134,8 @@
   ],
   "ContractTargets": [
     "AuriganRestoration",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

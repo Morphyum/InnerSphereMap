@@ -127,6 +127,8 @@
     "ClansGeneric",
     "ClanStarAdder",
     "ClanWolf",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

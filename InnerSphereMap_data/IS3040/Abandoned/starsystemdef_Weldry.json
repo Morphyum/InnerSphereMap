@@ -92,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -4,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -125,6 +125,8 @@
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganRestoration",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

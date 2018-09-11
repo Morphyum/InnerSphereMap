@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Bellatrix",
     "Name": "Bellatrix",
-    "Details": "NOT DONE",
+    "Details": "With the exception of a brief period in 2616, Bellatrix has been consistantly under Capellan control.  Rumours about of a lost SLDF cache on the planet, but to date no evidence of such a cache has been found.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,27 +16,25 @@
   "Tags": {
     "items": [
       "planet_name_bellatrix",
-      "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_size_medium",
+      "planet_climate_arctic",
+      "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_medium",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_rich",
       "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_other_boreholes",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": 16,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -99,7 +97,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,7 +126,7 @@
     "polarFrozen",
     "tundraFrozen"
   ],
-  "StarType": "M",
+  "StarType": "B",
   "ContractEmployers": [
     "Liao",
     "Locals"
@@ -156,6 +154,8 @@
     "Elysia",
     "Tortuga",
     "Valkyrate",
-    "NoFaction"
+    "NoFaction",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

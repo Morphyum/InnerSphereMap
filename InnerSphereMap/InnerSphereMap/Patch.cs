@@ -391,9 +391,11 @@ namespace InnerSphereMap {
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Chainelane, go });
 
+
+                Faction leaderclan = __instance.starmap.GetSystemByID("starsystemdef_StranaMechty").System.Owner;
                 if (GameObject.Find("ClansGenericLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
-                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/ClansGenericLogo.png");
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/"+leaderclan.ToString()+"Logo.png");
                     texture2D2.LoadImage(data);
                     go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
                     go.GetComponent<Renderer>().material.mainTexture = texture2D2;
@@ -401,8 +403,12 @@ namespace InnerSphereMap {
                 }
                 else {
                     go = GameObject.Find("ClansGenericLogoMap");
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/" + leaderclan.ToString() + "Logo.png");
+                    texture2D2 = new Texture2D(2, 2);
+                    texture2D2.LoadImage(data);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
                 }
-                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.ClansGeneric, go });
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { leaderclan, go });
 
                 if (GameObject.Find("DelphiLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -516,23 +522,27 @@ namespace InnerSphereMap {
                     case Faction.Steiner:
                         __result = new Color(settings.SteinerRGB[0], settings.SteinerRGB[1], settings.SteinerRGB[2], 1f);
                         break;
+                    //NOT ON THE MAP
                     case Faction.Betrayers:
                         __result = new Color(1f, 0.6f, 0.4f, 1f);
                         break;
+                    //NOT ON THE MAP
                     case Faction.MagistracyCentrella:
                         __result = new Color(0.43f, 0.67f, 0.23f, 1f);
                         break;
+                    //NOT ON THE MAP
                     case Faction.MajestyMetals:
                         __result = new Color(0.345f, 0.345f, 0.34f, 1f);
                         break;
                     case Faction.AuriganDirectorate:
                         __result = __result;
                         break;
+                    //NOT ON THE MAP
                     case Faction.Nautilus:
                         __result = new Color(0.345f, 0.567f, 0.234f, 1f);
                         break;
                     case Faction.ComStar:
-                        __result = new Color(0.294f, 0f, 0.510f, 1f); ;
+                        __result = new Color(settings.ComStarRGB[0], settings.ComStarRGB[1], settings.ComStarRGB[2], 1f);
                         break;
                     case Faction.Davion:
                         __result = new Color(settings.DavionRGB[0], settings.DavionRGB[1], settings.DavionRGB[2], 1f);
@@ -555,86 +565,87 @@ namespace InnerSphereMap {
                     case Faction.NoFaction:
                         __result = new Color(settings.AbandonedRGB[0], settings.AbandonedRGB[1], settings.AbandonedRGB[2], 0.7f);
                         break;
+                    //NOT ON THE MAP
                     case Faction.MercenaryReviewBoard:
                         __result = new Color(settings.MRBRGB[0], settings.MRBRGB[1], settings.MRBRGB[2], 1f);
                         break;
                     case Faction.Castile:
-                        __result = new Color(0f, 0.5f, 1, 1f);
+                        __result = new Color(settings.CastileRGB[0], settings.CastileRGB[1], settings.CastileRGB[2], 1f);
                         break;
                     case Faction.Chainelane:
-                        __result = new Color(0.196f, 0.804f, 0.196f, 1f);
+                        __result = new Color(settings.ChainelaneRGB[0], settings.ChainelaneRGB[1], settings.ChainelaneRGB[2], 1f);
                         break;
                     case Faction.Circinus:
                         __result = new Color(settings.CircinusRGB[0], settings.CircinusRGB[1], settings.CircinusRGB[2], 1f);
                         break;
                     case Faction.ClanBurrock:
-                        __result = new Color(0.855f, 0.647f, 0.125f, 1f);
+                        __result = new Color(settings.ClanBurrockRGB[0], settings.ClanBurrockRGB[1], settings.ClanBurrockRGB[2], 1f);
                         break;
                     case Faction.ClanCloudCobra:
-                        __result = new Color(0.482f, 0.408f, 0.933f, 1f);
+                        __result = new Color(settings.ClanCloudCobraRGB[0], settings.ClanCloudCobraRGB[1], settings.ClanCloudCobraRGB[2], 1f);
                         break;
                     case Faction.ClanCoyote:
-                        __result = new Color(0.627f, 0.322f, 0.176f, 1f);
+                        __result = new Color(settings.ClanCoyoteRGB[0], settings.ClanCoyoteRGB[1], settings.ClanCoyoteRGB[2], 1f);
                         break;
                     case Faction.ClanDiamondShark:
-                        __result = new Color(0.000f, 1.000f, 1.000f, 1f);
+                        __result = new Color(settings.ClanDiamondSharkRGB[0], settings.ClanDiamondSharkRGB[1], settings.ClanDiamondSharkRGB[2], 1f);
                         break;
                     case Faction.ClanFireMandrill:
-                        __result = new Color(1.000f, 0.549f, 0.000f, 1f);
+                        __result = new Color(settings.ClanFireMandrillRGB[0], settings.ClanFireMandrillRGB[1], settings.ClanFireMandrillRGB[2], 1f);
                         break;
                     case Faction.ClanGhostBear:
-                        __result = new Color(0.878f, 1.000f, 1.000f, 1f);
+                        __result = new Color(settings.ClanGhostBearRGB[0], settings.ClanGhostBearRGB[1], settings.ClanGhostBearRGB[2], 1f);
                         break;
                     case Faction.ClanGoliathScorpion:
-                        __result = new Color(0.000f, 0.392f, 0.000f, 1f);
+                        __result = new Color(settings.ClanGoliathScorpionRGB[0], settings.ClanGoliathScorpionRGB[1], settings.ClanGoliathScorpionRGB[2], 1f);
                         break;
                     case Faction.ClanHellsHorses:
-                        __result = new Color(0.545f, 0.000f, 0.000f, 1f);
+                        __result = new Color(settings.ClanHellsHorsesRGB[0], settings.ClanHellsHorsesRGB[1], settings.ClanHellsHorsesRGB[2], 1f);
                         break;
                     case Faction.ClanIceHellion:
-                        __result = new Color(0.690f, 0.769f, 0.871f, 1f);
+                        __result = new Color(settings.ClanIceHellionRGB[0], settings.ClanIceHellionRGB[1], settings.ClanIceHellionRGB[2], 1f);
                         break;
                     case Faction.ClanJadeFalcon:
-                        __result = new Color(0.604f, 0.804f, 0.196f, 1f);
+                        __result = new Color(settings.ClanJadeFalconRGB[0], settings.ClanJadeFalconRGB[1], settings.ClanJadeFalconRGB[2], 1f);
                         break;
                     case Faction.ClanNovaCat:
-                        __result = new Color(0.000f, 0.000f, 0.545f, 1f);
+                        __result = new Color(settings.ClanNovaCatRGB[0], settings.ClanNovaCatRGB[1], settings.ClanNovaCatRGB[2], 1f);
                         break;
                     case Faction.ClansGeneric:
-                        __result = new Color(0.863f, 0.078f, 0.235f, 1f);
+                        __result = new Color(settings.ClansGenericRGB[0], settings.ClansGenericRGB[1], settings.ClansGenericRGB[2], 1f);
                         break;
                     case Faction.ClanSmokeJaguar:
-                        __result = new Color(0.502f, 0.000f, 0.000f, 1f);
+                        __result = new Color(settings.ClanSmokeJaguarRGB[0], settings.ClanSmokeJaguarRGB[1], settings.ClanSmokeJaguarRGB[2], 1f);
                         break;
                     case Faction.ClanSnowRaven:
-                        __result = new Color(0.400f, 0.804f, 0.667f, 1f);
+                        __result = new Color(settings.ClanSnowRavenRGB[0], settings.ClanSnowRavenRGB[1], settings.ClanSnowRavenRGB[2], 1f);
                         break;
                     case Faction.ClanStarAdder:
-                        __result = new Color(0.000f, 0.000f, 1.000f, 1f);
+                        __result = new Color(settings.ClanStarAdderRGB[0], settings.ClanStarAdderRGB[1], settings.ClanStarAdderRGB[2], 1f);
                         break;
                     case Faction.ClanSteelViper:
-                        __result = new Color(0.000f, 1.000f, 0.498f, 1f);
+                        __result = new Color(settings.ClanSteelViperRGB[0], settings.ClanSteelViperRGB[1], settings.ClanSteelViperRGB[2], 1f);
                         break;
                     case Faction.ClanWolf:
-                        __result = new Color(0.698f, 0.133f, 0.133f, 1f);
+                        __result = new Color(settings.ClanWolfRGB[0], settings.ClanWolfRGB[1], settings.ClanWolfRGB[2], 1f);
                         break;
                     case Faction.Delphi:
-                        __result = new Color(1f, 0.5f, 0f, 1f);
+                        __result = new Color(settings.DelphiRGB[0], settings.DelphiRGB[1], settings.DelphiRGB[2], 1f);
                         break;
                     case Faction.Elysia:
-                        __result = new Color(0.541f, 0.169f, 0.886f, 1f);
+                        __result = new Color(settings.ElysiaRGB[0], settings.ElysiaRGB[1], settings.ElysiaRGB[2], 1f);
                         break;
                     case Faction.Hanse:
-                        __result = new Color(1f, 0.95f, 0.05f, 1f);
+                        __result = new Color(settings.HanseRGB[0], settings.HanseRGB[1], settings.HanseRGB[2], 1f);
                         break;
                     case Faction.Illyrian:
-                        __result = new Color(0.941f, 0.902f, 0.549f, 1f);
+                        __result = new Color(settings.IllyrianRGB[0], settings.IllyrianRGB[1], settings.IllyrianRGB[2], 1f);
                         break;
                     case Faction.Ives:
                         __result = new Color(settings.StIvesRGB[0], settings.StIvesRGB[1], settings.StIvesRGB[2], 1f);
                         break;
                     case Faction.JarnFolk:
-                        __result = new Color(1f, 0.8f, 0.2f, 1f);
+                        __result = new Color(settings.JarnFolkRGB[0], settings.JarnFolkRGB[1], settings.JarnFolkRGB[2], 1f);
                         break;
                     case Faction.Lothian:
                         __result = new Color(settings.LothianRGB[0], settings.LothianRGB[1], settings.LothianRGB[2], 1f);
@@ -652,10 +663,10 @@ namespace InnerSphereMap {
                         __result = new Color(settings.RasalhagueRGB[0], settings.RasalhagueRGB[1], settings.RasalhagueRGB[2], 1f);
                         break;
                     case Faction.Tortuga:
-                        __result = new Color(1f, 0.5f, 0.5f, 1f);
+                        __result = new Color(settings.TortugaRGB[0], settings.TortugaRGB[1], settings.TortugaRGB[2], 1f);
                         break;
                     case Faction.Valkyrate:
-                        __result = new Color(1f, 0.45f, 0.55f, 1f);
+                        __result = new Color(settings.ValkyrateRGB[0], settings.ValkyrateRGB[1], settings.ValkyrateRGB[2], 1f);
                         break;
                     case Faction.Axumite:
                         __result = new Color(1f, 0.4f, 0.6f, 1f);
