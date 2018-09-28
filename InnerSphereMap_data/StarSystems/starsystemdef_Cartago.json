@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Cartago",
     "Name": "Cartago",
-    "Details": "NOT DONE",
+    "Details": "The Cartago system was colonized at some point during or shortly after the First Exodus from Terra and was the subject of the Cartago Conflict in the early 2400s. It had been incorporated into the Federated Suns by the end of the Age of War.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_cartago",
-      "planet_size_small",
-      "planet_climate_arid",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_size_large",
+      "planet_climate_tropical",
+      "planet_other_mudflats",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_ruins",
+      "planet_other_comstar",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 0,
+  "FuelingStation": false,
+  "JumpDistance": 17,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,9 +122,10 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "badlandsParched"
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "0",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "Locals"

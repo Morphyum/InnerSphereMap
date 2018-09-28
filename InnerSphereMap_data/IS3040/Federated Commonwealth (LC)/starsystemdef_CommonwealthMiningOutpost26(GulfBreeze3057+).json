@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_CommonwealthMiningOutpost26(GulfBreeze3057+)",
     "Name": "Commonwealth Mining Outpost 26 (Gulf Breeze 3057+)",
-    "Details": "NOT DONE",
+    "Details": "Mining operations in this unimaginatively-named system are coordinated from Gulf Breeze Station in the asteroid belt, but a ground colony does exist on the fifth planet. LosTech prospectors can sometimes be found here, excavating centuries-old ruins.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_commonwealthminingoutpost26(gulfbreeze3057+)",
-      "planet_size_small",
+      "planet_size_large",
       "planet_climate_lunar",
-      "planet_other_fungus",
-      "planet_other_storms",
+      "planet_feature_asteroids",
       "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
+      "planet_pop_small",
+      "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
       "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
       "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 13,
+  "FuelingStation": true,
+  "JumpDistance": 33,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -10,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,7 +122,7 @@
     "lunarVacuum",
     "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Steiner",
     "Locals"

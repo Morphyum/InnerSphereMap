@@ -44,7 +44,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": "",
+  "FuelingStation": false,
   "JumpDistance": 6,
   "Owner": "Outworld",
   "ShopRefreshRate": 0,

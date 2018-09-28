@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Chupadero",
     "Name": "Chupadero",
-    "Details": "NOT DONE",
+    "Details": "Chupadero in the modern day is highly loyal to the Combine, seemingly to make up for its origins as an Age of War prison colony. The locals pride themselves on being able to repair and use equipment many would have scrapped decades ago.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,35 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_chupadero",
-      "planet_size_small",
-      "planet_climate_terran",
+      "planet_size_medium",
+      "planet_climate_rocky",
       "planet_other_volcanic",
+      "planet_other_mudflats",
       "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
+      "planet_pop_medium",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_pirate",
+      "planet_other_blackmarket",
       "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 5,
+  "FuelingStation": false,
+  "JumpDistance": 3,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,13 +121,9 @@
   },
   "SupportedBiomes": [
     "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "highlandsFall"
   ],
-  "StarType": "0",
+  "StarType": "M",
   "ContractEmployers": [
     "Kurita",
     "Locals"

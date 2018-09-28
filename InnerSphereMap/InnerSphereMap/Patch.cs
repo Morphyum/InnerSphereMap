@@ -1,5 +1,6 @@
 ﻿using BattleTech;
 using BattleTech.UI;
+using BattleTech.UI.Tooltips;
 using Harmony;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace InnerSphereMap {
 
@@ -46,10 +48,48 @@ namespace InnerSphereMap {
     [HarmonyPatch(typeof(SGCaptainsQuartersReputationScreen), "RefreshWidgets")]
     public static class SGCaptainsQuartersReputationScreen_RefreshWidgets {
 
-        static void Prefix(ref SGCaptainsQuartersReputationScreen __instance) {
+        static void Prefix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, SimGameState ___simState) {
             try {
-                SimGameState simState = (SimGameState)ReflectionHelper.GetPrivateField(__instance, "simState");
-                simState.displayedFactions = simState.displayedFactions.OrderByDescending(o => simState.GetRawReputation(o)).ToList();
+                AccessTools.Method(typeof(SimGameState), "SetReputation").Invoke(___simState, new object[] { Faction.Steiner, 500, StatCollection.StatOperation.Int_Add, null });
+                AccessTools.Method(typeof(SimGameState), "SetReputation").Invoke(___simState, new object[] { Faction.Kurita, -500, StatCollection.StatOperation.Int_Add, null });
+                GameObject parent = GameObject.Find("factionsPanel");
+                if (parent != null) {
+                    parent.transform.position = new Vector3(830, parent.transform.position.y, parent.transform.position.z);
+                    GameObject.Find("deco (1)").active = false;
+                    parent.transform.parent.FindRecursive("bracket-btm").gameObject.active = false;
+                    GridLayoutGroup grid = parent.GetComponent<GridLayoutGroup>();
+                    grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+                    grid.constraintCount = 5;
+                    grid.spacing = new Vector2(0, 0);
+                    grid.cellSize = new Vector2(275, grid.cellSize.y);
+                    grid.childAlignment = TextAnchor.UpperLeft;
+                    GameObject primeWidget = ___FactionPanelWidgets[0].gameObject;
+                    ___FactionPanelWidgets.Clear();
+                    for (int i = 0; i < ___simState.displayedFactions.Count; i++) {
+                        GameObject newwidget = GameObject.Instantiate(primeWidget);
+                        newwidget.transform.parent = primeWidget.transform.parent;
+                        newwidget.name = "NewWidget";
+                        newwidget.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                        newwidget.transform.position = new Vector3(newwidget.transform.position.x, 200, newwidget.transform.position.z);
+                        RectTransform score = newwidget.transform.FindRecursive("factionScore-text").GetComponent<RectTransform>();
+                        score.localPosition = new Vector3(0, score.localPosition.y, score.localPosition.z);
+                        RectTransform bar = newwidget.transform.FindRecursive("factionBar_Layout").GetComponent<RectTransform>();
+                        bar.sizeDelta = new Vector2(125, bar.sizeDelta.y);
+                        RectTransform negative = newwidget.transform.FindRecursive("faction_Negativefill_moveThisNegative").GetComponent<RectTransform>();
+                        negative.localPosition = new Vector3(0, 0, 0);
+                        negative.sizeDelta = new Vector2(64, 0);
+                        RectTransform positive = newwidget.transform.FindRecursive("faction_Positivefill_moveThisPositive").GetComponent<RectTransform>();
+                        positive.localPosition = new Vector3(0, 0, 0);
+                        positive.sizeDelta = new Vector2(64, 0);
+                        RectTransform square = newwidget.transform.FindRecursive("squaresPanel").GetComponent<RectTransform>();
+                        square.localPosition = new Vector3(18, square.localPosition.y, square.localPosition.z);
+                        SGFactionReputationWidget newSGWidget = newwidget.GetComponent<SGFactionReputationWidget>();
+                        ___FactionPanelWidgets.Add(newSGWidget);
+                    }
+                    foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationWidget-MANAGED")) {
+                        go.active = false;
+                    }
+                }
             }
             catch (Exception e) {
                 Logger.LogError(e);
@@ -395,7 +435,7 @@ namespace InnerSphereMap {
                 Faction leaderclan = __instance.starmap.GetSystemByID("starsystemdef_StranaMechty").System.Owner;
                 if (GameObject.Find("ClansGenericLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
-                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/"+leaderclan.ToString()+"Logo.png");
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/" + leaderclan.ToString() + "Logo.png");
                     texture2D2.LoadImage(data);
                     go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
                     go.GetComponent<Renderer>().material.mainTexture = texture2D2;
@@ -409,6 +449,45 @@ namespace InnerSphereMap {
                     go.GetComponent<Renderer>().material.mainTexture = texture2D2;
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { leaderclan, go });
+
+
+                SimGameState sim = (SimGameState)AccessTools.Field(typeof(Starmap), "sim").GetValue(__instance.starmap);
+                List<Faction> contestingFactions = new List<Faction>() { Faction.ClanBurrock, Faction.ClanCloudCobra, Faction.ClanCoyote,
+                    Faction.ClanDiamondShark, Faction.ClanFireMandrill,Faction.ClanGhostBear,Faction.ClanGoliathScorpion,Faction.ClanHellsHorses,
+                    Faction.ClanIceHellion,Faction.ClanJadeFalcon,Faction.ClanNovaCat,Faction.ClansGeneric,Faction.ClanSmokeJaguar,Faction.ClanSnowRaven,
+                    Faction.ClanStarAdder,Faction.ClanSteelViper,Faction.ClanWolf};
+                Dictionary<Faction, int> ranking = new Dictionary<Faction, int>();
+                foreach (StarSystem system in sim.StarSystems) {
+                    if (contestingFactions.Contains(system.Owner)) {
+                        if (!ranking.ContainsKey(system.Owner)) {
+                            ranking.Add(system.Owner, 0);
+                        }
+                        ranking[system.Owner]++;
+                    }
+                }
+                Faction invaderclan = Faction.INVALID_UNSET;
+                if (ranking.Count > 0) {
+                    invaderclan = ranking.OrderByDescending(x => x.Value).First().Key;
+                }
+                if (invaderclan != Faction.INVALID_UNSET) {
+                    if (GameObject.Find("ClansInvaderLogoMap") == null) {
+                        texture2D2 = new Texture2D(2, 2);
+                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/" + invaderclan.ToString() + "Logo.png");
+                        texture2D2.LoadImage(data);
+                        go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                        go.name = "ClansInvaderLogoMap";
+                    }
+                    else {
+                        go = GameObject.Find("ClansInvaderLogoMap");
+                        data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/" + invaderclan.ToString() + "Logo.png");
+                        texture2D2 = new Texture2D(2, 2);
+                        texture2D2.LoadImage(data);
+                        go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    }
+                    ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { invaderclan, go });
+                }
+
 
                 if (GameObject.Find("DelphiLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -814,6 +893,35 @@ namespace InnerSphereMap {
                 }
                 catch (Exception e) {
                     Logger.LogError(e);
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(SGNavigationActiveFactionWidget), "ActivateFactions")]
+        public static class SGSystemViewPopulator_UpdateRoutedSystem_Patch {
+            static bool Prefix(SGNavigationActiveFactionWidget __instance, List<Faction> activeFactions, Faction OwnerFaction, List<HBSButton> ___FactionButtons, List<Image> ___FactionIcons, SimGameState ___simState) {
+                try {
+                    ___FactionButtons.ForEach(delegate (HBSButton btn) {
+                        btn.gameObject.SetActive(false);
+                    });
+                    int index = 0;
+                    foreach (Faction faction in activeFactions) {
+                        FactionDef factionDef;
+                        ___simState.FactionsDict.TryGetValue(faction, out factionDef);
+                        ___FactionIcons[index].sprite = factionDef.GetSprite();
+                        HBSTooltip component = ___FactionIcons[index].GetComponent<HBSTooltip>();
+                        if (component != null) {
+                            component.SetDefaultStateData(TooltipUtilities.GetStateDataFromObject(factionDef));
+                        }
+                        ___FactionButtons[index].SetState(ButtonState.Enabled, false);
+                        ___FactionButtons[index].gameObject.SetActive(true);
+                        index++;
+                    }
+                    return false;
+                }
+                catch (Exception e) {
+                    Logger.LogError(e);
+                    return true;
                 }
             }
         }

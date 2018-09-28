@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Cordiagr",
     "Name": "Cordiagr",
-    "Details": "NOT DONE",
+    "Details": "Founded and named after the Corwin Diverse Agricultural Group, a 22nd-century corporation (now long defunct), Cordiagr has been a bountiful breadbasket for Capella and other nearby worlds for eight centuries. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,35 +17,20 @@
     "items": [
       "planet_name_cordiagr",
       "planet_size_medium",
-      "planet_climate_ice",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_comet",
+      "planet_climate_terran",
       "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
       "planet_industry_recreation",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
+      "planet_industry_aquaculture",
       "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 8,
+  "FuelingStation": true,
+  "JumpDistance": 6,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -1,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,10 +119,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "B",
+  "StarType": "G",
   "ContractEmployers": [
     "Liao",
     "Locals"

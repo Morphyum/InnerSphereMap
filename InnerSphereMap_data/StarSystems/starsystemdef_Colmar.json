@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Colmar",
     "Name": "Colmar",
-    "Details": "NOT DONE",
+    "Details": "A, hot, dry world which is nearly uninhabitable near the equator, Colmar's only reason for existing as a colony is its impressive quantities of mineral and chemical resources, buried under its silicate crust.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,20 @@
     "items": [
       "planet_name_colmar",
       "planet_size_medium",
-      "planet_climate_arctic",
+      "planet_climate_lunar",
       "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_pop_small",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_mining",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 10,
+  "FuelingStation": false,
+  "JumpDistance": 17,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -9,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "desertParched",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "B",
   "ContractEmployers": [
     "Steiner",
     "Locals"

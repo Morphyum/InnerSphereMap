@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Cork",
     "Name": "Cork",
-    "Details": "NOT DONE",
+    "Details": "The Star League's plan to terraform Cork to fully habitable status was meant to take about 300 years. The destruction of the Succession Wars ensured Cork would revert to its desolate state. Only dusty artifacts remain.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,26 +16,12 @@
   "Tags": {
     "items": [
       "planet_name_cork",
-      "planet_size_small",
-      "planet_climate_ice",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_size_medium",
+      "planet_climate_lunar",
       "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_large",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_ruins",
       "planet_faction_nofaction",
       "planet_other_empty"
@@ -43,7 +29,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -9,
+  "JumpDistance": 3,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -132,10 +118,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "0",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganRestoration",

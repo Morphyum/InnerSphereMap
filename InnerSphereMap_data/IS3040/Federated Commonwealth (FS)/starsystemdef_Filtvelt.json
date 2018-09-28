@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Filtvelt",
     "Name": "Filtvelt",
-    "Details": "NOT DONE",
+    "Details": "One of the more notable worlds in the Davion 'Outback', Filtvelt is a naturally verdant planet and an agricultural breadbasket, despite the painful decline of its industrial base and constant pirate raids.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,34 +16,22 @@
   "Tags": {
     "items": [
       "planet_name_filtvelt",
-      "planet_size_medium",
+      "planet_size_small",
       "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_rich",
+      "planet_pop_medium",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
+      "planet_other_alienvegetation",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -5,
+  "JumpDistance": 8,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -106,7 +94,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -139,7 +127,7 @@
     "badlandsParched",
     "lowlandsCoastal"
   ],
-  "StarType": "M",
+  "StarType": "G",
   "ContractEmployers": [
     "Davion",
     "Locals"

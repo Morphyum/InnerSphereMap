@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Furillo",
     "Name": "Furillo",
-    "Details": "NOT DONE",
+    "Details": "Blessed with abundant resources and a rich biosphere, Furillo was rapidly colonized during the First Exodus and has been crucial to the Lyran industrial base for centuries. It houses a set of major production facilities, including a Mech factory.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_furillo",
-      "planet_size_large",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_rings",
-      "planet_pop_medium",
-      "planet_other_megacity",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_pop_large",
       "planet_civ_innersphere",
-      "planet_industry_agriculture",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_aquaculture",
-      "planet_other_comstar",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 0,
+  "JumpDistance": 5,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +121,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "M",
+  "StarType": "K",
   "ContractEmployers": [
     "Steiner",
     "Locals"
