@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Thessalonika",
     "Name": "Thessalonika",
     "Details": "Thessalonika is a relatively poor world in terms of natural resources. Limited to a few petroleum deposits and gemstone veins, the first settlers landed here for a different feature: broad grasslands.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 74.182,
@@ -27,6 +24,17 @@
       "planet_other_comstar",
       "planet_faction_kurita"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
@@ -93,13 +101,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -110,18 +117,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched"
-  ],
+  "StarPosition": null,
   "StarType": "G",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Thessalonika",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 1,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Kurita",
     "Locals"

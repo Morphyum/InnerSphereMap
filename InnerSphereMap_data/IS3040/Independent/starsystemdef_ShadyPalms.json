@@ -3,10 +3,7 @@
     "Id": "starsystemdef_ShadyPalms",
     "Name": "Shady Palms",
     "Details": "Placed deep in the Deep Periphery astrogeographical feature known as the Orion Rift, the installation known colloquially as Shady Palms is located within the asteroid belt around the the yellow-white super giant star catalogued as SLSC F81a.0086.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 802.288,
@@ -26,6 +23,18 @@
       "planet_ruins",
       "planet_faction_locals"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lunarVacuum",
+    "martianVacuum"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -92,13 +101,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -109,19 +117,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
-  ],
+  "StarPosition": null,
   "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_ShadyPalms",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 5,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Locals",
     "Locals"

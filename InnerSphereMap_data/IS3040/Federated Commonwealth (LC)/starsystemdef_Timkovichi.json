@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Timkovichi",
     "Name": "Timkovichi",
     "Details": "A cold, tundral world at the outer edge of its star's habitable zone. There are no oceans or continents, but the surface is littered with lakes and small seas. Coniferous forests cover much of the surface.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -198.246,
@@ -29,6 +26,18 @@
       "planet_industry_aquaculture",
       "planet_faction_steiner"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -95,13 +104,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -112,19 +120,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Timkovichi",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 1,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Steiner",
     "Locals"

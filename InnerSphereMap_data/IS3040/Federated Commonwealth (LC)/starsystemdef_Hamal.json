@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Hamal",
     "Name": "Hamal",
     "Details": "Hamal was originally colonised by settlers from the highland regions of South America on Terra. Hamal have passed from a Capellan to the Federated Suns during the Fourth Succession War. Most of the population live in a tribal, nomadic fashion.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 64.875,
@@ -37,6 +34,18 @@
       "planet_ruins",
       "planet_faction_steiner"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -103,13 +112,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -120,19 +128,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
-  ],
+  "StarPosition": null,
   "StarType": "K",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Hamal",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 5,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Steiner",
     "Locals"

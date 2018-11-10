@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Verlo",
     "Name": "Verlo",
     "Details": "Constant earthquakes and volcanic eruptions shake the surface of Verlo, a highly volatile world. Rich mineral deposits exist here for those brave enough to endure the harsh climate.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 100.547,
@@ -24,6 +21,18 @@
       "planet_other_boreholes",
       "planet_faction_davion"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "martianVacuum",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -90,13 +99,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -107,19 +115,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Verlo",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 10,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Davion",
     "Locals"

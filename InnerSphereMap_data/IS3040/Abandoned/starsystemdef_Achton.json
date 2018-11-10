@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Achton",
     "Name": "Achton",
     "Details": "Achton vanished from maps during the Third Succession War, indicating that the system had been abandoned, depopulated, or rendered too insignificant to merit further recording on maps.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 632.323,
@@ -26,6 +23,18 @@
       "planet_faction_nofaction",
       "planet_other_empty"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -92,13 +101,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -109,19 +117,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
-  ],
+  "StarPosition": null,
   "StarType": "O",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Achton",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 6,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [],
   "ContractTargets": [
     "Liao",

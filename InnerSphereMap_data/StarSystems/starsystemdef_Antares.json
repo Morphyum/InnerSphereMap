@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Antares",
     "Name": "Antares",
     "Details": "A desert world of jagged rocks, there are large plateaus with steep sides. Fauna takes the shape of green geodesic domes within which colonies of small many-colored creatures live. The air is filled with organic compounds that induce hallucinations.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -124.891,
@@ -31,6 +28,17 @@
       "planet_other_alienvegetation",
       "planet_faction_steiner"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -97,13 +105,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -114,18 +121,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched"
-  ],
+  "StarPosition": null,
   "StarType": "B",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Antares",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 6,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Steiner",
     "Locals"

@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Halloran",
     "Name": "Halloran",
     "Details": "A bleak and frozen world, Halloran has nonetheless hosted considerable mining and manufacturing industries since its colonization, exporting large quantities of ice, copper, and hydrocarbons to other worlds. ",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 72.894,
@@ -29,6 +26,18 @@
       "planet_other_boreholes",
       "planet_faction_davion"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -95,13 +104,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -112,19 +120,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Halloran",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 4,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Davion",
     "Locals"

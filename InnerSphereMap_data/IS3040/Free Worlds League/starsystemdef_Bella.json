@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Bella",
     "Name": "Bella",
     "Details": "A non-descript border world between the LC and the FWL, Bella has seen it's share of battles over the centuries.  Due to this, there iws little manufacturing infrastructure on the world, in spite of reasonable mineral reserves.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -259.291,
@@ -28,6 +25,18 @@
       "planet_industry_mining",
       "planet_faction_marik"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -94,13 +103,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 6,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -111,19 +119,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
-  ],
+  "StarPosition": null,
   "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Bella",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 6,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Marik",
     "Locals"

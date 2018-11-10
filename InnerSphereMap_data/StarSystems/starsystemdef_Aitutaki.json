@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Aitutaki",
     "Name": "Aitutaki",
     "Details": "Home of the Aitutaki Academy, this economic and agricultural powerhouse was one of the main worlds of the Principality of Regulus. After the Free Worlds League took over, the planet was still a hotbed of dissent, many SAFE agents were assigned here.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -164.636,
@@ -30,6 +27,19 @@
       "planet_other_hub",
       "planet_faction_marik"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
@@ -96,13 +106,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -113,20 +122,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
-  ],
+  "StarPosition": null,
   "StarType": "K",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Aitutaki",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 7,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Marik",
     "Locals"

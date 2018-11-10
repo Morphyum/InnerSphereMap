@@ -3,10 +3,7 @@
     "Id": "starsystemdef_NovoFranklin",
     "Name": "Novo Franklin",
     "Details": "Novo Franklin is a hot, agricultural world settled in 2598 by Reunification War refugees fleeing the Outworlds Alliance. Over the next four hundred years, all of these splinter groups had developed feudal states, as many as 55 different kingdoms.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 667.892,
@@ -27,6 +24,17 @@
       "planet_ruins",
       "planet_faction_locals"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -93,13 +101,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -110,18 +117,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_NovoFranklin",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 5,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Locals",
     "Locals"

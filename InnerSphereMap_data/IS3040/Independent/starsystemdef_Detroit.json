@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Detroit",
     "Name": "Detroit",
     "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 19.15,
@@ -16,29 +13,41 @@
   "Tags": {
     "items": [
       "planet_name_detroit",
-      "planet_size_medium",
-      "planet_climate_desert",
-      "planet_other_megaforest",
+      "planet_size_small",
+      "planet_climate_lunar",
       "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
       "planet_other_storms",
       "planet_feature_asteroids",
       "planet_feature_gasgiant",
-      "planet_pop_large",
-      "planet_other_megacity",
+      "planet_pop_none",
       "planet_civ_primitive",
-      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_other_comstar",
+      "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_newcolony",
       "planet_other_prison",
       "planet_faction_locals"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -11,
+  "SupportedBiomes": [
+    "desertParched",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 5,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,13 +110,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -118,18 +126,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched"
+  "StarPosition": null,
+  "StarType": "K",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "B",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Detroit",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": -4,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Locals",
     "Locals"

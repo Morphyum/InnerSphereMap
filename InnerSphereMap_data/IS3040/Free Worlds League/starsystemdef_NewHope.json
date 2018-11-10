@@ -3,10 +3,7 @@
     "Id": "starsystemdef_NewHope",
     "Name": "New Hope",
     "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -113.194,
@@ -17,31 +14,34 @@
     "items": [
       "planet_name_newhope",
       "planet_size_large",
-      "planet_climate_arid",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
+      "planet_climate_water",
       "planet_other_fungus",
-      "planet_other_storms",
-      "planet_feature_asteroids",
       "planet_feature_comet",
       "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_medium",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_aquaculture",
+      "planet_pop_none",
       "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_pirate",
+      "planet_other_hub",
       "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "highlandsSpring"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
   "FuelingStation": true,
-  "JumpDistance": 4,
+  "JumpDistance": 1,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,13 +104,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -121,19 +120,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+  "StarPosition": null,
+  "StarType": "G",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "A",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_NewHope",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 8,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Marik",
     "Locals"

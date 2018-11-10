@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Clearfield",
     "Name": "Clearfield",
     "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 263.651,
@@ -16,31 +13,41 @@
   "Tags": {
     "items": [
       "planet_name_clearfield",
-      "planet_size_large",
-      "planet_climate_desert",
+      "planet_size_medium",
+      "planet_climate_mars",
+      "planet_other_mudflats",
       "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
+      "planet_other_stonedcaribou",
       "planet_feature_comet",
-      "planet_feature_moon01",
-      "planet_other_moon",
       "planet_pop_none",
+      "planet_other_megacity",
       "planet_civ_innersphere",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
+      "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_other_starleague",
       "planet_other_blackmarket",
       "planet_other_newcolony",
+      "planet_other_pirate",
       "planet_other_prison",
       "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -14,
+  "SupportedBiomes": [
+    "martianVacuum",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": -10,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,13 +110,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -120,18 +126,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched"
+  "StarPosition": null,
+  "StarType": "G",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "K",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Clearfield",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 8,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Kurita",
     "Locals"

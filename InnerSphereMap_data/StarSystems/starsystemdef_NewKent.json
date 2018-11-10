@@ -3,10 +3,7 @@
     "Id": "starsystemdef_NewKent",
     "Name": "New Kent",
     "Details": "New Kent is a remote world located at the spinward fringe of the Kerensky Cluster in Clan space. The world is best known for being the capital world of Clan Steel Viper. The planet is noted for its high carbon dioxide levels.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 120.807,
@@ -31,6 +28,18 @@
       "planet_ruins",
       "planet_faction_clansteelviper"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -97,13 +106,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 9,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -114,19 +122,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_NewKent",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 9,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "ClanSteelViper",
     "Locals"

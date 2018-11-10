@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Brailsford",
     "Name": "Brailsford",
     "Details": "Once described as \"Not Hell, but you can see it from here\", the large Martian like planet Brailsford would never have been colonised if it were not for it's masive mineral reserves.  It also now contains one of the Combine's largest jails.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 327.49,
@@ -30,6 +27,18 @@
       "planet_other_prison",
       "planet_faction_kurita"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "martianVacuum",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -96,13 +105,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -113,19 +121,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "martianVacuum",
-    "badlandsParched"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Brailsford",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 8,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Kurita",
     "Locals"

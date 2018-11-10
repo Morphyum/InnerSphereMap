@@ -48,12 +48,15 @@ namespace DocsToSystemJSON {
                     systemJObject = randomizeSystem(originalSystemJObject, rand);
                 }
                 newSystemJObject["Description"]["Id"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
+                newSystemJObject["CoreSystemID"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
                 newSystemJObject["Description"]["Name"] = systemJObject["PlanetName"];
                 newSystemJObject["Description"]["Details"] = systemJObject["Description"];
                 newSystemJObject["Tags"]["items"] = JArray.FromObject(createTags(systemJObject));
                 newSystemJObject["FuelingStation"] = (bool)systemJObject["RechargeStation"];
                 newSystemJObject["JumpDistance"] = systemJObject["JumpDistance"];
-                newSystemJObject["Difficulty"] = systemJObject["Difficulty"];
+                newSystemJObject["DefaultDifficulty"] = systemJObject["Difficulty"];
+                newSystemJObject["DifficultyList"] = JArray.FromObject(new List<int>());
+                newSystemJObject["DifficultyModes"] = JArray.FromObject(new List<string>());
                 newSystemJObject["StarType"] = systemJObject["StarType"];
                 newSystemJObject["Position"]["x"] = systemJObject["x"];
                 newSystemJObject["Position"]["y"] = systemJObject["y"];
@@ -70,7 +73,7 @@ namespace DocsToSystemJSON {
                 File.WriteAllText(path, newSystemJObject.ToString());
 
                 path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                if (!File.Exists(path)) {
+                if (!File.Exists(path) && !((string)newSystemJObject["Description"]["Id"]).Contains("(HBS)")) {
                     string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
                     (new FileInfo(filepath)).Directory.Create();
                     File.WriteAllText(filepath, newSystemJObject.ToString());
@@ -384,7 +387,7 @@ namespace DocsToSystemJSON {
                     }
             }
 
-            systemJObject["Difficulty"] = rand.Next(-10, 11);
+            systemJObject["Difficulty"] = rand.Next(1, 11);
             systemJObject["JumpDistance"] = rand.Next(-15, 16);
 
             systemJObject["NumberOfMoons"] = rand.Next(0, 4);

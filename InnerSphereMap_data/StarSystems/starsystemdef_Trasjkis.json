@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Trasjkis",
     "Name": "Trasjkis",
     "Details": "A small Earth-like planet with approximately half the gravity of Earth. The planet is dotted with many small islands and a large continent covers the northern polar region. Much of the exports from Trasjkis are in the form of aquatic food.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -434.348,
@@ -25,6 +22,18 @@
       "planet_industry_aquaculture",
       "planet_faction_illyrian"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -91,13 +100,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -108,19 +116,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
-  ],
+  "StarPosition": null,
   "StarType": "B",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Trasjkis",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 7,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Illyrian",
     "Locals"

@@ -12,6 +12,19 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace InnerSphereMap {
+    [HarmonyPatch(typeof(SimGameState), "InitializeDataFromDefs")]
+    public static class SimGameState_InitializeDataFromDefs_Patch {
+
+        static void Prefix(SimGameState __instance) {
+            try {
+                //TODO: SOMESOMETHINGSOMETHING FACTION STORE
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+            }
+        }
+    }
+    
 
     [HarmonyPatch(typeof(MainMenu), "Init")]
     public static class MainMenu_Init_Patch {
@@ -19,7 +32,7 @@ namespace InnerSphereMap {
         static void Prefix(MainMenu __instance) {
             try {
                 HBSRadioSet topLevelMenu = (HBSRadioSet)ReflectionHelper.GetPrivateField(__instance, "topLevelMenu");
-                topLevelMenu.RadioButtons.Find((HBSButton x) => x.GetText() == "Campaign").SetText("Sandbox");
+                topLevelMenu.RadioButtons.Find((HBSButton x) => x.GetText() == "Campaign").gameObject.SetActive(false);
             }
             catch (Exception e) {
                 Logger.LogError(e);
@@ -50,8 +63,6 @@ namespace InnerSphereMap {
 
         static void Prefix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, SimGameState ___simState) {
             try {
-                AccessTools.Method(typeof(SimGameState), "SetReputation").Invoke(___simState, new object[] { Faction.Steiner, 500, StatCollection.StatOperation.Int_Add, null });
-                AccessTools.Method(typeof(SimGameState), "SetReputation").Invoke(___simState, new object[] { Faction.Kurita, -500, StatCollection.StatOperation.Int_Add, null });
                 GameObject parent = GameObject.Find("factionsPanel");
                 if (parent != null) {
                     parent.transform.position = new Vector3(830, parent.transform.position.y, parent.transform.position.z);

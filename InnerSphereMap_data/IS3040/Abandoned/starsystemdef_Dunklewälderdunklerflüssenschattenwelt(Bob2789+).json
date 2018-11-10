@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Dunklewälderdunklerflüssenschattenwelt(Bob2789+)",
     "Name": "Dunklewälderdunklerflüssenschattenwelt (Bob 2789+)",
     "Details": "Dunklewälderdunklerflüssenschattenwelt the original name, made up when the first settlers tried some plants, was unpronouncable for everyone outside the Lyran Commonwealth. So the Planet was renamed in something everyone could pronounce... Bob....",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 440.689,
@@ -36,6 +33,18 @@
       "planet_faction_nofaction",
       "planet_other_empty"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -102,13 +111,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -119,19 +127,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen"
-  ],
+  "StarPosition": null,
   "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Dunklewälderdunklerflüssenschattenwelt(Bob2789+)",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 2,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganRestoration",

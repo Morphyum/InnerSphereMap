@@ -3,10 +3,7 @@
     "Id": "starsystemdef_NewExford",
     "Name": "New Exford",
     "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -137.281,
@@ -18,33 +15,43 @@
       "planet_name_newexford",
       "planet_size_large",
       "planet_climate_lunar",
-      "planet_other_volcanic",
+      "planet_other_megaforest",
       "planet_other_floatingworld",
       "planet_other_fungus",
+      "planet_other_stonedcaribou",
       "planet_other_storms",
       "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_feature_moon01",
+      "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_industry_research",
       "planet_other_comstar",
-      "planet_other_starleague",
       "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
       "planet_other_pirate",
       "planet_other_prison",
+      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
+  "SupportedBiomes": [
+    "desertParched",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
   "FuelingStation": true,
-  "JumpDistance": -3,
+  "JumpDistance": -1,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -107,13 +114,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -124,19 +130,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched",
-    "badlandsParched"
+  "StarPosition": null,
+  "StarType": "B",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "G",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_NewExford",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": -10,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Steiner",
     "Locals"

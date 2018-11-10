@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Kitzingen",
     "Name": "Kitzingen",
     "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -223.115,
@@ -16,29 +13,45 @@
   "Tags": {
     "items": [
       "planet_name_kitzingen",
-      "planet_size_medium",
-      "planet_climate_arid",
+      "planet_size_small",
+      "planet_climate_terran",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
       "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
+      "planet_feature_asteroids",
       "planet_feature_rings",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
-      "planet_industry_rich",
-      "planet_industry_aquaculture",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
       "planet_industry_research",
-      "planet_other_starleague",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
       "planet_other_blackmarket",
-      "planet_other_pirate",
-      "planet_ruins",
+      "planet_other_newcolony",
+      "planet_other_prison",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": -1,
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 3,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,13 +114,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 8,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -118,19 +130,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
+  "StarPosition": null,
+  "StarType": "B",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "G",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Kitzingen",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": -1,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Steiner",
     "Locals"

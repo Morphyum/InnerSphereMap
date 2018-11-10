@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Rowe",
     "Name": "Rowe",
     "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 333.189,
@@ -16,16 +13,23 @@
   "Tags": {
     "items": [
       "planet_name_rowe",
-      "planet_size_medium",
-      "planet_climate_rocky",
+      "planet_size_large",
+      "planet_climate_ice",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_mudflats",
       "planet_other_stonedcaribou",
       "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_pop_small",
-      "planet_civ_innersphere",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_other_megacity",
       "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
+      "planet_industry_research",
       "planet_other_comstar",
       "planet_other_starleague",
       "planet_other_alienvegetation",
@@ -37,8 +41,20 @@
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 1,
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 5,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,13 +117,12 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
   "TravelRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
         "items": [
-          "map_travel_3"
+          "map_travel_2a"
         ],
         "tagSetSourceFile": ""
       },
@@ -118,19 +133,32 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+  "StarPosition": null,
+  "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "0",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Rowe",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 5,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Davion",
     "Locals"
