@@ -40,7 +40,8 @@
     "lowlandsSpring",
     "lowlandsFall",
     "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],

@@ -31,7 +31,8 @@
     "lowlandsSpring",
     "lowlandsFall",
     "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -152,8 +153,12 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Steiner",
+    "Marik",
+    "Kurita",
     "Liao",
     "AuriganRestoration",
+    "ComStar",
     "MagistracyOfCanopus",
     "TaurianConcordat",
     "Outworld",

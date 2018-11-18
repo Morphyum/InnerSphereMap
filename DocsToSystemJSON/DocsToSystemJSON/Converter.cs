@@ -17,11 +17,7 @@ namespace DocsToSystemJSON {
         private string yearFolder = "/IS3025/";
         private string OriginalData;
         private bool keepKamea;
-        public static List<string> AllFactions = new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
-            "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
-            "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
-            "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
-            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates" };
+        
         public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea, bool createJumpPoints) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
@@ -37,6 +33,13 @@ namespace DocsToSystemJSON {
             }
         }
 
+        public static List<string> getAllFactions() {
+            return new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
+            "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
+            "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
+            "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates" };
+    }
         public void newMap() {
             string beginjson = File.ReadAllText(BlueprintPath);
             JObject originalJObject = JObject.Parse(beginjson);
@@ -160,6 +163,32 @@ namespace DocsToSystemJSON {
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Novgorod.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Gateway.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE1 StarClusterP12 to Colleen
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Paxon.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE2 Colleen to EC821-387D
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE3 EC821-387D to StarClusterP24
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE4 StarClusterP24 to Waystation531
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE5 Waystation531 to Granada
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Granada.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
         }
 
         private void CreateJumpPointsToTarget(float startx, float starty, float goalx, float goaly) {
@@ -183,13 +212,16 @@ namespace DocsToSystemJSON {
                         string beginjson = File.ReadAllText(BlueprintPath);
                         JObject originalJObject = JObject.Parse(beginjson);
                         JObject newSystemJObject = originalJObject;
-                        newSystemJObject["Description"]["Id"] = "starsystemdef_JumpPoint" + JumpPointCount;
+                        newSystemJObject["Description"]["Id"] = 
+                        newSystemJObject["CoreSystemID"] = "starsystemdef_JumpPoint" + JumpPointCount;
                         newSystemJObject["Description"]["Name"] = "Jump Point" + JumpPointCount;
                         newSystemJObject["Description"]["Details"] = "This system contains near to nothing. It's whole purpose is to refill your jumpdrive.";
                         newSystemJObject["Tags"]["items"] = JArray.FromObject(new List<string>{ "planet_size_small", "planet_climate_lunar", "planet_pop_none", "planet_name_"+ "Jump Point" + JumpPointCount });
                         newSystemJObject["FuelingStation"] = false;
                         newSystemJObject["JumpDistance"] = 30;
-                        newSystemJObject["Difficulty"] = -10;
+                        newSystemJObject["DefaultDifficulty"] = 1;
+                        newSystemJObject["DifficultyList"] = JArray.FromObject(new List<int>());
+                        newSystemJObject["DifficultyModes"] = JArray.FromObject(new List<string>());
                         newSystemJObject["StarType"] = "M";
                         newSystemJObject["Position"]["x"] = newx;
                         newSystemJObject["Position"]["y"] = newy;
@@ -433,6 +465,9 @@ namespace DocsToSystemJSON {
                 return false;
             }
         }
+
+        //jungleTropical
+
         public List<string> getBiomes(JObject systemJObject) {
             List<string> biomeList = new List<string>();
             if (((string)systemJObject["ClimateBiome"]).Equals("Arctic World")) {
@@ -473,11 +508,10 @@ namespace DocsToSystemJSON {
                 biomeList.Add("lowlandsFall");
                 biomeList.Add("badlandsParched");
                 biomeList.Add("lowlandsCoastal");
+                biomeList.Add("jungleTropical");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Tropical World")) {
-                biomeList.Add("lowlandsCoastal");
-                biomeList.Add("lowlandsSpring");
-                biomeList.Add("lowlandsFall");
+                biomeList.Add("jungleTropical");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Water World")) {
                 biomeList.Add("lowlandsCoastal");
@@ -906,7 +940,7 @@ namespace DocsToSystemJSON {
         }
 
         public static List<string> getTargets(string faction) {
-            List<string> targets = AllFactions;
+            List<string> targets = getAllFactions();
             if (faction.Equals("NoFaction")) {
                 return targets;
             }

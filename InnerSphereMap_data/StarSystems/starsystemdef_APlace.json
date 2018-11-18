@@ -32,7 +32,8 @@
     "lowlandsSpring",
     "lowlandsFall",
     "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -158,6 +159,7 @@
     "Davion",
     "Liao",
     "AuriganRestoration",
+    "ComStar",
     "MagistracyOfCanopus",
     "TaurianConcordat",
     "Outworld",

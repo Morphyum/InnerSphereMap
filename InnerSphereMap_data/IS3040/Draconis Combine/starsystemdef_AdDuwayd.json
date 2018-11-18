@@ -149,8 +149,12 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Steiner",
+    "Marik",
+    "Davion",
     "Liao",
     "AuriganRestoration",
+    "ComStar",
     "MagistracyOfCanopus",
     "TaurianConcordat",
     "Outworld",
@@ -188,6 +192,7 @@
     "Tortuga",
     "Valkyrate",
     "NoFaction",
+    "Locals",
     "AuriganDirectorate",
     "AuriganPirates"
   ]

@@ -29,7 +29,8 @@
     "lowlandsSpring",
     "lowlandsFall",
     "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -150,16 +151,26 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Steiner",
+    "Marik",
+    "Kurita",
+    "Davion",
     "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
     "Outworld",
+    "Marian",
     "Oberon",
     "Lothian",
     "Circinus",
     "Illyrian",
+    "Rasalhague",
     "Ives",
     "Axumite",
     "Castile",
     "Chainelane",
+    "ClanBurrock",
     "ClanCloudCobra",
     "ClanCoyote",
     "ClanDiamondShark",
@@ -179,9 +190,11 @@
     "Delphi",
     "Elysia",
     "Hanse",
+    "JarnFolk",
     "Tortuga",
     "Valkyrate",
     "NoFaction",
+    "Locals",
     "AuriganDirectorate",
     "AuriganPirates"
   ]

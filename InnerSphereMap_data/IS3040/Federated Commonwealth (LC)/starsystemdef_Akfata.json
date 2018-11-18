@@ -30,7 +30,8 @@
     "lowlandsSpring",
     "lowlandsFall",
     "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -151,9 +152,16 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Marik",
+    "Kurita",
+    "Davion",
     "Liao",
     "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
     "Outworld",
+    "Marian",
     "Oberon",
     "Lothian",
     "Circinus",
@@ -187,6 +195,7 @@
     "Tortuga",
     "Valkyrate",
     "NoFaction",
+    "Locals",
     "AuriganDirectorate",
     "AuriganPirates"
   ]

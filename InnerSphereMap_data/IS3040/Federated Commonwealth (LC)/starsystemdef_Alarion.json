@@ -36,9 +36,7 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "lowlandsSpring",
-    "lowlandsFall"
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -159,13 +157,21 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Marik",
+    "Kurita",
+    "Davion",
     "Liao",
     "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
     "Outworld",
+    "Marian",
     "Oberon",
     "Lothian",
     "Circinus",
     "Illyrian",
+    "Rasalhague",
     "Ives",
     "Axumite",
     "Castile",
@@ -194,6 +200,7 @@
     "Tortuga",
     "Valkyrate",
     "NoFaction",
+    "Locals",
     "AuriganDirectorate",
     "AuriganPirates"
   ]

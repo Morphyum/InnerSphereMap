@@ -149,9 +149,17 @@
   "DifficultyModes": [],
   "ContractEmployers": [],
   "ContractTargets": [
+    "Steiner",
+    "Marik",
+    "Kurita",
+    "Davion",
     "Liao",
     "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
     "Outworld",
+    "Marian",
     "Oberon",
     "Lothian",
     "Circinus",
@@ -185,6 +193,7 @@
     "Tortuga",
     "Valkyrate",
     "NoFaction",
+    "Locals",
     "AuriganDirectorate",
     "AuriganPirates"
   ]

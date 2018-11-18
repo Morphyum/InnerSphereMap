@@ -16,10 +16,23 @@ namespace InnerSphereMap {
     public static class SimGameState_InitializeDataFromDefs_Patch {
 
         static void Prefix(SimGameState __instance) {
+            StarSystemDef starSystemDef = null;
             try {
+                Dictionary<string, StarSystem> test = new Dictionary<string, StarSystem>();
+                foreach (string id in __instance.DataManager.SystemDefs.Keys) {
+                    starSystemDef = __instance.DataManager.SystemDefs.Get(id);
+                    if (starSystemDef.StartingSystemModes.Contains(__instance.SimGameMode)) {
+                        StarSystem starSystem = new StarSystem(starSystemDef, __instance);
+                        test.Add(starSystemDef.CoreSystemID, starSystem);
+                    }
+                }
+               
+
+               
                 //TODO: SOMESOMETHINGSOMETHING FACTION STORE
             }
             catch (Exception e) {
+                Logger.LogLine("STARSYSTEM BROKEN: " + starSystemDef.CoreSystemID);
                 Logger.LogError(e);
             }
         }

@@ -145,7 +145,17 @@
     "Locals"
   ],
   "ContractTargets": [
+    "Steiner",
+    "Marik",
+    "Kurita",
+    "Davion",
+    "Liao",
     "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Outworld",
+    "Marian",
     "Oberon",
     "Lothian",
     "Circinus",
@@ -154,6 +164,7 @@
     "Axumite",
     "Castile",
     "Chainelane",
+    "ClanBurrock",
     "ClanCloudCobra",
     "ClanCoyote",
     "ClanDiamondShark",
@@ -173,9 +184,11 @@
     "Delphi",
     "Elysia",
     "Hanse",
+    "JarnFolk",
     "Tortuga",
     "Valkyrate",
     "NoFaction",
+    "Locals",
     "AuriganDirectorate",
     "AuriganPirates"
   ]
