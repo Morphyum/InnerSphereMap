@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Skondia",
     "Name": "Skondia",
     "Details": "Skondia possesses abundant deposits of rare metals and minerals. Skondia produces nickel-alloys, titanium, and steel, used in everything from forks to fusion reactors. Ownership has changed hands multiple times over the course of the Succession Wars.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": -31.803,
@@ -32,6 +29,18 @@
       "planet_other_hub",
       "planet_faction_kurita"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "badlandsParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
@@ -98,7 +107,6 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -115,25 +123,82 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "lowlandsCoastal",
-    "badlandsParched"
-  ],
+  "StarPosition": null,
   "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Skondia",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 2,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Kurita",
     "Locals"
   ],
   "ContractTargets": [
-    "AuriganPirates",
-    "AuriganRestoration"
+    "Steiner",
+    "Marik",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Outworld",
+    "Marian",
+    "Oberon",
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Rasalhague",
+    "Ives",
+    "Axumite",
+    "Castile",
+    "Chainelane",
+    "ClanBurrock",
+    "ClanCloudCobra",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGhostBear",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClanNovaCat",
+    "ClansGeneric",
+    "ClanSmokeJaguar",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Delphi",
+    "Elysia",
+    "Hanse",
+    "JarnFolk",
+    "Tortuga",
+    "Valkyrate",
+    "NoFaction",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

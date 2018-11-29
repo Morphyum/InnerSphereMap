@@ -3,10 +3,7 @@
     "Id": "starsystemdef_Ashkum",
     "Name": "Ashkum",
     "Details": "Ashkum is a minor planet on the Fed/Capellan border.  Recently conquered by the Feds, it remains a typical \"border world\" - underdeveloped and over garisoned.",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Icon": ""
   },
   "Position": {
     "x": 111.924,
@@ -27,6 +24,17 @@
       "planet_industry_mining",
       "planet_faction_davion"
     ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
@@ -93,7 +101,6 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -110,27 +117,82 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "desertParched"
-  ],
+  "StarPosition": null,
   "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
+  ],
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Ashkum",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 10,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Davion",
     "Locals"
   ],
   "ContractTargets": [
-    "AuriganPirates",
+    "Steiner",
+    "Marik",
+    "Kurita",
+    "Liao",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Outworld",
+    "Marian",
+    "Oberon",
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Rasalhague",
+    "Ives",
+    "Axumite",
+    "Castile",
+    "Chainelane",
+    "ClanBurrock",
+    "ClanCloudCobra",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGhostBear",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClanNovaCat",
+    "ClansGeneric",
+    "ClanSmokeJaguar",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Delphi",
+    "Elysia",
+    "Hanse",
+    "JarnFolk",
+    "Tortuga",
+    "Valkyrate",
+    "NoFaction",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

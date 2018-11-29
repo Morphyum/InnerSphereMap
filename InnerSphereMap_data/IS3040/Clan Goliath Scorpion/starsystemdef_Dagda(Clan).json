@@ -2,11 +2,8 @@
   "Description": {
     "Id": "starsystemdef_Dagda(Clan)",
     "Name": "Dagda (Clan)",
-    "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Details": "The Dagda system consists of an F9V class primary named \"Tuath\" orbited by eight worlds.",
+    "Icon": ""
   },
   "Position": {
     "x": -132.266,
@@ -16,32 +13,37 @@
   "Tags": {
     "items": [
       "planet_name_dagda(clan)",
-      "planet_size_large",
-      "planet_climate_rocky",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
+      "planet_size_small",
+      "planet_climate_ice",
+      "planet_other_volcanic",
       "planet_other_taintedair",
       "planet_feature_moon02",
       "planet_other_moon",
-      "planet_pop_none",
-      "planet_other_megacity",
+      "planet_pop_small",
+      "planet_civ_innersphere",
       "planet_industry_rich",
-      "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_ruins"
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_faction_clangoliathscorpion"
     ],
     "tagSetSourceFile": ""
   },
+  "SupportedBiomes": [
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
   "FuelingStation": false,
-  "JumpDistance": 2,
-  "Owner": "Locals",
+  "JumpDistance": 4,
+  "Owner": "ClanGoliathScorpion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -103,7 +105,6 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -120,26 +121,82 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+  "StarPosition": null,
+  "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "G",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Dagda(Clan)",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 10,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
-    "Locals",
+    "ClanGoliathScorpion",
     "Locals"
   ],
   "ContractTargets": [
-    "AuriganPirates",
+    "Steiner",
+    "Marik",
+    "Kurita",
+    "Davion",
+    "Liao",
     "AuriganRestoration",
-    "MajestyMetals"
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Outworld",
+    "Marian",
+    "Oberon",
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Rasalhague",
+    "Ives",
+    "Axumite",
+    "Castile",
+    "Chainelane",
+    "ClanBurrock",
+    "ClanCloudCobra",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGhostBear",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClanNovaCat",
+    "ClansGeneric",
+    "ClanSmokeJaguar",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Delphi",
+    "Elysia",
+    "Hanse",
+    "JarnFolk",
+    "Tortuga",
+    "Valkyrate",
+    "NoFaction",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

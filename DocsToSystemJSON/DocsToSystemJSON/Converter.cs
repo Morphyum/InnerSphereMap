@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using BattleTech;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,19 +8,17 @@ namespace DocsToSystemJSON {
 
 
     class Converter {
+        private int JumpPointCount = 0;
         private JArray universeDataJArray;
         private string OutputPath;
         private string BlueprintPath;
         private bool is3040;
+        private bool createJumpPoints;
         private string yearFolder = "/IS3025/";
         private string OriginalData;
         private bool keepKamea;
-        public static List<string> AllFactions = new List<string>() { "ComStar","Betrayers","AuriganDirectorate","AuriganMercenaries","AuriganPirates","AuriganRestoration",
-                        "Davion","Kurita","Liao","Locals", "MagistracyCentrella",
-                        "MagistracyOfCanopus","MajestyMetals", "Marik","Nautilus",
-                        "Steiner","TaurianConcordat" };
-
-        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea) {
+        
+        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea, bool createJumpPoints) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
             this.universeDataJArray = (JArray)jobject[arrayName];
@@ -28,11 +27,19 @@ namespace DocsToSystemJSON {
             this.is3040 = is3040;
             this.OriginalData = OriginalData;
             this.keepKamea = keepKamea;
+            this.createJumpPoints = createJumpPoints;
             if (is3040) {
                 this.yearFolder = "/IS3040/";
             }
         }
 
+        public static List<string> getAllFactions() {
+            return new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
+            "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
+            "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
+            "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates" };
+    }
         public void newMap() {
             string beginjson = File.ReadAllText(BlueprintPath);
             JObject originalJObject = JObject.Parse(beginjson);
@@ -44,12 +51,15 @@ namespace DocsToSystemJSON {
                     systemJObject = randomizeSystem(originalSystemJObject, rand);
                 }
                 newSystemJObject["Description"]["Id"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
+                newSystemJObject["CoreSystemID"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
                 newSystemJObject["Description"]["Name"] = systemJObject["PlanetName"];
                 newSystemJObject["Description"]["Details"] = systemJObject["Description"];
                 newSystemJObject["Tags"]["items"] = JArray.FromObject(createTags(systemJObject));
-                newSystemJObject["FuelingStation"] = systemJObject["RechargeStation"];
+                newSystemJObject["FuelingStation"] = (bool)systemJObject["RechargeStation"];
                 newSystemJObject["JumpDistance"] = systemJObject["JumpDistance"];
-                newSystemJObject["Difficulty"] = systemJObject["Difficulty"];
+                newSystemJObject["DefaultDifficulty"] = systemJObject["Difficulty"];
+                newSystemJObject["DifficultyList"] = JArray.FromObject(new List<int>());
+                newSystemJObject["DifficultyModes"] = JArray.FromObject(new List<string>());
                 newSystemJObject["StarType"] = systemJObject["StarType"];
                 newSystemJObject["Position"]["x"] = systemJObject["x"];
                 newSystemJObject["Position"]["y"] = systemJObject["y"];
@@ -66,7 +76,7 @@ namespace DocsToSystemJSON {
                 File.WriteAllText(path, newSystemJObject.ToString());
 
                 path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                if (!File.Exists(OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json")) {
+                if (!File.Exists(path) && !((string)newSystemJObject["Description"]["Id"]).Contains("(HBS)")) {
                     string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
                     (new FileInfo(filepath)).Directory.Create();
                     File.WriteAllText(filepath, newSystemJObject.ToString());
@@ -75,8 +85,171 @@ namespace DocsToSystemJSON {
             if (keepKamea) {
                 switchToRestauration();
             }
+            if (createJumpPoints) {
+                CreateJumpPoints();
+            }
         }
 
+        private void CreateJumpPoints() {
+            DirectoryInfo d = new DirectoryInfo(OriginalData);
+
+            //Axumite Viroflay to Thala
+            JObject startJOBject = JObject.Parse(File.ReadAllText(OutputPath+ "/StarSystems/starsystemdef_Viroflay.json"));
+            JObject goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Thala.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Hanse ChaineCluster to Stralsund
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_ChaineCluster.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Stralsund.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Castille _Novgorod to Asturias
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Novgorod.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Asturias.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //JarnFolk Nowhere to Ålborg
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Nowhere.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Ålborg.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Delphi Rover to Dania
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Rover.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Dania.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Tortuga Ulvskollen to NewPortRoyal
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Ulvskollen.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_NewPortRoyal.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS1 Cabanatuan to Columbus
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Cabanatuan.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS2 Columbus to Salonika
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+
+            //EXODUS3 Salonika to StarClusterA51
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS4 StarClusterA51 to StarClusterP12
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //EXODUS5 StarClusterP12 to Arcadia
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Arcadia(Clan).json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Clans Arcadia to Shadow
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Arcadia(Clan).json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Shadow.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Hanse Noise1 Wismar to Greifswald
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Wismar.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Greifswald.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //Hanse Noise2 Novgorod to Gateway
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Novgorod.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Gateway.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE1 StarClusterP12 to Colleen
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Paxon.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE2 Colleen to EC821-387D
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE3 EC821-387D to StarClusterP24
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE4 StarClusterP24 to Waystation531
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+            //SHARKROUTE5 Waystation531 to Granada
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Granada.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+
+        }
+
+        private void CreateJumpPointsToTarget(float startx, float starty, float goalx, float goaly) {
+            
+            Random rand = new Random();
+            while(GetDistanceInLY(startx, starty, goalx, goaly) > 50) {
+                JumpPointCount++;
+                bool created = false;
+                while (!created) {
+                    float newx;
+                    float newy;
+                    if (startx < goalx)
+                        newx = startx + rand.Next(10, 51);
+                    else
+                        newx = startx - rand.Next(10, 51);
+                    if (starty < goaly)
+                        newy = starty + rand.Next(10, 51);
+                    else
+                        newy = starty - rand.Next(10, 51);
+                    if (GetDistanceInLY(startx, starty, newx, newy) < 50) {
+                        string beginjson = File.ReadAllText(BlueprintPath);
+                        JObject originalJObject = JObject.Parse(beginjson);
+                        JObject newSystemJObject = originalJObject;
+                        newSystemJObject["Description"]["Id"] = 
+                        newSystemJObject["CoreSystemID"] = "starsystemdef_JumpPoint" + JumpPointCount;
+                        newSystemJObject["Description"]["Name"] = "Jump Point" + JumpPointCount;
+                        newSystemJObject["Description"]["Details"] = "This system contains near to nothing. It's whole purpose is to refill your jumpdrive.";
+                        newSystemJObject["Tags"]["items"] = JArray.FromObject(new List<string>{ "planet_size_small", "planet_climate_lunar", "planet_pop_none", "planet_name_"+ "Jump Point" + JumpPointCount });
+                        newSystemJObject["FuelingStation"] = false;
+                        newSystemJObject["JumpDistance"] = 30;
+                        newSystemJObject["DefaultDifficulty"] = 1;
+                        newSystemJObject["DifficultyList"] = JArray.FromObject(new List<int>());
+                        newSystemJObject["DifficultyModes"] = JArray.FromObject(new List<string>());
+                        newSystemJObject["StarType"] = "M";
+                        newSystemJObject["Position"]["x"] = newx;
+                        newSystemJObject["Position"]["y"] = newy;
+                        newSystemJObject["Owner"] = "NoFaction";
+                        newSystemJObject["ContractEmployers"] = JArray.FromObject(getEmployees("NoFaction"));
+                        newSystemJObject["ContractTargets"] = JArray.FromObject(getTargets("NoFaction"));
+                        newSystemJObject["SupportedBiomes"] = JArray.FromObject(new List<string> { "lunarVacuum", "martianVacuum" });
+                        string path = OutputPath + yearFolder + "JumpPoints" + "/" + newSystemJObject["Description"]["Id"] + ".json";
+                        (new FileInfo(path)).Directory.Create();
+                        File.WriteAllText(path, newSystemJObject.ToString());
+
+                        path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
+                        if (!File.Exists(path)) {
+                            string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
+                            (new FileInfo(filepath)).Directory.Create();
+                            File.WriteAllText(filepath, newSystemJObject.ToString());
+                        }
+                        startx = newx;
+                        starty = newy;
+                        created = true;
+                    }
+                }
+            }
+        }
+
+        public static double GetDistanceInLY(float x1, float y1, float x2, float y2) {
+            return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+        }
         public void switchToRestauration() {
             DirectoryInfo d = new DirectoryInfo(OriginalData);
             foreach (var file in d.GetFiles("*.json")) {
@@ -246,7 +419,7 @@ namespace DocsToSystemJSON {
                     }
             }
 
-            systemJObject["Difficulty"] = rand.Next(-10, 11);
+            systemJObject["Difficulty"] = rand.Next(1, 11);
             systemJObject["JumpDistance"] = rand.Next(-15, 16);
 
             systemJObject["NumberOfMoons"] = rand.Next(0, 4);
@@ -285,12 +458,16 @@ namespace DocsToSystemJSON {
             return systemJObject;
         }
         public bool randomBool(Random rand) {
-            if(rand.Next(0,2) == 1) {
+            if (rand.Next(0, 2) == 1) {
                 return true;
-            } else {
+            }
+            else {
                 return false;
             }
         }
+
+        //jungleTropical
+
         public List<string> getBiomes(JObject systemJObject) {
             List<string> biomeList = new List<string>();
             if (((string)systemJObject["ClimateBiome"]).Equals("Arctic World")) {
@@ -331,11 +508,10 @@ namespace DocsToSystemJSON {
                 biomeList.Add("lowlandsFall");
                 biomeList.Add("badlandsParched");
                 biomeList.Add("lowlandsCoastal");
+                biomeList.Add("jungleTropical");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Tropical World")) {
-                biomeList.Add("lowlandsCoastal");
-                biomeList.Add("lowlandsSpring");
-                biomeList.Add("lowlandsFall");
+                biomeList.Add("jungleTropical");
             }
             else if (((string)systemJObject["ClimateBiome"]).Equals("Water World")) {
                 biomeList.Add("lowlandsCoastal");
@@ -367,47 +543,79 @@ namespace DocsToSystemJSON {
                 case "Aurigan Coalition":
                     return "AuriganRestoration";
                 case "ComStar":
-                    if (is3040) {
-                        return "Locals";
-                    }
-                    else {
-                        return "ComStar";
-                    }
+                    return "ComStar";
                 case "Magistracy of Canopus":
                     return "MagistracyOfCanopus";
                 case "Taurian Concordat":
                     return "TaurianConcordat";
                 case "Outworlds Alliance":
-                    return "Betrayers";
+                    return "Outworld";
                 case "Marian Hegemony":
-                    return "AuriganDirectorate";
+                    return "Marian";
                 case "Oberon Confederation":
-                    return "MagistracyCentrella";
+                    return "Oberon";
                 case "Lothian League":
-                    return "MajestyMetals";
+                    return "Lothian";
                 case "Circinus Federation":
-                    return "Nautilus";
+                    return "Circinus";
                 case "Illyrian Palatinate":
-                    if (is3040) {
-                        return "Locals";
-                    }
-                    else {
-                        return "AuriganMercenaries";
-                    }
+                    return "Illyrian";
                 case "Free Rasalhague Republic":
-                    if (is3040) {
-                        return "AuriganMercenaries";
-                    }
-                    else {
-                        return "Locals";
-                    }
+                    return "Rasalhague";
                 case "St. Ives Compact":
-                    if (is3040) {
-                        return "ComStar";
-                    }
-                    else {
-                        return "Locals";
-                    }
+                    return "Ives";
+                case "Axumite Providence":
+                    return "Axumite";
+                case "Nueva Castile":
+                    return "Castile";
+                case "Chainelane Isles":
+                    return "Chainelane";
+                case "Clan Burrock":
+                    return "ClanBurrock";
+                case "Clan Cloud Cobra":
+                    return "ClanCloudCobra";
+                case "Clan Coyote":
+                    return "ClanCoyote";
+                case "Clan Diamond Shark":
+                    return "ClanDiamondShark";
+                case "Clan Fire Mandrill":
+                    return "ClanFireMandrill";
+                case "Clan Ghost Bear":
+                    return "ClanGhostBear";
+                case "Clan Goliath Scorpion":
+                    return "ClanGoliathScorpion";
+                case "Clan Hell's Horses":
+                    return "ClanHellsHorses";
+                case "Clan Ice Hellion":
+                    return "ClanIceHellion";
+                case "Clan Jade Falcon":
+                    return "ClanJadeFalcon";
+                case "Clan Nova Cat":
+                    return "ClanNovaCat";
+                case "Clans":
+                    return "ClansGeneric";
+                case "Clan Smoke Jaguar":
+                    return "ClanSmokeJaguar";
+                case "Clan Snow Raven":
+                    return "ClanSnowRaven";
+                case "Clan Star Adder":
+                    return "ClanStarAdder";
+                case "Clan Steel Viper":
+                    return "ClanSteelViper";
+                case "Clan Wolf":
+                    return "ClanWolf";
+                case "New Delphi Compact":
+                    return "Delphi";
+                case "Elysian Fields":
+                    return "Elysia";
+                case "Hanseatic League":
+                    return "Hanse";
+                case "JarnFolk":
+                    return "JarnFolk";
+                case "Tortuga Dominions":
+                    return "Tortuga";
+                case "Greater Valkyrate":
+                    return "Valkyrate";
                 case "Abandoned":
                     return "NoFaction";
                 case "Undiscovered":
@@ -424,7 +632,7 @@ namespace DocsToSystemJSON {
             List<string> tagList = new List<string>();
 
             //Nametag
-            tagList.Add("planet_name_" + ((string)systemJObject["PlanetName"]).Replace(" ","").ToLower());
+            tagList.Add("planet_name_" + ((string)systemJObject["PlanetName"]).Replace(" ", "").ToLower());
 
             //planetSize
             if (((string)systemJObject["Gravity"]).Equals("Medium Gravity Planet")) {
@@ -567,7 +775,8 @@ namespace DocsToSystemJSON {
                 else if (((string)systemJObject["Population"]).Equals("Less Than A Million")) {
                     tagList.Add("planet_pop_none");
                 }
-            } else {
+            }
+            else {
                 tagList.Add("planet_pop_none");
             }
 
@@ -596,7 +805,8 @@ namespace DocsToSystemJSON {
                 else if (((string)systemJObject["TechLevel"]).Equals("Primitive Civilization")) {
                     tagList.Add("planet_civ_primitive");
                 }
-            } else {
+            }
+            else {
                 tagList.Add("planet_civ_primitive");
             }
 
@@ -711,66 +921,10 @@ namespace DocsToSystemJSON {
             }
 
             //FactionTag
-            switch ((string)systemJObject[year]) {
-                case "Lyran Commonwealth":
-                    tagList.Add("planet_faction_steiner");
-                    break;
-                case "Federated Commonwealth (LC)":
-                    tagList.Add("planet_faction_steiner");
-                    break;
-                case "Free Worlds League":
-                    tagList.Add("planet_faction_marik");
-                    break;
-                case "Draconis Combine":
-                    tagList.Add("planet_faction_kurita");
-                    break;
-                case "Federated Suns":
-                    tagList.Add("planet_faction_davion");
-                    break;
-                case "Federated Commonwealth (FS)":
-                    tagList.Add("planet_faction_davion");
-                    break;
-                case "Capellan Confederation":
-                    tagList.Add("planet_faction_liao");
-                    break;
-                case "Aurigan Coalition":
-                    tagList.Add("planet_faction_restoration");
-                    break;
-                case "ComStar":
-                    tagList.Add("planet_civ_innersphere");
-                    break;
-                case "Magistracy of Canopus":
-                    tagList.Add("planet_faction_magistracy");
-                    break;
-                case "Taurian Concordat":
-                    tagList.Add("planet_faction_taurian");
-                    break;
-                case "Outworlds Alliance":
-                    tagList.Add("planet_faction_outworlds");
-                    break;
-                case "Marian Hegemony":
-                    tagList.Add("planet_faction_marian");
-                    break;
-                case "Oberon Confederation":
-                    tagList.Add("planet_faction_oberon");
-                    break;
-                case "Lothian League":
-                    tagList.Add("planet_faction_lothian");
-                    break;
-                case "Circinus Federation":
-                    tagList.Add("planet_faction_circinus");
-                    break;
-                case "Illyrian Palatinate":
-                    tagList.Add("planet_faction_illyrian");
-                    break;
-                case "Abandoned":
-                    tagList.Add("planet_other_empty");
-                    break;
-                case "Undiscovered":
-                    tagList.Add("planet_other_empty");
-                    break;
-                default:
-                    break;
+            string owner = getOwner(systemJObject);
+            tagList.Add(GetFactionTag((Faction)Enum.Parse(typeof(Faction), owner)));
+            if ((Faction)Enum.Parse(typeof(Faction), owner) == Faction.NoFaction) {
+                tagList.Add("planet_other_empty");
             }
             return tagList;
         }
@@ -786,7 +940,7 @@ namespace DocsToSystemJSON {
         }
 
         public static List<string> getTargets(string faction) {
-            List<string> targets = AllFactions;
+            List<string> targets = getAllFactions();
             if (faction.Equals("NoFaction")) {
                 return targets;
             }
@@ -794,5 +948,8 @@ namespace DocsToSystemJSON {
             return targets;
         }
 
+        public static string GetFactionTag(Faction faction) {
+            return "planet_faction_" + faction.ToString().ToLower();
+        }
     }
 }

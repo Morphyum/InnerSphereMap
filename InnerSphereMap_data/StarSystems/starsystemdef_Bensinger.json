@@ -2,11 +2,8 @@
   "Description": {
     "Id": "starsystemdef_Bensinger",
     "Name": "Bensinger",
-    "Details": "NOT DONE",
-    "Icon": "",
-    "Cost": 0,
-    "Rarity": 0,
-    "Purchasable": false
+    "Details": "Although Bensinger has been part of the Commonwealth for nearly 300 years, the planet has always had the undertone of rebellion since the days of the Rimworld Republic.  Otherwise, it is a self-sufficient world with a moderate manufacturing base.",
+    "Icon": ""
   },
   "Position": {
     "x": -128.757,
@@ -16,31 +13,42 @@
   "Tags": {
     "items": [
       "planet_name_bensinger",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_megaforest",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
+      "planet_size_medium",
+      "planet_climate_terran",
       "planet_feature_moon02",
       "planet_other_moon",
       "planet_pop_large",
-      "planet_industry_poor",
-      "planet_industry_recreation",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
       "planet_industry_mining",
+      "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_boreholes",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
+      "planet_industry_manufacturing",
+      "planet_other_blackmarket",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal",
+    "jungleTropical"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
   "FuelingStation": false,
-  "JumpDistance": -3,
+  "JumpDistance": 8,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +111,6 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -120,28 +127,82 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+  "StarPosition": null,
+  "StarType": "K",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_TaurianConcordat",
+    "itemCollection_shop_industrial",
+    "itemCollection_shop_research"
   ],
-  "StarType": "B",
+  "FactionShopOwner": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_faction_TaurianConcordat"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Bensinger",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 8,
+  "DifficultyList": [],
+  "DifficultyModes": [],
   "ContractEmployers": [
     "Steiner",
     "Locals"
   ],
   "ContractTargets": [
-    "AuriganPirates",
+    "Marik",
+    "Kurita",
+    "Davion",
+    "Liao",
     "AuriganRestoration",
-    "MagistracyCentrella",
-    "MajestyMetals",
-    "Nautilus"
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Outworld",
+    "Marian",
+    "Oberon",
+    "Lothian",
+    "Circinus",
+    "Illyrian",
+    "Rasalhague",
+    "Ives",
+    "Axumite",
+    "Castile",
+    "Chainelane",
+    "ClanBurrock",
+    "ClanCloudCobra",
+    "ClanCoyote",
+    "ClanDiamondShark",
+    "ClanFireMandrill",
+    "ClanGhostBear",
+    "ClanGoliathScorpion",
+    "ClanHellsHorses",
+    "ClanIceHellion",
+    "ClanJadeFalcon",
+    "ClanNovaCat",
+    "ClansGeneric",
+    "ClanSmokeJaguar",
+    "ClanSnowRaven",
+    "ClanStarAdder",
+    "ClanSteelViper",
+    "ClanWolf",
+    "Delphi",
+    "Elysia",
+    "Hanse",
+    "JarnFolk",
+    "Tortuga",
+    "Valkyrate",
+    "NoFaction",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
   ]
 }

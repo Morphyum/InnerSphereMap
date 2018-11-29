@@ -7,8 +7,9 @@
         static string originalData = "C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets/data/starsystem";
 
         static void Main(string[] args) {
-            Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, true, originalData, true);
+            Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, true, originalData, false, true);
             converter.newMap();
+
         }
     }
 }
