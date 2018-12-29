@@ -76,41 +76,66 @@ namespace InnerSphereMap {
 
         static void Prefix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, SimGameState ___simState) {
             try {
-                GameObject parent = GameObject.Find("factionsPanel");
+                GameObject parent = GameObject.Find("factionsPanel_V2");
                 if (parent != null) {
-                    parent.transform.position = new Vector3(830, parent.transform.position.y, parent.transform.position.z);
-                    GameObject.Find("deco (1)").active = false;
-                    parent.transform.parent.FindRecursive("bracket-btm").gameObject.active = false;
-                    GridLayoutGroup grid = parent.GetComponent<GridLayoutGroup>();
-                    grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
-                    grid.constraintCount = 5;
-                    grid.spacing = new Vector2(0, 0);
-                    grid.cellSize = new Vector2(275, grid.cellSize.y);
-                    grid.childAlignment = TextAnchor.UpperLeft;
-                    GameObject primeWidget = ___FactionPanelWidgets[0].gameObject;
-                    ___FactionPanelWidgets.Clear();
-                    for (int i = 0; i < ___simState.displayedFactions.Count; i++) {
-                        GameObject newwidget = GameObject.Instantiate(primeWidget);
-                        newwidget.transform.parent = primeWidget.transform.parent;
-                        newwidget.name = "NewWidget";
-                        newwidget.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-                        newwidget.transform.position = new Vector3(newwidget.transform.position.x, 200, newwidget.transform.position.z);
-                        RectTransform score = newwidget.transform.FindRecursive("factionScore-text").GetComponent<RectTransform>();
-                        score.localPosition = new Vector3(0, score.localPosition.y, score.localPosition.z);
-                        RectTransform bar = newwidget.transform.FindRecursive("factionBar_Layout").GetComponent<RectTransform>();
-                        bar.sizeDelta = new Vector2(125, bar.sizeDelta.y);
-                        RectTransform negative = newwidget.transform.FindRecursive("faction_Negativefill_moveThisNegative").GetComponent<RectTransform>();
-                        negative.localPosition = new Vector3(0, 0, 0);
-                        negative.sizeDelta = new Vector2(64, 0);
-                        RectTransform positive = newwidget.transform.FindRecursive("faction_Positivefill_moveThisPositive").GetComponent<RectTransform>();
-                        positive.localPosition = new Vector3(0, 0, 0);
-                        positive.sizeDelta = new Vector2(64, 0);
-                        RectTransform square = newwidget.transform.FindRecursive("squaresPanel").GetComponent<RectTransform>();
-                        square.localPosition = new Vector3(18, square.localPosition.y, square.localPosition.z);
-                        SGFactionReputationWidget newSGWidget = newwidget.GetComponent<SGFactionReputationWidget>();
-                        ___FactionPanelWidgets.Add(newSGWidget);
+                    parent.transform.position = new Vector3(830, 670, parent.transform.position.z);
+                    Transform factionHeader = parent.transform.FindRecursive("factionHeader");
+                    factionHeader.localPosition = new Vector3(factionHeader.localPosition.x, 250, factionHeader.localPosition.z);
+                    GameObject restPanel = GameObject.Find("RestorationRepPanel");
+                    if (restPanel != null) {
+                        restPanel.active = false;
+                    } 
+                    GameObject superParent = GameObject.Find("uixPrfPanl_captainsQuarters_Reputation-Panel_V2(Clone)");
+                    if (superParent != null) {
+                        GameObject bgfill = superParent.transform.FindRecursive("bgFill").gameObject;
+                        if(bgfill != null) {
+                            bgfill.active = false;
+                        } 
                     }
-                    foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationWidget-MANAGED")) {
+                    GameObject MRBRep = GameObject.Find("uixPrfPanl_AA_MercBoardReputationPanel-MANAGED");
+                    if (MRBRep != null) {
+                        MRBRep.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                        MRBRep.transform.localPosition = new Vector3(0, 390, MRBRep.transform.localPosition.z);
+                    }
+                    GridLayoutGroup grid = parent.GetComponent<GridLayoutGroup>();
+                    if (grid != null) {
+                        grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+                        grid.constraintCount = 5;
+                        grid.spacing = new Vector2(0, 0);
+                        grid.cellSize = new Vector2(275, grid.cellSize.y);
+                        grid.childAlignment = TextAnchor.UpperLeft;
+                    }
+                    GameObject primeWidget = ___FactionPanelWidgets[0].gameObject;
+                    if (___FactionPanelWidgets.Count < ___simState.displayedFactions.Count) {
+                        ___FactionPanelWidgets.Clear();
+                        for (int i = 0; i < ___simState.displayedFactions.Count; i++) {
+                            GameObject newwidget = GameObject.Instantiate(primeWidget);
+                            newwidget.transform.parent = primeWidget.transform.parent;
+                            newwidget.name = "NewWidget";
+                            newwidget.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                            newwidget.transform.position = new Vector3(newwidget.transform.position.x, 200, newwidget.transform.position.z);
+                            RectTransform repText = newwidget.transform.FindRecursive("classification-text").GetComponent<RectTransform>();
+                            repText.localPosition = new Vector3(0, repText.localPosition.y, repText.localPosition.z);
+                            RectTransform bar = newwidget.transform.FindRecursive("factionBar_Layout").GetComponent<RectTransform>();
+                            bar.sizeDelta = new Vector2(125, bar.sizeDelta.y);
+                            RectTransform score = newwidget.transform.FindRecursive("RepScore-text").GetComponent<RectTransform>();
+                            score.localPosition = new Vector3(120, score.localPosition.y, score.localPosition.z);
+                            RectTransform negative = newwidget.transform.FindRecursive("faction_Negativefill_moveThisNegative").GetComponent<RectTransform>();
+                            negative.localPosition = new Vector3(0, 0, 0);
+                            negative.sizeDelta = new Vector2(64, 0);
+                            RectTransform allianceButton = newwidget.transform.FindRecursive("OBJ_allianceButtons").GetComponent<RectTransform>();
+                            allianceButton.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
+                            allianceButton.transform.FindRecursive("connectorH").gameObject.active = false;
+                            RectTransform positive = newwidget.transform.FindRecursive("faction_Positivefill_moveThisPositive").GetComponent<RectTransform>();
+                            positive.localPosition = new Vector3(0, 0, 0);
+                            positive.sizeDelta = new Vector2(64, 0);
+                            /*RectTransform square = newwidget.transform.FindRecursive("squaresPanel").GetComponent<RectTransform>();
+                            square.localPosition = new Vector3(18, square.localPosition.y, square.localPosition.z);*/
+                            SGFactionReputationWidget newSGWidget = newwidget.GetComponent<SGFactionReputationWidget>();
+                            ___FactionPanelWidgets.Add(newSGWidget);
+                        }
+                    }
+                    foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationBidirectionalWidget-MANAGED")) {
                         go.active = false;
                     }
                 }
