@@ -9,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace InnerSphereMap {
@@ -74,8 +75,11 @@ namespace InnerSphereMap {
     [HarmonyPatch(typeof(SGCaptainsQuartersReputationScreen), "RefreshWidgets")]
     public static class SGCaptainsQuartersReputationScreen_RefreshWidgets {
 
-        static void Prefix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, SimGameState ___simState) {
+        static void Prefix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, ref SimGameState ___simState) {
             try {
+                if (!___simState.displayedFactions.Contains(Faction.AuriganDirectorate)) {
+                    ___simState.displayedFactions.Add(Faction.AuriganDirectorate);
+                }
                 GameObject parent = GameObject.Find("factionsPanel_V2");
                 if (parent != null) {
                     parent.transform.position = new Vector3(830, 670, parent.transform.position.z);
@@ -106,9 +110,9 @@ namespace InnerSphereMap {
                         grid.childAlignment = TextAnchor.UpperLeft;
                     }
                     GameObject primeWidget = ___FactionPanelWidgets[0].gameObject;
-                    if (___FactionPanelWidgets.Count < ___simState.displayedFactions.Count) {
+                    if (___FactionPanelWidgets.Count < ___simState.displayedFactions.Count + 1) {
                         ___FactionPanelWidgets.Clear();
-                        for (int i = 0; i < ___simState.displayedFactions.Count; i++) {
+                        for (int i = 0; i < ___simState.displayedFactions.Count + 1; i++) {
                             GameObject newwidget = GameObject.Instantiate(primeWidget);
                             newwidget.transform.parent = primeWidget.transform.parent;
                             newwidget.name = "NewWidget";
@@ -138,6 +142,21 @@ namespace InnerSphereMap {
                     foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationBidirectionalWidget-MANAGED")) {
                         go.active = false;
                     }
+                }
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+
+            }
+        }
+
+        static void Postfix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, SimGameState ___simState) {
+            try {
+                FactionDef factionDef;
+                if (___simState.FactionsDict.TryGetValue(Faction.AuriganRestoration, out factionDef)) {
+                    ___FactionPanelWidgets[___FactionPanelWidgets.Count-1].gameObject.SetActive(true);
+                    ___FactionPanelWidgets[___FactionPanelWidgets.Count-1].Init(___simState, Faction.AuriganRestoration, new UnityAction(__instance.RefreshWidgets), false);
+
                 }
             }
             catch (Exception e) {
@@ -629,6 +648,32 @@ namespace InnerSphereMap {
         static void Postfix(SimGameState __instance, ref bool __result, Faction fac) {
             try {
                 __result = fac != Faction.MercenaryReviewBoard && fac != Faction.NoFaction && fac != Faction.Locals;
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(SimGameState), "PossibleToEverAllyWithFaction")]
+    public static class SimGameState_PossibleToEverAllyWithFaction {
+
+        static void Postfix(SimGameState __instance, ref bool __result, Faction faction) {
+            try {
+                __result = SimGameState.DoesFactionGainReputation(faction);
+            }
+            catch (Exception e) {
+                Logger.LogError(e);
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(SimGameState), "CanFactionBeAllied")]
+    public static class SimGameState_CanFactionBeAllied {
+
+        static void Postfix(SimGameState __instance, ref bool __result, Faction faction) {
+            try {
+                __result = SimGameState.DoesFactionGainReputation(faction) && __instance.GetAllianceBrokenCooldown(faction) <= 0 && !__instance.IsFactionAlly(faction, null) && (float)__instance.GetRawReputation(faction) >= __instance.Constants.Story.AllyReputationThreshold && !__instance.IsFactionEnemy(faction, null);
             }
             catch (Exception e) {
                 Logger.LogError(e);
