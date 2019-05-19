@@ -12,8 +12,8 @@ namespace InnerSphereMap {
                     return JsonConvert.DeserializeObject<Settings>(json);
                 }
             }
-            catch (Exception ex) {
-                Logger.LogError(ex);
+            catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
                 return null;
             }
         }

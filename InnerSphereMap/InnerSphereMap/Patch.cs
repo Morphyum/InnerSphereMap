@@ -13,32 +13,6 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace InnerSphereMap {
-    [HarmonyPatch(typeof(SimGameState), "InitializeDataFromDefs")]
-    public static class SimGameState_InitializeDataFromDefs_Patch {
-
-        static void Prefix(SimGameState __instance) {
-            StarSystemDef starSystemDef = null;
-            try {
-                Dictionary<string, StarSystem> test = new Dictionary<string, StarSystem>();
-                foreach (string id in __instance.DataManager.SystemDefs.Keys) {
-                    starSystemDef = __instance.DataManager.SystemDefs.Get(id);
-                    if (starSystemDef.StartingSystemModes.Contains(__instance.SimGameMode)) {
-                        StarSystem starSystem = new StarSystem(starSystemDef, __instance);
-                        test.Add(starSystemDef.CoreSystemID, starSystem);
-                    }
-                }
-               
-
-               
-                //TODO: SOMESOMETHINGSOMETHING FACTION STORE
-            }
-            catch (Exception e) {
-                Logger.LogLine("STARSYSTEM BROKEN: " + starSystemDef.CoreSystemID);
-                Logger.LogError(e);
-            }
-        }
-    }
-    
 
     [HarmonyPatch(typeof(MainMenu), "Init")]
     public static class MainMenu_Init_Patch {
@@ -47,10 +21,8 @@ namespace InnerSphereMap {
             try {
                 HBSRadioSet topLevelMenu = (HBSRadioSet)ReflectionHelper.GetPrivateField(__instance, "topLevelMenu");
                 topLevelMenu.RadioButtons.Find((HBSButton x) => x.GetText() == "Campaign").gameObject.SetActive(false);
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
-
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -64,10 +36,8 @@ namespace InnerSphereMap {
                 if (__result.Equals("faction_Betrayers")) {
                     __result = "faction_AuriganBetrayers";
                 }
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
-
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -87,13 +57,13 @@ namespace InnerSphereMap {
                     factionHeader.localPosition = new Vector3(factionHeader.localPosition.x, 250, factionHeader.localPosition.z);
                     GameObject restPanel = GameObject.Find("RestorationRepPanel");
                     if (restPanel != null) {
-                        restPanel.active = false;
+                        restPanel.SetActive(false);
                     } 
                     GameObject superParent = GameObject.Find("uixPrfPanl_captainsQuarters_Reputation-Panel_V2(Clone)");
                     if (superParent != null) {
                         GameObject bgfill = superParent.transform.FindRecursive("bgFill").gameObject;
                         if(bgfill != null) {
-                            bgfill.active = false;
+                            bgfill.SetActive(false);
                         } 
                     }
                     GameObject MRBRep = GameObject.Find("uixPrfPanl_AA_MercBoardReputationPanel-MANAGED");
@@ -129,7 +99,7 @@ namespace InnerSphereMap {
                             negative.sizeDelta = new Vector2(64, 0);
                             RectTransform allianceButton = newwidget.transform.FindRecursive("OBJ_allianceButtons").GetComponent<RectTransform>();
                             allianceButton.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
-                            allianceButton.transform.FindRecursive("connectorH").gameObject.active = false;
+                            allianceButton.transform.FindRecursive("connectorH").gameObject.SetActive(false);
                             RectTransform positive = newwidget.transform.FindRecursive("faction_Positivefill_moveThisPositive").GetComponent<RectTransform>();
                             positive.localPosition = new Vector3(0, 0, 0);
                             positive.sizeDelta = new Vector2(64, 0);
@@ -140,13 +110,11 @@ namespace InnerSphereMap {
                         }
                     }
                     foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationBidirectionalWidget-MANAGED")) {
-                        go.active = false;
+                        go.SetActive(false);
                     }
                 }
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
-
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
 
@@ -158,10 +126,8 @@ namespace InnerSphereMap {
                     ___FactionPanelWidgets[___FactionPanelWidgets.Count-1].Init(___simState, Faction.AuriganRestoration, new UnityAction(__instance.RefreshWidgets), false);
 
                 }
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
-
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -347,7 +313,6 @@ namespace InnerSphereMap {
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Circinus, go });
 
-
                 if (GameObject.Find("oberonLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
                     data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/oberonLogo.png");
@@ -361,7 +326,6 @@ namespace InnerSphereMap {
 
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Oberon, go });
-
 
                 if (GameObject.Find("rasalhagueLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -404,7 +368,6 @@ namespace InnerSphereMap {
 
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Ives, go });
-
 
                 if (GameObject.Find("lothianLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -499,7 +462,6 @@ namespace InnerSphereMap {
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Chainelane, go });
 
-
                 Faction leaderclan = __instance.starmap.GetSystemByID("starsystemdef_StranaMechty").System.Owner;
                 if (GameObject.Find("ClansGenericLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -517,7 +479,6 @@ namespace InnerSphereMap {
                     go.GetComponent<Renderer>().material.mainTexture = texture2D2;
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { leaderclan, go });
-
 
                 SimGameState sim = (SimGameState)AccessTools.Field(typeof(Starmap), "sim").GetValue(__instance.starmap);
                 List<Faction> contestingFactions = new List<Faction>() { Faction.ClanBurrock, Faction.ClanCloudCobra, Faction.ClanCoyote,
@@ -555,7 +516,6 @@ namespace InnerSphereMap {
                     }
                     ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { invaderclan, go });
                 }
-
 
                 if (GameObject.Find("DelphiLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
@@ -636,7 +596,7 @@ namespace InnerSphereMap {
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Valkyrate, go });
             }
             catch (Exception e) {
-                Logger.LogError(e);
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -648,9 +608,8 @@ namespace InnerSphereMap {
         static void Postfix(SimGameState __instance, ref bool __result, Faction fac) {
             try {
                 __result = fac != Faction.MercenaryReviewBoard && fac != Faction.NoFaction && fac != Faction.Locals;
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -661,9 +620,8 @@ namespace InnerSphereMap {
         static void Postfix(SimGameState __instance, ref bool __result, Faction faction) {
             try {
                 __result = SimGameState.DoesFactionGainReputation(faction);
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -674,9 +632,8 @@ namespace InnerSphereMap {
         static void Postfix(SimGameState __instance, ref bool __result, Faction faction) {
             try {
                 __result = SimGameState.DoesFactionGainReputation(faction) && __instance.GetAllianceBrokenCooldown(faction) <= 0 && !__instance.IsFactionAlly(faction, null) && (float)__instance.GetRawReputation(faction) >= __instance.Constants.Story.AllyReputationThreshold && !__instance.IsFactionEnemy(faction, null);
-            }
-            catch (Exception e) {
-                Logger.LogError(e);
+            } catch (Exception e) {
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -708,7 +665,7 @@ namespace InnerSphereMap {
                         __result = new Color(0.345f, 0.345f, 0.34f, 1f);
                         break;
                     case Faction.AuriganDirectorate:
-                        __result = __result;
+                        //__result = __result;
                         break;
                     //NOT ON THE MAP
                     case Faction.Nautilus:
@@ -850,7 +807,7 @@ namespace InnerSphereMap {
                 }
             }
             catch (Exception e) {
-                Logger.LogError(e);
+                InnerSphereMap.Logger.Exception(e);
             }
         }
     }
@@ -910,7 +867,7 @@ namespace InnerSphereMap {
                 return instructionList;
             }
             catch (Exception e) {
-                Logger.LogError(e);
+                InnerSphereMap.Logger.Exception(e);
                 return instructions;
             }
         }
@@ -971,7 +928,7 @@ namespace InnerSphereMap {
                 starMapCamera.transform.position = clampedPosition;
             }
             catch (Exception e) {
-                Logger.LogError(e);
+                InnerSphereMap.Logger.Exception(e);
             }
         }
 
@@ -986,7 +943,7 @@ namespace InnerSphereMap {
                     }
                 }
                 catch (Exception e) {
-                    Logger.LogError(e);
+                    InnerSphereMap.Logger.Exception(e);
                 }
             }
         }
@@ -1014,7 +971,7 @@ namespace InnerSphereMap {
                     return false;
                 }
                 catch (Exception e) {
-                    Logger.LogError(e);
+                    InnerSphereMap.Logger.Exception(e);
                     return true;
                 }
             }

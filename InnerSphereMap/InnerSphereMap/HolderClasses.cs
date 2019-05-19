@@ -64,6 +64,8 @@ namespace InnerSphereMap {
 
         public bool use3040Map = false;
 
+        public bool Debug = true;
+        public bool Trace = false;
 
     }
 
