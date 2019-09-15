@@ -27,9 +27,6 @@ namespace InnerSphereMap {
                         test.Add(starSystemDef.CoreSystemID, starSystem);
                     }
                 }
-               
-
-               
                 //TODO: SOMESOMETHINGSOMETHING FACTION STORE
             }
             catch (Exception e) {
@@ -77,8 +74,15 @@ namespace InnerSphereMap {
 
         static void Prefix(ref SGCaptainsQuartersReputationScreen __instance, List<SGFactionReputationWidget> ___FactionPanelWidgets, ref SimGameState ___simState) {
             try {
-                if (!___simState.displayedFactions.Contains(Faction.AuriganDirectorate)) {
-                    ___simState.displayedFactions.Add(Faction.AuriganDirectorate);
+                Settings settings = InnerSphereMap.SETTINGS;
+                if (settings.cheatcodes.Contains("blakejihad")) {
+                    ___simState.SetReputation(Faction.WordOfBlake, 100, StatCollection.StatOperation.Int_Add, null);
+                }
+                if (___simState.displayedFactions.Contains(Faction.WordOfBlake) && !settings.cheatcodes.Contains("blakejihad")) {
+                    ___simState.displayedFactions.Remove(Faction.WordOfBlake);
+                }
+                if (___simState.displayedFactions.Contains(Faction.Locals)) {
+                    ___simState.displayedFactions.Remove(Faction.Locals);
                 }
                 GameObject parent = GameObject.Find("factionsPanel_V2");
                 if (parent != null) {
@@ -486,6 +490,19 @@ namespace InnerSphereMap {
                 }
                 ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.Castile, go });
 
+                if (GameObject.Find("WordOfBlakeLogoMap") == null) {
+                    texture2D2 = new Texture2D(2, 2);
+                    data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/WordOfBlakeLogo.png");
+                    texture2D2.LoadImage(data);
+                    go = UnityEngine.Object.Instantiate(__instance.restorationLogo);
+                    go.GetComponent<Renderer>().material.mainTexture = texture2D2;
+                    go.name = "WordOfBlakeLogoMap";
+                }
+                else {
+                    go = GameObject.Find("WordOfBlakeLogoMap");
+                }
+                ReflectionHelper.InvokePrivateMethode(__instance, "PlaceLogo", new object[] { Faction.WordOfBlake, go });
+
                 if (GameObject.Find("ChainelaneLogoMap") == null) {
                     texture2D2 = new Texture2D(2, 2);
                     data = File.ReadAllBytes($"{InnerSphereMap.ModDirectory}/Logos/ChainelaneLogo.png");
@@ -647,7 +664,11 @@ namespace InnerSphereMap {
 
         static void Postfix(SimGameState __instance, ref bool __result, Faction fac) {
             try {
+                Settings settings = InnerSphereMap.SETTINGS;
                 __result = fac != Faction.MercenaryReviewBoard && fac != Faction.NoFaction && fac != Faction.Locals;
+                if (!settings.cheatcodes.Contains("blakejihad")) {
+                    __result = __result && fac != Faction.WordOfBlake;
+                }
             }
             catch (Exception e) {
                 Logger.LogError(e);
@@ -842,7 +863,10 @@ namespace InnerSphereMap {
                         __result = new Color(settings.ValkyrateRGB[0], settings.ValkyrateRGB[1], settings.ValkyrateRGB[2], 1f);
                         break;
                     case Faction.Axumite:
-                        __result = new Color(1f, 0.4f, 0.6f, 1f);
+                        __result = new Color(settings.AxumiteRGB[0], settings.AxumiteRGB[1], settings.AxumiteRGB[2], 1f);
+                        break;
+                    case Faction.WordOfBlake:
+                        __result = new Color(0.2f, 0f, 0.6f, 1f);
                         break;
                     default:
                         __result = __instance.nofactionColor;
@@ -1000,16 +1024,16 @@ namespace InnerSphereMap {
                     });
                     int index = 0;
                     foreach (Faction faction in activeFactions) {
-                        FactionDef factionDef;
-                        ___simState.FactionsDict.TryGetValue(faction, out factionDef);
-                        ___FactionIcons[index].sprite = factionDef.GetSprite();
-                        HBSTooltip component = ___FactionIcons[index].GetComponent<HBSTooltip>();
-                        if (component != null) {
-                            component.SetDefaultStateData(TooltipUtilities.GetStateDataFromObject(factionDef));
-                        }
-                        ___FactionButtons[index].SetState(ButtonState.Enabled, false);
-                        ___FactionButtons[index].gameObject.SetActive(true);
-                        index++;
+                            FactionDef factionDef;
+                            ___simState.FactionsDict.TryGetValue(faction, out factionDef);
+                            ___FactionIcons[index].sprite = factionDef.GetSprite();
+                            HBSTooltip component = ___FactionIcons[index].GetComponent<HBSTooltip>();
+                            if (component != null) {
+                                component.SetDefaultStateData(TooltipUtilities.GetStateDataFromObject(factionDef));
+                            }
+                            ___FactionButtons[index].SetState(ButtonState.Enabled, false);
+                            ___FactionButtons[index].gameObject.SetActive(true);
+                            index++;
                     }
                     return false;
                 }
@@ -1017,6 +1041,34 @@ namespace InnerSphereMap {
                     Logger.LogError(e);
                     return true;
                 }
+            }
+        }
+
+        [HarmonyPatch(typeof(StarmapSystemRenderer), "SetBlackMarket")]
+        public static class StarmapSystemRenderer_SetBlackMarket_Patch {
+            static void Prefix(StarmapSystemRenderer __instance, ref bool state) {
+                try {
+                    state = false;
+                }
+                catch (Exception e) {
+                    Logger.LogError(e);
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(SGCharacterCreationCareerBackgroundSelectionPanel), "Done")]
+        public class SGCharacterCreationCareerBackgroundSelectionPanel_Done_Patch {
+            // Token: 0x06000004 RID: 4 RVA: 0x000020BC File Offset: 0x000002BC
+            public static bool Prefix(SGCharacterCreationCareerBackgroundSelectionPanel __instance) {
+                Settings settings = InnerSphereMap.SETTINGS;
+                SimGameResultAction simGameResultAction = new SimGameResultAction();
+                simGameResultAction.Type = SimGameResultAction.ActionType.System_ShowSummaryOverlay;
+                simGameResultAction.value = settings.splashTitle;
+                simGameResultAction.additionalValues = new string[1];
+                simGameResultAction.additionalValues[0] = settings.splashText;
+                SimGameState.ApplyEventAction(simGameResultAction, null);
+                __instance.onComplete.Invoke();
+                return false;
             }
         }
     }

@@ -38,8 +38,9 @@ namespace DocsToSystemJSON {
             "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
             "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
             "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
-            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates" };
-    }
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates","WordOfBlake"  };
+            
+        }
         public void newMap() {
             string beginjson = File.ReadAllText(BlueprintPath);
             JObject originalJObject = JObject.Parse(beginjson);
@@ -76,7 +77,17 @@ namespace DocsToSystemJSON {
                 File.WriteAllText(path, newSystemJObject.ToString());
 
                 path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                if (!File.Exists(path) && !((string)newSystemJObject["Description"]["Id"]).Contains("(HBS)")) {
+                if (!File.Exists(path) && !((string)newSystemJObject["Description"]["Id"]).Contains("(HBS)") && !((string)newSystemJObject["Description"]["Id"]).Contains("Alexandria(CC)") && 
+                    !((string)newSystemJObject["Description"]["Id"]).Contains("Itsbur") && 
+                    !((string)newSystemJObject["Description"]["Id"]).Contains("LiusMemory") &&
+                    !((string)newSystemJObject["Description"]["Id"]).Contains("Murris")
+                    && !((string)newSystemJObject["Description"]["Id"]).Contains("Tincalunas")
+                    && !((string)newSystemJObject["Description"]["Id"]).Contains("Untran")
+                    && !((string)newSystemJObject["Description"]["Id"]).Contains("Cruinne")
+                    && !((string)newSystemJObject["Description"]["Id"]).Contains("WyethsGlory")
+                    && !((string)newSystemJObject["Description"]["Id"]).Contains("Zathras")
+                    && !((string)newSystemJObject["Description"]["Id"]).Contains("AmuDarya")
+                    ) {
                     string filepath = OutputPath + "/StarSystems/" + newSystemJObject["Description"]["Id"] + ".json";
                     (new FileInfo(filepath)).Directory.Create();
                     File.WriteAllText(filepath, newSystemJObject.ToString());
@@ -127,13 +138,24 @@ namespace DocsToSystemJSON {
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Cabanatuan.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+            //EXODUS1 Cabanatuan to Columbus
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Cabanatuan.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
             //EXODUS2 Columbus to Salonika
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+            //EXODUS2 Columbus to Salonika
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EpsilonPegasus(Columbus).json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
-
+            //EXODUS3 Salonika to StarClusterA51
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
             //EXODUS3 Salonika to StarClusterA51
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Salonika.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
@@ -143,7 +165,15 @@ namespace DocsToSystemJSON {
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+            //EXODUS4 StarClusterA51 to StarClusterP12
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterA51.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
+            //EXODUS5 StarClusterP12 to Arcadia
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Arcadia(Clan).json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
             //EXODUS5 StarClusterP12 to Arcadia
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP12.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Arcadia(Clan).json"));
@@ -164,11 +194,19 @@ namespace DocsToSystemJSON {
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Gateway.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
-            //SHARKROUTE1 StarClusterP12 to Colleen
+            //SHARKROUTE1 Paxon to Colleen
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Paxon.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+            //SHARKROUTE1 Paxon to Colleen
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Paxon.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
+            //SHARKROUTE2 Colleen to EC821-387D
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
             //SHARKROUTE2 Colleen to EC821-387D
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Colleen.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
@@ -178,7 +216,15 @@ namespace DocsToSystemJSON {
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+            //SHARKROUTE3 EC821-387D to StarClusterP24
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_EC821-387D.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
+            //SHARKROUTE4 StarClusterP24 to Waystation531
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
             //SHARKROUTE4 StarClusterP24 to Waystation531
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_StarClusterP24.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
@@ -188,7 +234,15 @@ namespace DocsToSystemJSON {
             startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
             goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Granada.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
+            //SHARKROUTE5 Waystation531 to Granada
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Waystation531.json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Granada.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
+            //Wobby
+            startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Hope(Randis2988+).json"));
+            goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Baltar.json"));
+            CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
         }
 
         private void CreateJumpPointsToTarget(float startx, float starty, float goalx, float goaly) {
@@ -516,6 +570,9 @@ namespace DocsToSystemJSON {
             else if (((string)systemJObject["ClimateBiome"]).Equals("Water World")) {
                 biomeList.Add("lowlandsCoastal");
                 biomeList.Add("highlandsSpring");
+            }
+            if ((bool)systemJObject["MegaCity"]) {
+                biomeList.Add("urbanHighTech");
             }
             return biomeList;
         }

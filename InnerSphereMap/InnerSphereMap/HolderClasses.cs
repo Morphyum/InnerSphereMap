@@ -64,6 +64,11 @@ namespace InnerSphereMap {
 
         public bool use3040Map = false;
 
+        public string splashTitle = "";
+        public string splashText = "";
+        public List<string> cheatcodes = new List<string>();
+
+        
 
     }
 
