@@ -100,7 +100,7 @@ namespace InnerSphereMap {
                             bgfill.active = false;
                         } 
                     }
-                    GameObject MRBRep = GameObject.Find("uixPrfPanl_AA_MercBoardReputationPanel-MANAGED");
+                    GameObject MRBRep = GameObject.Find("uixPrfPanl_AA_MercBoardReputationPanel");
                     if (MRBRep != null) {
                         MRBRep.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
                         MRBRep.transform.localPosition = new Vector3(0, 390, MRBRep.transform.localPosition.z);
@@ -143,7 +143,7 @@ namespace InnerSphereMap {
                             ___FactionPanelWidgets.Add(newSGWidget);
                         }
                     }
-                    foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationBidirectionalWidget-MANAGED")) {
+                    foreach (GameObject go in parent.FindAllContains("uixPrfWidget_factionReputationBidirectionalWidget")) {
                         go.active = false;
                     }
                 }

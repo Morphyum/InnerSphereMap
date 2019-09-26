@@ -13,29 +13,23 @@
   "Tags": {
     "items": [
       "planet_name_irece",
-      "planet_size_small",
-      "planet_climate_desert",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
+      "planet_size_large",
+      "planet_climate_ice",
       "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_comet",
-      "planet_feature_rings",
       "planet_pop_none",
       "planet_other_megacity",
+      "planet_industry_rich",
       "planet_industry_agriculture",
-      "planet_other_comstar",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
+      "planet_industry_research",
       "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "polarFrozen",
+    "tundraFrozen",
+    "urbanHighTech"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -46,7 +40,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": 10,
+  "JumpDistance": -14,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -148,7 +142,7 @@
     "CAREER",
     "NONE"
   ],
-  "DefaultDifficulty": 6,
+  "DefaultDifficulty": 4,
   "DifficultyList": [],
   "DifficultyModes": [],
   "ContractEmployers": [
