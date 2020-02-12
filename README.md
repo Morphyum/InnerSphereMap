@@ -26,5 +26,10 @@ This mod would not be possible without all the help i got so Special thanks to:
 Downloads can be found on [github](https://github.com/Morphyum/InnerSphereMap/releases).
     
 ## Install and use
+HBS Modloader:
 - Put the InnerSphereMap folder into your mods folder, usually found under: C:\Users\USERNAME\Documents\my games\BattleTech\mods
+
+ModTek:
+- Put the InnerSphereMap folder into your mods folder, usually found under: ...\steamapps\common\BATTLETECH\mods
+
 - Start a new career.
