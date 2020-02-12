@@ -4,33 +4,40 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace DocsToSystemJSON {
+namespace DocsToSystemJSON
+{
 
 
-    class Converter {
+    class Converter
+    {
         private int JumpPointCount = 0;
         private JArray universeDataJArray;
         private string OutputPath;
         private string BlueprintPath;
-        private bool is3040;
+        private int year;
         private bool createJumpPoints;
         private string yearFolder = "/IS3025/";
         private string OriginalData;
         private bool keepKamea;
-        
-        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, bool is3040, string OriginalData, bool keepKamea, bool createJumpPoints) {
+        private string galaxyPath;
+
+        public Converter(string dataPath, string arrayName, string OutputPath, string BlueprintPath, int year, string OriginalData, bool keepKamea, bool createJumpPoints, string galaxyPath) {
 
             JObject jobject = JObject.Parse(File.ReadAllText(dataPath));
             this.universeDataJArray = (JArray)jobject[arrayName];
             this.OutputPath = OutputPath;
             this.BlueprintPath = BlueprintPath;
-            this.is3040 = is3040;
+            this.year = year;
             this.OriginalData = OriginalData;
             this.keepKamea = keepKamea;
             this.createJumpPoints = createJumpPoints;
-            if (is3040) {
+            if (year == 1) {
                 this.yearFolder = "/IS3040/";
             }
+            if (year == 2) {
+                this.yearFolder = "/IS3063/";
+            }
+            this.galaxyPath = galaxyPath;
         }
 
         public static List<string> getAllFactions() {
@@ -39,9 +46,87 @@ namespace DocsToSystemJSON {
             "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
             "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
             "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates","WordOfBlake"  };
-            
+
         }
+
+
+        public void makeGalaxyJson() {
+            string beginjson = File.ReadAllText(galaxyPath);
+            JObject modJson = JObject.Parse(beginjson);
+            JObject BonusAttackResources = JObject.FromObject(modJson["Settings"]["BonusAttackResources"]);
+            BonusAttackResources = new JObject();
+            foreach (string faction in getAllFactions()) {
+                BonusAttackResources.Add(faction, 100);
+            }
+            modJson["Settings"]["BonusAttackResources"] = BonusAttackResources;
+
+            JObject BonusDefensiveResources = JObject.FromObject(modJson["Settings"]["BonusDefensiveResources"]);
+            BonusDefensiveResources = new JObject();
+            foreach (string faction in getAllFactions()) {
+                BonusDefensiveResources.Add(faction, -200);
+            }
+            modJson["Settings"]["BonusDefensiveResources"] = BonusDefensiveResources;
+
+            JObject LogoNames = JObject.FromObject(modJson["Settings"]["LogoNames"]);
+            LogoNames = new JObject();
+            foreach (string faction in getAllFactions()) {
+                LogoNames.Add(faction, faction.ToLower() + "Logo");
+            }
+            modJson["Settings"]["LogoNames"] = LogoNames;
+
+            JObject FactionNames = JObject.FromObject(modJson["Settings"]["FactionNames"]);
+            FactionNames = new JObject();
+            foreach (string faction in getAllFactions()) {
+                FactionNames.Add(faction, "FULL NAME NEEDED");
+            }
+            modJson["Settings"]["FactionNames"] = FactionNames;
+
+            JObject FactionStrings = JObject.FromObject(modJson["Settings"]["FactionStrings"]);
+            FactionStrings = new JObject();
+            foreach (string faction in getAllFactions()) {
+                FactionStrings.Add(faction, faction);
+            }
+            modJson["Settings"]["FactionStrings"] = FactionStrings;
+
+            JArray IncludedFactions = JArray.FromObject(modJson["Settings"]["IncludedFactions"]);
+            IncludedFactions = new JArray();
+            foreach (string faction in getAllFactions()) {
+                IncludedFactions.Add(faction);
+            }
+            modJson["Settings"]["IncludedFactions"] = IncludedFactions;
+
+            JObject FactionShopItems = JObject.FromObject(modJson["Settings"]["FactionShopItems"]);
+            FactionShopItems = new JObject();
+            foreach (string faction in getAllFactions()) {
+                FactionShopItems.Add(faction, "itemCollection_faction_" + faction);
+            }
+            modJson["Settings"]["FactionShopItems"] = FactionShopItems;
+
+            JObject FactionShops = JObject.FromObject(modJson["Settings"]["FactionShops"]);
+            FactionShops = new JObject();
+            foreach (string faction in getAllFactions()) {
+                FactionShops.Add(faction, "itemCollection_minor_" + faction);
+            }
+            modJson["Settings"]["FactionShops"] = FactionShops;
+
+            JObject FactionTags = JObject.FromObject(modJson["Settings"]["FactionTags"]);
+            FactionTags = new JObject();
+            foreach (string faction in getAllFactions()) {
+                FactionTags.Add(faction, "planet_faction_" + faction.ToString().ToLower());
+            }
+            modJson["Settings"]["FactionTags"] = FactionTags;
+
+            File.WriteAllText(galaxyPath, modJson.ToString());
+        }
+
         public void newMap() {
+
+
+
+
+
+
+
             string beginjson = File.ReadAllText(BlueprintPath);
             JObject originalJObject = JObject.Parse(beginjson);
             Random rand = new Random();
@@ -51,8 +136,12 @@ namespace DocsToSystemJSON {
                 if ((bool)systemJObject["Randomize"]) {
                     systemJObject = randomizeSystem(originalSystemJObject, rand);
                 }
-                newSystemJObject["Description"]["Id"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
-                newSystemJObject["CoreSystemID"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty);
+                newSystemJObject["Description"]["Id"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty)
+                    .Replace("#", string.Empty).Replace("ó", "o").Replace("á", "a").Replace("ì", "i").Replace("å", "a").Replace("é", "e").Replace("ä", "ae").Replace("ü", "ue")
+                    .Replace("ö", "oe");
+                newSystemJObject["CoreSystemID"] = "starsystemdef_" + ((string)systemJObject["PlanetName"]).Replace(" ", string.Empty).Replace("'", string.Empty)
+                    .Replace("#", string.Empty).Replace("ó", "o").Replace("á", "a").Replace("ì", "i").Replace("å", "a").Replace("é", "e").Replace("ä", "ae").Replace("ü", "ue")
+                    .Replace("ö", "oe");
                 newSystemJObject["Description"]["Name"] = systemJObject["PlanetName"];
                 newSystemJObject["Description"]["Details"] = systemJObject["Description"];
                 newSystemJObject["Tags"]["items"] = JArray.FromObject(createTags(systemJObject));
@@ -64,21 +153,25 @@ namespace DocsToSystemJSON {
                 newSystemJObject["StarType"] = systemJObject["StarType"];
                 newSystemJObject["Position"]["x"] = systemJObject["x"];
                 newSystemJObject["Position"]["y"] = systemJObject["y"];
-                newSystemJObject["Owner"] = getOwner(systemJObject);
-                newSystemJObject["ContractEmployers"] = JArray.FromObject(getEmployees((string)newSystemJObject["Owner"]));
-                newSystemJObject["ContractTargets"] = JArray.FromObject(getTargets((string)newSystemJObject["Owner"]));
+                newSystemJObject["ownerID"] = getOwner(systemJObject);
+                newSystemJObject["factionShopOwnerID"] = getOwner(systemJObject);
+                newSystemJObject["contractEmployerIDs"] = JArray.FromObject(getEmployees((string)newSystemJObject["ownerID"]));
+                newSystemJObject["contractTargetIDs"] = JArray.FromObject(getTargets((string)newSystemJObject["ownerID"]));
                 newSystemJObject["SupportedBiomes"] = JArray.FromObject(getBiomes(systemJObject));
                 string year = "Faction3025";
-                if (is3040) {
+                if (this.year == 1) {
                     year = "Faction3040";
+                }
+                if (this.year == 2) {
+                    year = "Faction3063";
                 }
                 string path = OutputPath + yearFolder + systemJObject[year] + "/" + newSystemJObject["Description"]["Id"] + ".json";
                 (new FileInfo(path)).Directory.Create();
                 File.WriteAllText(path, newSystemJObject.ToString());
 
                 path = OriginalData + "/" + newSystemJObject["Description"]["Id"] + ".json";
-                if (!File.Exists(path) && !((string)newSystemJObject["Description"]["Id"]).Contains("(HBS)") && !((string)newSystemJObject["Description"]["Id"]).Contains("Alexandria(CC)") && 
-                    !((string)newSystemJObject["Description"]["Id"]).Contains("Itsbur") && 
+                if (!File.Exists(path) && !((string)newSystemJObject["Description"]["Id"]).Contains("(HBS)") && !((string)newSystemJObject["Description"]["Id"]).Contains("Alexandria(CC)") &&
+                    !((string)newSystemJObject["Description"]["Id"]).Contains("Itsbur") &&
                     !((string)newSystemJObject["Description"]["Id"]).Contains("LiusMemory") &&
                     !((string)newSystemJObject["Description"]["Id"]).Contains("Murris")
                     && !((string)newSystemJObject["Description"]["Id"]).Contains("Tincalunas")
@@ -100,12 +193,11 @@ namespace DocsToSystemJSON {
                 CreateJumpPoints();
             }
         }
-
         private void CreateJumpPoints() {
             DirectoryInfo d = new DirectoryInfo(OriginalData);
 
             //Axumite Viroflay to Thala
-            JObject startJOBject = JObject.Parse(File.ReadAllText(OutputPath+ "/StarSystems/starsystemdef_Viroflay.json"));
+            JObject startJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Viroflay.json"));
             JObject goalJOBject = JObject.Parse(File.ReadAllText(OutputPath + "/StarSystems/starsystemdef_Thala.json"));
             CreateJumpPointsToTarget((float)startJOBject["Position"]["x"], (float)startJOBject["Position"]["y"], (float)goalJOBject["Position"]["x"], (float)goalJOBject["Position"]["y"]);
 
@@ -246,9 +338,9 @@ namespace DocsToSystemJSON {
         }
 
         private void CreateJumpPointsToTarget(float startx, float starty, float goalx, float goaly) {
-            
+
             Random rand = new Random();
-            while(GetDistanceInLY(startx, starty, goalx, goaly) > 50) {
+            while (GetDistanceInLY(startx, starty, goalx, goaly) > 50) {
                 JumpPointCount++;
                 bool created = false;
                 while (!created) {
@@ -266,11 +358,11 @@ namespace DocsToSystemJSON {
                         string beginjson = File.ReadAllText(BlueprintPath);
                         JObject originalJObject = JObject.Parse(beginjson);
                         JObject newSystemJObject = originalJObject;
-                        newSystemJObject["Description"]["Id"] = 
+                        newSystemJObject["Description"]["Id"] =
                         newSystemJObject["CoreSystemID"] = "starsystemdef_JumpPoint" + JumpPointCount;
                         newSystemJObject["Description"]["Name"] = "Jump Point" + JumpPointCount;
                         newSystemJObject["Description"]["Details"] = "This system contains near to nothing. It's whole purpose is to refill your jumpdrive.";
-                        newSystemJObject["Tags"]["items"] = JArray.FromObject(new List<string>{ "planet_size_small", "planet_climate_lunar", "planet_pop_none", "planet_name_"+ "Jump Point" + JumpPointCount });
+                        newSystemJObject["Tags"]["items"] = JArray.FromObject(new List<string> { "planet_size_small", "planet_climate_lunar", "planet_pop_none", "planet_name_" + "Jump Point" + JumpPointCount });
                         newSystemJObject["FuelingStation"] = false;
                         newSystemJObject["JumpDistance"] = 30;
                         newSystemJObject["DefaultDifficulty"] = 1;
@@ -279,9 +371,9 @@ namespace DocsToSystemJSON {
                         newSystemJObject["StarType"] = "M";
                         newSystemJObject["Position"]["x"] = newx;
                         newSystemJObject["Position"]["y"] = newy;
-                        newSystemJObject["Owner"] = "NoFaction";
-                        newSystemJObject["ContractEmployers"] = JArray.FromObject(getEmployees("NoFaction"));
-                        newSystemJObject["ContractTargets"] = JArray.FromObject(getTargets("NoFaction"));
+                        newSystemJObject["ownerID"] = "NoFaction";
+                        newSystemJObject["contractEmployerIDs"] = JArray.FromObject(getEmployees("NoFaction"));
+                        newSystemJObject["contractTargetIDs"] = JArray.FromObject(getTargets("NoFaction"));
                         newSystemJObject["SupportedBiomes"] = JArray.FromObject(new List<string> { "lunarVacuum", "martianVacuum" });
                         string path = OutputPath + yearFolder + "JumpPoints" + "/" + newSystemJObject["Description"]["Id"] + ".json";
                         (new FileInfo(path)).Directory.Create();
@@ -308,8 +400,8 @@ namespace DocsToSystemJSON {
             DirectoryInfo d = new DirectoryInfo(OriginalData);
             foreach (var file in d.GetFiles("*.json")) {
                 JObject systemJOBject = JObject.Parse(File.ReadAllText(file.FullName));
-                if (((string)systemJOBject["Owner"]).Equals("AuriganDirectorate")) {
-                    systemJOBject["Owner"] = "AuriganRestoration";
+                if (((string)systemJOBject["ownerID"]).Equals("AuriganDirectorate")) {
+                    systemJOBject["ownerID"] = "AuriganRestoration";
                     JArray tags = JArray.FromObject(systemJOBject["Tags"]["items"]);
                     List<string> stringtags = tags.ToObject<List<string>>();
                     stringtags.Remove("planet_faction_directorate");
@@ -491,6 +583,7 @@ namespace DocsToSystemJSON {
             systemJObject["Gasgiant"] = randomBool(rand);
             systemJObject["PlanetRings"] = randomBool(rand);
             systemJObject["MegaCity"] = randomBool(rand);
+            systemJObject["CapitalSystem"] = randomBool(rand);
             systemJObject["RechargeStation"] = randomBool(rand);
             systemJObject["Recreation"] = randomBool(rand);
             systemJObject["Mining"] = randomBool(rand);
@@ -576,16 +669,12 @@ namespace DocsToSystemJSON {
             }
             return biomeList;
         }
-
-        public string getOwner(JObject systemJObject) {
-            string year = "Faction3025";
-            if (is3040) {
-                year = "Faction3040";
-            }
-            switch ((string)systemJObject[year]) {
+        public string getOwner(string year, JObject systemJObject) {
+            string faction = (string)systemJObject[year];
+            switch (faction) {
                 case "Lyran Commonwealth":
-                    return "Steiner";
                 case "Federated Commonwealth (LC)":
+                case "Lyran Alliance":
                     return "Steiner";
                 case "Free Worlds League":
                     return "Marik";
@@ -638,6 +727,7 @@ namespace DocsToSystemJSON {
                 case "Clan Fire Mandrill":
                     return "ClanFireMandrill";
                 case "Clan Ghost Bear":
+                case "Ghost Bear Dominion":
                     return "ClanGhostBear";
                 case "Clan Goliath Scorpion":
                     return "ClanGoliathScorpion";
@@ -673,18 +763,53 @@ namespace DocsToSystemJSON {
                     return "Tortuga";
                 case "Greater Valkyrate":
                     return "Valkyrate";
+                case "Rim Collection":
+                    return "Rim";
+                case "Word of Blake":
+                    return "WordOfBlake";
+                case "Independent":
+                //3063
+                case "Chaos March":
+                case "Terracap Confederation":
+                case "New Colony Region":
+                case "Styk Commonality":
+                case "Saiph Triumvirate":
+                case "Sarna Supremacy":
+                case "Interstellar Expeditions":
+                //3040
+                case "Clan Blood Spirit":
+                //3025
+                case "Morgraine's Valkyrate":
+                    return "Locals";
                 case "Abandoned":
-                    return "NoFaction";
                 case "Undiscovered":
                     return "NoFaction";
+                case "Disputed":
+                    return getOwner("Faction3040", systemJObject);
                 default:
-                    return "Locals";
+                    Console.WriteLine(faction);
+                    throw new Exception();
+
             }
+        }
+        public string getOwner(JObject systemJObject) {
+            string year = "Faction3025";
+            if (this.year == 1) {
+                year = "Faction3040";
+            }
+            if (this.year == 2) {
+                year = "Faction3063";
+            }
+            return getOwner(year, systemJObject);
+
         }
         public List<string> createTags(JObject systemJObject) {
             string year = "Faction3025";
-            if (is3040) {
+            if (this.year == 1) {
                 year = "Faction3040";
+            }
+            if (this.year == 2) {
+                year = "Faction3063";
             }
             List<string> tagList = new List<string>();
 

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Ronel",
     "Name": "Ronel",
-    "Details": "NOT DONE",
+    "Details": "Ronel is an inhospitable world located close to its parent star. Though it possesses significant mineral wealth, the planet was never settled properly. Instead mining companies assigns workers to multi-year contracts on the world and then rotates them off-world",
     "Icon": ""
   },
   "Position": {
@@ -14,32 +14,20 @@
     "items": [
       "planet_name_ronel",
       "planet_size_small",
-      "planet_climate_arctic",
+      "planet_climate_mars",
       "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_feature_gasgiant",
-      "planet_pop_large",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_other_storms",
+      "planet_pop_small",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_ruins",
       "planet_faction_liao"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "polarFrozen",
-    "tundraFrozen",
-    "urbanHighTech"
+    "martianVacuum",
+    "badlandsParched"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -49,67 +37,67 @@
     "items": [],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -1,
-  "Owner": "Liao",
+  "FuelingStation": false,
+  "JumpDistance": 19,
+  "ownerID": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
   "SystemInfluence": [
     {
-      "Faction": "NoFaction",
+      "factionID": "NoFaction",
       "Influence": 0
     },
     {
-      "Faction": "Davion",
+      "factionID": "Davion",
       "Influence": 0
     },
     {
-      "Faction": "Liao",
+      "factionID": "Liao",
       "Influence": 0
     },
     {
-      "Faction": "Kurita",
+      "factionID": "Kurita",
       "Influence": 0
     },
     {
-      "Faction": "Marik",
+      "factionID": "Marik",
       "Influence": 0
     },
     {
-      "Faction": "Steiner",
+      "factionID": "Steiner",
       "Influence": 0
     },
     {
-      "Faction": "TaurianConcordat",
+      "factionID": "TaurianConcordat",
       "Influence": 0
     },
     {
-      "Faction": "MagistracyOfCanopus",
+      "factionID": "MagistracyOfCanopus",
       "Influence": 0
     },
     {
-      "Faction": "AuriganDirectorate",
+      "factionID": "AuriganDirectorate",
       "Influence": 0
     },
     {
-      "Faction": "AuriganRestoration",
+      "factionID": "AuriganRestoration",
       "Influence": 0
     },
     {
-      "Faction": "ComStar",
+      "factionID": "ComStar",
       "Influence": 0
     },
     {
-      "Faction": "MercenaryReviewBoard",
+      "factionID": "MercenaryReviewBoard",
       "Influence": 0
     },
     {
-      "Faction": "AuriganPirates",
+      "factionID": "AuriganPirates",
       "Influence": 0
     },
     {
-      "Faction": "AuriganMercenaries",
+      "factionID": "AuriganMercenaries",
       "Influence": 0
     }
   ],
@@ -130,7 +118,7 @@
     }
   ],
   "StarPosition": null,
-  "StarType": "M",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,
@@ -138,10 +126,10 @@
   "MaxContractOverride": 0,
   "SystemShopItems": [
     "itemCollection_major_TaurianConcordat",
-    "itemCollection_shop_industrial",
-    "itemCollection_shop_research"
+    "itemCollection_shop_chemicalsProgression",
+    "itemCollection_shop_miningProgression"
   ],
-  "FactionShopOwner": "TaurianConcordat",
+  "factionShopOwnerID": "Liao",
   "FactionShopItems": [
     "itemCollection_faction_TaurianConcordat"
   ],
@@ -152,14 +140,14 @@
     "CAREER",
     "NONE"
   ],
-  "DefaultDifficulty": 2,
+  "DefaultDifficulty": 3,
   "DifficultyList": [],
   "DifficultyModes": [],
-  "ContractEmployers": [
+  "contractEmployerIDs": [
     "Liao",
     "Locals"
   ],
-  "ContractTargets": [
+  "contractTargetIDs": [
     "Steiner",
     "Marik",
     "Kurita",
@@ -205,6 +193,7 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates"
+    "AuriganPirates",
+    "WordOfBlake"
   ]
 }

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Komephoros",
     "Name": "Komephoros",
-    "Details": "NOT DONE",
+    "Details": "Komephoros was settled by colonists looking to take advantage of the vast mineral resources they suspected were underneath the glaciers of this frozen world. The first wave of settlers vanished without a trace however, when decades later their dropships were discovered under one of the massive glaciers frozen within ice.",
     "Icon": ""
   },
   "Position": {
@@ -13,29 +13,25 @@
   "Tags": {
     "items": [
       "planet_name_komephoros",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_fungus",
+      "planet_size_medium",
+      "planet_climate_ice",
+      "planet_other_volcanic",
       "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
       "planet_pop_medium",
       "planet_other_megacity",
       "planet_civ_innersphere",
-      "planet_industry_poor",
       "planet_industry_recreation",
+      "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
       "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
+    "polarFrozen",
+    "tundraFrozen",
     "urbanHighTech"
   ],
   "MapRequiredTags": {
@@ -47,66 +43,66 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 10,
-  "Owner": "Kurita",
+  "JumpDistance": 22,
+  "ownerID": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
   "SystemInfluence": [
     {
-      "Faction": "NoFaction",
+      "factionID": "NoFaction",
       "Influence": 0
     },
     {
-      "Faction": "Davion",
+      "factionID": "Davion",
       "Influence": 0
     },
     {
-      "Faction": "Liao",
+      "factionID": "Liao",
       "Influence": 0
     },
     {
-      "Faction": "Kurita",
+      "factionID": "Kurita",
       "Influence": 0
     },
     {
-      "Faction": "Marik",
+      "factionID": "Marik",
       "Influence": 0
     },
     {
-      "Faction": "Steiner",
+      "factionID": "Steiner",
       "Influence": 0
     },
     {
-      "Faction": "TaurianConcordat",
+      "factionID": "TaurianConcordat",
       "Influence": 0
     },
     {
-      "Faction": "MagistracyOfCanopus",
+      "factionID": "MagistracyOfCanopus",
       "Influence": 0
     },
     {
-      "Faction": "AuriganDirectorate",
+      "factionID": "AuriganDirectorate",
       "Influence": 0
     },
     {
-      "Faction": "AuriganRestoration",
+      "factionID": "AuriganRestoration",
       "Influence": 0
     },
     {
-      "Faction": "ComStar",
+      "factionID": "ComStar",
       "Influence": 0
     },
     {
-      "Faction": "MercenaryReviewBoard",
+      "factionID": "MercenaryReviewBoard",
       "Influence": 0
     },
     {
-      "Faction": "AuriganPirates",
+      "factionID": "AuriganPirates",
       "Influence": 0
     },
     {
-      "Faction": "AuriganMercenaries",
+      "factionID": "AuriganMercenaries",
       "Influence": 0
     }
   ],
@@ -135,10 +131,10 @@
   "MaxContractOverride": 0,
   "SystemShopItems": [
     "itemCollection_major_TaurianConcordat",
-    "itemCollection_shop_industrial",
-    "itemCollection_shop_research"
+    "itemCollection_shop_chemicalsProgression",
+    "itemCollection_shop_miningProgression"
   ],
-  "FactionShopOwner": "TaurianConcordat",
+  "factionShopOwnerID": "Kurita",
   "FactionShopItems": [
     "itemCollection_faction_TaurianConcordat"
   ],
@@ -149,14 +145,14 @@
     "CAREER",
     "NONE"
   ],
-  "DefaultDifficulty": 1,
+  "DefaultDifficulty": 5,
   "DifficultyList": [],
   "DifficultyModes": [],
-  "ContractEmployers": [
+  "contractEmployerIDs": [
     "Kurita",
     "Locals"
   ],
-  "ContractTargets": [
+  "contractTargetIDs": [
     "Steiner",
     "Marik",
     "Davion",
@@ -202,6 +198,7 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates"
+    "AuriganPirates",
+    "WordOfBlake"
   ]
 }
