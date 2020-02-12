@@ -1,0 +1,24 @@
+{
+  "Travel" : {
+      "DefaultSystemTravelTime" : 4,
+      "DefaultFuelTime" : 3,
+      "FuelStationFuelTime" : 3,
+      "MinMapX" : 0,
+      "MaxMapX" : 0,
+      "MinMapY" : 0,
+      "MaxMapY" : 0,
+      "MaxJumpDistance" : 50,
+	  "StarSystemPrefix" : "starsystemdef_",
+	  "HabitablePlanetTags" : [
+		"planet_climate_arctic",
+		"planet_climate_arid",
+		"planet_climate_desert",
+		"planet_climate_rocky",
+		"planet_climate_terran",
+		"planet_climate_tropical",
+		"planet_climate_water"
+	  ],
+      "RestrictionTags": [],
+      "RestrictionTagMessages": []
+   }
+}

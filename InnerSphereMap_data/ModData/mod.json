@@ -2,7 +2,7 @@
     "Name": "InnerSphereMap",
     "Enabled": true,
 	"Hidden": true,
-    "Version": "1.2",
+    "Version": "2.0",
     "Description": "Map of the Inner Sphere",
     "Author": "Morphyum",
     "Website": "https://github.com/Morphyum/InnerSphereMap",
@@ -11,6 +11,12 @@
     "DependsOn": [
     ],
     "ConflictsWith": [
+    ],
+	"DataAddendumEntries":[ 
+        { 
+            "name":"BattleTech.FactionEnumeration",
+            "path":"faction.json"
+        }
     ],
     "Manifest": [
         {
