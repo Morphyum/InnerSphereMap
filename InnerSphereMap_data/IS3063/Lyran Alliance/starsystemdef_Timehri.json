@@ -22,7 +22,7 @@
       "planet_industry_recreation",
       "planet_industry_mining",
       "planet_other_comstar",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,6 +200,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

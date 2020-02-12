@@ -24,7 +24,7 @@
       "planet_industry_recreation",
       "planet_other_comstar",
       "planet_other_hub",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -198,6 +198,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

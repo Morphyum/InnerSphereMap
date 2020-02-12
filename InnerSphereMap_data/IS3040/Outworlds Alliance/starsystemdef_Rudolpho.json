@@ -17,7 +17,7 @@
       "planet_climate_terran",
       "planet_pop_small",
       "planet_industry_mining",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,7 +194,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

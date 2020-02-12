@@ -24,7 +24,7 @@
       "planet_industry_mining",
       "planet_other_pirate",
       "planet_other_prison",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

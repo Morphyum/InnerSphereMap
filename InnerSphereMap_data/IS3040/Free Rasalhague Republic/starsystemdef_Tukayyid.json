@@ -23,7 +23,7 @@
       "planet_industry_recreation",
       "planet_industry_agriculture",
       "planet_other_comstar",
-      "planet_faction_rasalhague"
+      "Rasalhague"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,7 +200,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

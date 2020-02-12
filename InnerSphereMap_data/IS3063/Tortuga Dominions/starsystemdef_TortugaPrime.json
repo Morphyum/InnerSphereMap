@@ -23,7 +23,7 @@
       "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_manufacturing",
-      "planet_faction_tortuga"
+      "Tortuga"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,6 +201,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

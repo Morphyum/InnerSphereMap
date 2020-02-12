@@ -19,7 +19,7 @@
       "planet_other_storms",
       "planet_pop_medium",
       "planet_industry_mining",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,7 +191,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

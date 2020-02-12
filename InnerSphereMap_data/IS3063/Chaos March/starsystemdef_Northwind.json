@@ -30,7 +30,7 @@
       "planet_other_comstar",
       "planet_other_starleague",
       "planet_other_hub",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -209,6 +209,7 @@
     "NoFaction",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

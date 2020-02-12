@@ -33,7 +33,7 @@
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
       "planet_ruins",
-      "planet_faction_clansgeneric"
+      "ClansGeneric"
     ],
     "tagSetSourceFile": ""
   },
@@ -212,6 +212,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

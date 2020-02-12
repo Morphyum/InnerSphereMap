@@ -26,7 +26,7 @@
       "planet_industry_mining",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_faction_magistracyofcanopus"
+      "MagistracyOfCanopus"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,6 +200,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

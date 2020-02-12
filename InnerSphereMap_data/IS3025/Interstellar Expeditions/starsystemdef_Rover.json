@@ -19,7 +19,7 @@
       "planet_civ_primitive",
       "planet_industry_poor",
       "planet_other_starleague",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

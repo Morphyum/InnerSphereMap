@@ -32,7 +32,7 @@
       "planet_other_starleague",
       "planet_other_hub",
       "planet_other_newcolony",
-      "planet_faction_clansmokejaguar"
+      "ClanSmokeJaguar"
     ],
     "tagSetSourceFile": ""
   },
@@ -209,7 +209,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

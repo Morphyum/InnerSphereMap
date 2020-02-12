@@ -6,8 +6,8 @@
     "Icon": ""
   },
   "Position": {
-    "x": -569.096,
-    "y": 1347.532,
+    "x": -527.096,
+    "y": 1316.532,
     "z": 0
   },
   "Tags": {
@@ -185,7 +185,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

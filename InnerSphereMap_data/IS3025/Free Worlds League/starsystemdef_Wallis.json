@@ -28,7 +28,7 @@
       "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,7 +200,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

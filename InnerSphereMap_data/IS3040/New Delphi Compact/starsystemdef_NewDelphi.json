@@ -18,7 +18,7 @@
       "planet_feature_moon03",
       "planet_other_moon",
       "planet_pop_medium",
-      "planet_faction_delphi"
+      "Delphi"
     ],
     "tagSetSourceFile": ""
   },
@@ -189,7 +189,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

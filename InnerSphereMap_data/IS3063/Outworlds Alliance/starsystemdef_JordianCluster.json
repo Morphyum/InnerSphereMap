@@ -17,7 +17,7 @@
       "planet_climate_lunar",
       "planet_feature_gasgiant",
       "planet_pop_none",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,6 +190,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -20,7 +20,7 @@
       "planet_pop_none",
       "planet_industry_poor",
       "planet_ruins",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,7 +191,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

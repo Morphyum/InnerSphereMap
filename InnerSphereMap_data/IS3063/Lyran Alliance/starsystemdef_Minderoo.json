@@ -18,7 +18,7 @@
       "planet_pop_medium",
       "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,6 +190,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -24,7 +24,7 @@
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_industry_manufacturing",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -202,6 +202,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

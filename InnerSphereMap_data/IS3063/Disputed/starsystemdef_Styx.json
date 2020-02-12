@@ -28,7 +28,7 @@
       "planet_industry_mining",
       "planet_industry_manufacturing",
       "planet_ruins",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,6 +201,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

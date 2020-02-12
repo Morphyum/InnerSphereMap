@@ -28,7 +28,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_boreholes",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -207,6 +207,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

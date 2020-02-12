@@ -21,7 +21,7 @@
       "planet_pop_none",
       "planet_other_megacity",
       "planet_industry_mining",
-      "planet_faction_magistracyofcanopus"
+      "MagistracyOfCanopus"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,6 +195,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

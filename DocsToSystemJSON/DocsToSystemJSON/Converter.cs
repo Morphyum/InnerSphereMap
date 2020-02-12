@@ -40,13 +40,29 @@ namespace DocsToSystemJSON
             this.galaxyPath = galaxyPath;
         }
 
-        public static List<string> getAllFactions() {
-            return new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
+        public List<string> getAllFactions() {
+            if (this.year == 0) {
+                return new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
             "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
             "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
             "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
-            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates","WordOfBlake"  };
-
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates"  };
+            }
+            if (this.year == 1) {
+                return new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
+            "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
+            "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
+            "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates" };
+            }
+            if (this.year == 2) {
+                return new List<string>() { "Steiner","Marik","Kurita","Davion","Liao","AuriganRestoration","ComStar",
+            "MagistracyOfCanopus","TaurianConcordat","Outworld","Marian","Oberon","Lothian","Circinus", "Illyrian","Rasalhague","Ives","Axumite",
+            "Castile","Chainelane","ClanBurrock","ClanCloudCobra","ClanCoyote","ClanDiamondShark","ClanFireMandrill","ClanGhostBear","ClanGoliathScorpion",
+            "ClanHellsHorses","ClanIceHellion","ClanJadeFalcon","ClanNovaCat","ClansGeneric","ClanSmokeJaguar","ClanSnowRaven","ClanStarAdder",
+            "ClanSteelViper","ClanWolf","Delphi","Elysia","Hanse","JarnFolk","Tortuga","Valkyrate","NoFaction","Locals", "AuriganDirectorate", "AuriganPirates","WordOfBlake","Rim"  };
+            }
+            return null;
         }
 
 
@@ -1104,8 +1120,8 @@ namespace DocsToSystemJSON
 
             //FactionTag
             string owner = getOwner(systemJObject);
-            tagList.Add(GetFactionTag((Faction)Enum.Parse(typeof(Faction), owner)));
-            if ((Faction)Enum.Parse(typeof(Faction), owner) == Faction.NoFaction) {
+            tagList.Add(owner);
+            if (owner.Equals("NoFaction")) {
                 tagList.Add("planet_other_empty");
             }
             return tagList;
@@ -1121,7 +1137,7 @@ namespace DocsToSystemJSON
             return employees;
         }
 
-        public static List<string> getTargets(string faction) {
+        public List<string> getTargets(string faction) {
             List<string> targets = getAllFactions();
             if (faction.Equals("NoFaction")) {
                 return targets;

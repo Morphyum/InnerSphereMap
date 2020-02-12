@@ -18,7 +18,7 @@
       "planet_pop_none",
       "planet_civ_primitive",
       "planet_industry_rich",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,6 +191,7 @@
     "NoFaction",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

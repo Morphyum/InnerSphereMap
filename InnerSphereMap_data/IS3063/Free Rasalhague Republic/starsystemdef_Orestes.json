@@ -28,7 +28,7 @@
       "planet_industry_aquaculture",
       "planet_industry_manufacturing",
       "planet_other_alienvegetation",
-      "planet_faction_rasalhague"
+      "Rasalhague"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,6 +201,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

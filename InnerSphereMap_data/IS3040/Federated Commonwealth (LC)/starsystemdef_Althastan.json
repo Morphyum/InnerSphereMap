@@ -18,7 +18,7 @@
       "planet_feature_comet",
       "planet_pop_small",
       "planet_industry_recreation",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

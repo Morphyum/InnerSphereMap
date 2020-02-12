@@ -21,7 +21,7 @@
       "planet_civ_innersphere",
       "planet_industry_mining",
       "planet_ruins",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,6 +193,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

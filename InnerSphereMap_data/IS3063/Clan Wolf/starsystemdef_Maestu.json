@@ -21,7 +21,7 @@
       "planet_industry_recreation",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_faction_clanwolf"
+      "ClanWolf"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,6 +193,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -20,7 +20,7 @@
       "planet_pop_none",
       "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,6 +192,7 @@
     "NoFaction",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

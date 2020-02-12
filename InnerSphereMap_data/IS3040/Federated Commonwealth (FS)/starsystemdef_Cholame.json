@@ -18,7 +18,7 @@
       "planet_pop_small",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,7 +190,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

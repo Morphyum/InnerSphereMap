@@ -24,7 +24,7 @@
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_other_starleague",
-      "planet_faction_clancloudcobra"
+      "ClanCloudCobra"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,7 +201,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

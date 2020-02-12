@@ -22,7 +22,7 @@
       "planet_other_blackmarket",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,7 +194,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

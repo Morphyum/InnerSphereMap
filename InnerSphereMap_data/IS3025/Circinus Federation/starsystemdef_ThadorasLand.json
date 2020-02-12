@@ -22,7 +22,7 @@
       "planet_industry_mining",
       "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_faction_circinus"
+      "Circinus"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,7 +194,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

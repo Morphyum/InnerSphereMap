@@ -23,7 +23,7 @@
       "planet_industry_agriculture",
       "planet_other_blackmarket",
       "planet_other_prison",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,7 +200,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

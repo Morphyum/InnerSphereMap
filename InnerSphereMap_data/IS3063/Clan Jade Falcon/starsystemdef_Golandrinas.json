@@ -32,7 +32,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_alienvegetation",
-      "planet_faction_clanjadefalcon"
+      "ClanJadeFalcon"
     ],
     "tagSetSourceFile": ""
   },
@@ -206,6 +206,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -16,7 +16,7 @@
       "planet_size_large",
       "planet_climate_arid",
       "planet_pop_none",
-      "planet_faction_clanhellshorses"
+      "ClanHellsHorses"
     ],
     "tagSetSourceFile": ""
   },
@@ -189,6 +189,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

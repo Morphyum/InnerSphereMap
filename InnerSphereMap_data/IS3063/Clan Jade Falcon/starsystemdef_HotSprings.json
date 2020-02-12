@@ -37,7 +37,7 @@
       "planet_other_boreholes",
       "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_faction_clanjadefalcon"
+      "ClanJadeFalcon"
     ],
     "tagSetSourceFile": ""
   },
@@ -216,6 +216,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

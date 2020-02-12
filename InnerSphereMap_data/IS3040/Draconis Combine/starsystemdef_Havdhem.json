@@ -23,7 +23,7 @@
       "planet_industry_mining",
       "planet_other_alienvegetation",
       "planet_other_prison",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

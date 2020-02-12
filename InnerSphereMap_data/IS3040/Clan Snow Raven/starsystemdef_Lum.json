@@ -27,7 +27,7 @@
       "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_starleague",
-      "planet_faction_clansnowraven"
+      "ClanSnowRaven"
     ],
     "tagSetSourceFile": ""
   },
@@ -204,7 +204,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

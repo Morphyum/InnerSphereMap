@@ -30,7 +30,7 @@
       "planet_industry_aquaculture",
       "planet_industry_manufacturing",
       "planet_other_comstar",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -203,7 +203,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

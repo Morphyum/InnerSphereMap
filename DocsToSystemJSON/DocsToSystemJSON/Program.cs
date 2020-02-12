@@ -7,7 +7,7 @@
         static string originalData = "D:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets/data/starsystem";
         static string galaxyPath = "C:/Users/morph/Source/Repos/InnerSphereMap/DocsToSystemJSON/DocsToSystemJSON/mod.json";
         static void Main(string[] args) {
-            Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, 0, originalData, true, true, galaxyPath);
+            Converter converter = new Converter(dataPath, arrayName, outputPath, BlueprintPath, 2, originalData, true, true, galaxyPath);
             converter.newMap();
         }
     }

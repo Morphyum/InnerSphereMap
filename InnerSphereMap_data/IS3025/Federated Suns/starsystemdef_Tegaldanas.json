@@ -19,7 +19,7 @@
       "planet_other_moon",
       "planet_pop_medium",
       "planet_industry_agriculture",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,7 +190,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

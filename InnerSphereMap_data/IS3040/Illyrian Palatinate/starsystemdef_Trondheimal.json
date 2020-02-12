@@ -21,7 +21,7 @@
       "planet_pop_medium",
       "planet_industry_mining",
       "planet_industry_manufacturing",
-      "planet_faction_illyrian"
+      "Illyrian"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,7 +193,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

@@ -28,7 +28,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_starleague",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,7 +201,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

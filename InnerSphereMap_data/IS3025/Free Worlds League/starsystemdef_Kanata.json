@@ -33,7 +33,7 @@
       "planet_other_hub",
       "planet_other_boreholes",
       "planet_ruins",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -206,7 +206,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

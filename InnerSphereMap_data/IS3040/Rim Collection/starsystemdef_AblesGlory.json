@@ -23,7 +23,7 @@
       "planet_industry_mining",
       "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_faction_rim"
+      "Rim"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

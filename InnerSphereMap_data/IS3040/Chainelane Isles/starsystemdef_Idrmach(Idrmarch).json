@@ -20,7 +20,7 @@
       "planet_pop_small",
       "planet_industry_recreation",
       "planet_other_pirate",
-      "planet_faction_chainelane"
+      "Chainelane"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,7 +197,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

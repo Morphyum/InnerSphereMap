@@ -20,7 +20,7 @@
       "planet_pop_medium",
       "planet_industry_recreation",
       "planet_industry_agriculture",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,7 +197,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

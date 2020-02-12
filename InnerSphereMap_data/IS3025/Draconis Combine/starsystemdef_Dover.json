@@ -30,7 +30,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_blackmarket",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -208,7 +208,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

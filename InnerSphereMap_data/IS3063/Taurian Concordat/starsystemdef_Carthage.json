@@ -18,7 +18,7 @@
       "planet_other_mudflats",
       "planet_pop_none",
       "planet_other_newcolony",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

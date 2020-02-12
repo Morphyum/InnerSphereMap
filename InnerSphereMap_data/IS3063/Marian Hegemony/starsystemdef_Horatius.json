@@ -23,7 +23,7 @@
       "planet_industry_manufacturing",
       "planet_other_hub",
       "planet_other_blackmarket",
-      "planet_faction_marian"
+      "Marian"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,6 +201,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

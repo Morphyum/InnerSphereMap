@@ -20,7 +20,7 @@
       "planet_pop_large",
       "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,7 +197,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

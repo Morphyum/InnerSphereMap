@@ -24,7 +24,7 @@
       "planet_other_comstar",
       "planet_other_starleague",
       "planet_other_hub",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,7 +197,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

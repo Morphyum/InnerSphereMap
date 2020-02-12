@@ -24,7 +24,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_alienvegetation",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "NoFaction",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

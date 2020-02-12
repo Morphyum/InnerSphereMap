@@ -21,7 +21,7 @@
       "planet_civ_innersphere",
       "planet_industry_rich",
       "planet_industry_agriculture",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -198,7 +198,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

@@ -24,7 +24,7 @@
       "planet_industry_research",
       "planet_other_starleague",
       "planet_other_blackmarket",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

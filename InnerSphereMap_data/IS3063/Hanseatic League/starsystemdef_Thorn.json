@@ -20,7 +20,7 @@
       "planet_pop_small",
       "planet_industry_rich",
       "planet_industry_mining",
-      "planet_faction_hanse"
+      "Hanse"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,6 +193,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

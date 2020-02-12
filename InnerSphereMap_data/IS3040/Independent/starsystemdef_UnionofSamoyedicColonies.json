@@ -27,7 +27,7 @@
       "planet_industry_agriculture",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -198,7 +198,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

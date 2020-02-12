@@ -17,7 +17,7 @@
       "planet_climate_mars",
       "planet_pop_medium",
       "planet_civ_innersphere",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,6 +190,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

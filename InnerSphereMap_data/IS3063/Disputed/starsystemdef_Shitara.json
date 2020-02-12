@@ -25,7 +25,7 @@
       "planet_industry_recreation",
       "planet_industry_manufacturing",
       "planet_other_hub",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -198,6 +198,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -20,7 +20,7 @@
       "planet_other_moon",
       "planet_pop_small",
       "planet_industry_poor",
-      "planet_faction_elysia"
+      "Elysia"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,7 +191,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

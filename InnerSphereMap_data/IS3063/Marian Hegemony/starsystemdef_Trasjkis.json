@@ -20,7 +20,7 @@
       "planet_pop_small",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_faction_marian"
+      "Marian"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,6 +193,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

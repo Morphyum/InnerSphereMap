@@ -23,7 +23,7 @@
       "planet_industry_mining",
       "planet_industry_agriculture",
       "planet_industry_research",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,7 +201,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

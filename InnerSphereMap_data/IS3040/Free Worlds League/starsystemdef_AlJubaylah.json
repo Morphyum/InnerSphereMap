@@ -19,7 +19,7 @@
       "planet_civ_innersphere",
       "planet_industry_mining",
       "planet_industry_agriculture",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

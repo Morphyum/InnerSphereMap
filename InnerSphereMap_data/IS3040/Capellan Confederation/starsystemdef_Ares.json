@@ -26,7 +26,7 @@
       "planet_other_comstar",
       "planet_other_hub",
       "planet_other_blackmarket",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -198,7 +198,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

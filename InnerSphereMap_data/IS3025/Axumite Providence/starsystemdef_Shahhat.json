@@ -20,7 +20,7 @@
       "planet_pop_small",
       "planet_civ_primitive",
       "planet_industry_mining",
-      "planet_faction_axumite"
+      "Axumite"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,7 +197,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

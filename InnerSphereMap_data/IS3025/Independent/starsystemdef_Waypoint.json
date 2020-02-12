@@ -21,7 +21,7 @@
       "planet_industry_poor",
       "planet_industry_agriculture",
       "planet_other_comstar",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,7 +193,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

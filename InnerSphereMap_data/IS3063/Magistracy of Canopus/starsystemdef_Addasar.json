@@ -21,7 +21,7 @@
       "planet_industry_recreation",
       "planet_industry_research",
       "planet_other_alienvegetation",
-      "planet_faction_magistracyofcanopus"
+      "MagistracyOfCanopus"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,6 +194,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

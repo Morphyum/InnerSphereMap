@@ -21,7 +21,7 @@
       "planet_civ_primitive",
       "planet_industry_rich",
       "planet_ruins",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,6 +194,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

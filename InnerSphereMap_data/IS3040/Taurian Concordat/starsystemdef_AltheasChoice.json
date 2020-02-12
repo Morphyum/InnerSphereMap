@@ -19,7 +19,7 @@
       "planet_industry_poor",
       "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,7 +190,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

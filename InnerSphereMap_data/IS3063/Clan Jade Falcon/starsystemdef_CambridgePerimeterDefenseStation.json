@@ -18,7 +18,7 @@
       "planet_pop_none",
       "planet_civ_primitive",
       "planet_other_alienvegetation",
-      "planet_faction_clanjadefalcon"
+      "ClanJadeFalcon"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,6 +191,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

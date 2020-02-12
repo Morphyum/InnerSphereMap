@@ -22,7 +22,7 @@
       "planet_industry_poor",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_nofaction",
+      "NoFaction",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -192,7 +192,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

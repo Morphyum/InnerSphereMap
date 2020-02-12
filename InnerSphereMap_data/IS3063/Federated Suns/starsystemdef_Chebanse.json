@@ -23,7 +23,7 @@
       "planet_industry_recreation",
       "planet_industry_mining",
       "planet_ruins",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

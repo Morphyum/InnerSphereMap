@@ -27,7 +27,7 @@
       "planet_industry_agriculture",
       "planet_industry_manufacturing",
       "planet_other_hub",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -205,7 +205,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

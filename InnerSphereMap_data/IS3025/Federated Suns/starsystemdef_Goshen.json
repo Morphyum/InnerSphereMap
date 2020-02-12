@@ -32,7 +32,7 @@
       "planet_industry_manufacturing",
       "planet_other_hub",
       "planet_ruins",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -205,7 +205,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

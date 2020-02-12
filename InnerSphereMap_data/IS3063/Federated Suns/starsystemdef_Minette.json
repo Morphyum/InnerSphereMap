@@ -27,7 +27,7 @@
       "planet_industry_research",
       "planet_industry_manufacturing",
       "planet_other_starleague",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,6 +200,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -23,7 +23,7 @@
       "planet_industry_aquaculture",
       "planet_other_comstar",
       "planet_other_boreholes",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

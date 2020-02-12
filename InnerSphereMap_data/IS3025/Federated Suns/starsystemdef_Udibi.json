@@ -21,7 +21,7 @@
       "planet_pop_small",
       "planet_industry_agriculture",
       "planet_industry_research",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,7 +192,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

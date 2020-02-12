@@ -28,7 +28,7 @@
       "planet_other_starleague",
       "planet_other_hub",
       "planet_ruins",
-      "planet_faction_rasalhague"
+      "Rasalhague"
     ],
     "tagSetSourceFile": ""
   },
@@ -206,7 +206,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

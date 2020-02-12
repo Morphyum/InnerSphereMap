@@ -19,7 +19,7 @@
       "planet_civ_innersphere",
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,6 +197,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

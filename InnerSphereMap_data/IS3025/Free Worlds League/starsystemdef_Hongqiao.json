@@ -24,7 +24,7 @@
       "planet_industry_recreation",
       "planet_industry_mining",
       "planet_other_boreholes",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

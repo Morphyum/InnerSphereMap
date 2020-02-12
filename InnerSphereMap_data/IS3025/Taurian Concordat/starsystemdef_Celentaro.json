@@ -23,7 +23,7 @@
       "planet_industry_agriculture",
       "planet_industry_manufacturing",
       "planet_other_blackmarket",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,7 +200,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

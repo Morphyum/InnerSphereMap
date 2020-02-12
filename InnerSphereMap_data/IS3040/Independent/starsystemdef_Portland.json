@@ -19,7 +19,7 @@
       "planet_other_moon",
       "planet_pop_small",
       "planet_industry_agriculture",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

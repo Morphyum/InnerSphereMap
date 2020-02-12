@@ -6,8 +6,8 @@
     "Icon": ""
   },
   "Position": {
-    "x": -349.271,
-    "y": 1560.323,
+    "x": -367.271,
+    "y": 1583.323,
     "z": 0
   },
   "Tags": {
@@ -186,6 +186,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

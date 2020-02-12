@@ -27,7 +27,7 @@
       "planet_industry_aquaculture",
       "planet_industry_manufacturing",
       "planet_other_hub",
-      "planet_faction_wordofblake"
+      "WordOfBlake"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,6 +200,7 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates"
+    "AuriganPirates",
+    "Rim"
   ]
 }

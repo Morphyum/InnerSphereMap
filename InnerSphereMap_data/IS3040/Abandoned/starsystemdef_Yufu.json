@@ -23,7 +23,7 @@
       "planet_civ_primitive",
       "planet_other_alienvegetation",
       "planet_ruins",
-      "planet_faction_nofaction",
+      "NoFaction",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -194,7 +194,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

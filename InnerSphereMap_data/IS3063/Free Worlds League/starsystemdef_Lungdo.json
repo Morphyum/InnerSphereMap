@@ -25,7 +25,7 @@
       "planet_industry_recreation",
       "planet_industry_mining",
       "planet_other_starleague",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -203,6 +203,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

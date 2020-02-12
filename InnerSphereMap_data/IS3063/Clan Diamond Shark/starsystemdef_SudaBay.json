@@ -18,7 +18,7 @@
       "planet_pop_none",
       "planet_civ_primitive",
       "planet_ruins",
-      "planet_faction_clandiamondshark"
+      "ClanDiamondShark"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

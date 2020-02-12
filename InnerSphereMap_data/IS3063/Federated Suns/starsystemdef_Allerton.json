@@ -28,7 +28,7 @@
       "planet_industry_manufacturing",
       "planet_other_alienvegetation",
       "planet_ruins",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,6 +201,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

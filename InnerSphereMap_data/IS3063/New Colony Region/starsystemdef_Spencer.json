@@ -21,7 +21,7 @@
       "planet_other_megacity",
       "planet_industry_aquaculture",
       "planet_other_blackmarket",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,6 +200,7 @@
     "NoFaction",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

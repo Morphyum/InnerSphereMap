@@ -20,7 +20,7 @@
       "planet_pop_medium",
       "planet_industry_rich",
       "planet_industry_mining",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,7 +192,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

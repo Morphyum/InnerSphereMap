@@ -24,7 +24,7 @@
       "planet_industry_mining",
       "planet_industry_manufacturing",
       "planet_other_alienvegetation",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

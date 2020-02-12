@@ -23,7 +23,7 @@
       "planet_industry_mining",
       "planet_other_boreholes",
       "planet_ruins",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

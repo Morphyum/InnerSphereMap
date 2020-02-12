@@ -24,7 +24,7 @@
       "planet_industry_agriculture",
       "planet_industry_aquaculture",
       "planet_other_blackmarket",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

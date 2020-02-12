@@ -28,7 +28,7 @@
       "planet_other_comstar",
       "planet_other_alienvegetation",
       "planet_other_boreholes",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,7 +201,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

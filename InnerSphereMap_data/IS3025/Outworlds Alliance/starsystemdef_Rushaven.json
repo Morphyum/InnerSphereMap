@@ -18,7 +18,7 @@
       "planet_other_mudflats",
       "planet_pop_medium",
       "planet_industry_mining",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

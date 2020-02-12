@@ -20,7 +20,7 @@
       "planet_other_moon",
       "planet_pop_none",
       "planet_civ_innersphere",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,7 +191,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

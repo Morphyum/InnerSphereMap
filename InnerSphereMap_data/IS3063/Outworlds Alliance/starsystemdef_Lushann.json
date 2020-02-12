@@ -21,7 +21,7 @@
       "planet_industry_rich",
       "planet_industry_recreation",
       "planet_industry_mining",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,6 +194,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

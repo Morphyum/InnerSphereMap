@@ -28,7 +28,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_boreholes",
-      "planet_faction_ives"
+      "Ives"
     ],
     "tagSetSourceFile": ""
   },
@@ -206,7 +206,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

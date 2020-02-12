@@ -20,7 +20,7 @@
       "planet_pop_medium",
       "planet_industry_recreation",
       "planet_other_blackmarket",
-      "planet_faction_castile"
+      "Castile"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,7 +192,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

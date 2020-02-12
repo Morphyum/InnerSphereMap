@@ -23,7 +23,7 @@
       "planet_other_comstar",
       "planet_other_starleague",
       "planet_ruins",
-      "planet_faction_comstar"
+      "ComStar"
     ],
     "tagSetSourceFile": ""
   },
@@ -200,7 +200,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

@@ -20,7 +20,7 @@
       "planet_pop_small",
       "planet_civ_innersphere",
       "planet_other_starleague",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,7 +191,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

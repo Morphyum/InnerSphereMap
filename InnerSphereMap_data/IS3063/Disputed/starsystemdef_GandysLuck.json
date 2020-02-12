@@ -19,7 +19,7 @@
       "planet_pop_medium",
       "planet_civ_innersphere",
       "planet_industry_agriculture",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,6 +192,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

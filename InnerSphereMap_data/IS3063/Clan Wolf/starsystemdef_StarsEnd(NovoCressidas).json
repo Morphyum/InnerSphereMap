@@ -23,7 +23,7 @@
       "planet_industry_rich",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_clanwolf"
+      "ClanWolf"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

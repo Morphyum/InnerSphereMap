@@ -16,7 +16,7 @@
       "planet_size_large",
       "planet_climate_arid",
       "planet_pop_none",
-      "planet_faction_nofaction",
+      "NoFaction",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -187,7 +187,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

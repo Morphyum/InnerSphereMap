@@ -20,7 +20,7 @@
       "planet_pop_large",
       "planet_civ_innersphere",
       "planet_industry_agriculture",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,7 +192,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

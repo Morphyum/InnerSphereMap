@@ -22,7 +22,7 @@
       "planet_industry_poor",
       "planet_other_comstar",
       "planet_other_newcolony",
-      "planet_faction_wordofblake"
+      "WordOfBlake"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,6 +195,7 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates"
+    "AuriganPirates",
+    "Rim"
   ]
 }

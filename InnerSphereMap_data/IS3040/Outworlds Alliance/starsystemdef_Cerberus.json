@@ -37,7 +37,7 @@
       "planet_other_blackmarket",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_outworld"
+      "Outworld"
     ],
     "tagSetSourceFile": ""
   },
@@ -215,7 +215,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

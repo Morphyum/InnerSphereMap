@@ -31,7 +31,7 @@
       "planet_other_blackmarket",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_magistracyofcanopus"
+      "MagistracyOfCanopus"
     ],
     "tagSetSourceFile": ""
   },
@@ -208,7 +208,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

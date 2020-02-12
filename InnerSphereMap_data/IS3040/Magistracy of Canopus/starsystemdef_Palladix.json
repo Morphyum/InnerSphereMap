@@ -20,7 +20,7 @@
       "planet_other_moon",
       "planet_pop_medium",
       "planet_industry_mining",
-      "planet_faction_magistracyofcanopus"
+      "MagistracyOfCanopus"
     ],
     "tagSetSourceFile": ""
   },
@@ -197,7 +197,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

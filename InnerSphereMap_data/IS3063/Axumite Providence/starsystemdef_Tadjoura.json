@@ -21,7 +21,7 @@
       "planet_pop_small",
       "planet_industry_poor",
       "planet_industry_agriculture",
-      "planet_faction_axumite"
+      "Axumite"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,6 +194,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -30,7 +30,7 @@
       "planet_other_comstar",
       "planet_other_hub",
       "planet_other_alienvegetation",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -202,7 +202,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

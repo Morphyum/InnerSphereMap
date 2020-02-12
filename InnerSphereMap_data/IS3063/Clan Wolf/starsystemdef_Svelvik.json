@@ -27,7 +27,7 @@
       "planet_other_comstar",
       "planet_other_alienvegetation",
       "planet_other_blackmarket",
-      "planet_faction_clanwolf"
+      "ClanWolf"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,6 +201,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

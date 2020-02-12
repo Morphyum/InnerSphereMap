@@ -20,7 +20,7 @@
       "planet_pop_none",
       "planet_civ_innersphere",
       "planet_industry_rich",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,7 +192,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

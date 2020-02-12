@@ -20,7 +20,7 @@
       "planet_feature_comet",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_faction_nofaction",
+      "NoFaction",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -192,6 +192,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

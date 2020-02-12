@@ -19,7 +19,7 @@
       "planet_industry_mining",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_faction_taurianconcordat"
+      "TaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,6 +192,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

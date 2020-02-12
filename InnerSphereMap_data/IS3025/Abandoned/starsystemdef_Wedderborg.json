@@ -17,7 +17,7 @@
       "planet_climate_desert",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_faction_nofaction",
+      "NoFaction",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -187,7 +187,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

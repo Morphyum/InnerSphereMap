@@ -33,7 +33,7 @@
       "planet_other_starleague",
       "planet_other_hub",
       "planet_other_newcolony",
-      "planet_faction_clanjadefalcon"
+      "ClanJadeFalcon"
     ],
     "tagSetSourceFile": ""
   },
@@ -211,7 +211,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

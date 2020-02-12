@@ -17,7 +17,7 @@
       "planet_climate_lunar",
       "planet_pop_none",
       "planet_civ_primitive",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -190,6 +190,7 @@
     "NoFaction",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

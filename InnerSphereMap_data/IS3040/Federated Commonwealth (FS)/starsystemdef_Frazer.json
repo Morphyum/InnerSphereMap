@@ -23,7 +23,7 @@
       "planet_industry_mining",
       "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -194,7 +194,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

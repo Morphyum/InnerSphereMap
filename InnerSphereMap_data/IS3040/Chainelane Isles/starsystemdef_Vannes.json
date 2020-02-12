@@ -24,7 +24,7 @@
       "planet_other_starleague",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_chainelane"
+      "Chainelane"
     ],
     "tagSetSourceFile": ""
   },
@@ -201,7 +201,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

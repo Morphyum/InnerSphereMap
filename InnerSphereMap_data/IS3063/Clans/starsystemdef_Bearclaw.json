@@ -30,7 +30,7 @@
       "planet_other_starleague",
       "planet_other_hub",
       "planet_other_boreholes",
-      "planet_faction_clansgeneric"
+      "ClansGeneric"
     ],
     "tagSetSourceFile": ""
   },
@@ -208,6 +208,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

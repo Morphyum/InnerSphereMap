@@ -22,7 +22,7 @@
       "planet_civ_primitive",
       "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_faction_elysia"
+      "Elysia"
     ],
     "tagSetSourceFile": ""
   },
@@ -199,7 +199,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

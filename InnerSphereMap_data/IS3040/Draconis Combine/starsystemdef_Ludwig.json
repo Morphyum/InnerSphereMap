@@ -26,7 +26,7 @@
       "planet_industry_agriculture",
       "planet_industry_manufacturing",
       "planet_other_hub",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -198,7 +198,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

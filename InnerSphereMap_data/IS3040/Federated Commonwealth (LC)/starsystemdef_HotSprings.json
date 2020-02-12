@@ -37,7 +37,7 @@
       "planet_other_boreholes",
       "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -215,7 +215,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

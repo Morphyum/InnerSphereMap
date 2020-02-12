@@ -20,7 +20,7 @@
       "planet_industry_mining",
       "planet_other_alienvegetation",
       "planet_other_newcolony",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -192,7 +192,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

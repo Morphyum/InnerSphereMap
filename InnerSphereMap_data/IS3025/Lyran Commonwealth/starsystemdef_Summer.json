@@ -27,7 +27,7 @@
       "planet_other_starleague",
       "planet_other_hub",
       "planet_other_boreholes",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -199,7 +199,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

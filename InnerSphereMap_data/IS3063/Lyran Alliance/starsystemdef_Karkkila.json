@@ -25,7 +25,7 @@
       "planet_industry_aquaculture",
       "planet_other_starleague",
       "planet_other_boreholes",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -204,6 +204,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

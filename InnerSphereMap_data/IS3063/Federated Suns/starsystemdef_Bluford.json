@@ -23,7 +23,7 @@
       "planet_industry_recreation",
       "planet_industry_agriculture",
       "planet_other_blackmarket",
-      "planet_faction_davion"
+      "Davion"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,6 +195,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

@@ -33,7 +33,7 @@
       "planet_other_hub",
       "planet_other_blackmarket",
       "planet_other_boreholes",
-      "planet_faction_kurita"
+      "Kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -205,7 +205,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

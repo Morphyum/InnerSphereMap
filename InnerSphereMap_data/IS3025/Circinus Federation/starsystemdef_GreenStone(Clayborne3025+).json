@@ -17,7 +17,7 @@
       "planet_climate_rocky",
       "planet_pop_none",
       "planet_industry_mining",
-      "planet_faction_circinus"
+      "Circinus"
     ],
     "tagSetSourceFile": ""
   },
@@ -189,7 +189,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

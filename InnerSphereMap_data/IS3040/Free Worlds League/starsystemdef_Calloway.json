@@ -31,7 +31,7 @@
       "planet_other_blackmarket",
       "planet_other_boreholes",
       "planet_other_pirate",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -209,7 +209,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

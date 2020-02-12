@@ -27,7 +27,7 @@
       "planet_industry_manufacturing",
       "planet_other_comstar",
       "planet_other_starleague",
-      "planet_faction_nofaction",
+      "NoFaction",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -198,7 +198,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

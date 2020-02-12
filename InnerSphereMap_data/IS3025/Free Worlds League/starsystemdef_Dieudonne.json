@@ -25,7 +25,7 @@
       "planet_industry_aquaculture",
       "planet_other_starleague",
       "planet_other_alienvegetation",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -203,7 +203,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

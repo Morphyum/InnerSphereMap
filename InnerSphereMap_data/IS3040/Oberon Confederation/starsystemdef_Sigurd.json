@@ -21,7 +21,7 @@
       "planet_industry_mining",
       "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_faction_oberon"
+      "Oberon"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,7 +193,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

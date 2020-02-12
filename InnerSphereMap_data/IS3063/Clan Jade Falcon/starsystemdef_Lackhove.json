@@ -23,7 +23,7 @@
       "planet_civ_innersphere",
       "planet_industry_rich",
       "planet_industry_agriculture",
-      "planet_faction_clanjadefalcon"
+      "ClanJadeFalcon"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,6 +196,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

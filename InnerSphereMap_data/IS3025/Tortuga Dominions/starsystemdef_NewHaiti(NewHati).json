@@ -23,7 +23,7 @@
       "planet_industry_aquaculture",
       "planet_other_blackmarket",
       "planet_other_pirate",
-      "planet_faction_tortuga"
+      "Tortuga"
     ],
     "tagSetSourceFile": ""
   },
@@ -195,7 +195,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

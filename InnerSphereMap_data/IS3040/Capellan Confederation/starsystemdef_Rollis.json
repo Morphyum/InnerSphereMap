@@ -21,7 +21,7 @@
       "planet_industry_poor",
       "planet_other_starleague",
       "planet_other_pirate",
-      "planet_faction_liao"
+      "Liao"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,7 +193,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

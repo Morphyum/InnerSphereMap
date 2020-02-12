@@ -21,7 +21,7 @@
       "planet_pop_none",
       "planet_industry_poor",
       "planet_other_newcolony",
-      "planet_faction_locals"
+      "Locals"
     ],
     "tagSetSourceFile": ""
   },
@@ -193,7 +193,6 @@
     "Valkyrate",
     "NoFaction",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

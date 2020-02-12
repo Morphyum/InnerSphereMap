@@ -18,7 +18,7 @@
       "planet_pop_large",
       "planet_civ_innersphere",
       "planet_industry_mining",
-      "planet_faction_clanghostbear"
+      "ClanGhostBear"
     ],
     "tagSetSourceFile": ""
   },
@@ -191,6 +191,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }

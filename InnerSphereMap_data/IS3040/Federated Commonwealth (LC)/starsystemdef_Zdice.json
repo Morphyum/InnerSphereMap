@@ -19,7 +19,7 @@
       "planet_civ_innersphere",
       "planet_industry_recreation",
       "planet_industry_research",
-      "planet_faction_steiner"
+      "Steiner"
     ],
     "tagSetSourceFile": ""
   },
@@ -196,7 +196,6 @@
     "NoFaction",
     "Locals",
     "AuriganDirectorate",
-    "AuriganPirates",
-    "WordOfBlake"
+    "AuriganPirates"
   ]
 }

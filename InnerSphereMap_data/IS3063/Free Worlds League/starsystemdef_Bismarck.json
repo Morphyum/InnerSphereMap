@@ -27,7 +27,7 @@
       "planet_industry_agriculture",
       "planet_other_alienvegetation",
       "planet_other_pirate",
-      "planet_faction_marik"
+      "Marik"
     ],
     "tagSetSourceFile": ""
   },
@@ -199,6 +199,7 @@
     "Locals",
     "AuriganDirectorate",
     "AuriganPirates",
-    "WordOfBlake"
+    "WordOfBlake",
+    "Rim"
   ]
 }
