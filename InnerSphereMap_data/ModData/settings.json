@@ -149,6 +149,11 @@
 			"factionName" : "Valkyrate",
 			"logoImage" : "ValkyrateLogo"
 		
+		},
+		{
+			"factionName" : "Rim",
+			"logoImage" : "RimLogo"
+		
 		}
 	]
 }

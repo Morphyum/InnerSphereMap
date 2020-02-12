@@ -1902,6 +1902,29 @@
 			"IsCareerStartingDisplayFaction" : true,
 			"IsStoryStartingDisplayFaction" : true,
 			"HasAIBehaviorVariableScope" : false
+		},
+		{
+			"ID" : 5050,
+			"Name" : "Rim",
+			"FriendlyName" : "Rim",
+			"Description" : "",
+			"FactionDefID" : "faction_Rim",
+			"IsRealFaction" : true,
+			"IsGreatHouse" : false,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : false,
+			"DoesGainReputation" : true,
+			"CanAlly" : true,
+			"IsProceduralContractFaction" : true,
+			"IsPossibleNeutralToAllFaction" : true,
+			"IsPossibleHostileToAllFaction" : true,
+			"IsPossibleAllyFallbackFaction" : true,
+			"IsCareerScoringFaction" : true,
+			"IsCareerIgnoredContractTarget" : false,
+			"IsCareerStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : true,
+			"HasAIBehaviorVariableScope" : false
 		}
 	]
 }

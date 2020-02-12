@@ -52,7 +52,8 @@
         "Locals",
         "AuriganDirectorate",
         "AuriganPirates",
-        "WordOfBlake"
+        "WordOfBlake",
+        "Rim"
     ],
     "Presence": 0.1,
     "DefaultCombatLeaderCastDefId": "castDef_Valkyrate",

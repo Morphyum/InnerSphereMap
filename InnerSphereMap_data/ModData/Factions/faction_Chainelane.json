@@ -53,13 +53,14 @@
         "Locals",
         "AuriganDirectorate",
         "AuriganPirates",
-        "WordOfBlake"
+        "WordOfBlake",
+        "Rim"
     ],
     "Presence": 0.1,
     "factionID": "Chainelane",
     "icon": "uixTxrLogo_Chainelane",
     "factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
-    "factionMapColor": "rgba(50,205,50,1.0)",
+    "factionMapColor": "rgba(127, 63, 191,1.0)",
     "DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
     "DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
     "HeraldryDefId": "heraldrydef_Chainelane",

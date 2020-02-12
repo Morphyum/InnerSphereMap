@@ -52,7 +52,8 @@
         "Locals",
         "AuriganDirectorate",
         "AuriganPirates",
-        "Valkyrate"
+        "Valkyrate",
+        "Rim"
     ],
     "Presence": 0.1,
     "DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
@@ -80,5 +81,5 @@
     "factionID": "WordOfBlake",
     "icon": "uixTxrLogo_WordOfBlake",
     "factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
-    "factionMapColor": "rgba(51,153,255,1.0)"
+    "factionMapColor": "rgba(51, 25, 76,1.0)"
 }
