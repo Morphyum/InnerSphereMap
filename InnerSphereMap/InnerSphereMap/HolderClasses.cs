@@ -17,11 +17,8 @@ namespace InnerSphereMap {
         public float MapRightViewBuffer;
         public float MapBottomViewBuffer;
 
-        public bool use3040Map = false;
-
         public string splashTitle = "";
         public string splashText = "";
-        public List<string> cheatcodes = new List<string>();
 
         public List<LogoItem> logos = new List<LogoItem>();
         public bool reducedClanLogos = true;    
